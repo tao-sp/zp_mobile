@@ -24,13 +24,13 @@
     <!-- windows phone 点击无高光 -->
     <meta name="msapplication-tap-highlight" content="no">
     <!--<meta name="hotcss" content="design-width=750,max-width=640,initial-dpr=1"/>-->
-    <meta name="hotcss" content="design-width=750,max-width=640"/>
+    <meta name="hotcss" content="design-width=750,max-width=640,initial-dpr=1"/>
     <link rel="stylesheet" href="../../assets/css/styleHome.css">
     <link rel="stylesheet" href="../../assets/plugins/swiper-4.2.0/swiper-4.2.0.min.css">
     <script type="text/javascript" src="../../assets/plugins/hotcss/hotcss.js"></script>
     <script type="text/javascript" src="../../assets/plugins/jquery-1.10.1.min.js"></script>
 </head>
-<body>
+<body class="font_yahei">
 
     <!--头部开始-->
     <div class="home-header">
@@ -128,12 +128,73 @@
     <!--关于我们开始-->
     <div class="about-us">
         <img class="about-us-title" src="../../assets/images/home/about-us.png">
+        <div class="about-us-content">
+            深圳市中鹏教育科技股份有限公司（前身为深圳市中鹏资讯有限公司）成立于2003年8月1日，于2016年4月8日完成股份制改造，变更为股份有限公司，<span>并于2017年2月成功在国内“新三板”挂牌，股票简称：中鹏教育，股票代码：870813。</span>
+        </div>
+        <div class="about-us-content">
+            公司自2008年9月进军职业教育市场成立以来，以聚焦设计艺术职业教育为主业，兼顾成人继续教育、企业管理人员培训业务。历经多年发展，目前已经成为华南地区职业教育一线品牌，全国设计艺术职业教育知名品牌。
+        </div>
+
+        <ul class="clearfix">
+            <li>
+                <b>企业定位</b>
+                科技型、平台型职业教育企业
+            </li>
+            <li>
+                <b>办学理念</b>
+                技术改变命运、学习成就梦想
+            </li>
+            <li>
+                <b>团队准则</b>
+                真诚、团结、包容、务实、进步
+            </li>
+            <li>
+                <b>办学目标</b>
+                学员（设计师）职业发展终生服务平台
+            </li>
+        </ul>
+
+        <a class="view-more">查看更多</a>
 
     </div>
     <!--关于我们结束-->
 
+    <!--三分钟了解中鹏开始-->
+    <div class="understand-zp">
+        <img class="understand-zp-bg" src="../../assets/images/home/understand-zp.png">
+        <img class="understand-zp-play" src="../../assets/images/home/play.png">
+        <div class="video-box">
+            <video src="http://gw.zhongpenggufen.com/uploads/video/abc.mp4" controls="controls"></video>
+        </div>
+    </div>
+
+    <!--三分钟了解中鹏结束-->
+
+    <!--底部开始-->
+    <ul class="home-footer">
+        <li>
+            <img src="../../assets/images/home/attention-us.png">
+            关注我们
+        </li>
+        <li>
+            <img src="../../assets/images/home/telephone-consultation.png">
+            电话咨询
+        </li>
+        <li>
+            <img src="../../assets/images/home/online-consulting.png">
+            在线咨询
+        </li>
+        <li id="backTop">
+            <img src="../../assets/images/home/back-top.png">
+            返回顶部
+        </li>
+
+    </ul>
+    <!--底部结束-->
+
     <script type="text/javascript" src="../../assets/plugins/swiper-4.2.0/swiper-4.2.0.min.js"></script>
     <script type="text/javascript" src="../../assets/plugins/SuperSlide2.1/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../assets/js/home.js"></script>
 
     <!--客服-->
 
@@ -142,30 +203,6 @@
 <script language="javascript" src="http://chat56.live800.com/live800/chatClient/monitor.js?jid=1023674317&companyID=796416&configID=110364&codeType=custom"></script>
 -->
 
-    <script>
-    var mySwiper = new Swiper('.home-header .swiper-container', {
-        autoplay: true,//可选选项，自动滑动
-        pagination: {
-            el: '.home-header .swiper-pagination',
-        }
-    })
-        $(function () {
-            $(".home-nav-menu").click(function () {
-                $(".home-nav-content").animate({right:"0"});
-            })
-            $(".hone-nav-close").click(function () {
-                $(".home-nav-content").animate({right:"-100%"});
-            })
-        })
-    $(".curriculum-system-switch .hd li").click(function () {
-        var liIndex = $(this).index();
-        $(this).siblings().removeClass('on');
-        $(this).addClass("on");
-        $(".curriculum-system-switch .bd li").hide();
-        $(".curriculum-system-switch .bd li:eq("+liIndex+")").show();
-    })
-        
-        jQuery(".sideMenu").slide({titCell:"h3", targetCell:"ul",defaultIndex:1,effect:"slideDown",delayTime:300,trigger:"click",defaultPlay:false});
-    </script>
+
 </body>
 </html>

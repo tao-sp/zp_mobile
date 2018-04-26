@@ -195,22 +195,23 @@ a{
   width:px2rem(170);
   height:px2rem(70);
   background-size: px2rem(170) px2rem(170);
+  background-repeat: no-repeat;
 }
 .curriculum-system-switch .hd .on{
   border-left: px2rem(6) solid #ed9336;
   width:px2rem(164);
 }
 .curriculum-system-switch .hd li:nth-child(1){
-  background: url("../images/home/home-icon-design.png") no-repeat;
+  background-image: url("../images/home/home-icon-design.png");
 }
 .curriculum-system-switch .hd li:nth-child(2){
-  background: url("../images/home/home-icon-continuing.png") no-repeat;
+  background-image: url("../images/home/home-icon-continuing.png") ;
 }
 .curriculum-system-switch .hd li:nth-child(3){
-  background: url("../images/home/home-icon-manage.png") no-repeat;
+  background-image: url("../images/home/home-icon-manage.png") ;
 }
 .curriculum-system-switch .hd li:nth-child(4){
-  background: url("../images/home/home-icon-it.png") no-repeat;
+  background-image: url("../images/home/home-icon-it.png") ;
 }
 
 .curriculum-system-switch .bd li{
@@ -220,21 +221,138 @@ a{
   height:px2rem(710);
   display: none;
   background-color: #ed9336;
+  background-repeat: no-repeat;
+  background-size: px2rem(530) px2rem(710);
 }
 .curriculum-system-switch .bd li:nth-child(1){
   display: block;
-  background: url("../images/home/curriculum-system-design.png") no-repeat;
+  background-image: url("../images/home/curriculum-system-design.png");
 }
 .curriculum-system-switch .bd li:nth-child(2){
-  background: url("../images/home/curriculum-system-continuing.png") no-repeat;
+  background-image: url("../images/home/curriculum-system-continuing.png");
 }
 .curriculum-system-switch .bd li:nth-child(3){
-  background: url("../images/home/curriculum-system-manage.png") no-repeat;
+  background-image: url("../images/home/curriculum-system-manage.png");
 }
 .curriculum-system-switch .bd li:nth-child(4){
-  background: url("../images/home/curriculum-system-it.png") no-repeat;
-}
-.about-us{
-  background: #313131;
+  background-image: url("../images/home/curriculum-system-it.png");
 }
 /*课程体系结束*/
+/*关于我们开始*/
+.about-us{
+  background: #313131;
+  margin-top: px2rem(80);
+  padding: px2rem(80) px2rem(20) px2rem(120) px2rem(20);
+}
+.about-us img{
+  width:px2rem(204);
+  margin-bottom: px2rem(35);
+}
+.about-us-content {
+  line-height: px2rem(36);
+  color: #ffffff;
+  text-indent: 4em;
+  font-size:px2rem(22);
+}
+.about-us-content span{
+  font-weight: bold;
+  color: #dd8a36;
+}
+.about-us ul{
+  margin-top: px2rem(60);
+  margin-bottom: px2rem(42);
+}
+.about-us ul li{
+  font-size:px2rem(22);
+  color: #ffffff;
+  width:px2rem(332);
+  float: left;
+  padding-left: px2rem(18);
+  background-image: url("../images/home/li-right.png");
+  background-size: px2rem(11) px2rem(13);
+  background-repeat: no-repeat;
+  background-position-y: px2rem(8);
+  margin: px2rem(6) auto;
+}
+.about-us ul li b{
+ display: block;
+}
+.view-more{
+  font-size: px2rem(20);
+  font-weight: bold;
+  line-height: px2rem(59);
+  width:px2rem(218);
+  height:px2rem(59);
+  margin:auto;
+  color: #ffffff;
+  background: #ed9336;
+  display: block;
+  border-radius: px2rem(60);
+  text-align: center;
+}
+/*关于我们结束*/
+
+/*三分钟了解中鹏开始*/
+.understand-zp{
+  width:px2rem(710);
+  height:px2rem(440);
+  margin: 0 px2rem(20);
+  position: relative;
+  top:px2rem(-60);
+}
+.understand-zp-bg{
+  width:px2rem(710);
+  height:px2rem(440);
+}
+.understand-zp-play{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-left: px2rem(-41);
+  margin-top:px2rem(-53);
+  width:px2rem(82);
+  height:px2rem(106);
+}
+.video-box{
+  width:px2rem(750);
+  position: fixed;
+  top:0;
+  left:0;
+  height:100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+}
+.video-box video{
+  width:px2rem(750);
+  position: absolute;
+  top:50%;
+  margin-top: px2rem(-180);
+}
+/*三分钟了解中鹏结束*/
+
+/*底部开始*/
+.home-footer{
+  width: px2rem(750);
+  height:px2rem(96);
+  background: #333333;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  font-size: px2rem(20);
+  color: #dfdfdf;
+  text-align: center;
+}
+.home-footer li{
+  width: px2rem(185);
+  height:px2rem(96);
+  float: left;
+  border-right: px2rem(1) solid #3c3c3c;
+
+}
+.home-footer li img{
+  display: block;
+  width:px2rem(48);
+  height:px2rem(48);
+  margin:px2rem(6) auto 0;
+}
+/*底部结束*/
