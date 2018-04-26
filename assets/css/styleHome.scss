@@ -1,0 +1,240 @@
+@charset "utf-8";
+@import '../plugins/hotcss/px2rem';
+body{
+  width: 16rem;
+  margin: 0 auto;
+}
+/*默认样式*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td,figure {
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1;
+}
+.font_yahei{
+  font-family: "Microsoft YaHei";
+}
+/*头部开始*/
+.home-header{
+  position: relative;
+  width:100%;
+}
+.home-header .swiper-slide img{
+  width:100%;
+}
+.home-nav{
+  width:100%;
+  height:px2rem(88);
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: 99;
+}
+.home-nav-logo{
+  width:px2rem(219);
+  margin-top: px2rem(18);
+  margin-left: px2rem(20);
+}
+.home-header .swiper-pagination-bullet-active {
+  width: px2rem(48) !important;
+  height: px2rem(48) !important;
+  background-image: url(../images/home/pagination-bullet-active.png);
+  background-color: transparent !important;
+  background-size: px2rem(48) px2rem(48);
+  position: relative;
+  top:px2rem(19);
+}
+.home-header .swiper-pagination-bullet {
+  width: px2rem(10);
+  height: px2rem(10);
+  background-color:#ff9324;
+  opacity:1;
+}
+.home-header  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: px2rem(52);
+  left: 0;
+  width: 100%;
+}
+.home-header .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin:0 px2rem(12);
+}
+.home-nav-menu{
+  width:px2rem(44);
+  height:px2rem(32);
+  position: absolute;
+  right:px2rem(20);
+  top:px2rem(28);
+}
+/*侧边导航开始*/
+.home-nav-content{
+  position: fixed;
+  right:px2rem(-446);
+  height:100%;
+  width:px2rem(406);
+  z-index: 999;
+}
+.home-nav-content-bg{
+  position: absolute;
+  top:0;
+  left: px2rem(-30);
+  height:100%;
+  width:px2rem(436);
+  z-index: -1;
+  background: url("../images/home/menu-bg.png") center center/cover no-repeat;
+  background-size: 100% 100%;
+}
+.home-nav-content-title{
+  padding-left: px2rem(38);
+  font-size: px2rem(31);
+  color: #333333;
+  background: #ff9324;
+  height:px2rem(80);
+  line-height: px2rem(80);
+  position: relative;
+}
+.hone-nav-close{
+  width:px2rem(34);
+  height:px2rem(34);
+  position: absolute;
+  right:px2rem(20);
+  top:px2rem(24);
+}
+.home-nav-content-title span{
+  font-size: px2rem(11);
+  padding-left: px2rem(18);
+}
+/* 本例子css */
+.sideMenu{  padding-left: px2rem(29) }
+.sideMenu h3,.sideMenu h2{
+  font-size: px2rem(26);
+  color: #ffffff;
+  height:px2rem(96);
+  line-height:px2rem(96);
+  padding-left:px2rem(10);
+  border-top:px2rem(1) solid #4c4c4c;
+  cursor:pointer;
+}
+.sideMenu ul{
+  display:none; /* 默认都隐藏 */
+  padding-bottom: px2rem(26);
+}
+.sideMenu ul li{
+  margin-right: px2rem(56);
+  font-size: px2rem(24);
+  color: rgba(255,255,255,0.6);
+  line-height: px2rem(55);
+  padding-left: px2rem(28);
+  background: url("../images/home/triangle-right.png") right no-repeat;
+  background-size: px2rem(8) px2rem(10);
+}
+.border-top-none{
+  border-top: none !important;
+}
+.home-qr-code{
+  position: absolute;
+  bottom: px2rem(62);
+  width:px2rem(208);
+  margin-left:px2rem(99);
+  text-align: center;
+  font-size: px2rem(24);
+  color: #ffffff;
+  line-height: px2rem(42);
+}
+.home-qr-code img{
+  width:px2rem(208);
+}
+/*侧边导航结束*/
+/*头部结束*/
+
+/*课程体系开始*/
+.curriculum-system-title{
+  font-size: px2rem(36);
+  color: #333333;
+  text-align: center;
+}
+.curriculum-system-subtitle{
+  font-size: px2rem(20);
+  color: #666666;
+  text-align: center;
+  line-height: 58px;
+}
+.curriculum-system-line{
+  margin: auto;
+  width:px2rem(100);
+  height:px2rem(3);
+  background: #ed9336;
+}
+.curriculum-system-switch{
+  margin: auto px2rem(20);
+}
+.curriculum-system-switch .hd,.curriculum-system-switch .bd{
+  float: left;
+}
+.curriculum-system-switch .hd li{
+  margin-top: px2rem(10);
+  color: #ffffff;
+  text-align: center;
+  padding-top: px2rem(100);
+  font-size: px2rem(22);
+  width:px2rem(170);
+  height:px2rem(70);
+  background-size: px2rem(170) px2rem(170);
+}
+.curriculum-system-switch .hd .on{
+  border-left: px2rem(6) solid #ed9336;
+  width:px2rem(164);
+}
+.curriculum-system-switch .hd li:nth-child(1){
+  background: url("../images/home/home-icon-design.png") no-repeat;
+}
+.curriculum-system-switch .hd li:nth-child(2){
+  background: url("../images/home/home-icon-continuing.png") no-repeat;
+}
+.curriculum-system-switch .hd li:nth-child(3){
+  background: url("../images/home/home-icon-manage.png") no-repeat;
+}
+.curriculum-system-switch .hd li:nth-child(4){
+  background: url("../images/home/home-icon-it.png") no-repeat;
+}
+
+.curriculum-system-switch .bd li{
+  margin-top: px2rem(10);
+  margin-left: px2rem(10);
+  width:px2rem(530);
+  height:px2rem(710);
+  display: none;
+  background-color: #ed9336;
+}
+.curriculum-system-switch .bd li:nth-child(1){
+  display: block;
+  background: url("../images/home/curriculum-system-design.png") no-repeat;
+}
+.curriculum-system-switch .bd li:nth-child(2){
+  background: url("../images/home/curriculum-system-continuing.png") no-repeat;
+}
+.curriculum-system-switch .bd li:nth-child(3){
+  background: url("../images/home/curriculum-system-manage.png") no-repeat;
+}
+.curriculum-system-switch .bd li:nth-child(4){
+  background: url("../images/home/curriculum-system-it.png") no-repeat;
+}
+.about-us{
+  background: #313131;
+}
+/*课程体系结束*/
