@@ -29,6 +29,10 @@ a {
   font-family: "Microsoft YaHei"; }
 
 /*头部开始*/
+.home-nav-white {
+  background: #ffffff;
+  box-shadow: 0px 4px 5px #8A8A8A; }
+
 .home-header {
   position: relative;
   width: 100%; }
@@ -164,6 +168,9 @@ a {
 /*侧边导航结束*/
 /*头部结束*/
 /*课程体系开始*/
+.curriculum-system {
+  margin-top: 1.4933333333rem; }
+
 .curriculum-system-title {
   font-size: 0.768rem;
   color: #333333;
@@ -173,7 +180,7 @@ a {
   font-size: 0.4266666667rem;
   color: #666666;
   text-align: center;
-  line-height: 58px; }
+  line-height: 0.8533333333rem; }
 
 .curriculum-system-line {
   margin: auto;
@@ -182,7 +189,7 @@ a {
   background: #ed9336; }
 
 .curriculum-system-switch {
-  margin: auto 0.4266666667rem; }
+  margin: 0.8533333333rem 0.4266666667rem 0; }
 
 .curriculum-system-switch .hd, .curriculum-system-switch .bd {
   float: left; }
@@ -214,28 +221,70 @@ a {
 .curriculum-system-switch .hd li:nth-child(4) {
   background-image: url("../images/home/home-icon-it.png"); }
 
-.curriculum-system-switch .bd li {
+.curriculum-system-content div {
+  position: relative;
+  padding-left: 1.7066666667rem;
+  margin-left: 1.0666666667rem;
+  margin-bottom: 0.5333333333rem;
+  min-height: 1.3226666667rem;
+  padding-right: 0.4266666667rem; }
+
+.curriculum-system-content h3 {
+  font-size: 0.512rem; }
+
+.curriculum-system-content span {
+  font-size: 0.4266666667rem;
+  display: block; }
+
+.curriculum-system-content img {
+  width: 1.3226666667rem;
+  height: 1.3226666667rem;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.curriculum-system-switch .bd > li {
+  padding-top: 2.7733333333rem;
+  position: relative;
+  color: #ffffff;
   margin-top: 0.2133333333rem;
   margin-left: 0.2133333333rem;
   width: 11.3066666667rem;
-  height: 15.1466666667rem;
+  height: 12.3733333333rem;
   display: none;
   background-color: #ed9336;
   background-repeat: no-repeat;
   background-size: 11.3066666667rem 15.1466666667rem; }
 
-.curriculum-system-switch .bd li:nth-child(1) {
+.curriculum-system-switch .bd > li:nth-child(1) {
   display: block;
   background-image: url("../images/home/curriculum-system-design.png"); }
 
-.curriculum-system-switch .bd li:nth-child(2) {
+.curriculum-system-switch .bd > li:nth-child(2) {
   background-image: url("../images/home/curriculum-system-continuing.png"); }
 
-.curriculum-system-switch .bd li:nth-child(3) {
+.curriculum-system-switch .bd > li:nth-child(3) {
   background-image: url("../images/home/curriculum-system-manage.png"); }
 
-.curriculum-system-switch .bd li:nth-child(4) {
+.curriculum-system-switch .bd > li:nth-child(4) {
   background-image: url("../images/home/curriculum-system-it.png"); }
+
+.view-more-bgwhite {
+  font-size: 0.4266666667rem;
+  font-weight: bold;
+  line-height: 1.2586666667rem;
+  width: 4.6506666667rem;
+  height: 1.2586666667rem;
+  margin: 1.0666666667rem;
+  color: #ed9336;
+  background: #ffffff;
+  display: block;
+  border-radius: 1.28rem;
+  text-align: center;
+  box-shadow: 1px 2px 6px rgba(49, 49, 49, 0.5);
+  cursor: pointer;
+  position: absolute;
+  bottom: 0; }
 
 /*课程体系结束*/
 /*关于我们开始*/
@@ -288,7 +337,9 @@ a {
   background: #ed9336;
   display: block;
   border-radius: 1.28rem;
-  text-align: center; }
+  text-align: center;
+  box-shadow: 1px 2px 6px rgba(49, 49, 49, 0.5);
+  cursor: pointer; }
 
 /*关于我们结束*/
 /*三分钟了解中鹏开始*/
@@ -297,9 +348,19 @@ a {
   height: 9.3866666667rem;
   margin: 0 0.4266666667rem;
   position: relative;
-  top: -1.28rem; }
+  top: -1.28rem;
+  color: #ffffff;
+  font-size: 1.4506666667rem;
+  z-index: 2;
+  text-align: center;
+  line-height: 9.3866666667rem;
+  font-weight: lighter; }
 
 .understand-zp-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
   width: 15.1466666667rem;
   height: 9.3866666667rem; }
 
@@ -318,8 +379,9 @@ a {
   top: 0;
   left: 0;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: none; }
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 999999; }
 
 .video-box video {
   width: 16rem;
@@ -327,9 +389,144 @@ a {
   top: 50%;
   margin-top: -3.84rem; }
 
+.close-video {
+  position: absolute;
+  right: 0.256rem;
+  top: 0.256rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  background-image: url("../images/home/close-video.png");
+  background-repeat: no-repeat;
+  background-size: 0.64rem 0.64rem; }
+
 /*三分钟了解中鹏结束*/
+/*荣誉资质开始*/
+.zp-honor .swiper-container {
+  width: 12.2666666667rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto; }
+
+.zp-honor .zp-honor-title {
+  font-size: 0.4266666667rem;
+  text-align: left;
+  width: 5.6746666667rem;
+  margin: auto;
+  color: #666666; }
+
+.zp-honor .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; }
+
+.zp-honor .swiper-slide img {
+  width: 5.6746666667rem; }
+
+.zp-honor .vertical-swiper .left-right {
+  bottom: 5.9733333333rem; }
+
+.zp-honor .left-right {
+  position: relative;
+  width: 16rem;
+  height: 1.28rem;
+  bottom: 6.8266666667rem; }
+
+.zp-honor .left-right .swiper-button-prev, .zp-honor .left-right .swiper-button-next {
+  outline: none;
+  width: 1.1733333333rem;
+  height: 1.1946666667rem;
+  background-image: url(../images/home/left-right.png);
+  background-size: 2.3466666667rem 1.1733333333rem;
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+
+.zp-honor .left-right .swiper-button-next {
+  background-position: -1.1733333333rem 0; }
+
+.zpry {
+  height: 2.6026666667rem;
+  display: table;
+  margin: auto; }
+
+.zpry li {
+  font-size: 0.512rem;
+  margin: 0.96rem 0.3626666667rem;
+  height: 1.024rem;
+  line-height: 1.024rem;
+  float: left;
+  padding: 0 0.32rem;
+  cursor: pointer;
+  background: #efefef;
+  border: 0.0213333333rem solid #b5b5b6;
+  border-radius: 1.28rem; }
+
+.zpry li.zpry-on {
+  color: #fff;
+  background: #ed9336;
+  border: 0.0213333333rem solid #ed9336; }
+
+.hideswiper {
+  position: fixed;
+  left: 500%; }
+
+.showswiper {
+  position: static; }
+
+.zp-honer-width {
+  width: 6.4rem; }
+
+/*荣誉资质结束*/
+/*服务客户开始*/
+.service-customer {
+  margin-top: 1.8346666667rem; }
+
+#service-customer .swiper-container {
+  width: 12.2666666667rem;
+  height: auto;
+  margin: 0.9813333333rem auto 0.0213333333rem; }
+
+#service-customer .zp-honor-title {
+  font-size: 0.4266666667rem;
+  text-align: left;
+  width: 5.6746666667rem;
+  margin: auto;
+  color: #666666; }
+
+#service-customer .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; }
+
+#service-customer .swiper-slide img {
+  width: 3.712rem;
+  height: 1.984rem; }
+
+#service-customer .left-right {
+  position: relative;
+  width: 16rem;
+  height: 1.28rem;
+  bottom: 2.6666666667rem; }
+
+#service-customer .left-right .swiper-button-prev, #service-customer .left-right .swiper-button-next {
+  outline: none;
+  width: 1.1733333333rem;
+  height: 1.1946666667rem;
+  background-image: url(../images/home/left-right.png);
+  background-size: 2.3466666667rem 1.1733333333rem;
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+
+#service-customer .left-right .swiper-button-next {
+  background-position: -1.1733333333rem 0; }
+
+/*服务客户结束*/
 /*底部开始*/
+.footer-space {
+  width: 16rem;
+  height: 2.048rem; }
+
 .home-footer {
+  z-index: 99;
   width: 16rem;
   height: 2.048rem;
   background: #333333;
@@ -350,8 +547,44 @@ a {
   display: block;
   width: 1.024rem;
   height: 1.024rem;
-  margin: 0.128rem auto 0; }
+  margin: 0.2133333333rem auto 0; }
 
 /*底部结束*/
+/*文章内容模板页面开始*/
+.home-nav-space {
+  width: 16rem;
+  height: 3.4133333333rem; }
+
+.home-article {
+  margin: auto 0.4266666667rem; }
+
+.home-article .home-article-title {
+  text-align: center;
+  font-size: 0.64rem;
+  color: #333333; }
+
+.home-article .home-article-time {
+  text-align: center;
+  font-size: 0.4266666667rem;
+  color: #333333; }
+
+.home-article-pre, .home-article-next {
+  width: 15.1466666667rem;
+  height: 1.3653333333rem;
+  line-height: 1.3653333333rem;
+  background-color: #f5f5f5;
+  border: 0.0213333333rem solid #dcdddd;
+  background-position: 0.64rem 0.4266666667rem;
+  background-repeat: no-repeat;
+  background-size: 0.5333333333rem 0.512rem;
+  margin-bottom: 0.4266666667rem; }
+
+.home-article-pre {
+  background-image: url("../images/home/home-article-pre.png"); }
+
+.home-article-next {
+  background-image: url("../images/home/home-article-next.png"); }
+
+/*文章内容模板页面结束*/
 
 /*# sourceMappingURL=styleHome.css.map */

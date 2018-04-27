@@ -30,6 +30,10 @@ a{
   font-family: "Microsoft YaHei";
 }
 /*头部开始*/
+.home-nav-white{
+  background: #ffffff;
+  box-shadow:0px 4px 5px #8A8A8A;
+}
 .home-header{
   position: relative;
   width:100%;
@@ -163,6 +167,9 @@ a{
 /*头部结束*/
 
 /*课程体系开始*/
+.curriculum-system{
+  margin-top: px2rem(70);
+}
 .curriculum-system-title{
   font-size: px2rem(36);
   color: #333333;
@@ -172,7 +179,7 @@ a{
   font-size: px2rem(20);
   color: #666666;
   text-align: center;
-  line-height: 58px;
+  line-height: px2rem(40);
 }
 .curriculum-system-line{
   margin: auto;
@@ -181,7 +188,7 @@ a{
   background: #ed9336;
 }
 .curriculum-system-switch{
-  margin: auto px2rem(20);
+  margin: px2rem(40) px2rem(20) 0;
 }
 .curriculum-system-switch .hd,.curriculum-system-switch .bd{
   float: left;
@@ -213,29 +220,70 @@ a{
 .curriculum-system-switch .hd li:nth-child(4){
   background-image: url("../images/home/home-icon-it.png") ;
 }
-
-.curriculum-system-switch .bd li{
+.curriculum-system-content div{
+  position: relative;
+  padding-left: px2rem(80);
+  margin-left: px2rem(50);
+  margin-bottom: px2rem(25);
+  min-height: px2rem(62);
+  padding-right: px2rem(20);
+}
+.curriculum-system-content  h3{
+  font-size: px2rem(24);
+}
+.curriculum-system-content span{
+  font-size: px2rem(20);
+  display: block;
+}
+.curriculum-system-content img{
+  width:px2rem(62);
+  height:px2rem(62);
+  position: absolute;
+  left:0;
+  top:0;
+}
+.curriculum-system-switch .bd > li{
+  padding-top: px2rem(130);
+  position: relative;
+  color: #ffffff;
   margin-top: px2rem(10);
   margin-left: px2rem(10);
   width:px2rem(530);
-  height:px2rem(710);
+  height:px2rem(580);
   display: none;
   background-color: #ed9336;
   background-repeat: no-repeat;
   background-size: px2rem(530) px2rem(710);
 }
-.curriculum-system-switch .bd li:nth-child(1){
+.curriculum-system-switch .bd > li:nth-child(1){
   display: block;
   background-image: url("../images/home/curriculum-system-design.png");
 }
-.curriculum-system-switch .bd li:nth-child(2){
+.curriculum-system-switch .bd > li:nth-child(2){
   background-image: url("../images/home/curriculum-system-continuing.png");
 }
-.curriculum-system-switch .bd li:nth-child(3){
+.curriculum-system-switch .bd > li:nth-child(3){
   background-image: url("../images/home/curriculum-system-manage.png");
 }
-.curriculum-system-switch .bd li:nth-child(4){
+.curriculum-system-switch .bd > li:nth-child(4){
   background-image: url("../images/home/curriculum-system-it.png");
+}
+.view-more-bgwhite{
+  font-size: px2rem(20);
+  font-weight: bold;
+  line-height: px2rem(59);
+  width:px2rem(218);
+  height:px2rem(59);
+  margin:px2rem(50);
+  color: #ed9336;
+  background: #ffffff;
+  display: block;
+  border-radius: px2rem(60);
+  text-align: center;
+  box-shadow: 1px 2px 6px rgba(49, 49, 49, 0.5);
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
 }
 /*课程体系结束*/
 /*关于我们开始*/
@@ -289,6 +337,8 @@ a{
   display: block;
   border-radius: px2rem(60);
   text-align: center;
+  box-shadow: 1px 2px 6px rgba(49, 49, 49, 0.5);
+  cursor: pointer;
 }
 /*关于我们结束*/
 
@@ -299,8 +349,18 @@ a{
   margin: 0 px2rem(20);
   position: relative;
   top:px2rem(-60);
+  color: #ffffff;
+  font-size: px2rem(68);
+  z-index:2;
+  text-align: center;
+  line-height: px2rem(440);
+  font-weight: lighter;
 }
 .understand-zp-bg{
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: -1;
   width:px2rem(710);
   height:px2rem(440);
 }
@@ -319,8 +379,9 @@ a{
   top:0;
   left:0;
   height:100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
   display: none;
+  z-index: 999999;
 }
 .video-box video{
   width:px2rem(750);
@@ -328,10 +389,148 @@ a{
   top:50%;
   margin-top: px2rem(-180);
 }
+.close-video{
+  position: absolute;
+  right:px2rem(12);
+  top:px2rem(12);
+  width: px2rem(30);
+  height:px2rem(30);
+  background-image: url("../images/home/close-video.png");
+  background-repeat: no-repeat;
+  background-size: px2rem(30) px2rem(30);
+}
 /*三分钟了解中鹏结束*/
 
+/*荣誉资质开始*/
+.zp-honor .swiper-container {
+  width:px2rem(575);
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.zp-honor .zp-honor-title{
+  font-size: px2rem(20);
+  text-align: left;
+  width:px2rem(266);
+  margin: auto;
+  color: #666666;
+}
+.zp-honor .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+.zp-honor .swiper-slide img {
+   width:px2rem(266);
+}
+.zp-honor .vertical-swiper .left-right{
+  bottom: px2rem(280);
+}
+.zp-honor .left-right{
+  position: relative;
+  width:px2rem(750);
+  height:px2rem(60);
+  bottom: px2rem(320);
+}
+.zp-honor .left-right .swiper-button-prev,.zp-honor .left-right .swiper-button-next{
+  outline: none;
+  width: px2rem(55);
+  height: px2rem(56);
+  background-image: url(../images/home/left-right.png) ;
+  background-size: px2rem(110) px2rem(55);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.zp-honor .left-right .swiper-button-next {
+  background-position: px2rem(-55) 0;
+}
+.zpry{
+  height: px2rem(122);
+  display: table;
+  margin: auto;
+}
+.zpry li{
+  font-size: px2rem(24);
+  margin: px2rem(45) px2rem(17);
+  height: px2rem(48);
+  line-height: px2rem(48);
+  float: left;
+  padding: 0 px2rem(15);
+  cursor: pointer;
+  background: #efefef;
+  border: px2rem(1) solid #b5b5b6;
+  border-radius: px2rem(60);
+}
+.zpry li.zpry-on{
+  color: #fff;
+  background: #ed9336;
+  border: px2rem(1) solid #ed9336;
+}
+.hideswiper {
+  position: fixed;
+  left: 500%;
+}
+.showswiper{
+  position: static;
+}
+.zp-honer-width{
+  width:px2rem(300);
+}
+/*荣誉资质结束*/
+/*服务客户开始*/
+.service-customer{
+margin-top: px2rem(86);
+}
+.service-customer{
+
+}
+#service-customer .swiper-container {
+  width:px2rem(575);
+  height: auto;
+  margin: px2rem(46) auto px2rem(1);
+}
+#service-customer .zp-honor-title{
+  font-size: px2rem(20);
+  text-align: left;
+  width:px2rem(266);
+  margin: auto;
+  color: #666666;
+}
+#service-customer .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+#service-customer .swiper-slide img {
+  width:px2rem(174);
+  height:px2rem(93);
+}
+#service-customer .left-right{
+  position: relative;
+  width:px2rem(750);
+  height:px2rem(60);
+  bottom: px2rem(125);
+}
+#service-customer .left-right .swiper-button-prev,#service-customer .left-right .swiper-button-next{
+  outline: none;
+  width: px2rem(55);
+  height: px2rem(56);
+  background-image: url(../images/home/left-right.png) ;
+  background-size: px2rem(110) px2rem(55);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#service-customer .left-right .swiper-button-next {
+  background-position: px2rem(-55) 0;
+}
+/*服务客户结束*/
 /*底部开始*/
+.footer-space{
+  width: px2rem(750);
+  height:px2rem(96);
+}
 .home-footer{
+  z-index: 99;
   width: px2rem(750);
   height:px2rem(96);
   background: #333333;
@@ -353,6 +552,43 @@ a{
   display: block;
   width:px2rem(48);
   height:px2rem(48);
-  margin:px2rem(6) auto 0;
+  margin:px2rem(10) auto 0;
 }
 /*底部结束*/
+
+/*文章内容模板页面开始*/
+.home-nav-space{
+  width:px2rem(750);
+  height: px2rem(160);
+}
+.home-article{
+  margin:auto px2rem(20);
+}
+.home-article .home-article-title{
+  text-align: center;
+  font-size: px2rem(30);
+  color: #333333;
+}
+.home-article .home-article-time{
+  text-align: center;
+ font-size: px2rem(20);
+  color: #333333;
+}
+.home-article-pre,.home-article-next{
+  width:px2rem(710);
+  height:px2rem(64);
+  line-height: px2rem(64);
+  background-color: #f5f5f5;
+  border:px2rem(1) solid #dcdddd;
+  background-position: px2rem(30) px2rem(20);
+  background-repeat: no-repeat;
+  background-size: px2rem(25) px2rem(24);
+  margin-bottom: px2rem(20);
+}
+.home-article-pre{
+  background-image: url("../images/home/home-article-pre.png");
+}
+.home-article-next{
+  background-image: url("../images/home/home-article-next.png");
+}
+/*文章内容模板页面结束*/

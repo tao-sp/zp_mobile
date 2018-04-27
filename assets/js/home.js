@@ -20,7 +20,21 @@ $(function () {
             1000);
         return false;
     });
+    /*荣誉资质*/
+    var aLi = $(".zpry li");
+    for(var i=0; i<aLi.length; i++){
+        aLi[i].index = i;//添加索引
+        aLi[i].onclick = function () {
+            $(".zpry-on").removeClass("zpry-on");
+            this.className = 'zpry-on';
+           // alert(this.index);//弹出索引
+            $(".showswiper").removeClass("showswiper");
+            $(".zp-honor div.hideswiper:eq("+this.index+")").addClass("showswiper");
+        }
+    }
 })
+
+/*课程体系*/
 $(".curriculum-system-switch .hd li").click(function () {
     var liIndex = $(this).index();
     $(this).siblings().removeClass('on');
@@ -29,6 +43,16 @@ $(".curriculum-system-switch .hd li").click(function () {
     $(".curriculum-system-switch .bd li:eq("+liIndex+")").show();
 })
 
+$(".understand-zp-play").click(function () {
+    $(".video-box").show();
+    var myVideo = document.getElementById("myvideo");
+     myVideo.play();
+})
+$(".close-video").click(function () {
+    $(".video-box").hide();
+    var myVideo = document.getElementById("myvideo");
+    myVideo.pause();
+})
 
 
 jQuery(".sideMenu").slide({titCell:"h3", targetCell:"ul",defaultIndex:1,effect:"slideDown",delayTime:300,trigger:"click",defaultPlay:false});
