@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>首页</title>
+    <script src="../../assets/js/rem.js"></script>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+    <link rel="stylesheet" href="../../assets/css/styleContinuing.css">
+</head>
+<body>
+<!-- header -->
+<div class="header">
+    <div class="head">
+        <h1>中鹏培训</h1>
+        <div class="menu">
+            <span id="menuContorl" onclick="app.showMenu()"></span>
+            <!-- 右侧导航 -->
+            <div class="menuAside">
+                <div class="menuAside-inner">
+                    <dl>
+                        <dt>导  航<i>MENU</i><span onclick="app.hideMenu()"></span></dt>
+                        <dd><a href="">学院首页</a></dd>
+                        <dd><a href="">课程中心</a></dd>
+                        <dd><a href="">报考中心</a></dd>
+                        <dd><a href="">学院动态</a></dd>
+                        <dd><a href="">学员天地</a></dd>
+                        <dd><a href="">更多</a></dd>
+                    </dl>
+                    <ul>
+                        <li><a href="">官网首页</a></li>
+                        <li><a href="">设计艺术学院</a></li>
+                        <li><a href="">管理学院</a></li>
+                        <li><a href="">IT学院</a></li>
+                    </ul>
+                    <div class="wechat-code">
+                        <img src="../../assets/images/continuing/qr-code.png">
+                        关注中鹏
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧导航 end -->
+        </div>
+    </div>
+</div>
+<!-- header end -->
+
+
+<!--申请试听-->
+<div class="apply_banner">
+    <img src="../../assets/images/continuing/apply_banner.png" alt="">
+</div>
+
+<div class="apply_form">
+    <form action="" method="post" name="myform" id="myform">
+        <input type="text" id="name" placeholder="请输入姓名" maxlength="4">
+        <input type="tel" id="phone" placeholder="请输入手机号" maxlength="11">
+        <textarea placeholder="我的需求"></textarea>
+        <button id="dosubmit">提 交</button>
+    </form>
+</div>
+<!--申请试听 end-->
+
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-links flex flex-items">
+        <ul>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">企业文化</a></li>
+            <li><a href="">加入我们</a></li>
+        </ul>
+        <div class="footer-contact">
+            <a href="tel:4009306618">
+                <i class="icon-phone"></i>
+                <span>联系号码  400-930-6618</span>
+            </a>
+        </div>
+    </div>
+    <p class="copyright">
+        Copyright © 2008-2018   深圳市中鹏教育科技股份有限公司<br>
+        ALL RIGHT RESERVED 备案号:粤ICP备09069122号-25
+    </p>
+</div>
+<!-- footer end-->
+<script src="../../assets/plugins/jquery-1.10.1.min.js"></script>
+<script src="../../assets/js/common.js"></script>
+<script>
+    $(function () {
+        $('#dosubmit').on('click',function (event) {
+            var name = $('#name').val();
+            var phone = $('#phone').val();
+            if(name === '' || name === undefined){
+                event.preventDefault();
+                return app.toast('请输入姓名')
+            }
+            if(!/^[\u4E00-\u9FA5]{2,4}$/.test(name)){
+                event.preventDefault();
+                return app.toast('请输入正确的格式的姓名')
+            }
+            if(phone === '' || phone === undefined){
+                event.preventDefault();
+                return app.toast('请输入手机号')
+            }
+            if(!/^1\d{10}$/.test(phone)){
+                event.preventDefault();
+                return app.toast('请输入正确格式的手机号')
+            }
+        })
+    })
+</script>
+</body>
+</html>

@@ -609,3 +609,174 @@
 .map dl dd{
     margin-bottom: .15rem;
 }
+
+.content{
+    margin-top: .88rem;
+    padding: .4rem .2rem;
+}
+.content h1{
+    text-align: center;
+    font-size: .3rem;
+    color: #333333;
+}
+.content .content-info{
+    text-align: center;
+    font-size: .2rem;
+    color: #333;
+}
+#content{
+    font-size: .22rem;
+    line-height: .36rem;
+    margin-top: .4rem;
+    color: #666666;
+    word-break: break-all;
+}
+#content img{
+    max-width: 6.4rem!important;
+    margin: .2rem auto;
+    display: block;
+}
+#content table{
+    max-width: 100%!important;
+}
+.preview{
+    margin-top: .4rem;
+}
+.preview a{
+    display: block;
+    background-color: #f5f5f5;
+    border: solid 1px #dcdddd;
+    padding: 0 .3rem;
+    line-height: .64rem;
+    color: #666666;
+    font-size: .2rem;
+    margin-bottom: .2rem;
+}
+.preview a:before{
+    display: inline-block;
+    content: ' ';
+    width: .25rem;
+    height: .25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-right: .2rem;
+    vertical-align: middle;
+}
+.preview a.prevPage:before{
+    background-image: url("../images/continuing/arrow_top.png");
+}
+.preview a.nextPage:before{
+    background-image: url("../images/continuing/arrow_bottom.png");
+}
+
+.honer_list {margin-top:.5rem;text-align:center;}
+.honer_list ul li {position:relative;width:46%;display:inline-block;margin:.1rem;}
+.honer_list ul li img {width:100%;}
+.honer_list ul li p {font-size:.2rem;height:.5rem;line-height:.25rem;width:100%;color:#666;text-align: left;margin-top: .1rem}
+
+.activity li h3{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.school_banner{
+    margin-top: .88rem;
+}
+.school_banner img{
+    display: block;
+    width: 100%;
+}
+.school_list{
+    position: relative;
+    margin-top: -.4rem;
+    padding: 0 .2rem;
+}
+.school_list .school_item{
+    background-color: #fff;
+    box-shadow: 0 .05rem .1rem rgba(0,0,0,.2);
+    padding: .3rem 0 .3rem .3rem;
+    margin-bottom: .3rem;
+}
+.school_list .school_item img{
+    width: 1.81rem;
+    vertical-align: top;
+}
+.school_list .school_item div{
+    display: inline-block;
+    margin-left: .2rem;
+    width: 4.6rem;
+}
+.school_list .school_item h3{
+    font-size: .3rem;
+    color: #121a27;
+    font-weight: normal;
+    margin-bottom: .3rem;
+}
+.school_list .school_item ul{
+    font-size: 0;
+}
+.school_list .school_item ul li{
+    display: inline-block;
+    font-size: .22rem;
+    line-height: .36rem;
+    width: 2.2rem;
+    color: #666666;
+}
+.school_list .school_item ul li:nth-child(even){
+    margin-left: .2rem;
+}
+.school_list .school_item ul li:before{
+    display: inline-block;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: solid .08rem #4c5cd4;
+    border-top: solid .07rem transparent;
+    border-bottom: solid .07rem transparent;
+    margin-right: .05rem;
+}
+.apply_banner img{
+    display: block;
+    width: 100%;
+}
+.apply_form{
+    padding: .5rem .34rem;
+}
+.apply_form input{
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px #b5b5b6;
+    border-radius: .1rem;
+    height: .9rem;
+    padding: .2rem;
+    font-size: .24rem;
+    margin-bottom: .3rem;
+}
+.apply_form input::placeholder,.apply_form textarea::placeholder{
+    color: #999;
+}
+.apply_form textarea{
+    height: 2.6rem;
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px #b5b5b6;
+    border-radius: .1rem;
+    line-height: .3rem;
+    padding: .2rem;
+    font-size: .24rem;
+    margin-bottom: .3rem;
+}
+.apply_form button{
+    width: 2.45rem;
+    height: .9rem;
+    font-size: .3rem;
+    color: #fff;
+    background-color: #4c5cd4;
+    border-radius: .1rem;
+    display: block;
+    margin: 0 auto;
+    border: none 0;
+    outline: none 0;
+}

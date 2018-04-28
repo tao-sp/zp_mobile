@@ -32,6 +32,20 @@ $(function () {
             $(".zp-honor div.hideswiper:eq("+this.index+")").addClass("showswiper");
         }
     }
+
+    /*导航条切换*/
+    $(document).scroll(function() {
+        var hei = $("#swiperheight").height();
+        var num =  $(document).scrollTop();
+        if (num>hei){
+            $(".home-nav").hide();
+            $(".home-nav-white").show();
+        }else {
+            $(".home-nav").show();
+            $(".home-nav-white").hide();
+        }
+    });
+
 })
 
 /*课程体系*/
