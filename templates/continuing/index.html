@@ -1,11 +1,631 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title></title>
-    <meta charset = "utf-8">
-
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>首页</title>
+    <script src="../../assets/js/rem.js"></script>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+    <link rel="stylesheet" href="../../assets/plugins/swiper/swiper.min.css">
+    <link rel="stylesheet" href="../../assets/css/styleContinuing.css">
 </head>
 <body>
+<!-- header -->
+<div class="header">
+    <div class="head">
+        <h1>中鹏培训</h1>
+        <div class="menu">
+            <span id="menuContorl" onclick="app.showMenu()"></span>
+            <!-- 右侧导航 -->
+            <div class="menuAside">
+                <div class="menuAside-inner">
+                    <dl>
+                        <dt>导  航<i>MENU</i><span onclick="app.hideMenu()"></span></dt>
+                        <dd><a href="">学院首页</a></dd>
+                        <dd><a href="">课程中心</a></dd>
+                        <dd><a href="">报考中心</a></dd>
+                        <dd><a href="">学院动态</a></dd>
+                        <dd><a href="">学员天地</a></dd>
+                        <dd><a href="">更多</a></dd>
+                    </dl>
+                    <ul>
+                        <li><a href="">官网首页</a></li>
+                        <li><a href="">设计艺术学院</a></li>
+                        <li><a href="">管理学院</a></li>
+                        <li><a href="">IT学院</a></li>
+                    </ul>
+                    <div class="wechat-code">
+                        <img src="../../assets/images/continuing/qr-code.png">
+                        关注中鹏
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧导航 end -->
+        </div>
+    </div>
+</div>
+<!-- header end -->
 
+<!-- 首页Banner -->
+<div class="banner swiper-container">
+    <div class="swiper-wrapper" id="swiper">
+        <div class="swiper-slide"><img src="../../assets/images/continuing/banner1.png"></div>
+        <div class="swiper-slide"><img src="../../assets/images/continuing/banner2.png"></div>
+        <div class="swiper-slide"><img src="../../assets/images/continuing/banner3.png"></div>
+        <div class="swiper-slide"><img src="../../assets/images/continuing/banner4.png"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+<!-- 首页Banner end -->
+
+<!-- 首页topic -->
+<div class="topic">
+    <ul>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_1.png" alt="">
+                <p>自学考试，毕业时间短</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_2.png" alt="">
+                <p>成人高考，全国统考认可度高</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_3.png" alt="">
+                <p>网络教育，学习灵活方便</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_4.png" alt="">
+                <p>开放教育，开启新的学习方式</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- 首页topic end -->
+
+<!-- 首页提升方案 -->
+<div class="case">
+    <h2 class="title">五大学历和<span>提升方案</span></h2>
+    <ul>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_case_1.png" alt="">
+                <p><b>高中学历</b>学本科</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_case_2.png" alt="">
+                <p><b>高中学历</b>升专科</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_case_3.png" alt="">
+                <p><b>专科学历</b>升本科</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_case_4.png" alt="">
+                <p><b>低学历</b>升专科</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../../assets/images/continuing/home_case_5.png" alt="">
+                <p><b>低学历</b>升本科</p>
+            </a>
+        </li>
+        <li class="other">
+            <a href="">
+                <i class="icon-dingzhi"></i>
+                <div>免费领取定制化<br>学历提升方案</div>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- 首页提升方案 end -->
+
+<!-- 首页考试公告 -->
+<div class="news">
+    <h2 class="title">考试<span>公告</span><a href="">查看更多 >></a></h2>
+    <ul>
+        <li><a href=""><p>2017年申请学士学位相关条件及政策位相关条件及政策</p><span>2018.04.01</span></a></li>
+        <li><a href=""><p>2017年申请学士学位相关条件及政策</p><span>2018.04.01</span></a></li>
+        <li><a href=""><p>2017年申请学士学位相关条件及政策</p><span>2018.04.01</span></a></li>
+        <li><a href=""><p>2017年申请学士学位相关条件及政策</p><span>2018.04.01</span></a></li>
+        <li><a href=""><p>2017年申请学士学位相关条件及政策</p><span>2018.04.01</span></a></li>
+    </ul>
+</div>
+<!-- 首页考试公告 end -->
+
+<!-- 首页热门专业 -->
+<div class="hotProduct">
+    <h2 class="title">热门<span>专业</span><a href="">更多推荐 ></a></h2>
+    <ul>
+        <li>
+            <a href="https://vs.rainbowred.com/visitor/mobile/chat.html?companyId=497">
+                <img src="../../assets/images/continuing/home_hot_1.png" alt="">
+                <div>
+                    <h3>工商企业管理</h3>
+                    <p>本专业培养具备管理、经济、法律及人力资源管理等方面的知识和能力，能在事业单位及政府部门...</p>
+                    <button>报名</button>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://vs.rainbowred.com/visitor/mobile/chat.html?companyId=497">
+                <img src="../../assets/images/continuing/home_hot_2.png" alt="">
+                <div>
+                    <h3>工商企业管理</h3>
+                    <p>本专业培养具备管理、经济、法律及人力资源管理等方面的知识和能力，能在事业单位及政府部门...</p>
+                    <button>报名</button>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://vs.rainbowred.com/visitor/mobile/chat.html?companyId=497">
+                <img src="../../assets/images/continuing/home_hot_3.png" alt="">
+                <div>
+                    <h3>工商企业管理</h3>
+                    <p>本专业培养具备管理、经济、法律及人力资源管理等方面的知识和能力，能在事业单位及政府部门...</p>
+                    <button>报名</button>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- 首页热门专业 end -->
+
+<!-- 首页名校推荐 -->
+<div class="recommendProduct">
+    <h2 class="title">名校<span>推荐</span><a href="">更多名校 ></a></h2>
+    <div class="recommendProductList">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <div>
+                        <h3>广东开放大学</h3>
+                        <p>会计</p>
+                        <p>电子商务技术</p>
+                        <p>建设工程管理</p>
+                        <p>计算机应用技术</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <div>
+                        <h3>广东开放大学</h3>
+                        <p>会计</p>
+                        <p>电子商务技术</p>
+                        <p>建设工程管理</p>
+                        <p>计算机应用技术</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <div>
+                        <h3>广东开放大学</h3>
+                        <p>会计</p>
+                        <p>电子商务技术</p>
+                        <p>建设工程管理</p>
+                        <p>计算机应用技术</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<!-- 首页名校推荐 end -->
+
+<!-- 首页荣誉资质 -->
+<div class="honer">
+    <div class="slider-hd clearfix">
+        <h2 class="title">荣誉<span>资质</span></h2>
+        <div class="tab honerTab">
+            <span class="on">办学资质</span>
+            <span>荣誉奖项</span>
+            <span>知识产权</span>
+        </div>
+    </div>
+    <div class="honerWrapper slider-bd">
+        <span class="slider-control prev" onclick="prev()"></span>
+        <span class="slider-control next" onclick="next()"></span>
+        <div class="swiper-container slider-container on">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+            </ul>
+        </div>
+        <div class="swiper-container slider-container " style="display: none">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+            </ul>
+        </div>
+        <div class="swiper-container slider-container " style="display: none">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/honer.png" alt="">
+                    <p>广东中鹏职业培训学校民办学校办学许可证</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="more">
+        <a href="">查看中鹏更多荣誉资质</a>
+    </div>
+</div>
+<!-- 首页荣誉资质 end -->
+
+<!-- 首页校区分布 -->
+<div class="Area">
+    <div class="slider-hd clearfix">
+        <h2 class="title">校区<span>分布</span></h2>
+        <div class="tab AreaTab">
+            <span class="on">深圳(6)</span>
+            <span>广州(1)</span>
+            <span>东莞(1)</span>
+        </div>
+    </div>
+    <div class="AreaWrapper slider-bd">
+        <div class="swiper-container AreaSlider on">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="slider-control prev"></div>
+            <div class="slider-control next"></div>
+        </div>
+        <div class="swiper-container AreaSlider" style="display: none">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="slider-control prev"></div>
+            <div class="slider-control next"></div>
+        </div>
+        <div class="swiper-container AreaSlider" style="display: none">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="../../assets/images/continuing/school.png" alt="">
+                    <dl>
+                        <dt>龙岗校区</dt>
+                        <dd><i class="icon-address"></i>深圳市福田区上步中路深勘大厦19楼</dd>
+                        <dd><i class="icon-tel"></i>400-930-6618</dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="slider-control prev"></div>
+            <div class="slider-control next"></div>
+        </div>
+    </div>
+</div>
+<!-- 首页校区分布 end -->
+
+<!-- 悬浮 -->
+<div class="floatTool">
+    <span onclick="toggle(event)"></span>
+    <ul>
+        <li>
+            <a href="">
+                <i class="float_zhengche"></i>
+                报考政策
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="float_youhui"></i>
+                优惠申请
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="float_tisheng"></i>
+                提升方案
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="float_shouji"></i>
+                电话
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0) " onclick="scrollToTop()">
+                <i class="float_top"></i>
+                返回顶部
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- 悬浮 end -->
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-links flex flex-items">
+        <ul>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">企业文化</a></li>
+            <li><a href="">加入我们</a></li>
+        </ul>
+        <div class="footer-contact">
+            <a href="tel:4009306618">
+                <i class="icon-phone"></i>
+                <span>联系号码  400-930-6618</span>
+            </a>
+        </div>
+    </div>
+    <p class="copyright">
+        Copyright © 2008-2018   深圳市中鹏教育科技股份有限公司<br>
+        ALL RIGHT RESERVED 备案号:粤ICP备09069122号-25
+    </p>
+</div>
+<!-- footer end-->
+<script src="../../assets/plugins/jquery-1.10.1.min.js"></script>
+<script src="../../assets/plugins/swiper/swiper.min.js"></script>
+<script src="../../assets/js/common.js"></script>
+<script>
+    var _swiper,_swiper2
+    $(function () {
+        var swiper = new Swiper('.banner', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true
+        });
+        _swiper = new Swiper('.slider-container.on', {
+            slidesPerView: 2,
+            slidesPerColumn: 2
+        });
+        _swiper2 = new Swiper('.AreaSlider', {
+            nextButton: '.next',
+            prevButton: '.prev'
+        });
+        $('.honerTab span').on('click',function () {
+            if($(this).hasClass('on')) return false
+            $(this).addClass('on').siblings().removeClass('on')
+            $('.slider-container').hide().removeClass('on').eq($(this).index()).addClass('on').show();
+            _swiper = new Swiper('.slider-container.on', {
+                slidesPerView: 2,
+                slidesPerColumn: 2
+            });
+        })
+        $('.AreaTab span').on('click',function () {
+            if($(this).hasClass('on')) return false
+            $(this).addClass('on').siblings().removeClass('on')
+            $('.AreaSlider').hide().removeClass('on').eq($(this).index()).addClass('on').show();
+            _swiper2 = new Swiper('.AreaSlider', {
+                nextButton: '.next',
+                prevButton: '.prev'
+            });
+        })
+    })
+    function prev() {
+        if(!_swiper.activeIndex) return false
+        _swiper.slidePrev();
+    }
+    function next() {
+        if(_swiper.activeIndex ==  Math.ceil(_swiper.slides.length / 4) -1) return false
+        _swiper.slideNext();
+    }
+    function toggle(event) {
+        $(event.target).toggleClass('on')
+    }
+    function scrollToTop() {
+        document.documentElement.scrollTop = document.body.scrollTop = 0
+    }
+</script>
+<script src="../../assets/js/customerService.js"></script>
 </body>
 </html>

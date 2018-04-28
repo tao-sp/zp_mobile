@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>首页</title>
+    <script src="../../assets/js/rem.js"></script>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+    <link rel="stylesheet" href="../../assets/plugins/swiper/swiper.min.css">
+    <link rel="stylesheet" href="../../assets/css/styleManage.css">
+</head>
+<body>
+<!-- header -->
+<div class="header">
+    <div class="head">
+        <h1>中鹏培训</h1>
+        <div class="menu">
+            <span id="menuContorl" onclick="app.showMenu()"></span>
+            <!-- 右侧导航 -->
+            <div class="menuAside">
+                <div class="menuAside-inner">
+                    <dl>
+                        <dt>导  航<i>MENU</i><span onclick="app.hideMenu()"></span></dt>
+                        <dd><a href="">学院首页</a></dd>
+                        <dd><a href="">课程中心</a></dd>
+                        <dd><a href="">报考中心</a></dd>
+                        <dd><a href="">学院动态</a></dd>
+                        <dd><a href="">学员天地</a></dd>
+                        <dd><a href="">更多</a></dd>
+                    </dl>
+                    <ul>
+                        <li><a href="">官网首页</a></li>
+                        <li><a href="">设计艺术学院</a></li>
+                        <li><a href="">管理学院</a></li>
+                        <li><a href="">IT学院</a></li>
+                    </ul>
+                    <div class="wechat-code">
+                        <img src="../../assets/images/home/qr-code.png">
+                        关注中鹏
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧导航 end -->
+        </div>
+    </div>
+</div>
+<!-- header end -->
+<!--teacher_detail-->
+<div class="teacher_detail">
+    <div class="teacher_detail_top">
+        <img src="../../assets/images/manage/teacher_list.png" />
+        <div class="teacher_detail_info">
+            <h3>林冲<span>教授&nbsp;&nbsp;&nbsp;&nbsp;8年教育经验</span></h3>
+            <ul>
+                <li class="teacher_detail_img_1">授课科目：高等数学</li>
+                <li class="teacher_detail_img_2">个人荣誉：2018年华南师范优秀讲师；2017年华南师范杰出讲师</li>
+            </ul>
+        </div>
+    </div>
+    <p>主要从事非线性扩散方程的研究，现任职华南师范大学数学科学学院教授、博士生导师。1992年在吉林大学被评为教授，1994年在吉林大学被评为博士生导师，2001年被聘为教育部“长江学者奖励计划”特聘教授，2001年获国家杰出青年基金，2001年获香港求是科技基金会“杰出青年学者奖”。</p>
+</div>
+<!--teacher_detail end-->
+
+
+
+<!--list-->
+<div class="teacher_list_title"><span>人气教师</span></div>
+<div class="teacher_list">
+    <ul>
+        <li>
+                <a href="">
+                <img src="../../assets/images/manage/teacher_list.png" />
+                <div>
+                    <h3>林冲<i></i><span>教授</span><font>人力资源</font></h3>
+                    <p>主要从事非线性扩散方程的研究，现任职华南师范大学数学科学学院教授、博士生导师。1992年在吉林大学被评为教授，1994年在吉林大学被评为博士生导师...<span>详情>></span></p>
+                </div>
+                </a>
+        </li>
+        <li>
+                <a href="">
+                <img src="../../assets/images/manage/teacher_list.png" />
+                <div>
+                    <h3>林冲<i></i><span>教授</span><font>人力资源</font></h3>
+                    <p>主要从事非线性扩散方程的研究，现任职华南师范大学数学科学学院教授、博士生导师。1992年在吉林大学被评为教授，1994年在吉林大学被评为博士生导师...<span>详情>></span></p>
+                </div>
+                </a>
+        </li>
+        <li>
+                <a href="">
+                <img src="../../assets/images/manage/teacher_list.png" />
+                <div>
+                    <h3>林冲<i></i><span>教授</span><font>人力资源</font></h3>
+                    <p>主要从事非线性扩散方程的研究，现任职华南师范大学数学科学学院教授、博士生导师。1992年在吉林大学被评为教授，1994年在吉林大学被评为博士生导师...<span>详情>></span></p>
+                </div>
+                </a>
+        </li>
+    </ul>
+</div>
+<!--list end-->
+<!-- footer -->
+<div class="footer">
+    <div class="footer-links flex flex-items">
+        <ul>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">企业文化</a></li>
+            <li><a href="">加入我们</a></li>
+        </ul>
+        <div class="footer-contact">
+            <a href="tel:4009306618">
+                <i class="icon-phone"></i>
+                <span>联系号码  400-930-6618</span>
+            </a>
+        </div>
+    </div>
+    <p class="copyright">
+        Copyright © 2008-2018   深圳市中鹏教育科技股份有限公司<br>
+        ALL RIGHT RESERVED 备案号:粤ICP备09069122号-25
+    </p>
+</div>
+<!-- footer end-->
+<script src="../../assets/plugins/jquery-1.10.1.min.js"></script>
+<script src="../../assets/plugins/swiper/swiper.min.js"></script>
+<script src="../../assets/js/common.js"></script>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+        });
+        var near_course = new Swiper('#near_course', {
+            slidesPerView : 2.5,
+            spaceBetween : 10,
+        });
+        var near_course = new Swiper('#manage_list_nav', {
+            slidesPerView : 4.5,
+            spaceBetween : 10,
+        });
+    })
+</script>
+</body>
+</html>

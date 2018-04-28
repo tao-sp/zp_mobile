@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>首页</title>
+    <script src="../../assets/js/rem.js"></script>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+    <link rel="stylesheet" href="../../assets/plugins/swiper/swiper.min.css">
+    <link rel="stylesheet" href="../../assets/css/styleManage.css">
+</head>
+<body>
+<!-- header -->
+<div class="header">
+    <div class="head">
+        <h1>中鹏培训</h1>
+        <div class="menu">
+            <span id="menuContorl" onclick="app.showMenu()"></span>
+            <!-- 右侧导航 -->
+            <div class="menuAside">
+                <div class="menuAside-inner">
+                    <dl>
+                        <dt>导  航<i>MENU</i><span onclick="app.hideMenu()"></span></dt>
+                        <dd><a href="">学院首页</a></dd>
+                        <dd><a href="">课程中心</a></dd>
+                        <dd><a href="">报考中心</a></dd>
+                        <dd><a href="">学院动态</a></dd>
+                        <dd><a href="">学员天地</a></dd>
+                        <dd><a href="">更多</a></dd>
+                    </dl>
+                    <ul>
+                        <li><a href="">官网首页</a></li>
+                        <li><a href="">设计艺术学院</a></li>
+                        <li><a href="">管理学院</a></li>
+                        <li><a href="">IT学院</a></li>
+                    </ul>
+                    <div class="wechat-code">
+                        <img src="../../assets/images/home/qr-code.png">
+                        关注中鹏
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧导航 end -->
+        </div>
+    </div>
+</div>
+<!-- header end -->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZpXTKGoufXAqiOE1Qbi3y3BPgrY0OVPs"></script>
+<!--map-->
+<div id="allmap" style="height:100%"></div>
+    <div class="map">
+        <img src="../../assets/images/manage/near_course.png" />
+        <div class="map_info">
+            <h3>福田校区</h3>
+            <ul>
+                <li class="icon_map">深圳市福田区上步中路深勘大厦19楼</li>
+                <li class="icon_tel">400-930-6618</li>
+            </ul>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(116.331398,39.897445);
+    map.centerAndZoom(point,12);
+    // 创建地址解析器实例
+    var myGeo = new BMap.Geocoder();
+    // 将地址解析结果显示在地图上,并调整地图视野
+    myGeo.getPoint("深圳市福田区上步中路深勘大厦19楼", function(point){
+        if (point) {
+            map.centerAndZoom(point, 16);
+            map.addOverlay(new BMap.Marker(point));
+        }
+    }, "深圳市");
+</script>
+<!--map end-->
+<script src="../../assets/plugins/jquery-1.10.1.min.js"></script>
+<script src="../../assets/plugins/swiper/swiper.min.js"></script>
+<script src="../../assets/js/common.js"></script>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+        });
+        var near_course = new Swiper('#near_course', {
+            slidesPerView : 2.5,
+			spaceBetween : 10,
+        });
+        var near_course = new Swiper('#manage_list_nav', {
+            slidesPerView : 4.5,
+            spaceBetween : 10,
+        });
+    })
+</script>
+</body>
+</html>

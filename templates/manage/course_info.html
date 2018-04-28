@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>首页</title>
+    <script src="../../assets/js/rem.js"></script>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+    <link rel="stylesheet" href="../../assets/plugins/swiper/swiper.min.css">
+    <link rel="stylesheet" href="../../assets/css/styleManage.css">
+</head>
+<body>
+<!-- header -->
+<div class="header">
+    <div class="head">
+        <h1>中鹏培训</h1>
+        <div class="menu">
+            <span id="menuContorl" onclick="app.showMenu()"></span>
+            <!-- 右侧导航 -->
+            <div class="menuAside">
+                <div class="menuAside-inner">
+                    <dl>
+                        <dt>导  航<i>MENU</i><span onclick="app.hideMenu()"></span></dt>
+                        <dd><a href="">学院首页</a></dd>
+                        <dd><a href="">课程中心</a></dd>
+                        <dd><a href="">报考中心</a></dd>
+                        <dd><a href="">学院动态</a></dd>
+                        <dd><a href="">学员天地</a></dd>
+                        <dd><a href="">更多</a></dd>
+                    </dl>
+                    <ul>
+                        <li><a href="">官网首页</a></li>
+                        <li><a href="">设计艺术学院</a></li>
+                        <li><a href="">管理学院</a></li>
+                        <li><a href="">IT学院</a></li>
+                    </ul>
+                    <div class="wechat-code">
+                        <img src="../../assets/images/home/qr-code.png">
+                        关注中鹏
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧导航 end -->
+        </div>
+    </div>
+</div>
+<!-- header end -->
+<!--course_detail-->
+    <div class="course_detail">
+        <img src="../../assets/images/manage/course.png" />
+        <p>企业人力资源管理师<a href="">申请优惠</a></p>
+        <ul>
+            <li class="course_time">上课时间<span>周末</span></li>
+            <li class="course_addr">上课地点<i>深圳市南山区南山大道亿利达大厦B区2楼</i></li>
+            <li class="course_type">授课形式<span id="course_select">线上直播</span><span>线下面授</span><span>录播视频</span></li>
+        </ul>
+        <div class="course_btn">
+            <a href="" class="course_btn_1">报名</a>
+            <a href="" class="course_btn_2">立即咨询</a>
+        </div>
+        <div class="classes_detail">
+            <h3>班级<span>详情</span></h3>
+            <ul>
+                <li class="classes_detail_1">工作空余时间比较多的学员</li>
+                <li class="classes_detail_2">艺术设计专业培养具备艺术设计学教学和研究等方面的知识和能力，能在艺术设计教育、研究、设计、出版和文博等单位从事艺术设计学教学、研究、编辑等方面工作的专门人才。艺术设计专业：包括平面设计专业、环境艺术设计专业、电脑艺术设计专业、装潢艺术设计专业、工业设计（艺术类）、动画专业 服装设计，展示设计等。
+</li>
+                <li class="classes_detail_3">素描与光影绘制训练训练、色彩的知识和实际运用、GUI三大构成、GUI软件基础训练-PS、GUI软件基础训练-AI、CD、GUI软件基础训练-ID、GUI行业要求的设计流程、商业实战。使用工具：Photoshop、DroidDraw、Lumzy、Mockingbird、Dojo、Mocklinkr……</li>
+            </ul>
+        </div>
+    </div>
+<!--course_detail end-->
+<!--like_course-->
+    <div class="like_course">
+    <h3>同类<span>课程</span></h3>
+        <ul>
+            <li><a href="">
+                <img src="../../assets/images/manage/top_course4.png" />
+                <span>采购师</span>
+            </a></li>
+            <li><a href="">
+                <img src="../../assets/images/manage/top_course4.png" />
+                <span>采购师</span>
+            </a></li>
+        </ul>
+    </div>
+<!--like_course end-->
+<!-- footer -->
+<div class="footer">
+    <div class="footer-links flex flex-items">
+        <ul>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">企业文化</a></li>
+            <li><a href="">加入我们</a></li>
+        </ul>
+        <div class="footer-contact">
+            <a href="tel:4009306618">
+                <i class="icon-phone"></i>
+                <span>联系号码  400-930-6618</span>
+            </a>
+        </div>
+    </div>
+    <p class="copyright">
+        Copyright © 2008-2018   深圳市中鹏教育科技股份有限公司<br>
+        ALL RIGHT RESERVED 备案号:粤ICP备09069122号-25
+    </p>
+</div>
+<!-- footer end-->
+<script src="../../assets/plugins/jquery-1.10.1.min.js"></script>
+<script src="../../assets/plugins/swiper/swiper.min.js"></script>
+<script src="../../assets/js/common.js"></script>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+        });
+        var near_course = new Swiper('#near_course', {
+            slidesPerView : 2.5,
+            spaceBetween : 10,
+        });
+        var near_course = new Swiper('#manage_list_nav', {
+            slidesPerView : 4.5,
+            spaceBetween : 10,
+        });
+    })
+</script>
+</body>
+</html>
