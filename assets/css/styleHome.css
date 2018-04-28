@@ -746,7 +746,7 @@ a {
   line-height: 1.6rem;
   text-align: center; }
 
-.newlist-nav on {
+.newlist-nav .on {
   border-bottom: 0.1066666667rem solid #b5b5b6; }
 
 .newlist-nav a img {
