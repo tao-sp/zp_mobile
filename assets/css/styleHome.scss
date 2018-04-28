@@ -147,6 +147,9 @@ a{
   background: url("../images/home/triangle-right.png") right no-repeat;
   background-size: px2rem(8) px2rem(10);
 }
+.sideMenu ul li a{
+  display: block;
+}
 .border-top-none{
   border-top: none !important;
 }
@@ -575,7 +578,11 @@ margin-top: px2rem(86);
   color: #333333;
 }
 .home-article-pre,.home-article-next{
-  width:px2rem(710);
+  display: block;
+  padding-left: px2rem(70);
+  font-size: px2rem(20);
+  color: #666666;
+  width:px2rem(640);
   height:px2rem(64);
   line-height: px2rem(64);
   background-color: #f5f5f5;
@@ -592,3 +599,200 @@ margin-top: px2rem(86);
   background-image: url("../images/home/home-article-next.png");
 }
 /*文章内容模板页面结束*/
+/*加入我们详情页开始*/
+.joinus-title{
+  margin: auto;
+  padding: px2rem(30);
+  border-radius: px2rem(6);
+  width:px2rem(644);
+  height:px2rem(120);
+  border:px2rem(3) solid #dcdddd;
+  position: relative;
+}
+.joinus-btn{
+  background: #ed9336;
+  font-size: px2rem(20);
+  font-weight: bold;
+  color: #ffffff;
+  padding: px2rem(10) px2rem(20);
+  border-radius: px2rem(60);
+  box-shadow: 0px px2rem(2) px2rem(8) rgba(237, 147, 54, 0.6588235294117647);
+  position: absolute;
+  bottom:px2rem(30);
+  right:px2rem(30);
+}
+.joinus-title-left{
+  float: left;
+  min-width: px2rem(270);
+}
+.font-large{
+  color: #333333;
+  font-size: px2rem(30);
+  line-height: px2rem(52);
+}
+.font-mini{
+  font-size: px2rem(24);
+  color: rgba(51,51,51,0.6);
+  line-height: px2rem(36);
+}
+.joinus-contnet{
+  font-size: px2rem(22);
+  color: #666666;
+  margin: px2rem(20);
+  line-height: px2rem(36);
+}
+/*加入我们详情页结束*/
+
+/*加入我们列表页开始*/
+.joinus-header{
+  width:px2rem(750);
+}
+.bg-black{
+  background: #000000;
+}
+.joinus-list-title{
+  margin:px2rem(20) auto;
+  padding: px2rem(30);
+  background: #262626;
+  border-radius: px2rem(6);
+  width:px2rem(650);
+  height:px2rem(120);
+  position: relative;
+}
+.font-white{
+  color: #ffffff;
+}
+.font-white-50{
+  color: rgba(255,255,255,0.5);
+}
+.joinus-list-btn {
+  font-size: px2rem(20);
+  font-weight: bold;
+  height: px2rem(140);
+  width: px2rem(80);
+  display: block;
+  line-height: px2rem(140);
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: px2rem(30);
+  right: px2rem(30);
+  background-image: url("../images/home/joinus-detail.png");
+  background-repeat: no-repeat;
+  background-size: px2rem(11) px2rem(23);
+  background-position: right center;
+}
+/*加入我们列表页结束*/
+
+/*荣誉资质开始*/
+.hone-honer-nav {
+  height: 1.8346666667rem;
+  width: 16rem;
+  box-shadow: 0px 4px 21px rgba(158, 158, 158, 0.3);
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.hone-honer-nav a{
+  font-size: px2rem(24);
+  color: #666666;
+  padding: px2rem(6) px2rem(20);
+}
+.hone-honer-nav .on{
+  background: #ed9336;
+  color: #ffffff;
+  border-radius: px2rem(26);
+  margin: auto px2rem(24);
+}
+.home-nav-space-1{
+  width:px2rem(750);
+  height: px2rem(88);
+}
+.home-honer-list{
+  margin: px2rem(20);
+}
+.home-honer-list li{
+  width:px2rem(340);
+  float: left;
+  font-size: px2rem(20);
+  color: #666666;
+  margin: px2rem(26) px2rem(29) px2rem(16) 0;
+}
+.home-honer-list li:nth-child(2n){
+  margin-right: 0;
+}
+.home-honer-list li img{
+  width:px2rem(340);
+  height:px2rem(259);
+}
+/*荣誉资质结束*/
+/*咨询中心开始*/
+.newlistimg{
+  width:px2rem(750);
+}
+.newlist-nav{
+  width:px2rem(708);
+  height:px2rem(80);
+  position: relative;
+  top:px2rem(-49);
+  background: #ffffff;
+  margin: auto;
+  box-shadow: 0px 4px 21px rgba(158, 158, 158, 0.3);
+}
+.newlist-nav a{
+  display: block;
+  float: left;
+  width:px2rem(236);
+  height:px2rem(75);
+  font-size: px2rem(22);
+  color: #333333;
+  line-height:px2rem(75);
+  text-align: center;
+}
+.newlist-nav on{
+ border-bottom: px2rem(5) solid #b5b5b6;
+}
+.newlist-nav a img{
+  width:px2rem(22);
+  vertical-align: px2rem(-3);
+  margin-right: px2rem(3);
+}
+.news-list{
+  width:px2rem(710);
+  margin: px2rem(12) auto;
+}
+.news-list > li{
+  margin: px2rem(30) auto;
+}
+.news-list > li:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1;
+}
+.news-list > li > a > img{
+  width:px2rem(234);
+  float: left;
+  display: block;
+}
+.list-right{
+  width:px2rem(460);
+  float: left;
+  margin-left: px2rem(15);
+}
+.list-right .list-right-summary{
+  font-size:px2rem(22);
+  color: #666666;
+  height: px2rem(92);
+  overflow: hidden;
+}
+.list-right .list-right-title{
+  font-size:px2rem(24);
+  color: #ed9336;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: px2rem(16);
+
+}
+/*咨询中心结束*/

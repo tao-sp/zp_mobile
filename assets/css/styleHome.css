@@ -149,6 +149,9 @@ a {
   background: url("../images/home/triangle-right.png") right no-repeat;
   background-size: 0.1706666667rem 0.2133333333rem; }
 
+.sideMenu ul li a {
+  display: block; }
+
 .border-top-none {
   border-top: none !important; }
 
@@ -569,7 +572,11 @@ a {
   color: #333333; }
 
 .home-article-pre, .home-article-next {
-  width: 15.1466666667rem;
+  display: block;
+  padding-left: 1.4933333333rem;
+  font-size: 0.4266666667rem;
+  color: #666666;
+  width: 13.6533333333rem;
   height: 1.3653333333rem;
   line-height: 1.3653333333rem;
   background-color: #f5f5f5;
@@ -586,5 +593,199 @@ a {
   background-image: url("../images/home/home-article-next.png"); }
 
 /*文章内容模板页面结束*/
+/*加入我们详情页开始*/
+.joinus-title {
+  margin: auto;
+  padding: 0.64rem;
+  border-radius: 0.128rem;
+  width: 13.7386666667rem;
+  height: 2.56rem;
+  border: 0.064rem solid #dcdddd;
+  position: relative; }
+
+.joinus-btn {
+  background: #ed9336;
+  font-size: 0.4266666667rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0.2133333333rem 0.4266666667rem;
+  border-radius: 1.28rem;
+  box-shadow: 0px 0.0426666667rem 0.1706666667rem rgba(237, 147, 54, 0.6588235294);
+  position: absolute;
+  bottom: 0.64rem;
+  right: 0.64rem; }
+
+.joinus-title-left {
+  float: left;
+  min-width: 5.76rem; }
+
+.font-large {
+  color: #333333;
+  font-size: 0.64rem;
+  line-height: 1.1093333333rem; }
+
+.font-mini {
+  font-size: 0.512rem;
+  color: rgba(51, 51, 51, 0.6);
+  line-height: 0.768rem; }
+
+.joinus-contnet {
+  font-size: 0.4693333333rem;
+  color: #666666;
+  margin: 0.4266666667rem;
+  line-height: 0.768rem; }
+
+/*加入我们详情页结束*/
+/*加入我们列表页开始*/
+.joinus-header {
+  width: 16rem; }
+
+.bg-black {
+  background: #000000; }
+
+.joinus-list-title {
+  margin: 0.4266666667rem auto;
+  padding: 0.64rem;
+  background: #262626;
+  border-radius: 0.128rem;
+  width: 13.8666666667rem;
+  height: 2.56rem;
+  position: relative; }
+
+.font-white {
+  color: #ffffff; }
+
+.font-white-50 {
+  color: rgba(255, 255, 255, 0.5); }
+
+.joinus-list-btn {
+  font-size: 0.4266666667rem;
+  font-weight: bold;
+  height: 2.9866666667rem;
+  width: 1.7066666667rem;
+  display: block;
+  line-height: 2.9866666667rem;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0.64rem;
+  right: 0.64rem;
+  background-image: url("../images/home/joinus-detail.png");
+  background-repeat: no-repeat;
+  background-size: 0.2346666667rem 0.4906666667rem;
+  background-position: right center; }
+
+/*加入我们列表页结束*/
+/*荣誉资质开始*/
+.hone-honer-nav {
+  height: 1.8346666667rem;
+  width: 16rem;
+  box-shadow: 0px 4px 21px rgba(158, 158, 158, 0.3);
+  overflow-x: auto;
+  white-space: nowrap; }
+
+.hone-honer-nav a {
+  font-size: 0.512rem;
+  color: #666666;
+  padding: 0.128rem 0.4266666667rem; }
+
+.hone-honer-nav .on {
+  background: #ed9336;
+  color: #ffffff;
+  border-radius: 0.5546666667rem;
+  margin: auto 0.512rem; }
+
+.home-nav-space-1 {
+  width: 16rem;
+  height: 1.8773333333rem; }
+
+.home-honer-list {
+  margin: 0.4266666667rem; }
+
+.home-honer-list li {
+  width: 7.2533333333rem;
+  float: left;
+  font-size: 0.4266666667rem;
+  color: #666666;
+  margin: 0.5546666667rem 0.6186666667rem 0.3413333333rem 0; }
+
+.home-honer-list li:nth-child(2n) {
+  margin-right: 0; }
+
+.home-honer-list li img {
+  width: 7.2533333333rem;
+  height: 5.5253333333rem; }
+
+/*荣誉资质结束*/
+/*咨询中心开始*/
+.newlistimg {
+  width: 16rem; }
+
+.newlist-nav {
+  width: 15.104rem;
+  height: 1.7066666667rem;
+  position: relative;
+  top: -1.0453333333rem;
+  background: #ffffff;
+  margin: auto;
+  box-shadow: 0px 4px 21px rgba(158, 158, 158, 0.3); }
+
+.newlist-nav a {
+  display: block;
+  float: left;
+  width: 5.0346666667rem;
+  height: 1.6rem;
+  font-size: 0.4693333333rem;
+  color: #333333;
+  line-height: 1.6rem;
+  text-align: center; }
+
+.newlist-nav on {
+  border-bottom: 0.1066666667rem solid #b5b5b6; }
+
+.newlist-nav a img {
+  width: 0.4693333333rem;
+  vertical-align: -0.064rem;
+  margin-right: 0.064rem; }
+
+.news-list {
+  width: 15.1466666667rem;
+  margin: 0.256rem auto; }
+
+.news-list > li {
+  margin: 0.64rem auto; }
+
+.news-list > li:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.news-list > li > a > img {
+  width: 4.992rem;
+  float: left;
+  display: block; }
+
+.list-right {
+  width: 9.8133333333rem;
+  float: left;
+  margin-left: 0.32rem; }
+
+.list-right .list-right-summary {
+  font-size: 0.4693333333rem;
+  color: #666666;
+  height: 1.9626666667rem;
+  overflow: hidden; }
+
+.list-right .list-right-title {
+  font-size: 0.512rem;
+  color: #ed9336;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0.3413333333rem; }
+
+/*咨询中心结束*/
 
 /*# sourceMappingURL=styleHome.css.map */
