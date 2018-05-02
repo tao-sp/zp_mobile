@@ -1,0 +1,176 @@
+ /*心理咨询 */
+.left{float: left;}
+.right{float: right;}
+.in{ width: 7.1rem;margin: 0 auto;}
+img{ display: block; }
+/* header */
+
+/* banner */
+.banner{width: 100%;height: 5rem;background: url('../images/banner.png') center center no-repeat;background-size: 7.5rem 5rem;}
+.title-name{ font-size: 0.45rem;text-align: center;line-height: 0.63rem;font-weight: normal;color: #312e29;}
+.title-describe{ font-size: 0.24rem;text-align: center;line-height: 0.35rem;font-weight: normal;color: #312e29;}
+.title-describe span{ color: #9e8064;font-weight: bolder;margin: 0 0.15rem;}
+.title-eng{ font-size: 0.15rem;line-height: 0.29rem;color: #9e8064;text-align: center;font-family: '新宋体';}
+.psychological{ position: relative; width: 100%;margin-top: 0.43rem;}
+.psychological .title-describe{position: relative;}
+.psychological .title-describe:before{ position: absolute;content: '';top: 0.17rem;left: 0;width: 1.42rem;height: 1px;background: #000;}
+.psychological .title-describe:after{ position: absolute;content: '';top: 0.17rem;right: 0;width: 1.45rem;height: 1px;background: #000; }
+.psychological-body{ overflow: hidden; margin-top: 0.44rem; color: #9e8064;}
+.psychological-body .text{ width: 3.53rem; }
+.psychological-body .text h2{ font-size: 0.32rem; padding-top: 0.05rem; line-height: 0.32rem;}
+.psychological-body .text h2:nth-of-type(2){ font-size: 0.27rem; line-height: 0.47rem;}
+.psychological-body .text h2 span{ font-size: 0.18rem; line-height:  0.52rem;}
+.psychological-body .text h2 i{ font-size: 0.35rem; font-style: normal; line-height: 0.39rem; }
+.psychological-body .btn{ display: block;margin-top:0.1rem;width: 3.49rem;height: 0.49rem;padding-left: 0.15rem;line-height: 0.49rem;box-sizing: border-box;border: 0.01rem solid #9e8064;font-size: 0.22rem;background: url('../images/left.png') 2.97rem center no-repeat;background-size: 0.21rem 0.17rem;}
+.psychological-body .btn{ margin-top: 0.16rem;}
+.psychological-body .pic{ width: 3.31rem; height: 2.11rem;}
+.psychological-body .pic img{ width: 3.31rem; height: 2.11rem;}
+.reason{ margin-top: 0.55rem; width: 100%; }
+.reason-t{ text-align: right; font-size: 0.28rem; height: 1.59rem; line-height: 0.36rem; color: #fff; font-weight: normal;background: url('../images/b1.png') center center no-repeat; background-size: 7.5rem 1.59rem;}
+.reason-t h2{ padding-top: 0.5rem; }
+.reason-t h2 span{ font-size: 0.32rem; line-height: 0.32rem; }
+.reason-t h4{ font-size: 0.15rem; line-height: 0.27rem; color: #cbc6c3; }
+.reason-list{ width: 100%; margin-top: 0.54rem; }
+.reason-list .i-t{ font-size: 0.12rem; color: #9e8064; height: 0.56rem; line-height: 0.86rem; padding-left: 2rem;}
+.reason-list p{ font-size: 0.19rem; color: #9e8064; line-height: 0.3rem; }
+.reason-list p span{ font-size: 0.21rem; font-weight: bold; }
+.reason-list .one .i-t{ margin-bottom: 0.1rem; background: url('../images/one.png') left center no-repeat; background-size: 2.51rem 0.56rem; }
+.reason-list h3{ font-size: 0.24rem; color: #9e8064; text-align: center; line-height: 0.82rem; margin-top: 0.21rem; }
+.reason-list .one .pic{ width:100%; height: auto; }
+.reason-list .one .pic img{ display: block; width:100%; height: auto; }
+.reason-list .two .i-t{ margin-top: 0.77rem; background: url('../images/two.png') 1.77rem center no-repeat; background-size: 2.29rem 0.46rem; height: 0.48rem; line-height: 0.83rem; padding-left: 3.3rem; }
+.reason-list .two h3{ font-size: 0.27rem; color: #312e29; line-height: 0.45rem; margin-top: 0.13rem; }
+.reason-list .two p{ text-align: center; font-size: 0.19rem; color: #312e29; line-height: 0.37rem; }
+.reason-list .two .box{ overflow: hidden; margin-top: 0.35rem; }
+.reason-list .two .box .box-i{ width: 33.33%; float: left; text-align: center; }
+.reason-list .two .box h6{ font-size: 0.24rem; color: #9e8064; line-height: 0.4rem; }
+.reason-list .two .box span{ display: block; margin: 0 auto; width: 0.51rem; height: 0.52rem; }
+.reason-list .two .box-i:nth-of-type(1) span{ background: url(../images/man.png) center center no-repeat; background-size: 0.51rem 0.52rem; }
+.reason-list .two .box-i:nth-of-type(2) span{ background: url(../images/tv.png) center center no-repeat; background-size: 0.42rem 0.4rem; }
+.reason-list .two .box-i:nth-of-type(3) span{ background: url(../images/picture.png) center center no-repeat; background-size: 0.42rem 0.38rem; }
+.reason-list .two .box p{ font-size: 0.2rem; line-height: 0.3rem; color: #9e8064; text-align: center; }
+.reason-list .two .jg{ display: block; padding-left: 0.25rem; margin: 0.33rem auto 0; font-size: 0.23rem; line-height: 0.5rem; box-sizing: border-box; width: 3.45rem; height: 0.5rem; color: #9e8064; background: url(../images/left.png) 3rem center no-repeat; background-size: 0.21rem 0.17rem; border:0.01rem solid #9e8064;}
+.reason-list .places{ padding-top: 0.28rem; width:100%; height: 1.74rem; background: #f5f2ef; margin-top: 0.45rem; }
+.reason-list .places .txt{ width: 4.35rem; }
+.reason-list .places .txt p{ height: 0.4rem; font-size: 0.25rem; line-height: 0.4rem; color: #9e8064; }
+.reason-list .places .txt p span{ display: inline-block; font-size: 0.4rem; line-height: 0.28rem; color: #9e8064; font-weight: bold;}
+.reason-list .places .qg{ display: block; margin-top: 0.63rem; font-size: 0.23rem; line-height: 0.43rem;color: #9e8064; padding-left: 0.22rem; width: 1.75rem;height: 0.43rem; box-sizing: border-box; border:0.01rem solid #9e8064;background: url(../images/left.png) 1.3rem center no-repeat; background-size: 0.21rem 0.17rem; }
+.reason-list .three { margin-top: 0.5rem; }
+.reason-list .three .i-t{ height: 0.6rem; font-size: 0.21rem; padding-left: 1.9rem; background: url(../images/three.png) right top no-repeat; background-size: 3.04rem 0.57rem; }
+.reason-list .three .i-t span{ font-weight: bold; }
+.reason-list .three .box{ height: 2.26rem; background: url(../images/b2.jpg) center center no-repeat; background-size: 7.1rem 2.26rem; margin-top: 0.45rem; }
+.reason-list .three p{ width: 3.5rem; font-size: 0.21rem; line-height: 0.3rem; color: #fff; overflow: hidden;text-overflow: ellipsis;white-space: nowrap; }
+.reason-list .three p span{ font-weight: normal; font-size: 0.35rem; line-height: 0.49rem; }
+.reason-list .three .left{ position: relative; margin: 0.31rem 0 0 0.43rem; }
+.reason-list .three .left:before{ position: absolute; content: ''; top: 0.01rem; left: -0.17rem; width: 0.01rem; height: 1.64rem; background: #fff; }
+.reason-list .three .right{ width: 1.7rem; height: 1.7rem; border-radius: 50%; border: 0.01rem solid #fff; margin: 0.29rem 0.29rem 0 0; text-align: center;}
+.reason-list .three .right p{ width:1.8rem; font-size: 0.37rem; line-height: 0.57rem;}
+.reason-list .three .right p.tenyear{ position: relative; padding-top: 0.28rem; width:1.8rem; font-size: 0.44rem; line-height: 0.57rem;}
+.reason-list .three .right p.tenyear span{font-size: 0.58rem; line-height: 0.57rem;}
+.reason-list .three .right p.tenyear:after{ position: absolute; content: ''; bottom: -0.03rem; left: 0.34rem; width: 1rem; height: 0.02rem; background: rgba(255,255,255,0.7); }
+.reason-list .picture{ width:7.4rem; height: 5.08rem; margin: 0.36rem auto 0;}
+.reason-list .picture img{ width:7.4rem; height: 5.08rem; }
+.reason-list .four{ margin-top: 0.8rem; }
+.reason-list .four .i-t{ padding-left: 3.07rem; height: 0.45rem; background: url(../images/four.png) 1.64rem center no-repeat; background-size: 2.52rem 0.5rem; }
+.reason-list .four h3{ line-height: 0.58rem; }
+.reason-list .four h3 span{ font-weight: bold;}
+.reason-list .four .box{ width:7.4rem; margin: 0.39rem auto 0; height: 8.15rem; background: url(../images/b3.png) left bottom no-repeat; background-size: 7.4rem 6.03rem;}
+.reason-list .four .pics{ width: 6.8rem; margin: 0 auto; overflow: hidden;  }
+.reason-list .four .pics img{ width: 1.98rem;height: 2.54rem; float: left; margin-left: 0.22rem; }
+.reason-list .four ul li{ float: left; width:33.33%; }
+.reason-list .four ul{ width: 6.5rem; margin: 0 auto; overflow: hidden; }
+.reason-list .four ul li p{ color: #fff; line-height: 0.3rem; font-size: 0.21rem; padding: 0 0.1rem; }
+.reason-list .four .name{ font-size: 0.25rem; line-height: 0.49rem;margin-top: 0.55rem; }
+.reason-list .four .line{ width: 2rem; height: 0.01rem; background: #fff; display: block; float: right; }
+.reason-list .four .job{ line-height: 0.4rem; }
+.senion h2{ font-size: 0.45rem; text-align: center; line-height: 0.48rem; color: #312e29; }
+.senion h2 span{ font-size: 0.34rem; color: #312e29;}
+.senion h2 span i{ color:#9e8064; font-style: normal; }
+.senion h6{ font-size: 0.12rem; line-height: 0.32rem; text-align: center; color: #9e8064;}
+.senion img{ width:7.1rem; height: 5.9rem; margin-top: 0.27rem; }
+.senion .ty{ margin-top: 0.55rem; height: 2.52rem; width: 7.1rem; background: url(../images/b4.png) center center no-repeat; background-size: 7.1rem 2.52rem; }
+.senion .ty h4{ font-size: 0.54rem; color: #9e8064; padding: 0.38rem 0 0 0.45rem;}
+.senion .ty h4 span{ font-size: 0.29rem; }
+.senion .ty h4 span i{ color: #312e29; font-style: normal; }
+.senion .ty p{ color: #9e8064; font-size: 0.22rem; padding-left: 0.45rem;}
+.senion .ty p span{ font-size: 0.35rem; font-weight: bold; }
+.senion .ty a{ display: block; width: 1.63rem; height: 0.39rem; border: 0.01rem solid #9e8064; font-size: 0.23rem; line-height: 0.39rem; color: #9e8064; background: url(../images/left.png) 1.25rem center no-repeat; background-size: 0.21rem 0.17rem; padding-left: 0.15rem; margin: 0.28rem 0 0 0.45rem;} 
+.btn{  display: block; width: 1.63rem; height: 0.39rem; border: 0.01rem solid #9e8064; font-size: 0.23rem; line-height: 0.39rem; color: #9e8064; background: url(../images/left.png) 1.25rem center no-repeat; background-size: 0.21rem 0.17rem; padding-left: 0.15rem; /*margin: 0.28rem 0 0 0.45rem; */}
+.card { margin-top: 0.5rem; }
+.card img{ width:4.58rem;height: 2.2rem; margin: 0 auto; }
+.card h4{ font-size: 0.29rem; color: #312e29; line-height: 0.35rem; margin-top: 0.32rem; text-align: center; }
+.card h4 span{ color:  #9e8064;}
+.card h6{ font-size: 0.12rem; color: #9e8064; line-height: 0.18rem; text-align: center; word-spacing: 0.05rem; }
+.card p{ text-align: center; font-size: 0.22rem; color: #9e8064;  }
+.card p span{ font-size: 0.36rem; line-height: 0.38rem;}
+.card .btns{ overflow: hidden; margin-top: 0.1rem; }
+.card .btns .btn{ width:1.78rem; margin-right: 0.18rem;}
+.card .btns .btn:nth-of-type(3){  margin-right: 0; background: url(../images/left.png) 1.45rem center no-repeat }
+.card .btns .btn:nth-of-type(1){  margin-left: 0.7rem;}
+.skill{ margin-top: 0.55rem; }
+.skill h4{ font-size: 0.23rem; line-height: 0.42rem; color: #484642; }
+.skill h4 i{ font-style: normal; color: #9e8064; }
+.skill h4 em{ font-style: normal; color: #cdb39b; }
+.skill h4 span{ font-size: 0.28rem; }
+.skill h6{ font-size: 0.13rem; color: #9e8064; line-height: 0.27rem; word-spacing: 0.05rem; }
+.skill img{ width: 7.1rem; margin-top: 0.2rem; }
+.form-group{ margin-bottom: 0.19rem; overflow: hidden; height: 0.4rem; line-height: 0.4rem;  }
+.form-group span{ color: #fff; font-size: 0.23rem; line-height: 0.4rem; float: left; }
+.form-group input{ text-indent: 0.05rem; font-size: 0.23rem; margin-left: 0.1rem; display: block; float: left; width: 2.35rem; height: 0.4rem; border: none; outline: none; background: #fff; }
+.form1{ height: 2.39rem; background: url(../images/b5.png) center center no-repeat; background-size: 7.1rem 2.39rem; margin-top: 0.28rem; }
+.form1 .left h4{ font-size: 0.25rem; line-height: 0.38rem; color: #fff; padding: 0.64rem 0 0 0.45rem; }
+.form1 .left p{width:2.5rem; font-size: 0.23rem; line-height: 0.38rem; color: #fff; padding: 0 0 0 0.45rem; }
+.form1 .line{ width: 0.01rem; height: 1.7rem; background: #fff;margin: 0.34rem 0 0 0.3rem; }
+.form1 .right{ margin: 0.43rem 0.43rem 0 0; }
+.form1 .sub{ display: block; margin-left: 0.52rem; text-align: center; width: 1.63rem; height: 0.39rem; border: 0.01rem solid #fff; font-size: 0.23rem; line-height: 0.39rem; color: #fff; }
+.course{ margin-top: 0.63rem; }
+.course h4{ font-size: 0.35rem; line-height: 0.52rem; color: #9e8064; text-align: center; }
+.course h4 span{ font-size: 0.45rem; color: #484642; }
+.course h6{ font-size: 0.12rem; text-align: center; line-height: 0.2rem; color: #9e8064;}
+.course img{ width: 7.1rem; margin-top: 0.37rem; }
+.life{height: 6.88rem; margin-top: 0.78rem; background: url(../images/b6.png) center 0.6rem no-repeat; background-size: 7.07rem 6.28rem; }
+.life h4{  font-size: 0.27rem; line-height: 0.52rem; color: #9e8064; }
+.life h4 span{  color: #9e8064; }
+.life h4 span i{ font-style: normal; font-size: 0.32rem; font-weight: bold; }
+.life h6{ font-size: 0.21rem; line-height: 0.33rem; color: #9e8064;}
+.life h6 span{ font-size: 0.12rem; }
+.form2{ margin-top: 0.55rem; width:100%; height: 4.75rem; background: url(../images/b7.png) center center no-repeat; background-size: 7.5rem 4.75rem; }
+.form2 h4{ font-size: 0.34rem; color: #fff; line-height: 0.68rem; padding-top: 0.33rem; text-align: center; }
+.form2 h4 span{ font-size: 0.46rem; }
+.form2 p{ margin-bottom: 0.33rem; font-size: 0.23rem; color: #fff; line-height: 0.47rem; text-align: center; }
+.form2 .line{ display: block; width: 5.83rem;height: 0.01rem; background: #cfc2b7; margin: 0 auto; }
+.form2 .form-group{ margin-left: 1.3rem; }
+.form2 .form-group input{ width: 3.6rem; }
+.form2 .search{ display: block; width: 1.76rem; height: 0.43rem; color: #fff; border: 0.01rem solid #fff; text-align: center; line-height: 0.43rem; font-size: 0.23rem; margin: 0 auto; }
+.service{ margin-top: 0.56rem; }
+.service h4{  font-size: 0.34rem; line-height: 0.44rem; color: #433f3a; text-align: center; }
+.service h4 span{ font-size: 0.45rem; color:#433f3a;  }
+.service h4 i{ font-style: normal; font-size: 0.32rem; font-weight: bold; color: #9e8064;}
+.service h6{ font-size: 0.12rem; line-height: 0.22rem; color: #9e8064; text-align:center;}
+.service ul { overflow: hidden; }
+.service ul li{float: left; width:20%; text-align: center; margin-top: 0.59rem; }
+.service ul li p{ font-size: 0.2rem; line-height: 0.54rem; color: #9e8064; text-align: center; }
+.service ul li i{margin-top: 0.19rem; display: block; background: #9e8064; width:0.24rem; height:0.05rem; margin: 0 auto;}
+.service ul li span{ display: block; width: 0.35rem;height: 0.35rem; margin: 0 auto; }
+.service ul li:nth-of-type(1) span{ background: url(../images/11.png) center center no-repeat; background-size: 0.35rem 0.35rem;}
+.service ul li:nth-of-type(2) span{ background: url(../images/12.png) center center no-repeat; background-size: 0.31rem 0.31rem;}
+.service ul li:nth-of-type(3) span{ background: url(../images/13.png) center center no-repeat; background-size: 0.31rem 0.25rem;}
+.service ul li:nth-of-type(4) span{ background: url(../images/14.png) center center no-repeat; background-size: 0.23rem 0.31rem;}
+.service ul li:nth-of-type(5) span{ background: url(../images/15.png) center center no-repeat; background-size: 0.31rem 0.35rem;}
+.service ul li:nth-of-type(6) span{ background: url(../images/16.png) center center no-repeat; background-size: 0.32rem 0.27rem;}
+.service ul li:nth-of-type(7) span{ background: url(../images/17.png) center center no-repeat; background-size: 0.25rem 0.23rem;}
+.service ul li:nth-of-type(8) span{ background: url(../images/18.png) center center no-repeat; background-size: 0.31rem 0.31rem;}
+.service ul li:nth-of-type(9) span{ background: url(../images/19.png) center center no-repeat; background-size: 0.32rem 0.32rem;}
+.service ul li:nth-of-type(10) span{ background: url(../images/20.png) center center no-repeat; background-size: 0.35rem 0.33rem;}
+.service a{ display: block; width: 1.78rem; height: 0.44rem; line-height: 0.44rem; border: 0.01rem solid #9e8064; text-align: center; font-size: 0.23rem; color: #9e8064; margin: 0.33rem auto 0; }
+.added{ margin-top: 0.45rem; width: 100%;height: 2.49rem; background: url(../images/b9.png) center center no-repeat; background-size: 7.5rem 2.49rem; }
+.added .in{ position: relative; height: 2.49rem; }
+.added h4{  font-size: 0.23rem; line-height: 0.36rem; color: #fff; padding-top: 0.22rem; }
+.added h4 span{ font-size: 0.28rem; }
+.added h6{ font-size: 0.12rem; line-height: 0.2rem; margin-left: 0.15rem; color: #fff;}
+.added .line{ display: block;width: 3.35rem; height: 0.01rem; background: #fff; margin: 0.06rem 0 0.16rem 0; }
+.added p{ color: #fff; line-height: 0.3rem; font-size: 0.2rem; }
+.added p.mid{ text-align: center; }
+.added p.pt{  width: 4.4rem; overflow: hidden;}
+.added p.hd{ width: 6.3rem; margin: 0 auto; overflow: hidden;}
+.added a{ position: absolute; right: 0; bottom: 0.3rem; display: block; width: 1.56rem; height: 0.39rem; border:0.01rem solid #fff; color: #fff; text-align: center; line-height: 0.39rem; font-size: 0.23rem; }

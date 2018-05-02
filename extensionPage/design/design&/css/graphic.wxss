@@ -1,0 +1,665 @@
+body {
+  background: #ffffff;
+}
+h2 {
+  color: #fff;
+  font-size: 0.36rem;
+  text-align: center;
+  line-height: .5rem;
+}
+h2 em {
+  font-weight: bold ;
+}
+input[type=text] {
+  width: 4.04rem;
+  height: .45rem ;
+  background: #fff;
+  border-radius: 0.1rem;
+  padding-left: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.45rem;
+  color: #333;
+}
+input::-ms-input-placeholder {
+  color: #999999;
+}
+.btn-go {
+  height: 0.45rem;
+  line-height: 0.45rem;
+  padding: 0 0.27rem;
+  border: 1px solid #fcaa09;
+  border-radius: 0.1rem ;
+  font-size: 0.24rem;
+  display: inline-block;
+  color: #fcaa09;
+}
+.floor1 {
+  margin-top: 0.4rem;
+  padding: 0 0.18rem ;
+  text-align: center;
+}
+.floor1 .bg {
+  padding-top: 0.6rem;
+  padding-bottom: 1.2rem;
+  background: url(../images/graphic/floor1bg.png) no-repeat top center;
+  background-size: 100%;
+  width: 7.09rem;
+}
+.floor1 .phoneNum,
+.floor1 .btn-go {
+  margin-top: 0.2rem;
+}
+.floor1 .pro {
+  margin-top: -0.64rem;
+}
+.floor1 .pro .item {
+  width: 2.11rem;
+  height: 3.06rem;
+  margin-right: 0.15rem;
+  margin-bottom: 0.28rem ;
+  display: inline-block;
+  background-color: #808080;
+  box-shadow: 0px 6px 9.4px 0.6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.05rem;
+  overflow: hidden;
+}
+.floor1 .pro .item img {
+  width: 2.11rem;
+  height: 2.59rem;
+}
+.floor1 .pro .item p {
+  font-size: 0.22rem;
+  color: #333333;
+  height: 0.46rem;
+  line-height: .46rem;
+  background: #fcaa09;
+}
+.floor1 .pro .item:nth-of-type(3) {
+  margin-right: 0;
+}
+.floor1-2 {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.floor1-2 h3 {
+  font-size: 0.36rem;
+  line-height: 0.5rem;
+}
+.floor1-2 h3 em {
+  font-size: 0.48rem;
+  font-weight: normal ;
+}
+.floor1-2 .p {
+  margin-top: 0.2rem;
+  color: #666666;
+  fill: 0.22rem;
+}
+.floor1-2 .profession {
+  margin-top: 0.2rem;
+}
+.ad1 {
+  padding: 0 0.18rem;
+  height: 2.78rem;
+  margin-bottom: -1.4rem;
+  margin-top: 0.3rem;
+}
+.ad1 .texting {
+  background: url(../images/graphic/images/t-mark.png) left center no-repeat #ed4949;
+  background-size: 1.3rem ;
+  width: 3.9rem;
+  height: 2.78rem;
+  font-size: 0.3rem;
+  color: #fff;
+  line-height: 0.4rem;
+  padding-top: 0.6rem;
+  padding-left: 0.45rem;
+  box-sizing: border-box;
+}
+.ad1 .texting em {
+  font-weight: bold;
+}
+.ad1 .btn-go {
+  font-weight: bold;
+  color: #ed4949;
+  margin-top: 0.24rem;
+  background: #fff;
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.ad1 .video-1 {
+  float: left;
+  width: 3.22rem;
+  height: 2.78rem;
+}
+.floor2 {
+  padding-top: 2.55rem;
+  height: 5.4rem;
+  background: url(../images/graphic/images/floor1-3.png) no-repeat;
+  background-size: 7.5rem 5.4rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+.floor2 h3 {
+  color: #fff;
+  font-size: .44rem;
+}
+.floor2 .title {
+  margin-top: 0.2rem;
+  font-size: 0.58rem;
+  color: #fff;
+}
+.floor2 .title em {
+  display: inline-block;
+  padding-left: ;
+  color: #c07489;
+  margin-left: 0.25rem;
+  padding: 0 0.05rem;
+  background: #FFFFFF;
+  box-shadow: 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.2);
+}
+.lesson1,
+.lesson2,
+.lesson3 {
+  padding: 0 0.18rem 0.82rem;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+.lesson1 .mark,
+.lesson2 .mark,
+.lesson3 .mark {
+  width: 1.69rem;
+  height: 1.38rem;
+}
+.lesson1 .cont,
+.lesson2 .cont,
+.lesson3 .cont {
+  margin-left: 0.05rem;
+  width: 5.37rem;
+  line-height: 0.4rem;
+  text-align: left;
+}
+.lesson1 .cont .title,
+.lesson2 .cont .title,
+.lesson3 .cont .title {
+  width: 5.37rem;
+  height: 0.43rem;
+}
+.lesson1 .cont .title-2,
+.lesson2 .cont .title-2,
+.lesson3 .cont .title-2 {
+  font-size: 0.36rem;
+  font-weight: bold;
+}
+.lesson1 .cont .txt,
+.lesson2 .cont .txt,
+.lesson3 .cont .txt {
+  font-size: 0.22rem;
+}
+.lesson1 .cont .txt em,
+.lesson2 .cont .txt em,
+.lesson3 .cont .txt em {
+  font-weight: bold;
+}
+.lesson1 .cont .txt i,
+.lesson2 .cont .txt i,
+.lesson3 .cont .txt i {
+  color: #7227f6;
+  font-weight: bold;
+}
+.lesson1 .btn,
+.lesson2 .btn,
+.lesson3 .btn {
+  margin-top: 0.3rem;
+}
+.lesson1 .btn .btn-go,
+.lesson2 .btn .btn-go,
+.lesson3 .btn .btn-go {
+  border-color: #b5b5b6 ;
+  border-radius: 0.08rem;
+  height: 0.68rem;
+  line-height: 0.7rem;
+  color: #666;
+  margin-right: 0.3rem;
+}
+.lesson1 .btn .btn-go:nth-of-type(2),
+.lesson2 .btn .btn-go:nth-of-type(2),
+.lesson3 .btn .btn-go:nth-of-type(2) {
+  margin-right: 0;
+}
+.lesson2 {
+  background: #222222;
+  color: #fff;
+  padding-top: 0.9rem;
+}
+.lesson2 .cont .txt em {
+  font-weight: bold;
+}
+.lesson2 .cont .txt i {
+  color: #fff;
+  font-weight: bold;
+}
+.lesson2 .btn {
+  margin-top: 0.3rem;
+}
+.lesson2 .btn .btn-go {
+  border-color: #fcaa09 ;
+  border-radius: 0.08rem;
+  height: 0.68rem;
+  line-height: 0.7rem;
+  color: #fcaa09;
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+.lesson3 {
+  margin-top: 0.8rem;
+  background: #f5f0ff;
+  padding-bottom: 1.1rem;
+}
+.lesson3 .itemList .item {
+  width: 3.42rem;
+  float: left;
+  margin-right: 0.25rem;
+  margin-top: 0.3rem;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.lesson3 .itemList .item img {
+  height: 2.56rem;
+}
+.lesson3 .itemList .item p {
+  line-height: 0.8rem;
+  height: 0.8rem;
+  font-size: 0.24rem;
+  color: #333333;
+}
+.lesson3 .itemList .item:nth-of-type(2n) {
+  margin-right: 0;
+}
+.floor3 {
+  padding: 1.17rem 0.18rem 0;
+}
+.floor3 h2 {
+  color: #333;
+  font-weight: normal;
+}
+.floor3 h2 em {
+  font-size: 0.48rem;
+  font-weight: bold;
+}
+.design .swiper-slide .item {
+  padding: 0 0.5rem ;
+  box-sizing: border-box;
+}
+.design .swiper-btn-next,
+.design .swiper-btn-prev {
+  margin-top: -0.5rem;
+  background: url(../images/ui/lesson-arrow-left.png) no-repeat;
+  background-size: contain;
+  height: 1rem;
+  width: 0.35rem;
+  left: 0;
+}
+.design .swiper-btn-next {
+  background-image: url(../images/ui/lesson-arrow-right.png);
+  left: auto;
+  right: 0;
+}
+.ad2 {
+  padding: 0 0.18rem;
+  margin-bottom: -1.36rem;
+  position: relative;
+  z-index: 1;
+  margin-top: 1.08rem;
+}
+.ad2 .bg {
+  background: url(../images/graphic/images/gaoxinBg.png) no-repeat;
+  background-size: 7.15rem 2.9rem;
+  padding-top: 0.35rem;
+  padding-left: 0.3rem;
+  height: 2.9rem;
+  box-sizing: border-box;
+}
+.ad2 h4 {
+  line-height: 0.32rem;
+  color: #fff;
+  font-size: 0.24rem;
+}
+.ad2 h4 em {
+  font-size: 0.3rem;
+  font-weight: bold;
+}
+.ad2 .name2,
+.ad2 .phoneNum2 {
+  margin-top: 0.18rem;
+}
+.ad2 .btn-go {
+  color: #ed4949;
+  border: none;
+  background: #fff;
+  margin-top: 0.18rem;
+}
+.floor4 {
+  background: #5f23ca ;
+  padding-top: 2.3rem;
+  padding-bottom: 1.05rem;
+  text-align: center;
+}
+.floor4 h2 {
+  color: #fff;
+  font-weight: normal;
+}
+.floor4 h2 em {
+  font-size: 0.48rem;
+  font-weight: bold;
+}
+.floor4 .ft {
+  text-align: center;
+  font-size: 0.24rem;
+  color: #fff;
+  line-height: 0.5rem;
+}
+.floor4 .btn-go {
+  border-color: #fff;
+  color: #fff;
+  margin-top: 0.45rem;
+  height: 0.56rem;
+  line-height: 0.58rem;
+}
+.floor5 {
+  margin-top: 1.15rem;
+  padding-bottom: 0.8rem;
+}
+.floor5 .k {
+  text-align: center;
+  height: 1.04rem;
+  width: 6.52rem;
+  margin: 0 auto;
+  border: 0.05rem solid #ff5a5a;
+  position: relative;
+}
+.floor5 .k h3 {
+  font-size: 0.36rem;
+  color: #ff5a5a;
+  font-weight: normal;
+  line-height: 1.04rem;
+}
+.floor5 .k h3 em {
+  font-weight: bold;
+}
+.floor5 .k span {
+  position: absolute;
+  font-size: 0.22rem;
+  color: #666666;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+.floor5 .k span em {
+  display: inline-block;
+  padding: 0 0.1rem;
+  background: #fff;
+  box-sizing: border-box;
+}
+.floor5 .k span:nth-of-type(1) {
+  top: -0.2rem;
+}
+.floor5 .k span:nth-of-type(2) {
+  color: #999;
+  bottom: -0.2rem;
+}
+.floor5 .system {
+  padding: 0 0.18rem;
+}
+.floor5 .system img {
+  width: 3.5rem;
+  height: 4.64rem;
+}
+.floor6 {
+  background: url(../images/graphic/floor6Bg.png) no-repeat;
+  background-size: 100% auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.9rem;
+}
+.floor6 h2 {
+  color: #fff;
+  font-weight: normal;
+}
+.floor6 h2 em {
+  font-weight: bold;
+  font-size: 0.48rem;
+}
+.floor6 .advantage {
+  margin-top: 0.4rem;
+  padding: 0 0.55rem;
+}
+.floor6 .advantage li {
+  width: 2.9rem;
+  height: 2.9rem;
+  padding-top: 0.68rem;
+  box-sizing: border-box;
+  border-width: 0.04rem;
+  border-color: #d1a248;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  float: left;
+  text-align: center;
+  margin-right: 0.55rem;
+  margin-bottom: 0.28rem;
+}
+.floor6 .advantage li i {
+  width: 0.57rem;
+  height: 0.6rem;
+  display: block;
+  margin: 0 auto 0.25rem;
+}
+.floor6 .advantage li span {
+  font-size: 0.24rem;
+  line-height: 0.34rem;
+  color: #fff;
+}
+.floor6 .advantage li:nth-of-type(2n) {
+  margin-right: 0;
+}
+.floor6 .form-order {
+  text-align: center;
+}
+.floor6 .form-order h5 {
+  font-size: 0.36rem;
+  color: #fff;
+}
+.floor6 .form-order .select {
+  margin: 0 auto;
+  width: 4.04rem;
+  height: .45rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  padding-left: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.45rem;
+  color: #333;
+  position: relative;
+  text-align: left;
+}
+.floor6 .form-order .select span {
+  color: #808080;
+}
+.floor6 .form-order .select select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.floor6 .form-order .select,
+.floor6 .form-order .name3,
+.floor6 .form-order .phoneNum3 {
+  margin-top: 0.22rem;
+  border: 1px solid #dcdddd;
+}
+.floor6 .form-order .btn-go {
+  background: #f84152;
+  border: none;
+  color: #fff;
+  height: 0.64rem;
+  line-height: 0.65rem;
+  width: 2.6rem;
+  margin-top: 0.22rem;
+}
+.floor7 {
+  padding-top: 0.95rem;
+  padding-bottom: 2rem;
+}
+.floor7 h2 {
+  color: #333333;
+  font-weight: normal;
+}
+.floor7 h2 em {
+  font-weight: bold;
+  font-size: 0.48rem;
+}
+.floor7 .ft {
+  text-align: center;
+  font-size: 0.2rem;
+  color: #666666;
+  line-height: 0.5rem;
+}
+.floor7 .teachTeam {
+  margin-top: 0.4rem;
+  padding: 0 1.05rem;
+}
+.floor7 .teachTeam li {
+  margin-right: 0.25rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  float: left;
+}
+.floor7 .teachTeam li .img {
+  width: 2.5rem;
+  height: 3.46rem;
+}
+.floor7 .teachTeam li .b {
+  width: 2.5rem;
+  height: 0.8rem;
+  box-sizing: border-box;
+  padding: 0.1rem;
+  border: 1px solid #DBDBDB;
+  border-top: 0;
+  font-size: 0.22rem ;
+}
+.floor7 .teachTeam li .b span {
+  font-weight: bold;
+  color: #333;
+}
+.floor7 .teachTeam li .b p {
+  color: #999;
+}
+.floor7 .teachTeam li:nth-of-type(2n) {
+  margin-right: 0;
+}
+.ad3 {
+  width: 7.16rem;
+  height: 3.2rem;
+  background: url(../images/graphic/ad3Bg.jpg) no-repeat;
+  background-size: contain;
+  box-shadow: 0px 6px 9.4px 0.6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.12rem;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 0.4rem;
+  position: absolute;
+  top: -1.7rem;
+  left: 0.18rem;
+  box-sizing: border-box;
+}
+.ad3 h2 {
+  font-size: 0.36rem;
+  color: #fff;
+}
+.ad3 h2 em {
+  font-weight: blod;
+  font-size: 0.48rem;
+  color: #fcaa09;
+}
+.ad3 input,
+.ad3 .btn-go {
+  margin-top: 0.18rem;
+}
+.floor8 {
+  background: #333333;
+  position: relative;
+  padding: 2.25rem 0.18rem 0.86rem;
+}
+.floor8 .show {
+  margin-bottom: 0.25rem;
+}
+.floor8 .show h2 {
+  font-size: 0.36rem;
+  color: #fff;
+}
+.floor8 .show h2 em {
+  font-weight: blod;
+  font-size: 0.48rem;
+}
+.show .swiper-slide .item {
+  padding: 0 0.5rem ;
+  box-sizing: border-box;
+}
+.show .swiper-btn-next,
+.show .swiper-btn-prev {
+  margin-top: -0.5rem;
+  background: url(../images/ui/lesson-arrow-left.png) no-repeat;
+  background-size: contain;
+  height: 1rem;
+  width: 0.35rem;
+  left: 0;
+}
+.show .swiper-btn-next {
+  background-image: url(../images/ui/lesson-arrow-right.png);
+  left: auto;
+  right: 0;
+}
+.floor9 {
+  margin-top: 0.8rem ;
+  text-align: center;
+}
+.floor9 h2 {
+  font-size: 0.36rem;
+  color: #333;
+}
+.floor9 h2 em {
+  font-weight: blod;
+  font-size: 0.48rem;
+}
+.floor9 .ft {
+  text-align: center;
+  font-size: 0.24rem;
+  color: #666;
+  line-height: 0.5rem;
+}
+.floor9 .production {
+  margin-top: 0.25rem;
+}
+.floor9 .production li {
+  float: left;
+  width: 2.43rem;
+  height: 1.77rem;
+  margin-right: 0.1rem ;
+  margin-bottom: 0.1rem ;
+}
+.floor9 .production li:nth-of-type(3n) {
+  margin-right: 0;
+}
+.floor9 .btn-go {
+  background: #F84153;
+  color: #fff;
+  height: 0.78rem;
+  line-height: 0.8rem;
+  border: none;
+  margin-top: 0.4rem;
+}
+.discounts {
+  background: #6449ce;
+}

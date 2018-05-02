@@ -413,6 +413,7 @@ a {
 /*荣誉资质开始*/
 .zp-honor .swiper-container {
   width: 12.2666666667rem;
+  min-height: 11.4133333333rem;
   height: auto;
   margin-left: auto;
   margin-right: auto; }
@@ -455,22 +456,24 @@ a {
 
 .zpry {
   height: 2.6026666667rem;
-  display: table;
-  margin: auto; }
+  /*display: table;*/
+  margin: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 16rem; }
 
-.zpry li {
+.zpry a {
   font-size: 0.512rem;
   margin: 0.96rem 0.3626666667rem;
   height: 1.024rem;
   line-height: 1.024rem;
-  float: left;
-  padding: 0 0.32rem;
+  padding: 0.1706666667rem 0.32rem;
   cursor: pointer;
   background: #efefef;
   border: 0.0213333333rem solid #b5b5b6;
   border-radius: 1.28rem; }
 
-.zpry li.zpry-on {
+.zpry a.zpry-on {
   color: #fff;
   background: #ed9336;
   border: 0.0213333333rem solid #ed9336; }

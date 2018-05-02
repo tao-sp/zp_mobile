@@ -1,0 +1,853 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after {  /*清楚浮动*/
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1210px;margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+.font12{ font-size: 12px;}
+.font14{ font-size: 14px;}
+.font16{ font-size: 16px;}
+
+/*banenr*/
+.banner{
+    width: 7.5rem;
+    height: 5rem;
+    background: url("../images/re.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+/*网上预报名入口*/
+.sign-up{
+    position: relative;
+    padding-top: 1.22rem;
+    width: 7.5rem;
+    height: 9.34rem;
+    background: url("../images/re_4.png") no-repeat left 3.03rem;
+    background-size: 0.58rem 3.13rem;
+}
+.sign-img{
+    position: absolute;
+    left: 0.2rem;
+    top: 0.7rem;
+    width: 2.3rem;
+    height: 1.4rem;
+    z-index: 1;
+}
+.sign-pic{
+    margin-left: 0.58rem;
+    padding-top: 3.3rem;
+    width: 6.7rem;
+    height: 1.19rem;
+    background: url("../images/re_2.png") no-repeat;
+    background-size: 6.7rem 4.99rem;
+}
+.sign-up-a{
+    margin: 0 0 0 0.43rem;
+    width: 3.55rem;
+    height: auto;
+    overflow: hidden;
+}
+.sign-up-a a{
+    display: block;
+    float: left;
+    margin-right: 0.5rem;
+    width: 1.51rem;
+    line-height: 0.47rem;
+    background: url("../images/re_3.png") no-repeat right center;
+    background-size: 0.06rem 0.12rem;
+    color: #fff;
+    font-size: 0.21rem;
+}
+.sign-up-a a:nth-of-type(2n){ margin-right: 0 }
+.sign-green{
+    margin-left: 0.58rem;
+    padding: 0.18rem 0 0 0.44rem;
+    width: 6.26rem;
+    height: 4.11rem;
+    background-color: #3ba89e;
+}
+.sign-green h2{
+    line-height: 1.02rem;
+    color: #fff;
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+.sign-empty{
+    display: block;
+    margin-bottom: 0.39rem;
+    width: 0.37rem;
+    height: 0.04rem;
+    background-color: #fff;
+}
+.sign-ipt{margin-bottom: 0.24rem; overflow: hidden;}
+.sign-ipt input{
+    display: block;
+    float: left;
+    margin-right: 0.22rem;
+    padding-left: 0.2rem;
+    width: 2.54rem;
+    height: 0.62rem;
+    line-height: 0.62rem;
+    border: none;
+    background-color: #ecf6f5;
+    color: #999;
+    font-size: 0.22rem;
+}
+.sbt{
+    display: block;
+    width: 2.71rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border: 0.01rem solid #ecf6f5;
+    background-color:transparent;
+    color: #fff;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: center;
+}
+.sign-tel{
+    display: block;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+
+/*报考条件*/
+.condition{
+    margin-bottom: 0.43rem;
+    width: 7.5rem;
+    height: auto;
+}
+.condition h2{
+    line-height: 0.53rem;
+    color: #333;
+    font-size: 0.45rem;
+    font-weight: bold;
+    text-align: center;
+}
+.condition-en{
+    display: block;
+    margin: 0.23rem auto 0.43rem;
+    width: 4.14rem;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: url("../images/re_5.png") no-repeat;
+    background-size: 100% 100%;
+    color: #767676;
+    font-size: 0.17rem;
+    text-align: center;
+}
+.condition-ul{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.condition-ul li{
+    float: left;
+    width: 33.33%;
+    height: auto;
+    text-align: center;
+    color: #333;
+}
+.condition-title{
+    line-height: 0.52rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.condition-content{
+    height: 2.1rem;
+    line-height: 0.3rem;
+    font-size: 0.21rem;
+}
+.condition-ul li a{
+    display: block;
+    width: 100%;
+    line-height: 0.86rem;
+    color: #3ba89e;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*报名截止*/
+.sign-end{
+    margin-bottom: 0.56rem;
+    width: 7.5rem;
+    height: 3.08rem;
+    background: url("../images/re.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.sign-end a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*考人力，这些问题你得知道*/
+.to-know{
+    margin-bottom: 0.74rem;
+    width: 7.5rem;
+    height: auto;
+}
+.to-know h2{
+    line-height: 0.74rem;
+    color: #333;
+    font-size: 0.48rem;
+    font-weight: bold;
+    text-align: center;
+}
+.to-know span{display: block}
+.to-know-en{
+    margin: 0 auto;
+    width: 2.87rem;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: url("../images/re_6.png") no-repeat;
+    background-size: 100% 100%;
+    color: #767676;
+    font-size: 0.17rem;
+    text-align: center;
+}
+.to-know-tel{
+    margin-bottom: 0.37rem;
+    line-height: 0.43rem;
+    color: #333;
+    font-size: 0.21rem;
+    font-weight: bold;
+    text-align: center;
+}
+.to-know-pic{
+    margin: 0 auto;
+    padding: 6.01rem 0.43rem 0 0;
+    width: 6.65rem;
+    height: 1.75rem;
+    background: url("../images/re_7.png") no-repeat;
+    background-size: 7.08rem 7.76rem;
+    color: #22a99e;
+    text-align: right;
+}
+.to-know-pic span{
+    display: block;
+    width: 100%;
+    line-height: 0.47rem;
+    font-size: 0.29rem;
+    font-weight: bold;
+}
+.to-know-pic p{
+    line-height: 0.41rem;
+    font-size: 0.22rem;
+}
+.to-know-pic p em{
+    font-size: 0.27rem;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*人力资源历年真题题库*/
+.old-exam{
+    margin-bottom: 0.52rem;
+    width: 7.5rem;
+    height: 5.63rem;
+    background: url("../images/re_8.png") no-repeat left center;
+    background-size: 7.07rem 5.63rem;
+}
+.old-exam h2{
+    margin-bottom: 1.35rem;
+    line-height: 0.6rem;
+    color: #333;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.old-exam-ul{
+    margin-left: 1.2rem;
+    width: auto;
+    height: auto;
+}
+.old-exam-ul li{
+    margin-bottom: 0.21rem;
+    line-height: 0.29rem;
+    color: #333;
+    font-size: 0.19rem;
+}
+.old-exam-ul li span{
+    display: block;
+}
+.old-exam-ul li a{
+    display: block;
+    color: #1db2a6;
+}
+
+/*2017年考前助学教辅*/
+.teaching-assistant{
+    margin-bottom: 0.7rem;
+    padding: 0.18rem 0 0 2.39rem;
+    width: 5.11rem;
+    height: 1.95rem;
+    background: url("../images/re_1.jpg") no-repeat 0.33rem top;
+    background-size: 1.82rem 2.13rem;
+    color: #333;
+}
+.teaching-assistant h2{
+    line-height: 0.66rem;
+    font-size: 0.46rem;
+    font-weight: bold;
+}
+.teaching-assistant span{
+    display: block;
+    line-height: 0.41rem;
+    font-size: 0.21rem;
+}
+.teaching-assistant a{
+    display: block;
+    width: 2.26rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border: 0.01rem solid #333;
+    color: #333;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*下半年独家考题预测*/
+.forecast{
+    position: relative;
+    margin-bottom: 0.47rem;
+    padding: 0.47rem 0 0 0;
+    width: 7.5rem;
+    height: auto;
+}
+.forecast-img{
+    position: absolute;
+    left: 0.2rem;
+    top: 0;
+    width: 2.94rem;
+    height: 1.9rem;
+    z-index: 1;
+}
+.forecast-pic{
+    margin-left: 0.59rem;
+    padding: 3.92rem 0 0 0.59rem;
+    width: 6.13rem;
+    height: 1.19rem;
+    background: url("../images/re_2.jpg") no-repeat;
+    background-size: 6.72rem 5.11rem;
+}
+.forecast-a{
+    width: 4.3rem;
+    height: auto;
+    overflow: hidden;
+}
+.forecast-a a{
+    display: block;
+    float: left;
+    line-height: 0.48rem;
+    color: #fff;
+    font-size: 0.22rem;
+}
+.forecast-a a:nth-of-type(1){
+    margin-right: 0.6rem;
+    width: 1.98rem;
+    background: url("../images/re_3.png") no-repeat right center;
+    background-size: 0.12rem 0.2rem;
+}
+.forecast-a a:nth-of-type(2){
+    width: 1.71rem;
+    background: url("../images/re_3.png") no-repeat right center;
+    background-size: 0.12rem 0.2rem;
+}
+.forecast-a a:nth-of-type(3){
+    width: 3.05rem;
+    background: url("../images/re_3.png") no-repeat right center;
+    background-size: 0.12rem 0.2rem;
+}
+.forecast-green{
+    margin-left: 0.59rem;
+    padding: 0.43rem 0 0 0.56rem;
+    width: 6.16rem;
+    height: 4.63rem;
+    background-color: #1db2a6;
+    color: #fff;
+}
+.forecast-green span{display: block;}
+.forecast-title{
+    line-height: 0.71rem;
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.forecast-green span.sign-empty{ margin-bottom: 0.34rem }
+.forecast-content{
+    margin-bottom: 0.31rem;
+    line-height: 0.35rem;
+    font-size: 0.21rem;
+}
+.forecast-content em{
+    font-style: normal;
+    font-weight: bold;
+}
+.forecast-green a{
+    display: block;
+    margin-bottom: 0.35rem;
+    width: 2.34rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border: 0.01rem solid #fff;
+    color: #fff;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: center;
+}
+.forecast-easy{
+    line-height: 0.31rem;
+    font-size: 0.21rem;
+    font-weight: bold;
+}
+
+/*顶级名师倾情讲授*/
+.teacher{
+    margin-bottom: 0.67rem;
+    width: 7.5rem;
+    height: auto;
+}
+.teacher h2{
+    line-height: 0.89rem;
+    color: #333;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.teacher span{ display: block }
+.teacher-en{
+    margin: 0 auto 0.3rem;
+    width: 1.73rem;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: url("../images/re_10.png") no-repeat;
+    background-size: 1.73rem 0.33rem;
+    color: #767676;
+    font-size: 0.17rem;
+    text-align: center;
+}
+.teacher-pic{
+    margin: 0 auto 0.02rem;
+    width: 7.12rem;
+    height: 2.89rem;
+    background: url("../images/re_11.png") no-repeat;
+    background-size: 100% 100%;
+}
+.teacher-ul{
+    margin: 0 auto;
+    padding: 0.39rem 0 0 0;
+    width: 7.1rem;
+    height: 4.43rem;
+    background-color: #1db2a6;
+    overflow: hidden;
+}
+.teacher-ul li{
+    float: left;
+    margin-left: 0.22rem;
+    width: 2.09rem;
+    height: 100%;
+    color: #fff;
+}
+.name{
+    display: block;
+    line-height: 0.32rem;
+    color: #fff;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.teacher-msg{
+    margin-bottom: 0.21rem;
+    width: 100%;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    font-size: 0.22rem;
+    overflow: hidden;
+}
+.msg-left{display: block;float: left;}
+.msg-right{display: block;float: right;}
+.teacher-ul li p{
+	height: 2.4rem;
+    line-height: 0.3rem;
+    font-size: 0.21rem;
+    text-align: justify;
+}
+.teacher-ul li:nth-of-type(2) p{font-weight: bold;}
+.teacher-ul li a{
+    display: block;
+    width: 1.4rem;
+    height: 1.22rem;
+    line-height: 1.22rem;
+    background: url("../images/re_3.png") no-repeat right center;
+    background-size: 0.12rem 0.2rem;
+    color: #fff;
+    font-size: 0.22rem;
+}
+
+/*三大精品课程+视频课强强联合*/
+.three-course{
+    margin-bottom: 0.98rem;
+    width: 7.5rem;
+    height: auto;
+}
+.three-course h2{
+    line-height: 0.53rem;
+    color: #333;
+    font-size: 0.45rem;
+    font-weight: bold;
+    text-align: center;
+}
+.three-course-en{
+    display: block;
+    margin: 0.14rem auto 0.37rem;
+    width: 4.99rem;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: url("../images/re_12.png") no-repeat;
+    background-size: 4.99rem 0.33rem;
+    color: #767676;
+    font-size: 0.17rem;
+    text-align: center;
+}
+.three-course-ul{
+    margin: 0 auto;
+    width: 7.10rem;
+    height: auto;
+}
+.three-course-ul li{
+    position: relative;
+    margin-bottom: 0.27rem ;
+    width: 100%;
+    height: auto;
+}
+.three-course-ul li span{ display: block }
+.course-title{
+    line-height: 0.4rem;
+    color: #1db2a6;
+    font-size: 0.24rem;
+}
+.course-content{
+    width: 5.44rem;
+    line-height: 0.34rem;
+    color: #333;
+    font-size: 0.2rem;
+}
+.three-course-ul li a{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.28rem;
+    width: 1.21rem;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    border: 0.01rem solid #333;
+    color: #333;
+    font-size: 0.18rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*学习无忧，线上+线下一体化教学*/
+.no-worry{
+    margin-bottom: 0.75rem;
+    width: 7.5rem;
+    height: auto;
+}
+.no-worry h2{
+    line-height: 0.74rem;
+    color: #333;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.no-worry-en{
+    display: block;
+    margin: 0 auto;
+    width: 3.69rem;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: url("../images/re_12.png") no-repeat;
+    background-size: 3.69rem 0.33rem;
+    color: #767676;
+    font-size: 0.17rem;
+    text-align: center;
+}
+.no-worry-pic{
+    width: 100%;
+    height: 5.73rem;
+    background: url("../images/re_14.png") no-repeat left center;
+    background-size: 6.82rem 5.73rem;
+}
+.line-on,.line-under{
+    margin-left: 4.84rem;
+    height: 1.67rem;
+    line-height: 1.67rem;
+    color: #333;
+    font-size: 0.45rem;
+    font-weight: bold;
+}
+.no-worry-pic p{
+    margin-left: 3.09rem;
+    width: 4.41rem;
+    height: auto;
+    line-height: 0.3rem;
+    color: #333;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.no-worry-pic p span{
+    font-weight: bold;
+}
+.line-under{
+    height: 1.7rem;
+    line-height: 1.7rem;
+    color: #333;
+    font-size: 0.45rem;
+}
+
+/*还有增值服务 妈妈再也不用担心我的学习*/
+.worry-study{
+    width: 7.5rem;
+    height: auto;
+}
+.worry-study h2{
+    line-height: 0.6rem;
+    color: #333;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.worry-study-en{
+    display: block;
+    margin: 0.12rem auto 0.48rem;
+    width: 6.83rem;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: url("../images/re_15.png") no-repeat;
+    background-size: 6.83rem 0.33rem;
+    color: #767676;
+    font-size: 0.17rem;
+    text-align: center;
+}
+.worry-study-ul{
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+}
+.worry-study-ul li{
+    float: left;
+    margin-bottom: 0.57rem;
+    width: 33.33%;
+    height: auto;
+    text-align: center;
+}
+.worry-pic{
+    width: 100%;
+    height: 0.7rem;
+    background: url("../images/re_16.png") no-repeat center center;
+    background-size: 0.59rem 0.65rem;
+}
+.worry-study-ul li:nth-of-type(2) .worry-pic{
+    background: url("../images/re_17.png") no-repeat center center;
+    background-size: 0.67rem 0.65rem;
+}
+.worry-study-ul li:nth-of-type(3) .worry-pic{
+    background: url("../images/re_18.png") no-repeat center center;
+    background-size: 0.6rem 0.65rem;
+}
+.worry-study-ul li:nth-of-type(4) .worry-pic{
+    background: url("../images/re_19.png") no-repeat center center;
+    background-size: 0.64rem 0.64rem;
+}
+.worry-study-ul li:nth-of-type(5) .worry-pic{
+    background: url("../images/re_20.png") no-repeat center center;
+    background-size: 0.74rem 0.67rem;
+}
+.worry-study-ul li:nth-of-type(6) .worry-pic{
+    background: url("../images/re_21.png") no-repeat center center;
+    background-size: 0.68rem 0.7rem;
+}
+.worry-study-ul li:nth-of-type(7) .worry-pic{
+    background: url("../images/re_22.png") no-repeat center center;
+    background-size: 0.56rem 0.6rem;
+}
+.worry-study-ul li:nth-of-type(8) .worry-pic{
+    background: url("../images/re_23.png") no-repeat center center;
+    background-size: 0.55rem 0.63rem;
+}
+.worry-study-ul li:nth-of-type(9) .worry-pic{
+    background: url("../images/re_24.png") no-repeat center center;
+    background-size: 0.67rem 0.62rem;
+}
+.worry-study-ul li:nth-of-type(7),.worry-study-ul li:nth-of-type(8),.worry-study-ul li:nth-of-type(9){
+    margin-bottom: 0;
+}
+.worry-study-ul li span{
+    display: block;
+    width: 100%;
+    height: 0.41rem;
+    line-height: 0.41rem;
+    color: #333;
+    font-size: 0.21rem;
+    text-align: center;
+}
+.worry-study a{
+    display: block;
+    margin: 0.23rem auto 0.68rem;
+    width: 2.34rem;
+    height: 0.6rem;
+    line-height: 0.65rem;
+    border: 0.01rem solid #333;
+    color: #333;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*具体金额*/
+.specific-num{
+    margin-bottom: 0.37rem;
+    padding-top: 0.39rem;
+    width: 7.5rem;
+    height: 2rem;
+    background: #484241 url("../images/re_25.png") no-repeat 0.21rem 0.38rem;
+    background-size:2.35rem 1.67rem
+}
+.specific-num p{
+    margin-left: 3.09rem;
+    width: 4.41rem;
+    height: auto;
+    line-height: 0.32rem;
+    color: #21a79c;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+.specific-num p em,.specific-num p span{
+    font-size: 0.26rem;
+    font-style: normal;
+    font-weight: bold;
+}
+.specific-num a{
+    display: block;
+    margin: 0.2rem 0 0 3.09rem;
+    width: 1.72rem;
+    height: 0.43rem;
+    line-height: 0.43rem;
+    border: 0.01rem solid #fff;
+    color: #fff;
+    font-size: 0.18rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*符不符合报考条件，查查就知道*/
+.check{
+    width: 7.5rem;
+    height: auto;
+}
+.check h2{
+    line-height: 0.82rem;
+    color: #333;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.check span{ display: block }
+.check-en{
+    margin: 0 auto;
+    width: 6.83rem;
+    height: 0.33rem;
+    line-height: 0.33rem;
+    background: url("../images/re_15.png") no-repeat;
+    background-size: 6.83rem 0.33rem;
+    color: #767676;
+    font-size: 0.17rem;
+    text-align: center;
+}
+.check-p{
+    margin: 0.16rem auto 0.18rem;
+    line-height: 0.35rem;
+    color: #333;
+    font-size: 0.23rem;
+    text-align: center;
+}
+.check-ipt{
+    display: block;
+    margin: 0 auto 0.14rem;
+    padding-left: 0.18rem;
+    width: 4.53rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border: 0.01rem solid #b5b5b6;
+    color: #a7a7a7;
+    font-size: 0.17rem;
+}
+.check-check{
+    display: block;
+    margin:0.12rem auto 0;
+    width: 1.6rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background-color: #1db2a6;
+    color: #fff;
+    font-size: 0.22rem;
+    text-align: center;
+}
+.notice{
+    margin: 0 auto;
+    width: 100%;
+    height: 0.57rem;
+    line-height: 0.57rem;
+    color: #999;
+    font-size: 0.17rem;
+    text-align: center;
+}

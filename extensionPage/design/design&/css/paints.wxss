@@ -1,0 +1,334 @@
+.btn-go {
+  display: inline-block;
+  width: 2.45rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
+  border-radius: 0.1rem;
+  font-size: 0.3rem;
+  color: #fff;
+  background: #ffaa14;
+  margin-top: 0.1rem;
+}
+.floor1 {
+  padding: 0.54rem 0.18rem 0.48rem;
+  text-align: center;
+}
+.floor1 .t {
+  margin-top: .4rem ;
+  font-size: 0.28rem;
+  line-height: .5rem;
+}
+.floor1 .t b {
+  font-size: .45rem;
+  color: #ffaa14;
+}
+.floor2 {
+  background: url(../images/paints/floor2Bg.jpg) no-repeat;
+  background-size: 100% auto;
+  padding: 3.64rem 0.18rem 0;
+  height: 7.25rem;
+  box-sizing: border-box;
+}
+.floor2 .list .list_li {
+  width: 3.45rem;
+  float: left;
+  margin-right: 0.2rem;
+  text-align: center;
+}
+.floor2 .list .list_li .img {
+  height: 2.18rem;
+}
+.floor2 .list .list_li p {
+  background: #ffaa14;
+  height: 0.72rem;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 0.72rem;
+}
+.floor2 .list .list_li:nth-of-type(2) {
+  margin-right: 0;
+}
+.floor2 .list .list_li:nth-of-type(2) p {
+  background: #313131;
+}
+.floor3 {
+  padding-bottom: 0.8rem ;
+}
+.floor4 {
+  padding: 0.8rem 0.18rem 0;
+}
+.floor4 h2 i {
+  width: .95rem;
+  height: 1.04rem;
+}
+.floor4 h2 .txt {
+  margin-left: 0.25rem;
+}
+.floor4 h2 .txt span {
+  font-size: 0.39rem;
+  color: #ffaa14;
+}
+.floor4 h2 .txt em {
+  font-size: 0.22rem;
+  color: #353535;
+}
+.floor4 h2 .txt p {
+  font-size: 0.26rem;
+  color: #ffaa14;
+}
+.floor4 .advantage {
+  padding-bottom: 0.72rem;
+}
+.floor4 .advantage .item {
+  text-align: center;
+  line-height: 0.4rem;
+  float: left;
+  width: 50%;
+  margin-top: 0.6rem;
+}
+.floor4 .advantage .item i {
+  display: inline-block;
+  width: .65rem;
+  height: .65rem;
+}
+.floor4 .advantage .item p {
+  font-size: 0.28rem;
+  color: #ffaa14;
+  line-height: 0.5rem;
+}
+.floor5 {
+  background: #2f2f2f;
+  padding: 0.72rem  0.2rem 0.25rem;
+  text-align: center;
+}
+.floor5 .title {
+  width: 4.32rem;
+  margin: 0 auto;
+  color: #fff;
+}
+.floor5 .title div {
+  margin-top: 0.2rem;
+  height: .8rem;
+  background: #ffaa14;
+}
+.floor5 .list {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+.floor5 .list li {
+  width: 1.94rem;
+  display: inline-block;
+  margin-right: .56rem;
+  margin-bottom: 0.25rem;
+}
+.floor5 .list li .img {
+  height: 2.25rem;
+  width: 100% ;
+  background: #ccc;
+  border-radius: 0.1rem;
+  overflow: hidden;
+}
+.floor5 .list li p {
+  line-height: .45rem;
+  height: .45rem;
+  font-size: .24rem;
+  color: #ffaa14;
+}
+.floor5 .list li:nth-of-type(3n),
+.floor5 .list li:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.floor6 {
+  padding: .7rem 0.2rem 0;
+  text-align: center;
+}
+.floor6 h2 {
+  font-size: .57rem;
+  color: #ffaa14;
+  line-height: .76rem;
+}
+.floor6 .ft {
+  margin-top: 0.1rem;
+  font-size: .24rem;
+  color: #ffffff;
+  height: .36rem ;
+  line-height: .36rem;
+  background: #ffaa14;
+}
+.floor6 .video {
+  margin-top: .4rem;
+}
+.floor6 p:nth-of-type(1) {
+  margin-top: 0.2rem;
+}
+.floor6 p {
+  font-size: .26rem;
+  line-height: .4rem;
+}
+.floor6 p em {
+  color: #ffaa14;
+}
+.floor7 {
+  background: url(../images/paints/floor7Bg.jpg) no-repeat;
+  background-size: 100% auto;
+  padding: 0.9rem .2rem 0.9rem;
+  text-align: center;
+}
+.floor7 h2 {
+  font-size: 0.75rem;
+  color: #fff;
+  position: relative;
+}
+.floor7 h2 em {
+  color: #353535;
+}
+.floor7 h2:before,
+.floor7 h2:after {
+  content: "";
+  display: block;
+  width: 2.1rem;
+  height: 0.04rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0.2rem;
+}
+.floor7 h2:after {
+  left: auto;
+  right: 0;
+}
+.floor7 .ft {
+  margin-top: 0.2rem;
+  font-size: .24rem ;
+  color: #353535;
+}
+.floor7 .ft em {
+  color: #fff;
+}
+.teach .item {
+  box-sizing: border-box;
+  padding: 0.3rem 0.18rem 1.7rem;
+  background: #353535;
+  border-radius: 0.15rem;
+  overflow: hidden;
+  height: 4.2rem;
+  width: 7.13rem;
+}
+.teach .img {
+  width: 2.5rem;
+  height: 3.55rem;
+  overflow: hidden;
+  border-radius: 0.1rem;
+  background: pink;
+}
+.teach .cont {
+  margin-left: .25rem;
+  color: #fff;
+  text-align: left;
+}
+.teach .cont h4 {
+  font-size: .26rem;
+  margin-top: .3rem;
+}
+.teach .cont p {
+  margin-top: .1rem;
+  line-height: .4rem;
+  font-size: .22rem;
+  color: #a8a8a8;
+}
+.teach .cont .msgDec {
+  font-size: .2rem;
+  line-height: .3rem;
+  color: #a8a8a8;
+  margin-top: .3rem;
+}
+.floor8 {
+  padding: 0.45rem 0.44rem 0.44rem 0.34rem;
+  border-bottom: 0.02rem solid #ffaa14;
+  text-align: center;
+}
+.floor8 .dialog {
+  width: 4.18rem;
+  height: 1.52rem;
+  margin: .44rem auto 0;
+  background: url(../images/paints/dialogBg.png) no-repeat;
+  background-size: contain;
+  font-size: 0.32rem;
+  color: #fff;
+  line-height: .5rem;
+  box-sizing: border-box;
+  padding: 0.3rem ;
+}
+.floor8 .form-appoint {
+  margin-top: .3rem;
+}
+.floor8 .form-appoint .ipt-wrap {
+  margin: 0 auto 0.2rem;
+  width: 6.03rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  align-items: center;
+}
+.floor8 .form-appoint .ipt-wrap i {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.floor8 .form-appoint .ipt-wrap input {
+  margin-left: 0.2rem;
+  line-height: 0.62rem;
+  border: 0.04rem solid #28a0ff;
+  box-sizing: border-box;
+  padding-left: 0.1rem;
+}
+.floor8 .form-appoint .btn-go {
+  text-align: center;
+}
+.floor9 {
+  padding: 0.3rem 0.2rem 0.48rem ;
+  text-align: center;
+}
+.floor9 h2 {
+  font-size: 0.6rem;
+  color: #353535;
+  position: relative;
+  line-height: 0.75rem;
+}
+.floor9 .txt:nth-of-type(1) {
+  margin-top: 0.2rem;
+}
+.floor9 .txt {
+  font-size: .26rem ;
+  color: #ffaa14;
+  line-height: .4rem;
+}
+.floor9 .production {
+  margin-top: 0.2rem;
+}
+.floor9 .have {
+  font-size: .34rem;
+  color: #333;
+  text-align: left;
+}
+.floor9 .have b {
+  font-size: .4rem;
+}
+.floor9 .have em {
+  font-weight: bold;
+}
+.floor9 .have:nth-of-type(2) em {
+  color: #ffaa14;
+}
+.floor9 .have:nth-of-type(3) {
+  text-align: center;
+  color: #ffaa14;
+}
+.floor9 .have:nth-of-type(3) b {
+  font-size: .4rem;
+}
+.floor9 .have:nth-of-type(3) em {
+  font-size: .48rem;
+}
+.discounts {
+  background: #6c85d1;
+}

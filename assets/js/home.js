@@ -21,7 +21,7 @@ $(function () {
         return false;
     });
     /*荣誉资质*/
-    var aLi = $(".zpry li");
+    var aLi = $(".zpry a");
     for(var i=0; i<aLi.length; i++){
         aLi[i].index = i;//添加索引
         aLi[i].onclick = function () {

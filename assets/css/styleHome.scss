@@ -333,7 +333,7 @@ a{
   margin: px2rem(6) auto;
 }
 .about-us ul li b{
- display: block;
+  display: block;
 }
 .view-more{
   font-size: px2rem(20);
@@ -414,6 +414,7 @@ a{
 /*荣誉资质开始*/
 .zp-honor .swiper-container {
   width:px2rem(575);
+  min-height: px2rem(535);
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -431,7 +432,7 @@ a{
   background: #fff;
 }
 .zp-honor .swiper-slide img {
-   width:px2rem(266);
+  width:px2rem(266);
 }
 .zp-honor .vertical-swiper .left-right{
   bottom: px2rem(280);
@@ -456,22 +457,24 @@ a{
 }
 .zpry{
   height: px2rem(122);
-  display: table;
+  /*display: table;*/
   margin: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width:px2rem(750);
 }
-.zpry li{
+.zpry a{
   font-size: px2rem(24);
   margin: px2rem(45) px2rem(17);
   height: px2rem(48);
   line-height: px2rem(48);
-  float: left;
-  padding: 0 px2rem(15);
+  padding: px2rem(8) px2rem(15);
   cursor: pointer;
   background: #efefef;
   border: px2rem(1) solid #b5b5b6;
   border-radius: px2rem(60);
 }
-.zpry li.zpry-on{
+.zpry a.zpry-on{
   color: #fff;
   background: #ed9336;
   border: px2rem(1) solid #ed9336;
@@ -489,7 +492,7 @@ a{
 /*荣誉资质结束*/
 /*服务客户开始*/
 .service-customer{
-margin-top: px2rem(86);
+  margin-top: px2rem(86);
 }
 .service-customer{
 
@@ -581,7 +584,7 @@ margin-top: px2rem(86);
 }
 .home-article .home-article-time{
   text-align: center;
- font-size: px2rem(20);
+  font-size: px2rem(20);
   color: #333333;
 }
 .home-article-pre,.home-article-next{
@@ -755,7 +758,7 @@ margin-top: px2rem(86);
   text-align: center;
 }
 .newlist-nav .on{
- border-bottom: px2rem(5) solid #b5b5b6;
+  border-bottom: px2rem(5) solid #b5b5b6;
 }
 .newlist-nav a img{
   width:px2rem(22);

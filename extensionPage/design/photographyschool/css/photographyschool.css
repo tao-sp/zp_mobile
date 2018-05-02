@@ -1,0 +1,187 @@
+/*reset star*/
+html{-webkit-font-smoothing:antialiased;-webkit-overflow-scrolling:touch;-moz-overflow-scrolling:touch;-o-overflow-scrolling:touch;overflow-scrolling:touch}
+body,html{margin:0;font-family:"Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica,"BBAlpha Sans",sans-serif;font-size:62.5%;width:100%;margin:0 auto;height:100%;}
+*{padding:0;margin:0;text-decoration: none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+li{list-style: none;}
+a{text-decoration: none;}
+input,textarea,form{outline:none}
+.clear{clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+.purpleColor{color: #6448cd;}
+/*reset end*/
+
+/*header star*/
+body{background-color: #ffffff;color: #333333;padding-top:.58rem}
+header{width: 100%;height: .58rem;line-height: .58rem;padding:.2rem 0;background-color: #1a191f;position: fixed;top:0;left: 0;z-index: 10;}
+header .logo{width:2.22rem;margin-right: .1rem;margin-left: .24rem}
+header .header_tit{width: .48rem;padding-top: .17rem;}
+.mobile_menu_btn{position:absolute;width:.4rem;height:.35rem;top:.34rem;right:.18rem;display:block;z-index:5;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out; z-index:10}
+.mobile_menu_btn i{position:absolute;left:0;right: 0;margin: auto;width:.4rem;height:2px;background:rgba(255,255,255,1);display:block;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.mobile_menu_btn i:nth-of-type(1){top:.0rem}
+.mobile_menu_btn i:nth-of-type(2){top:.12rem}
+.mobile_menu_btn i:nth-of-type(3){top:.26rem}
+.mobile_menu_btn.mobile_menu_hover i:nth-of-type(1){-webkit-transform:rotate(225deg) translate(-.1rem,-.1rem);transform:rotate(225deg) translate(-.1rem,-.1rem); background:#fff}
+.mobile_menu_btn.mobile_menu_hover i:nth-of-type(2){display:none}
+.mobile_menu_btn.mobile_menu_hover i:nth-of-type(3){-webkit-transform:rotate(-225deg) translate(-.1rem,.1rem);transform:rotate(-225deg) translate(-.1rem,.1rem);background:#fff}
+/*header end*/
+
+/*photographyschool star*/
+.photographyschool_banner1{width: 100%;height: 5rem;overflow: hidden;}
+.photographyschool_banner1 .swiper-slide{background-size: 100% 100%;}
+.photographyschool_banner1 .swiper-slide a{display: block;width: 100%;height: 30%;position: absolute;left: 0;bottom: 0;}
+.photographyschool_tit1{font-size: .36rem;text-align: center;height:1.86rem;line-height:3.3rem;width: 100%;color: #6448cd;position: relative;}
+.photographyschool_tit1:before{content: "";width:.38rem;height:.31rem;position: absolute;top:.9rem;left: 50%;margin-left:-.19rem;background: url("../images/photoicon.png?v=1") no-repeat;background-size: 100%;}
+.photographyschool_tit2{color: #999999;font-size:.18rem;width: 100%;text-align: center;line-height:.24rem;height:.6rem;text-transform:uppercase;}
+
+.photographyschool_s1{position: relative;width: 100%;height:4.4rem;padding-top: 4.3rem;}
+.photographyschool_s1_img1{position: absolute;width:95.2%;height:4rem;left: 2.4%;top:1.04rem;}
+.photographyschool_s1_txt{background-color: #a05daa;width: 100%;height:3.4rem;padding-top: 1rem;color: #fff;}
+.photographyschool_s1_txt h3{font-size:.36rem;text-align: center;height: .6rem;line-height: .6rem}
+.photographyschool_s1_txt h5{font-size:.24rem;text-align: center;height: .58rem;line-height: .24rem}
+.photographyschool_s1_txt h5 span{border-bottom: .04rem solid #fff;padding-bottom: .18rem}
+.photographyschool_s1_txt p{font-size: .22rem;line-height: .34rem;padding:0 .18rem}
+
+.photographyschool_s2{}
+.photographyschool_s2 .photographyschool_tit1{margin-bottom: .3rem;}
+.photographyschool_s2_txt{width: 95.2%;margin: 0 auto;color: #666666;font-size: .22rem;line-height: .3rem;margin: .5rem 0;}
+.photographyschool_s2_txt h3{font-weight: normal;color: #333;padding-left:.44rem;position: relative;height: .4rem;line-height: .4rem;}
+.photographyschool_s2_txt h3:before{content: "";width:.39rem;height:.37rem;position: absolute;top:0;left: 0;background: url("../images/icon1.png?v=1") no-repeat;background-size: 100%;}
+.photographyschool_s2_txt p{padding-left:.44rem;}
+.photographyschool_s2_test{width:100%;height:2.95rem;color: #fff;text-indent: .18rem;background: url("../images/top2_1.jpg?v=1") no-repeat;background-size: 100%;}
+.photographyschool_s2_test p:nth-child(1){padding-top: .5rem;line-height: .5rem;font-size: .36rem;}
+.photographyschool_s2_test h3{font-size: .36rem;text-indent: .18rem;line-height: .6rem;}
+.photographyschool_s2_test .iphotographyschool_s2_link{}
+.photographyschool_s2_test .iphotographyschool_s2_link a{padding: .1rem .2rem;border: 1px solid #fff;color: #fff;font-size: .22rem;}
+.photographyschool_s3 .t3{width: 100%;height:7.8rem;position: relative;margin-top: .3rem;}
+.photographyschool_s3 .t3 .swiper-container{width:6.12rem;height:7.8rem;position: relative;top:0;left: 50%;margin-left: -3.06rem;}
+.photographyschool_s3 .t3 .swiper-wrapper{width:6.12rem;height:7.8rem;}
+.photographyschool_s3 .t3 .swiper-slide{}
+.photographyschool_s3 .t3 .swiper-slide>div{width:2.9rem;height:4.08rem;margin:0 .08rem;}
+.photographyschool_s3 .t3 .swiper-slide>div img{width: 100%;height: 2.9rem;float: left;}
+.photographyschool_s3 .t3 .swiper-slide>div h4{text-align: center;line-height: .86rem;font-size: .3rem;color: #333;}
+.photographyschool_s3 .t3 .swiper-button-next,.t3  .swiper-button-prev,.t4 .swiper-button-prev{width: .28rem;height: .54rem;background: url(../images/arr_pre.png?v=1) no-repeat center center;background-size:.28rem .54rem;}
+.photographyschool_s3 .t3 .swiper-button-next,.t4 .swiper-button-next{background: url(../images/arr_next.png?v=1) no-repeat center center;background-size: 100%;}
+
+.photographyschool_s4{}
+.t4{width: 100%;height:6.9rem;position: relative;margin-top: .3rem;}
+.t4 .swiper-container{width:6.54rem;height:6.89rem;position: relative;top:0;left: 50%;margin-left: -3.27rem;}
+.t4 .swiper-wrapper{width:6.54rem;height:6.89rem;}
+.t4 .swiper-slide{background: url("../images/top_5_bg.jpg?v=1") no-repeat;background-size: 100%;color:#fff;position: relative;}
+.photographyschool_s4 .photographyschool_tit2{font-size:.2rem;color: #666;}
+.photographyschool_s4_tit{padding:.4rem .7rem .6rem;font-size: .2rem;line-height: .24rem;text-transform:uppercase;}
+.photographyschool_s4_tit a{color: #fff;}
+.photographyschool_s4_tit a i{display: block;width:100%;height:.24rem;background: url("../images/t5_icon1.jpg?v=1") no-repeat 100% 50%;background-size: .41rem .17rem;}
+.photographyschool_s4_tit2{text-align: center;font-size: .22rem;line-height:.36rem;padding:0 .7rem ;}
+.photographyschool_s4_people{position: absolute;left: 0;bottom: 0;width: 100%;height: 3.3rem;}
+.photographyschool_s4_people>div{width:1.64rem;padding:.19rem .17rem; ;}
+.photographyschool_s4_people>div img{width: 100%;}
+.photographyschool_s4_people>div h4{text-align: center;font-size: .22rem;line-height:.6rem;color: #333;}
+.photographyschool_s4_people>div:nth-child(2){margin:-.58rem .28rem}
+.t4 .swiper-button-prev,.t4 .swiper-button-next{width: .28rem;height: .54rem;margin-top: -1.3rem;background-size: 100% 100%;}
+
+
+.photographyschool_s5_link{text-align: center;position: relative;top:-.3rem;}
+.photographyschool_s5_link a{background-color: #6448cd;font-size: .22rem;color: #fff;padding: .18rem .8rem;}
+.photographyschool_s5_study{width:95.8%;height: 9.58rem;margin: 0 auto;}
+.photographyschool_s5_study_fl{width: 31.6%;height:4.74rem;float:left;background: url("../images/top8_bg.png?v=1") no-repeat;background-size:100%;}
+.photographyschool_s5_study_fl_p1{width: 100%;height:1.1rem;color: #fff;font-size: .22rem;text-align: center;padding-top: .2rem;line-height: .26rem;}
+.photographyschool_s5_study_fl:nth-child(2){margin: 0 2.6%;}
+.photographyschool_s5_study_fl h5{padding-top:.2rem;font-size: .28rem;color: #333333;text-align: center;height: .32rem;font-weight: normal;}
+.photographyschool_s5_study_fl p{font-size: .19rem;color: #333333;text-align: center;height: .24rem;}
+
+.photographyschool_s5_study_fl:nth-child(4){position: relative;top:-.3rem;left:16%;}
+.photographyschool_s5_study_fl:nth-child(5){position: relative;top:-.3rem;left:18.6%;}
+
+.photographyschool_s6{width: 95.2%;margin:.6rem auto .8rem;}
+.photographyschool_s6_tit{padding:0 .4rem;height: 2.16rem;background-color:#a05daa;color: #fff;position: relative;}
+.iphotographyschool_s6_link{position:absolute;top:.8rem;right:.4rem;}
+.iphotographyschool_s6_link a{color: #fff;font-size: .24rem;padding:.2rem;border: 1px solid #fff;}
+.photographyschool_s6_tit .line{width:.56rem;height: .56rem;border-bottom:.07rem solid #fff;display: block;}
+.photographyschool_s6_tit h4{height: .8rem;line-height: 1rem;font-size: .34rem;}
+.photographyschool_s6_tit_1{text-transform: uppercase;font-size: .12rem}
+
+
+.footer_school{width: 100%;height: 3.6rem;}
+.footer_school_tit{width:95.2%;margin: 0 auto;height:.5rem;line-height: .5rem;padding:.5rem 0;}
+.footer_school_tit>span.fl{font-size: .48rem;color: #000000;}
+.footer_school_tit>span.fl b{color: #715fca;}
+.footer_school_tit>div.fr span{color: #666666;background-color:#d4cfef;font-size: .24rem;padding: .08rem .1rem;border-radius: .2rem;margin: 0 .1rem;}
+.footer_school_tit>div.fr span.f{color: #fff;background-color:#715fca;}
+.school_swipper{width: 100%;height:1.74rem;position: relative;}
+.school_swipper .swiper-container{width:6.1rem;height:1.74rem;position: relative;top:0;left: 50%;margin-left: -3.05rem;}
+.school_swipper .swiper-wrapper{width:6.1rem;height:1.74rem;}
+.school_swipper .swiper-slide{position: relative;}
+.school_swipper .swiper-button-prev,.school_swipper .swiper-button-next{width: .4rem;height: .4rem;;}
+.school_swipper .swiper-button-prev{background: url("../images/icon_preBtn.png?v=1") no-repeat;background-size: 100% 100%;}
+.school_swipper .swiper-button-next{background: url("../images/icon_nextBtn.png?v=1") no-repeat;background-size: 100% 100%;}
+.school_swipper .swiper-slide>img.fl{width:2.3rem;}
+.school_swipper .swiper-slide>.fr{width:3.5rem;height: 1.74rem;}
+.school_swipper .swiper-slide>.fr h4{color: #333;font-size: .24rem;line-height:.5rem;}
+.school_swipper_loca,.school_swipper_tel{line-height:.34rem;font-size: .24rem;color: #2f2f2f;padding-left: .34rem;position: relative;}
+.school_swipper_loca:before,.school_swipper_tel:before{content: "";width:.24rem;height:.28rem;position:absolute;top:0;left: 0;background: url("../images/icon_school_1.png?v=1") no-repeat;background-size: 100% 100%;}
+.school_swipper_tel:before{background: url("../images/icon_school_2.png?v=1") no-repeat;background-size: 100% 100%;}
+.footer_copy{width: 100%;height: 2.2rem;background-color: #efefef;color:#949494;font-size: .18rem;}
+.footer_copy a{color:#949494;}
+.footer_copy_top{width: 100%;height:.76rem;padding: .34rem 0;}
+.footer_copy_top>div.fl{width: 50%;height: .76rem;}
+.footer_copy_top>div.fl:nth-child(1){border-right: 1px solid #cacaca;box-sizing:border-box;}
+.footer_copy_top>div.fl a{width: 1.48rem;height:.38rem;display: inline-block;text-indent: .18rem;position: relative;float: right;}
+.footer_copy_top>div.fl a:before{content: "";border-width: .1rem;border-height:.1rem;border-color:transparent  transparent transparent #c4c4c4;border-style: solid;position: absolute;left:0;top:.05rem;}
+.footer_copy_top>div.fl:nth-child(2){text-align: center;}
+.footer_copy_top>div.fl:nth-child(2) img{width:.45rem;}
+.footer_copy_top>div.fl:nth-child(2) p{position: relative;top: -.08rem;}
+.footer_copy_bottom{text-align: center;}
+.rightNav{width:.81rem;height: 4.84rem;position: fixed;right:.1rem;top: 50%;margin-top:-2.42rem;z-index:11;background:url("../images/right_nav.png?v=1") no-repeat;background-size:.81rem 4.84rem;}
+.rightNav a{display: block;width: 100%;height:.665rem;font-size:.1rem;text-indent:-99rem;overflow:hidden; }
+.rightNav a:nth-child(1){height:.88rem;}
+
+em,i{font-style:normal;}
+.wrap{ margin-left: auto; margin-right: auto; }
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.fl{ float: left; }
+.fr{ float: right;}
+.flex{display: flex;display: -webkit-flex;}
+.flex0{flex-grow: 0;flex-basis: 1;flex-shrink: 0;}
+.flex1{flex-grow: 1;flex-basis: 1;flex-shrink: 1;}
+.discounts{background:#6448cd;padding:.5rem 0 .48rem;text-align:center}
+.discounts img{width: 100%;}
+.discounts h2{font-size:.5rem;color:#fff;line-height:.72rem;padding-left:.2rem;text-align: left;}
+.discounts h2 em{color:#ffd200;font-style: normal;}
+.discounts h2 em i{font-size:.7rem;font-style: normal;}
+.discounts .wrap{width:6.2rem;margin:.96rem auto 0;border:1px solid #fff;padding:0 .2rem;box-sizing:border-box;color:#fff;position:relative}
+.discounts .wrap h5{padding-left:.9rem;padding-right:.1rem;line-height:.65rem;display:inline-block;background:#6448cd url(../images/NO1.png) no-repeat .08rem top;background-size:.83rem .48rem;font-size:.32rem;position:absolute;left:.22rem;top:-.38rem}
+.discounts .wrap .title{padding-top:.3rem;line-height:.6rem;font-weight:700}
+.discounts .wrap .act{border-bottom:1px dashed #fff;font-size:.24rem;text-align:center;align-items:center;padding:.1rem 0}
+.discounts .wrap .act>span{width:26%}
+.discounts .wrap .gift{justify-content:center}
+.discounts .wrap .gift .item{display:block}
+.discounts .wrap .gift .item span{display:block;line-height:.3rem}
+.discounts .wrap .gift em{align-self:center}
+.discounts .wrap .iImg{width:.6rem;height:.6rem;display:inline-block}
+.discounts .wrap .condition{width:26%}
+.discounts .wrap .condition em{font-weight:700}
+.discounts .wrap .explain{padding:.1rem 0;text-align:left}
+.discounts .wrap .explain span{width:.45rem;font-size:.26rem;padding-left:.08rem}
+.discounts .wrap .explain div{font-size:.2rem}
+.discounts .dots{text-align:center;margin-top:.65rem}
+.discounts .dots li{display:inline-block;width:3px;height:3px;border-radius:50%;background:#fff;position:relative;margin-right:.25rem}
+.discounts .dots li:nth-last-of-type(1){margin-right:0}
+.discounts .dots li.active:after{content:"";display:block;width:.13rem;height:.13rem;border-radius:50%;border:1px solid #fff;position:absolute;left:-.06rem;top:-.06rem}
+.discounts .btn-apply{margin-top:.4rem;font-size:.21rem;line-height:.38rem;border:1px solid #fff;padding:0 .3rem;display:inline-block;border-radius:.2rem;color:#fff}
+.discounts .btn-apply span{font-size:.24rem;font-weight:700;padding-left:.05rem}
+.clickMore{position:relative}
+.clickMore .click-more-t{width:100%;top:.5rem;left:0;position:absolute;text-align:center;color:#fff;line-height:.5rem}
+.clickMore .click-more-t h3{font-size:.48rem}
+.clickMore .click-more-t .ft{font-size:.24rem;color: #efe6e7;}
+.clickMore .click-more-t i{width:0;display:inline-block;border:.12rem solid transparent;border-top-color:#fff;position:relative;top:-.1rem}
+.clickMore .click-more-t h3 span{color: #ffd200;}
+.discounts .flex .flex0:nth-child(1){color: #ffd200;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,1289 @@
+@charset "utf-8";
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {
+    background:white;
+    color: #465d6d;
+    font-family: "微软雅黑";
+}
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+}
+/* 要注意表单元素并不继承父级 font 的问题 */
+/*body,button,input,select,textarea {
+    font:12px '\5b8b\4f53',arial,"微软雅黑";
+}*/
+input,select,textarea {
+    font-size:100%;
+}
+/* 去掉 table cell 的边距并让其边重合 */
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* ie bug：th 不继承 text-align */
+th {
+    text-align:inherit;
+}
+/* 去除默认边框 */
+fieldset,img {
+    border:none;
+}
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {
+    display:block;
+}
+/* 去掉列表前的标识，li 会继承 */
+ol,ul {
+    list-style:none;
+}
+/* 对齐是排版最重要的因素，别让什么都居中 */
+caption,th {
+    text-align:left;
+}
+/* 来自yahoo，让标题都自定义，适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+/* 统一上标和下标 */
+sub,sup {
+    font-size:75%;
+    line-height:0;
+    position:relative;
+    vertical-align:baseline;
+}
+sup {
+    top:-0.5em;
+}
+sub {
+    bottom:-0.25em;
+}
+/* 让链接在 hover 状态下显示下划线
+a:hover {
+    text-decoration:underline;
+}*/
+/* 默认不显示下划线，保持页面简洁 */
+ins,a,a:hover {
+    text-decoration:none;
+}
+/* 去除 ie6 & ie7 焦点点状线 */
+a:focus,*:focus {
+    outline:none;
+}
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom:1; /* for ie6 & ie7 */
+}
+.clear {
+    clear:both;
+    display:block;
+    font-size:0;
+    height:0;
+    line-height:0;
+    overflow:hidden;
+}
+/* 设置显示和隐藏，通常用来与 js 配合 */
+.hide {
+    display:none;
+}
+.block {
+    display:block;
+}
+/* 设置浮动，减少浮动带来的 bug */
+.fl,.fr {
+    display:inline;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+/*文字排版、颜色*/
+.f12{font-size:12px}
+.f13{font-size:13px}
+.f14{font-size:14px}
+.f16{font-size:16px}
+.f20{font-size:20px}
+.fb{font-weight:bold}
+.fn{font-weight:normal}
+.t2{text-indent:2em}
+.red,a.red{color:#cc0031}
+.darkblue,a.darkblue{color:#039}
+.gray,a.gray{color:#878787}
+.lh150{line-height:150%}
+.lh180{line-height:180%}
+.lh200{line-height:200%}
+.unl{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+/*定位*/
+.tl{text-align:left}
+.tc{text-align:center}
+.tr{text-align:right}
+.cb{clear:both}
+.cl{clear:left}
+.cr{clear:right}
+.vm{vertical-align:middle}
+.pr{position:relative}
+.pa{position:absolute}
+.abs-right{position:absolute;right:0}
+.zoom{zoom:1}
+.hidden{visibility:hidden}
+.none{display:none}
+/*长度高度*/
+.w10{width:10px}
+.w20{width:20px}
+.w50{width:50px}
+.w90{width:90px}
+.w100{width:100px}
+.w200{width:200px}
+.w250{width:250px}
+.w500{width:500px}
+.w800{width:800px}
+.w{width:100%}
+.h50{height:50px}
+.h80{height:80px}
+.h100{height:100px}
+.h200{height:200px}
+.h{height:100%}
+/*边距*/
+.m10{margin:10px}
+.m15{margin:15px}
+.m30{margin:30px}
+.mt5{margin-top:5px}
+.mt10{margin-top:10px}
+.mt15{margin-top:15px}
+.mt50{margin-top:50px}
+.mt100{margin-top:100px}
+.mb5{margin-bottom:5px}
+.mb10{margin-bottom:10px}
+.mb15{margin-bottom:15px}
+.mb100{margin-bottom:100px}
+.ml5{margin-left:5px}
+.ml10{margin-left:10px}
+.ml15{margin-left:15px}
+.ml20{margin-left:20px}
+.ml30{margin-left:30px}
+.ml50{margin-left:50px}
+.ml100{margin-left:100px}
+.mr5{margin-right:5px}
+.mr10{margin-right:10px}
+.mr15{margin-right:15px}
+.mr50{margin-right:50px}
+.mr100{margin-right:100px}
+.p10{padding:10px;}
+.p15{padding:15px;}
+.p30{padding:30px;}
+.pt5{padding-top:5px}
+.pt10{padding-top:10px}
+.pt15{padding-top:15px}
+.pt20{padding-top:20px}
+.pt30{padding-top:30px}
+.pt50{padding-top:50px}
+.pb5{padding-bottom:5px}
+.pb100{padding-bottom:100px}
+.pl5{padding-left:5px}
+.pl10{padding-left:10px}
+.pl50{padding-left:50px}
+.pl100{padding-left:100px}
+.pr5{padding-right:5px}
+.pr10{padding-right:10px}
+.pr15{padding-right:15px}
+.pr100{padding-right:100px}
+
+
+.banner{
+    margin-bottom: 0.71rem;
+    width: 7.5rem;
+    height: 4.13rem;
+    background: url("../images/ccpb.jpg") no-repeat;
+    background-size: 7.5rem 4.13rem;
+}
+
+/*行业现状*/
+.industry-status{
+    margin: 0 auto 0.96rem;
+    width: 7.1rem;
+    height: auto;
+    overflow: hidden;
+}
+.status-left{
+    float: left;
+    margin-top: 0.04rem;
+    width: 1.49rem;
+    height: 1.49rem;
+}
+.ccpb{
+    background: url("../images/ccpb.png") no-repeat;
+    background-size: 1.49rem 1.49rem;
+}
+.status-right{
+    float: right;
+    width: 5.26rem;
+    height: auto;
+}
+.status-right p{
+    margin-bottom: 0.17rem;
+    width: 100%;
+    line-height: 0.3rem;
+    color: #465d6d;
+    font-size: 0.22rem;
+    text-align: justify;
+}
+.status-right p span{ font-weight: bold; }
+.swt{
+    display: block;
+    width: 1.52rem;
+    height: 0.51rem;
+    line-height: 0.51rem;
+    border: 0.01rem solid #465d6d;
+    color: #465d6d;
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+/*职业前景*/
+.career-prospects{
+    width:7.5rem;
+    height: auto;
+}
+.ccpb-title{
+    display: block;
+    margin: 0 auto 0.34rem;
+    width: 5.09rem;
+    height: 0.55rem;
+}
+.ccpb_1{
+    background: url("../images/ccpb_1.png") no-repeat;
+    background-size: 5.09rem 0.55rem;
+}
+.career-prospects p{
+    width: 100%;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.career-prospects p span{font-weight: bold;}
+.career-prospects p span em{
+    font-style: normal;
+    color: #a73c3c;
+}
+.career-pic{
+    display: block;
+    margin: 0.49rem auto 0.46rem;
+    width: 100%;
+    height: 3.77rem;
+    background: url("../images/ccpb_2.png") no-repeat center center;
+    background-size: 5.58rem 3.77rem;
+}
+.swta{ margin: 0 auto 0.99rem;}
+
+/*认证优势*/
+.authentication-advantage{margin: 0 auto 0.77rem;}
+.ccpb_3{
+    background: url("../images/ccpb_3.png") no-repeat;
+    background-size: 1.48rem 1.49rem;
+}
+
+/*就业方向*/
+.direction-employment{ margin: 0 auto 0.68rem; }
+.ccpb_4{
+    background: url("../images/ccpb_4.png") no-repeat;
+    background-size: 1.48rem 1.49rem;
+}
+.direction-employment p span{
+    display: block;
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    background: url("../images/ccpb_5.png") no-repeat 0.07rem center;
+    background-size: 0.07rem 0.08rem;
+    font-weight: normal;
+    text-indent: 0.2rem;
+}
+.direction-employment p span.none{ background: none; }
+.direction-employment p span em{
+    font-style: normal;
+    font-weight: bold;
+    color: #a73c3c;
+}
+
+/*行业需求*/
+.industry-demand{ margin: 0 auto 1.24rem }
+.ccpb_6{
+    background: url("../images/ccpb_6.png") no-repeat;
+    background-size: 1.48rem 1.49rem;
+}
+
+/*中鹏优势*/
+.zp-advantage{
+    width: 7.5rem;
+    height: auto;
+}
+.ccpb-title-a{ margin: 0 auto 0.44rem; }
+.ccpb_7{
+    background: url("../images/ccpb_7.png") no-repeat center center;
+    background-size: 4.07rem 0.55rem;
+}
+.zp-advantage-content{
+    margin: 0 auto;
+    padding-top: 0.33rem;
+    width: 7.08rem;
+    height: 7.7rem;
+    border: 0.01rem solid #465d6d;
+}
+.zp-advantage-content h2{
+    line-height: 0.79rem;
+    font-size: 0.33rem;
+    text-align: center;
+}
+.zp-advantage-pic{
+    display: block;
+    margin-bottom: 0.42rem;
+    width: 100%;
+    height: 1.4rem;
+    background: url("../images/ccpb_8.png") no-repeat center center;
+    background-size: 1.57rem 1.4rem;
+}
+.zp-advantage-title{
+    display: block;
+    margin: 0.38rem 0 0.38rem 0.43rem ;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.zp-advantage-ul{
+    margin-left: 1.05rem;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.zp-advantage-ul li{
+    float: left;
+    margin-bottom: 0.33rem;
+    padding-left: 0.12rem;
+    width: 2.37rem;
+    height: auto;
+    background: url("../images/ccpb_5.png") no-repeat left 0.07rem;
+    background-size: 0.07rem 0.08rem;
+}
+.zp-advantage-ul li span{
+    display: block;
+    line-height: 0.29rem;
+    font-size: 0.21rem;
+}
+.zp-advantage-li{font-weight: bold }
+
+/*考证的好处*/
+.textual-research{
+    margin: 0 auto 0.36rem;
+    padding-top: 0.6rem;
+    width: 7.1rem;
+    height: 7.23rem;
+    background-color: #a4c7ed;
+    text-align: center;
+}
+.textual-research h2{
+    line-height: 1.14rem;
+    font-size: 0.34rem;
+}
+.textual-pic{
+    display: block;
+    margin-bottom: 0.47rem;
+    width: 100%;
+    height: 1.44rem;
+    background: url("../images/ccpb_9.png") no-repeat center center;
+    background-size: 1.71rem 1.44rem;
+}
+.textual-research h3{
+    margin-bottom: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.textual-research p{
+    margin-bottom: 0.36rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+.textual-research p em{
+    color: #a73c3c;
+    font-weight: bold;
+    font-style: normal;
+}
+.textual-msg{
+    display: block;
+    line-height: 0.35rem;
+    font-size: 0.23rem;
+    font-weight: bold;
+}
+
+/*采购师职业等级和报考条件*/
+.vocational-grade{
+    margin-bottom: 0.55rem;
+    width: 7.5rem;
+    height: auto;
+}
+.vocational-grade h1{
+    line-height: 1.34rem;
+    font-size: 0.44rem;
+    text-align: center;
+}
+.vocational-grade-content{
+    margin: 0 auto;
+    width: 7.1rem;
+    height: auto;
+    overflow: hidden;
+}
+.grade-left{
+    float: left;
+    margin-top: 0.06rem;
+    width: 3.04rem;
+    height: 6.34rem;
+    background: url("../images/ccpb_10.jpg") no-repeat;
+    background-size: 3.04rem 6.34rem;
+}
+.grade-right{
+    float: right;
+    width: 3.7rem;
+    height: auto;
+}
+.grade-list{
+    margin-bottom: 0.45rem;
+    padding-left: 0.12rem;
+    width: 3.58rem;
+    height: auto;
+    background: url("../images/ccpb_5.png") no-repeat left 0.09rem;
+    background-size: 0.07rem 0.08rem;
+}
+.grade-list p{
+    margin-bottom: 0.12rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+.grade-list p span{
+    display: block;
+    font-weight: bold;
+}
+
+/*采购师认证课程*/
+.certification-course{
+    width: 7.5rem;
+    height: auto;
+}
+.certification-course h1{
+    line-height: 1.19rem;
+    font-size: 0.45rem;
+    font-weight: bold;
+    text-align: center;
+}
+.course-list{
+    margin: 0 auto 0.32rem;
+    padding: 0.1rem 0 0 0.46rem;
+    width: 6.62rem;
+    height: 2.89rem;
+    border: 0.01rem solid #dcdddd;
+    box-shadow: 0.05rem 0.1rem 0.15rem #cbcbcb,-0.05rem 0.1rem 0.15rem #cbcbcb ;
+}
+.course-list-title{
+    height: 0.52rem;
+    line-height: 0.52rem;
+    background: url("../images/ccpb_5.png") no-repeat left center;
+    background-size: 0.07rem 0.08rem;
+    font-size: 0.22rem;
+    text-indent: 0.18rem;
+}
+.course-list-title span{
+    display: inline-block;
+    margin-left: 0.08rem;
+    font-size: 0.18rem;
+}
+.course-content{
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+}
+.course-left{
+    float: left;
+    margin-top: 0.08rem;
+    width: 2.57rem;
+    height: 1.4rem;
+}
+.ccpb_11{
+    background: url("../images/ccpb_11.jpg") no-repeat;
+    background-size: 2.57rem 1.4rem;
+}
+.ccpb_12{
+    background: url("../images/ccpb_12.jpg") no-repeat;
+    background-size: 2.57rem 1.4rem;
+}
+.ccpb_13{
+    background: url("../images/ccpb_13.jpg") no-repeat;
+    background-size: 2.57rem 1.4rem;
+}
+.course-right{
+    float: right;
+    width: 3.68rem;
+    height: auto;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+}
+.swtb{margin: 0.17rem auto 0;}
+
+/*立即报名*/
+.immediately{
+    padding-top: 0.52rem;
+    width: 7.5rem;
+    height: 3.13rem;
+    background-color: #8a9bad;
+}
+.immediately p{
+    margin-bottom: 0.2rem;
+    line-height: 0.4rem;
+    color: #fff;
+    font-size: 0.29rem;
+    font-weight: bold;
+    text-align: center;
+}
+.immediately-ipt{
+    margin-left: 0.72rem;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.immediately-ipt input{
+    display: block;
+    float: left;
+    margin-right: 0.24rem;
+    padding-left: 0.18rem;
+    width: 1.68rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    border: none;
+    background-color: #fff;
+    color: #999;
+    font-size: 0.18rem;
+}
+.ipt-sbt{
+    display: block;
+    margin: 0.23rem auto 0;
+    width: 1.56rem;
+    height: 0.47rem;
+    line-height: 0.47rem;
+    border: 0.02rem solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 0.23rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*您身边的教育专家 为您提供最贴心的服务*/
+.education-experts{
+    margin-top: 0.61rem;
+    width: 7.5rem;
+    height: auto;
+}
+.education-experts h1{
+    margin-bottom: 0.19rem;
+    line-height: 0.58rem;
+    font-size: 0.44rem;
+    text-align: center;
+}
+.education-experts h1 span{ font-weight: bold }
+.education-content{
+    padding-top: 0.28rem;
+    width: 7.5rem;
+    height: 7.65rem;
+    background-color: #efefef;
+}
+.education-msg{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.education-left{
+    float: left;
+    margin-left: 1.17rem;
+    width: 0.63rem;
+    height: 6.11rem;
+    background: url("../images/ccpb_14.png") no-repeat;
+    background-size: 0.63rem 6.11rem;
+}
+.education-right{
+    float: left;
+    margin: 0.07rem 0 0 0.41rem;
+    width: auto;
+    height: auto;
+}
+.education-right li{
+    margin-bottom: 0.31rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+.education-right li span{ font-weight: bold }
+.education-experts a{
+    display: block;
+    margin: 0.29rem auto 0;
+    width: 2.96rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    border: 0.01rem solid #58708a;
+    color: #465d6d;
+    font-size: 0.23rem;
+    text-align: center;
+}
+
+/*完善的教学服务助您轻松通过考试*/
+.teaching-service{
+    margin: 0.7rem 0 0.38rem 0;
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+}
+.teaching-left{
+    float: left;
+    margin-left: 0.2rem;
+    width: 2.71rem;
+    height: 3.41rem;
+    background: url("../images/ccpb_15.jpg") no-repeat;
+    background-size: 2.71rem 3.41rem;
+}
+.teaching-right{
+    float: left;
+    margin: 0.04rem 0 0 0.38rem;
+    width: 4.2rem;
+    height: auto;
+}
+.teaching-p1{
+    margin-bottom: 0.24rem;
+    line-height: 0.6rem;
+    font-size: 0.44rem;
+}
+.teaching-p1 span{font-weight: bold;}
+.teaching-p2{
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+}
+.teaching-content{
+    width: 7.5rem;
+    height: auto;
+}
+.teaching-msg{
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+}
+.teaching-msg-left{
+    float: left;
+    margin-left: 0.1rem;
+    width: 3.9rem;
+    height: auto;
+}
+.teaching-msg-right{
+    float: left;
+    width: 3.5rem;
+    height: auto;
+}
+.teaching-msg li{
+    margin-bottom: 0.35rem;
+    padding:0.67rem 0 0 0.72rem;
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.3rem;
+    background: url("../images/ccpb_16.png") no-repeat left top;
+    background-size: 1.67rem 1.22rem;
+    font-size: 0.22rem;
+    box-sizing: content-box;
+}
+.teaching-content a{
+    display: block;
+    margin: 0.29rem auto 0.64rem;
+    width: 2.96rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    border: 0.01rem solid #465d6d;
+    color: #465d6d;
+    font-size: 0.22rem;
+    text-align: center;
+}
+
+/*资源中心*/
+.resource-center{margin-bottom: 0.54rem;}
+.ccpb_17{
+    background: url("../images/ccpb_17.png") no-repeat;
+    background-size: 1.48rem 1.49rem;
+}
+.resource-center .status-right{ overflow: hidden }
+.resource-center-a{
+    float: left;
+    margin: 0 0.06rem 0.06rem 0;
+    width: 1.67rem;
+    height: 0.85rem;
+    line-height: 0.85rem;
+    background-color: #8a9bad;
+    color: #fff;
+    font-size: 0.23rem;
+    text-align: center;
+}
+
+/*下载中心*/
+.download-center{ margin-bottom: 0.76rem}
+.ccpb_18{
+    background: url("../images/ccpb_18.png") no-repeat;
+    background-size: 1.48rem 1.49rem;
+}
+.download-list{
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+.download-list span{
+    display: block;
+    float: left;
+}
+.download-list a{
+    display: block;
+    float: right;
+    color: #a73c3c;
+}
+.more-click{
+    display: block;
+    margin-top: 0.18rem;
+    width: 2.96rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    border: 0.01rem solid #465d6d;
+    color: #465d6d;
+    font-size: 0.22rem;
+    text-align: center;
+}
+
+/*精品课程*/
+.excellent-courser{margin: 0.55rem auto 0.36rem}
+.ccpb_19{
+    background: url("../images/ccpb_19.png") no-repeat;
+    background-size: 1.48rem 1.49rem;
+}
+.excellent-courser-pic{
+    width: 7.5rem;
+    height: 3.61rem;
+    background: url("../images/ccpb_20.png") no-repeat center center;
+    background-size: 7.05rem 3.61rem;
+}
+.immediately-a{ margin:0.55rem 0 0.23rem; }
+.immediately-a .immediately-ipt{margin-left: 1.06rem;}
+.immediately-a .immediately-ipt input{width: 2.41rem;}
+
+/*中鹏独家推出的双线教学模式*/
+.double-line{
+    margin-bottom: 0.65rem;
+    width: 7.5rem;
+    height: auto;
+}
+.double-line h1{
+    line-height: 1.44rem;
+    font-size: 0.46rem;
+    text-align: center;
+}
+.double-top,.double-bot{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.double-top-le{
+    float: left;
+    margin-top: 0.6rem;
+    width: 4.18rem;
+    height: 4.07rem;
+    background: url("../images/ccpb_21.png") no-repeat;
+    background-size: 4.18rem 4.07rem ;
+}
+.double-top-ri{
+    float: left;
+    padding: 1.12rem 0 0 0.48rem;
+    width: 2.59rem;
+    height: 3.52rem;
+    border: 0.02rem solid #a4c7ed;
+}
+.double-top-ri h3{
+    line-height: 0.88rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.double-top-ri p{
+    line-height: 0.31rem;
+    font-size: 0.23rem;
+}
+.double-top-ri p span{ color: #a73c3c; }
+.double-bot-le{
+    float: left;
+    margin: -0.01rem 0 0 0.21rem;
+    padding: 0.41rem 0 0 0.15rem;
+    width: 2.9rem;
+    height: 4.23rem;
+    border: 0.02rem solid #a4c7ed;
+}
+.double-bot-le h3{
+    line-height: 0.9rem;
+    font-size: 0.24rem;
+    text-indent: 0.05rem;
+}
+.double-bot-le p{
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    text-indent: 0.05rem;
+}
+.double-bot-le a{
+    display: block;
+    margin: 0.96rem 0 0 0;
+    width: 2.71rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border: 0.01rem solid #58708a;
+    color: #465d6d;
+    font-size: 0.22rem;
+    text-align: center;
+}
+.double-bot-ri{
+    float: left;
+    width: 4.18rem;
+    height: 3.14rem;
+    background: url("../images/ccpb_22.png") no-repeat;
+    background-size: 4.18rem 3.14rem;
+}
+
+/*中鹏倾心打造的灵蜥学院*/
+.forge-ahead{
+    width: 7.5rem;
+    height: auto;
+}
+.forge-ahead h1{
+    line-height: 0.59rem;
+    font-size: 0.45rem;
+    font-weight: bold;
+    text-align: center;
+}
+.forge-ahead h2{
+    margin-bottom: 0.28rem;
+    line-height: 0.32rem;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.forge-top{
+    margin: 0 auto;
+    padding-top: 0.28rem;
+    width: 7.09rem;
+    height: 7.65rem;
+    border: 0.01rem solid #465d6d;
+}
+.forge-top h2{
+    margin-bottom: 0.32rem;
+    line-height: 0.48rem;
+    font-size: 0.34rem;
+}
+.forge-top-pic{
+    margin-bottom: 0.42rem;
+    width: 100%;
+    height: 1.48rem;
+    background: url("../images/ccpb_23.png") no-repeat center center;
+    background-size: 1.51rem 1.48rem;
+}
+.forge-top-ul{
+    margin-left: 0.47rem;
+    width: 6.6rem;
+    height: auto;
+    overflow: hidden;
+}
+.forge-top-ul li{
+    float: left;
+    margin-bottom: 0.33rem;
+    padding-left: 0.13rem;
+    width: 3.16rem;
+    line-height: 0.3rem;
+    background: url("../images/ccpb_5.png") no-repeat left 0.08rem;
+    background-size: 0.07rem 0.08rem;
+    font-size: 0.22rem;
+}
+.forge-top-ul li span{ font-weight: bold }
+.forge-bot{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 1.16rem;
+    width: 7.11rem;
+    height: 7.62rem;
+    background-color: #a4c7ed;
+}
+.forge-bot img{
+    position: absolute;
+    top: -0.51rem;
+    left: 50%;
+    margin-left: -0.64rem;
+    width: 1.28rem;
+    height: 1.58rem;
+    z-index: 1;
+}
+.forge-bot h2{
+    line-height: 1.09rem;
+    font-size: 0.33rem;
+    text-align: center;
+}
+.forge-bot-pic{
+    margin-bottom: 0.44rem;
+    width: 100%;
+    height: 1.48rem;
+    background: url("../images/ccpb_25.png") no-repeat center center;
+    background-size: 1.65rem 1.45rem;
+}
+.forge-list{
+    margin: 0 0 0.18rem 0.32rem;
+    padding: 0 0 0 0.13rem;
+    width: 6.34rem;
+    height: auto;
+    line-height: 0.3rem;
+    background: url("../images/ccpb_26.png") no-repeat left 0.08rem;
+    background-size: 0.07rem 0.08rem;
+    font-size: 0.2rem;
+}
+.forge-list span{ font-weight: bold }
+
+/*灵蜥学院*/
+.school{margin:0.69rem auto 0.63rem;}
+.ccpb_27{
+    background: url("../images/ccpb_27.png") no-repeat center center;
+    background-size: 1.48rem 1.49rem;
+}
+
+/*我们将全心全力 为您解答每一个问题*/
+.answer{
+    margin-bottom: 0.4rem;
+    width: 7.5rem;
+    height: auto;
+}
+.answer h2{
+    line-height: 0.58rem;
+    font-size: 0.46rem;
+    text-align: center;
+}
+.answer-pic{
+    margin: 0.4rem 0 0 0;
+    width: 100%;
+    height: 5.71rem;
+    background: url("../images/ccpb_28.png") no-repeat center center;
+    background-size: 7.12rem 5.71rem;
+}
+.answer-pic a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*证书全国通用*/
+.certificate{
+    margin-bottom: 0.6rem;
+    width: 7.5rem;
+    height: auto;
+}
+.certificate h1{
+    line-height: 0.88rem;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.certificate p{
+    margin-bottom: 0.36rem;
+    line-height: 0.34rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.certificate p span{font-weight: bold}
+.certificate-list{
+    margin: 0 auto 0.39rem;
+    padding-left: 0.44rem;
+    width: 6.64rem;
+    height: 2.69rem;
+    border: 0.01rem solid #dcdddd;
+    box-shadow: 0.05rem 0.1rem 0.15rem #cbcbcb,-0.05rem 0.1rem 0.15rem #cbcbcb ;
+}
+.certificate-list h2{
+    line-height: 0.73rem;
+    background: url("../images/ccpb_5.png") no-repeat left center;
+    background-size: 0.07rem 0.08rem;
+    font-size: 0.23rem;
+    text-indent: 0.2rem;
+}
+.certificate-list h2 span{
+    display: inline-block;
+    margin-left: 0.15rem;
+    font-size: 0.19rem;
+}
+.certificate--blue{
+    width: 6rem;
+    height: 1.66rem;
+    background: #a4c7ed url("../images/ccpb_29.png") no-repeat center center;
+    background-size: 4.54rem 1.26rem;
+}
+.certificate-list:nth-of-type(2) .certificate--blue{
+    background: #a4c7ed url("../images/ccpb_30.png") no-repeat center center;
+    background-size: 4.41rem 1.26rem;
+}
+.certificate-list:nth-of-type(3) .certificate--blue{
+    background: #a4c7ed url("../images/ccpb_31.png") no-repeat center center;
+    background-size: 4.38rem 1.11rem;
+}
+
+/*全国统考*/
+.national-exam{
+    width: 7.5rem;
+    height: auto;
+}
+.national-exam h2{
+    margin-bottom: 0.12rem;
+    line-height: 0.59rem;
+    font-size: 0.56rem;
+    text-align: center;
+}
+.national-exam h2 span{font-weight: bold }
+.national-exam h2 em{font-style: normal; font-weight: bold;color: #a73c3c; }
+.national-exam p{
+    margin-bottom: 0.26rem;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.national-exam-name,.national-exam-ipt{
+    margin-left: 0.95rem;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.national-exam-name span{
+    display: block;
+    float: left;
+    width: 3.08rem;
+    line-height: 0.41rem;
+    font-size: 0.21rem;
+}
+.national-exam-ipt input{
+    display: block;
+    float: left;
+    margin-right: 0.46rem;
+    padding-left: 0.28rem;
+    width: 2.34rem;
+    height: 0.62rem;
+    line-height: 0.62rem;
+    border: none;
+    background-color: #fff;
+    color: #999;
+    font-size: 0.22rem;
+}
+.ipt-sbta{
+    display: block;
+    margin: 0.34rem auto 0.52rem;
+    width: 2.62rem;
+    height: 0.6rem;
+    line-height: 0.65rem;
+    border: 0.01rem solid #465d6d;
+    background-color: transparent;
+    color: #465d6d;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*报名即送独家秘笈*/
+.study-plan{
+    margin-bottom: 0.72rem;
+    padding-top: 0.3rem;
+    height: 2.62rem;
+}
+
+/*最全面的增值服务*/
+.increment{
+    width: 7.5rem;
+    height: auto;
+    text-align: center;
+}
+.increment h2{
+    line-height: 0.62rem;
+    font-size: 0.46rem;
+    font-weight: bold;
+}
+.increment span{
+    display: block;
+    margin-bottom: 0.34rem;
+    line-height: 0.31rem;
+    font-size: 0.17rem;
+}
+.increment-pic{
+    width: 7.5rem;
+    height: 7.66rem;
+    background: url("../images/ccpb_32.png") no-repeat center center;
+    background-size: 7.12rem 7.66rem;
+}
+.increment-pic a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*完善的教学系统*/
+.teaching-system{
+    margin: 0 auto 0.54rem;
+    padding-top: 0.69rem;
+    width: 7.1rem;
+    height: 8.29rem;
+    border: 0.01rem solid #adb9c5;
+}
+.teaching-system h2{
+    line-height: 0.57rem;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.teaching-tit{
+    display: block;
+    margin-bottom: 0.42rem;
+    line-height: 0.29rem;
+    font-size: 0.19rem;
+    text-align: center;
+}
+.teaching-system dl{
+    margin:0 0 0.4rem 0.63rem;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.teaching-system dl dt{
+    float: left;
+    width: 1.43rem;
+    height: 1.75rem;
+}
+.teaching-system dl dt img{
+    display: block;
+    width: 100%;
+}
+.teaching-system dl dd{
+    float: left;
+    margin:0.04rem 0 0 0.32rem;
+    width: auto;
+    height: auto;
+}
+.teaching-system dl dd span{
+    display: block;
+    line-height: 0.45rem;
+    font-size: 0.23rem;
+    font-weight: bold;
+}
+.teaching-system dl dd p{
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+
+/*让你轻松通过考试*/
+.easy-exam{
+    width: 7.5rem;
+    height: auto;
+}
+.easy-exam h2{
+    line-height: 0.59rem;
+    font-size: 0.46rem;
+    font-weight: bold;
+    text-align: center;
+}
+.easy-exam-title{
+    display: block;
+    margin-bottom: 0.29rem;
+    line-height: 0.33rem;
+    font-size: 0.19rem;
+    text-align: center;
+}
+.easy-list{
+    margin: 0 auto 0.39rem;
+    padding: 0.17rem 0 0 0.44rem;
+    width: 6.64rem;
+    height: 2.02rem;
+    border: 0.01rem solid #dcdddd;
+    box-shadow: 0.05rem 0.1rem 0.15rem #cbcbcb,-0.05rem 0.1rem 0.15rem #cbcbcb ;
+}
+.easy-list-le{
+    float: left;
+    padding-left: 0.18rem;
+    width: 1.71rem;
+    height: auto;
+    background: url("../images/ccpb_5.png") no-repeat left 0.19rem;
+    background-size: 0.07rem 0.08rem;
+}
+.easy-list-le span{
+    display: block;
+    width: 100%;
+    line-height: 0.47rem;
+    font-size: 0.23rem;
+}
+.easy-list-le-pic{
+    width: 1.71rem;
+    height: 1.22rem;
+    background: url("../images/ccpb_36.jpg") no-repeat;
+    background-size: 1.71rem 1.22rem;
+}
+.easy-list:nth-of-type(2) .easy-list-le-pic{
+    background: url("../images/ccpb_37.jpg") no-repeat;
+    background-size: 1.71rem 1.22rem;
+}
+.easy-list:nth-of-type(3) .easy-list-le-pic{
+    background: url("../images/ccpb_38.jpg") no-repeat;
+    background-size: 1.71rem 1.22rem;
+}
+.easy-list:nth-of-type(4) .easy-list-le-pic{
+    background: url("../images/ccpb_39.jpg") no-repeat;
+    background-size: 1.71rem 1.22rem;
+}
+.easy-list-ri{
+    float: left;
+    margin: 0.09rem 0 0 0.34rem;
+    width: 4rem;
+    height: auto;
+}
+.easy-list-ri p{
+    margin-bottom: 0.18rem;
+    line-height: 0.3rem;
+    font-size: 0.2rem;
+}
+
+/*全球最热门的职业，现在报名即超值学费减免*/
+.reduction{
+    padding-top: 0.3rem;
+    height: 4.17rem;
+}
+.reduction span{
+    display: block;
+    margin-top: 0.21rem;
+    line-height: 0.41rem;
+    font-size: 0.21rem;
+    text-align: center;
+}
+.reduction a{
+    display: block;
+    margin: 0.23rem auto 0;
+    width: 1.91rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border: 0.02rem solid #fff;
+    color: #fff;
+    font-size: 0.22rem;
+    font-weight: bold;
+    text-align: center;
+}

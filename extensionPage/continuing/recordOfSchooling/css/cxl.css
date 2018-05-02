@@ -1,0 +1,419 @@
+.cxl-mr3 {
+    margin-right:0.3rem
+}
+.cxl-mr2 {
+    margin-right:0.2rem
+}
+.cxl-mr1 {
+    margin-right:0.1rem
+}
+.cxl-banner {
+    font-family: "宋体";
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    width:100%;
+    position: relative;
+    height:7.96rem;
+}
+.cxl-banner img.cxl-logo{
+    width:2.15rem;
+    position: absolute;
+    top:0;
+    right:0.92rem;
+}
+.cxl-banner .cxl-banner-float {
+    width:2.97rem;
+    height:4.36rem;
+    position:absolute;
+    right:0.12rem;
+    top:1.82rem;
+    background:rgba(255, 255, 255 ,.7);
+    padding:0.43rem 0.41rem;
+}
+.cxl-banner .cxl-banner-float h3{
+    display: block;
+    font-size:0.34rem;
+    line-height:0.5rem;
+    text-align:center;
+    font-weight:800;
+    color:#133a57;
+}
+.cxl-banner .cxl-banner-float .cxl-tips {
+    margin:0.19rem 0 0 0;
+    width:2.97rem;
+    height:1.97rem;
+    background: url(../images/list-bg.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.cxl-banner .cxl-banner-float .cxl-tips ul{
+    margin:0.24rem 0 0 0;
+    padding:0;
+    list-style:none;
+}
+.cxl-banner .cxl-banner-float .cxl-tips ul li{
+    height:0.49rem;
+    line-height:0.49rem;
+    font-size:0.3rem;
+    font-weight:500;
+    color:#586277;
+}
+.cxl-banner .cxl-banner-float .cxl-tips ul li img{
+    width:0.33rem;
+    height:0.33rem;
+    margin:-0.05rem 0.1rem 0 0;
+}
+.cxl-btn-msg {
+    display: block;
+    width:2.86rem;
+    height:0.77rem;
+    background: url(../images/a_07.png);
+    background-size: cover;
+    margin-top:0.4rem;
+    line-height:0.77rem;
+    color:#fff;
+    font-size:0.29rem;
+    text-align: center;
+    box-shadow:0 5px 10px #0fadef;
+    border-radius:0.13rem;
+}
+.cxl-typebox {
+    width:100%;
+    height:1.47rem;
+    padding:0.68rem 0 0.41rem;
+}
+.cxl-typebox .cxl-signtype{
+    width:6.92rem;
+    height:1.47rem;
+    margin:0 auto;
+    background: url(../images/ew_06.jpg);
+    background-size: cover;
+    font-size:0.37rem;
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+    line-height:1.27rem;
+}
+.cxl-type {
+    width:100%;
+    overflow: hidden;
+    /*height:5rem;*/
+}
+.cxl-type ul{
+    width:7.29rem;
+    margin:0 auto;
+    padding:0;
+}
+.cxl-type ul li{
+    width:2.3rem;
+    height:1.3rem;
+    border:0.02rem solid #c7c7c7;
+    float:left;
+    margin-left:0.08rem;
+    border-top-right-radius:0.35rem;
+    margin-bottom:0.43rem;
+}
+.cxl-type ul li p{
+    height:0.6rem;
+    font-size:0.26rem;
+    margin:0.1rem 0 0 0;
+    line-height:0.6rem;
+    text-align: center;
+    font-weight:800;
+    color:#333;
+}
+.cxl-type ul li a{
+    width:1.98rem;
+    height:0.42rem;
+    display: block;
+    font-size:0.22rem;
+    background: #0fadef;
+    color:#fff;
+    line-height:0.42rem;
+    font-weight:600;
+    -webkit-border-radius:0.21rem;
+    -moz-border-radius:0.21rem;
+    border-radius:0.21rem;
+    text-align:center;
+    margin:0 auto;
+}
+.cxl-faq {
+    width:100%;
+    background: #f3f3f5;
+    padding-bottom:0.5rem;
+}
+.cxl-faq .faq-title img{
+    width:0.32rem;
+    height:0.34rem;
+    margin-top:-0.02rem;
+}
+.cxl-faq .faq-title{
+    font-size:0.3rem;
+    font-weight:800;
+    color:#1eb2ef;
+    text-indent:0.62rem;
+    height:1.14rem;
+    line-height:1.14rem;
+    margin-bottom:0.06rem;
+}
+.cxl-faq .faq-item{
+    padding:0 0.62rem;
+}
+.cxl-faq .faq-item li{
+    margin-bottom:0.5rem;
+}
+.cxl-faq .faq-item .item-question span{
+    display: inline-block;
+    width:0.26rem;
+    height:0.26rem;
+    font-size:0.20rem;
+    line-height:0.26rem;
+    font-weight:600;
+    color:#666;
+    border:0.01rem solid #666;
+    position: relative;
+    top:-0.04rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    text-align: center;
+}
+.cxl-faq .faq-item .item-question{
+    font-size:0.26rem;
+    color:#666;
+    margin-bottom:0.05rem;
+    font-weight:600;
+}
+.cxl-faq .faq-item .item-ansower label{
+    color:#666;
+    font-size:0.22rem;
+}
+.cxl-line {
+    text-indent:0.62rem;
+    width:100%;
+    height:0.67rem;
+    margin-bottom:0.08rem;
+    font-size:0.31rem;
+    font-weight:600;
+}
+.cxl-line input.cxl-input{
+    width:4.6rem;
+    height:0.54rem;
+    border:0.02rem solid #535353;
+    -webkit-border-radius:0.1rem;
+    -moz-border-radius:0.1rem;
+    border-radius:0.1rem;
+    padding:0 0.25rem;
+    color:#535353;
+}
+.cxl-smt {
+    display: block;
+    width:4.26rem;
+    height:0.77rem;
+    background: url(../images/a_19.png);
+    background-size: cover;
+    font-size:0.3rem;
+    line-height:0.77rem;
+    font-weight:600;
+    color:#fff;
+    margin:0.3rem auto 0;
+}
+.rs-test {
+    font-size:0.2rem;
+    color:#79797a;
+    text-align: center;
+    margin:0.3rem 0 0;
+}
+.cxl-h {
+    width:100%;
+    height:0.45rem;
+    line-height:0.45rem;
+    font-size:0.26rem;
+    text-align: center;
+    color:#666;
+    font-weight:bold;
+}
+.cxl-colorfull {
+    width:6.1rem;
+    height:3.09rem;
+    padding:0.12rem 0.1rem;
+    margin:0.24rem auto;
+    border:0.02rem solid #919191;
+}
+.cxl-colorfull img{
+    width:6.1rem;
+    height:3.09rem;
+    box-shadow:0 5px 5px #999;
+}
+.cxl-sign {
+    width:100%;
+    height:1.47rem;
+    padding:0.37rem 0 0;
+}
+.cxl-sign .cxl-signmsg{
+    width:6.92rem;
+    height:1.47rem;
+    margin:0 auto;
+    background: url(../images/d_09.jpg);
+    background-size: cover;
+    font-size:0.37rem;
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+    line-height:1.27rem;
+}
+.cxl-ysign {
+    margin-top:0.24rem;
+    width:100%;
+    background: #f3f3f5;
+    padding-bottom:0.5rem;
+}
+.sign-msg {
+    width:7rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.sign-msg li{
+    width:33%;
+    margin:0.41rem auto 0;
+    float: left;
+}
+.sign-msg li img{
+    display: block;
+    width:0.77rem;
+    height:0.77rem;
+    margin:0 auto;
+}
+.sign-msg li h3{
+    height:0.57rem;
+    line-height:0.57rem;
+    font-size:0.26rem;
+    color:#333;
+    font-weight:800;
+    text-align:center;
+}
+.sign-msg li p{
+    /*height:0.34rem;*/
+    line-height:0.34rem;
+    font-size:0.2rem;
+    color:#666;
+    font-weight:600;
+    text-align:left;
+}
+.sign-msg li a{
+    display: block;
+    width:1.98rem;
+    height:0.42rem;
+    line-height:0.42rem;
+    font-size:0.2rem;
+    color:#fff;
+    background: #0fadef;
+    font-weight:800;
+    text-align:center;
+    margin:0.17rem auto;
+    -webkit-border-radius:0.21rem;
+    -moz-border-radius:0.21rem;
+    border-radius:0.21rem;
+}
+.cxl-normal-faq {
+    padding:0 0.42rem;
+}
+.cxl-normal-faq .height {
+    height:1.37rem;
+    line-height:1.37rem;
+    text-align: center;
+    color:#0fadef;
+    font-weight:800;
+    font-size:0.36rem;
+}
+.cxl-normal-faq .height img {
+    width:0.45rem;
+    height:0.45rem;
+}
+.cxl-quests li {
+    width:100%;
+    height:0.53rem;
+    line-height:0.53rem;
+}
+.cxl-quests li span{
+    display: inline-block;
+    width:5.3rem;
+    float: left;
+    font-size:0.22rem;
+    color:#333;
+    border-bottom:0.01rem dashed #aaa;
+}
+.cxl-quests li span em{
+    display: inline-block;
+    width:0.29rem;
+    height:0.29rem;
+    line-height:0.29rem;
+    font-size:0.26rem;
+    color:#fff;
+    background:#0fadef;
+    text-align: center;
+}
+.cxl-quests li a{
+    display: inline-block;
+    background: url(../images/ico_45.png);
+    background-size: cover;
+    float: right;
+    width:1.22rem;
+    height:0.44rem;
+    line-height:0.44rem;
+    text-align: center;
+    color:#fff;
+    font-size:0.2rem;
+}
+.cxl-advantage{
+    margin-top:0.3rem;
+    background: url(../images/a_50.jpg);
+    background-size: cover;
+    width:100%;
+    height:6.34rem;
+}
+.our-advantage {
+    font-size:0.6rem;
+    color:#0fadef;
+    font-weight:800;
+    height:1.14rem;
+    line-height:1.14rem;
+    text-align: center;
+    margin-bottom:0.3rem;
+}
+.cxl-adv-msg {
+    padding:0 0.42rem;
+}
+.cxl-adv-msg li {
+    width:47%;
+    float: left;
+    font-size:0.23rem;
+    font-weight:600;
+    color:#666;
+    margin-bottom:0.51rem;
+}
+.cxl-adv-msg li p.simple{
+    height:0.55rem;
+    line-height:0.55rem;
+}
+.cxl-adv-msg li div p{
+    height:0.35rem;
+    line-height:0.35rem;
+}
+.cxl-adv-msg li img{
+    width:0.6rem;
+    height:0.6rem;
+    float: left;
+    margin-right:0.23rem;
+}
+.cxl-footer {
+    font-size:0.2rem;
+    background: #434343;
+    padding:0.15rem 0;
+}
+.cxl-footer p{
+    color:#b4b4b4;
+    height:0.29rem;
+    line-height:0.29rem;
+    text-align: center;
+}
