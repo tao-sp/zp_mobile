@@ -1,0 +1,152 @@
+@charset "utf-8";
+@import '../js/hotcss/px2rem';
+body{
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td,figure {
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1;
+}
+.font_yahei{
+  font-family: "Microsoft YaHei";
+}
+.xlcp-banner{
+  width:px2rem(640);
+  display: block;
+}
+.xlcp-title{
+  height:px2rem(80);
+  width:px2rem(640);
+  background: #18b6f3;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: px2rem(30);
+  text-align: center;
+  line-height: px2rem(80);
+}
+.xlcp-tips{
+  padding: px2rem(30) 0;
+  text-align: center;
+  color: #666666;
+  font-size: px2rem(20);
+}
+.xlcp-tips b{
+  color: #e64a42;
+  font-size: px2rem(26);
+}
+.xlcp-form{
+  width:px2rem(600);
+  margin: auto;
+}
+.xlcp-form-title > span{
+  font-size: px2rem(24);
+  color: #333333;
+  line-height: px2rem(40);
+}
+
+.xlcp-form-title   label{
+  font-weight: lighter;
+  font-size: px2rem(24);
+  color: #666666;
+  line-height: px2rem(40);
+}
+.xlcp-form-title   table tr td{
+  width:px2rem(200);
+}
+
+
+.rdo {
+  margin-right: px2rem(6);
+  width: px2rem(18);
+  height: px2rem(18);
+  position: relative;
+}
+.rdo:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width:px2rem(18);
+  height: px2rem(18);
+  background: url("../images/radiobg.png")  0 px2rem(-18) no-repeat;
+  background-size: px2rem(18) px2rem(36);
+}
+.zxj-rdo:after{
+  background-image: url(../images/radiobg1.png) ;
+}
+.rdo:checked:after {
+  width:px2rem(18);
+  height: px2rem(18);
+  background: url("../images/radiobg.png") no-repeat;
+  background-size: px2rem(18) px2rem(36);
+}
+.zxj-rdo:checked:after{
+  background-image: url(../images/radiobg1.png);
+}
+.xlcp-form-input input{
+  display: block;
+  margin:px2rem(15) auto;
+  width:px2rem(500);
+  height:px2rem(70);
+  border: 1px solid #7a7a7a;
+  border-radius: px2rem(6);
+  font-size: px2rem(18);
+  padding-left: px2rem(20);
+}
+.xlcp-form-input{
+  margin-top: px2rem(30);
+}
+.xlcp-form-input a{
+  display: block;
+  margin:px2rem(18) auto;
+  width:px2rem(522);
+  height:px2rem(70);
+  background: #18b7f3;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: px2rem(30);
+  border-radius: px2rem(6);
+  text-align: center;
+  line-height: px2rem(70);
+}
+.xlcp-footer{
+  background: #434343;
+  padding: px2rem(10) 0;
+  font-size: px2rem(20);
+  color: #d4d4d4;
+  text-align: center;
+  line-height: px2rem(36);
+}
+/*测评学历提升方式 领取助学金*/
+.zxj-title{
+  background: #1b75e3;
+}
+.zxj-form-title{
+  margin-bottom: px2rem(40);
+}
+.zxj-a a{
+  background: #f85959;
+  margin-bottom: px2rem(40);
+}
+.zxj-img{
+  width:px2rem(640);
+}

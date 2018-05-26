@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>上市教育培训机构专注职业教育15年</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=640,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=640,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/xlhd.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+</head>
+<body class="font_yahei">
+<!--顶部开始-->
+    <ul class="xlhd-nav clearfix">
+        <li>
+            <a onclick="tkOpen()">考证费用</a>
+        </li>
+        <li>
+            <a onclick="tkOpen()">考证时间</a>
+        </li>
+        <li>
+            <a  onclick="tkOpen()"> 快速考证</a>
+        </li>
+        <li>
+            <a  onclick="tkOpen()"> 报考政策</a>
+        </li>
+
+    </ul>
+<!--顶部结束-->
+
+<!--banner开始-->
+<div class="xlhd-banner">
+    <img src="images/logo.png">
+    <div class="xlhd-banner-title">广东省成人学历<br>  中鹏培训中心</div>
+
+    <div class="xlhd-banner-box">
+        热门院校2180元起<br>
+        国家承认 学信网可查
+    </div>
+
+</div>
+<!--banner结束-->
+
+<!--报名截止时间开始-->
+<div class="bmjzsj">
+    <div class="bmjzsj-title">本月网上报名截止时间</div>
+    <div class="bmjzsj-time">
+        <span>4</span>月<span>16</span>日
+    </div>
+    <div class="bmjzsj-btn">
+        <a onclick="tkOpen()"> 成人学历提升报考咨询</a>
+        <a onclick="tkOpen()"> 无需到校在家提升方案</a>
+        <a onclick="tkOpen()"> VIP保障一考双证-快速</a>
+        <span>4月18日24:00截止</span>
+    </div>
+</div>
+<!--报名截止时间结束-->
+
+<!--在线测一测开始-->
+<div class="zxcyc">
+    <div class="zxcyc-title"><img src="images/zxcyc.png">在线测一测，您适合哪种学历提升方式</div>
+
+    <div class="zxcyc-title-tips">
+        您目前的学历层次：
+    </div>
+    <div class="radioGroup">
+    <input type="radio" class="rdo"  name="xl" checked id="xl1"><label for="xl1">小学及以下</label>
+    <input type="radio" class="rdo" name="xl" id="xl2"><label for="xl2">初中</label>
+        <input type="radio" class="rdo" name="xl" id="xl3"><label for="xl3">高中</label>
+        <input type="radio" class="rdo" name="xl" id="xl4"><label for="xl4">中专</label>
+        <input type="radio" class="rdo" name="xl" id="xl5"><label for="xl5">大专</label>
+    </div>
+
+    <div class="zxcyc-title-tips">
+        您想要提升到什么学历：
+    </div>
+    <div class="radioGroup rg1">
+        <input type="radio" class="rdo"  name="xl2" checked id="xl21"><label for="xl21">专科</label>
+        <input type="radio" class="rdo" name="xl2" id="xl22"><label for="xl22">大学本科</label>
+    </div>
+
+    <div class="zxcyc-title-tips">
+        您更偏向哪种取证方式：
+    </div>
+    <div class="radioGroup  rg2">
+        <input type="radio" class="rdo"  name="fs" checked id="fs1"><label for="fs1">在家自学</label>
+        <input type="radio" class="rdo" name="fs" id="fs2"><label for="fs2">学校听课</label>
+        <input type="radio" class="rdo" name="fs" id="fs3"><label for="fs3">辅导教学</label>
+        <input type="radio" class="rdo" name="fs" id="fs4"><label for="fs4">其他</label>
+    </div>
+
+    <form>
+        <div class="input-block">
+            <label>姓名：</label><input type="text" placeholder="请输入您的姓名">
+        </div>
+        <div class="input-block">
+            <label>手机：</label><input type="text" placeholder="请输入您的手机号码">
+        </div>
+
+        <a class="sub-btn">提交获取测试结果</a>
+    </form>
+
+    <div class="form-tips">24小时内，测试结果会有专业的老师电话告知，请保持电话通畅</div>
+
+</div>
+
+
+<!--在线测一测结束-->
+
+<!--本次报名开始-->
+<div class="bcbm">
+    <div class="bmjzsj-title bcbm-title">本次报名接受以下学历提升形式</div>
+    <ul class="bcbm-group">
+        <li>
+            初中升专科
+            <a  onclick="tkOpen()"> 查询报考条件</a>
+        </li>
+        <li>
+            初中升专科
+            <a onclick="tkOpen()"> 查询报考条件</a>
+        </li>
+        <li>
+            初中升专科
+            <a  onclick="tkOpen()"> 查询报考条件</a>
+        </li>
+        <li>
+            初中升专科
+            <a  onclick="tkOpen()"> 查询报考条件</a>
+        </li>
+        <li>
+            初中升专科
+            <a onclick="tkOpen()"> 查询报考条件</a>
+        </li>
+
+    </ul>
+</div>
+<!--本次报名结束-->
+
+<!--推荐高校开始-->
+<div class="tjgx">
+    <div class="bmjzsj-title bcbm-title">推荐高校报考专业信息一览</div>
+    <div id="certify">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><span>主考院校：广东985/211名校<br>推荐专业：英语</span><img src="images/tjgx1.png" /><p><br>英语作为一种交流工具，拥有广泛的适用行业，<br> 并且我国任然缺乏高端英语专业人才</p></div>
+                <div class="swiper-slide"><span>主考院校：华南师范大学<br>推荐专业：人力资源/艺术设计</span><img src="images/tjgx2.png" /><p>人力资源：专业市场缺口大，简单好考，专业实用，对口各大主流行业<br>艺术设计：特色专业，考试科目少且简单易过，适合追求VIP保障服务快速考证人群</p></div>
+                <div class="swiper-slide"><span>主考院校：广东开放大学<br>推荐专业：会计/电子商务</span><img src="images/tjgx3.png" /><p style="font-size: 0.57rem">会计：有企业产生就会有会计的需求，越老越吃香，薪酬可观，职业地位高，是一个永不衰退的职业<br>电子商务：电子商务是互联网时代的市场经济发展命脉之一，巨大的市场需求和财富机遇。</p></div>
+            </div>
+        </div>
+    </div>
+
+    <a class="sub-btn tjgx-btn" onclick="tkOpen()">了解报考专业</a>
+<div class="tjgx-tips">2018年4月18日24:00截止</div>
+</div>
+<!--推荐高校结束-->
+
+<!--成人学历开始-->
+<div class="crxl">
+    <div class="zxcyc-title crxl-title"><img src="images/crxl.png">成人学历报名与考试信息 </div>
+    <div class="zzcx">自助查询系统</div>
+    <ul class="clearfix">
+        <li onclick="tkOpen()">报考条件</li>
+        <li onclick="tkOpen()">报名时间</li>
+        <li onclick="tkOpen()">考试时间</li>
+        <li onclick="tkOpen()">考试费用</li>
+        <li onclick="tkOpen()">考试科目</li>
+        <li onclick="tkOpen()">报考流程</li>
+        <li onclick="tkOpen()">报考政策</li>
+        <li onclick="tkOpen()">院校专业</li>
+        <li onclick="tkOpen()">成绩查询</li>
+    </ul>
+    <a class="sub-btn tjgx-btn" onclick="tkOpen()">人工查询入口</a>
+    <div class="tjgx-tips">2018年4月18日24:00截止</div>
+</div>
+
+<!--成人学历结束-->
+
+<!--限量申请开始-->
+<div class="xlsq">
+    <div class="zxcyc-title"><img src="images/xlsq.png">限量申请1200元助学金 </div>
+    <form>
+        <div class="input-block">
+            <label>姓名：</label><input type="text" placeholder="请输入您的姓名">
+        </div>
+        <div class="input-block">
+            <label>手机：</label><input type="text" placeholder="请输入您的手机号码">
+        </div>
+
+        <a class="sub-btn">在线申请</a>
+    </form>
+
+</div>
+<!--限量申请结束-->
+
+<!--问题解答开始-->
+<div class="wtjd">
+    <div class="bmjzsj-title bcbm-title">成人学历常见问题解答</div>
+    <div class="wtjd-cjwt">
+            <ul class="wtjd-list">
+                <li>我学历低，可以直接报考吗？</li>
+                <li>自考如何报名？</li>
+                <li>都可以考哪些学校？</li>
+                <li>自考报名是什么时候？</li>
+                <li>自考报名需要什么准备什么资料?</li>
+                <li>自考课程有网课吗?是直播还是录像?</li>
+                <li>2018年自考最新报考政策</li>
+                <li>有没有历年真题看一下？</li>
+                <li>可以提供免费学习资料吗？</li>
+            </ul>
+    </div>
+
+    <a class="sub-btn wtjd-btn" onclick="tkOpen()">查看更多详情</a>
+
+</div>
+<!--问题解答结束-->
+
+<!--底部开始-->
+<div class="xlhd-footer">
+    copyright@深圳市中鹏教育科技股份有限公司<br> 粤ICP备09069122号
+</div>
+<!--底部结束-->
+
+<!--弹框开始-->
+<div class="tk">
+
+    <div class="tkbg">
+        <div style="position: relative">
+            <div class="tk-close" onclick="tkClose()"></div>
+        </div>
+        <div class="tk-title">资料免费领</div>
+        <div class="tk-tips">目前报考人数较多或为休息时间，留下您的 联系方式，系统会统一将在线资料发送到您 的手机，请注意查收！</div>
+        <form>
+            <input type="text" placeholder="请输入您的姓名">
+            <input type="text" placeholder="请输入您的手机号">
+            <a class="tk-btn">点击领取最新报考资讯</a>
+        </form>
+    </div>
+
+</div>
+<!--弹框结束-->
+
+</div>
+<script src="js/swiper.min.js"></script>
+<script src="js/xlhd.js" ></script>
+</body>
+</html>
