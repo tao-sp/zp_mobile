@@ -9,9 +9,13 @@
 <body class="font_yahei body-bg">
 <img class="xlfatj-logo" src="images/logo.png">
 
+
+
+
 <div class="xlfatj-content container_1200">
 
     <div class="xlfatj xlfatj-1 ">
+        <form id="someForm"  class="validator">
 
         <table>
             <tr>
@@ -19,7 +23,7 @@
                     学员姓名:
                 </td>
                 <td >
-                   <input id="xyxm" type="text">
+                   <input id="xyxm" type="text"  data-required >
                 </td>
             </tr>
             <tr>
@@ -27,7 +31,7 @@
                     学员电话:
                 </td>
                 <td >
-                    <input id="xydh" type="text">
+                    <input id="xydh" type="text"  data-required>
                 </td>
             </tr>
             <tr>
@@ -35,7 +39,7 @@
                     学历:
                 </td>
                 <td >
-                    <select id="xyxl">
+                    <select id="xyxl"  data-required>
                         <option value=""></option>
                         <option value="1">小学及以下</option>
                         <option value="2">初中</option>
@@ -49,7 +53,7 @@
                     年龄:
                 </td>
                 <td >
-                    <input id="xynl" type="text">
+                    <input id="xynl" type="text"  data-required>
                 </td>
             </tr>
             <tr>
@@ -58,16 +62,16 @@
                 </td>
                 <td >
                     <ul class="dowebok clearfix" id="xxyy">
-                        <li><input type="radio" name="xxyy" data-labelauty="自我提升" value="自我提升"></li>
-                        <li><input type="radio" name="xxyy" data-labelauty="积分入户" value="积分入户"></li>
-                        <li><input type="radio" name="xxyy" data-labelauty="工作需要" value="工作需要"></li>
-                        <li><input type="radio" name="xxyy" data-labelauty="考证评职称" value="考证评职称"></li>
+                        <li><input type="radio" name="xxyy" data-labelauty="自我提升" value="自我提升"  data-required></li>
+                        <li><input type="radio" name="xxyy" data-labelauty="积分入户" value="积分入户"  data-required></li>
+                        <li><input type="radio" name="xxyy" data-labelauty="工作需要" value="工作需要"  data-required></li>
+                        <li><input type="radio" name="xxyy" data-labelauty="考证评职称" value="考证评职称"  data-required></li>
                     </ul>
 
                 </td>
             </tr>
         </table>
-
+        </form>
     </div>
 
 
@@ -81,9 +85,14 @@
                 </td>
                 <td >
                     <ul class="dowebok clearfix cc">
-                        <li><input type="radio" name="cc" checked data-labelauty="高升专" value="0"></li>
-                        <li><input type="radio" name="cc" data-labelauty="专升本" value="1"></li>
-                        <li><input type="radio" name="cc"  data-labelauty="专本套读" value="2"></li>
+                        <li><input type="radio" name="cc" checked data-labelauty="高升专" value="0" data-flag="高升专"></li>
+                        <li><input type="radio" name="cc" data-labelauty="专升本" value="1" data-flag="专升本"></li>
+                        <li><input type="radio" name="cc"  data-labelauty="专本套读" value="2" data-flag="专本套读"></li>
+                       <!-- <li><input type="radio" name="cc"  checked  data-labelauty="自考专科(1.5年~2年)" data-flag="自考专科(1.5年~2年)" value="0"></li>
+                        <li><input type="radio" name="cc" data-labelauty="成考/网教专科(2.5年)" data-flag="成考/网教专科(2.5年)" value="1"></li>
+                        <li><input type="radio" name="cc" data-labelauty="自考本科(1.5年~2年)" data-flag="自考本科(1.5年~2年)" value="2"></li>
+                        <li><input type="radio" name="cc" data-labelauty="成考/网教本科(2.5年)" data-flag="成考/网教本科(2.5年)" value="3"></li>
+                        <li><input type="radio" name="cc"  data-labelauty="专本套读(2.5年~3年)" data-flag="专本套读(2.5年~3年)" value="4"></li>-->
                     </ul>
 
                 </td>
@@ -100,16 +109,16 @@
 
              <table>
 
-            <tr>
+            <tr class="xxxs">
                 <td class="input-title">
                     学习形式:
                 </td>
                 <td >
-                    <ul class="dowebok clearfix">
-                        <li><input type="radio" name="zkxxxs" data-labelauty="自学考试"></li>
-                        <li><input type="radio" name="zkxxxs" data-labelauty="成人高考"></li>
-                        <li><input type="radio" name="zkxxxs" data-labelauty="开放教育"></li>
-                        <li><input type="radio" name="zkxxxs" data-labelauty="网络教育"></li>
+                    <ul class="dowebok clearfix zkxxxs">
+                        <li><input type="radio" name="zkxxxs" data-labelauty="自学考试" data-flag="自学考试" value="1"></li>
+                        <li><input type="radio" name="zkxxxs" data-labelauty="成人高考" data-flag="成人高考" value="2"></li>
+                        <li><input type="radio" name="zkxxxs" data-labelauty="开放教育" data-flag="开放教育" value="3"></li>
+                        <li><input type="radio" name="zkxxxs" data-labelauty="网络教育" data-flag="网络教育" value="4"></li>
                     </ul>
 
                 </td>
@@ -119,9 +128,22 @@
                     院校:
                 </td>
                 <td >
-                    <ul class="dowebok clearfix">
-                        <li><input type="radio" name="zkyx" data-labelauty="华南师范大学"></li>
-                        <li><input type="radio" name="zkyx" data-labelauty="湘潭大学"></li>
+                    <ul class="dowebok clearfix zkyx">
+                        <li>
+                            <input type="radio" name="zkyx" data-labelauty="华南师范大学" data-flag="华南师范大学">
+                            <img class="yximg yx-img1" src="images/hnsf.png">
+                            <img class="yximg yx-img2" src="images/bxzz-hnsf.png">
+                            <img class="yximg yx-img3" src="images/zs1-hnsf.png"/>
+                            <img class="yximg yx-img4" src="images/zs2-hnsf.png"/>
+                            <span class="yximg yx-summary">大学介绍</span>
+                        </li>
+                        <li>
+                            <input type="radio" name="zkyx" data-labelauty="湘潭大学" data-flag="华南师范大学">
+                            <img class="yximg yx-img1" src="images/hnsf.png">
+                            <img class="yximg yx-img2" src="images/bxzz-hnsf.png">
+                            <img class="yximg yx-img3" src="images/zs1-hnsf.png"/>
+                            <img class="yximg yx-img4" src="images/zs2-hnsf.png"/>
+                        </li>
                         <li><input type="radio" name="zkyx" data-labelauty="江西师范大学"></li>
                         <li><input type="radio" name="zkyx" data-labelauty="广州涉外经济职业技术学院"></li>
                         <li><input type="radio" name="zkyx" data-labelauty="电子科技大学中山学院"></li>
@@ -137,9 +159,9 @@
                     专业:
                 </td>
                 <td >
-                    <ul class="dowebok clearfix">
-                        <li><input type="checkbox" name="zkzy" data-labelauty="建筑工程技术"></li>
-                        <li><input type="checkbox" name="zkzy" data-labelauty="财务管理"></li>
+                    <ul class="dowebok clearfix zkzy">
+                        <li><input type="checkbox" name="zkzy" data-labelauty="建筑工程技术" data-flag="建筑工程技术"></li>
+                        <li><input type="checkbox" name="zkzy" data-labelauty="财务管理" data-flag="财务管理"></li>
                         <li><input type="checkbox" name="zkzy" data-labelauty="市场营销"></li>
                         <li><input type="checkbox" name="zkzy" data-labelauty="电子商务"></li>
                         <li><input type="checkbox" name="zkzy" data-labelauty="旅游管理"></li>
@@ -166,10 +188,9 @@
                     助学金:
                 </td>
                 <td >
-                    <select class="zkzxj">
-                        <option value =""></option>
+                    <select class="zkzxj"  data-required>
                         <option value ="1">有</option>
-                        <option value ="2">无</option>
+                        <option selected value ="2">无</option>
                     </select>
 
                     <input class="zkzxj-count" type="text">
@@ -189,16 +210,16 @@
         <form id="bkform">
              <table>
 
-            <tr>
+            <tr class="xxxs">
                 <td class="input-title">
                     学习形式:
                 </td>
                 <td >
-                    <ul class="dowebok clearfix">
-                        <li><input type="radio" name="bkxxxs" data-labelauty="自学考试"></li>
-                        <li><input type="radio" name="bkxxxs" data-labelauty="成人高考"></li>
-                        <li><input type="radio" name="bkxxxs" data-labelauty="开放教育"></li>
-                        <li><input type="radio" name="bkxxxs" data-labelauty="网络教育"></li>
+                    <ul class="dowebok clearfix bkxxxs">
+                        <li><input type="radio" name="bkxxxs" data-labelauty="自学考试" data-flag="自学考试" value="1"></li>
+                        <li><input type="radio" name="bkxxxs" data-labelauty="成人高考" data-flag="成人高考" value="2"></li>
+                        <li><input type="radio" name="bkxxxs" data-labelauty="开放教育" data-flag="开放教育" value="3"></li>
+                        <li><input type="radio" name="bkxxxs" data-labelauty="网络教育" data-flag="网络教育" value="4"></li>
                     </ul>
 
                 </td>
@@ -208,7 +229,7 @@
                     院校:
                 </td>
                 <td >
-                    <ul class="dowebok clearfix">
+                    <ul class="dowebok clearfix bkyx">
                         <li><input type="radio" name="bkyx" data-labelauty="华南师范大学"></li>
                         <li><input type="radio" name="bkyx" data-labelauty="湘潭大学"></li>
                         <li><input type="radio" name="bkyx" data-labelauty="江西师范大学"></li>
@@ -226,9 +247,9 @@
                     专业:
                 </td>
                 <td >
-                    <ul class="dowebok clearfix">
-                        <li><input type="checkbox" name="bkzy" data-labelauty="建筑工程技术"></li>
-                        <li><input type="checkbox" name="bkzy" data-labelauty="财务管理"></li>
+                    <ul class="dowebok clearfix bkzy">
+                        <li><input type="checkbox" name="bkzy" data-labelauty="建筑工程技术" data-flag="建筑工程技术"></li>
+                        <li><input type="checkbox" name="bkzy" data-labelauty="财务管理" data-flag="财务管理"></li>
                         <li><input type="checkbox" name="bkzy" data-labelauty="市场营销"></li>
                         <li><input type="checkbox" name="bkzy" data-labelauty="电子商务"></li>
                         <li><input type="checkbox" name="bkzy" data-labelauty="旅游管理"></li>
@@ -256,9 +277,8 @@
                 </td>
                 <td >
                     <select class="bkzxj">
-                        <option value =""></option>
                         <option value ="1">有</option>
-                        <option value ="2">无</option>
+                        <option selected value ="2">无</option>
                     </select>
 
                     <input class="bkzxj-count" type="text">
@@ -270,18 +290,26 @@
     </div>
 
     <div class="xlfatj xlfatj-1 ">
-
+        <form id="someForm1"  class="validator">
         <table>
-
-
             <tr>
                 <td class="input-title">
                     校区:
                 </td>
                 <td >
-                    <ul class="dowebok clearfix">
-                        <li><input type="checkbox" name="xq" data-labelauty="龙岗校区"></li>
-                        <li><input type="checkbox" name="xq" data-labelauty="福田校区"></li>
+                    <ul class="dowebok clearfix xqdz">
+                        <li>
+                            <input type="checkbox" name="xq" data-labelauty="龙岗校区" data-flag="龙岗校区">
+                            <span class="yximg xqdz-dh">400-930-6618</span>
+                            <span class="yximg xqdz-dz">深圳龙岗区龙岗大道湖广通大厦4楼</span>
+                            <span class="yximg xqdz-lx">乘坐3号线—吉祥地铁站B出口</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="xq" data-labelauty="福田校区" data-flag="福田校区">
+                            <span class="yximg xqdz-dh">400-930-6618</span>
+                            <span class="yximg xqdz-dz">福田校区地址</span>
+                            <span class="yximg xqdz-lx">福田校区路线</span>
+                        </li>
                         <li><input type="checkbox" name="xq" data-labelauty="南山校区"></li>
                         <li><input type="checkbox" name="xq" data-labelauty="宝安校区"></li>
                         <li><input type="checkbox" name="xq" data-labelauty="沙井校区"></li>
@@ -294,24 +322,26 @@
                     专属咨询顾问:
                 </td>
                 <td >
-                    <input id="zxgwName" type="text" placeholder="姓名">
 
-                    <input id="zxgwTel" type="text" placeholder="电话号码">
+                    <input id="zxgwName" type="text" placeholder="姓名" data-required>
+
+                    <input id="zxgwTel" type="text" placeholder="电话号码" data-required>
+
                 </td>
             </tr>
         </table>
+        </form>
 
     </div>
 
 </div>
-
 
 <!--<a class="scfa" onclick="generate()">生成方案</a>-->
 
 <a class="scfa" onclick="down()">生成方案</a>
 
 <div  style="width: 750px;margin: auto;">
-    <div id="htmlcimg" style="display: none">
+    <div id="htmlcimg"  style="display: none">
 
         <div class="xlfatj-section1">
             <ul>
@@ -331,57 +361,119 @@
                     <span id="xxyy-img">自我提升需要</span>
                 </li>
             </ul>
-
-            <div class="wntj">
+            <div class="wntj" id="tj-img">
                 自考本科(1.5年-2年)
             </div>
-            <div class="zxj">
-                <span>￥</span>2000
+
+        </div>
+
+        <div class="xlfatj-section6">
+            <div class="xlfatj-section6-content">
+
+                <div class="zkq">
+                    <div class="zk-zxj">
+                        <span>￥</span><b id="zkzxj">2000</b>
+                    </div>
+                    <div class="zk-zxjqm">
+                        券码：<span id="zkqm">ZPJY18052402</span>
+                    </div>
+                </div>
+
+                <div class="bkq">
+                    <div class="bk-zxj">
+                        <span>￥</span><b id="bkzxj">2000</b>
+                    </div>
+                    <div class="bk-zxjqm">
+                        券码：<span id="bkqm">ZPJY18052402</span>
+                    </div>
+                </div>
+
             </div>
-            <div class="zxjqm">
-                券码：ZPJY18052402
-            </div>
+        </div>
+
+        <div class="xlfatj-section5">
 
         </div>
 
         <div class="xlfatj-section2">
             <div class="xlfatj-section2-content">
+              <!--专科院校-->
+                <div class="zkyx-show">
+                    <div class="college-block">
+                        <img id="zkyx-img1" src="images/hnsf.png">
+                        <div class="college-title">
+                            <span id="zkyx-name">华南师范大学</span> 专科  <span id="zkxxxs-name"></span>
+                        </div>
+                    </div>
+                    <div class="college-summary" id="zkyx-summary">
+                        华南师范大学（South China Normal University），简称“华师”，坐落于南方名城广州市，由中华人民共和国教育部和广东省人民政府共建，入选中国首批“211工程”、“卓越教师培养计划”，为广东省省属重点大学、中国100所首批联入CERNET和INTERNET网的高等院校之一。
+                    </div>
+                    <div class="college-block-title">
+                        推荐专科专业
+                    </div>
+                    <div class="college-block-list" id="zklists">
+                        <span>艺术设计</span>
+                        <span>教育管理</span>
+                    </div>
+                    <div class="college-block-title">
+                        办学资质
+                    </div>
+                    <div class="bxzz-img">
+                        <img id="zkyx-img2" src="images/bxzz-hnsf.png">
+                    </div>
+                    <div class="college-block-title">
+                        证书样本
+                    </div>
 
-                <div class="college-block">
-                    <img src="images/hnsf.png">
-                    <div class="college-title">
-                        华南师范大学 本科
+                    <div class="zsyb clearfix">
+                        <div class="zsyb-left">
+                            <img id="zkyx-img3" src="images/zs1-hnsf.png"/>
+                        </div>
+                        <div class="zsyb-right">
+
+                            <img id="zkyx-img4" src="images/zs2-hnsf.png"/>
+                        </div>
                     </div>
                 </div>
-                <div class="college-summary">
-                    华南师范大学（South China Normal University），简称“华师”，坐落于南方名城广州市，由中华人民共和国教育部和广东省人民政府共建，入选中国首批“211工程”、“卓越教师培养计划”，为广东省省属重点大学、中国100所首批联入CERNET和INTERNET网的高等院校之一。
-                </div>
-                <div class="college-block-title">
-                    推荐本科专业
-                </div>
-                <div class="college-block-list">
-                    <span>艺术设计</span>
-                    <span>教育管理</span>
-                </div>
-                <div class="college-block-title">
-                    办学资质
-                </div>
-                <div class="bxzz-img">
-                    <img src="images/bxzz-hnsf.png">
-                </div>
-                <div class="college-block-title">
-                    证书样本
+                <!--本科院校-->
+                <div class="bkyx-show">
+                    <div class="college-block">
+                        <img id="bkyx-img1" src="images/hnsf.png">
+                        <div class="college-title">
+                            <span id="bkyx-name">华南师范大学</span> 本科 <span id="bkxxxs-name"></span>
+                        </div>
+                    </div>
+                    <div class="college-summary" id="bkyx-summary">
+                        华南师范大学（South China Normal University），简称“华师”，坐落于南方名城广州市，由中华人民共和国教育部和广东省人民政府共建，入选中国首批“211工程”、“卓越教师培养计划”，为广东省省属重点大学、中国100所首批联入CERNET和INTERNET网的高等院校之一。
+                    </div>
+                    <div class="college-block-title">
+                        推荐本科专业
+                    </div>
+                    <div class="college-block-list" id="bklists">
+                        <span>艺术设计</span>
+                        <span>教育管理</span>
+                    </div>
+                    <div class="college-block-title">
+                        办学资质
+                    </div>
+                    <div class="bxzz-img">
+                        <img id="bkyx-img2" src="images/bxzz-hnsf.png">
+                    </div>
+                    <div class="college-block-title">
+                        证书样本
+                    </div>
+
+                    <div class="zsyb clearfix">
+                        <div class="zsyb-left">
+                            <img id="bkyx-img3" src="images/zs1-hnsf.png"/>
+                        </div>
+                        <div class="zsyb-right">
+
+                            <img id="bkyx-img4" src="images/zs2-hnsf.png"/>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="zsyb clearfix">
-                    <div class="zsyb-left">
-                        <img src="images/zs1-hnsf.png"/>
-                    </div>
-                    <div class="zsyb-right">
-
-                        <img src="images/zs2-hnsf.png"/>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -390,19 +482,19 @@
 
         <div class="xlfatj-section2">
             <div class="xlfatj-section2-content">
-                <div class="xq clearfix">
-                    <div class="xq-left">
-
-                    </div>
-                    <div class="xq-right">
-                        电话：<span>400-930-6618</span><br/>
-                        地址：<span>深圳龙岗区龙岗大道湖广通大厦4楼</span><br/>
-                        路线：<span>乘坐3号线—吉祥地铁站B出口</span><br/>
-                        网址：<span>www.gdzp.org</span><br/>
+                <div id="xqdzlists">
+                    <div class="xq clearfix">
+                        <div class="xq-left">
+                             龙岗校区
+                        </div>
+                        <div class="xq-right">
+                            电话：<span>400-930-6618</span><br/>
+                            地址：<span>深圳龙岗区龙岗大道湖广通大厦4楼</span><br/>
+                            路线：<span>乘坐3号线—吉祥地铁站B出口</span><br/>
+                            网址：<span>www.gdzp.org</span><br/>
+                        </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
 
@@ -563,9 +655,11 @@
 <!--加载动画-->
 
 <script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/fm.validator.js"></script>
 <script src="js/html2canvas.js"></script>
 <script src="js/jquery-labelauty.js"></script>
 <script src="js/xlfatj.js"></script>
+
     
 
 </body>

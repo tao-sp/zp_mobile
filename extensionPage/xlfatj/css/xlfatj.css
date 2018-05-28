@@ -129,7 +129,7 @@ a:focus {
 .xlfatj-section1{
     margin-top: 70px;
     width:750px;
-    height:1606px;
+    height:1138px;
     background: url("../images/section1.png") no-repeat;
 }
 .xlfatj-tips{
@@ -169,7 +169,7 @@ a:focus {
 }
 .xlfatj-section1 ul li{
     font-size: 30px;
-    color: #5a5c72;
+    color: #5b71c4;
     line-height: 68px;
     height:68px;
 }
@@ -177,27 +177,46 @@ a:focus {
   width: 412px;
     font-size: 36px;
     font-weight: bold;
-    color: #6439de;
+    color: #2c3f86;
     margin-left: 279px;
     margin-top: 85px;
     text-align: center;
 }
-.zxj{
-    margin-left: 333px;
-    margin-top: 145px;
+.zk-zxj{
+    margin-left: 268px;
     font-size: 95px;
     color: #ffea00;
     font-weight: bold;
-    text-shadow:0 0 5px #645090,1px 1px 1px #fff,-1px -1px 1px #fff,0 0 10px #645090,0 0 10px #a78bf4;
+    text-shadow: 0 0 5px #5b71c4, 1px 1px 1px #fff, -1px -1px 1px #fff, 0 0 10px #5b71c4, 0 0 10px #5b71c4;
+    padding-top: 48px;
 }
-.zxj span{
+.zk-zxj span{
     font-size: 45px;
     color: #ffea00;
     font-weight: normal;
 }
-.zxjqm{
+.zk-zxjqm{
     text-align: right;
-   margin-right: 116px;
+    margin-right: 56px;
+    font-size: 20px;
+    color: #5b71c4;
+}
+.bk-zxj{
+    margin-left: 268px;
+    font-size: 95px;
+    color: #ffea00;
+    font-weight: bold;
+    text-shadow: 0 0 5px #645090, 1px 1px 1px #fff, -1px -1px 1px #fff, 0 0 10px #645090, 0 0 10px #a78bf4;
+    padding-top: 48px;
+}
+.bk-zxj span{
+    font-size: 45px;
+    color: #ffea00;
+    font-weight: normal;
+}
+.bk-zxjqm{
+    text-align: right;
+    margin-right: 56px;
     font-size: 20px;
     color: #8068c3;
 }
@@ -313,11 +332,14 @@ a:focus {
     background-size: 750px 1164px;
 }
 .xq-left{
+    padding-top: 109px;
+    color: #8857bc;
+    text-align: center;
     margin-right: 19px;
     float: left;
     width: 166px;
-    height:181px;
-    background: url("../images/xq.png") no-repeat;
+    height: 72px;
+    background: url(../images/xq.png) no-repeat;
 }
 .xq-right{
     margin-top: 17px;
@@ -381,4 +403,51 @@ a:focus {
 #produceimg{
     margin: auto;
     display: block;
+}
+.zkzxj-count,.bkzxj-count{
+    background-image:url("../images/yuan.png") ;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.xlfatj-section5{
+    width:750px;
+    height:214px;
+    margin: auto;
+    background: url("../images/section5.png") no-repeat;
+    background-size: 750px 214px;
+}
+.xlfatj-section6{
+    width: 750px;
+    background: #d5e6fe;
+}
+.xlfatj-section6-content{
+    padding-bottom: 1px;
+    width: 710px;
+    background: #ffffff;
+    margin: auto;
+}
+.zkq{
+    width: 633px;
+    height:237px;
+    margin: 0 auto 22px;
+    background: url("../images/zkq.png") no-repeat;
+    background-size: 633px 237px;
+}
+.bkq{
+    width: 633px;
+    height:237px;
+    margin: auto;
+    background: url("../images/bkq.png") no-repeat;
+    background-size: 633px 237px;
+}
+.xxxs{
+  /*  display: none;*/
+}
+.yximg,.zkq,.bkq,.bkyx-show{
+    display: none;
+}
+#zkxxxs-name,#bkxxxs-name{
+    position: absolute;
+    right:12px;
+    top:0;
 }
