@@ -1,0 +1,100 @@
+@charset "utf-8";
+@import '../js/hotcss/px2rem';
+body{
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td,figure {
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1;
+}
+.font_yahei{
+  font-family: "Microsoft YaHei";
+}
+.webjc{
+  text-align: center;
+  width: px2rem(640);
+  height:px2rem(1457);
+  background: url("../images/pmgkkbg.png") no-repeat;
+  background-size: px2rem(640) px2rem(1457);
+}
+.webjc form{
+  padding-top: px2rem(980);
+}
+.webjc form input{
+  font-size: px2rem(24);
+  color: #ffffff;
+  padding-left: px2rem(22);
+  background: rgba(255,255,255,0.1);
+  width:px2rem(496);
+  height:px2rem(85);
+  border:2px solid #ffe402;
+  border-radius: 8px;
+  margin-bottom: px2rem(18);
+}
+.webjc form input::-webkit-input-placeholder{
+  color:rgba(255,255,255,0.8);
+}
+.webjc form input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+  color:rgba(255,255,255,0.8);
+}
+.webjc form input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color:rgba(255,255,255,0.8);
+}
+.webjc form input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+  color:rgba(255,255,255,0.8);
+}
+.webjc-btn{
+  display: block;
+  margin:px2rem(12) auto;
+  cursor: pointer;
+  width:px2rem(290);
+  height:px2rem(95);
+}
+.webjctk{
+  display: none;
+  width:px2rem(640);
+  height:100%;
+  position: fixed;
+  top:0;
+  left:50%;
+  margin-left: px2rem(-320);
+  background: rgba(0,0,0,0.8);
+}
+.webjctk-content{
+  width:px2rem(640);
+  height:px2rem(490);
+  position: absolute;
+  left: 50%;
+  margin-left: px2rem(-320);
+  top: 50%;
+  margin-top: px2rem(-245);
+  background: url("../images/tk.png") no-repeat;
+  background-size: px2rem(640) px2rem(490);
+}
+.closetk{
+  position: absolute;
+  right:px2rem(76);
+  top:px2rem(95);
+  width:px2rem(62);
+  height:px2rem(62);
+}
