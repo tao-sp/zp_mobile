@@ -114,7 +114,7 @@ a{
     text-align: center;
     margin-top: 86px;
 }
-.bdcontent1{
+.bdcontent1,bdcontent2{
     background: url(../images/tkbg1.png) no-repeat;
 }
 .bd form{
