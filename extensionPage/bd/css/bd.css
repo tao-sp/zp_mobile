@@ -114,7 +114,7 @@ a{
     text-align: center;
     margin-top: 86px;
 }
-.bdcontent1,bdcontent2{
+.bdcontent1,.bdcontent2{
     background: url(../images/tkbg1.png) no-repeat;
 }
 .bd form{
@@ -186,4 +186,87 @@ a{
     top:34px;
     border-radius: 47px;
     cursor: pointer;
+}
+/*手机端*/
+@media screen and (max-width: 980px) {
+    .bdcontent-title-m{
+        width:814px;
+        height:87px;
+        background: url("../images/title.png");
+        background-size: 814px 137px;
+        margin-bottom: 0;
+    }
+    .qustion-title{
+        font-size: 28px;
+    }
+    .qustion-title span {
+        font-size: 46px;
+    }
+    .qustion-list li{
+        width: 500px;
+        height: 220px;
+        padding: 12px 12px 12px 62px;
+    }
+    .choose-item-content {
+        width: 500px;
+        height: 220px;
+        font-size: 32px;
+    }
+    .choose-item-content img {
+        height: 220px;
+    }
+    .choose-item {
+        font-size: 32px;
+    }
+    .bdcontent-m-nobg{
+        width:820px;
+        height:auto;
+        background: none;
+        padding: 0 0px 35px 35px;
+        margin-top:40px;
+    }
+    .tk{
+        padding-top: 25px;
+        padding-left: 32px;
+        width:700px;
+        margin-left: 10px;
+        padding-bottom: 36px;
+        background:#f2f2f2 url("../images/footer-bg.png") bottom  no-repeat;
+    }
+    .result-content{
+        padding-top: 115px;
+    }
+    .bdcontent1, .bdcontent2{
+        background: url(../images/tkbg2.png) no-repeat;
+        position: absolute;
+        top: 50%;
+        margin-top: -322px;
+        left: 50%;
+        margin-left: -377px;
+        padding-right: 35px;
+    }
+    .bd form input{
+        font-size: 26px !important;
+        width: 465px;
+        height:68px;
+    }
+    .bd-title{
+        font-size: 30px;
+    }
+    .bd form label{
+        font-size: 26px;
+        width: 140px;
+    }
+    .bd form{
+        width:700px;
+        margin: 50px auto;
+    }
+    .bd-btn{
+        width:250px;
+        height:70px;
+        border-radius: 70px;
+        line-height: 70px;
+        font-size: 30px;
+        font-weight: bold;
+    }
 }
