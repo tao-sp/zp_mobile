@@ -1,0 +1,237 @@
+@charset "utf-8";
+@import '../../../common/js/hotcss/px2rem';
+$designWidth : 720;
+body{
+  width:16rem;
+}
+.lottery-nav{
+  position: relative;
+  width:px2rem(720);
+  height:px2rem(88);
+  background: url("../images/lotterynav.png") no-repeat;
+  background-size:px2rem(720) px2rem(88);
+}
+.lottery-nav1{
+  width:px2rem(180);
+  height:px2rem(88);
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.lottery-nav2{
+  width:px2rem(180);
+  height:px2rem(88);
+  position: absolute;
+  left: px2rem(180);
+  top:0;
+}
+.lottery-nav3{
+  width:px2rem(180);
+  height:px2rem(88);
+  position: absolute;
+  left: px2rem(360);
+  top:0;
+}
+.lottery-nav4{
+  width:px2rem(170);
+  height:px2rem(88);
+  position: absolute;
+  left: px2rem(550);
+  top:0;
+}
+.roll-p{
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+.roll-p span:first-child{
+  font-weight: bold;
+}
+.hdjzrq{
+  padding-top: px2rem(40);
+  line-height: px2rem(32);
+  font-size: px2rem(20);
+  color: #bfa7d0;
+  text-align: center;
+}
+.lottery-bottom{
+  position: relative;
+  width:px2rem(720);
+  height:px2rem(3839);
+  background: url("../images/lottery-bottom.png");
+  background-size: px2rem(720) px2rem(3839);
+}
+.lottery-bottom-btn1{
+  width:px2rem(105);
+  height:px2rem(105);
+  border-radius: 16rem;
+  position: absolute;
+  top:px2rem(220);
+  left:px2rem(245);
+}
+.lottery-bottom-btn2{
+  width:px2rem(105);
+  height:px2rem(105);
+  border-radius: 16rem;
+  position: absolute;
+  top:px2rem(220);
+  left:px2rem(593);
+}
+.lottery-bottom-btn3{
+  width:px2rem(105);
+  height:px2rem(105);
+  border-radius: 16rem;
+  position: absolute;
+  top:px2rem(410);
+  left:px2rem(245);
+}
+.lottery-bottom-btn4{
+  width:px2rem(105);
+  height:px2rem(105);
+  border-radius: 16rem;
+  position:absolute;
+  top:px2rem(410);
+  left:px2rem(593);
+}
+.lottery-bottom-btn5{
+  width:px2rem(105);
+  height:px2rem(105);
+  border-radius: 16rem;
+  position: absolute;
+  top:px2rem(604);
+  left:px2rem(245);
+}
+.lottery-bottom-btn6{
+  width:px2rem(105);
+  height:px2rem(105);
+  border-radius: 16rem;
+  position:absolute;
+  top:px2rem(604);
+  left:px2rem(593);
+}
+.lottery-bottom-btn7{
+  width:px2rem(380);
+  height:px2rem(72);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(1672);
+  left:px2rem(170);
+}
+.lottery-bottom-btn8{
+  width:px2rem(380);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(2582);
+  left:px2rem(170);
+}
+.lottery-bottom-btn9{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3352);
+  left:px2rem(22);
+}
+.lottery-bottom-btn10{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3352);
+  left:px2rem(254);
+}
+.lottery-bottom-btn11{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3352);
+  left:px2rem(490);
+}
+.lottery-bottom-btn12{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3447);
+  left:px2rem(22);
+}
+.lottery-bottom-btn13{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3447);
+  left:px2rem(254);
+}
+.lottery-bottom-btn14{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3447);
+  left:px2rem(490);
+}
+.lottery-bottom-btn15{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3542);
+  left:px2rem(22);
+}
+.lottery-bottom-btn16{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3542);
+  left:px2rem(254);
+}
+.lottery-bottom-btn17{
+  width:px2rem(210);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3542);
+  left:px2rem(490);
+}
+.lottery-bottom-btn17{
+  width:px2rem(380);
+  height:px2rem(70);
+  border-radius: 8px;
+  position:absolute;
+  top:px2rem(3663);
+  left:px2rem(170);
+}
+.foot-btn{
+  background: #252428;
+  width: px2rem(720);
+}
+.foot-btn li {
+  border-right:px2rem(1) solid #ffffff;
+  text-align: center;
+  float: left;
+  width:px2rem(239);
+}
+.foot-btn li:last-child{
+  border-right:none;
+  width:px2rem(240);
+}
+.foot-btn li a{
+  display: block;
+}
+.foot-btn li a img{
+  width: auto;
+  display: block;
+  margin: auto;
+  height: px2rem(45);
+  margin-top: px2rem(10);
+}
+.foot-btn li a p{
+  color: #ffffff;
+  font-size: px2rem(20);
+  padding-bottom: px2rem(10);
+}
