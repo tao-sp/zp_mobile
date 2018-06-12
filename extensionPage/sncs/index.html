@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>上市教育培训机构专注职业教育15年</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=640,max-width=640,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=640,max-width=640,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/sncs.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+
+</head>
+<body class="font_yahei">
+<!--弹框-->
+<div class="tk1">
+    <div class="tk1-conteng">
+        <div class="tk1-close" onclick="tkclose('tk1')">
+        </div>
+    </div>
+</div>
+
+<div class="tk2">
+    <div class="tk2-conteng">
+        <div class="tk2-close" onclick="tkclose('tk2')">
+        </div>
+    </div>
+</div>
+
+<div class="tk3">
+    <div class="tk3-conteng">
+        <div class="tk3-close" onclick="tkclose('tk3')">
+        </div>
+        <form class="tk3-form">
+            <input type="text" placeholder="输入您的姓名">
+            <input type="text" placeholder="输入您的电话号码">
+            <a class="tk3-form-btn"></a>
+        </form>
+    </div>
+</div>
+
+
+<div class="tk4">
+    <div class="tk4-conteng">
+        <div class="tk4-close" onclick="tkclose('tk4')">
+        </div>
+    </div>
+</div>
+
+<!--弹框-->
+
+ <div class="sncsbanner1">
+     <a class="banner-btn" onclick="tkopen('tk3')"></a>
+ </div>
+
+ <div class="sncs-content1">
+
+         <div class="xlcp-form-title">
+             <span> 1.下面哪项不属于室内设计师需要经历的阶段</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="cc" checked id="fs1"><label for="fs1">手绘员</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="cc"  id="fs2"><label for="fs2">助理设计师</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="cc"  id="fs3"><label for="fs3">首席设计师</label>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="cc" id="fs55"><label for="fs55">设计总监</label>
+                     </td>
+                     <td>
+                     <input type="radio" class="rdo"  name="cc" id="fs66"><label for="fs66">项目总监</label>
+                     </td>
+                     <td></td>
+                 </tr>
+             </table>
+         </div>
+         <div class="xlcp-form-title">
+             <span>2.下面哪项不属于室内设计需要学的软件</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="nl" checked id="fs5"><label for="fs5">PS</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="nl"  id="fs6"><label for="fs6">PPT</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="nl"  id="fs7"><label for="fs7">CAD</label>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="nl"  id="fs8"><label for="fs8">3DMAX</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="nl"  id="fs9"><label for="fs9">Coreldraw</label>
+                     </td>
+                     <td></td>
+                 </tr>
+             </table>
+         </div>
+         <div class="xlcp-form-title">
+             <span>3.室内设计需要懂泥水工、水电工、木工的工作内容吗</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="tsxl"  id="fs10"><label for="fs10">需要</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="tsxl"  id="fs11"><label for="fs11">不需要</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="tsxl"  id="fs12"><label for="fs12">可以了解一点</label>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+         <div class="xlcp-form-title">
+             <span> 4.房间中有一堵墙可以用来摆放柜子，你会如何布局</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz4" checked id="fs144"><label for="fs144">会全部用来做柜子</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz4"  id="fs155"><label for="fs155">使用一排矮柜</label>
+                     </td>
+
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz4"  id="fs177"><label for="fs177">摆放高低错落的柜子</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz4"  id="fs166"><label for="fs166">利用格子和错落的木板</label>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+         <div class="xlcp-form-title">
+             <span>5.下面不能让房间空间看起来更大的方法</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz5" checked id="fs14"><label for="fs14">用冷色系刷墙</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz5"  id="fs15"><label for="fs15">使用浅色家居</label>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz5"  id="fs17"><label for="fs17">开大窗户</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz5"  id="fs16"><label for="fs16">用深色地板</label>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+         <div class="xlcp-form-title">
+             <span>6.家具的尺度是否科学、室内界面材料是否合理，室内     气流组织好坏都会影响人体的</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz6" checked id="fs1412"><label for="fs1412">运动系统</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz6"  id="fs1512"><label for="fs1512">感觉系统</label>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz6"  id="fs1712"><label for="fs1712">血液系统</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz6"  id="fs1612"><label for="fs1612">人体力学</label>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+         <div class="xlcp-form-title">
+             <span>7.由于环境艺术的功能性和艺术性，所以在设计上不仅需     要运用物质技术手段，还需要遵循(   )原理。</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz7" checked id="fs147"><label for="fs147">管理艺术原理 </label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz7"  id="fs157"><label for="fs157">美学艺术原理</label>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz7"  id="fs1777"><label for="fs1777">抽象艺术原理</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz7"  id="fs167"><label for="fs167">建筑艺术原理</label>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+         <div class="xlcp-form-title">
+             <span>8.室内设计需不需要学风水</span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz8" checked id="fs148"><label for="fs148">需要</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz8"  id="fs158"><label for="fs158">不需要</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="qz8"  id="fs178"><label for="fs178">可要可不要</label>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+     <form class="xlcp-form">
+         <div class="xlcp-form-input">
+             <input type="text" placeholder="请输入您的姓名">
+             <input type="text" placeholder="请输入您的手机号码">
+             <a> 提交获取测评结果</a>
+         </div>
+     </form>
+
+ </div>
+
+ <div class="sncsbanner2">
+ </div>
+ <div class="sncs-content1">
+
+     <div class="xlcp-form-title">
+         <span> 课程 <b style="color: #32aeaf;">*</b> </span>
+         <table>
+             <tr>
+                 <td>
+                     <input type="radio" class="rdo"  name="kc" checked id="fs130"><label for="fs130">手绘/电绘</label>
+                 </td>
+                 <td>
+                     <input type="radio" class="rdo"  name="kc"  id="fs230"><label for="fs230">cad专题班</label>
+                 </td>
+                 <td>
+                     <input type="radio" class="rdo"  name="kc"  id="fs330"><label for="fs330">3D效果图</label>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <input type="radio" class="rdo"  name="kc" id="fs5530"><label for="fs5530">软装设计</label>
+                 </td>
+                 <td>
+                     <input type="radio" class="rdo"  name="kc" id="fs6630"><label for="fs6630">家具设计</label>
+                 </td>
+                 <td>
+                     <input type="radio" class="rdo"  name="kc" id="fs6730"><label for="fs6730">风水设计</label>
+                 </td>
+             </tr>
+         </table>
+     </div>
+
+
+
+     <form class="xlcp-form">
+         <div class="xlcp-form-input">
+             <input type="text" placeholder="请输入您的姓名">
+             <input type="text" placeholder="请输入您的手机号码">
+             <a> 点击获取课程费用详情</a>
+         </div>
+     </form>
+
+ </div>
+
+ <div class="sncsbanner3">
+ </div>
+     <div class="sncs-content1">
+
+         <div class="xlcp-form-title">
+             <span> 区域 <b style="color: red;">*</b> </span>
+             <table>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="zd" checked id="fs1301"><label for="fs1301">龙岗</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="zd"  id="fs2301"><label for="fs2301">福田</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="zd"  id="fs3301"><label for="fs3301">南山</label>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="radio" class="rdo"  name="zd" id="fs55301"><label for="fs55301">宝安</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="zd" id="fs66301"><label for="fs66301">罗湖</label>
+                     </td>
+                     <td>
+                         <input type="radio" class="rdo"  name="zd" id="fs67301"><label for="fs67301">龙华</label>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+
+
+
+         <form class="xlcp-form">
+             <div class="xlcp-form-input">
+                 <input type="text" placeholder="请输入您的姓名">
+                 <input type="text" placeholder="请输入您的手机号码">
+                 <a> 点击获取课程费用详情</a>
+             </div>
+         </form>
+
+     </div>
+ <div class="xlcp-footer">
+     copyright@深圳市中鹏教育科技股份有限公司<br> 粤ICP备09069122号
+ </div>
+
+<script>
+    function tkopen(classname) {
+        $("."+classname).fadeIn();
+    }
+    function tkclose(classname) {
+        $("."+classname).fadeOut();
+    }
+</script>
+</body>
+</html>
