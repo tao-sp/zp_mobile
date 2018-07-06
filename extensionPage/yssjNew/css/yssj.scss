@@ -72,7 +72,7 @@ a{
   background: rgba(0,0,0,0.9);
 }
 .college-links li{
-  width:px2rem(200);
+  width:px2rem(177);
   float: left;
   font-size: px2rem(22);
   color: #ffffff;
@@ -138,6 +138,9 @@ background: #6abbe3;
   width:px2rem(750);
   height:px2rem(355);
   background: url("../images/kx.png") 0 0 /px2rem(750) px2rem(500) no-repeat;
+}
+.yssj-banner{
+  background: rgba(0,0,0,0.8);
 }
 .yssj-banner .swiper-container .swiper-slide img{
   display: block;
@@ -353,7 +356,8 @@ background: #6abbe3;
 .hyzj{
   position: relative;
   width: px2rem(710);
-  margin: 0 auto
+  margin: 0 auto;
+  padding-bottom: px2rem(20);
 }
 
 .hyzj .swiper-container {
@@ -393,10 +397,11 @@ background: #6abbe3;
 }
 .jyfw{
   background: #ff6766;
+  padding-bottom: px2rem(90);
 }
 .jyfw-title{
   text-align: center;
-  padding: px2rem(20) 0;
+  padding: px2rem(30) 0;
   font-size: px2rem(60);
   color: #ffffff;
 }
@@ -465,9 +470,11 @@ background: #6abbe3;
 }
 .lssx .swiper-container .swiper-slide,.qdjy .swiper-container .swiper-slide,.dxxm .swiper-container .swiper-slide {
  width: px2rem(566);
+  background: #ff6766;
 }
 .hzdw .swiper-container .swiper-slide{
   width: px2rem(280);
+  background: #ff6766;
 }
 .hzdw-content{
   width:px2rem(258);
@@ -499,7 +506,7 @@ background: #6abbe3;
   padding-left: px2rem(10);
   font-size: px2rem(22);
   color: #ffffff;
-  border-left: 4px solid #ffffff;
+  border-left: px2rem(4) solid #ffffff;
 }
 .hzdw-name span{
   display: block;
@@ -512,12 +519,172 @@ background: #6abbe3;
   line-height: px2rem(30);
 }
 .jyfwswiper{
-  position: absolute;
-  left: 500%;
+  /* position: absolute;*/
+   left: 500%;
 }
 .jyfw-lists1{
+  margin-top: px2rem(30);
   overflow: hidden;
   position: relative;
   width:px2rem(750);
-  height:px2rem(600);
+  height:px2rem(353);
+}
+.yhhd{
+  background: #6c85d1;
+  padding-bottom: px2rem(40);
+}
+.yhhd-title{
+  padding: px2rem(22);
+  font-size: px2rem(48);
+  font-weight: bold;
+  color: #fef200;
+}
+.yhhd-title span{
+  color: #ffffff;
+}
+.yhhd .swiper-container .swiper-slide img{
+  display: block;
+  margin: auto;
+  width:px2rem(710);
+}
+.yhhd .swiper-container{
+  padding-bottom: px2rem(60);
+}
+.yhhd-btn{
+  width:px2rem(358);
+  height:px2rem(40);
+  line-height: px2rem(40);
+  color: #ffffff;
+  font-size: px2rem(22);
+  margin:px2rem(20) auto;
+  border-radius: 100px;
+  border:1px solid #ffffff;
+  display: block;
+  text-align: center;
+}
+.xqfb{
+  background: rgba(0,0,0,0.8);
+}
+.xqfb .swiper-container .swiper-slide .xqfb-info{
+  width:px2rem(750);
+  height:px2rem(1020);
+}
+.xqfb-info-title{
+  padding-top: px2rem(150);
+  line-height: px2rem(60);
+  padding-left: px2rem(20);
+  font-size: px2rem(47);
+  color: #ffffff;
+}
+.xqfb-info-title span{
+  display: block;
+  font-size: px2rem(29);
+  font-weight: lighter;
+}
+.xqfb-line{
+  margin-top: px2rem(10);
+  width:px2rem(58);
+  height:px2rem(4);
+  background: #ffffff;
+}
+.qrcode{
+  padding-top: px2rem(20);
+  padding-left: px2rem(20);
+  width:px2rem(123);
+  font-size: px2rem(20);
+  color: #666666;
+  line-height: px2rem(30);
+}
+.qrcode img{
+  width:px2rem(123);
+}
+.xqfb-info-more{
+  padding-top: px2rem(10);
+  font-size: px2rem(22);
+  color: #ffffff;
+  padding-left: px2rem(20);
+  line-height: px2rem(38);
+  font-weight: lighter;
+}
+.xqfb-btn{
+  display: block;
+  width: px2rem(245);
+  height:px2rem(45);
+  line-height: px2rem(45);
+  color: #ffffff;
+  text-align: center;
+  font-size: px2rem(22);
+  font-weight: normal;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  margin-top: px2rem(56);
+}
+.xqfb-ctrl{
+  position: relative;
+  width:px2rem(750);
+  height:px2rem(100);
+  background: #3f3f3f;
+  overflow-x: auto;
+  text-overflow: ellipsis;
+}
+.xqfb .xqfb-ctrl .swiper-pagination{
+  width:px2rem(1600);
+}
+.xqfb-ctrl .swiper-pagination-bullet{
+  padding-top: px2rem(25);
+  border-radius:0;
+  width:px2rem(200);
+  height:px2rem(50);
+  line-height: px2rem(50);
+  font-size: px2rem(26);
+  color: #ebebeb;
+  background: #3f3f3f;
+}
+.xqfb-ctrl  .swiper-pagination-bullet-active{
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.longgang{
+  background: url("http://m.gdzp.org/mobile/images/design/longgang.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+}
+.nanshan{
+  background: url("http://m.gdzp.org/mobile/images/design/nanshan.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+}
+.baoan{
+  background: url("http://m.gdzp.org/mobile/images/design/baoan.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+}
+.futian{
+  background: url("http://m.gdzp.org/mobile/images/design/futian.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+}
+.guangzhou{
+  background: url("http://m.gdzp.org/mobile/images/design/guangzhou.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+}
+.fuzhuang{
+  background: url("http://m.gdzp.org/mobile/images/design/fuzhuang.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+}
+.shajing{
+  background: url("http://m.gdzp.org/mobile/images/design/shajing.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+}
+.dongguan{
+   background: url("http://m.gdzp.org/mobile/images/design/dongguan.png") 0 0 /px2rem(750) px2rem(1020) no-repeat;
+ }
+
+.right-suspension{
+  z-index: 999999;
+  width: px2rem(100);
+  position: fixed;
+  bottom: px2rem(80);
+  right:px2rem(10);
+}
+.right-suspension img{
+ display: block;
+  margin: auto;
+  padding-bottom: px2rem(6);
+}
+.rightserve1 img{
+  width: px2rem(100) !important;
+}
+.rightserve img,.rightserve2 img{
+  width: px2rem(80);
 }
