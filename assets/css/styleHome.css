@@ -797,5 +797,11 @@ a {
   margin-bottom: 0.3413333333rem; }
 
 /*咨询中心结束*/
+.new-footer {
+  padding: 0.4266666667rem 0;
+  font-size: 0.384rem;
+  color: #666666;
+  background: #efefef;
+  text-align: center; }
 
 /*# sourceMappingURL=styleHome.css.map */
