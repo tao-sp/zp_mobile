@@ -1,0 +1,164 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.yhd7 {
+  margin-bottom: 1.4rem;
+  position: relative;
+  width: 7.5rem;
+  height: 10.75rem;
+  background: url("../images/7yhd.png") 0 0/7.5rem 10.75rem no-repeat; }
+
+.yhd7-btn {
+  width: 1.08rem;
+  height: 1.08rem;
+  border-radius: 1000px;
+  position: absolute;
+  top: 3.6rem;
+  right: 1.39rem; }
+
+.yhd7-form {
+  position: absolute;
+  top: 7.5rem;
+  left: 1.4rem; }
+
+.yhd7-input-group {
+  width: 4.72rem;
+  height: 0.6rem;
+  position: relative;
+  margin-bottom: 0.3rem; }
+
+.yhd7-input-group label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.6rem;
+  width: 0.99rem;
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  font-weight: bold;
+  color: #666666; }
+
+.yhd7-input-group input {
+  padding-left: 0.2rem;
+  border: 1px solid #56acad;
+  position: absolute;
+  left: 0.99rem;
+  top: 0;
+  height: 0.6rem;
+  width: 3.5rem;
+  line-height: 0.6rem;
+  font-size: 0.24rem;
+  color: #666666; }
+
+.yhd7-form-btn {
+  width: 4.72rem;
+  height: 0.6rem;
+  border-radius: 1000px;
+  background: #56acad;
+  font-size: 0.33rem;
+  text-align: center;
+  display: block;
+  line-height: 0.6rem;
+  color: #ffffff; }
+
+/*弹框*/
+.tk7y-box {
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8); }
+
+.tk7y-close {
+  position: absolute;
+  right: 0;
+  top: 0.48rem;
+  cursor: pointer;
+  width: 0.6rem;
+  height: 0.6rem; }
+
+.tk7y {
+  width: 6.19rem;
+  height: 5.77rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.08rem;
+  margin-top: -2.87rem;
+  background: url("../images/tk.png") 0 0/6.19rem 5.77rem no-repeat; }
+
+.tk7y-form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-bottom: 0.12rem;
+  margin-left: 0.55rem;
+  display: block;
+  width: 2.5rem;
+  color: #ffffff;
+  height: 0.45rem;
+  font-size: 0.18rem;
+  padding-left: 0.2rem; }
+
+.tk7y-form input::placeholder {
+  color: #b69bcc; }
+
+.tk7y-form {
+  position: absolute;
+  bottom: 0.2rem;
+  left: 1.57rem; }
+
+.tk7y-form-btn {
+  cursor: pointer;
+  margin-top: 0.39rem;
+  display: block;
+  width: 3.33rem;
+  height: 0.53rem;
+  border-radius: 0.55rem; }
+
+.gkk-link {
+  position: absolute;
+  display: block;
+  font-size: 0.28rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 1.05rem;
+  text-align: center;
+  right: 1.11rem;
+  top: 0.19rem; }
+
+/*# sourceMappingURL=webjc.css.map */
