@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  width: 16rem;
+  width: 7.5rem;
   margin: 0 auto;
   padding: 0; }
 
@@ -159,6 +159,133 @@ a {
   width: 1.05rem;
   text-align: center;
   right: 1.11rem;
-  top: 0.19rem; }
+  top: 0.17rem; }
+
+/*测试题开始*/
+.cst {
+  width: 7.1rem;
+  margin: auto; }
+
+.cst-title {
+  font-size: 0.28rem;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0.98rem;
+  padding-left: 0.7rem;
+  width: 6.4rem;
+  height: 0.98rem;
+  background: url("../images/cstbg.png") 0 0/7.1rem 0.98rem no-repeat; }
+
+.cst-content {
+  width: 7.1rem;
+  box-sizing: border-box;
+  border: 2px solid #6b7589; }
+
+.cst-table {
+  line-height: 0.47rem;
+  font-size: 0.22rem;
+  color: #666666;
+  width: 6.5rem;
+  margin: auto; }
+
+.cst-table tr td {
+  width: 50%; }
+
+.rdo {
+  width: 0.18rem;
+  height: 0;
+  position: relative;
+  cursor: pointer; }
+
+.rdo + label {
+  cursor: pointer;
+  margin-left: 0.18rem; }
+
+.rdo:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -0.06rem;
+  left: 0;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../images/rdo.png") 0 -0.31rem no-repeat;
+  background-size: 0.3rem 0.6rem; }
+
+.rdo:checked:after {
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../images/rdo.png") no-repeat;
+  background-size: 0.3rem 0.6rem; }
+
+.cst-table-title td {
+  color: #333333;
+  padding-top: 0.18rem;
+  font-size: 0.23rem; }
+
+.input-group {
+  line-height: 0.8rem;
+  font-size: 0.24rem;
+  color: #666666;
+  width: 6.4rem;
+  height: 0.8rem;
+  margin: 0.4rem auto 0;
+  position: relative;
+  border: 1px solid #b5b5b5;
+  border-radius: 5px;
+  background: #eeeeee; }
+
+.input-group label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 0.1rem; }
+
+.input-group input {
+  position: absolute;
+  left: 1.3rem;
+  top: 0;
+  width: 1.9rem;
+  height: 0.6rem;
+  margin-top: 0.1rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.22rem; }
+
+.cst-form {
+  width: 7.1rem;
+  margin: 0.35rem auto 0; }
+
+.btn-group {
+  width: 6.2rem;
+  margin: 0 auto 0.5rem; }
+
+.btn-group a {
+  cursor: pointer;
+  display: inline-block;
+  width: 2.5rem;
+  height: 0.77rem;
+  background: #6b7589;
+  border-radius: 0.77rem;
+  color: #ffffff;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.77rem;
+  -moz-box-shadow: 0px 6px 5px #878787;
+  -webkit-box-shadow: 0px 6px 5px #878787;
+  box-shadow: 0px 6px 5px #878787;
+  margin: auto 0.3rem; }
+
+.btn-group a:hover {
+  background: #8992ab; }
+
+.cst-tips {
+  font-size: 0.17rem;
+  color: #666666;
+  text-align: center;
+  padding-top: 0.22rem; }
+
+/*测试题结束*/
 
 /*# sourceMappingURL=webjc.css.map */
