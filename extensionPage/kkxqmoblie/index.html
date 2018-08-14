@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>开课详情</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/kkxqm.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+
+
+</head>
+<body class="font_yahei">
+
+<!--头部开始-->
+<div class="yssj-header">
+    <img class="yssj-logo" src="images/logo.png">
+    <img class="right-nav" src="images/right-nav.png">
+</div>
+
+<div class="right-nav-hide">
+    <div class="close-nav">
+        <img src="images/close-nav.png">
+    </div>
+    <ul class="college-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org">
+                <img src="images/homelogo.png">
+                官网首页
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/continuing/">
+                <img src="images/countinuinglogo.png">
+                继续教育学院
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/mobile/manage">
+                <img src="images/countinuinglogo.png">
+                管理学院
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/mobile/net">
+                <img src="images/countinuinglogo.png">
+                IT学院
+            </a>
+        </li>
+    </ul>
+    <div class="zy-title">
+        专业
+    </div>
+    <div class="zy-title1">
+        2D科系
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/paints.html">
+                <img src="http://m.gdzp.org/html/design/design/images/27.gif">
+                设计美术
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/graphic.html">
+                <img src="http://m.gdzp.org/html/design/design/images/28.gif">
+                平面设计
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/uisj.html">
+                <img src="http://m.gdzp.org/html/design/design/images/29.gif">
+                UI设计
+            </a>
+        </li>
+    </ul>
+    <div class="zy-title1">
+        3D科系
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/interiordesign/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/32.gif">
+                室内设计
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/jewelry/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/31.gif">
+                珠宝设计
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/industry.html">
+                <img src="http://m.gdzp.org/html/design/design/images/30.gif">
+                工业设计
+            </a>
+        </li>
+    </ul>
+    <div class="zy-title1">
+        数码影像科系
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/photographyschool/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/33.gif">
+                摄影
+            </a>
+        </li>
+    </ul>
+    <div class="zy-title1">
+        相关科系
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/it/wlyx/">
+                <img src="http://m.gdzp.org/uploads/thumb/2bb6923f04353ad3c7b72ce3bcac696a.jpeg">
+                网络营销
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/project/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/34.gif">
+                工程预算
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<!--头部开始-->
+
+<!--banner开始-->
+<div class="kkxq-banner">
+    平面设计二年级全科班
+</div>
+<!--banner结束-->
+
+<!--年级开班时间开始-->
+    <div class="njkb">
+    <div class="njkb-title">
+        <b>专</b>业课开班时间
+        <hr />
+        <span>CLASS DETAILS</span>
+    </div>
+
+    <div class="njkb-content">
+        <div class="Top_Record">
+            <div class="topRec_List">
+                <dl>
+                    <dd>专业名称</dd>
+                    <dd>课程内容</dd>
+                    <dd>开班日期</dd>
+                    <dd>免费试学</dd></dl>
+                <div class="maquee">
+                    <ul>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--年级开班时间结束-->
+
+<!--年级开班时间开始-->
+<div class="njkb">
+    <div class="njkb-title">
+        <b>公</b>开课开课时间
+        <hr />
+        <span>CLASS DETAILS</span>
+    </div>
+
+    <div class="njkb-content">
+        <div class="Top_Record">
+            <div class="topRec_List">
+                <dl>
+                    <dd>专业名称</dd>
+                    <dd>课程内容</dd>
+                    <dd>开班日期</dd>
+                    <dd>免费试学</dd></dl>
+                <div class="maquee">
+                    <ul>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                        <li>
+                            <div>第25期UI设计专题班</div>
+                            <div>*********************</div>
+                            <div>2018-08-23</div>
+                            <div><a class="yysx-btn">预约试学</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--年级开班时间结束-->
+
+<!--往期课程开始-->
+<div class="wqkc">
+    <div class="njkb-title">
+        <b>往</b>期课程详情
+        <hr />
+        <span> DETAILS  OF PAST COURSES</span>
+    </div>
+
+    <ul class="wqkc-list clearfix">
+        <li>
+            <img src="images/wqkc1.png">
+            <div class="wqkc-list-hide">室内设计 <br>创意公开课</div>
+        </li>
+        <li>
+            <img src="images/wqkc2.png">
+            <div class="wqkc-list-hide">珠宝DIY <br>公益讲座</div>
+        </li>
+        <li>
+            <img src="images/wqkc3.png">
+            <div class="wqkc-list-hide">手机摄影 <br>公开课</div>
+        </li>
+        <li>
+            <img src="images/wqkc4.png">
+            <div class="wqkc-list-hide">PS修图 <br>公开课</div>
+        </li>
+    </ul>
+</div>
+<!--往期课程结束-->
+
+<div class="bodybg"> </div>
+
+<!--底部开始-->
+<div class="footer">
+    <div class="clearfix">
+        <ul class="footer-left">
+            <li><a href="https://vs.rainbowred.com/visitor/mobile/chat.html?companyId=497">关于我们</a></li>
+            <li><a href="https://vs.rainbowred.com/visitor/mobile/chat.html?companyId=497">联系我们</a></li>
+            <li><a href="https://vs.rainbowred.com/visitor/mobile/chat.html?companyId=497">企业文化</a></li>
+            <li><a href="https://vs.rainbowred.com/visitor/mobile/chat.html?companyId=497">加入我们</a></li>
+        </ul>
+        <div class="footer-right">
+            <img src="images/tel.png">
+            联系号码 <a href="tel://400-930-6618">400-930-6618</a>
+        </div>
+    </div>
+    <div class="footer-tips">
+        Copyright © 2008-2018   深圳市中鹏教育科技股份有限公司<br>
+        ALL RIGHT RESERVED 备案号:<a target="_blank" href="http://www.miibeian.gov.cn"> 粤ICP备09069122号-6</a>
+    </div>
+</div>
+<!--底部结束-->
+<script>
+    $(function () {
+        setInterval('autoScroll(".maquee")',3000);
+    })
+</script>
+<script src="js/kkxqm.js"></script>
+</body>
+</html>
