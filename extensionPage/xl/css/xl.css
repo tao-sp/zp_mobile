@@ -1,0 +1,529 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0.3555555556rem; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.xl-header {
+  position: relative;
+  width: 16rem;
+  height: 30.8222222222rem;
+  background: url("../images/banner.png") 0 0/16rem 30.8222222222rem no-repeat; }
+
+.xl-btn1 {
+  width: 4rem;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.xl-btn2 {
+  width: 4rem;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 4rem; }
+
+.xl-btn3 {
+  width: 4rem;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 8rem; }
+
+.xl-btn4 {
+  width: 4rem;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 12rem; }
+
+.xl-btn5 {
+  width: 8.4444444444rem;
+  height: 1.5555555556rem;
+  position: absolute;
+  top: 9.4444444444rem;
+  left: 0.4444444444rem; }
+
+.xl-btn6 {
+  width: 4.0666666667rem;
+  height: 1rem;
+  position: absolute;
+  top: 20.9111111111rem;
+  left: 0.8444444444rem;
+  border-radius: 1rem; }
+
+.xl-btn7 {
+  width: 4.0666666667rem;
+  height: 1rem;
+  position: absolute;
+  top: 20.9111111111rem;
+  left: 6rem;
+  border-radius: 1rem; }
+
+.xl-btn8 {
+  width: 4.0666666667rem;
+  height: 1rem;
+  position: absolute;
+  top: 20.9111111111rem;
+  left: 11.2222222222rem;
+  border-radius: 1rem; }
+
+.xl-btn9 {
+  width: 4.0666666667rem;
+  height: 1rem;
+  position: absolute;
+  top: 27.0888888889rem;
+  left: 0.8888888889rem;
+  border-radius: 1rem; }
+
+.xl-btn10 {
+  width: 4.0666666667rem;
+  height: 1rem;
+  position: absolute;
+  top: 27.0888888889rem;
+  left: 6.0444444444rem;
+  border-radius: 1rem; }
+
+.xl-btn11 {
+  width: 4.0666666667rem;
+  height: 1rem;
+  position: absolute;
+  top: 27.0888888889rem;
+  left: 11.2666666667rem;
+  border-radius: 1rem; }
+
+.xl-form {
+  width: 13.3333333333rem;
+  margin: 0.7777777778rem auto;
+  padding: 0.4444444444rem 0.8888888889rem 0.8888888889rem;
+  border: 2px solid #b5b5b5;
+  border-radius: 20px;
+  -moz-box-shadow: 0px 0px 15px #B3B3B3;
+  -webkit-box-shadow: 0px 0px 15px #B3B3B3;
+  box-shadow: 0px 0px 15px #B3B3B3; }
+
+.xlcp-form-title > span {
+  font-size: 0.5333333333rem;
+  color: #333333;
+  line-height: 0.8888888889rem; }
+
+.xlcp-form-title {
+  margin: 0.5555555556rem auto; }
+
+.xlcp-form-title label {
+  font-weight: lighter;
+  font-size: 0.5333333333rem;
+  color: #666666;
+  line-height: 0.8888888889rem; }
+
+.xlcp-form-title table {
+  width: 13.4444444444rem; }
+
+.xlcp-form-title table tr td {
+  width: 4.4444444444rem; }
+
+.rdo {
+  display: none; }
+
+.rdo + label {
+  position: relative;
+  padding-left: 0.5777777778rem; }
+
+.rdo + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url("../images/rbg.png") 0 0/0.4rem 0.8rem no-repeat; }
+
+.rdo:checked + label:after {
+  background: url("../images/rbg.png") 0 -0.4rem/0.4rem 0.8rem no-repeat; }
+
+.xl-input-group {
+  width: 13.3333333333rem;
+  height: 1.3333333333rem;
+  position: relative;
+  padding-bottom: 0.6666666667rem; }
+
+.xl-input-group label {
+  width: 2.2222222222rem;
+  height: 1.3333333333rem;
+  text-align: center;
+  font-size: 0.5333333333rem;
+  color: #333333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1.3333333333rem; }
+
+.xl-input-group input {
+  font-size: 0.5333333333rem;
+  padding-left: 0.4444444444rem;
+  width: 10.6666666667rem;
+  height: 1.3333333333rem;
+  position: absolute;
+  outline: none;
+  border: 1px solid #e64a42;
+  border-radius: 10px;
+  left: 2.2222222222rem;
+  top: 0; }
+
+.xl-form-btn {
+  width: 8.1333333333rem;
+  height: 1.6666666667rem;
+  line-height: 1.6666666667rem;
+  font-size: 0.7111111111rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(#fd7257, #fd5757);
+  background: -o-linear-gradient(#fd7257, #fd5757);
+  background: -moz-linear-gradient(#fd7257, #fd5757);
+  background: linear-gradient(#fd7257, #fd5757); }
+
+.xl-form-tips {
+  font-size: 0.4rem;
+  color: #999999;
+  text-align: center;
+  margin-top: 0.4444444444rem; }
+
+.xlts {
+  position: relative;
+  width: 16rem;
+  height: 58rem;
+  background: url("../images/bg2.png") 0 0/16rem 58rem; }
+
+.xl-btn13 {
+  position: absolute;
+  top: 4.6666666667rem;
+  left: 5.4222222222rem;
+  width: 2.3555555556rem;
+  height: 2.3555555556rem;
+  border-radius: 100%;
+  display: block; }
+
+.xl-btn14 {
+  position: absolute;
+  top: 4.6666666667rem;
+  left: 13.1777777778rem;
+  width: 2.3555555556rem;
+  height: 2.3555555556rem;
+  border-radius: 100%;
+  display: block; }
+
+.xl-btn15 {
+  position: absolute;
+  top: 8.8888888889rem;
+  left: 5.4222222222rem;
+  width: 2.3555555556rem;
+  height: 2.3555555556rem;
+  border-radius: 100%;
+  display: block; }
+
+.xl-btn16 {
+  position: absolute;
+  top: 8.8888888889rem;
+  left: 13.1777777778rem;
+  width: 2.3555555556rem;
+  height: 2.3555555556rem;
+  border-radius: 100%;
+  display: block; }
+
+.xl-btn17 {
+  position: absolute;
+  top: 13.2rem;
+  left: 5.4222222222rem;
+  width: 2.3555555556rem;
+  height: 2.3555555556rem;
+  border-radius: 100%;
+  display: block; }
+
+.xl-btn18 {
+  position: absolute;
+  top: 13.2rem;
+  left: 13.1777777778rem;
+  width: 2.3555555556rem;
+  height: 2.3555555556rem;
+  border-radius: 100%;
+  display: block; }
+
+.xl-btn19 {
+  position: absolute;
+  bottom: 19.5333333333rem;
+  left: 3.7555555556rem;
+  width: 8.4444444444rem;
+  height: 1.5555555556rem;
+  display: block; }
+
+.xl-btn20 {
+  position: absolute;
+  bottom: 4.8888888889rem;
+  left: 2.8888888889rem;
+  width: 10.2222222222rem;
+  height: 1.5555555556rem;
+  display: block; }
+
+.xl-btn:hover {
+  background: rgba(0, 0, 0, 0.1); }
+
+.xl-input {
+  padding-left: 0.3555555556rem;
+  display: block;
+  width: 12.1555555556rem;
+  height: 1.1777777778rem;
+  outline: none;
+  font-size: 0.5333333333rem;
+  border: 1px solid #b5b5b5;
+  border-radius: 10px;
+  margin: 0.4rem auto; }
+
+.xl-select {
+  padding-left: 0.3555555556rem;
+  display: block;
+  width: 12.5111111111rem;
+  height: 1.1777777778rem;
+  outline: none;
+  font-size: 0.5333333333rem;
+  border: 1px solid #b5b5b5;
+  border-radius: 10px;
+  margin: 0.6222222222rem auto; }
+
+.xl-from-2 {
+  padding-top: 0.4444444444rem;
+  background: #eeeeee;
+  padding-bottom: 1.3333333333rem; }
+
+.xl-form-3 {
+  margin-bottom: 2.1555555556rem;
+  width: 16rem;
+  height: 64.9777777778rem;
+  background: url("../images/bg3.png") 0 0/16rem 64.9777777778rem no-repeat;
+  position: relative; }
+
+.xl-btn21 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 4.0444444444rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn22 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 5.2222222222rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn23 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 6.4rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn24 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 7.5777777778rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn25 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 8.7555555556rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn26 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 9.9333333333rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn27 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 11.1111111111rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn28 {
+  display: block;
+  position: absolute;
+  right: 0.4444444444rem;
+  top: 12.2888888889rem;
+  width: 3.0666666667rem;
+  height: 1.0444444444rem; }
+
+.xl-btn29 {
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 14.2888888889rem;
+  width: 9.8rem;
+  height: 1.6666666667rem; }
+
+.xl-btn30 {
+  display: block;
+  position: absolute;
+  left: 5.2rem;
+  top: 25.6222222222rem;
+  width: 5.3333333333rem;
+  height: 0.9111111111rem; }
+
+.xl-btn31 {
+  display: block;
+  position: absolute;
+  left: 5.2rem;
+  top: 31.0222222222rem;
+  width: 5.3333333333rem;
+  height: 0.9111111111rem; }
+
+.xl-btn32 {
+  display: block;
+  position: absolute;
+  left: 5.2rem;
+  top: 36.7111111111rem;
+  width: 5.3333333333rem;
+  height: 0.9111111111rem; }
+
+.xl-btn33 {
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 38.9333333333rem;
+  width: 11.5333333333rem;
+  height: 1.6666666667rem; }
+
+.xl-btn34 {
+  display: block;
+  position: absolute;
+  left: 3.4888888889rem;
+  bottom: 12.4rem;
+  width: 8.4444444444rem;
+  height: 1.5555555556rem; }
+
+.xl-btn35 {
+  display: block;
+  position: absolute;
+  left: 2.8222222222rem;
+  bottom: 1.5777777778rem;
+  width: 9.7777777778rem;
+  height: 1.2rem; }
+
+.xl-form-3-content {
+  position: absolute;
+  bottom: 3.6888888889rem;
+  left: 1.0222222222rem; }
+
+.xl-form-3-label {
+  font-weight: bold;
+  font-size: 0.5777777778rem;
+  color: #2c3946;
+  display: block;
+  margin-top: 0.7333333333rem;
+  margin-bottom: 0.2666666667rem; }
+
+.xl-form-3-input {
+  background: transparent;
+  padding-left: 0.3777777778rem;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #ed4e4e;
+  display: block;
+  width: 12.8888888889rem;
+  height: 1.2444444444rem;
+  font-size: 0.4rem; }
+
+.xl-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999;
+  width: 16rem;
+  height: 2.1333333333rem;
+  background: url("../images/bottom.png") 0 0/16rem 2.1333333333rem; }
+
+.xl-btn36 {
+  display: block;
+  width: 4rem;
+  height: 2.1333333333rem;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.xl-btn37 {
+  display: block;
+  width: 4rem;
+  height: 2.1333333333rem;
+  position: absolute;
+  top: 0;
+  left: 4rem; }
+
+.xl-btn38 {
+  display: block;
+  width: 4rem;
+  height: 2.1333333333rem;
+  position: absolute;
+  top: 0;
+  right: 4rem; }
+
+.xl-btn39 {
+  display: block;
+  width: 4rem;
+  height: 2.1333333333rem;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+/*# sourceMappingURL=xl.css.map */

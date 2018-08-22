@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>中鹏服装设计培训学校</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/fzsj.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<!--头部 开始-->
+    <ul class="fzsj-header">
+        <li class="on"><a onclick="ECHAT.customMiniChat()">首页</a></li>
+        <li><a onclick="ECHAT.customMiniChat()">课程介绍</a></li>
+        <li><a onclick="ECHAT.customMiniChat()">师资团队</a></li>
+        <li><a onclick="ECHAT.customMiniChat()">学员作品</a></li>
+    </ul>
+<!--头部 结束-->
+
+<!--banner 开始-->
+<div class="fzsj-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img width="100%" src="images/banner1.png"/></div>
+            <div class="swiper-slide"><img width="100%" src="images/banner2.png"/></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.fzsj-banner .swiper-container', {
+            autoplay: 3000,//可选选项，自动滑动
+            loop:true
+        })
+    </script>
+</div>
+<!--banner 结束-->
+
+<!--特色课程 开始-->
+<div class="tskc">
+
+    <img class="tskc-title" src="images/tskc-title.png" />
+    <ul class="tskc-list clearfix">
+        <li>
+            <img src="images/tskc1.png">
+            <div class="tskc-list-content">
+                <b>服装+学历双证班</b>
+                华南师范大学合作开班、全面<br>系统性学习服装技能课程、成<br>教获取正规专科或本科文凭
+            </div>
+            <a class="tskc-btn"  onclick="ECHAT.customMiniChat()">MORE</a>
+        </li>
+        <li>
+            <img src="images/tskc2.png">
+            <div class="tskc-list-content">
+                <b>纸样制版基础</b>
+                制图标准，部位名称、号<br>型知识，人体测量、裁剪<br>及变化技巧
+            </div>
+            <a class="tskc-btn"  onclick="ECHAT.customMiniChat()">MORE</a>
+        </li>
+        <li>
+            <img src="images/tskc3.png">
+            <div class="tskc-list-content">
+                <b>服装美术</b>
+                人物素描、石膏几何体、色彩<br>水粉画，色彩写实、户外写生<br>绘画活动
+            </div>
+            <a class="tskc-btn"  onclick="ECHAT.customMiniChat()">MORE</a>
+        </li>
+        <li>
+            <img src="images/tskc4.png">
+            <div class="tskc-list-content">
+                <b>面料学</b>
+                布料市场实战教学、常用服装面料、辅料的介绍、对应特征、选择及辅料扎染操作
+            </div>
+            <a class="tskc-btn"  onclick="ECHAT.customMiniChat()">MORE</a>
+        </li>
+        <li>
+            <img src="images/tskc5.png">
+            <div class="tskc-list-content">
+                <b>立体裁剪设计与应用</b>
+                立体裁剪的用具和准备、剪<br>裁技术原理、手法、领型、<br>袖型、分割线剪裁
+            </div>
+            <a class="tskc-btn"  onclick="ECHAT.customMiniChat()">MORE</a>
+        </li>
+        <li>
+            <img src="images/tskc6.png">
+            <div class="tskc-list-content">
+                <b>服装电脑设计</b>
+                Codeldraw、Photoshop CS6 软件、款式图、效果图、图案绘制、款式图与效果图的电脑表现
+            </div>
+            <a class="tskc-btn"  onclick="ECHAT.customMiniChat()">MORE</a>
+        </li>
+    </ul>
+    <a class="tskc-btn1"  onclick="ECHAT.customMiniChat()">查看更多课程 >></a>
+</div>
+<!--特色课程 结束-->
+
+<!--测试题 开始-->
+<div class="cst">
+    <img class="cst-title" src="images/cst-title.png">
+    <form>
+        <div class="form-title">1.你有绘画基础吗？</div>
+        <div class="input-group clearfix">
+            <div class="input-item">
+                <input type="radio" name="jc" id="jc1" value="基础不好">
+                <label for="jc1">基础不好</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="jc" id="jc2" value="有点基础">
+                <label for="jc2">有点基础</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="jc" id="jc3" value="基础较好">
+                <label for="jc3">基础较好</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="jc" id="jc4" value="不清楚">
+                <label for="jc4">不清楚</label>
+            </div>
+        </div>
+        <div class="form-title">2.你觉得设计出一件衣服哪个环节比较重要？</div>
+        <div class="input-group clearfix">
+            <div class="input-item">
+                <input type="radio" name="zy" id="zy1" value="设计款式">
+                <label for="zy1">设计款式</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="zy" id="zy2" value="制作成衣">
+                <label for="zy2">制作成衣</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="zy" id="zy3" value="都重要">
+                <label for="zy3">都重要</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="zy" id="zy4" value="不清楚">
+                <label for="zy4">不清楚</label>
+            </div>
+        </div>
+        <div class="form-title">3.你平时会经常关注相关时尚设计杂志资讯吗？</div>
+        <div class="input-group clearfix">
+            <div class="input-item">
+                <input type="radio" name="zx" id="zx1" value="会">
+                <label for="zx1">会</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="zx" id="zx2" value="不会">
+                <label for="zx2">不会</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="zx" id="zx3" value="偶尔会">
+                <label for="zx3">偶尔会</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="zx" id="zx4" value="不清楚">
+                <label for="zx4">不清楚</label>
+            </div>
+        </div>
+        <div class="form-title">4.你想学习服装设计课程是因为？</div>
+        <div class="input-group clearfix">
+            <div class="input-item">
+                <input type="radio" name="kc" id="kc1" value="工作需求">
+                <label for="kc1">工作需求</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="kc" id="kc2" value="个人兴趣">
+                <label for="kc2">个人兴趣</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="kc" id="kc3" value="工作和兴趣都有">
+                <label for="kc3">工作和兴趣都有</label>
+            </div>
+            <div class="input-item">
+                <input type="radio" name="kc" id="kc4" value="其他">
+                <label for="kc4">其他</label>
+            </div>
+        </div>
+<br>
+        <input class="cst-input" placeholder="输入您的姓名">
+        <input class="cst-input" placeholder="输入手机号码">
+        <a class="cst-btn">立即获取测试结果</a>
+        <div class="cst-tips">测试结果2分钟内将会短信方式发送到您的手机，请注意查收！</div>
+    </form>
+</div>
+<!--测试题 结束-->
+
+<!--名师介绍 开始-->
+<div class="msjs">
+     <img class="msjs-title" src="images/msjs-title.png">
+    <ul class="msjs-list clearfix">
+        <li>
+            <img src="images/msjs1.png">
+            <div class="msjs-content">
+                <span>郝永强</span>
+                国家高级服装设计师<br>
+                国家职业技能鉴定考评员<br>
+                中鹏服装设计培训学校副校长<br>
+            </div>
+            <a class="msjs-btn"  onclick="ECHAT.customMiniChat()">咨询老师</a>
+        </li>
+        <li>
+            <img src="images/msjs2.png">
+            <div class="msjs-content">
+                <span>肖祠深</span>
+                广东省十佳服装纸样设计师<br>
+                中鹏服装设计培训学校创始人<br>
+                中鹏服装设计培训学校校长<br>
+            </div>
+            <a class="msjs-btn"  onclick="ECHAT.customMiniChat()">咨询老师</a>
+        </li>
+        <li>
+            <img src="images/msjs3.png">
+            <div class="msjs-content">
+                <span>姜林</span>
+                中国服装行业领军人物<br>
+                深圳职业教育系统优秀教师<br>
+                国家职业技能鉴定优秀考评员<br>
+            </div>
+            <a class="msjs-btn"  onclick="ECHAT.customMiniChat()">咨询老师</a>
+        </li>
+        
+    </ul>
+</div>
+<!--名师介绍 结束-->
+
+<!--保障 开始-->
+<div class="bz">
+    <img  class="bz-title" src="images/bz-title.png">
+    <ul class="bz-list">
+        <li>
+            <span>名师教学包教会</span>
+            中鹏服装学校支持随到随学，实战教学<br>
+            学不会免费重修，学会为止！
+        </li>
+        <li>
+            <span>学服装拿学历</span>
+            学服装设计，拿正规名校（华师大）学历<br>
+            华南师范大学合作办学，技能学历双重收获！
+        </li>
+        <li>
+            <span>推荐就业</span>
+            与国内知名服装企业时尚公司等知长期<br>
+            战略合作，推荐优秀学员高薪就业！
+        </li>
+    </ul>
+</div>
+<!--保障 开始-->
+
+<!--学员见证 开始-->
+<div class="xyjz">
+    <img class="xyjz-title" src="images/xyjz-title.png">
+    <div class="xyjz-content"></div>
+
+    <form>
+        <input class="xyjz-input" placeholder="您的姓名">
+        <input class="xyjz-input" placeholder="您的手机">
+        <select class="xyjz-input xyjz-select">
+            <option>意向班级</option>
+            <option>服装设计+学历双证班</option>
+            <option>高级纸样实战班</option>
+            <option>男女装高级定制班</option>
+            <option>服装美术班</option>
+            <option>服装剪裁班</option>
+            <option>工艺制作班</option>
+            <option>其他班级</option>
+        </select>
+        <a class="xyjz-btn">立即领取优惠</a>
+    </form>
+</div>
+<!--学员见证 结束-->
+
+<!--学员作品 开始-->
+<div class="xyzp"></div>
+<!--学员作品 结束-->
+
+<!--试听 开始-->
+<div class="mfst">
+<div class="mfst-title"><b>免费预约试听</b><br>请留下您的联系方式，我们的招生工作人员会在24小时内联系您！</div>
+    <form>
+        <input class="xyjz-input" placeholder="您的姓名">
+        <input class="xyjz-input" placeholder="您的手机">
+        <select class="xyjz-input xyjz-select">
+            <option>意向班级</option>
+            <option>服装设计+学历双证班</option>
+            <option>高级纸样实战班</option>
+            <option>男女装高级定制班</option>
+            <option>服装美术班</option>
+            <option>服装剪裁班</option>
+            <option>工艺制作班</option>
+            <option>其他班级</option>
+        </select>
+        <a class="xyjz-btn">立即申请</a>
+    </form>
+</div>
+<!--试听 结束-->
+
+<!--底部 开始-->
+<div class="bottom-tips">Copyright © 2018.中鹏服装学校 All rights reserved 粤ICP备15074963号</div>
+<div class="footer">
+    <a class="footer-btn-1"  onclick="ECHAT.customMiniChat()"></a>
+    <a class="footer-btn-2"  onclick="ECHAT.customMiniChat()"></a></div>
+<!--底部 结束-->
+
+<!--百度统计 2018-08-22-->
+<script>
+    var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?786bae1e79d31d986891b9ba84538b8f"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script>
+<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=12443377"></script>
+<!--百度统计 2018-08-22-->
+
+
+<!--客服代码-->
+<script type="text/javascript">
+    var _echatServer = ['v.rainbowred.com'];
+    window._echat=window._echat||function(){(_echat.q=_echat.q||[]).push(arguments)};_echat.l=+new Date;
+    _echat('initParam', { companyId: 471});
+    _echat('initParam', { echatTag:'中鹏服装设计'});
+    (function () {
+        var echat = document.createElement('script');
+        echat.type = 'text/javascript';
+        echat.async = true;
+        echat.id = 'echatmodulejs';
+        echat.setAttribute('charset','UTF-8');
+        echat.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'vs.rainbowred.com/visitor/echat.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(echat, s);
+    })();
+</script>
+</body>
+</html>
