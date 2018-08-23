@@ -295,3 +295,18 @@ a{
   padding-top: px2rem(22);
 }
 /*测试题结束*/
+.right-top-nav{
+  padding-left: px2rem(24);
+}
+.right-top-nav li{
+  font-size: px2rem(22);
+  float: left;
+  width:px2rem(126);
+  height:px2rem(56);
+  line-height: px2rem(56);
+  text-align: center;
+  color: #ffffff;
+  border-radius: px2rem(12);
+  margin:0 px2rem(22);
+  border: px2rem(2) solid  #ffffff;
+}

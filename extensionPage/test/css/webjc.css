@@ -185,7 +185,7 @@ a {
   line-height: 0.47rem;
   font-size: 0.22rem;
   color: #666666;
-  width: 6.5rem;
+  width: 7rem;
   margin: auto; }
 
 .cst-table tr td {
@@ -287,5 +287,19 @@ a {
   padding-top: 0.22rem; }
 
 /*测试题结束*/
+.right-top-nav {
+  padding-left: 0.24rem; }
+
+.right-top-nav li {
+  font-size: 0.22rem;
+  float: left;
+  width: 1.26rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0.12rem;
+  margin: 0 0.22rem;
+  border: 0.02rem solid #ffffff; }
 
 /*# sourceMappingURL=webjc.css.map */
