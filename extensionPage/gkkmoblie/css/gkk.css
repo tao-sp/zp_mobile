@@ -1,0 +1,309 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.yssj-header {
+  padding-left: 5.5466666667rem;
+  z-index: 99998;
+  line-height: 1.8773333333rem;
+  color: #ffffff;
+  font-size: 0.512rem;
+  width: 10.4533333333rem;
+  height: 1.8773333333rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -8rem;
+  background: rgba(0, 0, 0, 0.8); }
+
+.yssj-logo {
+  position: absolute;
+  left: 0.4266666667rem;
+  top: 0.384rem;
+  height: 1.088rem; }
+
+.yssj-c4d {
+  height: 0.4906666667rem;
+  position: absolute;
+  left: 5.3973333333rem;
+  top: 0.6826666667rem; }
+
+.right-nav {
+  height: 0.64rem;
+  position: absolute;
+  right: 0.4266666667rem;
+  top: 0.6186666667rem; }
+
+.right-nav-hide {
+  display: none;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -8rem;
+  width: 16rem;
+  height: 100%;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.9); }
+
+.college-links li {
+  width: 3.776rem;
+  float: left;
+  font-size: 0.4693333333rem;
+  color: #ffffff;
+  text-align: center; }
+
+.college-links li img {
+  height: 1.0453333333rem;
+  display: block;
+  margin: auto; }
+
+.close-nav {
+  background: rgba(0, 0, 0, 0.8);
+  width: 15.68rem;
+  height: 1.1733333333rem;
+  padding-top: 0.32rem;
+  text-align: right;
+  padding-right: 0.32rem; }
+
+.close-nav img {
+  width: 0.576rem;
+  padding: 0.4266666667rem; }
+
+.zy-title {
+  padding: 0.4266666667rem;
+  font-size: 0.6826666667rem;
+  color: #ffffff;
+  font-weight: bold; }
+
+.zy-title1 {
+  padding-left: 1.7066666667rem;
+  font-size: 0.512rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  color: #cecece;
+  font-weight: bold;
+  background: #4e4e4e; }
+
+.major-links {
+  padding-left: 1.7066666667rem; }
+
+.major-links li {
+  padding-bottom: 0.4266666667rem;
+  padding-top: 0.4266666667rem;
+  margin-right: 0.4266666667rem;
+  float: left;
+  width: 2.7093333333rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.4266666667rem; }
+
+.major-links li img {
+  width: 2.7093333333rem; }
+
+.right-suspension {
+  z-index: 999999;
+  width: 2.1333333333rem;
+  position: fixed;
+  bottom: 1.7066666667rem;
+  right: 0.2133333333rem; }
+
+.right-suspension img {
+  display: block;
+  margin: auto;
+  padding-bottom: 0.128rem; }
+
+.rightserve1 img {
+  width: 2.1333333333rem !important; }
+
+.rightserve img, .rightserve2 img {
+  width: 1.7066666667rem; }
+
+.yssj-banner {
+  background: rgba(0, 0, 0, 0.8); }
+
+.yssj-banner .swiper-container .swiper-slide img {
+  display: block;
+  width: 16rem; }
+
+/*公开课*/
+.gkk-title {
+  padding-top: 1.28rem;
+  padding-bottom: 0.64rem;
+  text-align: center;
+  font-size: 1.024rem;
+  color: #333333;
+  font-weight: bold; }
+
+.gkk-lists li {
+  cursor: pointer;
+  width: 16rem;
+  height: 6.2506666667rem;
+  background: #f3f3f3; }
+
+.gkk-lists li:nth-child(2n) {
+  background: #ffffff; }
+
+.ggk-pagination {
+  text-align: center;
+  padding-top: 1.28rem;
+  padding-bottom: 1.92rem; }
+
+.ggk-pagination li {
+  cursor: pointer;
+  display: inline-block;
+  width: 1.28rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  border: 1px solid #dcdddd;
+  border-radius: 5px;
+  color: #999999;
+  font-size: 0.4266666667rem;
+  text-align: center; }
+
+.ggk-pagination li.on {
+  display: inline-block;
+  color: #ffffff;
+  background: #715fca;
+  border-color: #715fca; }
+
+.gkk-left {
+  width: 5.76rem;
+  height: 6.2506666667rem;
+  float: left;
+  margin-right: 0.32rem; }
+
+.gkk-right {
+  padding-top: 0.4266666667rem;
+  width: 9.6rem;
+  height: 5.824rem;
+  float: left;
+  position: relative; }
+
+.gkk-left img {
+  display: block;
+  width: 5.12rem;
+  height: 5.12rem;
+  margin: auto;
+  padding-top: 0.5546666667rem; }
+
+.gkk-lists-title {
+  padding-bottom: 0.4266666667rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.64rem;
+  color: #333333; }
+
+.gkk-lists-summary {
+  height: 2.304rem;
+  overflow: hidden;
+  color: #666666;
+  font-size: 0.512rem;
+  line-height: 0.768rem; }
+
+.gkk-lists-classification {
+  padding: 0 8px;
+  position: absolute;
+  display: inline-block;
+  height: 0.8106666667rem;
+  line-height: 0.8106666667rem;
+  font-size: 0.512rem;
+  color: #ffffff;
+  border-radius: 100px;
+  bottom: 0.576rem;
+  left: 0; }
+
+.gkk-article-classification {
+  margin-right: 0.4693333333rem;
+  padding: 0 0.1706666667rem;
+  display: inline-block;
+  height: 0.8106666667rem;
+  line-height: 0.8106666667rem;
+  font-size: 0.512rem;
+  color: #ffffff;
+  border-radius: 100px; }
+
+.sn-classification {
+  background: #2ea2a3; }
+
+.pm-classification {
+  background: #fcaa09; }
+
+.sy-classification {
+  background: #a05daa; }
+
+.ui-classification {
+  background: #ff7800; }
+
+.gc-classification {
+  background: #ec3a4f; }
+
+.gy-classification {
+  background: #5f47ff; }
+
+.zb-classification {
+  background: #ae9479; }
+
+.ggk-lists-time {
+  display: inline-block;
+  font-size: 0.512rem;
+  color: #666666;
+  position: absolute;
+  right: 0;
+  bottom: 0.576rem; }
+
+.gkk-article-title {
+  padding-top: 0.8106666667rem;
+  font-size: 0.64rem;
+  color: #333333;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.gkk-article-tips {
+  text-align: center; }
+
+.gkk-article-time {
+  display: inline-block;
+  font-size: 0.512rem;
+  color: #666666; }
+
+.gkk-article-content {
+  margin: 0.5973333333rem auto;
+  border-top: 1px solid #cccccc;
+  padding: 0.8533333333rem 0 0; }
+
+.container_710 {
+  width: 15.1466666667rem;
+  margin: auto; }
+
+/*# sourceMappingURL=gkk.css.map */

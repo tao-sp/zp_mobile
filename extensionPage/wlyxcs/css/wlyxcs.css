@@ -1,0 +1,247 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.sncsbanner1 {
+  position: relative;
+  width: 16rem;
+  height: 25.425rem;
+  background: url("../images/banner1.png") no-repeat;
+  background-size: 16rem 25.425rem; }
+
+.sncsbanner2 {
+  width: 16rem;
+  height: 22.75rem;
+  background: url("../images/banner2.png") no-repeat;
+  background-size: 16rem 22.75rem; }
+
+.sncsbanner3 {
+  width: 16rem;
+  height: 22.35rem;
+  background: url("../images/banner3.png") no-repeat;
+  background-size: 16rem 22.35rem; }
+
+.sncs-content1 {
+  width: 15.125rem;
+  margin: 0 auto 0.9rem; }
+
+.xlcp-form {
+  width: 15rem;
+  margin: auto; }
+
+.xlcp-form-title > span {
+  font-size: 0.6rem;
+  color: #333333;
+  line-height: 1rem; }
+
+.xlcp-form-title {
+  margin: 0.625rem auto; }
+
+.xlcp-form-title label {
+  font-weight: lighter;
+  font-size: 0.6rem;
+  color: #666666;
+  line-height: 1rem; }
+
+.xlcp-form-title table {
+  width: 15.125rem; }
+
+.xlcp-form-title table tr td {
+  width: 5rem; }
+
+.rdo {
+  margin-right: 0.15rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  position: relative; }
+
+.rdo:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0.45rem;
+  height: 0.45rem;
+  background: url("../images/rbg.png") no-repeat;
+  background-size: 0.45rem 0.9rem; }
+
+.rdo:checked:after {
+  width: 0.45rem;
+  height: 0.45rem;
+  background: url("../images/rbg.png") 0 -0.45rem no-repeat;
+  background-size: 0.45rem 0.9rem; }
+
+.xlcp-form-input input {
+  display: block;
+  margin: 0.375rem auto;
+  width: 12.5rem;
+  height: 1.75rem;
+  border: 1px solid #7a7a7a;
+  border-radius: 0.15rem;
+  font-size: 0.45rem;
+  padding-left: 0.5rem; }
+
+.xlcp-form-input {
+  margin-top: 0.75rem; }
+
+.xlcp-form-input a {
+  display: block;
+  margin: 0.45rem auto;
+  width: 13.05rem;
+  height: 1.75rem;
+  background: #f14c4c;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.75rem;
+  border-radius: 0.15rem;
+  text-align: center;
+  line-height: 1.75rem; }
+
+.xlcp-footer {
+  background: #434343;
+  padding: 0.25rem 0;
+  font-size: 0.5rem;
+  color: #d4d4d4;
+  text-align: center;
+  line-height: 0.9rem; }
+
+.banner-btn {
+  position: absolute;
+  top: 7.75rem;
+  left: 4.45rem;
+  width: 7.175rem;
+  height: 1.4rem; }
+
+.tk1, .tk2, .tk3, .tk4 {
+  display: none;
+  position: fixed;
+  width: 16rem;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  margin-left: -8rem;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999; }
+
+.tk1-conteng {
+  position: fixed;
+  width: 16rem;
+  height: 11.925rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5.95rem;
+  margin-left: -8rem;
+  background: url("../images/tk1.png");
+  background-size: 16rem 11.925rem; }
+
+.tk1-close {
+  position: absolute;
+  right: 2.175rem;
+  top: 2.55rem;
+  width: 1.55rem;
+  height: 1.625rem; }
+
+.tk2-conteng {
+  position: fixed;
+  width: 16rem;
+  height: 11.5rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5.75rem;
+  margin-left: -8rem;
+  background: url("../images/tk2.png");
+  background-size: 16rem 11.5rem; }
+
+.tk2-close {
+  position: absolute;
+  right: 2.175rem;
+  top: 2.55rem;
+  width: 1.55rem;
+  height: 1.625rem; }
+
+.tk3-conteng {
+  position: fixed;
+  width: 16rem;
+  height: 9.45rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -4.725rem;
+  margin-left: -8rem;
+  background: url("../images/tk3.png");
+  background-size: 16rem 9.45rem; }
+
+.tk3-close {
+  z-index: 998;
+  position: absolute;
+  right: 2.175rem;
+  top: 0;
+  width: 1.55rem;
+  height: 1.625rem; }
+
+.tk3-form {
+  position: relative;
+  padding-top: 1.3rem;
+  padding-left: 3.7rem; }
+
+.tk3-form input {
+  margin-top: 0.45rem;
+  padding-left: 0.3rem;
+  font-size: 0.6rem;
+  width: 8.375rem;
+  height: 1.8rem;
+  display: block;
+  border: none;
+  background: transparent; }
+
+.tk3-form-btn {
+  position: absolute;
+  width: 8.625rem;
+  height: 1.925rem;
+  bottom: -2.7rem; }
+
+.tk4-conteng {
+  position: fixed;
+  width: 16rem;
+  height: 8.45rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -4.225rem;
+  margin-left: -8rem;
+  background: url("../images/tk4.png");
+  background-size: 16rem 8.45rem; }
+
+.tk4-close {
+  z-index: 998;
+  position: absolute;
+  right: 2.175rem;
+  top: 0;
+  width: 1.55rem;
+  height: 1.625rem; }
+
+/*# sourceMappingURL=wlyxcs.css.map */
