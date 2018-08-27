@@ -283,8 +283,8 @@ a {
 
 .xyjz-content {
   width: 16rem;
-  height: 45.632rem;
-  background: url("../images/xyjz.png") 0 0/16rem 45.632rem no-repeat; }
+  height: 40.768rem;
+  background: url("../images/xyjz.png") 0 0/16rem 40.768rem no-repeat; }
 
 .xyjz-input {
   border-radius: 6px;
@@ -332,11 +332,15 @@ a {
   margin-bottom: 0.384rem; }
 
 .mfst-title {
+  font-weight: bold;
   padding-left: 0.4266666667rem;
   padding-top: 1.0666666667rem;
   color: #f50100;
   font-size: 0.512rem;
   margin-bottom: 0.8106666667rem; }
+
+.mfst-title span {
+  color: #666666; }
 
 .bottom-tips {
   color: #999;
@@ -369,5 +373,31 @@ a {
   position: absolute;
   right: 0;
   top: 0; }
+
+.xskb {
+  width: 12.0746666667rem;
+  height: 1.8133333333rem;
+  border: 1px solid #f73433;
+  margin: 0.9386666667rem auto;
+  font-size: 0.5973333333rem;
+  font-weight: bold;
+  color: #f50100;
+  text-align: center;
+  padding-top: 0.4266666667rem;
+  position: relative; }
+
+.xskb:after {
+  content: " ";
+  width: 12.0746666667rem;
+  height: 2.24rem;
+  border: 1px solid #fa807f;
+  position: absolute;
+  left: 0.2133333333rem;
+  top: 0.2133333333rem; }
+
+.xlfs {
+  font-size: 0.512rem;
+  color: #f50100;
+  text-align: center; }
 
 /*# sourceMappingURL=fzsj.css.map */

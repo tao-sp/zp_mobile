@@ -329,7 +329,7 @@ li{
 }
 .msjs-summary{
     display: none;
-    top:170px;
+    top:146px;
     position: absolute;
     right:66px;
     width:235px;
@@ -528,6 +528,7 @@ margin-bottom: 16px;
     height:260px;
     padding-top: 30px;
     background: #313131;
+    padding-bottom: 110px;
 }
 .footer-item-1{
     padding-left: 80px;
