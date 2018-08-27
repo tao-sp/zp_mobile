@@ -423,6 +423,9 @@ li{
     width: 37px;
     height: 88px;
 }
+.xyjz-swiper .swiper-button-next,.xyjz-swiper .swiper-button-prev{
+    margin-top: -44px;
+}
 .djg{
     height:551px;
     margin: 90px auto;

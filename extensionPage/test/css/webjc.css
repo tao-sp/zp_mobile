@@ -302,4 +302,70 @@ a {
   margin: 0 0.22rem;
   border: 0.02rem solid #ffffff; }
 
+.sn-bd {
+  padding: 0.4rem 0;
+  width: 7.5rem;
+  background: #f6f6f6; }
+
+.sn-bd-title {
+  text-align: center;
+  font-size: 0.36rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem; }
+
+.sn-bd-title span {
+  color: #2da2a7; }
+
+.sn-bd-input {
+  font-size: 0.22rem;
+  padding-left: 0.15rem;
+  margin: 0 auto 0.3rem;
+  width: 6rem;
+  height: 0.65rem;
+  border: 1px solid #2fa09c;
+  border-radius: 0.08rem;
+  display: block; }
+
+.sn-bd-btn {
+  width: 6.15rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
+  border-radius: 0.08rem;
+  background: #49c9cc;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.28rem;
+  display: block;
+  margin: auto;
+  text-align: center; }
+
+.xfzx-btn1 {
+  display: block;
+  float: left;
+  width: 2.6rem;
+  height: 0.6rem;
+  color: #ffffff;
+  font-size: 0.28rem;
+  text-align: center;
+  line-height: 0.6rem;
+  margin-right: 0.2rem;
+  background: #49c9cc;
+  border-radius: 0.08rem; }
+
+.xfzx-btn2 {
+  float: left;
+  display: block;
+  width: 1.6rem;
+  height: 0.6rem;
+  color: #ffffff;
+  font-size: 0.28rem;
+  text-align: center;
+  line-height: 0.6rem;
+  background: #49c9cc;
+  border-radius: 0.08rem; }
+
+.xfzx-btn-group {
+  width: 4.5rem;
+  margin: auto; }
+
 /*# sourceMappingURL=webjc.css.map */
