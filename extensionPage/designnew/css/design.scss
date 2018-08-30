@@ -1561,39 +1561,21 @@ margin-right: 0;
   background-image: url("../images/bottom.png");
 }
 
-/* 视频播放层*/
-.videobox{
-  display: none;
-  z-index: 99999999;
+.right-suspension{
+  z-index: 999999;
+  width: px2rem(100);
   position: fixed;
-  width:px2rem(750);
-  height:100%;
-  top: 0;
-  left:0;
-  right:0;
-  margin: auto;
-  background: #000000;
+  bottom: px2rem(80);
+  right:px2rem(10);
 }
-.videobox-close{
-  position: absolute;
-  right:0;
-  top:0;
+.right-suspension img{
   display: block;
-  width:px2rem(80);
-  height:px2rem(80);
-  background: url("../images/vd-close.png") center center /px2rem(54) px2rem(54) no-repeat;
-}
-.videobox-close:active{
-  background-color: rgba(255,255,255,0.1);
-}
-.videobox-vd{
-  position: absolute;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
   margin: auto;
-  display: block;
-  width:px2rem(750);
+  padding-bottom: px2rem(6);
 }
-/* 视频播放层*/
+.rightserve1 img{
+  width: px2rem(100) !important;
+}
+.rightserve img,.rightserve2 img{
+  width: px2rem(80);
+}

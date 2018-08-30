@@ -6,7 +6,9 @@ function navClose() {
     $(".design-nav-hide").fadeOut();
     $(".design-nav-content").animate({right:"-100%"});
 }
-
+function hideright() {
+    $(".rightserve").toggle();
+}
 $(function () {
     /*荣誉资质*/
     var aLi = $(".zpry a");
@@ -20,4 +22,13 @@ $(function () {
             $(".zp-honor div.hideswiper:eq("+this.index+")").addClass("showswiper");
         }
     }
+    /*回到顶部函数；当点击跳转链接后，回到页面顶部位置 */
+    if(!$("#backTop").length){return;}
+    $("#backTop").click(function() {
+        $('body,html').animate({
+                scrollTop: 0
+            },
+            1000);
+        return false;
+    });
 })
