@@ -376,3 +376,78 @@ a{
   width:px2rem(450);
   margin: auto;
 }
+.xskc-hd{
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto;
+  width:px2rem(750);
+  height: px2rem(225);
+  background: url("../images/xskc.png") 0 0/px2rem(750) px2rem(225) no-repeat;
+}
+.xskc-hd-close{
+  position: absolute;
+  right:px2rem(3);
+  top:px2rem(10);
+  width:px2rem(50);
+  height:px2rem(50);
+}
+.xskc-hd-close:active{
+  border-radius: 100%;
+  background: rgba(255,255,255,0.3);
+}
+.xskc-form{
+  width:px2rem(710);
+  position: absolute;
+  bottom:px2rem(20);
+  left:0;
+  right:0;
+  height:px2rem(47);
+  margin: auto;
+}
+.xskc-name{
+  width:px2rem(230);
+  padding-left: px2rem(12);
+  height:px2rem(47);
+  font-size: px2rem(16);
+  position: absolute;
+  left:0;
+  top:0;
+  background: #ffffff;
+  outline: none;
+  border: none;
+}
+.xskc-tel{
+  width:px2rem(230);
+  padding-left: px2rem(12);
+  height:px2rem(47);
+  font-size: px2rem(16);
+  position: absolute;
+  left:px2rem(250);
+  top:0;
+  background: #ffffff;
+  outline: none;
+  border: none;
+}
+.xskc-btn{
+  width:px2rem(210);
+  height:px2rem(47);
+  line-height: px2rem(40);
+  font-size: px2rem(24);
+  display: block;
+  position: absolute;
+  right:0;
+  top:0;
+  border-radius: px2rem(12);
+  background: #ffbe24;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: px2rem(4) solid #ff3b57;
+  border-right: px2rem(4) solid #ff3b57;
+}
+.xskc-btn:active{
+  background: #edb121;
+  border-color:#ee3a53;
+}

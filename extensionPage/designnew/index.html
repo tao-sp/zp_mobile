@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <title>首页 · 艺术设计学院 · 设计师的摇篮</title>
+    <meta charset ="utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+    <script src="js/design.js"></script>
+
+</head>
+<body class="font_yahei">
+<!--头部开始-->
+<div class="design-header">
+<span class="design-nav-ctrl" onclick="navOpen()">导航</span>
+<div class="design-nav-hide">
+    <div class="design-nav-content">
+        <div class="design-nav-title">
+            导航<span>menu</span>
+            <img src="images/close.png" onclick="navClose()">
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a target="_blank" href="http://m.gdzp.org/">
+                中鹏首页
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="index.html">
+                设计培训首页
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="course.html">
+                更多设计课程
+                </a>
+            </li>
+            <li>
+                免费试学
+            </li>
+            <li>
+                <a target="_blank" href="advantage.html">
+                中鹏优势
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="security.html">
+                学习保障
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="campus.html">
+                教学环境
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="past.html">
+                往届回顾
+                </a>
+            </li>
+            <li >
+                其他培训课程
+                <ul>
+                    <li>
+                        <a target="_blank" href="index.html">
+                        设计艺术培训
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://m.gdzp.org/continuing/">
+                        学历提升培训
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://m.gdzp.org/mobile/manage">
+                        管理培训
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://m.gdzp.org/mobile/net">
+                        IT培训
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a target="_blank" href="news.html">
+                资讯中心
+                </a>
+            </li>
+            <li >
+                <a target="_blank" href="about.html">
+                关于中鹏
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+</div>
+<!--头部开始-->
+
+<!--专业分类开始-->
+<div class="design-major clearfix">
+    <div class="top-left clearfix">
+        <div class="top-left-item item1">
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/uisj.html">UI设计</a>
+        </div>
+        <div class="top-left-item item2">
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/paints.html">设计美术</a>
+        </div>
+        <div class="top-left-item item3">
+            <a target="_blank" href="http://m.gdzp.org/html/design/jewelry/index.html">珠宝设计</a>
+        </div>
+        <div class="top-left-item item4">
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/industry.html">工业设计</a>
+        </div>
+    </div>
+    <div class="top-right item1">
+        <a target="_blank" href="http://m.gdzp.org/html/design/design/graphic.html">平面设计</a>
+    </div>
+    <div class="mid clearfix">
+        <div class="item1">
+            <a href="javascript:void(0)" onClick="mantis.requestChat()"> BIM应用</a>
+        </div>
+        <div class="item2">
+            <a target="_blank" href="http://m.gdzp.org/html/design/photographyschool/index.html">摄影</a>
+        </div>
+        <div class="item3">
+            <a href="javascript:void(0)" onClick="mantis.requestChat()">数码影视</a>
+        </div>
+    </div>
+    <div class="top-right item2">
+        <a target="_blank" href="http://m.gdzp.org/html/design/interiordesign/index.html">室内设计</a>
+    </div>
+    <div class="top-left clearfix">
+        <div class="top-left-item item5">
+            <a href="javascript:void(0)" onClick="mantis.requestChat()">摄影后期</a>
+        </div>
+        <div class="top-left-item item6">
+            <a target="_blank" href="http://m.gdzp.org/html/design/fzsj/index.html">服装设计</a>
+        </div>
+        <div class="top-left-item item7">
+            <a target="_blank" href="http://m.gdzp.org/html/it/wlyx/index.html">网络营销</a>
+        </div>
+        <div class="top-left-item item8">
+            <a target="_blank" href="http://m.gdzp.org/html/design/project/index.html">工程预算</a>
+        </div>
+    </div>
+</div>
+<!--专业分类开始-->
+
+<!--行业前景开始-->
+<div class="design-prospect">
+    <div class="design-prospect-title">
+        <b>行</b>业前景
+        <div class="line"></div>
+        <span>Industry prospects</span>
+    </div>
+    <div class="design-prospect-vd clearfix">
+        <div class="vd vd1">
+            <a target="_blank" href="http://www.gdzp.org/uploads/video/design/pmsj.mp4">
+            平面设计
+            </a>
+        </div>
+        <div class="info info1">
+            <span class="font-size-36">中鹏教育</span><br>
+            带你轻松玩转<span class="font-size-30">平面设计</span>
+        </div>
+        <div class="info info2">
+            做<span class="font-size-36">室内设计师</span><br>
+            让你<span class="font-size-36">身价倍增</span>
+        </div>
+        <div class="vd vd2">
+            <a target="_blank" href="http://www.gdzp.org/uploads/video/design/snsj.mp4">
+            室内设计
+            </a>
+        </div>
+
+    </div>
+</div>
+<!--行业前景结束-->
+
+<!--学员天地开始-->
+<div class="design-student">
+    <div class="design-prospect-title design-student-title">
+        <b>行</b>业前景
+        <div class="line"></div>
+        <span>Industry prospects</span>
+    </div>
+    <img src="images/student.png">
+</div>
+<!--学员天地结束-->
+
+<!--六大优势开始-->
+<div class="design-advantage">
+    <div class="design-advantage-title">
+        <b>设计</b>学院六大优势
+        <span>Design Academy Advantages</span>
+    </div>
+    <ul class="design-advantage-list clearfix">
+        <li>
+            <a  href="javascript:void(0)" onClick="mantis.requestChat()">
+                <img src="images/icon-adv-1.png">
+                <span>七大校区</span>线下<br>
+                全程面授教学
+            </a>
+        </li>
+        <li>
+            <a  href="javascript:void(0)" onClick="mantis.requestChat()">
+                <img src="images/icon-adv-2.png">
+                <span>阶段性考核</span><br>
+                因材施教
+            </a>
+        </li>
+        <li>
+            <a  href="javascript:void(0)" onClick="mantis.requestChat()">
+                <img src="images/icon-adv-3.png">
+                专业疑问<br>
+                <span>及时解答</span>
+            </a>
+        </li>
+        <li>
+            <a  href="javascript:void(0)" onClick="mantis.requestChat()">
+                <img src="images/icon-adv-4.png">
+                <span>学习与实践</span><br>
+                紧密结合
+            </a>
+        </li>
+        <li>
+            <a  href="javascript:void(0)" onClick="mantis.requestChat()">
+                <img src="images/icon-adv-5.png">
+                <span>名师团队</span><br>
+                零距离
+            </a>
+        </li>
+        <li>
+            <a  href="javascript:void(0)" onClick="mantis.requestChat()">
+                <img src="images/icon-adv-6.png">
+                双师制<br>
+                <span>保驾护航</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--六大优势结束-->
+
+<!--名企反馈开始-->
+<div class="design-enterprise">
+    <div class="design-prospect-title design-student-title">
+        <b>名</b>企反馈
+        <div class="line"></div>
+        <span>Name enterprise feedback</span>
+    </div>
+    <a target="_blank" href="http://www.gdzp.org/uploads/video/design/mqfk.mp4"><img src="images/vdbg3.png"></a>
+</div>
+<!--名企反馈结束-->
+
+<!--师资力量开始-->
+<div class="design-teacher">
+    <div class="design-prospect-title">
+        <b>师</b>资力量
+        <div class="line"></div>
+        <span>Teacher strength</span>
+    </div>
+    <div class="design-teacher-swiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="teacher-info">
+                        <img src="images/teacher1.png"/>
+                        <div class="szll-list-title">楚慧</div>
+                        <div class="szll-list-summary">
+                            <b>高级珠宝设计师</b><br>
+                            资深珠宝设计培训讲师；毕业于中国地质大学珠宝学院，十年从业经验	；
+                            主要资质：
+                            2005—中国地质大学彩色珠宝鉴定师（GIC）资格证书；
+                            2006—中国地质大学翡翠鉴定师（GIC）资格证书；
+                            2012—首届地大杯（北京）设计比赛二等奖；
+                         </div>
+                    </div>
+                    <div class="teacher-info">
+                        <img src="images/teacher2.png"/>
+                        <div class="szll-list-title">戴世聪</div>
+                        <div class="szll-list-summary">
+                            <b>摄影高级技师</b><br>
+                            国家摄影师职称考评员，深圳市摄影家协会会员；
+                            主要奖项：
+                            1998年《追逐》获 “欢乐的七月”泼水节摄影大赛金牌；
+                            2004年《普智MP3》获第三界包装行业成果展银牌；
+                            2014年《网络书香》获图书馆学会“网络书香.掠美瞬间”全国影赛三等奖
+                         </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="teacher-info">
+                        <img src="images/teacher3.png"/>
+                        <div class="szll-list-title">房成波</div>
+                        <div class="szll-list-summary">
+                            <b>UI设计高级讲师</b><br>
+                            毕业于株洲职工大学，在中兴、LG等大型企业负责交互设计和视觉设计工作，实战经验丰富。教学风格活泼生动，以实际工作为出发点。结合工作案例以提升学员技能为基础，以学生就业为目标；结合当前行业内的项目案例和专业理论知识。                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <img src="images/teacher4.png"/>
+                        <div class="szll-list-title">高熇</div>
+                        <div class="szll-list-summary">
+                            <b>高级室内设计师</b><br>
+                            毕业于清华美院；
+                            曾担任日本DDJ环艺景观设计公司设计师；
+                            主要奖项：
+                            2004年 人民大会堂湖南厅参与全程设计；
+                            2008年 被聘为深圳大学环艺设计客座讲师；
+                            2013年 台湾贡茶杯（大陆区域）设计大赛一等奖；
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="teacher-info">
+                        <img src="images/teacher5.png"/>
+                        <div class="szll-list-title">李记东</div>
+                        <div class="szll-list-summary">
+                            <b>UI设计高级讲师</b><br>
+                            毕业于郑州大学艺术设计专业，接受过正规的美术教育，具有较好的美术功底及艺术素养，熟练交互设计、GUI设计。擅长COOL3D、particle Illusion、Flash、Aftereffects等软件进行开关机动画及片头动画设计。
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <img src="images/teacher6.png"/>
+                        <div class="szll-list-title">李泉</div>
+                        <div class="szll-list-summary">
+                           <!-- <b>室内设计高级讲师</b><br>-->
+                            毕业于河南大学艺术学院美术专业毕业，清华大学环境艺术专业硕士研究生，广东省广告设计师职业标准开发专家组成员、广东省数码艺术研究会理事，曾任洛阳工学院高级讲师、河南科技大学建筑学院教授。现任洛阳工学院客座教授、深圳名雕集团专家委主任。
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="teacher-info">
+                        <img src="images/teacher7.png"/>
+                        <div class="szll-list-title">龙绍斌</div>
+                        <div class="szll-list-summary">
+                            <b>高级平面设计师</b><br>
+                            中鹏教育平面设计专业教研组组员；
+                            高级平面设计师，二十余年平面设计及教学经验；
+                            中国广告设计师联盟成员；
+                            深圳平面设计师协会成员；
+                            2016年获华为之家特聘品牌设计师；
+                            2016年获深圳新锐设计师称号；
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <img src="images/teacher8.png"/>
+                        <div class="szll-list-title">马梦龙</div>
+                        <div class="szll-list-summary">
+                            <!--<b>室内设计高级讲师</b><br>-->
+                            毕业于清华大学工业设计专业；长期从事产品设计开发及专业教学工作；马老师是目前工业产品设计领域为数不多的具备专业理论知识与实战经验于一体的高级讲师，从教13年。广东省工业设计协会会员，历任工业设计主管。
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="teacher-info">
+                        <img src="images/teacher9.png"/>
+                        <div class="szll-list-title">聂聆聪</div>
+                        <div class="szll-list-summary">
+                            <b>中鹏教育摄影专业教研组组员</b><br>
+                            高级摄影师，代表作《昼》 《夜》；
+                            主要奖项:
+                            第五届深圳动漫节“漫境界”摄影大赛专业组优秀奖；
+                            2017年青年师生摄影作品展入选；
+                            视-界粤港澳青年摄影作品展入选；
+                            第三届深圳摄影作品年度展入选；
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <img src="images/teacher10.png"/>
+                        <div class="szll-list-title">彭守文</div>
+                        <div class="szll-list-summary">
+                            <b>中鹏教育珠宝设计专业教研组顾问</b><br>
+                            毕业于中国美术学院，曾先后在中国一线品牌雅天妮、周大福珠宝、TTF珠宝公司担任高级设计师、设计主管、设计总监等职位，曾多次在国际珠宝设计比赛中获奖，是中国第一代具有专业设计背景的珠宝首饰设计师、中国最具影响力的珠宝设计师之一；
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="teacher-info">
+                        <img src="images/teacher11.png"/>
+                        <div class="szll-list-title">王 刚</div>
+                        <div class="szll-list-summary">
+                            <b>平面设计高级技师</b><br>
+                            中鹏教育平面设计专业教研组组长；
+                            平面设计高级技师；
+                            二十余年资深CG设计讲师；
+                            多年从事计算机图形设计行业；
+                            精通活用PS、3DSMAX、VR、MAYA、RHINO、AE、AI、CDR
+                            PR、FL、AXURE、DW等软件
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <img src="images/teacher12.png"/>
+                        <div class="szll-list-title">王 刚</div>
+                        <div class="szll-list-summary">
+                            <b>室内设计高级讲师</b><br>
+                            毕业于中央工艺美术学院。手绘设计能力强，有丰富的专业知识体系和设计能力；对于现代设计市场的前沿和动向有丰富的了解，善于分析和吸取。熟悉与甲方沟通，尤其善解设计主题思想，有独到的见解和经验。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script language="javascript">
+            var mySwiper = new Swiper('.design-teacher-swiper .swiper-container',{
+                slidesPerView: 3,//一行显示3个
+                loop:true
+            })
+        </script>
+    </div>
+
+
+</div>
+<!--师资力量结束-->
+
+<!--校区地址开始-->
+<div class="xqfb">
+    <div class="xqfb-ctrl">
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="xqfb-info longgang">
+                    <div class="xqfb-info-title">
+                        龙岗校区(总部)
+                        <span>Longgang Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>投诉邮箱：puxin.li@zppx.net （ 李谱新 ）</div>
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：深圳龙岗区龙岗大道湖广通大厦4楼</div>
+                        <div>邮编：518055</div>
+                        <div>深圳龙岗中心乘车路线</div>
+                        <div>路线：乘坐3号线—吉祥地铁站B出口</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info nanshan">
+                    <div class="xqfb-info-title">
+                        南山实训基地
+                        <span>Nanshan Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：深圳市南山区南山大道亿利达大厦B区2楼</div>
+                        <div>邮编：518052</div>
+                        <div>深圳南山中心乘车路线</div>
+                        <div>路线：乘坐11号线—南山站D出口</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info baoan">
+                    <div class="xqfb-info-title">
+                        宝安校区
+                        <span>Baoan Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：深圳市宝安区新安二路37号五区综合楼2楼</div>
+                        <div>邮编：518100</div>
+                        <div>深圳宝安中心乘车路线</div>
+                        <div>路线：乘坐5号线—灵芝站A出口</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info futian">
+                    <div class="xqfb-info-title">
+                        福田校区
+                        <span>Futian Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：深圳市福田区上步中路深勘大厦19楼</div>
+                        <div>邮编：518040</div>
+                        <div>深圳福田中心乘车路线</div>
+                        <div>路线：乘坐3号线—通新岭站A出口</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info guangzhou">
+                    <div class="xqfb-info-title">
+                        广州校区
+                        <span>Guanzhou Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：广州市天河区元岗路616号天河慧通产业广场A8-1栋</div>
+                        <div>邮编：510000</div>
+                        <div>广州天河区中心乘车路线</div>
+                        <div>路线：乘坐6号线—天河客运站B出口</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info dongguan">
+                    <div class="xqfb-info-title">
+                        东莞校区
+                        <span>Dongguan Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：东莞松山湖总部二路光大we谷产业园 A2栋</div>
+                        <div>邮编：523808</div>
+                        <div>东莞松山湖区中心乘车路线</div>
+                        <div>路线：松山湖1路、2路、3路A线</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info shajing">
+                    <div class="xqfb-info-title">
+                        沙井校区
+                        <span>Shajing Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：深圳市宝安区新桥街道中心路与新沙路交叉口华润万家4楼4005</div>
+                        <div>邮编：518104</div>
+                        <div>深圳沙井中心乘车路线</div>
+                        <div>路线：乘坐11号线—沙井站C出口</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info fuzhuang">
+                    <div class="xqfb-info-title">
+                        服装中心
+                        <span>Fuzhuang Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+                    <div class="xqfb-info-more">
+                        <div>报名电话：400-930-6618</div>
+                        <div>地址：福田区深南中路兴华大厦A座11B整层</div>
+                        <div>邮编：518040</div>
+                        <div>深圳福田区中心乘车路线</div>
+                        <div>路线：2号线—燕南站C出口</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="xqfb-info longhua">
+                    <div class="xqfb-info-title">
+                        龙华校区
+                        <span>Longhua Headquarters</span>
+                        <div class="xqfb-line"></div>
+                    </div>
+
+                    <div class="xqfb-info-more">
+                        <div>报名电话：18128859105</div>
+                        <div>地址：深圳市坂田五和南108号凯旋商业大厦</div>
+                        <div>邮编：518110</div>
+                        <div>深圳龙华区中心乘车路线</div>
+                        <div>路线：地铁站五和站B出口，前行20米</div>
+                        <div>更多路线：深圳其他地区乘车可登陆 http://shenzhen.8684.cn 查询</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var xqfbmySwiper = new Swiper('.xqfb .swiper-container', {
+            pagination: '.xqfb .swiper-pagination',
+            paginationClickable: true,
+            paginationBulletRender: function (swiper, index, className) {
+                switch(index){
+                    case 0:text='龙岗校区(总部)';break;
+                    case 1:text='南山实训基地';break;
+                    case 2:text='宝安校区';break;
+                    case 3:text='福田校区';break;
+                    case 4:text='广州校区';break;
+                    case 5:text='东莞校区';break;
+                    case 6:text='沙井校区';break;
+                    case 7:text='服装中心';break;
+                    case 8:text='龙华校区';break;
+                }
+                return '<span class="' + className + '">' + text + '</span>';
+            },
+            onProgress: function(swiper, progress) {
+            },
+            //处理分页器bug
+            onSlideChangeStart: function(swiper) {
+                var left = (swiper.activeIndex-2)*100
+                $(".xqfb-ctrl").scrollLeft(left);
+            }
+        })
+    </script>
+</div>
+<!--校区地址结束-->
+
+
+<!--螳螂科技探头2018-08-15-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b739394f12a5f1398430901"></script>
+<!--螳螂科技探头2018-08-15-->
+</body>
+</html>

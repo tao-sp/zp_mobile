@@ -30,63 +30,63 @@ a {
   font-family: "Microsoft YaHei"; }
 
 .yhd7 {
-  margin-bottom: 1.4rem;
+  margin-bottom: 2.9866666667rem;
   position: relative;
-  width: 7.5rem;
-  height: 10.75rem;
-  background: url("../images/7yhd.png") 0 0/7.5rem 10.75rem no-repeat; }
+  width: 16rem;
+  height: 22.9333333333rem;
+  background: url("../images/7yhd.png") 0 0/16rem 22.9333333333rem no-repeat; }
 
 .yhd7-btn {
-  width: 1.08rem;
-  height: 1.08rem;
+  width: 2.304rem;
+  height: 2.304rem;
   border-radius: 1000px;
   position: absolute;
-  top: 3.6rem;
-  right: 1.39rem; }
+  top: 7.68rem;
+  right: 2.9653333333rem; }
 
 .yhd7-form {
   position: absolute;
-  top: 7.5rem;
-  left: 1.4rem; }
+  top: 16rem;
+  left: 2.9866666667rem; }
 
 .yhd7-input-group {
-  width: 4.72rem;
-  height: 0.6rem;
+  width: 10.0693333333rem;
+  height: 1.28rem;
   position: relative;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.64rem; }
 
 .yhd7-input-group label {
   position: absolute;
   left: 0;
   top: 0;
-  height: 0.6rem;
-  width: 0.99rem;
-  line-height: 0.6rem;
-  font-size: 0.3rem;
+  height: 1.28rem;
+  width: 2.112rem;
+  line-height: 1.28rem;
+  font-size: 0.64rem;
   font-weight: bold;
   color: #666666; }
 
 .yhd7-input-group input {
-  padding-left: 0.2rem;
+  padding-left: 0.4266666667rem;
   border: 1px solid #56acad;
   position: absolute;
-  left: 0.99rem;
+  left: 2.112rem;
   top: 0;
-  height: 0.6rem;
-  width: 3.5rem;
-  line-height: 0.6rem;
-  font-size: 0.24rem;
+  height: 1.28rem;
+  width: 7.4666666667rem;
+  line-height: 1.28rem;
+  font-size: 0.512rem;
   color: #666666; }
 
 .yhd7-form-btn {
-  width: 4.72rem;
-  height: 0.6rem;
+  width: 10.0693333333rem;
+  height: 1.28rem;
   border-radius: 1000px;
   background: #56acad;
-  font-size: 0.33rem;
+  font-size: 0.704rem;
   text-align: center;
   display: block;
-  line-height: 0.6rem;
+  line-height: 1.28rem;
   color: #ffffff; }
 
 /*弹框*/
@@ -103,133 +103,133 @@ a {
 .tk7y-close {
   position: absolute;
   right: 0;
-  top: 0.48rem;
+  top: 1.024rem;
   cursor: pointer;
-  width: 0.6rem;
-  height: 0.6rem; }
+  width: 1.28rem;
+  height: 1.28rem; }
 
 .tk7y {
-  width: 6.19rem;
-  height: 5.77rem;
+  width: 13.2053333333rem;
+  height: 12.3093333333rem;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -3.08rem;
-  margin-top: -2.87rem;
-  background: url("../images/tk.png") 0 0/6.19rem 5.77rem no-repeat; }
+  margin-left: -6.5706666667rem;
+  margin-top: -6.1226666667rem;
+  background: url("../images/tk.png") 0 0/13.2053333333rem 12.3093333333rem no-repeat; }
 
 .tk7y-form input {
   background: transparent;
   border: none;
   outline: none;
-  margin-bottom: 0.12rem;
-  margin-left: 0.55rem;
+  margin-bottom: 0.256rem;
+  margin-left: 1.1733333333rem;
   display: block;
-  width: 2.5rem;
+  width: 5.3333333333rem;
   color: #ffffff;
-  height: 0.45rem;
-  font-size: 0.18rem;
-  padding-left: 0.2rem; }
+  height: 0.96rem;
+  font-size: 0.384rem;
+  padding-left: 0.4266666667rem; }
 
 .tk7y-form input::placeholder {
   color: #b69bcc; }
 
 .tk7y-form {
   position: absolute;
-  bottom: 0.2rem;
-  left: 1.57rem; }
+  bottom: 0.4266666667rem;
+  left: 3.3493333333rem; }
 
 .tk7y-form-btn {
   cursor: pointer;
-  margin-top: 0.39rem;
+  margin-top: 0.832rem;
   display: block;
-  width: 3.33rem;
-  height: 0.53rem;
-  border-radius: 0.55rem; }
+  width: 7.104rem;
+  height: 1.1306666667rem;
+  border-radius: 1.1733333333rem; }
 
 .gkk-link {
   position: absolute;
   display: block;
-  font-size: 0.28rem;
-  height: 0.5rem;
-  line-height: 0.5rem;
+  font-size: 0.5973333333rem;
+  height: 1.0666666667rem;
+  line-height: 1.0666666667rem;
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 5px;
-  width: 1.05rem;
+  width: 2.24rem;
   text-align: center;
-  right: 1.11rem;
-  top: 0.17rem; }
+  right: 2.368rem;
+  top: 0.3626666667rem; }
 
 /*测试题开始*/
 .cst {
-  width: 7.1rem;
+  width: 15.1466666667rem;
   margin: auto; }
 
 .cst-title {
-  font-size: 0.28rem;
+  font-size: 0.5973333333rem;
   color: #ffffff;
   font-weight: bold;
-  line-height: 0.98rem;
-  padding-left: 0.7rem;
-  width: 6.4rem;
-  height: 0.98rem;
-  background: url("../images/cstbg.png") 0 0/7.1rem 0.98rem no-repeat; }
+  line-height: 2.0906666667rem;
+  padding-left: 1.4933333333rem;
+  width: 13.6533333333rem;
+  height: 2.0906666667rem;
+  background: url("../images/cstbg.png") 0 0/15.1466666667rem 2.0906666667rem no-repeat; }
 
 .cst-content {
-  width: 7.1rem;
+  width: 15.1466666667rem;
   box-sizing: border-box;
   border: 2px solid #6b7589; }
 
 .cst-table {
-  line-height: 0.47rem;
-  font-size: 0.22rem;
+  line-height: 1.0026666667rem;
+  font-size: 0.4693333333rem;
   color: #666666;
-  width: 7rem;
+  width: 14.9333333333rem;
   margin: auto; }
 
 .cst-table tr td {
   width: 50%; }
 
 .rdo {
-  width: 0.18rem;
+  width: 0.384rem;
   height: 0;
   position: relative;
   cursor: pointer; }
 
 .rdo + label {
   cursor: pointer;
-  margin-left: 0.18rem; }
+  margin-left: 0.384rem; }
 
 .rdo:after {
   content: '';
   display: block;
   position: absolute;
-  bottom: -0.06rem;
+  bottom: -0.128rem;
   left: 0;
-  width: 0.3rem;
-  height: 0.3rem;
-  background: url("../images/rdo.png") 0 -0.31rem no-repeat;
-  background-size: 0.3rem 0.6rem; }
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/rdo.png") 0 -0.6613333333rem no-repeat;
+  background-size: 0.64rem 1.28rem; }
 
 .rdo:checked:after {
-  width: 0.3rem;
-  height: 0.3rem;
+  width: 0.64rem;
+  height: 0.64rem;
   background: url("../images/rdo.png") no-repeat;
-  background-size: 0.3rem 0.6rem; }
+  background-size: 0.64rem 1.28rem; }
 
 .cst-table-title td {
   color: #333333;
-  padding-top: 0.18rem;
-  font-size: 0.23rem; }
+  padding-top: 0.384rem;
+  font-size: 0.4906666667rem; }
 
 .input-group {
-  line-height: 0.8rem;
-  font-size: 0.24rem;
+  line-height: 1.7066666667rem;
+  font-size: 0.512rem;
   color: #666666;
-  width: 6.4rem;
-  height: 0.8rem;
-  margin: 0.4rem auto 0;
+  width: 13.6533333333rem;
+  height: 1.7066666667rem;
+  margin: 0.8533333333rem auto 0;
   position: relative;
   border: 1px solid #b5b5b5;
   border-radius: 5px;
@@ -239,102 +239,102 @@ a {
   position: absolute;
   left: 0;
   top: 0;
-  padding-left: 0.1rem; }
+  padding-left: 0.2133333333rem; }
 
 .input-group input {
   position: absolute;
-  left: 1.3rem;
+  left: 2.7733333333rem;
   top: 0;
-  width: 1.9rem;
-  height: 0.6rem;
-  margin-top: 0.1rem;
+  width: 4.0533333333rem;
+  height: 1.28rem;
+  margin-top: 0.2133333333rem;
   border: none;
   background: transparent;
   outline: none;
-  font-size: 0.22rem; }
+  font-size: 0.4693333333rem; }
 
 .cst-form {
-  width: 7.1rem;
-  margin: 0.35rem auto 0; }
+  width: 15.1466666667rem;
+  margin: 0.7466666667rem auto 0; }
 
 .btn-group {
-  width: 6.2rem;
-  margin: 0 auto 0.5rem; }
+  width: 13.2266666667rem;
+  margin: 0 auto 1.0666666667rem; }
 
 .btn-group a {
   cursor: pointer;
   display: inline-block;
-  width: 2.5rem;
-  height: 0.77rem;
+  width: 5.3333333333rem;
+  height: 1.6426666667rem;
   background: #6b7589;
-  border-radius: 0.77rem;
+  border-radius: 1.6426666667rem;
   color: #ffffff;
-  font-size: 0.3rem;
+  font-size: 0.64rem;
   text-align: center;
-  line-height: 0.77rem;
+  line-height: 1.6426666667rem;
   -moz-box-shadow: 0px 6px 5px #878787;
   -webkit-box-shadow: 0px 6px 5px #878787;
   box-shadow: 0px 6px 5px #878787;
-  margin: auto 0.3rem; }
+  margin: auto 0.64rem; }
 
 .btn-group a:hover {
   background: #8992ab; }
 
 .cst-tips {
-  font-size: 0.17rem;
+  font-size: 0.3626666667rem;
   color: #666666;
   text-align: center;
-  padding-top: 0.22rem; }
+  padding-top: 0.4693333333rem; }
 
 /*测试题结束*/
 .right-top-nav {
-  padding-left: 0.24rem; }
+  padding-left: 0.512rem; }
 
 .right-top-nav li {
-  font-size: 0.22rem;
+  font-size: 0.4693333333rem;
   float: left;
-  width: 1.26rem;
-  height: 0.56rem;
-  line-height: 0.56rem;
+  width: 2.688rem;
+  height: 1.1946666667rem;
+  line-height: 1.1946666667rem;
   text-align: center;
   color: #ffffff;
-  border-radius: 0.12rem;
-  margin: 0 0.22rem;
-  border: 0.02rem solid #ffffff; }
+  border-radius: 0.256rem;
+  margin: 0 0.4693333333rem;
+  border: 0.0426666667rem solid #ffffff; }
 
 .sn-bd {
-  padding: 0.4rem 0;
-  width: 7.5rem;
+  padding: 0.8533333333rem 0;
+  width: 16rem;
   background: #f6f6f6; }
 
 .sn-bd-title {
   text-align: center;
-  font-size: 0.36rem;
+  font-size: 0.768rem;
   font-weight: bold;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.64rem; }
 
 .sn-bd-title span {
   color: #2da2a7; }
 
 .sn-bd-input {
-  font-size: 0.22rem;
-  padding-left: 0.15rem;
-  margin: 0 auto 0.3rem;
-  width: 6rem;
-  height: 0.65rem;
+  font-size: 0.4693333333rem;
+  padding-left: 0.32rem;
+  margin: 0 auto 0.64rem;
+  width: 12.8rem;
+  height: 1.3866666667rem;
   border: 1px solid #2fa09c;
-  border-radius: 0.08rem;
+  border-radius: 0.1706666667rem;
   display: block; }
 
 .sn-bd-btn {
-  width: 6.15rem;
-  height: 0.65rem;
-  line-height: 0.65rem;
-  border-radius: 0.08rem;
+  width: 13.12rem;
+  height: 1.3866666667rem;
+  line-height: 1.3866666667rem;
+  border-radius: 0.1706666667rem;
   background: #49c9cc;
   color: #ffffff;
   font-weight: bold;
-  font-size: 0.28rem;
+  font-size: 0.5973333333rem;
   display: block;
   margin: auto;
   text-align: center; }
@@ -342,30 +342,105 @@ a {
 .xfzx-btn1 {
   display: block;
   float: left;
-  width: 2.6rem;
-  height: 0.6rem;
+  width: 5.5466666667rem;
+  height: 1.28rem;
   color: #ffffff;
-  font-size: 0.28rem;
+  font-size: 0.5973333333rem;
   text-align: center;
-  line-height: 0.6rem;
-  margin-right: 0.2rem;
+  line-height: 1.28rem;
+  margin-right: 0.4266666667rem;
   background: #49c9cc;
-  border-radius: 0.08rem; }
+  border-radius: 0.1706666667rem; }
 
 .xfzx-btn2 {
   float: left;
   display: block;
-  width: 1.6rem;
-  height: 0.6rem;
+  width: 3.4133333333rem;
+  height: 1.28rem;
   color: #ffffff;
-  font-size: 0.28rem;
+  font-size: 0.5973333333rem;
   text-align: center;
-  line-height: 0.6rem;
+  line-height: 1.28rem;
   background: #49c9cc;
-  border-radius: 0.08rem; }
+  border-radius: 0.1706666667rem; }
 
 .xfzx-btn-group {
-  width: 4.5rem;
+  width: 9.6rem;
   margin: auto; }
+
+.xskc-hd {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 16rem;
+  height: 4.8rem;
+  background: url("../images/xskc.png") 0 0/16rem 4.8rem no-repeat; }
+
+.xskc-hd-close {
+  position: absolute;
+  right: 0.064rem;
+  top: 0.2133333333rem;
+  width: 1.0666666667rem;
+  height: 1.0666666667rem; }
+
+.xskc-hd-close:active {
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.3); }
+
+.xskc-form {
+  width: 15.1466666667rem;
+  position: absolute;
+  bottom: 0.4266666667rem;
+  left: 0;
+  right: 0;
+  height: 1.0026666667rem;
+  margin: auto; }
+
+.xskc-name {
+  width: 4.9066666667rem;
+  padding-left: 0.256rem;
+  height: 1.0026666667rem;
+  font-size: 0.3413333333rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #ffffff;
+  outline: none;
+  border: none; }
+
+.xskc-tel {
+  width: 4.9066666667rem;
+  padding-left: 0.256rem;
+  height: 1.0026666667rem;
+  font-size: 0.3413333333rem;
+  position: absolute;
+  left: 5.3333333333rem;
+  top: 0;
+  background: #ffffff;
+  outline: none;
+  border: none; }
+
+.xskc-btn {
+  width: 4.48rem;
+  height: 1.0026666667rem;
+  line-height: 0.8533333333rem;
+  font-size: 0.512rem;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0.256rem;
+  background: #ffbe24;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 0.0853333333rem solid #ff3b57;
+  border-right: 0.0853333333rem solid #ff3b57; }
+
+.xskc-btn:active {
+  background: #edb121;
+  border-color: #ee3a53; }
 
 /*# sourceMappingURL=webjc.css.map */
