@@ -427,10 +427,28 @@ a{
   width:px2rem(750);
   background: #ff6766;
 }
-.design-enterprise img{
+.design-enterprise-vd{
+  width:px2rem(713);
+  height:px2rem(419);
+  position: relative;
+  margin:px2rem(20) auto 0;
+  padding-top: px2rem(20);
+}
+.icon-play{
+  width:px2rem(88);
+  height:px2rem(88);
+  display: block;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto;
+}
+.design-enterprise-img{
   width:px2rem(713);
   display: block;
-  margin:px2rem(36) auto 0;
+  margin: auto ;
 
 }
 .design-teacher{
@@ -1091,6 +1109,7 @@ margin-right: 0;
   color: #222222;
   display: block;
   line-height: px2rem(32);
+  font-weight: bold;
 }
 .design-security-list li b:after{
   content: " ";
