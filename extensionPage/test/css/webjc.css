@@ -30,63 +30,63 @@ a {
   font-family: "Microsoft YaHei"; }
 
 .yhd7 {
-  margin-bottom: 2.9866666667rem;
+  margin-bottom: 1.4933333333rem;
   position: relative;
-  width: 16rem;
-  height: 22.9333333333rem;
-  background: url("../images/7yhd.png") 0 0/16rem 22.9333333333rem no-repeat; }
+  width: 8rem;
+  height: 11.4666666667rem;
+  background: url("../images/7yhd.png") 0 0/8rem 11.4666666667rem no-repeat; }
 
 .yhd7-btn {
-  width: 2.304rem;
-  height: 2.304rem;
+  width: 1.152rem;
+  height: 1.152rem;
   border-radius: 1000px;
   position: absolute;
-  top: 7.68rem;
-  right: 2.9653333333rem; }
+  top: 3.84rem;
+  right: 1.4826666667rem; }
 
 .yhd7-form {
   position: absolute;
-  top: 16rem;
-  left: 2.9866666667rem; }
+  top: 8rem;
+  left: 1.4933333333rem; }
 
 .yhd7-input-group {
-  width: 10.0693333333rem;
-  height: 1.28rem;
+  width: 5.0346666667rem;
+  height: 0.64rem;
   position: relative;
-  margin-bottom: 0.64rem; }
+  margin-bottom: 0.32rem; }
 
 .yhd7-input-group label {
   position: absolute;
   left: 0;
   top: 0;
-  height: 1.28rem;
-  width: 2.112rem;
-  line-height: 1.28rem;
-  font-size: 0.64rem;
+  height: 0.64rem;
+  width: 1.056rem;
+  line-height: 0.64rem;
+  font-size: 0.32rem;
   font-weight: bold;
   color: #666666; }
 
 .yhd7-input-group input {
-  padding-left: 0.4266666667rem;
+  padding-left: 0.2133333333rem;
   border: 1px solid #56acad;
   position: absolute;
-  left: 2.112rem;
+  left: 1.056rem;
   top: 0;
-  height: 1.28rem;
-  width: 7.4666666667rem;
-  line-height: 1.28rem;
-  font-size: 0.512rem;
+  height: 0.64rem;
+  width: 3.7333333333rem;
+  line-height: 0.64rem;
+  font-size: 0.256rem;
   color: #666666; }
 
 .yhd7-form-btn {
-  width: 10.0693333333rem;
-  height: 1.28rem;
+  width: 5.0346666667rem;
+  height: 0.64rem;
   border-radius: 1000px;
   background: #56acad;
-  font-size: 0.704rem;
+  font-size: 0.352rem;
   text-align: center;
   display: block;
-  line-height: 1.28rem;
+  line-height: 0.64rem;
   color: #ffffff; }
 
 /*弹框*/
@@ -103,133 +103,133 @@ a {
 .tk7y-close {
   position: absolute;
   right: 0;
-  top: 1.024rem;
+  top: 0.512rem;
   cursor: pointer;
-  width: 1.28rem;
-  height: 1.28rem; }
+  width: 0.64rem;
+  height: 0.64rem; }
 
 .tk7y {
-  width: 13.2053333333rem;
-  height: 12.3093333333rem;
+  width: 6.6026666667rem;
+  height: 6.1546666667rem;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -6.5706666667rem;
-  margin-top: -6.1226666667rem;
-  background: url("../images/tk.png") 0 0/13.2053333333rem 12.3093333333rem no-repeat; }
+  margin-left: -3.2853333333rem;
+  margin-top: -3.0613333333rem;
+  background: url("../images/tk.png") 0 0/6.6026666667rem 6.1546666667rem no-repeat; }
 
 .tk7y-form input {
   background: transparent;
   border: none;
   outline: none;
-  margin-bottom: 0.256rem;
-  margin-left: 1.1733333333rem;
+  margin-bottom: 0.128rem;
+  margin-left: 0.5866666667rem;
   display: block;
-  width: 5.3333333333rem;
+  width: 2.6666666667rem;
   color: #ffffff;
-  height: 0.96rem;
-  font-size: 0.384rem;
-  padding-left: 0.4266666667rem; }
+  height: 0.48rem;
+  font-size: 0.192rem;
+  padding-left: 0.2133333333rem; }
 
 .tk7y-form input::placeholder {
   color: #b69bcc; }
 
 .tk7y-form {
   position: absolute;
-  bottom: 0.4266666667rem;
-  left: 3.3493333333rem; }
+  bottom: 0.2133333333rem;
+  left: 1.6746666667rem; }
 
 .tk7y-form-btn {
   cursor: pointer;
-  margin-top: 0.832rem;
+  margin-top: 0.416rem;
   display: block;
-  width: 7.104rem;
-  height: 1.1306666667rem;
-  border-radius: 1.1733333333rem; }
+  width: 3.552rem;
+  height: 0.5653333333rem;
+  border-radius: 0.5866666667rem; }
 
 .gkk-link {
   position: absolute;
   display: block;
-  font-size: 0.5973333333rem;
-  height: 1.0666666667rem;
-  line-height: 1.0666666667rem;
+  font-size: 0.2986666667rem;
+  height: 0.5333333333rem;
+  line-height: 0.5333333333rem;
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 5px;
-  width: 2.24rem;
+  width: 1.12rem;
   text-align: center;
-  right: 2.368rem;
-  top: 0.3626666667rem; }
+  right: 1.184rem;
+  top: 0.1813333333rem; }
 
 /*测试题开始*/
 .cst {
-  width: 15.1466666667rem;
+  width: 7.5733333333rem;
   margin: auto; }
 
 .cst-title {
-  font-size: 0.5973333333rem;
+  font-size: 0.2986666667rem;
   color: #ffffff;
   font-weight: bold;
-  line-height: 2.0906666667rem;
-  padding-left: 1.4933333333rem;
-  width: 13.6533333333rem;
-  height: 2.0906666667rem;
-  background: url("../images/cstbg.png") 0 0/15.1466666667rem 2.0906666667rem no-repeat; }
+  line-height: 1.0453333333rem;
+  padding-left: 0.7466666667rem;
+  width: 6.8266666667rem;
+  height: 1.0453333333rem;
+  background: url("../images/cstbg.png") 0 0/7.5733333333rem 1.0453333333rem no-repeat; }
 
 .cst-content {
-  width: 15.1466666667rem;
+  width: 7.5733333333rem;
   box-sizing: border-box;
   border: 2px solid #6b7589; }
 
 .cst-table {
-  line-height: 1.0026666667rem;
-  font-size: 0.4693333333rem;
+  line-height: 0.5013333333rem;
+  font-size: 0.2346666667rem;
   color: #666666;
-  width: 14.9333333333rem;
+  width: 7.4666666667rem;
   margin: auto; }
 
 .cst-table tr td {
   width: 50%; }
 
 .rdo {
-  width: 0.384rem;
+  width: 0.192rem;
   height: 0;
   position: relative;
   cursor: pointer; }
 
 .rdo + label {
   cursor: pointer;
-  margin-left: 0.384rem; }
+  margin-left: 0.192rem; }
 
 .rdo:after {
   content: '';
   display: block;
   position: absolute;
-  bottom: -0.128rem;
+  bottom: -0.064rem;
   left: 0;
-  width: 0.64rem;
-  height: 0.64rem;
-  background: url("../images/rdo.png") 0 -0.6613333333rem no-repeat;
-  background-size: 0.64rem 1.28rem; }
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url("../images/rdo.png") 0 -0.3306666667rem no-repeat;
+  background-size: 0.32rem 0.64rem; }
 
 .rdo:checked:after {
-  width: 0.64rem;
-  height: 0.64rem;
+  width: 0.32rem;
+  height: 0.32rem;
   background: url("../images/rdo.png") no-repeat;
-  background-size: 0.64rem 1.28rem; }
+  background-size: 0.32rem 0.64rem; }
 
 .cst-table-title td {
   color: #333333;
-  padding-top: 0.384rem;
-  font-size: 0.4906666667rem; }
+  padding-top: 0.192rem;
+  font-size: 0.2453333333rem; }
 
 .input-group {
-  line-height: 1.7066666667rem;
-  font-size: 0.512rem;
+  line-height: 0.8533333333rem;
+  font-size: 0.256rem;
   color: #666666;
-  width: 13.6533333333rem;
-  height: 1.7066666667rem;
-  margin: 0.8533333333rem auto 0;
+  width: 6.8266666667rem;
+  height: 0.8533333333rem;
+  margin: 0.4266666667rem auto 0;
   position: relative;
   border: 1px solid #b5b5b5;
   border-radius: 5px;
@@ -239,102 +239,102 @@ a {
   position: absolute;
   left: 0;
   top: 0;
-  padding-left: 0.2133333333rem; }
+  padding-left: 0.1066666667rem; }
 
 .input-group input {
   position: absolute;
-  left: 2.7733333333rem;
+  left: 1.3866666667rem;
   top: 0;
-  width: 4.0533333333rem;
-  height: 1.28rem;
-  margin-top: 0.2133333333rem;
+  width: 2.0266666667rem;
+  height: 0.64rem;
+  margin-top: 0.1066666667rem;
   border: none;
   background: transparent;
   outline: none;
-  font-size: 0.4693333333rem; }
+  font-size: 0.2346666667rem; }
 
 .cst-form {
-  width: 15.1466666667rem;
-  margin: 0.7466666667rem auto 0; }
+  width: 7.5733333333rem;
+  margin: 0.3733333333rem auto 0; }
 
 .btn-group {
-  width: 13.2266666667rem;
-  margin: 0 auto 1.0666666667rem; }
+  width: 6.6133333333rem;
+  margin: 0 auto 0.5333333333rem; }
 
 .btn-group a {
   cursor: pointer;
   display: inline-block;
-  width: 5.3333333333rem;
-  height: 1.6426666667rem;
+  width: 2.6666666667rem;
+  height: 0.8213333333rem;
   background: #6b7589;
-  border-radius: 1.6426666667rem;
+  border-radius: 0.8213333333rem;
   color: #ffffff;
-  font-size: 0.64rem;
+  font-size: 0.32rem;
   text-align: center;
-  line-height: 1.6426666667rem;
+  line-height: 0.8213333333rem;
   -moz-box-shadow: 0px 6px 5px #878787;
   -webkit-box-shadow: 0px 6px 5px #878787;
   box-shadow: 0px 6px 5px #878787;
-  margin: auto 0.64rem; }
+  margin: auto 0.32rem; }
 
 .btn-group a:hover {
   background: #8992ab; }
 
 .cst-tips {
-  font-size: 0.3626666667rem;
+  font-size: 0.1813333333rem;
   color: #666666;
   text-align: center;
-  padding-top: 0.4693333333rem; }
+  padding-top: 0.2346666667rem; }
 
 /*测试题结束*/
 .right-top-nav {
-  padding-left: 0.512rem; }
+  padding-left: 0.256rem; }
 
 .right-top-nav li {
-  font-size: 0.4693333333rem;
+  font-size: 0.2346666667rem;
   float: left;
-  width: 2.688rem;
-  height: 1.1946666667rem;
-  line-height: 1.1946666667rem;
+  width: 1.344rem;
+  height: 0.5973333333rem;
+  line-height: 0.5973333333rem;
   text-align: center;
   color: #ffffff;
-  border-radius: 0.256rem;
-  margin: 0 0.4693333333rem;
-  border: 0.0426666667rem solid #ffffff; }
+  border-radius: 0.128rem;
+  margin: 0 0.2346666667rem;
+  border: 0.0213333333rem solid #ffffff; }
 
 .sn-bd {
-  padding: 0.8533333333rem 0;
-  width: 16rem;
+  padding: 0.4266666667rem 0;
+  width: 8rem;
   background: #f6f6f6; }
 
 .sn-bd-title {
   text-align: center;
-  font-size: 0.768rem;
+  font-size: 0.384rem;
   font-weight: bold;
-  margin-bottom: 0.64rem; }
+  margin-bottom: 0.32rem; }
 
 .sn-bd-title span {
   color: #2da2a7; }
 
 .sn-bd-input {
-  font-size: 0.4693333333rem;
-  padding-left: 0.32rem;
-  margin: 0 auto 0.64rem;
-  width: 12.8rem;
-  height: 1.3866666667rem;
+  font-size: 0.2346666667rem;
+  padding-left: 0.16rem;
+  margin: 0 auto 0.32rem;
+  width: 6.4rem;
+  height: 0.6933333333rem;
   border: 1px solid #2fa09c;
-  border-radius: 0.1706666667rem;
+  border-radius: 0.0853333333rem;
   display: block; }
 
 .sn-bd-btn {
-  width: 13.12rem;
-  height: 1.3866666667rem;
-  line-height: 1.3866666667rem;
-  border-radius: 0.1706666667rem;
+  width: 6.56rem;
+  height: 0.6933333333rem;
+  line-height: 0.6933333333rem;
+  border-radius: 0.0853333333rem;
   background: #49c9cc;
   color: #ffffff;
   font-weight: bold;
-  font-size: 0.5973333333rem;
+  font-size: 0.2986666667rem;
   display: block;
   margin: auto;
   text-align: center; }
@@ -342,30 +342,30 @@ a {
 .xfzx-btn1 {
   display: block;
   float: left;
-  width: 5.5466666667rem;
-  height: 1.28rem;
+  width: 2.7733333333rem;
+  height: 0.64rem;
   color: #ffffff;
-  font-size: 0.5973333333rem;
+  font-size: 0.2986666667rem;
   text-align: center;
-  line-height: 1.28rem;
-  margin-right: 0.4266666667rem;
+  line-height: 0.64rem;
+  margin-right: 0.2133333333rem;
   background: #49c9cc;
-  border-radius: 0.1706666667rem; }
+  border-radius: 0.0853333333rem; }
 
 .xfzx-btn2 {
   float: left;
   display: block;
-  width: 3.4133333333rem;
-  height: 1.28rem;
+  width: 1.7066666667rem;
+  height: 0.64rem;
   color: #ffffff;
-  font-size: 0.5973333333rem;
+  font-size: 0.2986666667rem;
   text-align: center;
-  line-height: 1.28rem;
+  line-height: 0.64rem;
   background: #49c9cc;
-  border-radius: 0.1706666667rem; }
+  border-radius: 0.0853333333rem; }
 
 .xfzx-btn-group {
-  width: 9.6rem;
+  width: 4.8rem;
   margin: auto; }
 
 .xskc-hd {
@@ -374,35 +374,35 @@ a {
   left: 0;
   right: 0;
   margin: auto;
-  width: 16rem;
-  height: 4.8rem;
-  background: url("../images/xskc.png") 0 0/16rem 4.8rem no-repeat; }
+  width: 8rem;
+  height: 2.4rem;
+  background: url("../images/xskc.png") 0 0/8rem 2.4rem no-repeat; }
 
 .xskc-hd-close {
   position: absolute;
-  right: 0.064rem;
-  top: 0.2133333333rem;
-  width: 1.0666666667rem;
-  height: 1.0666666667rem; }
+  right: 0.032rem;
+  top: 0.1066666667rem;
+  width: 0.5333333333rem;
+  height: 0.5333333333rem; }
 
 .xskc-hd-close:active {
   border-radius: 100%;
   background: rgba(255, 255, 255, 0.3); }
 
 .xskc-form {
-  width: 15.1466666667rem;
+  width: 7.5733333333rem;
   position: absolute;
-  bottom: 0.4266666667rem;
+  bottom: 0.2133333333rem;
   left: 0;
   right: 0;
-  height: 1.0026666667rem;
+  height: 0.5013333333rem;
   margin: auto; }
 
 .xskc-name {
-  width: 4.9066666667rem;
-  padding-left: 0.256rem;
-  height: 1.0026666667rem;
-  font-size: 0.3413333333rem;
+  width: 2.4533333333rem;
+  padding-left: 0.128rem;
+  height: 0.5013333333rem;
+  font-size: 0.1706666667rem;
   position: absolute;
   left: 0;
   top: 0;
@@ -411,36 +411,85 @@ a {
   border: none; }
 
 .xskc-tel {
-  width: 4.9066666667rem;
-  padding-left: 0.256rem;
-  height: 1.0026666667rem;
-  font-size: 0.3413333333rem;
+  width: 2.4533333333rem;
+  padding-left: 0.128rem;
+  height: 0.5013333333rem;
+  font-size: 0.1706666667rem;
   position: absolute;
-  left: 5.3333333333rem;
+  left: 2.6666666667rem;
   top: 0;
   background: #ffffff;
   outline: none;
   border: none; }
 
 .xskc-btn {
-  width: 4.48rem;
-  height: 1.0026666667rem;
-  line-height: 0.8533333333rem;
-  font-size: 0.512rem;
+  width: 2.24rem;
+  height: 0.5013333333rem;
+  line-height: 0.4266666667rem;
+  font-size: 0.256rem;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-  border-radius: 0.256rem;
+  border-radius: 0.128rem;
   background: #ffbe24;
   text-align: center;
   color: #ffffff;
   font-weight: bold;
-  border-bottom: 0.0853333333rem solid #ff3b57;
-  border-right: 0.0853333333rem solid #ff3b57; }
+  border-bottom: 0.0426666667rem solid #ff3b57;
+  border-right: 0.0426666667rem solid #ff3b57; }
 
 .xskc-btn:active {
   background: #edb121;
   border-color: #ee3a53; }
+
+.hd-9 {
+  padding-top: 0.4053333333rem;
+  width: 8rem;
+  background: #f5f5f5; }
+
+.hd-9-title {
+  width: 6.0053333333rem;
+  height: 1.952rem;
+  margin: auto;
+  background: url("../images/th9.png") 0 0/6.0053333333rem 1.952rem no-repeat; }
+
+.hd-9 form input {
+  padding-left: 0.128rem;
+  width: 5.632rem;
+  height: 0.7466666667rem;
+  font-size: 0.256rem;
+  display: block;
+  margin: auto;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #ff3434;
+  border-radius: 6px;
+  margin-bottom: 0.2133333333rem; }
+
+.hd-9-btn {
+  width: 5.76rem;
+  height: 0.7466666667rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 0.7466666667rem;
+  font-size: 0.32rem;
+  display: block;
+  margin: auto;
+  outline: none;
+  background: #ff3434;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 0.2133333333rem; }
+
+.hd-9 form {
+  padding: 0.4266666667rem 0; }
+
+.hd-9-group {
+  width: 6.7306666667rem;
+  height: 1.6746666667rem;
+  padding-top: 0.4266666667rem;
+  position: relative;
+  font-size: 0.32rem; }
 
 /*# sourceMappingURL=webjc.css.map */

@@ -409,6 +409,7 @@ a {
   width: 1.3866666667rem; }
 
 .design-advantage-list li {
+  font-weight: bold;
   width: 5.3333333333rem;
   float: left;
   font-size: 0.512rem;
@@ -1266,6 +1267,7 @@ a {
   /* For IE8 and earlier */ }
 
 .design-course {
+  position: relative;
   width: 15.104rem;
   height: 4.48rem;
   padding: 3.4986666667rem 0.448rem 0;
@@ -1597,5 +1599,20 @@ a {
 
 .rightserve img, .rightserve2 img {
   width: 1.7066666667rem; }
+
+.design-course-content {
+  width: 16rem;
+  position: absolute;
+  left: 1000%; }
+
+.design-course-date .swiper-slide span {
+  font-size: 0.384rem;
+  color: #999999;
+  padding: 0 0.1066666667rem; }
+
+.design-course-date .swiper-slide.on span {
+  color: #ed9336;
+  border: 1px solid #ed9336;
+  border-radius: 0.768rem; }
 
 /*# sourceMappingURL=design.css.map */

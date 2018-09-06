@@ -32,3 +32,12 @@ $(function () {
         return false;
     });
 })
+function showSwiper(num,obj) {
+    $(obj).child("span").addClass("on");
+    $(".design-course-content").hide();
+    $(".design-course-content-"+num).animate({
+        "left":0
+    });
+    $(".design-course-content-"+num).fadeIn();
+
+}

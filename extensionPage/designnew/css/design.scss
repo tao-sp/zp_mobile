@@ -414,6 +414,7 @@ a{
   width:px2rem(65);
 }
 .design-advantage-list li{
+  font-weight: bold;
   width:px2rem(250);
   float: left;
   font-size: px2rem(24);
@@ -1275,6 +1276,7 @@ margin-right: 0;
   filter:alpha(opacity=90); /* For IE8 and earlier */
 }
 .design-course{
+  position: relative;
   width: px2rem(708);
   height:px2rem(210);
   padding: px2rem(164) px2rem(21) 0;
@@ -1609,4 +1611,19 @@ margin-right: 0;
 }
 .rightserve img,.rightserve2 img{
   width: px2rem(80);
+}
+.design-course-content{
+  width:px2rem(750);
+  position: absolute;
+  left: 1000%;
+}
+.design-course-date .swiper-slide span{
+  font-size: px2rem(18);
+  color: #999999;
+  padding:0 px2rem(5);
+}
+.design-course-date .swiper-slide.on span{
+  color: #ed9336;
+  border: 1px solid #ed9336;
+  border-radius: px2rem(36);
 }
