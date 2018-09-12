@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>灵蜥学院</title>
+    <link rel="stylesheet" href="js/swiper-4.3.3/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="css/lxxy.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper-4.3.3/swiper-4.3.3.min.js"></script>
+    <script src="js/lxxy.js"></script>
+
+</head>
+<body>
+<!--头部开始-->
+<div class="lxxy container_1200 clearfix">
+    <img class="lxxy-logo" src="images/logo.png">
+    <div class="lxxy-user">
+        <img src="images/icon-user.png"><span>奔跑的小强多余的</span><i class="icon-down"></i>
+    </div>
+    <div class="lxxy-search">
+        <form class="lxxy-search-group">
+            <input placeholder="搜索课程">
+            <button class="icon-search"> </button>
+        </form>
+        <ul class="lxxy-search-list">
+            <li><a>网页前端</a></li>
+            <li><a>室内设计</a></li>
+            <li><a>影视动画</a></li>
+            <li><a>服装设计</a></li>
+            <li><a>珠宝设计</a></li>
+        </ul>
+    </div>
+</div>
+<!--头部结束-->
+<!--导航开始-->
+<div class="lxxy-nav">
+     <ul class="lxxy-nav-list clearfix container_1200">
+         <li class="on"><a href="index.html">首页</a></li>
+         <li><a href="course.html">专业课程</a></li>
+         <li><a href="lesson.html">公开课</a></li>
+         <li><a href="question.html">在线题库</a></li>
+         <li><a href="live.html">直播</a></li>
+         <li><a target="_blank" href="http://www.gdzp.org/">中鹏官网</a></li>
+     </ul>
+</div>
+<!--导航结束-->
+<!--banner开始-->
+<div class="lxxy-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('images/banner.png')"></div>
+            <div class="swiper-slide" style="background-image: url('images/banner.png')"></div>
+            <div class="swiper-slide" style="background-image: url('images/banner.png')"></div>
+        </div>
+    </div>
+    <div class="lxxy-banner-ctrl container_1200">
+        <div class="swiper-button-prev"></div><!--左箭头-->
+        <div class="swiper-button-next"></div><!--右箭头-->
+    </div>
+    <script language="javascript">
+        var mySwiper = new Swiper('.lxxy-banner .swiper-container', {
+            loop:true,
+            autoplay:true,
+            navigation: {
+                nextEl: '.lxxy-banner .swiper-button-next',
+                prevEl: '.lxxy-banner .swiper-button-prev',
+            },
+        });
+    </script>
+</div>
+<!--banner结束-->
+
+<!--专业类别开始-->
+<div class="lxxy-major container_1200 clearfix">
+    <div class="major-xl">
+        <div class="title">学历类</div>
+        <a class="link">
+            自考
+        </a>
+        <a  class="link">
+            成考
+        </a>
+    </div>
+    <div class="major-gl">
+        <div class="title">管理 · 考证类</div>
+        <a class="link">
+            人力资源管理师
+        </a>
+        <a class="link">
+            采购师
+        </a>
+        <a class="link">
+            劳动关系协调师
+        </a>
+        <a class="link">
+            茶艺师
+        </a>
+    </div>
+    <div class="major-jn">
+        <div class="title">技能类</div>
+        <a class="link">
+            室内设计
+        </a>
+        <a class="link">
+            服装设计
+        </a>
+        <a class="link">
+            工业设计
+        </a>
+        <a class="link">
+            UI设计
+        </a>
+        <a class="link">
+            平面设计
+        </a>
+        <a class="link">
+            设计美术
+        </a>
+        <a class="link">
+            珠宝设计
+        </a>
+        <a class="link">
+            摄影
+        </a>
+    </div>
+</div>
+<!--专业类别结束-->
+
+<!--热门课程开始-->
+<div class="lxxy-course container_1200">
+    <div class="lxxy-course-title">热门课程<span>HOT COURSES</span></div>
+    <ul class="lxxy-course-list clearfix">
+        <li>
+            <a>
+                <div class="course-img">
+                    <img src="images/course.png">
+                </div>
+                <div class="course-info">
+                    人力资源三级职业资格课程
+                    <span>主讲：谢文君 <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a>
+                <div class="course-img">
+                    <img src="images/course.png">
+                </div>
+                <div class="course-info">
+                    人力资源三级职业资格课程
+                    <span>主讲：谢文君 <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a>
+                <div class="course-img">
+                    <img src="images/course.png">
+                </div>
+                <div class="course-info">
+                    人力资源三级职业资格课程
+                    <span>主讲：谢文君 <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a>
+                <div class="course-img">
+                    <img src="images/course.png">
+                </div>
+                <div class="course-info">
+                    人力资源三级职业资格课程
+                    <span>主讲：谢文君 <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<!--热门课程结束-->
+
+<!--重磅推荐开始-->
+<div class="lxxy-recommen clearfix container_1200">
+    <div class="lxxy-recommen-title"></div>
+        <div class="lxxy-recommen-img">
+            <img src="images/mini-class.png">
+        </div>
+        <ul class="lxxy-recommen-list clearfix">
+            <li>
+                <div class="mini-class-img">
+                    <img src="images/class1.png">
+                </div>
+                <div class="mini-class-info">
+                    <a>PS快速绘制抽象人物碎片PS快速绘制抽象人物碎片</a>
+                    <span><a>美女兴趣组</a> <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </li>
+            <li>
+                <div class="mini-class-img">
+                    <img src="images/class1.png">
+                </div>
+                <div class="mini-class-info">
+                    <a>PS快速绘制抽象人物碎片PS快速绘制抽象人物碎片</a>
+                    <span><a>就业无压力</a> <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </li>
+            <li>
+                <div class="mini-class-img">
+                    <img src="images/class1.png">
+                </div>
+                <div class="mini-class-info">
+                    <a>PS快速绘制抽象人物碎片PS快速绘制抽象人物碎片</a>
+                    <span><a>帅哥喜欢看</a> <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </li>
+            <li>
+                <div class="mini-class-img">
+                    <img src="images/class1.png">
+                </div>
+                <div class="mini-class-info">
+                    <a>PS快速绘制抽象人物碎片PS快速绘制抽象人物碎片</a>
+                    <span><a>美女兴趣组</a> <b><i class="p-num"></i>1025</b></span>
+                </div>
+            </li>
+        </ul>
+</div>
+<!--重磅推荐结束-->
+
+<!--一体化教学开始-->
+<div class="lxxy-campus container_1200">
+    <div class="lxxy-campus-title"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="lxxy-campus-info clearfix">
+                    <img src="images/baoan.png">
+                    <div class="lxxy-campus-info-title">
+                        <div class="title">
+                            我们拥有<b>线下校区</b><br>
+                            <b>完美实施</b> 线上线下一体化教学模式
+                        </div>
+                        <div class="info">
+                            <span>宝安<span>校区</span></span>是中鹏培训整合数字艺术中心、管理服务中心、学历教育中心三大中心的项目、师资、人员及设备等方面优势的基础上，为服务宝安周边企事业单位及个人的发展和提升，倾力打造的综合型职业教育机构。目前开设的培训项目包括：设计类（室内设计、平面设计、网页设计、网络营销、模具设计、工业产品设计、招调工培训等），管理类（企业人力资源管理师、公共营养师、物流师、采购师、会计、企业定制培训等），学历类（成人高考、自学考试、网络教育的高升专、专升本、研究生等）。中心以一流的师资，一流的环境，一流的设备，一流的服务迎接每一位学员的到来。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="lxxy-campus-info clearfix">
+                    <img src="images/baoan.png">
+                    <div class="lxxy-campus-info-title">
+                        <div class="title">
+                            我们拥有<b>线下校区</b><br>
+                            <b>完美实施</b> 线上线下一体化教学模式
+                        </div>
+                        <div class="info">
+                            <span>宝安<span>校区</span></span>是中鹏培训整合数字艺术中心、管理服务中心、学历教育中心三大中心的项目、师资、人员及设备等方面优势的基础上，为服务宝安周边企事业单位及个人的发展和提升，倾力打造的综合型职业教育机构。目前开设的培训项目包括：设计类（室内设计、平面设计、网页设计、网络营销、模具设计、工业产品设计、招调工培训等），管理类（企业人力资源管理师、公共营养师、物流师、采购师、会计、企业定制培训等），学历类（成人高考、自学考试、网络教育的高升专、专升本、研究生等）。中心以一流的师资，一流的环境，一流的设备，一流的服务迎接每一位学员的到来。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="lxxy-campus-info clearfix">
+                    <img src="images/baoan.png">
+                    <div class="lxxy-campus-info-title">
+                        <div class="title">
+                            我们拥有<b>线下校区</b><br>
+                            <b>完美实施</b> 线上线下一体化教学模式
+                        </div>
+                        <div class="info">
+                            <span>宝安<span>校区</span></span>是中鹏培训整合数字艺术中心、管理服务中心、学历教育中心三大中心的项目、师资、人员及设备等方面优势的基础上，为服务宝安周边企事业单位及个人的发展和提升，倾力打造的综合型职业教育机构。目前开设的培训项目包括：设计类（室内设计、平面设计、网页设计、网络营销、模具设计、工业产品设计、招调工培训等），管理类（企业人力资源管理师、公共营养师、物流师、采购师、会计、企业定制培训等），学历类（成人高考、自学考试、网络教育的高升专、专升本、研究生等）。中心以一流的师资，一流的环境，一流的设备，一流的服务迎接每一位学员的到来。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="lxxy-campus-info clearfix">
+                    <img src="images/baoan.png">
+                    <div class="lxxy-campus-info-title">
+                        <div class="title">
+                            我们拥有<b>线下校区</b><br>
+                            <b>完美实施</b> 线上线下一体化教学模式
+                        </div>
+                        <div class="info">
+                            <span>宝安<span>校区</span></span>是中鹏培训整合数字艺术中心、管理服务中心、学历教育中心三大中心的项目、师资、人员及设备等方面优势的基础上，为服务宝安周边企事业单位及个人的发展和提升，倾力打造的综合型职业教育机构。目前开设的培训项目包括：设计类（室内设计、平面设计、网页设计、网络营销、模具设计、工业产品设计、招调工培训等），管理类（企业人力资源管理师、公共营养师、物流师、采购师、会计、企业定制培训等），学历类（成人高考、自学考试、网络教育的高升专、专升本、研究生等）。中心以一流的师资，一流的环境，一流的设备，一流的服务迎接每一位学员的到来。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="lxxy-campus-info clearfix">
+                    <img src="images/baoan.png">
+                    <div class="lxxy-campus-info-title">
+                        <div class="title">
+                            我们拥有<b>线下校区</b><br>
+                            <b>完美实施</b> 线上线下一体化教学模式
+                        </div>
+                        <div class="info">
+                            <span>宝安<span>校区</span></span>是中鹏培训整合数字艺术中心、管理服务中心、学历教育中心三大中心的项目、师资、人员及设备等方面优势的基础上，为服务宝安周边企事业单位及个人的发展和提升，倾力打造的综合型职业教育机构。目前开设的培训项目包括：设计类（室内设计、平面设计、网页设计、网络营销、模具设计、工业产品设计、招调工培训等），管理类（企业人力资源管理师、公共营养师、物流师、采购师、会计、企业定制培训等），学历类（成人高考、自学考试、网络教育的高升专、专升本、研究生等）。中心以一流的师资，一流的环境，一流的设备，一流的服务迎接每一位学员的到来。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="lxxy-campus-info clearfix">
+                    <img src="images/baoan.png">
+                    <div class="lxxy-campus-info-title">
+                        <div class="title">
+                            我们拥有<b>线下校区</b><br>
+                            <b>完美实施</b> 线上线下一体化教学模式
+                        </div>
+                        <div class="info">
+                            <span>宝安<span>校区</span></span>是中鹏培训整合数字艺术中心、管理服务中心、学历教育中心三大中心的项目、师资、人员及设备等方面优势的基础上，为服务宝安周边企事业单位及个人的发展和提升，倾力打造的综合型职业教育机构。目前开设的培训项目包括：设计类（室内设计、平面设计、网页设计、网络营销、模具设计、工业产品设计、招调工培训等），管理类（企业人力资源管理师、公共营养师、物流师、采购师、会计、企业定制培训等），学历类（成人高考、自学考试、网络教育的高升专、专升本、研究生等）。中心以一流的师资，一流的环境，一流的设备，一流的服务迎接每一位学员的到来。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="lxxy-campus-info clearfix">
+                    <img src="images/baoan.png">
+                    <div class="lxxy-campus-info-title">
+                        <div class="title">
+                            我们拥有<b>线下校区</b><br>
+                            <b>完美实施</b> 线上线下一体化教学模式
+                        </div>
+                        <div class="info">
+                            <span>宝安<span>校区</span></span>是中鹏培训整合数字艺术中心、管理服务中心、学历教育中心三大中心的项目、师资、人员及设备等方面优势的基础上，为服务宝安周边企事业单位及个人的发展和提升，倾力打造的综合型职业教育机构。目前开设的培训项目包括：设计类（室内设计、平面设计、网页设计、网络营销、模具设计、工业产品设计、招调工培训等），管理类（企业人力资源管理师、公共营养师、物流师、采购师、会计、企业定制培训等），学历类（成人高考、自学考试、网络教育的高升专、专升本、研究生等）。中心以一流的师资，一流的环境，一流的设备，一流的服务迎接每一位学员的到来。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script language="javascript">
+        var mySwiper = new Swiper('.lxxy-campus .swiper-container', {
+            loop:true,
+            autoplay:true,
+            pagination: {
+                el: '.lxxy-campus .swiper-pagination',
+            },
+        });
+    </script>
+</div>
+<!--一体化教学结束-->
+<!--加入我们开始-->
+<div class="lxxy-join">
+
+</div>
+<!--加入我们开始-->
+<!--底部开始-->
+<div class="lxxy-footer">
+    <div class="lxxy-footer-content container_1200 clearfix">
+        <div class="lxxy-footer-left">
+            <ul class="lxxy-footer-nav-list">
+                <li><a>首页</a></li>
+                <li><a>专业课程</a></li>
+                <li><a>公开课</a></li>
+                <li><a>在线题库</a></li>
+                <li><a>中鹏官网</a></li>
+            </ul>
+            <ul class="location-list clearfix">
+                <li>
+                  <b>
+                      地址
+                  </b>
+                        广东省深圳市龙岗校区吉祥<br>
+                        地铁站b出口湖广通大厦4楼
+                </li>
+                <li>
+                    <b>
+                        E-mail
+                    </b>
+                    <span>zhouying@zppx.net</span>
+                </li>
+                <li>
+                    <b>
+                        联系号码
+                    </b>
+                    <span>400-930-6618</span>
+                </li>
+            </ul>
+        </div>
+        <div class="lxxy-footer-right">
+            <div class="qrcode-title">移动端APP</div>
+            <ul class="qrcode-list">
+                <li data-flag="android-t"><i class="icon-android"></i>Android</li>
+                <li data-flag="ios-t"><i class="icon-ios"></i>IOS</li>
+            </ul>
+            <div class="qrcode-title">微信公众号</div>
+            <ul class="qrcode-list">
+                <li data-flag="server-h">订阅号</li>
+                <li data-flag="subscribe-h">服务号</li>
+            </ul>
+            <img class="qrcode android-t" src="images/android-t.png">
+            <img class="qrcode ios-t" src="images/ios-t.png">
+            <img class="qrcode server-h" src="images/server-h.jpg">
+            <img class="qrcode subscribe-h" src="images/subscribe-h.jpg">
+        </div>
+    </div>
+    <span>
+        Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+        备案号: 粤ICP备09069122号-6    粤公网安备 44030702000254号
+        <a><img src="images/newGovIcon.png"></a>
+    </span>
+</div>
+<!--底部结束-->
+</body>
+</html>
