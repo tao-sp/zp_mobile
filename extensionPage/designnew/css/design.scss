@@ -1278,9 +1278,9 @@ margin-right: 0;
 .design-course{
   position: relative;
   width: px2rem(708);
-  height:px2rem(210);
-  padding: px2rem(164) px2rem(21) 0;
-  background: url("#{$img}course.png") 0 0/px2rem(750) px2rem(374);
+  height:px2rem(280);
+  padding: px2rem(132) px2rem(21) 0;
+  background: url("#{$img}course.png") 0 0/px2rem(750) px2rem(412);
 }
 .design-course-info{
   width:px2rem(236);
@@ -1616,6 +1616,9 @@ margin-right: 0;
   width:px2rem(750);
   position: absolute;
   left: 1000%;
+}
+.design-course-date{
+  margin-bottom: px2rem(30);
 }
 .design-course-date .swiper-slide span{
   font-size: px2rem(18);

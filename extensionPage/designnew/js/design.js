@@ -33,7 +33,7 @@ $(function () {
     });
 })
 function showSwiper(num,obj) {
-    $(obj).child("span").addClass("on");
+   $(obj).addClass("on").siblings().removeClass("on");
     $(".design-course-content").hide();
     $(".design-course-content-"+num).animate({
         "left":0

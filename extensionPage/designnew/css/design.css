@@ -1269,9 +1269,9 @@ a {
 .design-course {
   position: relative;
   width: 15.104rem;
-  height: 4.48rem;
-  padding: 3.4986666667rem 0.448rem 0;
-  background: url("../images/course.png") 0 0/16rem 7.9786666667rem; }
+  height: 5.9733333333rem;
+  padding: 2.816rem 0.448rem 0;
+  background: url("../images/course.png") 0 0/16rem 8.7893333333rem; }
 
 .design-course-info {
   width: 5.0346666667rem;
@@ -1604,6 +1604,9 @@ a {
   width: 16rem;
   position: absolute;
   left: 1000%; }
+
+.design-course-date {
+  margin-bottom: 0.64rem; }
 
 .design-course-date .swiper-slide span {
   font-size: 0.384rem;
