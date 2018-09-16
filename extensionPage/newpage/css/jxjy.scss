@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import '../js/hotcss/px2rem';
+$img:"../images/";
+body{
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+  font-size: px2rem(20);
+}
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td,figure {
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1;
+}
+.font_yahei{
+  font-family: "Microsoft YaHei";
+}
+
+.jxjy-header{
+  position: relative;
+  width:px2rem(750);
+  height:px2rem(130);
+  background:#4c5cd5 url("#{$img}logo.png") px2rem(20) center /px2rem(434) px2rem(73) no-repeat;
+}
+.jxjy-header-btn{
+  display: block;
+  height:px2rem(54);
+  line-height: px2rem(54);
+  border: 1px solid #ffffff;
+  padding: 0 px2rem(18);
+  border-radius: 4px;
+  font-size: px2rem(22);
+  color: #ffffff;
+  position: absolute;
+  right:px2rem(20);
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+.jxjy-banner{
+  width:px2rem(750);
+  height:px2rem(424);
+  background: -webkit-linear-gradient(#00baff, #4c5cd5);
+  background: -o-linear-gradient(#00baff, #4c5cd5);
+  background: -moz-linear-gradient(#00baff, #4c5cd5);
+  background: linear-gradient(#00baff, #4c5cd5);
+}
+.jxjy-banner img{
+  display: block;
+  width:px2rem(647);
+}
