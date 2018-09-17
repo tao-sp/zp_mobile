@@ -35,7 +35,7 @@
 <body class="font_yahei">
 <!--头部开始-->
 <div class="jxjy-header">
-    <a class="jxjy-header-btn">中鹏名师面对面 >></a>
+    <a class="jxjy-header-btn" onclick="mantis.requestChat()">中鹏名师面对面 >></a>
 </div>
 <!--头部开始-->
 <!--banner开始-->
@@ -435,26 +435,54 @@
 
 <!--底部开始-->
 <ul class="bottom clearfix">
-    <li class="on">
+    <li class="on" onclick="mantis.requestChat()">
         <i class="bottom-icon bottom-icon-1"></i>
         首页
     </li>
-    <li>
+    <li onclick="tk2Open()">
         <i class="bottom-icon bottom-icon-2"></i>
         试听课
     </li>
-    <li>
+    <li onclick="mantis.requestChat()">
         <i class="bottom-icon bottom-icon-3"></i>
         消息
     </li>
-    <li>
+    <li onclick="tk1Open()">
         <i class="bottom-icon bottom-icon-4"></i>
         我的
     </li>
 </ul>
 
 <!--底部结束-->
+<!--弹框开始-->
+<div class="tk1-content">
+<div class="tk1">
+    <div class="tk1-close" onclick="tk1Close()"></div>
+    <form class="tk1-form">
+        <input placeholder="请输入手机号">
+        <a class="tk1-form-btn">登录观看</a>
+    </form>
+</div>
+</div>
 
+<!--弹框结束-->
+
+<!--弹框开始-->
+<div class="tk2-content">
+    <div class="tk2">
+        <div class="tk2-close" onclick="tk2Close()"></div>
+        <form class="tk2-form">
+            <input placeholder="请输入手机号">
+            <a class="tk2-form-btn">登录观看</a>
+        </form>
+    </div>
+</div>
+
+<!--弹框结束-->
+
+<!--螳螂科技客服探头2018-09-17-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b9dbb1bf12a5f59f834f4e6"></script>
+<!--螳螂科技客服探头2018-09-17-->
 
 </body>
 </html>

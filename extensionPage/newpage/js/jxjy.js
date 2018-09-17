@@ -22,3 +22,16 @@ function GetDateStrd(AddDayCount){
     var d = dd.getDate();
     return  d;
 }
+
+function tk1Open() {
+    $(".tk1-content").fadeIn()
+}
+function tk1Close() {
+    $(".tk1-content").fadeOut()
+}
+function tk2Open() {
+    $(".tk2-content").fadeIn()
+}
+function tk2Close() {
+    $(".tk2-content").fadeOut()
+}

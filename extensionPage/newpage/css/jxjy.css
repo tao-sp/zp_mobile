@@ -648,4 +648,124 @@ a {
   margin: 0.64rem auto 0.8533333333rem;
   background: url("../images/xsth.png") 0 0/14.464rem 4.6293333333rem; }
 
+.tk1-content {
+  display: none;
+  width: 16rem;
+  height: 100%;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8); }
+
+.tk1 {
+  width: 13.1413333333rem;
+  height: 14.5493333333rem;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../images/tkbg1.png") 0 0/13.1413333333rem 14.5493333333rem no-repeat; }
+
+.tk1-close {
+  width: 1.1946666667rem;
+  height: 1.1946666667rem;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 2.2186666667rem; }
+
+.tk1-form {
+  padding-top: 8.96rem; }
+
+.tk1-form input {
+  outline: none;
+  width: 9.3866666667rem;
+  height: 1.4933333333rem;
+  line-height: 1.4933333333rem;
+  border-radius: 1.4933333333rem;
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  display: block;
+  margin: auto;
+  font-size: 0.64rem;
+  margin-bottom: 0.4266666667rem; }
+
+.tk1-form-btn {
+  font-size: 0.64rem;
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  width: 9.3866666667rem;
+  height: 1.4933333333rem;
+  line-height: 1.4933333333rem;
+  border-radius: 1.4933333333rem;
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  background: #4c5cd5; }
+
+.tk2-content {
+  display: none;
+  width: 16rem;
+  height: 100%;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8); }
+
+.tk2 {
+  width: 13.1413333333rem;
+  height: 14.5493333333rem;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../images/tkbg2.png") 0 0/13.1413333333rem 15.4453333333rem no-repeat; }
+
+.tk2-close {
+  width: 1.2373333333rem;
+  height: 1.28rem;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 3.0506666667rem; }
+
+.tk2-form {
+  padding-top: 9.6rem; }
+
+.tk2-form input {
+  outline: none;
+  width: 9.3866666667rem;
+  height: 1.4933333333rem;
+  line-height: 1.4933333333rem;
+  border-radius: 1.4933333333rem;
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  display: block;
+  margin: auto;
+  font-size: 0.64rem;
+  margin-bottom: 0.4266666667rem; }
+
+.tk2-form-btn {
+  font-size: 0.64rem;
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  width: 9.3866666667rem;
+  height: 1.4933333333rem;
+  line-height: 1.4933333333rem;
+  border-radius: 1.4933333333rem;
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  background: #4c5cd5; }
+
 /*# sourceMappingURL=jxjy.css.map */

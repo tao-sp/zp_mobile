@@ -650,3 +650,124 @@ background-position: px2rem(-44) px2rem(-32);
   margin:px2rem(30) auto px2rem(40);
   background: url("../images/xsth.png") 0 0 /px2rem(678) px2rem(217);
 }
+.tk1-content{
+  display: none;
+   width:px2rem(750);
+   height:100%;
+   position: fixed;
+   z-index:99999;
+   left:0;
+   right:0;
+   margin: auto;
+   top:0;
+   background: rgba(0,0,0,0.8);
+ }
+.tk1{
+  width:px2rem(616);
+  height:px2rem(682);
+  margin: auto;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background: url("../images/tkbg1.png") 0 0 /px2rem(616) px2rem(682) no-repeat;
+}
+.tk1-close{
+  width:px2rem(56);
+  height:px2rem(56);
+  display: block;
+  position: absolute;
+  right:0;
+  top:px2rem(104);
+}
+.tk1-form{
+  padding-top: px2rem(420);
+}
+.tk1-form input{
+  outline: none;
+  width:px2rem(440);
+  height:px2rem(70);
+  line-height: px2rem(70);
+  border-radius: px2rem(70);
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  display: block;
+  margin: auto;
+  font-size: px2rem(30);
+  margin-bottom: px2rem(20);
+}
+.tk1-form-btn{
+  font-size: px2rem(30);
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  width:px2rem(440);
+  height:px2rem(70);
+  line-height: px2rem(70);
+  border-radius: px2rem(70);
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  background: #4c5cd5;
+}
+
+.tk2-content{
+  display: none;
+  width:px2rem(750);
+  height:100%;
+  position: fixed;
+  z-index:99999;
+  left:0;
+  right:0;
+  margin: auto;
+  top:0;
+  background: rgba(0,0,0,0.8);
+}
+.tk2{
+  width:px2rem(616);
+  height:px2rem(682);
+  margin: auto;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background: url("../images/tkbg2.png") 0 0 /px2rem(616) px2rem(724) no-repeat;
+}
+.tk2-close{
+  width:px2rem(58);
+  height:px2rem(60);
+  display: block;
+  position: absolute;
+  right:0;
+  top:px2rem(143);
+}
+.tk2-form{
+  padding-top: px2rem(450);
+}
+.tk2-form input{
+  outline: none;
+  width:px2rem(440);
+  height:px2rem(70);
+  line-height: px2rem(70);
+  border-radius: px2rem(70);
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  display: block;
+  margin: auto;
+  font-size: px2rem(30);
+  margin-bottom: px2rem(20);
+}
+.tk2-form-btn{
+  font-size: px2rem(30);
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  width:px2rem(440);
+  height:px2rem(70);
+  line-height: px2rem(70);
+  border-radius: px2rem(70);
+  text-align: center;
+  border: 1px solid #4c5cd5;
+  background: #4c5cd5;
+}
