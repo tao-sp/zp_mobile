@@ -39,9 +39,447 @@
 <!--头部开始-->
 <!--banner开始-->
 <div class="jxjy-banner">
-    <img src="images/banner.png">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="mantis.requestChat()"><img src="images/banner3.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()"><img src="images/banner2.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()"><img src="images/banner1.png"></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.jxjy-banner .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+        })
+    </script>
 </div>
 <!--banner开始-->
 
+<!--图标列表开始-->
+<ul class="iconlist clearfix">
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon1"></i>
+        学历形式
+    </li>
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon2"></i>
+        报考政策
+    </li>
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon3"></i>
+        报考条件
+    </li>
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon4"></i>
+        报考费用
+    </li>
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon5"></i>
+        院校专业
+    </li>
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon6"></i>
+        考试日期
+    </li>
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon7"></i>
+        报考咨询
+    </li>
+    <li onclick="mantis.requestChat()">
+        <i class="jxjy-icon icon8"></i>
+        中鹏助学
+    </li>
+</ul>
+<!--图标列表结束-->
+
+<!--限时特惠开始-->
+<div class="xsth" onclick="mantis.requestChat()"></div>
+<!--限时特惠结束-->
+
+<!--测一测开始-->
+<div class="cyc">
+    <div class="cyc-title totle-title">
+    </div>
+    <div class="cyc-from">
+        <form>
+            <div class="qustion-title">
+                1.你目前的最高学历是？
+            </div>
+            <div class="rdo-group">
+                <input type="radio" name="xl" value="本科及以上" id="xl1"><label for="xl1">本科及以上</label>
+                <input type="radio" name="xl" value="专科" id="xl2"><label for="xl2">专科</label>
+                <input type="radio" name="xl" value="高中/中专" id="xl3"><label for="xl3">高中/中专</label>
+                <input type="radio" name="xl" value="初中及以下" id="xl4"><label for="xl4">初中及以下</label>
+            </div>
+            <div class="qustion-title">
+                2.你能接受的拿证时长？
+            </div>
+            <div class="rdo-group">
+                <input type="radio" name="sc" value="一般" id="sc1"><label for="sc1">一般</label>
+                <input type="radio" name="sc" value="尽快" id="sc2"><label for="sc2">尽快</label>
+                <input type="radio" name="sc" value="越快越好" id="sc3"><label for="sc3">越快越好</label>
+                <input type="radio" name="sc" value="不太了解" id="sc4"><label for="sc4">不太了解</label>
+            </div>
+            <div class="qustion-title">
+                3.平时的学习时间多吗？
+            </div>
+            <div class="rdo-group">
+                <input type="radio" name="sj" value="很多"  id="sj1"><label for="sj1">很多</label>
+                <input type="radio" name="sj" value="不多" id="sj2"><label for="sj2">不多</label>
+                <input type="radio" name="sj" value="一般" id="sj3"><label for="sj3">一般</label>
+                <input type="radio" name="sj" value="正常休息日有空" id="sj4"><label for="sj4">正常休息日有空</label>
+            </div>
+            <div class="qustion-title">
+                4.您为什么提升学历？
+            </div>
+            <div class="rdo-group">
+                <input type="radio" name="tsxl" value="找工作" id="tsxl1"><label for="tsxl1">找工作</label>
+                <input type="radio" name="tsxl" value="考公务员" id="tsxl2"><label for="tsxl2">考公务员</label>
+                <input type="radio" name="tsxl" value="积分入户" id="tsxl3"><label for="tsxl3">积分入户</label>
+                <input type="radio" name="tsxl" value="考证评职称" id="tsxl4"><label for="tsxl4">考证评职称</label>
+            </div>
+            <div class="input-group">
+                <input placeholder="输入您的真实手机...">
+                <a class="from-btn">提交获取测评结果</a>
+            </div>
+        </form>
+    </div>
+
+</div>
+<!--测一测结束-->
+
+<!--教学服务开始-->
+<div class="jxfw">
+    <div class="jxfw-title"> </div>
+    <div class="jxfw-content">
+        <div class="jxfw-title1">本批网上培训报名<b>截止日期</b> </div>
+        <div class="jxfw-time">
+            <span class="jsmonth">09</span>月<span class="jsday" style="color: #ed4348;">19</span>日
+        </div>
+        <div class="jyfw-icons">
+            <i class="jxfw-icon-1"></i>中鹏 · 成人学历<b>培训</b>中心<br>
+            <i class="jxfw-icon-1 jxfw-icon-2"></i><b>高含金量</b>优质服务
+        </div>
+        <a class="jyfw-btn" onclick="mantis.requestChat()">中鹏培训免费咨询入口</a>
+        <a class="jyfw-btn" onclick="mantis.requestChat()">成人学历中鹏培训入口</a>
+        <div class="jyfw-tips">*2018年<span class="jsmonth">09</span>月<span class="jsday">19</span>日18:00截止*</div>
+    </div>
+</div>
+<!--教学服务结束-->
+
+<!--报名通道开始-->
+<div class="bmtd">
+    <div class="totle-title bmtd-title"></div>
+    <div class="bmtd-content">
+        <ul class="bmtd-list clearfix">
+            <li>
+                <div class="bmtd-li-title">
+                    低学历<br>
+                    修专科
+                </div>
+                <a class="bmtd-li-btn" onclick="mantis.requestChat()">报考条件</a>
+            </li>
+            <li>
+                <div class="bmtd-li-title">
+                    低学历<br>
+                    修本科
+                </div>
+                <a class="bmtd-li-btn" onclick="mantis.requestChat()">报考条件</a>
+            </li>
+            <li>
+                <div class="bmtd-li-title">
+                    高中<br>
+                    修专科
+                </div>
+                <a class="bmtd-li-btn" onclick="mantis.requestChat()">报考条件</a>
+            </li>
+            <li>
+                <div class="bmtd-li-title">
+                    高中<br>
+                    修本科
+                </div>
+                <a class="bmtd-li-btn" onclick="mantis.requestChat()">报考条件</a>
+            </li>
+            <li>
+                <div class="bmtd-li-title">
+                    专科<br>
+                    修本科
+                </div>
+                <a class="bmtd-li-btn" onclick="mantis.requestChat()">报考条件</a>
+            </li>
+            <li>
+                <div class="bmtd-li-title">
+                    其他<br>
+                    形式
+                </div>
+                <a class="bmtd-li-btn" onclick="mantis.requestChat()">报考条件</a>
+            </li>
+        </ul>
+        <a class="jyfw-btn" onclick="mantis.requestChat()">低基础考生咨询通道</a>
+    </div>
+</div>
+<!--报名通道开始-->
+
+<!--热门院校开始-->
+<div class="rmyx">
+    <div class="totle-title rmyx-title"></div>
+    <div class="rmyx-siwper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="rmyx-info">
+                        <div class="rmyx-info-content">
+                            <img src="images/list2.png">
+                            <div class="title"><span>2180</span>元起</div>
+                            <div class="info">
+                                主考院校：华南师范大学<br>
+                                主考专业：行政管理
+                                <span>
+                                    职业地位高，使用性强，通过率高，简单好考。
+                                </span>
+                            </div>
+                            <a onclick="mantis.requestChat()">查看招生简章</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rmyx-info">
+                        <div class="rmyx-info-content">
+                            <img src="images/list1.png">
+                            <div class="title"><span>2980</span>元起</div>
+                            <div class="info">
+                                主考院校：中山学院<br>
+                                主考专业：人力资源管理
+                                <span>
+                                    经济全球化，稀缺性经济学专业，薪酬待遇高，发展空间大。
+                                </span>
+                            </div>
+                            <a onclick="mantis.requestChat()">查看招生简章</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rmyx-info">
+                        <div class="rmyx-info-content">
+                            <img src="images/list3.png">
+                            <div class="title"><span>2980</span>元起</div>
+                            <div class="info">
+                                主考院校：财经类大学<br>
+                                主考专业：市场营销
+                                <span>
+                                   营销时代，高薪专业。实用性管理类专业，所学即用。
+                                </span>
+                            </div>
+                            <a onclick="mantis.requestChat()">查看招生简章</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var mySwiper = new Swiper('.rmyx-siwper .swiper-container', {
+                autoplay: 5000,//可选选项，自动滑动
+                slidesPerView : 3,
+            })
+        </script>
+    </div>
+
+    <a class="jyfw-btn rmyx-btn" onclick="mantis.requestChat()">查看更多院校专业</a>
+</div>
+
+<!--热门院校结束-->
+
+<!--成人学历开始-->
+<div class="crxl">
+    <div class="totle-title crxl-title"></div>
+    <ul class="crxl-list clearfix">
+        <li>
+            <div class="title">考研、评职称</div>
+            <div class="info">
+                无学历不能报考全国统招研究生，无学历必须有10年工作经验才能评助理级职称，高等学历仅2年便可评定。
+            </div>
+        </li>
+        <li>
+            <div class="title">考公务员</div>
+            <div class="info">
+                公务员工作稳定，待遇较高，压力较小。取得高等学历后，考公务员不受任何制约。
+            </div>
+        </li>
+        <li>
+            <div class="title">考资格证</div>
+            <div class="info">
+                取得高等学历，可以考自己喜欢的职业资格证，如：心理咨询师、律师、公证员、建造师、营养师等。
+            </div>
+        </li>
+        <li>
+            <div class="title">出国留学</div>
+            <div class="info">
+                许多国家都承认我国的成人本科学历。有了本科，可以国外直接读研究生学历，节省很多时间和费用。
+            </div>
+        </li>
+        <li>
+            <div class="title">升职加薪</div>
+            <div class="info">
+                高等学历是用人单位选举和提拔人才的重要考核标准，且工资、奖金更多。
+            </div>
+        </li>
+        <li>
+            <div class="title">落户大城市</div>
+            <div class="info">
+                很多大中型城市已经把高等学历列为积分落户的必要前提条件。
+            </div>
+        </li>
+    </ul>
+    <a class="jyfw-btn" onclick="mantis.requestChat()">人工咨询</a>
+</div>
+
+<!--成人学历结束-->
+
+<!--选择中鹏开始-->
+<div class="xzzp">
+    <div class="totle-title xzzp-title"> </div>
+    <ul class="xzzp-list">
+        <li>
+           <img src="images/xzzp1.png">
+            <div class="info">
+                <div class="title">
+                    签约保障服务，成功通过
+                </div>
+                <div class="tips">签订保障服务协议，助考服务尊享保障通过</div>
+                <a  onclick="mantis.requestChat()">查看保障协议</a>
+            </div>
+        </li>
+        <li class="right">
+
+            <div class="info">
+                <div class="title">
+                    分期无压力
+                </div>
+                <div class="tips">首付0元入学， 0利息0压力学本科</div>
+                <a  onclick="mantis.requestChat()">申请分期名额</a>
+            </div>
+            <img src="images/xzzp2.png">
+        </li>
+        <li>
+            <img src="images/xzzp3.png">
+            <div class="info">
+                <div class="title">
+                    直播教学
+                </div>
+                <div class="tips">平板、电脑、手机、随时随地学习</div>
+                <a  onclick="mantis.requestChat()">获取试听课程</a>
+            </div>
+        </li>
+        <li class="right">
+            <div class="info">
+                <div class="title">
+                    轻松备考无忧虑
+                </div>
+                <div class="tips">三大保障：课程精讲、高频知识点、考前五套题</div>
+                <a  onclick="mantis.requestChat()">下载历年考点资料</a>
+            </div>
+            <img src="images/xzzp4.png">
+        </li>
+    </ul>
+</div>
+
+<!--选择中鹏结束-->
+
+
+<!--问题开始-->
+<div class="wt">
+   <div class="totle-title wt-title"></div>
+    <ul>
+        <li>1.学费需要多少钱？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>2.成人学历报考条件是什么？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>3.如何考证比较简单省事？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>4.低基础如何考本科？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>5.没专科，可以直接考本科学历吗？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>6.大概多久能考到证书？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>7.上班族，如何安排时间考学历？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>8.我能报考什么专业？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>9.成人学历通过率高吗，难吗？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>10.报名流程是什么？手续有哪些？<a onclick="mantis.requestChat()">查看答案</a></li>
+        <li>11.含金量高不高？对工作有帮助吗？<a onclick="mantis.requestChat()">查看答案</a></li>
+    </ul>
+</div>
+
+<!--问题结束-->
+
+<!--在你身边开始-->
+<div class="znsb">
+   <div class="totle-title znsb-title"></div>
+    <ul class="clearfix">
+        <li>
+            <i class="znsb-icon"></i>
+            <div class="title">服务过20万学员</div>
+        </li>
+        <li>
+            <i class="znsb-icon znsb-icon-1"></i>
+            <div class="title">全市各区分校服务</div>
+        </li>
+        <li>
+            <i class="znsb-icon znsb-icon-2"></i>
+            <div class="title">专注学历培训15年</div>
+        </li>
+        <li>
+            <i class="znsb-icon znsb-icon-3"></i>
+            <div class="title">十余项业界大奖</div>
+        </li>
+    </ul>
+</div>
+
+<!--在你身边结束-->
+
+<!--底部开始-->
+<ul class="bottom clearfix">
+    <li class="on">
+        <i class="bottom-icon bottom-icon-1"></i>
+        首页
+    </li>
+    <li>
+        <i class="bottom-icon bottom-icon-2"></i>
+        试听课
+    </li>
+    <li>
+        <i class="bottom-icon bottom-icon-3"></i>
+        消息
+    </li>
+    <li>
+        <i class="bottom-icon bottom-icon-4"></i>
+        我的
+    </li>
+</ul>
+
+<!--底部结束-->
+
+<script>
+    $(function () {
+        $(".jsmonth").text(GetDateStrm(2));
+        $(".jsday").text(GetDateStrd(2));
+        $(".bottom li").click(function () {
+            $(this).addClass("on").siblings().removeClass("on");
+        })
+    })
+    function GetDateStrm(AddDayCount){
+        var dd = new Date();
+        dd.setDate(dd.getDate()+AddDayCount);//获取AddDayCount天后的日期
+        // var y = dd.getYear();
+        var m = dd.getMonth()+1;//获取当前月份的日期
+        // var d = dd.getDate();
+        return  m;
+    }
+
+    function GetDateStrd(AddDayCount){
+        var dd = new Date();
+        dd.setDate(dd.getDate()+AddDayCount);//获取AddDayCount天后的日期
+        // var y = dd.getYear();
+        // var m = dd.getMonth()+1;//获取当前月份的日期
+        var d = dd.getDate();
+        return  d;
+    }
+
+</script>
+<br><br><br><br>
 </body>
 </html>
