@@ -553,6 +553,9 @@ a {
 .znsb-title {
   background-position: 0 -13.76rem; }
 
+.znsb ul {
+  margin-bottom: 2.1333333333rem; }
+
 .znsb ul li {
   float: left;
   width: 8rem;
