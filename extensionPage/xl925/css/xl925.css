@@ -311,3 +311,114 @@ li{
     font-size: 12px;
     color: #9ebfe6;
 }
+.tk{
+    display: none;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+}
+.tk-content{
+    width:767px;
+    height:493px;
+    border-radius: 10px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    background: #ffffff;
+}
+.tk-content .title{
+    background: #3c7ed2;
+    height:80px;
+    line-height:80px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tk-content .info{
+    text-align: center;
+    font-size: 22px;
+    color: #666666;
+    margin: 60px auto 30px;
+}
+.tk-content .info span{
+    color: #fe0000;
+}
+.tk-form-group{
+    line-height:45px;
+    width:363px;
+    height:45px;
+    position: relative;
+    margin:0 auto 24px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #666666;
+
+}
+.tk-form-group input{
+    font-size: 18px;
+    width:240px;
+    padding-left: 12px;
+    height:45px;
+    border: 1px solid #4987d5;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.tk-form-btn{
+    display: block;
+    margin: auto;
+    width:313px;
+    line-height:50px;
+    background: #3c7ed2;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.tk-form-btn:active{
+    background: #356eb8;
+}
+.tk-tips{
+    text-align: center;
+    color: #999999;
+    margin-top: 40px;
+}
+.tk-close{
+    position: absolute;
+    right:0;
+    top:0;
+    border-top-right-radius: 10px;
+    width:80px;
+    height:80px;
+    cursor: pointer;
+    background: url("../images/close.png") center center no-repeat;
+}
+.tk-close:hover{
+   background-color: rgba(255,255,255,0.1);
+}
+.inout-group-tips{
+    line-height: 20px;
+    position: absolute;
+    top: -32px;
+    left: 0;
+    color: #fe0000;
+    display: none;
+}
+#backTop{
+    cursor: pointer;
+    position: fixed;
+    bottom:60px;
+    right:8px;
+    width:60px;
+    height:60px;
+    border-radius: 15px;
+    background:#71a1de  url("../images/top.png") no-repeat;
+}

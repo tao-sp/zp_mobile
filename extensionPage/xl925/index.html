@@ -11,8 +11,11 @@
 <div class="xl-cx">
     <div class="xl-cx-form container_1200">
         <div class="inout-group">
-            <input placeholder="请输入你要查询的机构名称">
-            <a>立即查询</a>
+            <div class="inout-group-tips">
+                *查询内容不能为空
+            </div>
+            <input id="inputval" placeholder="请输入你要查询的机构名称">
+            <a onclick="tkOpen()">立即查询</a>
         </div>
         <div class="xl-cx-tips">各位学员请注意：为了您能顺利完成学业，请第一时间进行机构查询，谨防上当受骗！</div>
     </div>
@@ -383,6 +386,41 @@
 
 </div>
 <!--底部结束-->
+
+<!--弹框开始-->
+<div class="tk">
+    <div class="tk-content">
+        <div class="tk-close" onclick="tkClose()"></div>
+        <div class="title">
+            查询结果将发送到你的手机
+        </div>
+        <div class="info">
+            查询机构：<span id="result"></span>
+        </div>
+        <form class="tk-form">
+            <div class="tk-form-group">
+                姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：
+                <input placeholder="请输入您的真实姓名">
+            </div>
+            <div class="tk-form-group">
+                电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：
+                <input placeholder="请输入您的电话号码">
+            </div>
+            <a class="tk-form-btn">接收查询结果</a>
+        </form>
+        <div class="tk-tips">
+            您的电话号码仅用于发送查询结果，我们采用SSL加密技术确保您的信息安全，请放心提交。
+        </div>
+    </div>
+</div>
+<!--弹框结束-->
+
+<!--返回顶部开始-->
+<div id="backTop" title="返回顶部">
+
+</div>
+<!--返回顶部开始-->
+
 <script>
     var speed=15;
     var colee2=document.getElementById("colee2");
@@ -401,6 +439,56 @@
     var MyMar1=setInterval(Marquee1,speed)
     colee.onmouseover=function() {clearInterval(MyMar1)}
     colee.onmouseout=function(){MyMar1=setInterval(Marquee1,speed)}
+
+    function tkOpen() {
+        var inputval = $("#inputval").val();
+        if (inputval==null||inputval==""){
+            $(".inout-group-tips").show();
+            $(".inout-group-tips").animate({
+                "left":"10px"
+            },100)
+            $(".inout-group-tips").animate({
+                "left":"0"
+            },100)
+            $(".inout-group-tips").animate({
+                "left":"5px"
+            },100)
+            $(".inout-group-tips").animate({
+                "left":"0"
+            },100)
+        }else {
+            $("#result").html(inputval);
+            $(".tk").fadeIn();
+        }
+    }
+    function tkClose() {
+        $(".tk").fadeOut();
+    }
+    $(function () {
+        $("#inputval").focus(function () {
+            $(".inout-group-tips").fadeOut();
+        })
+    })
+    //首先将#back-to-top隐藏
+    $("#backTop").hide();
+    //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
+    $(function() {
+        $(window).scroll(function() {
+            if($(window).scrollTop() > 100) {
+                $("#backTop").fadeIn(1500);
+            } else {
+                $("#backTop").fadeOut(1500);
+            }
+        });
+        //当点击跳转链接后，回到页面顶部位置
+        $("#backTop").click(function() {
+            $('body,html').animate({
+                    scrollTop: 0
+                },
+                1000);
+            return false;
+        });
+    });
 </script>
 
 </body>
