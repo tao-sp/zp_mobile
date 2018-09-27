@@ -2,7 +2,9 @@ $(function () {
     $(".jsmonth").text(GetDateStrm(2));
     $(".jsday").text(GetDateStrd(2));
     $(".jsyear").text(GetDateStry(2));
+    document.body.addEventListener('touchstart', function () { //...空函数即可});
 })
+
 function GetDateStrm(AddDayCount){
     var dd = new Date();
     dd.setDate(dd.getDate()+AddDayCount);//获取AddDayCount天后的日期
