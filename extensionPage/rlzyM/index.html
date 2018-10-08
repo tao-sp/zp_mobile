@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>人力资源</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/rlzy.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+
+</head>
+<body class="font_yahei">
+
+<!--头部开始-->
+<div class="header">
+    <a onclick="mantis.requestChat()">报名入口  >></a>
+</div>
+<!--头部开始-->
+
+<a>
+    <img class="banner" src="images/banner.png">
+</a>
+
+<!--自助查询开始-->
+<div class="zzcx">
+    <form>
+        <div class="rdo-group-border">
+            <div class="rdo-group clearfix">
+                <div class="rdo-item">
+                    <span>工作年限</span>
+                    <input type="radio" name="nx" value="无工作经验" id="nx1"><label for="nx1">无工作经验</label>
+                    <input type="radio" name="nx" value="1-2年" id="nx2"><label for="nx2">1-2年</label>
+                    <input type="radio" name="nx" value="3-6年" id="nx3"><label for="nx3">3-6年</label>
+                    <input checked type="radio" name="nx" value="7年以上" id="nx4"><label for="nx4">7年以上</label>
+                </div>
+                <div class="rdo-item">
+                    <span>最高学历</span>
+                    <input type="radio" name="xl" value="高中" id="xl1"><label for="xl1">高中</label>
+                    <input type="radio" name="xl" value="大专" id="xl2"><label for="xl2">大专</label>
+                    <input type="radio" name="xl" value="本科" id="xl3"><label for="xl3">本科</label>
+                    <input checked type="radio" name="xl" value="其他" id="xl4"><label for="xl4">其他</label>
+                </div>
+                <div class="rdo-item">
+                    <span>您的年龄</span>
+                    <input type="radio" name="nl" value="21岁以下" id="nl1"><label for="nl1">21岁以下</label>
+                    <input type="radio" name="nl" value="22-24岁" id="nl2"><label for="nl2">22-24岁</label>
+                    <input type="radio" name="nl" value="25-28岁" id="nl3"><label for="nl3">25-28岁</label>
+                    <input checked type="radio" name="nl" value="29岁以上" id="nl4"><label for="nl4">29岁以上</label>
+                </div>
+            </div>
+        </div>
+        <input class="form-input" placeholder="姓名：">
+        <input class="form-input" placeholder="电话：">
+        <a class="form-btn">免费查询</a>
+    </form>
+
+</div>
+<!--自助查询开始-->
+
+<!--人力资源管理师-->
+<ul class="rlzy-list clearfix">
+    <li>
+        <div class="title">
+            Three
+            <span>
+            人力资源管理师<br>三级
+            </span>
+        </div>
+        <div class="info">
+            6年工作经验<br>
+            四级+3年+中鹏三级培训<br>
+            大专+3年工作经验<br>
+            本科+1年工作经验<br>
+            硕士学历
+        </div>
+        <a class="btn" onclick="mantis.requestChat()">报考入口</a>
+    </li>
+    <li>
+        <div class="title">
+            Two
+            <span>
+            人力资源管理师<br>二级
+            </span>
+        </div>
+        <div class="info">
+            13年工作经验<br>
+            三级+5年工作经验<br>
+            本科+5年工作经验<br>
+            本科+3级+3年+二级培训<br>
+            硕士+2年
+        </div>
+        <a class="btn" onclick="mantis.requestChat()">报考入口</a>
+    </li>
+    <li>
+        <div class="title">
+            one
+            <span>
+            人力资源管理师<br>一级
+            </span>
+        </div>
+        <div class="info">
+            <br>
+            19年工作经验 <br>
+            二级+4年工作经验 <br>
+            二级+3年+中鹏一级培训
+
+        </div>
+        <a class="btn" onclick="mantis.requestChat()">报考入口</a>
+    </li>
+</ul>
+<!--人力资源管理师-->
+
+<div class="bktj-content">
+    <ul class="bktj clearfix">
+        <li>
+            <div class="top">
+                报考条件
+                <span>三级二级一级</span>
+                <a onclick="mantis.requestChat()">了解详情</a>
+            </div>
+            <i class="icon bg-icon1"></i>
+        </li>
+        <li>
+            <div class="top">
+                <a onclick="mantis.requestChat()">了解详情</a>
+                报考费用
+                <span>最高补贴<b>2000</b>元</span>
+            </div>
+            <i class="icon bg-icon2"></i>
+        </li>
+        <li>
+            <div class="top">
+                考试报名
+                <span><b>0</b>基础/<b>有</b>经验</span>
+                <a onclick="mantis.requestChat()">了解详情</a>
+            </div>
+            <i class="icon bg-icon3"></i>
+        </li>
+        <li>
+            <div class="top">
+                <a onclick="mantis.requestChat()">了解详情</a>
+                报考流程
+                <span>学院<b>统一</b>代报考</span>
+            </div>
+            <i class="icon bg-icon4"></i>
+        </li>
+        <li>
+            <div class="top">
+                考试时间
+                <span class="font-size">全国统考一年<b>两次</b></span>
+                <a onclick="mantis.requestChat()">了解详情</a>
+            </div>
+            <i class="icon bg-icon5"></i>
+        </li>
+        <li>
+            <div class="top">
+                <a onclick="mantis.requestChat()">了解详情</a>
+                考试科目
+                <span class="font-size">理论+实践+论文指导</span>
+            </div>
+            <i class="icon bg-icon6"></i>
+        </li>
+    </ul>
+</div>
+<div class="kcnr">
+    <a onclick="mantis.requestChat()" class="kcnr-btn1"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn2"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn3"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn4"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn5"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn6"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn7"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn8"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn9"></a>
+    <a onclick="mantis.requestChat()" class="kcnr-btn10"></a>
+</div>
+</body>
+</html>
