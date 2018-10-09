@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>我的资料</title>
+    <link rel="stylesheet" href="css/lxxy.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/lxxy.js"></script>
+    <link rel="stylesheet" href="js/imageupload/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="js/imageupload/cropper/cropper.min.css">
+    <link rel="stylesheet" href="js/imageupload/sitelogo/sitelogo.css">
+    <script src="js/imageupload/cropper/cropper.min.js"></script>
+    <script src="js/imageupload/sitelogo/sitelogo.js"></script>
+    <script src="js/imageupload/bootstrap/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<!--头部开始-->
+<div class="lxxy container_1200 clearfix">
+    <img class="lxxy-logo" src="images/logo.png">
+    <div class="lxxy-user">
+        <img src="images/icon-user.png"><span>奔跑的小强多余的</span><i class="icon-down"></i>
+    </div>
+    <div class="lxxy-search">
+        <form class="lxxy-search-group">
+            <input placeholder="搜索课程">
+            <button class="icon-search"> </button>
+        </form>
+        <ul class="lxxy-search-list">
+            <li><a>网页前端</a></li>
+            <li><a>室内设计</a></li>
+            <li><a>影视动画</a></li>
+            <li><a>服装设计</a></li>
+            <li><a>珠宝设计</a></li>
+        </ul>
+    </div>
+</div>
+<!--头部结束-->
+<!--导航开始-->
+<div class="lxxy-nav">
+    <ul class="lxxy-nav-list clearfix container_1200">
+        <li><a href="index.html">首页</a></li>
+        <li class="on"><a href="course.html">专业课程</a></li>
+        <li><a href="lesson.html">公开课</a></li>
+        <li><a href="question.html">在线题库</a></li>
+        <li><a href="live.html">直播</a></li>
+        <li><a target="_blank" href="http://www.gdzp.org/">中鹏官网</a></li>
+    </ul>
+</div>
+<!--导航结束-->
+
+<div class="lxxy-info">
+    <div class="container_1200 clearfix">
+        <div class="lxxy-info-left">
+            <div class="lxxy-info-img">
+                <img src="images/infoimg.png">
+            </div>
+            <div class="title">
+                亲爱的，奔跑的小强
+                <span>欢迎回来</span>
+            </div>
+            <ul class="info-list clearfix">
+                <li class="line">
+                    <i class="info-icon"></i>
+                    <div class="title">
+                        积分
+                        <span>161积分</span>
+                    </div>
+                </li>
+                <li>
+                    <i class="info-icon info-icon-1"></i>
+                    <div class="title">
+                        已学习
+                        <span>12小时35分</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="lxxy-info-content container_1200 clearfix">
+    <ul class="lxxy-info-nav">
+        <li><a>我的订单</a></li>
+        <li><a>我的优惠券</a></li>
+        <li>我的课程</a></li>
+        <li><a>我的题库</a></li>
+        <li><a>我的收藏</a></li>
+        <li class="on"><a>我的资料</a></li>
+        <li><a>我的消息</a></li>
+        <li><a>安全设置</a></li>
+    </ul>
+    <div class="document">
+        <div class="document-title">
+            我的资料
+        </div>
+        <div class="document-content">
+            <form>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div id="crop-avatar" class="col-md-16">
+                            <div class="avatar-view">
+                                <img src="images/infoimg.png" alt="Logo">
+                                <div class="change-img">
+                                    修改头像
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="document-tips">支持jpg/gif/png/bmp格式的图片<br>
+                    建议文件大小小于2M</div>
+                <div class="document-gruop">
+                    <span><em>*</em>昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称:</span>
+                    <input class="document-input" value="奔跑的小强">
+                </div>
+                <div class="document-gruop">
+                    <span><em>*</em>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别:</span>
+                    <input class="document-rdo"  type="radio" name="sex" id="sex1"><label for="sex1">男</label>
+                    <input class="document-rdo"  type="radio" name="sex" id="sex2"><label for="sex2">女</label>
+                </div>
+                <div class="document-gruop">
+                    <span><em>*</em>出生年月:</span>
+                    <input type="date" class="document-input">
+                </div>
+                <div class="document-gruop">
+                    <span><em>*</em>真实姓名:</span>
+                    <input class="document-input">
+                </div>
+                <div class="document-gruop">
+                    <span>个性签名:</span>
+                    <input class="document-input" >
+                </div>
+                <div class="document-gruop">
+                   <button class="document-btn">确认修改</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form class="avatar-form" action="{{url('admin/upload-logo')}}" enctype="multipart/form-data" method="post">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal" type="button">&times;</button>
+                    <h4 class="modal-title" id="avatar-modal-label">修改头像</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="avatar-body">
+                        <div class="avatar-upload">
+                            <input class="avatar-src" name="avatar_src" type="hidden">
+                            <input class="avatar-data" name="avatar_data" type="hidden">
+                            <label for="avatarInput">图片上传</label>
+                            <input class="avatar-input" id="avatarInput" name="avatar_file" type="file"></div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="avatar-wrapper"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="avatar-preview preview-lg"></div>
+                                <div class="avatar-preview preview-md"></div>
+                                <div class="avatar-preview preview-sm"></div>
+                            </div>
+                        </div>
+                        <div class="row avatar-btns">
+                            <div class="col-md-8">
+                                <div class="btn-group">
+                                    <button class="btn" data-method="rotate" data-option="-90" type="button" title="Rotate -90 degrees"><i class="fa fa-undo"></i> 向左旋转</button>
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn" data-method="rotate" data-option="90" type="button" title="Rotate 90 degrees"><i class="fa fa-repeat"></i> 向右旋转</button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-success btn-block avatar-save" type="submit"><i class="fa fa-save"></i> 保存修改</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="loading" aria-label="Loading" role="img" tabindex="-1"></div>
+
+<!--底部开始-->
+<div class="lxxy-footer">
+    <div class="lxxy-footer-content container_1200 clearfix">
+        <div class="lxxy-footer-left">
+            <ul class="lxxy-footer-nav-list">
+                <li><a>首页</a></li>
+                <li><a>专业课程</a></li>
+                <li><a>公开课</a></li>
+                <li><a>在线题库</a></li>
+                <li><a>中鹏官网</a></li>
+            </ul>
+            <ul class="location-list clearfix">
+                <li>
+                    <b>
+                        地址
+                    </b>
+                    广东省深圳市龙岗校区吉祥<br>
+                    地铁站b出口湖广通大厦4楼
+                </li>
+                <li>
+                    <b>
+                        E-mail
+                    </b>
+                    <span>zhouying@zppx.net</span>
+                </li>
+                <li>
+                    <b>
+                        联系号码
+                    </b>
+                    <span>400-930-6618</span>
+                </li>
+            </ul>
+        </div>
+        <div class="lxxy-footer-right">
+            <div class="qrcode-title">移动端APP</div>
+            <ul class="qrcode-list">
+                <li><i class="icon-android"></i>Android</li>
+                <li><i class="icon-ios"></i>IOS</li>
+            </ul>
+            <div class="qrcode-title">微信公众号</div>
+            <ul class="qrcode-list">
+                <li>订阅号</li>
+                <li>服务号</li>
+            </ul>
+        </div>
+    </div>
+    <span>
+        Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+        备案号: 粤ICP备09069122号-6    粤公网安备 44030702000254号
+        <a><img src="images/newGovIcon.png"></a>
+    </span>
+</div>
+<!--底部结束-->
+
+</body>
+</html>

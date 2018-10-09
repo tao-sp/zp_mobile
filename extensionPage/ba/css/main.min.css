@@ -1,0 +1,2877 @@
+.g-body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.mid1200 {
+  margin: 0 auto;
+  width: 1200px;
+}
+/*导航的a链接的样式*/
+/* 轮播的左右按钮的样式控制 */
+/*多行文本超出隐藏*/
+/*由标题，副标题，底部横线组成的头部*/
+.three-element-header {
+  padding-top: 78px;
+}
+.three-element-header .tit {
+  font-size: 36px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+.three-element-header .sub-tit {
+  margin: 22px auto 0;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 18px;
+  text-align: center;
+  color: #999;
+}
+.three-element-header .line {
+  margin: 26px  auto 0;
+  width: 100px;
+  height: 3px;
+  background-color: #fddd3a;
+}
+/*官网--首页-- 页面样式*/
+.g-header {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.g-header .h-logo {
+  margin-top: 14px;
+  width: 219px;
+  height: 51px;
+  font-size: 20px;
+  line-height: 51px;
+  text-indent: -1000px;
+  color: #fff;
+  background: url('http://www.gdzp.org/assets/images/guanwang/1.png') no-repeat left center;
+}
+.g-header .g-nav .g-nav-item {
+  float: left;
+  position: relative;
+  z-index: 1;
+  width: 111px;
+}
+.g-header .g-nav .g-nav-item > a {
+  display: block;
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+}
+.g-header .g-nav .g-nav-item .g-sub-nav-item {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 2;
+  padding: 16px 0 18px;
+  width: 100%;
+  background: #ed9336;
+}
+.g-header .g-nav .g-nav-item .g-sub-nav-item li + li {
+  margin-top: 15px;
+}
+.g-header .g-nav .g-nav-item .g-sub-nav-item li {
+  text-align: center;
+}
+.g-header .g-nav .g-nav-item .g-sub-nav-item li a {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  height: 18px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 18px;
+  text-align: center;
+  color: #ffd1a2;
+  display: inline-block;
+}
+.g-header .g-nav .g-nav-item .g-sub-nav-item li a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.g-header .g-nav .on > a {
+  background-color: #ed9336;
+}
+.g-scroll-header {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+}
+.g-scroll-header .h-logo {
+  margin-top: 14px;
+  width: 219px;
+  height: 51px;
+  font-size: 20px;
+  line-height: 51px;
+  text-indent: -1000px;
+  color: #fff;
+  background: url('http://www.gdzp.org/assets/images/guanwang/3.png') no-repeat left center;
+}
+.g-scroll-header .g-nav .g-nav-item {
+  float: left;
+  position: relative;
+  z-index: 1;
+  width: 111px;
+}
+.g-scroll-header .g-nav .g-nav-item > a {
+  display: block;
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  line-height: 80px;
+  text-align: center;
+  color: #333;
+}
+.g-scroll-header .g-nav .g-nav-item .g-sub-nav-item {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 2;
+  padding: 16px 0 18px;
+  width: 100%;
+  background: #ed9336;
+}
+.g-scroll-header .g-nav .g-nav-item .g-sub-nav-item li + li {
+  margin-top: 19px;
+}
+.g-scroll-header .g-nav .g-nav-item .g-sub-nav-item li > a {
+  display: block;
+  width: 100%;
+  height: 14px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 14px;
+  text-align: center;
+  color: #ffd1a2;
+}
+.g-scroll-header .g-nav .g-nav-item .g-sub-nav-item li > a:hover {
+  color: #fff;
+}
+.g-scroll-header .g-nav .on > a {
+  background-color: #ed9336;
+  color: #fff;
+}
+.g-footer {
+  background-color: #313131;
+}
+.g-footer .footer-top {
+  border-bottom: 1px solid #666;
+  padding-top: 68px;
+  padding-bottom: 50px;
+}
+.g-footer .footer-top .left {
+  width: 1040px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #666;
+}
+.g-footer .footer-top .left .footer-nav {
+  margin-top: 7px;
+  height: 25px;
+  font-size: 0;
+}
+.g-footer .footer-top .left .footer-nav a,
+.g-footer .footer-top .left .footer-nav span {
+  display: inline-block;
+  font-size: 16px;
+  color: #666;
+}
+.g-footer .footer-top .left .footer-nav span {
+  margin: 0 16px;
+}
+.g-footer .footer-top .left .footer-nav a:hover {
+  color: #fff;
+}
+.g-footer .footer-top .left .footer-link {
+  margin-top: 37px;
+}
+.g-footer .footer-top .left .footer-link .first,
+.g-footer .footer-top .left .footer-link .underline {
+  float: left;
+  width: 265px;
+  font-size: 0;
+}
+.g-footer .footer-top .left .footer-link .underline .link-item{
+  width:185px !important;
+}
+.g-footer .footer-top .left .footer-link .first .icon,
+.g-footer .footer-top .left .footer-link .underline .icon,
+.g-footer .footer-top .left .footer-link .first .link-item,
+.g-footer .footer-top .left .footer-link .underline .link-item {
+  display: inline-block;
+  vertical-align: top;
+}
+.g-footer .footer-top .left .footer-link .first .icon,
+.g-footer .footer-top .left .footer-link .underline .icon {
+  width: 66px;
+  height: 66px;
+}
+.g-footer .footer-top .left .footer-link .first .link-item,
+.g-footer .footer-top .left .footer-link .underline .link-item {
+  margin-left: 12px;
+  width: 178px;
+  font-size: 14px;
+}
+.g-footer .footer-top .left .footer-link .first .link-item .tit,
+.g-footer .footer-top .left .footer-link .underline .link-item .tit {
+  display: block;
+  font-weight: bold;
+}
+.g-footer .footer-top .left .footer-link .first .link-item .cont,
+.g-footer .footer-top .left .footer-link .underline .link-item .cont {
+  margin-top: 4px;
+  display: block;
+  line-height: 18px;
+}
+.g-footer .footer-top .left .footer-link .first {
+  width: 290px;
+}
+.g-footer .footer-top .left .footer-link .second {
+  width: 200px !important;
+}
+.g-footer .footer-top .left .footer-link .second .link-item{
+  width: 100px !important;
+}
+.g-footer .footer-top .left .footer-link .underline .link-item .cont {
+  margin-top: 9px;
+  font-size: 24px;
+  line-height: 24px;
+}
+.g-footer .footer-top .right {
+  width: 124px;
+}
+.g-footer .footer-top .right .weixin-desc {
+  margin-top: 4px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: center;
+  color: #666;
+}
+.g-footer .footer-bottom {
+  padding-bottom: 23px;
+}
+.g-footer .footer-bottom .copyright,
+.g-footer .footer-bottom .licensing {
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 21px;
+  text-align: center;
+  color: #535353;
+}
+.g-footer .footer-bottom .copyright {
+  margin-top: 15px;
+}
+.g-footer .footer-bottom .licensing em {
+  margin: 0 8px;
+}
+.g-footer .footer-bottom .advantage {
+  margin-top: 7px;
+  font-size: 0;
+  text-align: center;
+}
+.g-footer .footer-bottom .advantage li {
+  display: inline-block;
+  height: 35px;
+}
+.g-footer .footer-bottom .advantage li + li {
+  margin-left: 32px;
+}
+ .g-main {
+  margin-bottom: 59px;
+}
+.slideBox {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.slideBox .hd {
+  position: absolute;
+  left: 0;
+  bottom: 44px;
+  width: 100%;
+  z-index: 3;
+}
+.slideBox .hd ul {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+.slideBox .hd ul li {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 10px;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  background-color: #ff9324;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.slideBox .hd ul li.on .icon {
+  display: block;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  z-index: auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  border: 1px solid #ff9324;
+  content: '';
+}
+.slideBox .bd {
+  position: relative;
+  z-index: 3;
+}
+.slideBox .bd ul li {
+  float: left;
+  width: 100%;
+}
+.slideBox .prev,
+.slideBox .next {
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 62px;
+  height: 62px;
+  z-index: auto;
+  background-color: rgba(255, 147, 36, 0.3);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.slideBox .prev:hover,
+.slideBox .next:hover {
+  background-color: #ff9324;
+}
+.slideBox .prev {
+  left: 80px;
+  right: auto;
+  background-image: url("http://www.gdzp.org/assets/images/guanwang/left.png");
+}
+.slideBox .next {
+  right: 80px;
+  left: auto;
+  background-image: url("http://www.gdzp.org/assets/images/guanwang/right.png");
+}
+.g-business .business-header {
+  padding-top: 78px;
+}
+.g-business .business-header .tit {
+  font-size: 36px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 36px;
+  text-align: center;
+  color: #333;
+}
+.g-business .business-header .sub-tit {
+  margin: 22px auto;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 18px;
+  text-align: center;
+  color: #666;
+}
+.g-business .business-header .line {
+  margin: 0 auto;
+  width: 100px;
+  height: 3px;
+  background-color: #ed9336;
+}
+.g-business .business-contain {
+  margin-top: 40px;
+}
+.g-business .business-contain .cat-list .cat-list-item {
+  float: left;
+  width: 235px;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  -webkit-background-size: 470px 520px;
+  background-size: 470px 520px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.g-business .business-contain .cat-list .cat-list-item .initial-show {
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.g-business .business-contain .cat-list .cat-list-item .initial-show .layer {
+  position: absolute;
+  z-index: 2;
+  width: 235px;
+  height: 520px;
+  background: url("http://www.gdzp.org/assets/images/guanwang/21.png") no-repeat left top / cover;
+}
+.g-business .business-contain .cat-list .cat-list-item .initial-show .category {
+  position: relative;
+  z-index: 3;
+  width: 235px;
+  height: 520px;
+}
+.g-business .business-contain .cat-list .cat-list-item .initial-show .cat-name {
+  display: none;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content {
+  padding: 10px;
+  width: 450px;
+  background-color: rgba(237, 147, 54, 0.8);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper {
+  position: relative;
+  z-index: 2;
+  border: 1px solid #edc8a1;
+  padding: 30px  20px 25px 35px;
+  height: 443px;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li {
+  font-size: 0;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .icon,
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .icon {
+  width: 62px;
+  height: 62px;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .right {
+  margin-left: 20px;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .right h4 {
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  line-height: 27px;
+  text-align: left;
+  color: #fff;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .right h4 a {
+  color: #fff;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .right .major {
+  width: 310px;
+  font-size: 17px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 27px;
+  text-align: left;
+  color: #fff;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li .right .major a {
+  display: inline-block;
+  color: #fff;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bus-cat-cont-list li + li {
+  margin-top: 20px;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .top-right-corn,
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bot-right-corn {
+  position: absolute;
+  z-index: 3;
+  width: 16px;
+  height: 16px;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .top-right-corn {
+  right: 0;
+  top: 0;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .bot-right-corn {
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+.g-business .business-contain .cat-list .cat-list-item .business-cat-content .inner-wrapper .more {
+  margin-top: 18px;
+  display: block;
+  width: 151px;
+  height: 34px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 34px;
+  text-align: center;
+  color: #ed9336;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  background-color: #fff;
+}
+.g-business .business-contain .cat-list .cat-list-item-1 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/17.png');
+}
+.g-business .business-contain .cat-list .cat-list-item-2 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/18.jpg');
+}
+.g-business .business-contain .cat-list .cat-list-item-3 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/19.jpg');
+}
+.g-business .business-contain .cat-list .cat-list-item-4 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/20.jpg');
+}
+.g-business .business-contain .cat-list .cat-list-item + .cat-list-item {
+  margin-left: 8px;
+}
+.g-business .business-contain .cat-list .on {
+  width: 470px;
+}
+.g-abuot-us {
+  margin-top: 80px;
+}
+.g-abuot-us .about-us-in {
+  position: relative;
+  z-index: 2;
+}
+.g-abuot-us .about-us-in .left {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 630px;
+  height: 440px;
+  background: #ed9336 url('http://www.gdzp.org/assets/images/guanwang/palyer.png') no-repeat center center;
+}
+.g-abuot-us .about-us-in .left .text {
+  font-size: 66px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 440px;
+  text-align: center;
+  color: #fff;
+}
+.g-abuot-us .about-us-in .left .text em {
+  font-weight: bold;
+}
+.g-abuot-us .about-us-in .left .player {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -42px;
+  margin-top: -53px;
+  z-index: 4;
+  width: 84px;
+  height: 107px;
+  cursor: pointer;
+}
+.g-abuot-us .about-us-in .left .player .show-video {
+  display: block;
+  width: 83px;
+  height: 107px;
+}
+.g-abuot-us .about-us-in .left .video-wrapper {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+.g-abuot-us .about-us-in .right {
+  position: relative;
+  z-index: 2;
+  margin-left: 450px;
+  padding-left: 242px;
+  width: 100%;
+  height: 574px;
+  background-color: #313131;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+}
+.g-abuot-us .about-us-in .right .tit {
+  margin-left: 302px;
+  margin-bottom: 40px;
+  padding-top: 43px;
+  width: 204px;
+  height: 62px;
+}
+.g-abuot-us .about-us-in .right .outline {
+  width: 508px;
+}
+.g-abuot-us .about-us-in .right .outline .g-about-desc em {
+  color: #ed9336;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list {
+  margin-top: 28px;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list li {
+  float: left;
+  margin-top: 5px;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list li h4 {
+  line-height: 14px;
+  text-align: left;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list li h4 span,
+.g-abuot-us .about-us-in .right .outline .g-intro-list li h4 .icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list li h4 .icon {
+  margin-right: 10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #fff;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list li .desc-h4 {
+  margin-top: 5px;
+  text-indent: 20px;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list .item1,
+.g-abuot-us .about-us-in .right .outline .g-intro-list .item3 {
+  width: 248px;
+}
+.g-abuot-us .about-us-in .right .outline .g-intro-list .item2,
+.g-abuot-us .about-us-in .right .outline .g-intro-list .item4 {
+  width: 260px;
+}
+.g-abuot-us .about-us-in .right .more {
+  margin-top: 50px;
+  display: block;
+  width: 150px;
+  height: 34px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 34px;
+  text-align: center;
+  color: #313131;
+  background-color: #ed9336;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+}
+.information-category {
+  margin-top: 70px;
+  padding-top: 19px;
+  width: 100%;
+  background: url('http://www.gdzp.org/assets/images/guanwang/23.png') no-repeat center top / cover;
+}
+.information-category .tit {
+  width: 260px;
+}
+.information-category .info-list {
+  margin-top: 40px;
+}
+.information-category .info-list > li {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 332px;
+  height: 368px;
+}
+.information-category .info-list > li:nth-child(4) {
+  margin-left: 0;
+}
+.information-category .info-list > li .initial-show {
+  position: relative;
+  z-index: 2;
+  padding-top: 27px;
+  padding-left: 29.5px;
+  padding-right: 29.5px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+}
+.information-category .info-list > li .initial-show .news-tit-wrapper {
+  margin-top: 23px;
+  padding: 0 8px;
+}
+.information-category .info-list > li .initial-show .news-tit-wrapper .index,
+.information-category .info-list > li .initial-show .news-tit-wrapper .news-tit {
+  display: block;
+}
+.information-category .info-list > li .initial-show .news-tit-wrapper .news-tit {
+  height: 50px;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.information-category .info-list > li .initial-show .outline {
+  margin-top: 11px;
+  padding: 0 8px;
+  height: 75px;
+  font-size: 14px;
+  color: #666;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 3;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.information-category .info-list > li .info-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  border: 1px solid #ed9336;
+  padding: 26px 28.5px 20px;
+  width: 273px;
+  height: 320px;
+  -webkit-box-shadow: 0 0 10px 4px rgba(237, 147, 54, 0.35);
+  -moz-box-shadow: 0 0 10px 4px rgba(237, 147, 54, 0.35);
+  box-shadow: 0 0 10px 4px rgba(237, 147, 54, 0.35);
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+  background-color: #fff;
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  -ms-transition: top 0.3s;
+  -o-transition: top 0.3s;
+  transition: top 0.3s;
+}
+.information-category .info-list > li .info-content .date,
+.information-category .info-list > li .info-content .content-tit,
+.information-category .info-list > li .info-content .content {
+  padding: 0 8px;
+}
+.information-category .info-list > li .info-content .content-tit {
+  margin-top: 19px;
+  font-size: 18px;
+  color: #ed9336;
+}
+.information-category .info-list > li .info-content .content {
+  overflow: hidden;
+  margin-top: 7px;
+  height: 75px;
+  color: #666;
+}
+.information-category .info-list > li:hover .info-content {
+  display: block;
+}
+.information-category .info-list > li .thumb {
+  width: 273px;
+  height: 158px;
+}
+.information-category .info-list > li + li {
+  margin-left: 55.5px;
+}
+.information-category .more {
+  margin: 29px auto 0;
+  display: block;
+  width: 152px;
+  height: 34px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  background-color: #ed9336;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+}
+.cooperation {
+  padding-top: 78px;
+  padding-top: 0;
+  margin-top: 98px;
+}
+.cooperation .tit {
+  font-size: 36px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 36px;
+  text-align: center;
+  color: #333;
+}
+.cooperation .sub-tit {
+  margin: 22px auto;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 18px;
+  text-align: center;
+  color: #666;
+}
+.cooperation .line {
+  margin: 0 auto;
+  width: 100px;
+  height: 3px;
+  background-color: #ed9336;
+}
+.cooperation .cooperation-header .sub-tit {
+  margin: 24px auto;
+}
+.cooperation .cooperation-content .cooperation-partner-list {
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.cooperation .cooperation-content .cooperation-partner-list li {
+  overflow: hidden;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 224px;
+  height: 120px;
+}
+.cooperation .cooperation-content .cooperation-partner-list li img {
+  width: 224px;
+  height: 120px;
+}
+/*官网--资讯中心-- 页面样式*/
+.info-cat-contain .info-cat-in {
+  position: relative;
+  z-index: 4;
+}
+.info-cat-contain .info-cat-in .info-tabs-bar {
+  position: absolute;
+  left: 0;
+  top: -30px;
+  z-index: 4;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li {
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 400px;
+  font-size: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .icon,
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .tab-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .icon {
+  width: 21px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .icon-1 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxzz-2.png');
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .icon-2 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxzz-3.png');
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .icon-3 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxzz-4.png');
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .tab-item {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 60px;
+  text-align: left;
+  color: #333;
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs li .line {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  height: 3px;
+  background: #b5b5b6;
+}
+.info-cat-contain .info-cat-in .info-tabs-bar .info-tabs .on .line {
+  display: block;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown {
+  padding-top:54px;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content {
+ /* margin-left: -97.5px;*/
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a {
+  display: block;
+  width: 585px;
+  height: 175px;
+  overflow: hidden;
+  float: left;
+  margin-top: 26px;
+  border:1px solid #ffffff;
+ /* margin-left: 97.5px;*/
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content {
+  padding: 26px 31px 20px;
+  width: 523px;
+  height: 138px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+  background-color: #fff;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content img{
+  width:210px;
+  height:120px;
+  float: left;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .info-content-right{
+  width:306px;
+  height:120px;
+  float: left;
+  margin-left: 4px;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .date,
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content-tit,
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content {
+  padding: 0 8px;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content-tit {
+ /* margin-top: 19px;*/
+  font-size: 18px;
+  color: #333;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content {
+  overflow: hidden;
+  /*margin-top: 7px;*/
+  height: 72px;
+  color: #666;
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a:hover {
+  border: 1px solid #ed9336;
+  width: 585px;
+  height: 175px;
+  -webkit-box-shadow: 4px 4px 10px 0 rgba(237, 147, 54, 0.35);
+  -moz-box-shadow: 4px 4px 10px 0 rgba(237, 147, 54, 0.35);
+  box-shadow: 4px 4px 10px 0 rgba(237, 147, 54, 0.35);
+}
+.info-cat-contain .info-cat-in .info-tabs-dropdown .info-tab-content a:hover .content-tit {
+  font-size: 18px;
+  color: #ed9336;
+}
+.info-cat-contain .info-cat-in .info-pagination {
+  margin-top: 40px;
+}
+.info-cat-contain .info-cat-in .info-pagination ul {
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+}
+.info-cat-contain .info-cat-in .info-pagination ul li {
+  margin: 0 3px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #dcdddd;
+  width: 38px;
+  height: 38px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #999;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.info-cat-contain .info-cat-in .info-pagination ul .on {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #ed9336;
+}
+
+
+/*荣誉资质*/
+
+.info-cat-contain1 .info-cat-in {
+  position: relative;
+  z-index: 4;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar {
+  position: absolute;
+  left: 0;
+  top: -30px;
+  z-index: 4;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li {
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 240px;
+  font-size: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .icon,
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .tab-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .icon {
+  width: 21px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .icon-1 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxzz-2.png');
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .icon-2 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxzz-3.png');
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .icon-3 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxzz-4.png');
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .tab-item {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 60px;
+  text-align: left;
+  color: #333;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs li .line {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  height: 3px;
+  background: #b5b5b6;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-bar .info-tabs .on .line {
+  display: block;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown {
+  padding-top: 65px;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content {
+  margin-left: -97.5px;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a {
+  display: block;
+  width: 299px;
+  overflow: hidden;
+  float: left;
+  margin-top: 10px;
+  margin-left: 97.5px;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content {
+  padding: 26px 1px 20px;
+  width: 271px;
+  height: 342 -20px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+  background-color: #fff;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content img{
+  height: 206px;
+  margin:auto;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .date,
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content-tit,
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content {
+  padding: 0 8px;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content-tit {
+  margin-top: 19px;
+  font-size: 18px;
+  color: #333;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a .info-content .content {
+  overflow: hidden;
+  margin-top: 7px;
+  height: 75px;
+  color: #666;
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a:hover {
+
+}
+.info-cat-contain1 .info-cat-in .info-tabs-dropdown .info-tab-content a:hover .content-tit {
+  font-size: 18px;
+  color: #ed9336;
+}
+.info-cat-contain1 .info-cat-in .info-pagination {
+  margin-top: 40px;
+}
+.info-cat-contain1 .info-cat-in .info-pagination ul {
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+}
+.info-cat-contain1 .info-cat-in .info-pagination ul li {
+  margin: 0 3px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #dcdddd;
+  width: 38px;
+  height: 38px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #999;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.info-cat-contain1 .info-cat-in .info-pagination ul .on {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #ed9336;
+}
+
+/*官网--加入我们--页面样式*/
+.j-main .j-banner-in {
+  position: relative;
+  z-index: 1;
+  height: 500px;
+}
+.j-main .j-banner-in .pos-abs-img {
+  position: absolute;
+  top: 0;
+  left: -360px;
+  z-index: 2;
+  width: 1920px;
+}
+.j-main .j-content {
+  padding-bottom: 125px;
+  background: url('http://www.gdzp.org/assets/images/guanwang/joinus-3.png') no-repeat center top / cover;
+}
+.j-main .j-content .j-content-in {
+  position: relative;
+  z-index: 4;
+  padding-top: 67px;
+}
+.j-main .j-content .j-content-in .connect-img {
+  position: absolute;
+  left: 0;
+  top: -197px;
+  z-index: 5;
+  width: 348px;
+}
+.j-main .j-content .j-content-in .employ-wrapper {
+  margin-left: 400px;
+  width: 800px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 56px;
+  text-align: left;
+  color: #a6a6a6;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit {
+  padding: 0 33px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list {
+  font-size: 0;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list span,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list span,
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list .apply,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list .apply {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list .job-name,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list .job-name {
+  width: 176px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list .num,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list .num {
+  width: 94px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list .edu,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list .edu {
+  width: 117px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list .salary,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list .salary {
+  width: 129px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list .release-time,
+.j-main .j-content .j-content-in .employ-wrapper ul .tit .list .release-time {
+  width: 142px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item {
+  background-color: rgba(255, 255, 255, 0.13);
+  cursor: pointer;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list span {
+  font-size: 14px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .list .apply {
+  display: inline-block;
+  border: 1px solid #ed9336;
+  width: 70px;
+  height: 25px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 27px;
+  text-align: center;
+  color: #ed9336;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .desc {
+  border-top: 1px solid #494949;
+  padding-top: 19px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .desc .part {
+  padding-bottom: 36px;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .item .desc .part h3 {
+  text-align: left;
+}
+.j-main .j-content .j-content-in .employ-wrapper ul .exhibition {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+/*官网--关于中鹏--页面样式*/
+.a-main .ab-intro {
+  position: relative;
+  z-index: 1;
+  height: 526px;
+}
+.a-main .ab-intro .ab-intro-in {
+  position: absolute;
+  left: 0;
+  top: -66px;
+  z-index: 2;
+  padding: 78px 50px 0 80px;
+  width: 1070px;
+  height: 514px;
+  background-color: #fddd3a;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+}
+.a-main .ab-intro .ab-intro-in .left {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #fff;
+  width: 339px;
+  height: 419px;
+}
+.a-main .ab-intro .ab-intro-in .left .pos-abs-img {
+  position: absolute;
+  left: 36px;
+  top: 28px;
+  z-index: 3;
+  width: 336px;
+}
+.a-main .ab-intro .ab-intro-in .right {
+  width: 607px;
+}
+.a-main .ab-intro .ab-intro-in .right .tit {
+  margin-top: 32px;
+  margin-bottom: 53px;
+  width: 271px;
+}
+.a-main .ab-intro .ab-intro-in .right .desc {
+  margin-top: 24px;
+}
+.a-main .ab-intro .ab-intro-in .right .stock-certificate {
+  margin-top: 52px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.a-main .companys {
+  margin-top: 77px;
+  padding-bottom: 80px;
+  background: url('http://www.gdzp.org/assets/images/guanwang/about-3.png') no-repeat center top;
+  background-size: cover;
+}
+.a-main .companys .companys-in .content {
+  margin-top: 16px;
+}
+.a-main .companys .companys-in .content ul {
+  margin-left: -24px;
+}
+.a-main .companys .companys-in .content ul li {
+  float: left;
+  margin: 24px 0 0 24px;
+  width: 282px;
+  height: 100px;
+  background-color: #5c5c5c;
+}
+.a-main .companys .companys-in .content ul li .com-name {
+  margin-top: 28px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 22px;
+  text-align: center;
+  color: #b9b9b9;
+}
+.a-main .companys .companys-in .content ul .last .com-name {
+  margin-top: 39px;
+}
+.a-main .ab-business {
+  margin-top: 56px;
+}
+.a-main .ab-business .left {
+  width: 744px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+}
+.a-main .ab-business .left .descc-top {
+  margin-top: 10px;
+}
+.a-main .ab-business .left .desc + .desc {
+  margin-top: 22px;
+}
+.a-main .ab-business .left .brand {
+  margin-top: 22px;
+}
+.a-main .ab-business .left .brand h4 {
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
+.a-main .ab-business .left .icon-desc {
+  margin-top: 20px;
+  width: 781px;
+}
+.a-main .ab-business .left .icon-desc li {
+  float: left;
+}
+.a-main .ab-business .left .icon-desc li .icon,
+.a-main .ab-business .left .icon-desc li span {
+  display: block;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+  color: #333;
+}
+.a-main .ab-business .left .icon-desc li .icon {
+  height: 65px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.a-main .ab-business .left .icon-desc li .icon-1 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-301.jpg');
+}
+.a-main .ab-business .left .icon-desc li .icon-2 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-302.jpg');
+}
+.a-main .ab-business .left .icon-desc li .icon-3 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-303.jpg');
+}
+.a-main .ab-business .left .icon-desc li .icon-4 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-304.jpg');
+}
+.a-main .ab-business .left .icon-desc li span {
+  margin-top: 22px;
+}
+.a-main .ab-business .left .icon-desc .item-1 {
+  width: 89px;
+}
+.a-main .ab-business .left .icon-desc .item-2 {
+  width: 291px;
+}
+.a-main .ab-business .left .icon-desc .item-3 {
+  width: 213px;
+}
+.a-main .ab-business .left .icon-desc .item-4 {
+  width: 188px;
+}
+.a-main .ab-business .right {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #fff;
+  width: 339px;
+  height: 419px;
+  border-color: #fddd3a;
+}
+.a-main .ab-business .right .pos-abs-img {
+  position: absolute;
+  left: 36px;
+  top: 28px;
+  z-index: 3;
+  width: 336px;
+}
+.a-main .ab-business .right .pos-abs-img {
+  left: auto;
+  right: 36px;
+}
+.a-main .ab-culture {
+  margin-top: 94px;
+  background-color: #ededed;
+}
+.a-main .ab-culture .ab-culture-in {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 146px;
+  background: url('../images/about-8.png') no-repeat center 180px;
+}
+.a-main .ab-culture .ab-culture-in .three-element-header {
+  padding-top: 72px;
+}
+.a-main .ab-culture .ab-culture-in .three-element-header .tit {
+  color: #333;
+}
+.a-main .ab-culture .ab-culture-in .three-element-header .sub-tit {
+  margin-top: 26px;
+  color: #666;
+}
+.a-main .ab-culture .ab-culture-in .content {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 24px;
+  text-align: left;
+  color: #666;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list {
+  margin-top: 52px;
+  width: 330px;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list li + li {
+  margin-top: 38px;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit {
+  font-size: 0;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .icon,
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .cul-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .icon {
+  width: 34px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .icon-1 {
+  background-image: url('../images/about-23.png');
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .icon-2 {
+  background-image: url('../images/about-25.png');
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .icon-3 {
+  background-image: url('../images/about-24.png');
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .icon-4 {
+  background-image: url('../images/about-26.png');
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .cul-name .text {
+  font-size: 18px;
+  color: #333;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-tit .cul-name .line {
+  margin-top: 8px;
+  width: 32px;
+  height: 3px;
+  background-color: #fddd3a;
+}
+.a-main .ab-culture .ab-culture-in .content .cul-cont-list .item-cont {
+  margin-top: 10px;
+  width: 278px;
+}
+.a-main .ab-culture .ab-culture-in .content .list-left .item-tit {
+  text-align: right;
+}
+.a-main .ab-culture .ab-culture-in .content .list-left .item-tit .icon {
+  margin-left: 14px;
+}
+.a-main .ab-culture .ab-culture-in .content .list-left .item-tit .cul-name .line {
+  margin-left: 38px;
+}
+.a-main .ab-culture .ab-culture-in .content .list-right .item-tit {
+  text-align: left;
+}
+.a-main .ab-culture .ab-culture-in .content .list-right .item-tit .icon {
+  margin-right: 14px;
+}
+.a-main .ab-culture .ab-culture-in .content .list-right .item-cont {
+  margin-left: 48px;
+  text-align:justify; text-justify:inter-ideograph;
+}
+.a-main .ab-culture .ab-culture-in .ab-spirit {
+  position: absolute;
+  left: 0;
+  bottom: -109px;
+  z-index: 3;
+  height: 212px;
+  width: 100%;
+  background: #333 url('http://www.gdzp.org/assets/images/guanwang/about-0.png') no-repeat left bottom;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6);
+}
+.a-main .ab-culture .ab-culture-in .ab-spirit .spirit-list {
+  margin-top: 35px;
+  margin-left: 77.5px;
+}
+.a-main .ab-culture .ab-culture-in .ab-spirit .spirit-list li {
+  float: left;
+  width: 205px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+  color: #fffefe;
+}
+.a-main .ab-culture .ab-culture-in .ab-spirit .spirit-list li .desc {
+  font-size: 14px;
+  font-weight: normal;
+  color: #999;
+}
+.a-main .ab-culture .ab-culture-in .ab-spirit .spirit-list li + li {
+  margin-left: 75px;
+}
+.a-main .ab-development {
+  height: 595px;
+  background: url('http://www.gdzp.org/assets/images/guanwang/about-10.png') no-repeat center top;
+  background-size: cover;
+}
+.a-main .ab-development .ab-development-in {
+  position: relative;
+  z-index: 1;
+  padding-top: 196px;
+}
+.a-main .ab-development .ab-development-in .tit {
+  position: absolute;
+  left: 0;
+  top: 196px;
+  z-index: 2;
+  width: 163px;
+}
+.a-main .ab-development .ab-development-in .slideGroup {
+  width: 100%;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parHd {
+  position: relative;
+  z-index: 2;
+  text-align: right;
+  font-size: 0;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parHd ul {
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parHd ul li {
+  float: left;
+  margin-left: 14px;
+  width: 72px;
+  height: 34px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 34px;
+  text-align: center;
+  color: #999;
+  cursor: pointer;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parHd ul li.on {
+  height: 32px;
+  border: 1px solid #fddd3a;
+  border-radius: 16px;
+  color: #fddd3a;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 24px;
+  text-align: left;
+  color: #fffefe;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  width: 1120px;
+  padding: 70px 40px 0;
+  zoom: 1;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox ul {
+  position: relative;
+  z-index: 3;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox ul li {
+  float: left;
+  width: 167px;
+  margin: 0 28.5px;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox ul li .development-node {
+  height: 117px;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox ul li .icon {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox ul li .time {
+  margin-top: 13px;
+  color: #999;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox ul li a {
+  color: #fffefe;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox .dotted-line {
+  position: absolute;
+  left: 0;
+  top: 192px;
+  z-index: 2;
+  width: 100%;
+  height: 0;
+  border-bottom: 1px dotted #6a6765;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox .sPrev,
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox .sNext {
+  position: absolute;
+  top: 126px;
+  z-index: 5;
+  display: block;
+  width: 39px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox .sPrev {
+  left: 0;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-left.png');
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox .sPrev:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acleft.png');
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox .sNext {
+  left: auto;
+  right: 0;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-right.png');
+}
+.a-main .ab-development .ab-development-in .slideGroup .parBd .slideBox .sNext:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acright.png');
+}
+.a-main .ab-honour .tit {
+  margin-top: 98px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+}
+.a-main .ab-honour .tit .tit-img {
+  width: 274px;
+}
+.a-main .ab-honour .tit h3 {
+  margin-top: 50px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 26px;
+  text-align: left;
+  color: #333;
+}
+.a-main .ab-honour .tit h3 span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.a-main .ab-honour .tit h3 .line {
+  margin-left: 4px;
+  margin-right: 13px;
+  height: 26px;
+  width: 5px;
+  background-color: #fddd3a;
+}
+.a-main .ab-honour .slideBox {
+  position: relative;
+  z-index: 1;
+}
+.a-main .ab-honour .slideBox .bd {
+  margin-left: -28px;
+}
+.a-main .ab-honour .slideBox .bd ul li {
+  margin-top: 30px;
+  margin-left: 28px;
+  width: 279px;
+}
+.a-main .ab-honour .slideBox .bd ul li .img {
+  width: 279px;
+}
+.a-main .ab-honour .slideBox .hd {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  bottom: auto;
+  left: auto;
+  width: 150px;
+  height: 40px;
+  z-index: 2;
+}
+.a-main .ab-honour .slideBox .hd .sPrev,
+.a-main .ab-honour .slideBox .hd .sNext {
+  position: absolute;
+  top: 126px;
+  z-index: 5;
+  display: block;
+  width: 39px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: auto;
+  right: 0;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-right.png');
+  top: 0;
+}
+.a-main .ab-honour .slideBox .hd .sPrev:hover,
+.a-main .ab-honour .slideBox .hd .sNext:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acright.png');
+}
+.a-main .ab-honour .slideBox .hd .sPrev {
+  right: 60px;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-left2.png');
+}
+.a-main .ab-honour .slideBox .hd .sPrev:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acleft.png');
+}
+.a-main .ab-honour .slideBox .hd .sNext {
+  left: auto;
+  right: 0;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-right2.png');
+}
+.a-main .ab-honour .slideBox .hd .sNext:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acright.png');
+}
+.a-main .ab-honour .slideGroup {
+  margin-top: 40px;
+  width: 100%;
+}
+.a-main .ab-honour .slideGroup .parHd {
+  text-align: center;
+}
+.a-main .ab-honour .slideGroup .parHd .tab-list {
+  font-size: 0;
+  height: 34px;
+  line-height: 34px;
+}
+.a-main .ab-honour .slideGroup .parHd .tab-list li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 18px;
+  border: 1px solid #b5b5b6;
+  padding: 0 15px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 34px;
+  text-align: center;
+  color: #333;
+  cursor: pointer;
+  background-color: #efefef;
+  border-radius: 16px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.a-main .ab-honour .slideGroup .parHd .tab-list li.on {
+  border: none;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  background-color: #ed9336;
+}
+.a-main .ab-honour .slideGroup .parBd {
+  margin-top: 46px;
+  padding-bottom: 40px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 32px;
+  text-align: center;
+  color: #595757;
+  background: url('http://www.gdzp.org/assets/images/guanwang/gw-about-fix-004.png') no-repeat center bottom;
+  -webkit-background-size: 100% 118px;
+  background-size: 100% 118px;
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0 120px 0 72px;
+  width: 1008px;
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour ul {
+  width: 200%;
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour ul li {
+  float: left;
+  width: 304px;
+  height: 296px;
+  margin: 0 24px;
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour ul li .honour-img {
+  width: 304px;
+  height: 264px;
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour .sPrev,
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour .sNext {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: block;
+  margin-top: -30px;
+  width: 39px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour .sPrev {
+  left: 45px;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-fix-009.png');
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour .sPrev:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acleft.png');
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour .sNext {
+  left: auto;
+  right: 46px;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-fix-008.png');
+}
+.a-main .ab-honour .slideGroup .parBd .slidebox-honour .sNext:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acright.png');
+}
+.a-main .ab-honour .slider-ruanjian {
+  margin-top: 30px;
+  padding-bottom: 36px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 32px;
+  text-align: center;
+  color: #595757;
+  background: url('http://www.gdzp.org/assets/images/guanwang/gw-about-fix-004.png') no-repeat center bottom;
+  -webkit-background-size: 100% 118px;
+  background-size: 100% 118px;
+}
+.a-main .ab-honour .slider-ruanjian-tit {
+  margin-top: 42px;
+  margin-bottom: 36px;
+  font-size: 30px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: #333;
+}
+.a-main .ab-honour .slidebox-h-2 {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0 120px 0 72px;
+  width: 1008px;
+}
+.a-main .ab-honour .slidebox-h-2 ul {
+  width: 200%;
+}
+.a-main .ab-honour .slidebox-h-2 ul li {
+  float: left;
+  width: 304px;
+  height: 296px;
+  margin: 0 24px;
+}
+.a-main .ab-honour .slidebox-h-2 ul li .honour-img {
+  width: 304px;
+  height: 264px;
+}
+.a-main .ab-honour .slidebox-h-2 .sPrev,
+.a-main .ab-honour .slidebox-h-2 .sNext {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: block;
+  margin-top: -30px;
+  width: 39px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.a-main .ab-honour .slidebox-h-2 .sPrev {
+  left: 45px;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-fix-009.png');
+}
+.a-main .ab-honour .slidebox-h-2 .sPrev:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acleft.png');
+}
+.a-main .ab-honour .slidebox-h-2 .sNext {
+  left: auto;
+  right: 46px;
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/gw-about-fix-008.png');
+}
+.a-main .ab-honour .slidebox-h-2 .sNext:hover {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-acright.png');
+}
+.a-main .ab-honour .slidebox-h-2 ul li {
+  height: 450px;
+}
+.a-main .ab-honour .slidebox-h-2 ul li .honour-img {
+  height: 418px;
+}
+.a-main .ab-honour .slidebox-h-2 .sPrev,
+.a-main .ab-honour .slidebox-h-2 .sNext {
+  top: 178px;
+}
+.a-main .ab-apply-cooperation {
+  margin-top: 80px;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in {
+  position: relative;
+  z-index: 1;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .tit {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  z-index: 2;
+  width: 284px;
+  height: 63px;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 684px;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li {
+  position: absolute;
+  z-index: 3;
+  float: left;
+  width: 563px;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .img {
+  width: 100%;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc {
+  position: absolute;
+  right: 0;
+  top: 320px;
+  z-index: 3;
+  padding: 20px 0 0 39px;
+  width: 305px;
+  height: 186px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .desc-tit {
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .desc-sub-tit {
+  margin-top: 12px;
+  line-height: 14px;
+  color: #999;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .cont-text {
+  margin-top: 34px;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .cont-text p .icon,
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .cont-text p span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .cont-text p .icon {
+  width: 28px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .cont-text p .icon-1 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-19.png');
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .cont-text p .icon-2 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-20.png');
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .cont-text p .icon-3 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-34.png');
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul li .desc .line {
+  position: absolute;
+  left: -26px;
+  bottom: 20px;
+  z-index: 4;
+  width: 47px;
+  height: 6px;
+  background-color: #ff9324;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul .coop-1 {
+  left: 0;
+  top: 143px;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul .coop-2 {
+  right: 0;
+  top: 0;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul .coop-3 {
+  top: 754px;
+}
+.a-main .ab-apply-cooperation .ab-apply-cooperation-in .coopera-program-wrapper ul .coop-4 {
+  right: 0;
+  top: 611px;
+}
+.a-main .ab-core {
+  margin-top: 78px;
+  padding-bottom: 125px;
+  background: url('http://www.gdzp.org/assets/images/guanwang/gw-core-bg.jpg') no-repeat center top / cover;
+}
+.a-main .ab-core .three-element-header {
+  padding-top: 106px;
+}
+.a-main .ab-core .three-element-header .sub-tit {
+  color: #666;
+}
+.a-main .ab-core .three-element-header .line {
+  margin-top: 20px;
+}
+.a-main .ab-core .slideTxtBox {
+  margin-top: 55px;
+}
+.a-main .ab-core .slideTxtBox .tab-list {
+  font-size: 0;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+.a-main .ab-core .slideTxtBox .tab-list li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px;
+  padding: 0 20px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 34px;
+  text-align: center;
+  color: #333;
+  cursor: pointer;
+  background-color: #efefef;
+  border-radius: 16px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.a-main .ab-core .slideTxtBox .tab-list li.on {
+  color: #333333;
+  background-color: #fddd3a;
+}
+.a-main .ab-core .slideTxtBox .bd {
+  margin-top: 31px;
+  border: 1px solid #8f8c88;
+  background: rgba(255, 255, 255, 0.1);
+}
+.a-main .ab-core .slideTxtBox .bd .core-tab-cont {
+  padding: 0 65px 0 108px;
+  height: 400px;
+  line-height: 400px;
+}
+.a-main .ab-core .slideTxtBox .bd .core-tab-cont .core-tab-cont-thumb,
+.a-main .ab-core .slideTxtBox .bd .core-tab-cont .right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.a-main .ab-core .slideTxtBox .bd .core-tab-cont .core-tab-cont-thumb {
+  width: 277px;
+  height: 197px;
+}
+.a-main .ab-core .slideTxtBox .bd .core-tab-cont .core-tab-cont-thumb img {
+  width: 277px;
+  height: 197px;
+}
+.a-main .ab-core .slideTxtBox .bd .core-tab-cont .right {
+  margin-left: 66px;
+  width: 672px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+.a-main .ab-contact-us .contact-top {
+  padding-top: 74px;
+  height: 414px;
+  background-color: #f1eff1;
+}
+.a-main .ab-contact-us .contact-top .tit {
+  width: 171px;
+}
+.a-main .ab-contact-us .contact-top .details {
+  margin-top: 55px;
+}
+.a-main .ab-contact-us .contact-top .details .details-left-tit {
+  border-bottom: 1px solid #fddd3a;
+  padding-bottom: 12px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 18px;
+  text-align: left;
+  color: #333;
+}
+.a-main .ab-contact-us .contact-top .details .name {
+  position: relative;
+  z-index: 1;
+}
+.a-main .ab-contact-us .contact-top .details .name .line {
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  z-index: 2;
+  width: 82px;
+  height: 3px;
+  background-color: #fddd3a;
+}
+.a-main .ab-contact-us .contact-top .details .company-name {
+  margin-top: 38px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  line-height: 16px;
+  text-align: left;
+  color: #333;
+}
+.a-main .ab-contact-us .contact-top .details .list {
+  font-size: 16px;
+  color: #666;
+}
+.a-main .ab-contact-us .contact-top .details .list li {
+  margin-top: 14px;
+}
+.a-main .ab-contact-us .contact-top .details .list .list-tit {
+  font-weight: bold;
+  color: #333;
+}
+.a-main .ab-contact-us .contact-top .details .left {
+  width: 402px;
+}
+.a-main .ab-contact-us .contact-top .details .right {
+  position: relative;
+  z-index: 1;
+  margin-left: 83px;
+  width: 714px;
+}
+.a-main .ab-contact-us .contact-top .details .right .tab-list li {
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 90px;
+  cursor: pointer;
+}
+.a-main .ab-contact-us .contact-top .details .right .tab-list li .line {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  z-index: 2;
+  width: 82px;
+  height: 3px;
+  background-color: #fddd3a;
+  -webkit-transition: all 0.3;
+  -moz-transition: all 0.3;
+  -ms-transition: all 0.3;
+  -o-transition: all 0.3;
+  transition: all 0.3;
+}
+.a-main .ab-contact-us .contact-top .details .right .tab-list li + li {
+  margin-left: 61px;
+}
+.a-main .ab-contact-us .contact-top .details .right .tab-list li.on .line {
+  display: block;
+}
+.a-main .ab-contact-us .contact-top .details .right .weixin-wrapper {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  z-index: 2;
+  width: 338px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 14px;
+  text-align: center;
+  color: #333;
+}
+.a-main .ab-contact-us .contact-top .details .right .weixin-wrapper li {
+  float: left;
+  width: 107px;
+}
+.a-main .ab-contact-us .contact-top .details .right .weixin-wrapper li .weixin-name {
+  margin-top: 9px;
+}
+.a-main .ab-contact-us .contact-top .details .right .weixin-wrapper li + li {
+  margin-left: 8px;
+}
+.a-main .ab-contact-us .campus-details-wrapper {
+  margin-top: 34px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul {
+  margin-left: -28px;
+  width: 1228px;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item {
+  float: left;
+  margin-top: 26px;
+  margin-left: 28px;
+  width: 279px;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address-thumb-bottom {
+  border-left: 1px solid #dcdddd;
+  border-right: 1px solid #dcdddd;
+  border-bottom: 1px solid #dcdddd;
+  padding-top: 17px;
+  padding-left: 13px;
+  height: 70px;
+  width: 264px;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .campus-name {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address {
+  margin-top: 5px;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address .icon,
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address span {
+  display: block;
+  float: left;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address .icon {
+  width: 19px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address span {
+  width: 228px;
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address .icon-1 {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/about-32.png');
+}
+.a-main .ab-contact-us .campus-details-wrapper ul .item .address::after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1;
+}
+.a-main .lingxi-link {
+  margin-top: 26px;
+  margin-bottom: 100px;
+}
+.a-main .lingxi-link .mid1200 {
+  height: 265px;
+  background: url('http://www.gdzp.org/assets/images/guanwang/gw-lingxi-link.jpg') no-repeat center center / cover;
+  text-indent: 40px;
+}
+.a-main .lingxi-link .mid1200 h3 {
+  padding-top: 60px;
+  font-size: 31px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 31px;
+  text-align: left;
+  color: #fff;
+}
+.a-main .lingxi-link .mid1200 h3 em {
+  font-weight: lighter;
+}
+.a-main .lingxi-link .mid1200 .sub-tit {
+  margin-top: 32px;
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  line-height: 20px;
+  text-align: left;
+  color: #fddd3a;
+}
+.a-main .lingxi-link .mid1200 .sub-tit span {
+  font-weight: lighter;
+}
+.a-main .lingxi-link .mid1200 .link {
+  display: block;
+  margin-top: 14px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+  margin-left: 40px;
+  width: 160px;
+  font-size: 21px;
+  text-indent: 0;
+  color: #fff;
+}
+/*官网--资讯中心详情页--页面样式*/
+.zxxq-main {
+  padding-top: 80px;
+}
+.zxxq-main .info-cat-in {
+  margin-top: 80px;
+}
+.zxxq-main .info-cat-in .header h1 {
+  font-size: 30px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: #333;
+}
+.zxxq-main .info-cat-in .header .time {
+  margin: 15px auto 10px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 14px;
+  text-align: center;
+  color: #333;
+}
+.zxxq-main .info-cat-in .content {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #666;
+  text-indent: 2em;
+}
+.zxxq-main .info-cat-in .content p {
+  margin-top: 25px;
+}
+.zxxq-main .info-cat-in .content img {
+  display: block;
+  margin: 50px auto 40px;
+  width: auto;
+}
+.zxxq-main .info-cat-in .bootom {
+  margin-top: 50px;
+  margin-bottom: 66px;
+  width: 100%;
+}
+.zxxq-main .info-cat-in .bootom ul li {
+  float: left;
+  width: 50%;
+  height: 96px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 96px;
+  text-align: right;
+  color: #333;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.zxxq-main .info-cat-in .bootom ul li .article-tit .icon,
+.zxxq-main .info-cat-in .bootom ul li .article-tit span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.zxxq-main .info-cat-in .bootom ul li .article-tit .icon {
+  width: 70px;
+  height: 96px;
+  background-repeat: no-repeat;
+}
+.zxxq-main .info-cat-in .bootom ul li .article-tit span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  width: 528px;
+}
+.zxxq-main .info-cat-in .bootom ul li a {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  line-height: 96px;
+  text-align: right;
+  color: #333;
+}
+.zxxq-main .info-cat-in .bootom ul li:hover {
+  background: #999;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+}
+.zxxq-main .info-cat-in .bootom ul li:hover a {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+}
+.zxxq-main .info-cat-in .bootom ul .prev span{
+  text-align: left;
+}
+.zxxq-main .info-cat-in .bootom ul .prev .article-tit .icon {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxxq-001.png');
+  background-position: 30px center;
+}
+.zxxq-main .info-cat-in .bootom ul .prev:hover .article-tit .icon {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxxq-003.png');
+}
+.zxxq-main .info-cat-in .bootom ul .next {
+  text-align: right;
+}
+.zxxq-main .info-cat-in .bootom ul .next .article-tit .icon {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxxq-002.png');
+  background-position: 16px center;
+}
+.zxxq-main .info-cat-in .bootom ul:hover .article-tit .icon {
+  background-image: url('http://www.gdzp.org/assets/images/guanwang/zxxq-004.png');
+}
+#live800_msgDiv img {
+  width: auto;
+}
+
+
+
+/*20180413新版中鹏荣誉开始*/
+.zpry{
+  height: 122px;
+  display: table;
+  margin: auto;
+}
+.zpry li{
+  margin: 45px 17px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  padding: 0 15px;
+  cursor: pointer;
+  background: #efefef;
+  border: 1px solid #b5b5b6;
+  border-radius: 60px;
+}
+.zpry li.zpry-on{
+  color: #333333;
+  background: #fddd3a;
+  border: 1px solid #fddd3a;
+}
+.hideswiper{
+  position: fixed;
+  left:500%;
+}
+.showswiper{
+  position: static;
+}
+.zpry-content .swiper-container{
+  width:1090px;
+}
+.zpry-content .swiper-container .swiper-wrapper{
+}
+.zpry-content .swiper-container .swiper-slide{
+  width:266px !important;
+  margin-right:10px !important;
+}
+.zpry-content .swiper-container .swiper-slide .swiper-slide-title{
+  font-size: 14px;
+}
+.zpry-content .swiper-container .swiper-slide img{
+  width:266px;
+  height:202px;
+}
+.zpry-content{
+  width:1200px;
+  margin: auto;
+  background: url(../../images/jixujiaoyu/lunbo_bg.png) no-repeat bottom;
+  padding-bottom: 26px;
+}
+.zpry-btn{
+  position: relative;
+  bottom: 283px
+}
+.zpry-btn .swiper-button-prev,.zpry-btn .swiper-button-next{
+  outline: none;
+  width: 39px;
+  height: 39px;
+  background: url(../../images/jixujiaoyu/certificate_pre_next.png) -40px -40px no-repeat;
+}
+.zpry-btn .swiper-button-next {
+  background-position:  0 -40px;
+}
+.zpry-btn swiper-button-next:hover{
+  background-position: 0  0 ;
+}
+.zpry-btn .swiper-button-prev:hover{
+  background-position:  -40px 0;
+}
+.imgborder{
+  position: absolute;
+  top:50%;
+  left:50%;
+  display: table;
+  margin: auto;
+  border:11px solid rgba(0,0,0,0.6);
+  -moz-box-shadow:0px 0px 11px rgba(0,0,0,0.8);
+  -webkit-box-shadow:0px 0px 11px rgba(0,0,0,0.8);
+  box-shadow:0px 0px 11px rgba(0,0,0,0.8);
+}
+.imgbackgrund{
+  height: 100%;
+  background: #ffffff;
+  padding: 22px;
+}
+.zooming-describe{
+  display: none;
+}
+.zpry-more{
+  display: block;
+  width: 300px;
+  height: 57px;
+  line-height: 57px;
+  background: #fddd3a;
+  color: #333333;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 33px;
+  margin: 48px auto;
+  cursor: pointer;
+  -moz-box-shadow:0px 4px 12px #7A7A7A; -webkit-box-shadow:0px 4px 12px #7A7A7A; box-shadow:0px 4px 12px #7A7A7A;
+}
+
+/* 本例子css */
+.picScroll-left4{width: 1200px;overflow:hidden;position:relative;}
+.picScroll-left4 .hd{overflow:hidden;padding:0 10px;right: 60px;}
+.picScroll-left4 .hd .prev,.picScroll-left4 .hd .next{
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  background: url(../../images/jixujiaoyu/certificate_pre_next.png) -39px -40px no-repeat;
+}
+.picScroll-left4 .hd .prev:hover{
+  background-position: -40px 0;
+}
+.picScroll-left4 .hd .next:hover{
+  background-position: 0 0;
+}
+.picScroll-left4 .hd .prev{
+  top: 162px;
+  left: -1px;
+}
+.picScroll-left4 .hd .next{
+  top: 162px;
+  right: 9px;
+}
+.picScroll-left4 .hd .next{background-position: 0 -40px;}
+.picScroll-left4 .hd .prevStop{ background-position:-60px 0; }
+.picScroll-left4 .hd .nextStop{ background-position:-60px -50px; }
+.picScroll-left4 .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px; zoom:1; }
+.picScroll-left4 .hd ul li{ float:left;  width:9px; height:9px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer;   }
+.picScroll-left4 .hd ul li.on{ background-position:0 0; }
+.picScroll-left4 .bd{padding: 10px 60px 10px 41px;}
+.picScroll-left4 .bd ul{ overflow:hidden; zoom:1; }
+.picScroll-left4 .bd ul li{width: 266px;margin:0 5px;float:left;_display:inline;overflow:hidden;text-align:center;}
+.picScroll-left4 .bd ul li .pic{ text-align:center; }
+.picScroll-left4 .bd ul li .pic img{width: 264px;height: 365px;display:block;border:1px solid #ccc;}
+.picScroll-left4 .bd ul li .pic a:hover img{ border-color:#999;  }
+.picScroll-left4 .bd ul li .title a{ color: #595757;line-height:36px;font-size: 13px  }
+.picScroll-left4 .bd ul li .title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.picScroll-left4 .lunbo_bg{
+  position: absolute;
+  bottom:0;
+  width:1200px;
+  height:118px;
+  background: url("../../images/jixujiaoyu/lunbo_bg.png") no-repeat;
+}
+#hugeimg_box {
+  overflow: auto;
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 99999;
+}
+/*20180413新版中鹏荣誉结束*/
+.cooperation-link{
+  margin: 50px auto;
+  padding-bottom: 1px;
+}
+.cooperation-link li{
+  font-family: 'Microsoft YaHei', arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  float: left;
+  list-style: none;
+  color: #666666;
+}
+.cooperation-link li a{
+  color: #666666;
+}
+.left-right-icon{
+  position: relative;
+  width: 1320px;
+  right: 60px;
+  bottom: 132px;
+}
+.left-right-icon .swiper-button-next{
+  width:39px;
+  height:39px;
+  background: url("http://www.gdzp.org/assets/images/guanwang/about-right2.png") !important;
+}
+.left-right-icon .swiper-button-prev{
+  width:39px;
+  height:39px;
+  background: url("http://www.gdzp.org/assets/images/guanwang/about-left2.png") !important;
+}
+.left-right-icon .swiper-button-next:hover{
+  background: url("http://www.gdzp.org/assets/images/guanwang/about-acright.png") !important;
+}
+.left-right-icon .swiper-button-prev:hover{
+  background: url("http://www.gdzp.org/assets/images/guanwang/about-acleft.png") !important;
+}
+#cooperation-swiper .swiper-slide{
+  margin-right: 28px !important;
+}
+.relevant{
+  font-family: 'Microsoft YaHei', arial, Helvetica, sans-serif;
+}
+.relevant-title{
+  font-size: 30px;
+  color: #666666;
+
+}
+.relevant-more{
+  cursor: pointer;
+  float: right;
+  font-size: 24px;
+}
+.rmkc-banner{
+  width:100%;
+  height:500px;
+  background: url("http://www.gdzp.org/assets/images/guanwang/rmkc.png") center center /cover no-repeat;
+}
+.hot-courses{
+  margin-top: -100px;
+}
+.hot-courses li{
+  width:386px;
+  height:289px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.hot-courses li:nth-child(3n){
+  margin-right: 0;
+}
+.hot-courses li img{
+   width:386px;
+   height:289px;
+  -webkit-transition: all 0.6s ;
+  -moz-transition: all 0.6s ;
+  -ms-transition: all 0.6s ;
+  -o-transition: all 0.6s ;
+  transition: all 0.6s ;
+   display: block;
+ }
+.hot-courses li:hover img{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.hot-title{
+  text-align:center ;
+  color: #ffffff;
+  background: rgba(0,0,0,0.5);
+  font-size: 24px;
+  height:50px;
+  line-height:50px;
+  width:386px;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+.hot-courses li:hover{
+  -moz-box-shadow:0px 4px 9px #B3B3B3; -webkit-box-shadow:0px 4px 9px #B3B3B3; box-shadow:0px 4px 9px #B3B3B3;
+}
+.tags span{
+  font-family: 'Microsoft YaHei', arial, Helvetica, sans-serif;
+  cursor: pointer;
+  border:1px solid #efefef;
+  color: #666666;
+  background: #efefef;
+  padding: 8px 14px;
+}
+.tags span.on{
+  border:1px solid #b5b5b6;
+}
+.cooperation-link{
+  display: none;
+}
+.display-block{
+  display: block;
+}
+.tags-name{
+  font-size: 18px;
+  color: #ed9336;
+}
+.tags-lists li{
+  width:150px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tags-lists {
+  padding: 12px 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #EEE;
+}
+.img-list{
+  margin-top: 10px;
+}
+.img-list li{
+  margin-right: 10px;
+  width:116px;
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+}
+.img-list li img{
+  display: block;
+  width:116px;
+}

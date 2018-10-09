@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>人力资源</title>
+    <link rel="stylesheet" href="css/rlzy.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2/swiper-3.4.2.jquery.min.js"></script>
+</head>
+<body class="font_yahei">
+<header>
+    <section class="headerTop">
+        <div class="container_1200">
+            <div class="Toplogin"><!--<a href="#" class="reg">注册</a>|<a href="#" class="openlogin">登录</a>-->
+            </div>
+            您好，欢迎来到中鹏培训课程服务中心
+        </div>
+    </section>
+    <section class="midTop container_1200">
+        <hgroup>
+            <h1><a href="http://www.gdzp.org/">上市公司<span>技术改变命运,学习成就未来</span></a>
+            </h1>
+          <img src="images/budget.png">
+        </hgroup>
+        <div class="Topcontact">
+        <span>课程总站：<a href="http://www.gdzp.org" target="_blank" title="官方网站">www.gdzp.org</a>
+        </span>
+            <b>400-930-6618</b>
+            <div class="contactTools">
+                <a class="txwb" href="http://e.t.qq.com/gdzppx" title="腾讯微博" target="_blank">腾讯微博</a>
+                <a class="xlwb" href="#" title="新浪微博" target="_blank">新浪微博</a>
+                <a class="weChat wxTool" title="官方微信">官方微信</a>
+                <a class="zxQQ"
+                   href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODA3ODk1M180ODQ0NTZfNDAwNjAyNjYxOF8yXws"
+                   title="咨询QQ" target="_blank">咨询QQ</a>
+                <div class="wechat" style="display:none;">
+                    <img src="http://www.gdzp.org/statics/images/kc/wechat.png"/>
+                    <p>关注中鹏官方微信<br/>了解最新动态</p>
+                    <b></b>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<!-- 头部结束 -->
+
+<!-- 主菜单 -->
+<nav id="nav">
+    <ul class="container_1200">
+        <li class="on">
+            <a>课程首页</a>
+        </li>
+        <li>
+            <a>考试时间</a>
+        </li>
+        <li>
+            <a>报考条件</a>
+        </li>
+        <li>
+            <a >报名方式</a>
+        </li>
+        <li> <a>政策解读</a>
+        </li>
+        <li class="last">
+            <a  >中鹏优势</a>
+        </li>
+    </ul>
+</nav>
+<!-- 主菜单结束 -->
+<!--banner开始-->
+<div class="banner">
+    <div class="container_1200">
+        <div class="banner-link">
+            <div class="banner-link-item">
+                <div class="title">
+                    人力资源师-考生必读
+                </div>
+                <ul class="clearfix">
+                    <li onclick="mantis.requestChat()">2018年改革解析</li>
+                    <li onclick="mantis.requestChat()">2018年新政策</li>
+                    <li onclick="mantis.requestChat()">2018人力考点变动</li>
+                    <li onclick="mantis.requestChat()">人力考试简介</li>
+                    <li onclick="mantis.requestChat()">人力报考咨询</li>
+                    <li onclick="mantis.requestChat()">人力报考入口</li>
+                </ul>
+            </div>
+            <div class="banner-link-item">
+                <div class="title">
+                    中鹏名师-在线答疑
+                </div>
+                <ul class="clearfix">
+                    <li onclick="mantis.requestChat()">专业有什么要求?</li>
+                    <li onclick="mantis.requestChat()">学费多少?</li>
+                    <li onclick="mantis.requestChat()">上班族如何上课?</li>
+                    <li onclick="mantis.requestChat()">通过率高吗?</li>
+                    <li onclick="mantis.requestChat()">报考条件有限制吗?</li>
+                    <li onclick="mantis.requestChat()">一年能考几次?</li>
+                    <li onclick="mantis.requestChat()">对于学历有要求吗?</li>
+                    <li onclick="mantis.requestChat()">课程用时多久?</li>
+                </ul>
+            </div>
+            <div class="banner-link-item">
+                <div class="title">
+                    中鹏承诺- 优势保障
+                </div>
+                <ul class="clearfix float-none">
+                    <li onclick="mantis.requestChat()">免费重修-考过为止</li>
+                    <li onclick="mantis.requestChat()">国家一级培训资质</li>
+                    <li onclick="mantis.requestChat()"> 面授+APP灵活学习</li>
+                    <li onclick="mantis.requestChat()">一考双证（人力+学历）</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--banner结束-->
+
+<!--自助查询开始-->
+<div class="zzcx">
+    <form class="container_1200">
+        <div class="rdo-group-border">
+            <div class="rdo-group">
+                <div class="rdo-item">
+                    <span>工作年限：</span>
+                    <input type="radio" name="nx" value="无工作经验" id="nx1"><label for="nx1">无工作经验</label>
+                    <input type="radio" name="nx" value="1-2年" id="nx2"><label for="nx2">1-2年</label>
+                    <input type="radio" name="nx" value="3-6年" id="nx3"><label for="nx3">3-6年</label>
+                    <input checked type="radio" name="nx" value="7年以上" id="nx4"><label for="nx4">7年以上</label>
+                </div>
+                <div class="rdo-item">
+                    <span>最高学历：</span>
+                    <input type="radio" name="xl" value="高中" id="xl1"><label for="xl1">高中</label>
+                    <input type="radio" name="xl" value="大专" id="xl2"><label for="xl2">大专</label>
+                    <input type="radio" name="xl" value="本科" id="xl3"><label for="xl3">本科</label>
+                    <input checked type="radio" name="xl" value="其他" id="xl4"><label for="xl4">其他</label>
+                </div>
+                <div class="rdo-item">
+                    <span>您的年龄：</span>
+                    <input type="radio" name="nl" value="21岁以下" id="nl1"><label for="nl1">21岁以下</label>
+                    <input type="radio" name="nl" value="22-24岁" id="nl2"><label for="nl2">22-24岁</label>
+                    <input type="radio" name="nl" value="25-28岁" id="nl3"><label for="nl3">25-28岁</label>
+                    <input checked type="radio" name="nl" value="29岁以上" id="nl4"><label for="nl4">29岁以上</label>
+                </div>
+            </div>
+        </div>
+        <div class="zzcx-input-group">
+            <input class="zzcx-input" placeholder="姓名：">
+            <input class="zzcx-input" placeholder="电话：">
+            <a class="zzcx-btn">免费查询</a>
+        </div>
+    </form>
+</div>
+<!--自助查询结束-->
+
+<!--人力资源管理师开始-->
+<ul class="rlzy-list container_1200 clearfix">
+    <li>
+        <div class="title">
+                Three
+            <span>
+            人力资源管理师三级
+            </span>
+        </div>
+        <div class="info">
+            6年工作经验<br>
+            四级+3年+中鹏三级培训<br>
+            大专+3年工作经验<br>
+            本科+1年工作经验<br>
+            硕士学历
+        </div>
+        <a class="btn" onclick="mantis.requestChat()">报考入口</a>
+    </li>
+    <li>
+        <div class="title">
+            Two
+            <span>
+            人力资源管理师二级
+            </span>
+        </div>
+        <div class="info">
+            13年工作经验<br>
+            三级+5年工作经验<br>
+            本科+5年工作经验<br>
+            本科+3级+3年+二级培训<br>
+            硕士+2年
+        </div>
+        <a class="btn" onclick="mantis.requestChat()">报考入口</a>
+    </li>
+    <li>
+        <div class="title">
+            one
+            <span>
+            人力资源管理师一级
+            </span>
+        </div>
+        <div class="info">
+             <br>
+            19年工作经验 <br>
+            二级+4年工作经验 <br>
+            二级+3年+中鹏一级培训
+
+        </div>
+        <a class="btn" onclick="mantis.requestChat()">报考入口</a>
+    </li>
+</ul>
+<!--人力资源管理师开始-->
+
+
+<!--报考条件开始-->
+<ul class="bktj container_1200 clearfix">
+   <li>
+       <div class="top">
+           报考条件
+           <span>三级二级一级</span>
+           <a onclick="mantis.requestChat()">了解详情</a>
+       </div>
+       <i class="icon bg-icon1"></i>
+   </li>
+    <li>
+        <div class="top">
+            <a onclick="mantis.requestChat()">了解详情</a>
+            报考费用
+            <span>最高补贴<b>2000</b>元</span>
+        </div>
+        <i class="icon bg-icon2"></i>
+    </li>
+    <li>
+        <div class="top">
+            考试报名
+            <span><b>0</b>基础/<b>有</b>经验</span>
+            <a onclick="mantis.requestChat()">了解详情</a>
+        </div>
+        <i class="icon bg-icon3"></i>
+    </li>
+    <li>
+        <div class="top">
+            <a onclick="mantis.requestChat()">了解详情</a>
+            报考流程
+            <span>学院<b>统一</b>代报考</span>
+        </div>
+        <i class="icon bg-icon4"></i>
+    </li>
+    <li>
+        <div class="top">
+            考试时间
+            <span style="font-size: 18px">全国统考一年<b>两次</b></span>
+            <a onclick="mantis.requestChat()">了解详情</a>
+        </div>
+        <i class="icon bg-icon5"></i>
+    </li>
+    <li>
+        <div class="top">
+            <a onclick="mantis.requestChat()">了解详情</a>
+            考试科目
+            <span style="font-size: 18px">理论+实践+论文指导</span>
+        </div>
+        <i class="icon bg-icon6"></i>
+    </li>
+</ul>
+<!--报考条件结束-->
+
+<div class="bg"></div><div class="bg2"></div>
+
+
+<!--课程内容开始-->
+<div class="kcnr">
+    <div class="container_1200">
+        <div class="kcnr-title">
+
+        </div>
+        <ul class="xxnr-list clearfix">
+            <li>
+                <div class="xxnr-content">
+                    <i class="icon-xxnr icon-xxnr-1"></i>
+                    <div class="xxnr-list-title">
+                        人力资源规划
+                    </div>
+                    <div class="xxnr-list-detail">
+                        人力资源规划的目的在于结合企业发展战略,通过对企业资源状况以及人力资源管理现状的分析,找到未来人力资源工作的重点和方向,并制定具体的工作方案和计划,以保证企业目标的顺利实现。
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="xxnr-content">
+                    <i class="icon-xxnr icon-xxnr-2"></i>
+                    <div class="xxnr-list-title">
+                        招聘与配置
+                    </div>
+                    <div class="xxnr-list-detail">
+                        人员配置工作事实上应该在招聘需求分析之时予以考虑,这样根据岗位“量身定做”一个标准,再根据这个标准招聘企业所需人才。只有招聘合适的人员并进行有效的配置才能保证招聘意义的实现。
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="xxnr-content">
+                    <i class="icon-xxnr icon-xxnr-3"></i>
+                    <div class="xxnr-list-title">
+                        培训与开发
+                    </div>
+                    <div class="xxnr-list-detail">
+                        对于新进公司的员工来说,要尽快适应并胜任工作,对于在岗的员工来说，为了适应市场形势的变化带来的公司战略的调整,需要不断调整和提高自己的技能。基于这两个方面,组织有效培训,以最大限度开发员工的潜能变得非常必要。
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="xxnr-content">
+                    <i class="icon-xxnr icon-xxnr-4"></i>
+                    <div class="xxnr-list-title">
+                        绩效管理
+                    </div>
+                    <div class="xxnr-list-detail">
+                        绩效考核的目的在于借助一个有效的体系,通过对业绩的考核,肯定过去的业绩并期待未来绩效的不断提高。传统的绩效工作只是停留在绩效考核的层面,而现代绩效管理则更多地关注未来业绩提高。
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="xxnr-content">
+                    <i class="icon-xxnr icon-xxnr-5"></i>
+                    <div class="xxnr-list-title">
+                        薪酬管理
+                    </div>
+                    <div class="xxnr-list-detail">
+                        薪酬与福利的作用有两点: 一是对员工过去业绩的肯定;二是借助有效的薪资福利体系促进员工不断提高业绩。薪酬福利必须做到物质形式与非物质形式有机地结合,这样才能满足员工的不同需求。
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="xxnr-content">
+                    <i class="icon-xxnr icon-xxnr-6"></i>
+                    <div class="xxnr-list-title">
+                        劳动关系管理
+                    </div>
+                    <div class="xxnr-list-detail">
+                        员工关系的处理在于以国家相关法规政策及公司规章制度为依据,在发生劳动关系之初,明确劳动者和用人单位的权利和义务,在合同期限之内,按照合同约定处理劳动者与用人单位之间权利和义务关系。
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<!--课程内容结束-->
+
+<div class="bg3">
+    <div class="bg3-content">
+        <a class="btn-1" onclick="mantis.requestChat()"></a>
+        <a class="btn-2" onclick="mantis.requestChat()"></a>
+        <a class="btn-3" onclick="mantis.requestChat()"></a>
+        <a class="btn-4" onclick="mantis.requestChat()"></a>
+    </div>
+</div>
+
+<!--表单开始-->
+<form class="form1 container_1200">
+<div class="title">
+    本周报名最高<span><b>2000</b>元助学金</span>等你拿　更有<span><b>免费</b></span>线上课程及学习资料赠送<br>
+    <span style="font-size: 34px"><b>名额有限　立即申请</b></span>
+</div>
+    <div class="zzcx-input-group">
+        <input class="zzcx-input" placeholder="姓名：">
+        <input class="zzcx-input" placeholder="电话：">
+        <a class="zzcx-btn">我要申请</a>
+    </div>
+</form>
+<!--表单结束-->
+
+<div class="szll-swiper ">
+    <div class="sztd-title"></div>
+    <div class="sztd-line"></div>
+    <div class="swiper-container container_1200" >
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="info">
+                    <img class="img" src="images/wzh.png">
+                    <div class="content">
+                        <b>职    称：</b>  国家人力资源考评员<br>
+                        <b>授课科目：</b>  劳动关系协调师<br>
+                        <div class="colorLine"></div>
+                        <b>个人背景：</b> 实战型人力资源管理专家； 高级人力资源管理师、国家人力资源考评员； 多家知名职业考证学院的“国家人力资源管理师认证课程”特聘讲师；<br>
+                        <b>讲师风格：</b>高效务实，讲究实战经验，注重学员收益，给到学员直接的实际运作经验及技巧。
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info">
+                    <img class="img" src="images/wt.png">
+                    <div class="content">
+                        <b>职    称：</b>  高级培训讲师<br>
+                        <b>授课科目：</b>  高级企业人力资源管理师<br>
+                        <div class="colorLine"></div>
+                        <b>个人背景：</b>
+                        管理学教授 广东省劳动协会高级顾问； 三星集团高级顾问； 英国剑桥大学国际职业经理人 广东省人力资源师技能鉴定中心专家 前程无忧特聘金牌讲师； 三茅人力资源网高级顾问 世界航协IATA/FIATA代理人高级培训师； 英国皇家物流师（ILT） 多家培训机构特聘教授级讲师 多家公司人力资源顾问                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info">
+                    <img class="img" src="images/zh.png">
+                    <div class="content">
+                        <b>职    称：</b> 人力资源管理师特聘高级讲师<br>
+                        <b>授课科目：</b>  企业人力资源管理师<br>
+                        <div class="colorLine">
+
+                        </div>
+                        <b>个人背景：</b>
+                         近年来培训过的企业及机构有：南方航空公司、海南航空公司、汕头航空公司、广东省劳动技能鉴定中心、广东省人力资源管理协会、广州人力资源管理协会、中大职业培训、华南师范大学、佛山新笙企业管理顾问有限公司等                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info">
+                    <img class="img" src="images/xwj.png">
+                    <div class="content">
+                        <b>职    称：</b> 国家一级人力资源管理师<br>
+                        <b>授课科目：</b>  企业人力资源管理师<br>
+                        <div class="colorLine">
+
+                        </div>
+                        <b>个人荣誉：</b> 国家一级人力资源管理师、国家一级企业培训师<br>
+                        <b>个人背景：</b>擅长课程：人力资源规划、招聘与配置、培训与开发、绩效管理、薪酬管理、劳动关系管理等并可结合企业实际进行课程二次开发。用实际工作中的案例引发学员的思考和兴趣,引导学员参与讲述，并总结出针对性的改善对策，使学员在轻松积极的氛围中学习，并能运用于实际工作中。
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <script language="javascript">
+        var mySwiper = new Swiper('.szll-swiper .swiper-container',{
+            prevButton:'.szll-swiper .swiper-button-prev',
+            nextButton:'.szll-swiper .swiper-button-next',
+            autoplay: 5000,//可选选项，自动滑动
+        })
+    </script>
+</div>
+<div class="sztd-cline"></div>
+<div class="bg4">
+    <div class="bg4-content">
+    <a class="bg4-btn" onclick="mantis.requestChat()"></a>
+    </div>
+</div>
+
+<!--常见问题开始-->
+<div class="cjwt">
+    <div class="container_1200">
+        <div class="cjwt-title"></div>
+        <ul class="cjwt-list clearfix">
+            <li>
+                <div class="top"><span class="qa">Q</span>担心考不过怎么办？<a onclick="mantis.requestChat()">了解更多</a></div>
+                <div class="top"><span class="qa aq">A</span>中鹏承诺：1次不过3年内免费重修，考过为止！</div>
+            </li>
+            <li>
+                <div class="top"><span class="qa">Q</span>人力资源管理师好考吗？通过率怎样？<a onclick="mantis.requestChat()">了解更多</a></div>
+                <div class="top"><span class="qa aq">A</span>人力资源是目前国家认证的职业资格证书，通过率……</div>
+            </li>
+            <li>
+                <div class="top"><span class="qa">Q</span>不符合报考条件，怎么办？<a onclick="mantis.requestChat()">了解更多</a></div>
+                <div class="top"><span class="qa aq">A</span>不符合报考条件的学员别担心，通过……</div>
+            </li>
+            <li>
+                <div class="top"><span class="qa">Q</span>考人力证可以跨级报考吗？<a onclick="mantis.requestChat()">了解更多</a></div>
+                <div class="top"><span class="qa aq">A</span>人力资源管理师报考有明确的条件要求，跨级报考需要……</div>
+            </li>
+            <li>
+                <div class="top"><span class="qa">Q</span>工作忙，没时间学习怎么办？<a onclick="mantis.requestChat()">了解更多</a></div>
+                <div class="top"><span class="qa aq">A</span>针对在职上班族，特别开通业余时间学习班……</div>
+            </li>
+            <li><img src="images/qustion.png"></li>
+        </ul>
+    </div>
+</div>
+<!--常见问题结束-->
+
+<!--在线教育APP开始-->
+<div class="zxjy container_1200">
+        <div class="zxjy-title"></div>
+    <ul class="zxjy-list clearfix">
+        <li>
+            <div class="content"><img src="images/img1.png"></div>
+        </li>
+        <li>
+            <div class="content"><img src="images/img2.png"></div>
+        </li>
+        <li>
+            <div class="content"><img src="images/img3.png"></div>
+        </li>
+    </ul>
+</div>
+<!--在线教育APP结束-->
+
+<div class="bg9"></div>
+
+<!--报名入口开始-->
+<div class="bmrk container_1200">
+    <div class="bmrk-title"></div>
+    <ul class="bmrk-list clearfix">
+        <li>
+            <a onclick="mantis.requestChat()">福田区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">宝安区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">罗湖区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">南山区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">盐田区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">龙岗区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">光明新区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">龙华新区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">坪山新区 &gt;&nbsp;&gt;</a>
+        </li>
+        <li>
+            <a onclick="mantis.requestChat()">大鹏新区 &gt;&nbsp;&gt;</a>
+        </li>
+    </ul>
+</div>
+
+<!--报名入口开始-->
+<!--弹框开始-->
+<div class="rlzy-tk" style="display: block;">
+    <div class="rlzy-tk-content">
+        <div class="rlzy-tk-close" onclick="tkClose()"></div>
+        <div class="rlzy-tk-title">人力资源师抢先报名  HR本期特惠班限招中</div>
+        <div class="rlzy-tk-subtitle">考取证书后可领取补贴最高<span>2000</span>元</div>
+        <div class="tk-btn-group">
+            <a class="tk-btn-1" onclick="mantis.requestChat()">查看优惠费用 > </a>
+            <a class="tk-btn-2" onclick="mantis.requestChat()">报名流程咨询</a>
+        </div>
+    </div>
+</div>
+<!--弹框结束-->
+
+<!--螳螂科技探头代码 2018-10-08-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b231c9ab609f7456962ec9b"></script>
+<!--螳螂科技探头代码 2018-10-08-->
+<script>
+    var intervaltk;
+    $(document).ready(function() {
+        intervaltk = setInterval(tkOpen, 10);
+    });
+      //导航
+      (function() {
+          var index = 0;
+          $('#nav').find('ul li').on('click',function() {
+              index = $(this).index();
+              $(this).addClass('on').siblings().removeClass('on');
+          });
+          $('#nav').find('ul li').hover(function() {
+              $(this).addClass('on').siblings().removeClass('on');
+          },function() {
+              $(this).removeClass('on');
+              $('#nav').find('ul li').eq(index).addClass('on');
+          })
+      })();
+
+      function tkOpen() {
+          $(".rlzy-tk").fadeIn();
+      }
+      function tkClose() {
+          clearInterval(intervaltk)
+          $(".rlzy-tk").fadeOut();
+          intervaltk  = setInterval(tkOpen,20000);
+      }
+</script>
+</body>
+</html>
