@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>广东成人学历机构官方查询中心</title>
+    <link rel="stylesheet" href="css/xl925.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+</head>
+<body  class="font_yahei">
+<!--查询开始-->
+<div class="xl-cx">
+    <div class="xl-cx-form container_1200">
+        <div class="inout-group">
+            <div class="inout-group-tips">
+                *查询内容不能为空
+            </div>
+            <input id="inputval" placeholder="请输入你要查询的机构名称">
+            <a onclick="tkOpen()">立即查询</a>
+        </div>
+        <div class="xl-cx-tips">请注意：为了您能顺利完成学业，请在<b>选择机构前</b>第一时间进行机构查询，谨防上当受骗！</div>
+    </div>
+</div>
+<!--查询结束-->
+<!--实时查询结果信息开始-->
+<div class="sscx container_1200">
+    <div class="xl-title">
+        接收查询结果
+    </div>
+    <div class="njkb-content">
+        <div class="Top_Record">
+            <div class="topRec_List">
+                <dl>
+                    <dd>学员</dd>
+                    <dd>手机</dd>
+                    <dd>查询机构</dd>
+                    <dd>查询结果</dd></dl>
+                <div class="maquee" id="colee">
+                    <ul id="colee1">
+                        <li>
+                            <div>沈*中</div>
+                            <div>136****8986</div>
+                            <div>尚德机构</div>
+                            <div>结果生成中</div>
+                        </li>
+                        <li>
+                            <div>宋*乐</div>
+                            <div>134****1164</div>
+                            <div>奥鹏教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>何*彦</div>
+                            <div>137****8012</div>
+                            <div>中鹏培训</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>王*芳</div>
+                            <div>188****6622</div>
+                            <div>升学教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>宋*祈</div>
+                            <div>150****2036</div>
+                            <div>博学教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>何*炜</div>
+                            <div>136****6012</div>
+                            <div>爱华教育</div>
+                            <div>结果生成中</div>
+                        </li>
+                        <li>
+                            <div>张*杰</div>
+                            <div>158****8833</div>
+                            <div>中鹏教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>雷*银</div>
+                            <div>150****2036</div>
+                            <div>青学教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>高*璐</div>
+                            <div>156****1029</div>
+                            <div>教育联展网</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>李*婷</div>
+                            <div>186****7565</div>
+                            <div>深圳中鹏</div>
+                            <div>结果生成中</div>
+                        </li>
+                        <li>
+                            <div>宋*铿</div>
+                            <div>131****9069</div>
+                            <div>尚德教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>沈*琳</div>
+                            <div>157****8339</div>
+                            <div>深圳中青教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>李*</div>
+                            <div>138****3864</div>
+                            <div>深圳大学自考站</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>刘*</div>
+                            <div>187****2214</div>
+                            <div>坤泽教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>沈*莉</div>
+                            <div>150****8183</div>
+                            <div>天方文化传播</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>张*春</div>
+                            <div>136****1289</div>
+                            <div>深圳明德教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>宋*蔚</div>
+                            <div>182****6544</div>
+                            <div>明世教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>张*东</div>
+                            <div>133****2210</div>
+                            <div>尚德</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>李*萍</div>
+                            <div>135****7486</div>
+                            <div>升学教育</div>
+                            <div>结果生成中</div>
+                        </li>
+                        <li>
+                            <div>冯*秀</div>
+                            <div>137****7745</div>
+                            <div>中鹏培训</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>王*宝</div>
+                            <div>138****8948</div>
+                            <div>书城培训中心</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>张*杰</div>
+                            <div>177****0815</div>
+                            <div>明世教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>沈*英</div>
+                            <div>183****2642</div>
+                            <div>方块教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>李*婧</div>
+                            <div>136****3276</div>
+                            <div>学慧网</div>
+                            <div>结果生成中</div>
+                        </li>
+                        <li>
+                            <div>刘*训</div>
+                            <div>178****5984</div>
+                            <div>华智教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>沈*婷</div>
+                            <div>159****8156</div>
+                            <div>奥鹏教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>赵*娅</div>
+                            <div>157****1980</div>
+                            <div>尚德教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>孙*婷</div>
+                            <div>183****2205</div>
+                            <div>升学集团</div>
+                            <div>结果生成中</div>
+                        </li>
+                        <li>
+                            <div>李*玲</div>
+                            <div>185****7258</div>
+                            <div>金凯翔教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>刘*亮</div>
+                            <div>136****2216</div>
+                            <div>起点教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>沈*盈</div>
+                            <div>132****7278</div>
+                            <div>天方文化</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>刘*焕</div>
+                            <div>185****4356</div>
+                            <div>深圳继续教育网</div>
+                            <div>结果生成中</div>
+                        </li>
+                        <li>
+                            <div>宋*宾</div>
+                            <div>136****2977</div>
+                            <div>坤泽教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>张*</div>
+                            <div>189****6770</div>
+                            <div>尚德机构</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>李*文</div>
+                            <div>136****1985</div>
+                            <div>升学教育</div>
+                            <div>已发送结果</div>
+                        </li>
+                        <li>
+                            <div>何*煊</div>
+                            <div>158****4030</div>
+                            <div>深圳中鹏</div>
+                            <div>已发送结果</div>
+                        </li>
+                    </ul>
+                    <ul id="colee2">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--实时查询结果信息结束-->
+
+
+<!--真假曝光开始-->
+<div class="zjbg">
+    <div class="container_1200">
+        <div class="xl-title">
+            甄别教育机构<span>真假&nbsp; 曝光</span>黑机构欺诈学员手法
+        </div>
+        <ul class="zjbg-list clearfix">
+            <li>
+                <div class="title">
+                    资质是否齐全
+                </div>
+                <div class="info">
+                    必须具备有效教育局办学许可证、民办非企<br>
+                    业登记证、以及教育局官网备案可查
+                </div>
+            </li>
+            <li>
+                <div class="title">
+                    是否虚假承诺
+                </div>
+                <div class="info">
+                    国家规定成人高考、网络教育最低学制2.5年，<br>
+                    自考（限制报考科目），“快速拿证班”不存在
+                </div>
+            </li>
+            <li>
+                <div class="title">
+                    是否违规操作
+                </div>
+                <div class="info">
+                    成人学历教育必须参加相关部门组织的考试，<br>
+                    给钱拿证/包过/托管/代考均为违规操作
+                </div>
+            </li>
+            <li>
+                <div class="title">
+                    办学时间长短
+                </div>
+                <div class="info">
+                    小机构多数成立时间短，办学经验和办学能力差，
+                    <br>往往还存在倒闭或者“跑路”的风险
+                </div>
+            </li>
+            <li>
+                <div class="title">
+                    是否虚假招生
+                </div>
+                <div class="info">
+                    院校会给教育机构提供盖章的授权红头文件、<br>
+                    颁发授权牌匾等，无授权均为虚假院校招生
+                </div>
+            </li>
+            <li>
+                <div class="title">
+                    办学规模大小
+                </div>
+                <div class="info">
+                    小机构无固定的学习校区，无法提供有保<br>
+                    障的教学服务，办学实力多考察校区规模
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--真假曝光开始-->
+
+<!--资质实力开始-->
+
+<div class="slzz">
+    <div class="container_1200">
+        <div class="xl-title">
+            查询机构<span>资质实力&nbsp; 保障学习</span>顺利毕业
+        </div>
+        <ul class="slzz-list clearfix">
+            <li>
+                <i class="zlzz-icon icon1"></i>
+                <div class="title">
+                    数据权威
+                </div>
+                连通教育在线<br>
+                官方数据
+            </li>
+            <li>
+                <i class="zlzz-icon icon2"></i>
+                <div class="title">
+                    结果精准
+                </div>
+                实施同步<br>
+                最新数据信息
+            </li>
+            <li>
+                <i class="zlzz-icon icon3"></i>
+                <div class="title">
+                    响应及时
+                </div>
+                大数据云技术支持<br>
+                1秒可查
+            </li>
+            <li>
+                <i class="zlzz-icon icon4"></i>
+                <div class="title">
+                    安全保障
+                </div>
+                强大SSL加密技术<br>
+                保障信息安全
+            </li>
+        </ul>
+    </div>
+
+</div>
+<!--资质实力开始-->
+
+<!--底部开始-->
+<div class="footer">
+    <div class="container_1200">
+        <div class="img"></div>
+        <div class="title">
+            版权所有@广东成人学历机构查询中心
+        </div>
+    </div>
+
+</div>
+<!--底部结束-->
+
+<!--弹框开始-->
+<div class="tk">
+    <div class="tk-content">
+        <div class="bfxx">请填写表单信息</div>
+        <div class="tk-close" onclick="tkClose()"></div>
+        <div class="title">
+            详细查询结果及正规机构推荐将发送到你的手机
+        </div>
+        <div class="info">
+            <table>
+                <thead>
+                    <tr>
+                        <td>机构名称</td>
+                        <td>办学许可</td>
+                        <td>教育局备案</td>
+                        <td>详细结果</td>
+                    </tr>
+                </thead>
+                <tbody id="tdData">
+                <tr>
+                    <td>深圳市尚德机构教育培训中心</td>
+                    <td>未查到相关信息</td>
+                    <td>未查到相关信息</td>
+                    <td><a>正规机构一览表</a></td>
+                </tr>
+                </tbody>
+            </table>
+            <!--查询机构：<span id="result"></span>-->
+        </div>
+        <form class="tk-form">
+            <div class="tk-form-group">
+                姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：
+                <input placeholder="怎么称呼您">
+            </div>
+            <div class="tk-form-group">
+                电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：
+                <input placeholder="请输入接收短信手机号">
+            </div>
+            <a class="tk-form-btn">接收查询结果</a>
+        </form>
+        <div class="tk-tips">
+            您的电话号码仅用于发送查询结果，我们采用SSL加密技术确保您的信息安全，请放心提交。
+        </div>
+    </div>
+</div>
+<!--弹框结束-->
+
+<!--返回顶部开始-->
+<div id="backTop" title="返回顶部">
+
+</div>
+<!--返回顶部开始-->
+<script src="js/xl.js"></script>
+</body>
+</html>
