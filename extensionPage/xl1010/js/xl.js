@@ -21,7 +21,8 @@ function tkOpen() {
     var tds="";
     var count = 0;
     var flag1 = "未查到相关信息"
-    var flag2 = "未查到相关信息"
+    var flag2 = "未查到相关信息";
+    var flag3="短信接收详细结果";
     if (inputval==null||inputval==""){
         $(".inout-group-tips").show();
         $(".inout-group-tips").animate({
@@ -41,20 +42,22 @@ function tkOpen() {
             //each循环 使用$.each方法遍历返回的数据date
             $.each(data.jg, function(i, item) {
                 var jgName = item.name;
-                console.log(jgName+"********"+inputval);
                 if(jgName.indexOf(inputval) >= 0 ) {
                     count++;
                     if (item.flag1==1){
                         flag1="有";
                     }
                     if (item.flag2==1){
-                        flag1="有";
+                        flag2="有";
                     }
-                    tds+="<tr><td>"+jgName+"</td><td>"+flag1+"</td><td>"+flag2+"</td><td><a onclick='bdxx()'>短信接收正规机构名单</a></td></tr>"
+                    if(item.flag1==0&&item.flag2==0){
+                        flag3="短信接收正规机构名单";
+                    }
+                    tds+="<tr><td>"+jgName+"</td><td>"+flag1+"</td><td>"+flag2+"</td><td><a onclick='bdxx()'>"+flag3+"</a></td></tr>"
                 }
             })
             if (tds == ""){
-                tds="<tr><td colspan='4'>未查到相关信息</td></tr>"
+                tds="<tr><td colspan='4'>未查到相关信息，<a onclick='bdxx()'>短信接收正规机构名单。</a></td></tr>"
             }
             $("#tdData").html(tds)
         });
