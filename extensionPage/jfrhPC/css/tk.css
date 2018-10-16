@@ -1,0 +1,202 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td,figure {
+    margin: 0;
+    padding: 0;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    blr:expression(this.onFocus=this.blur());
+}
+
+a:focus {
+    outline: none !important;
+}
+li{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    content: "";
++ zoom: 1;
+}
+.font_yahei{
+    font-family: "Microsoft YaHei";
+}
+.container_1080{
+    width:1080px;
+    margin: 0 auto;
+}
+.tk-content{
+    margin:20px auto;
+    border-radius: 6px;
+    background: #ffffff;
+    width:1080px;
+    padding: 40px 0 60px;
+}
+.tk-title{
+    margin: auto;
+    width:1050px;
+    height:293px;
+    background: url("../images/title.png")   no-repeat;
+}
+
+
+.wypc_tijiao1 {
+    border: thin solid #CCCCCC;
+    color: #333333;
+
+    font-size: 14px;
+    height: 550px;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.wypc_table {
+    background-color: #000000;
+    border: thin solid #333333;
+}
+.wypc_table td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 3px;
+}
+
+.wypcCopy {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    width: 960px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.wypc_pcxt1 {
+    color: #999;
+    font-size: 14px;
+    height: 50px;
+    line-height: 25px;
+}
+.wypc_pcxt2 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+.wypc_pcxt2_1 {
+    float: right;
+    font-weight: normal;
+    height: 25px;
+    text-align: center;
+    width: 80px;
+}
+.wypc_pcxt2_1 a {
+    border: 1px solid #000000;
+    color: #333333;
+    display: block;
+    text-decoration: none;
+}
+.wypc_pcxt2_1 a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.wypc_pcxt3 {
+    border-bottom: thin dashed #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.wypc_pcxt31 {
+    border-bottom: thin dashed #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.wypc_pcxt4 {
+    border-style: none;
+    color: #999999;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#div3 .layui-form-radio {
+    line-height: 28px;
+    margin: 6px 0 0 0;
+    padding-right: 4px;
+    cursor: pointer;
+    font-size: 0;
+}
+#div3 .layui-form-radio>i {
+    margin: -8px 2px 0 0;
+    font-size:14px;
+    color: #c2c2c2;
+}
+table {
+    border-collapse: separate!important;
+    border-spacing: 1px !important;
+}
+.wypc_pcxt5 {
+    background-color: #CCCCCC;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+.tk-btn{
+    display: block;
+    margin:60px auto 0;
+    width: 490px;
+    line-height: 90px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    background: -webkit-linear-gradient(left , #9994e7, #bb80ea );
+    background: -o-linear-gradient(left , #9994e7, #bb80ea );
+    background: -moz-linear-gradient(left , #9994e7, #bb80ea );
+    background: linear-gradient(to right , #9994e7, #bb80ea );
+}
+.pingcem{
+    width:980px;
+    margin: auto ;
+}
+.wypc_pcxt3 label{
+    margin-right:10px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 120px;
+    /*border: solid 1px red;*/
+}
+
+#div3 input,
+.wypc_pcxt3 label{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #e4e4e4;
+    text-align: center;
+    padding: 10px;
+}

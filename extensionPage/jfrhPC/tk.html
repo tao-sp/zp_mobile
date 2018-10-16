@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>积分入户</title>
+    <link rel="stylesheet" href="css/tk.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+
+</head>
+<body class="font_yahei" style="background: #e4e4e4">
+    <div class="tk-content">
+        <div class="tk-title">
+
+        </div>
+
+        <form >
+            <ul class="pingcem" >
+
+                <div class="wypc_pcxt3">
+                    您的姓名：
+                    <input id="realname" name="realname"placeholder=" * 填写联系人姓名" required="required" class="text02 inputpingce" style=" border:2px solid #798a9c; height:35px;width:200px;">
+                    您的手机：
+                    <input id="mobile" name="mobile" placeholder=" * 请输入手机号码" value="" maxlength="11" required="required" class="text02 inputpingce"style=" border:2px solid #798a9c; height:35px;width:200px;">
+                    服务项目：
+                    <select name="certificate" id="certificate" style=" border:2px solid #798a9c; height:35px;width:150px;">
+                        <option value=""> * 选择要了解的项目</option>
+                        <option value="积分入户">积分入户</option>
+                        <option value="调干入户">调干入户</option>
+                        <option value="招工入户">招工入户</option>
+                        <option value="留学生">留学生入户</option>
+                        <option value="应届生">应届生入户</option>
+                        <option value="学历入户">学历入户</option>
+                        <option value="其它">咨询其它</option>
+                    </select>
+                </div>
+
+                <div class="wypc_pcxt2">
+                    您的学历情况
+                </div>
+                <div class="wypc_pcxt3 wypc_xl" lay-verType="tips">
+                    <label>
+                        <input type="radio" value="高中和以下" checked="checked" fenzhi="0" name="education" >高中和以下
+                    </label>
+                    <label>
+                        <input type="radio" value="非全-大专" fenzhi="60" name="education">非全日制大专
+                    </label>
+                    <label>
+                        <input type="radio" value="非全-本科" fenzhi="80" name="education" >非全日制本科
+                    </label>
+                    <label>
+                        <input type="radio" value="全日制大专" fenzhi="60" name="education">全日制大专
+                    </label>
+                    <label>
+                        <input type="radio" value="全日制本科" fenzhi="80" name="education">全日制本科
+                    </label>
+                    <label>
+                        <input type="radio" value="硕士研究生" fenzhi="100" name="education">硕士研究生
+                    </label>
+                    <label>
+                        <input type="radio" value="港澳留学生" fenzhi="100" name="education">港澳留学生
+                    </label>
+                    <label>
+                        <input type="radio" value="海外留学生" fenzhi="100" name="education">海归留学生
+                    </label>
+                    <label>
+                        <input type="radio" value="应届生" fenzhi="100" name="education" >应届毕业生
+                    </label>
+                    <label>
+                        <input type="radio" value="全专-非本" fenzhi="100" name="education" >全专 - 非本
+                    </label>
+                    <label>
+                        <input type="radio" value="中专-中技" fenzhi="100" name="education">中专 - 中技
+                    </label>
+                    <label>
+                        <input type="radio" value="其它学历" fenzhi="100" name="education">其它
+                    </label>
+                </div>
+
+                <div class="wypc_pcxt2">
+                    您的年龄情况
+                </div>
+                <div class="wypc_pcxt3 jnjs">
+                    <label>
+                        <input type="radio" value="18-25周岁" checked="checked" fenzhi="0" name="age" >18-25周岁
+                    </label>
+                    <label>
+                        <input type="radio" value="26-34周岁"  fenzhi="0" name="age" >26-34周岁
+                    </label>
+                    <label>
+                        <input type="radio" value="35-39周岁" fenzhi="50" name="age" >35-39周岁
+                    </label>
+
+                    <label>
+                        <input type="radio" value="40-44周岁" fenzhi="40" name="age" >40-44周岁
+                    </label>
+
+                    <label>
+                        <input type="radio" value="45-50周岁" fenzhi="30" name="age" >45-50周岁
+                    </label>
+                    <label>
+                        <input type="radio" value="其它年龄" fenzhi="30" name="age" >其它
+                    </label>
+                </div>
+                <div class="wypc_pcxt2">
+                    深圳社保情况
+                </div>
+                <div class="wypc_pcxt3">
+                    <label>
+                        <input type="radio" value="没有社保" checked="checked" name="socialsecurity" >没买社保
+                    </label>
+
+                    <label>
+                        <input type="radio" value="1-6个月" name="socialsecurity" >1-6个月社保
+                    </label>
+                    <label>
+                        <input type="radio" value="7个月" name="socialsecurity" >7个月社保
+                    </label>
+
+                    <label>
+                        <input type="radio" value="1-2年社保" name="socialsecurity" >1-2年社保
+                    </label>
+                    <label>
+                        <input type="radio" value="3-4年社保" name="socialsecurity" >3-4年社保
+                    </label>
+                    <label>
+                        <input type="radio" value="5年社保" name="socialsecurity" >5年以上社保
+                    </label>
+                </div>
+               <a class="tk-btn">提交测评积分</a>
+            </ul>
+        </form>
+
+    </div>
+</body>
+</html>

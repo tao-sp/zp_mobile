@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>珠宝设计</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/zbsj.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<div class="bg1">
+    <a class="bg-btn1" onclick="mantis.requestChat()"></a>
+    <a class="bg-btn2" onclick="mantis.requestChat()"></a>
+    <a class="bg-btn3" onclick="mantis.requestChat()"></a>
+
+    <div class="njkb-content">
+        <div class="Top_Record">
+            <div class="topRec_List">
+                <dl>
+                    <dd>学员</dd>
+                    <dd>就业公司</dd>
+                    <dd>岗位</dd>
+                    <dd>薪酬</dd></dl>
+                <div class="maquee">
+                    <ul>
+                        <li>
+                            <div>李妙君</div>
+                            <div>	深圳相濡珠宝有限公司</div>
+                            <div>	珠宝设计师</div>
+                            <div>	7K</div>
+                        </li>
+                        <li>
+                            <div>萧同学</div>
+                            <div>	自主创业，建立珠宝工作室</div>
+                            <div>	自由职业</div>
+                            <div>	20K+</div>
+                        </li>
+                        <li>
+                            <div>李玲丽</div>
+                            <div>	在原公司转为珠宝设计师</div>
+                            <div>	珠宝设计师</div>
+                            <div>	5K转为10K</div>
+                        </li>
+                        <li>
+                            <div>欧阳翠</div>
+                            <div>	深圳市金蔓利珠宝有限公司</div>
+                            <div>	珠宝设计师</div>
+                            <div>	6K</div>
+                        </li>
+                        <li>
+                            <div>陈树宝</div>
+                            <div>	深圳市御艺珠宝有限公司</div>
+                            <div>	珠宝设计师</div>
+                            <div>	5K</div>
+                        </li>
+                        <li>
+                            <div>叶婷婷</div>
+                            <div>	深圳市缘之钻珠宝有限公司</div>
+                            <div>	珠宝设计师</div>
+                            <div>	7K</div>
+                        </li>
+                        <li>
+                            <div>曾伟达</div>
+                            <div>	自主创业，建立鼎泰达珠宝公司</div>
+                            <div>	自由职业</div>
+                            <div>	15-20K</div>
+                        </li>
+                        <li>
+                            <div>彭双</div>
+                            <div>	在原公司转为珠宝设计师</div>
+                            <div>	珠宝设计师</div>
+                            <div>	8K</div>
+                        </li>
+                        <li>
+                            <div>杨同学</div>
+                            <div>	自主创业，拥有自己的高级定制会所</div>
+                            <div>	自由职业</div>
+                            <div>	10-15K</div>
+                        </li>
+                        <li>
+                            <div>郑红</div>
+                            <div>	深圳市瓦伦婷钻石贸易有限公司</div>
+                            <div>	珠宝设计师</div>
+                            <div>	10K</div>
+                        </li>
+                        <li>
+                            <div>何小慧</div>
+                            <div>	自主创业，有自己的珠宝会所</div>
+                            <div>	自由职业</div>
+                            <div>	20-30k</div>
+                        </li>
+                        <li>
+                            <div>孙冰</div>
+                            <div>	深圳金雅福控股集团有限公司</div>
+                            <div>	珠宝电绘师</div>
+                            <div>	6K</div>
+                        </li>
+                        <li>
+                            <div>黎婉芸</div>
+                            <div>	深圳市喜爱尚珠宝有限公司</div>
+                            <div>	珠宝电绘师</div>
+                            <div>	6K</div>
+                        </li>
+                        <li>
+                            <div>黄婧</div>
+                            <div>	自主创业，翡翠珠宝工作室</div>
+                            <div>	自由职业</div>
+                            <div>	15-20K</div>
+                        </li>
+                        <li>
+                            <div>李纯</div>
+                            <div>	深圳东丰珠宝首饰有限公司</div>
+                            <div>	珠宝设计师</div>
+                            <div>	8K</div>
+                        </li>
+                        <li>
+                            <div>徐璐</div>
+                            <div>	深圳市信德缘珠宝首饰有限公司</div>
+                            <div>	珠宝设计师</div>
+                            <div>	6K</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="zbsj-btn gxzx-btn" onclick="mantis.requestChat()">高薪资咨询</a>
+    <form class="form1">
+        <input class="zbsj-input" placeholder="姓名：">
+        <input class="zbsj-input" placeholder="电话：">
+        <a class="zbsj-btn">预约免费试听课程</a>
+    </form>
+</div>
+<div class="js-content">
+    <div class="js">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="js-info">
+                        <img src="images/js1.png">
+                        <div class="details">
+                            <span>讲师：姚知力</span>
+                            中鹏教育珠宝设计专业教研组组员<br>
+                            高级珠宝设计师
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="js-info">
+                        <img src="images/js2.png">
+                        <div class="details">
+                            <span>讲师：楚  慧</span>
+                            中鹏教育珠宝设计专业教研组组员<br>
+                            高级珠宝设计师，资深珠宝设计培训讲师
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="js-info">
+                        <img src="images/js3.png">
+                        <div class="details">
+                            <span>讲师：何毅忠</span>
+                            中鹏教育珠宝设计专业教研组组员<br>
+                            资深珠宝设计培训讲师
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var mySwiper = new Swiper('.js .swiper-container', {
+                autoplay: 5000,//可选选项，自动滑动
+                loop:true,
+                slidesPerView : 3,
+            })
+        </script>
+    </div>
+</div>
+
+<div class="xyzp-title">
+
+</div>
+
+<div class="xyzp-ctrl">
+    <span class="on" onclick="showSwiper('certify2',this)">电绘</span>
+    <span onclick="showSwiper('certify1',this)">手绘</span>
+</div>
+
+<div id="certify1" class="hyzj hyzj1">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/dh1.jpg">
+                    <div class="hyzj-title">
+                        电绘白班/高雪梅学员/临摹作品《高级祖母绿项链》
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/dh2.jpg">
+                    <div class="hyzj-title">
+                        电绘白班/廖爱如学员/临摹作品《紫罗兰》
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/dh3.jpg">
+                    <div class="hyzj-title">
+                        电绘白班/孙冰学员/临摹作品《芭蕾舞》
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/dh4.jpg">
+                    <div class="hyzj-title">
+                        电绘白班/王媛望学员/临摹作品《紫水晶套链》
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/dh5.jpg">
+                    <div class="hyzj-title">
+                        电绘白班/张嘉明学员/临摹作品《芭蕉叶》
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination" style="display: none"></div>
+    <div class="swiper-button-prev" style="display: none"></div>
+    <div class="swiper-button-next" style="display: none"></div>
+
+</div>
+
+<div id="certify2" class="hyzj hyzj2 none">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/sh1.jpg">
+                    <div class="hyzj-title">
+                        白班/吴颖珏学员/结业作品设计作品：《菩提叶》
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/sh2.jpg">
+                    <div class="hyzj-title">
+                        晚班/曾伟达学员/期中作品临摹作品
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/sh3.jpg">
+                    <div class="hyzj-title">
+                        晚班/方文娃学员/期中作品临摹作品
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/sh4.jpg">
+                    <div class="hyzj-title">
+                        晚班/王修其学员/结业作品设计作品：《柿柿如意》
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="teacher-info">
+                    <img src="images/sh5.jpg">
+                    <div class="hyzj-title">
+                        晚班/郑云红学员/期中作品临摹作品
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination" style="display: none"></div>
+    <div class="swiper-button-prev" style="display: none"></div>
+    <div class="swiper-button-next" style="display: none"></div>
+
+</div>
+
+<a class="zbsj-btn" onclick="mantis.requestChat()">查看更多作品</a>
+<div class="bg2">
+    <form class="form2">
+        <input class="zbsj-input" placeholder="姓名：">
+        <input class="zbsj-input" placeholder="电话：">
+        <a class="zbsj-btn">提交</a>
+    </form>
+    <a class="bg2-btn1" onclick="mantis.requestChat()"></a>
+</div>
+
+<div class="app-content">
+    <div class="app">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/app1.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/app2.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/app3.png">
+                </div>
+            </div>
+        </div>
+        <script>
+            var mySwiper = new Swiper('.app .swiper-container', {
+                autoplay: 5000,//可选选项，自动滑动
+                loop:true,
+                slidesPerView : 3,
+            })
+        </script>
+    </div>
+</div>
+
+<div class="footer">
+    Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+    备案号:粤ICP备09069122号-2
+</div>
+<script src="js/zbsj.js"></script>
+</body>
+</html>

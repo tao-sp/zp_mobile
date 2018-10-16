@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠宝设计</title>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/zbsj.css">
+    <script src="js/zbsj.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<header style="position: relative">
+    <div class="shortcut">
+        <div class="container_1200 shortcut_content">
+            <div class="shortcut_content_left">
+                <p class="header-top-left fl">
+                    <a target="_blank" href="http://www.gdzp.org/continuing/">继续教育学院</a>
+                    <a target="_blank" href="http://www.gdzp.org/manage">管理学院</a>
+                    <a target="_blank" href="http://www.gdzp.org/it">IT学院</a>
+                </p>
+            </div>
+            <div class="shortcut_content_right">
+                <a href="javascript:void(0)" onclick="mantis.requestChat()">帮助中心</a>|
+                <a href="javascript:void(0)" onclick="mantis.requestChat()">在线客服</a>|
+                <a href="javascript:void(0)" onclick="mantis.requestChat()"><img src="http://www.gdzp.org/html/snsj/images/phone.png">手机版</a>
+            </div>
+        </div>
+    </div>
+    <div class="logo-sjys">
+        <div class="container_1200">
+            <div class="logo-sjys-left"><img src="http://www.gdzp.org/html/zbsj/statics/images/new/sjys-logo-1.png"></div>
+            <div class="logo-sjys-center"><img src="http://www.gdzp.org/html/zbsj/statics/images/new/1.png"></div>
+        </div>
+    </div>
+</header>
+<!--头部开始-->
+
+<!--侧边栏开始-->
+<div class="float-ad" action="{{ path('customer_page') }}" id="float-ad">
+    <div class="float-interaction">
+        <div class="interac-item interac-item-bg1">
+            <a class="link" href="javascript:;"><i class="icon icon-1"></i><span>免费试学</span></a>
+            <div class="float-frm-wrapper" style="display: none;">
+                <form action=" " class="float-frm" id="form_7">
+                    <div class="form-group">
+                        <input type="hidden" name="question[1]" value="请选择专业">
+                        <select name="answer[1]">
+                            <option value="">请选择专业</option>
+                            <option value="平面设计">平面设计</option>
+                            <option value="室内设计">室内设计</option>
+                            <option value="UI设计">UI设计</option>
+                            <option value="设计美术">设计美术</option>
+                            <option value="摄影">摄影</option>
+                            <option value="工业设计">工业设计</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="请输入您的姓名" name="name" value="" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="请输入您的手机号" name="phone" value="" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="请输入您的QQ" name="qq" value="" required="required"/>
+                    </div>
+                    <input type="hidden" name="web" value="珠宝设计PC-免费试学">
+                    <input type="hidden" name="code" value="SMS_142020347">
+                    <a class="submit" onclick="customerInput('form_7')" id="float-frm-submit">提交</a>
+                </form>
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg2 interac-bg2">
+            <a class="link" target="_blank" href="javascript:void(0)" onClick="mantis.requestChat()" ><i class="icon icon-22"></i><span>在线客服</span></a>
+        </div>
+        <div class="interac-item interac-item-bg3">
+            <a class="link" target="_blank" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODA3ODk1M180ODQ0NTZfNDAwNjAyNjYxOF8yXws" ><i class="icon icon-2"></i><span>QQ</span></a>
+            <div class="float-qq-wrapper" style="">
+                <div class="block-nbsp">
+                    <a class="qq" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=fb127f85d3545d2895267b4aaf564ba36be40c2d69bd9a0736d71d75a19ccfa3" title="中鹏教育官方咨询群5"> 点击加群 </a>
+                    <a class="qq" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=b1ab60c9abb76412f2290f0d6f11719816ac4769b440f0f426b092871ec15fcc" title="中鹏教育官方咨询群6"> 点击加群 </a>
+                </div>
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg4">
+            <a class="link" href="javascript:;"><i class="icon icon-3"></i><span>微信</span></a>
+            <div class="float-weixin-wrapper" style="">
+                <img class="weixin" src="http://www.gdzp.org/html/pmsj/statics/images/new/zp-erweima.png" alt="">
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg5">
+            <a class="link" href="javascript:;" id="backTop"><i class="icon icon-4"></i><span>返回顶部</span></a>
+        </div>
+    </div>
+</div>
+<!--侧边栏结束-->
+<!--底部开始-->
+<div class="footer">
+    Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+    备案号:<a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备09069122号-2</a><br>
+</div>
+<!--底部开始-->
+</body>
+</html>
