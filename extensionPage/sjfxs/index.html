@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据分析师</title>
+    <link rel="stylesheet" href="css/sjfxs.css">
+    <link rel="stylesheet" href="js/swiper-3.4.2/swiper-3.4.2.min.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper-3.4.2/swiper-3.4.2.jquery.min.js"></script>
+</head>
+<body class="font_yahei">
+
+<!--头部1开始-->
+
+<div class="shortcut">
+    <div class="container_1200 shortcut_content">
+        <div class="shortcut_content_left">
+            <a target="_blank" href="http://www.gdzp.org/design">艺术设计学院</a>
+            <a target="_blank" href="http://www.gdzp.org/continuing/">继续教育学院</a>
+            <a target="_blank" href="http://www.gdzp.org/manage">管理学院</a>
+        </div>
+        <div class="shortcut_content_right">
+            <a onclick="mantis.requestChat()">帮助中心</a>|
+            <a onclick="mantis.requestChat()">在线客服</a>|
+            <a onclick="mantis.requestChat()"><img src="http://www.gdzp.org/assets/images/it/phone.png">手机版</a>
+        </div>
+    </div>
+</div>
+
+<!--头部1结束-->
+
+<!--导航开始-->
+<div class="nav">
+    <div class="container_1200">
+        <div class="nav_left">
+            <img class="nav_left_img" src="images/logo.png">
+            <div class="nav_left_info">
+                <h4>IT学院</h4>
+                <p>专注互联网人才培养</p>
+            </div>
+        </div>
+        <ul class="nav_right clearfix">
+            <li>
+                <a target="_blank" href="http://www.gdzp.org">官网首页</a>
+            </li>
+            <li>
+                <a >Web网页设计</a>
+            </li>
+            <li>
+                <a onclick="mantis.requestChat()">WEB前端开发</a>
+            </li>
+            <li>
+                <a onclick="mantis.requestChat()">Python</a>
+            </li>
+            <li>
+                <a onclick="mantis.requestChat()">PHP</a>
+            </li>
+            <li>
+                <a class="nav_right_active" target="_blank" href="http://www.gdzp.org/html/sjfxs/index.html">CPDA</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--导航结束-->
+
+<!--banner开始-->
+<div class="sjfx-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="mantis.requestChat()" style="background-image: url('images/banner1.png')"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" style="background-image: url('images/banner2.png')"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" style="background-image: url('images/banner3.png')"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.sjfx-banner .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+            pagination : '.sjfx-banner .swiper-pagination',
+        })
+    </script>
+</div>
+<!--banner开始-->
+
+<!--数据分析师开始-->
+<div class="shx">
+    <div class="container_1200">
+        <div class="icon-title bg-title1"></div>
+        <ul class="shx-list clearfix">
+            <li>
+                <i class="icon-img bg-img1"></i>
+                <div class="title">
+                    刚毕业/未来迷茫
+                </div>
+                <div class="info">
+                    大学在读/刚毕业，迷茫群体，看不到未来方向，期待学一门有前景的技术
+                </div>
+            </li>
+            <li>
+                <i class="icon-img bg-img2"></i>
+                <div class="title">
+                    跨专业转行
+                </div>
+                <div class="info">
+                    非计算机专业迫切要转行群体，期待学一门靠谱、有前景、易学的技术
+                </div>
+            </li>
+            <li>
+                <i class="icon-img bg-img3"></i>
+                <div class="title">
+                    无基础、逻辑能力强
+                </div>
+                <div class="info">
+                    逻辑思维能力很强，想通过学一门技术来获得工作能力
+                </div>
+            </li>
+            <li>
+                <i class="icon-img bg-img4"></i>
+                <div class="title">
+                    数学/统计学/计算机
+                </div>
+                <div class="info">
+                    学过数学、数据分析、统计学、计算机等，是学这门课的合适人选
+                </div>
+            </li>
+            <li>
+                <i class="icon-img bg-img5"></i>
+                <div class="title">
+                    传统运维转开发
+                </div>
+                <div class="info">
+                    之前从事运维遇到瓶颈想转开发岗位，但没有技术，准备学数据分析师
+                </div>
+            </li>
+            <li>
+                <i class="icon-img bg-img6"></i>
+                <div class="title">
+                    刚入数据分析师行业
+                </div>
+                <div class="info">
+                    职场菜鸟，刚进入这行，技术不熟练，没有资格证书证明能力
+                </div>
+            </li>
+        </ul>
+        <a class="sjfx-btn">咨询详情</a>
+
+        <div class="title2-margintop icon-title bg-title2"></div>
+    </div>
+</div>
+<!--数据分析师开始-->
+
+<!--自助查询开始-->
+<div class="zzcx">
+    <form class="container_1080">
+        <div class="rdo-group-border-content">
+            <div class="rdo-group-border">
+                <div class="rdo-group">
+                    <div class="rdo-item">
+                        <span>工作年限：</span>
+                        <input type="radio" name="nx" value="一年以下" id="nx1"><label for="nx1">一年以下</label>
+                        <input type="radio" name="nx" value="1-3年" id="nx2"><label for="nx2">1-3年</label>
+                        <input type="radio" name="nx" value="3-5年" id="nx3"><label for="nx3">3-5年</label>
+                        <input checked type="radio" name="nx" value="5年以上" id="nx4"><label for="nx4" class="width-185" >5年以上</label>
+                    </div>
+                    <div class="rdo-item">
+                        <span>最高学历：</span>
+                        <input type="radio" name="xl" value="大专以下" id="xl1"><label for="xl1">大专以下</label>
+                        <input type="radio" name="xl" value="大专" id="xl2"><label for="xl2">大专</label>
+                        <input type="radio" name="xl" value="本科" id="xl3"><label for="xl3">本科</label>
+                        <input  checked type="radio" name="xl" value="硕士以上（含硕士）" id="xl4"><label class="width-185" for="xl4">硕士以上（含硕士）</label>
+                    </div>
+                    <div class="rdo-item">
+                        <span>您的专业：</span>
+                        <input type="radio" name="nl" value="管理专业" id="nl1"><label for="nl1">管理专业</label>
+                        <input type="radio" name="nl" value="经济学" id="nl2"><label for="nl2">经济学</label>
+                        <input type="radio" name="nl" value="金融专业" id="nl3"><label for="nl3">金融专业</label>
+                        <input checked type="radio" name="nl" value="其他专业" id="nl4"><label for="nl4" class="width-185" >其他专业</label>
+                    </div>
+
+                    <div class="zzcx-input-group">
+                        <input class="zzcx-input" placeholder="姓名：">
+                        <input class="zzcx-input" placeholder="电话：">
+                        <a class="zzcx-btn">免费查询</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </form>
+</div>
+<!--自助查询结束-->
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

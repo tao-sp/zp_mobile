@@ -1,5 +1,14 @@
 $(function () {
     setInterval('autoScroll(".maquee")',3000);
+    /*回到顶部函数；当点击跳转链接后，回到页面顶部位置 */
+    if(!$("#backTop").length){return;}
+    $("#backTop").click(function() {
+        $('body,html').animate({
+                scrollTop: 0
+            },
+            1000);
+        return false;
+    });
 
 })
 function autoScroll(obj){
@@ -55,6 +64,8 @@ certifySwiper = new Swiper('.hyzj1 .swiper-container', {
             console.log(swiper.bullets.length);
         }
     }
+
+
 });
 
 certifySwiper1 = new Swiper('.hyzj2 .swiper-container', {
@@ -110,4 +121,7 @@ function showSwiper(idName,obj) {
     $(".hyzj.none").removeClass("none");
     $("#"+idName).addClass("none");
 
+}
+function hideright() {
+    $(".rightserve").toggle();
 }

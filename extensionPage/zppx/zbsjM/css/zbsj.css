@@ -335,4 +335,39 @@ a {
   padding: 0.4266666667rem 0;
   line-height: 0.5546666667rem; }
 
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  z-index: 9999;
+  width: 10.6666666667rem;
+  height: 1.7066666667rem;
+  padding-left: 5.3333333333rem;
+  background: #000000 url("../images/logo.png") 0.4266666667rem center/4.736rem 1.216rem no-repeat; }
+
+.header img {
+  height: 0.512rem;
+  display: block;
+  padding-top: 0.6826666667rem; }
+
+.right-suspension {
+  z-index: 999999;
+  width: 2.1333333333rem;
+  position: fixed;
+  bottom: 1.7066666667rem;
+  right: 0.2133333333rem; }
+
+.right-suspension img {
+  display: block;
+  margin: auto;
+  padding-bottom: 0.128rem; }
+
+.rightserve1 img {
+  width: 2.1333333333rem !important; }
+
+.rightserve img, .rightserve2 img {
+  width: 1.7066666667rem; }
+
 /*# sourceMappingURL=zbsj.css.map */

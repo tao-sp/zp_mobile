@@ -343,3 +343,39 @@ a{
   padding: px2rem(20) 0;
   line-height: px2rem(26);
 }
+.header{
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  margin:auto;
+  z-index: 9999;
+  width:px2rem(500);
+  height:px2rem(80);
+  padding-left: px2rem(250);
+  background: #000000 url("../images/logo.png") px2rem(20) center /px2rem(222) px2rem(57) no-repeat;
+}
+.header img{
+  height:px2rem(24);
+  display: block;
+  padding-top: px2rem(32);
+}
+
+.right-suspension{
+  z-index: 999999;
+  width: px2rem(100);
+  position: fixed;
+  bottom: px2rem(80);
+  right:px2rem(10);
+}
+.right-suspension img{
+  display: block;
+  margin: auto;
+  padding-bottom: px2rem(6);
+}
+.rightserve1 img{
+  width: px2rem(100) !important;
+}
+.rightserve img,.rightserve2 img{
+  width: px2rem(80);
+}
