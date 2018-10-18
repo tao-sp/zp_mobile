@@ -298,8 +298,8 @@ a {
   color: #1882d1; }
 
 .kz-title {
-  margin: 100px auto 60px;
-  font-size: 36px;
+  margin: 2.1333333333rem auto 1.28rem;
+  font-size: 0.768rem;
   font-weight: bold;
   color: #202c55;
   text-align: center; }
@@ -463,7 +463,7 @@ a {
   height: 1.3226666667rem;
   display: inline-block;
   margin-right: 0.256rem;
-  background: url(../images/icon-zp.png) no-repeat; }
+  background: url(../images/icon-zp.png) 0 0/3.9893333333rem 1.3226666667rem no-repeat; }
 
 .zpqk-title {
   margin: 1.4293333333rem auto 0.64rem;
@@ -516,7 +516,7 @@ a {
   left: 0.4266666667rem;
   bottom: 0;
   margin: auto;
-  background: url(../images/wt.png) no-repeat; }
+  background: url(../images/wt.png) 0 0/1.3866666667rem 1.3866666667rem no-repeat; }
 
 .wt-title {
   margin-bottom: 0.5546666667rem;

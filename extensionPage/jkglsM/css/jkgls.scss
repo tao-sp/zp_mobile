@@ -287,8 +287,8 @@ a{
   color: #1882d1;
 }
 .kz-title{
-  margin: 100px auto 60px;
-  font-size: 36px;
+  margin: px2rem(100) auto px2rem(60);
+  font-size: px2rem(36);
   font-weight: bold;
   color: #202c55;
   text-align: center;
@@ -442,7 +442,7 @@ margin-bottom: px2rem(30);
   height: px2rem(62);
   display: inline-block;
   margin-right: px2rem(12);
-  background: url(../images/icon-zp.png) no-repeat;
+  background: url(../images/icon-zp.png) 0 0 /px2rem(187) px2rem(62) no-repeat;
 }
 .zpqk-title{
   margin: px2rem(67) auto px2rem(30);
@@ -496,7 +496,7 @@ margin: px2rem(30) auto px2rem(70);
   left:px2rem(20);
   bottom:0;
   margin: auto ;
-  background: url(../images/wt.png) no-repeat;
+  background: url(../images/wt.png) 0 0 / px2rem(65) px2rem(65) no-repeat;
 }
 .wt-title{
   margin-bottom: px2rem(26);
