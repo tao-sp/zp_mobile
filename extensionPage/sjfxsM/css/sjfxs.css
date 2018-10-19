@@ -179,7 +179,7 @@ a {
   width: 2.88rem;
   height: 2.8373333333rem;
   background-image: url("../images/img.png");
-  background-position: 8.64rem 5.6746666667rem;
+  background-size: 8.64rem 5.6746666667rem;
   display: block;
   margin: auto; }
 
@@ -621,7 +621,7 @@ a {
   padding-left: 0.4693333333rem;
   font-size: 0.4266666667rem;
   color: #999999;
-  background: url("http://m.gdzp.org/html/manage/jkgls/images/images/right.png") left center no-repeat;
+  background: url("http://m.gdzp.org/html/manage/jkgls/images/right.png") left center no-repeat;
   background-size: 0.256rem 0.256rem; }
 
 .footer-right {
