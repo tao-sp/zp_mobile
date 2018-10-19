@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>人力资源</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/sjfxs.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2/swiper-3.4.2.jquery.min.js"></script>
+
+
+</head>
+<body class="font_yahei">
+
+<header class="header">
+    CPDA
+</header>
+<!--banner开始-->
+<div class="sjfx-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner1.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner2.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner3.png"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.sjfx-banner .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+            pagination : '.sjfx-banner .swiper-pagination',
+        })
+    </script>
+</div>
+<!--banner开始-->
+
+<!--适合学开始-->
+<div class="shx">
+    <div class="icon-title bg-title1"></div>
+    <ul class="shx-list clearfix">
+        <li>
+            <i class="icon-img bg-img1"></i>
+            <div class="title">
+                刚毕业/未来迷茫
+            </div>
+            <div class="info">
+                大学在读/刚毕业，迷茫群体，看不到未来方向，期待学一门有前景的技术
+            </div>
+        </li>
+        <li>
+            <i class="icon-img bg-img2"></i>
+            <div class="title">
+                跨专业转行
+            </div>
+            <div class="info">
+                非计算机专业迫切要转行群体，期待学一门靠谱、有前景、易学的技术
+            </div>
+        </li>
+        <li>
+            <i class="icon-img bg-img3"></i>
+            <div class="title">
+                无基础、逻辑能力强
+            </div>
+            <div class="info">
+                逻辑思维能力很强，想通过学一门技术来获得工作能力
+            </div>
+        </li>
+        <li>
+            <i class="icon-img bg-img4"></i>
+            <div class="title">
+                数学/统计学/计算机
+            </div>
+            <div class="info">
+                学过数学、数据分析、统计学、计算机等，是学这门课的合适人选
+            </div>
+        </li>
+        <li>
+            <i class="icon-img bg-img5"></i>
+            <div class="title">
+                传统运维转开发
+            </div>
+            <div class="info">
+                之前从事运维遇到瓶颈想转开发岗位，但没有技术，准备学数据分析师
+            </div>
+        </li>
+        <li>
+            <i class="icon-img bg-img6"></i>
+            <div class="title">
+                刚入数据分析师行业
+            </div>
+            <div class="info">
+                职场菜鸟，刚进入这行，技术不熟练，没有资格证书证明能力
+            </div>
+        </li>
+    </ul>
+    <a class="sjfx-btn" onclick="mantis.requestChat()" >咨询详情</a>
+
+    <div class="title2-margintop icon-title bg-title2"></div>
+</div>
+<!--适合学开始-->
+
+
+<!--自助查询开始-->
+<div class="zzcx">
+    <form class="zzcx-form">
+        <div class="rdo-group-border">
+            <div class="rdo-group clearfix">
+                <div class="rdo-item">
+                    <span>工作年限：</span>
+                    <input type="radio" name="nx" value="一年以下" id="nx1"><label for="nx1">一年以下</label>
+                    <input type="radio" name="nx" value="1-3年" id="nx2"><label for="nx2">1-3年</label>
+                    <input type="radio" name="nx" value="3-5年" id="nx3"><label for="nx3">3-5年</label>
+                    <input checked type="radio" name="nx" value="5年以上" id="nx4"><label for="nx4"  >5年以上</label>
+                </div>
+                <div class="rdo-item">
+                    <span>最高学历：</span>
+                    <input type="radio" name="xl" value="大专以下" id="xl1"><label for="xl1">大专以下</label>
+                    <input type="radio" name="xl" value="大专" id="xl2"><label for="xl2">大专</label>
+                    <input type="radio" name="xl" value="本科" id="xl3"><label for="xl3">本科</label>
+                    <input  checked type="radio" name="xl" value="硕士以上（含硕士）" id="xl4"><label  for="xl4">硕士以上<em>（含硕士）</em></label>
+                </div>
+                <div class="rdo-item">
+                    <span>您的专业：</span>
+                    <input type="radio" name="nl" value="管理专业" id="nl1"><label for="nl1">管理专业</label>
+                    <input type="radio" name="nl" value="经济学" id="nl2"><label for="nl2">经济学</label>
+                    <input type="radio" name="nl" value="金融专业" id="nl3"><label for="nl3">金融专业</label>
+                    <input checked type="radio" name="nl" value="其他专业" id="nl4"><label for="nl4" >其他专业</label>
+                </div>
+                <input class="form-input" placeholder="您的姓名：">
+                <input class="form-input" placeholder="您的电话：">
+                <a class="form-btn">查询一下</a>
+            </div>
+
+        </div>
+    </form>
+
+</div>
+<!--自助查询开始-->
+
+<div class="bg">
+    <a class="bg-btn1" onclick="mantis.requestChat()"></a>
+    <a class="bg-btn2" onclick="mantis.requestChat()"></a>
+</div>
+
+<!--表单开始-->
+<form class="sjfxs-form">
+    <input class="form-input" placeholder="您的姓名：">
+    <input class="form-input" placeholder="您的电话：">
+    <a class="form-btn">申请免费试听</a>
+</form>
+<!--表单开始-->
+
+<!--行业精英开始-->
+<div class="hyjy">
+    <div class="icon-title bg-title3"></div>
+    <ul class="hyjy-list clearfix">
+        <li>
+            <i class="icon-hyjy bg-hyjy1"></i>
+            <div class="title">
+                精英团队
+            </div>
+            <div class="info">
+                实战经验丰富的课程研发团队配合,授课经验丰富的师资团队,一线课程组织结构与金牌服务支持团队。
+            </div>
+        </li>
+        <li>
+            <i class="icon-hyjy bg-hyjy2"></i>
+            <div class="title">
+                学以致用
+            </div>
+            <div class="info">
+                依据个性化的应用场景匹配有效的分析工具,让你学完即能运用于实际工作中,内容涉及企业生产与经营的各个主要环节。
+            </div>
+        </li>
+        <li>
+            <i class="icon-hyjy bg-hyjy3"></i>
+            <div class="title">
+                个性灵活
+            </div>
+            <div class="info">
+                课程内容模板化，基础与进阶兼顾,选择更灵活，个性化匹配度更高！
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!--行业精英开始-->
+
+<!--师资力量开始-->
+<div class="szll">
+    <div class="icon-title bg-title4"></div>
+    <ul class="szll-list clearfix">
+        <li>
+            <i class="icon-js bg-js3"></i>
+            <div class="title">张炳出</div>
+            <div class="info">
+                国内知名互联网公司手游事业部海外发行数据总监，项目数据分析师（CPDA），拥有十年手机游戏业从业经验，曾就职于Gameloft, Glu Mobile。
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">在线预约</a>
+        </li>
+        <li>
+            <i class="icon-js bg-js2"></i>
+            <div class="title">胡 旭</div>
+            <div class="info">
+                北京大学光华管理学院国际MBA，现任职中国人民大学商学院，北京大学光华管理学院国际MBA、意大利Bocconi大学MBA。
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">在线预约</a>
+        </li>
+        <li>
+            <i class="icon-js bg-js4"></i>
+            <div class="title">李 恒</div>
+            <div class="info">
+                中国科学院理学博士，专注于企业需求的大数据解决方案设计以及数据挖掘算法的应用研究，曾参与多项数据项目设计和实施。
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">在线预约</a>
+        </li>
+        <li>
+            <i class="icon-js bg-js1"></i>
+            <div class="title">邹东来</div>
+            <div class="info">
+                中国商业联合会数据分析专业委员会会长，《经营数据分析》、《投资数据分析》。
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">在线预约</a>
+        </li>
+    </ul>
+</div>
+<!--师资力量开始-->
+
+<!--报考指南开始-->
+<div class="bkzn-content">
+    <div class="icon-title bg-title5"></div>
+    <ul class="bkzn clearfix">
+        <li>
+            <div class="title">
+                报名时间
+            </div>
+            <div class="details">
+                随时报名，学员即可
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">了解详情</a>
+
+        </li>
+        <li>
+            <div class="title">
+                报考流程
+            </div>
+            <div class="details">
+                专职老师全程辅导
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">了解详情</a>
+
+        </li>
+        <li>
+            <div class="title">
+                名师面授
+            </div>
+            <div class="details">
+                讲师亲自授课指导
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">了解详情</a>
+
+        </li>
+        <li>
+            <div class="title">
+                报名费用
+            </div>
+            <div class="details">
+                培训+考试费用
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">了解详情</a>
+
+        </li>
+        <li>
+            <div class="title">
+                教材资料
+            </div>
+            <div class="details">
+                CPDA必修必考教材
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">了解详情</a>
+
+        </li>
+        <li>
+            <div class="title">
+                考试科目
+            </div>
+            <div class="details">
+                1机考+2笔考
+            </div>
+            <a class="btn" onclick="mantis.requestChat()">了解详情</a>
+        </li>
+    </ul>
+</div>
+<!--报考指南结束-->
+<div class="zs">
+    <a class="zs-btn1"  onclick="mantis.requestChat()"></a>
+    <a class="zs-btn2"  onclick="mantis.requestChat()"></a>
+    <a class="zs-btn3"  onclick="mantis.requestChat()"></a>
+    <a class="zs-btn4"  onclick="mantis.requestChat()"></a>
+    <a class="zs-btn5"  onclick="mantis.requestChat()"></a>
+</div>
+<!--底部开始-->
+<div class="footer">
+    <div class="clearfix">
+        <ul class="footer-left">
+            <li><a onClick="mantis.requestChat()">关于我们</a></li>
+            <li><a onClick="mantis.requestChat()">联系我们</a></li>
+            <li><a onClick="mantis.requestChat()">企业文化</a></li>
+            <li><a onClick="mantis.requestChat()">加入我们</a></li>
+        </ul>
+        <div class="footer-right">
+            <img src="http://m.gdzp.org/html/manage/jkgls/images/tel.png">
+            联系号码 <a href="tel://400-930-6618">400-930-6618</a>
+        </div>
+    </div>
+    <div class="footer-tips">
+        Copyright © 2008-2018   深圳市中鹏教育科技股份有限公司<br>
+        ALL RIGHT RESERVED 备案号:<a target="_blank" href="http://www.miibeian.gov.cn"> 粤ICP备09069122号-6</a>
+    </div>
+</div>
+<!--底部结束-->
+<!--螳螂科技探头2018-10-09-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b231eaab609f7456962eca1"></script>
+<!--螳螂科技探头2018-10-09-->
+</body>
+</html>

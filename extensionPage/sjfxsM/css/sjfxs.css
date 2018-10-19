@@ -1,0 +1,645 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.zzcx-form {
+  width: 15.1466666667rem;
+  margin: auto;
+  background: -webkit-linear-gradient(left, #6b0daa, #f74960);
+  background: -o-linear-gradient(right, #6b0daa, #f74960);
+  background: -moz-linear-gradient(right, #6b0daa, #f74960);
+  background: linear-gradient(to right, #6b0daa, #f74960); }
+
+.rdo-group-border {
+  width: 14.2933333333rem;
+  padding: 0.4266666667rem;
+  margin: auto;
+  background: url("../images/borderColor.png") 0 0/0.32rem 0.1706666667rem; }
+
+.rdo-group {
+  width: 14.2933333333rem;
+  padding-bottom: 1.0453333333rem;
+  background: #eaeaea; }
+
+.rdo-item {
+  width: 4.7573333333rem;
+  float: left;
+  margin-bottom: 0.64rem; }
+
+.rdo-item span {
+  display: block;
+  font-size: 0.5973333333rem;
+  font-weight: bold;
+  color: #666666;
+  text-align: center;
+  position: relative;
+  margin-bottom: 0.32rem;
+  padding-top: 0.896rem;
+  padding-bottom: 0.64rem; }
+
+.rdo-item input {
+  display: none; }
+
+.rdo-item input + label {
+  line-height: 1.0666666667rem;
+  display: block;
+  width: 4.0533333333rem;
+  height: 1.0666666667rem;
+  background: #ffffff;
+  text-align: center;
+  font-size: 0.4693333333rem;
+  color: #666666;
+  margin: 0 auto 0.5973333333rem; }
+
+.rdo-item input + label em {
+  font-style: normal;
+  font-size: 0.384rem; }
+
+.rdo-item input:checked + label {
+  background: #f84a60;
+  color: #ffffff; }
+
+.rdo-item span:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  content: " ";
+  display: block;
+  width: 0.4266666667rem;
+  height: 0.2133333333rem;
+  background: url("../images/tran.png") 0 0/0.4266666667rem 0.2133333333rem no-repeat; }
+
+.form-input {
+  padding-left: 0.4266666667rem;
+  font-size: 0.6826666667rem;
+  line-height: 2.048rem;
+  height: 2.048rem;
+  width: 10.0266666667rem;
+  border-radius: 0.128rem;
+  display: block;
+  margin: 0.8533333333rem auto;
+  outline: none;
+  border: 1px solid #888787; }
+
+.form-btn {
+  font-size: 0.832rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 2.048rem;
+  height: 2.048rem;
+  width: 10.4533333333rem;
+  border-radius: 0.128rem;
+  display: block;
+  margin: auto;
+  background: -webkit-linear-gradient(left, #5f0ba0, #f84a60);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #5f0ba0, #f84a60);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #5f0ba0, #f84a60);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #5f0ba0, #f84a60);
+  /* 标准的语法 */ }
+
+.sjfx-banner .swiper-slide img {
+  cursor: pointer;
+  width: 16rem;
+  display: block; }
+
+.sjfx-banner .swiper-pagination-bullet {
+  width: 0.8106666667rem;
+  border-radius: 0.1493333333rem;
+  height: 0.1493333333rem;
+  opacity: 1;
+  background: #c9c7d8; }
+
+.sjfx-banner .swiper-pagination-bullet-active {
+  background: #ae0f23; }
+
+.icon-title {
+  margin: auto;
+  display: block;
+  background-image: url("../images/title.png");
+  background-size: 13.3973333333rem 5.504rem; }
+
+.bg-title4 {
+  width: 6.4rem;
+  height: 2.0906666667rem;
+  background-position: 0 -1.4293333333rem; }
+
+.bg-title5 {
+  width: 4.864rem;
+  height: 1.536rem;
+  background-position: -6.4rem -1.4293333333rem; }
+
+.bg-title3 {
+  width: 13.3973333333rem;
+  height: 1.4293333333rem;
+  background-position: -0 -0; }
+
+.bg-title2 {
+  width: 12.7573333333rem;
+  height: 0.832rem;
+  background-position: 0 -4.672rem; }
+
+.bg-title1 {
+  width: 10.7946666667rem;
+  height: 1.152rem;
+  background-position: 0 -3.52rem; }
+
+.icon-img {
+  width: 2.88rem;
+  height: 2.8373333333rem;
+  background-image: url("../images/img.png");
+  background-position: 8.64rem 5.6746666667rem;
+  display: block;
+  margin: auto; }
+
+.bg-img1 {
+  background-position: -0 -0; }
+
+.bg-img2 {
+  background-position: -2.88rem 0; }
+
+.bg-img3 {
+  background-position: 0 -2.8373333333rem; }
+
+.bg-img4 {
+  background-position: -2.88rem -2.8373333333rem; }
+
+.bg-img5 {
+  background-position: -5.76rem 0; }
+
+.bg-img6 {
+  background-position: -5.76rem -2.8373333333rem; }
+
+.shx {
+  padding-top: 1.6rem;
+  width: 16rem;
+  background: #f8f6fb;
+  padding-bottom: 1.6rem;
+  margin-bottom: 0.8533333333rem; }
+
+.shx-list {
+  width: 15.1466666667rem;
+  margin: 1.28rem auto 0; }
+
+.shx-list li {
+  width: 7.552rem;
+  float: left;
+  margin-bottom: 1.0666666667rem; }
+
+.shx-list li .title {
+  text-align: center;
+  padding-top: 0.4266666667rem;
+  font-size: 0.64rem;
+  font-weight: bold;
+  color: #42169b; }
+
+.shx-list li .info {
+  width: 5.4613333333rem;
+  margin: auto;
+  text-align: center;
+  line-height: 0.704rem;
+  margin-top: 0.256rem;
+  font-size: 0.4693333333rem;
+  font-weight: lighter;
+  color: #000000; }
+
+.sjfx-btn {
+  width: 6.4rem;
+  margin: auto;
+  line-height: 1.3226666667rem;
+  height: 1.3226666667rem;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 0.64rem;
+  border-radius: 0.128rem;
+  background: -webkit-linear-gradient(left, #6b0daa, #f74960);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #6b0daa, #f74960);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #6b0daa, #f74960);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #6b0daa, #f74960);
+  /* 标准的语法 */ }
+
+.title2-margintop {
+  margin-top: 0.768rem; }
+
+.bg {
+  position: relative;
+  width: 16rem;
+  height: 101.248rem;
+  background: url("../images/bg.png") 0 0/16rem 101.248rem no-repeat; }
+
+.bg a:hover {
+  background: rgba(0, 0, 0, 0.1); }
+
+.bg-btn1 {
+  display: block;
+  width: 10.0266666667rem;
+  height: 2.0693333333rem;
+  position: absolute;
+  top: 18.2613333333rem;
+  left: 2.9866666667rem; }
+
+.bg-btn2 {
+  display: block;
+  width: 6.4rem;
+  height: 1.3226666667rem;
+  position: absolute;
+  top: 61.7173333333rem;
+  right: 1.856rem; }
+
+.sjfxs-form {
+  padding: 1.28rem 0;
+  background: #ed285e; }
+
+.sjfxs-form .form-btn {
+  border-bottom: 0.2346666667rem solid #962847; }
+
+.sjfxs-form .form-input {
+  background: #fdeaef; }
+
+.hyjy {
+  background: #f5f5f5;
+  padding: 1.7066666667rem 0; }
+
+.hyjy-list li {
+  margin-left: 0.4906666667rem;
+  padding-top: 0.64rem;
+  background: #ffffff;
+  width: 4.6506666667rem;
+  height: 9.792rem;
+  float: left;
+  border-top-left-radius: 0.1706666667rem;
+  border-top-right-radius: 0.1706666667rem;
+  -moz-box-shadow: 0 0 15px #e2e2e2;
+  -webkit-box-shadow: 0 0 15px #e2e2e2;
+  box-shadow: 0 0 15px #e2e2e2; }
+
+.hyjy-list li .title {
+  margin: 0.64rem auto;
+  font-size: 0.5973333333rem;
+  text-align: center;
+  font-weight: bold; }
+
+.hyjy-list li .info {
+  text-align: justify;
+  width: 3.84rem;
+  margin: auto;
+  line-height: 0.704rem;
+  font-size: 0.4693333333rem;
+  font-weight: lighter; }
+
+.hyjy-list {
+  margin-top: 1.408rem; }
+
+.hyjy-list li:nth-child(1) {
+  border-bottom: 0.1066666667rem solid #77d8d3; }
+
+.hyjy-list li:nth-child(2) {
+  border-bottom: 0.1066666667rem solid #7668e3; }
+
+.hyjy-list li:nth-child(3) {
+  border-bottom: 0.1066666667rem solid #d24d7a; }
+
+.icon-hyjy {
+  display: block;
+  margin: auto;
+  background-image: url("../images/icon-hyjy.png"); }
+
+.bg-hyjy1 {
+  width: 76px;
+  height: 61px;
+  background-position: -125px -0; }
+
+.bg-hyjy2 {
+  width: 64px;
+  height: 58px;
+  background-position: -61px -0; }
+
+.bg-hyjy3 {
+  width: 61px;
+  height: 59px;
+  background-position: -0 -0; }
+
+.icon-js {
+  position: relative;
+  bottom: 1.1733333333rem;
+  margin: auto;
+  display: block;
+  background-image: url("../images/icon-js.png"); }
+
+.bg-js3 {
+  width: 2.432rem;
+  height: 2.432rem;
+  background-position: -2.4746666667rem 0; }
+
+.bg-js2 {
+  width: 2.4106666667rem;
+  height: 2.4106666667rem;
+  background-position: 0 -2.4533333333rem; }
+
+.bg-js4 {
+  width: 2.3893333333rem;
+  height: 2.3893333333rem;
+  background-position: -2.4106666667rem -2.4533333333rem; }
+
+.bg-js1 {
+  width: 2.4746666667rem;
+  height: 2.4746666667rem;
+  background-position: -0 -0; }
+
+.szll {
+  margin: 1.6213333333rem auto; }
+
+.szll-list li {
+  float: left;
+  margin-left: 0.4266666667rem;
+  position: relative;
+  border-radius: 0.128rem;
+  margin-top: 2.1333333333rem;
+  width: 7.36rem;
+  height: 9.1946666667rem;
+  background: -webkit-linear-gradient(top, #f74960, #6b0daa);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom, #f74960, #6b0daa);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom, #f74960, #6b0daa);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom, #f74960, #6b0daa);
+  /* 标准的语法 */ }
+
+.szll-list li .title {
+  position: relative;
+  bottom: 0.4266666667rem;
+  font-size: 0.512rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center; }
+
+.szll-list li .info {
+  font-size: 0.4266666667rem;
+  color: #ffffff;
+  width: 5.5466666667rem;
+  margin: auto;
+  text-align: justify;
+  line-height: 0.64rem; }
+
+.szll-list li .btn {
+  position: absolute;
+  bottom: 0.4693333333rem;
+  left: 0;
+  right: 0;
+  font-size: 0.384rem;
+  color: #ffffff;
+  width: 2.1333333333rem;
+  margin: auto;
+  border: 1px solid #ffffff;
+  border-radius: 0.128rem;
+  display: block;
+  height: 1.1946666667rem;
+  line-height: 1.1946666667rem;
+  padding-left: 1.4933333333rem;
+  background: url("../images/zx.png") 0.4266666667rem center/0.6186666667rem 0.512rem no-repeat; }
+
+.szll-list li .btn:hover, .szll-list li .btn:active {
+  background-color: #ac89e9;
+  border-color: #ac89e9; }
+
+.bkzn-content {
+  margin-bottom: 1.3866666667rem; }
+
+.bkzn {
+  margin-top: 0.4266666667rem; }
+
+.bkzn li {
+  float: left;
+  margin: 0.8533333333rem 0.4266666667rem;
+  width: 6.7413333333rem;
+  height: 3.776rem;
+  border-radius: 0.128rem;
+  border: 1px solid #7668e3;
+  position: relative; }
+
+.bkzn li:before {
+  content: " ";
+  width: 0.1493333333rem;
+  height: 0.896rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -0.064rem;
+  margin: auto;
+  display: block;
+  background: #7668e3; }
+
+.bkzn li:after {
+  content: " ";
+  width: 0.1493333333rem;
+  height: 0.896rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -0.064rem;
+  margin: auto;
+  display: block;
+  background: #7668e3; }
+
+.bkzn li .details {
+  line-height: 3.776rem;
+  font-size: 0.576rem;
+  font-weight: lighter;
+  text-align: center; }
+
+.bkzn li .title {
+  display: block;
+  width: 3.1573333333rem;
+  text-align: center;
+  line-height: 1.0453333333rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -0.5333333333rem;
+  font-size: 0.704rem;
+  color: #7668e3;
+  font-weight: bold;
+  background: #ffffff; }
+
+.bkzn li .btn {
+  display: block;
+  width: 3.84rem;
+  height: 1.0666666667rem;
+  line-height: 1.0666666667rem;
+  border-radius: 0.128rem;
+  border: 1px solid #f24863;
+  position: absolute;
+  color: #f24863;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -0.5333333333rem;
+  font-size: 0.576rem;
+  background: #ffffff;
+  text-align: center;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s; }
+
+.bkzn li:hover .btn {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  background: #f24863;
+  color: #ffffff; }
+
+.zs {
+  width: 16rem;
+  height: 53.1413333333rem;
+  position: relative;
+  background: url("../images/zs.png") 0 0/16rem 53.1413333333rem no-repeat; }
+
+.zs a {
+  cursor: pointer; }
+
+.zs a:hover {
+  background: rgba(0, 0, 0, 0.1); }
+
+.zs-btn1 {
+  width: 11.0293333333rem;
+  height: 2.688rem;
+  display: block;
+  position: absolute;
+  top: 15.5946666667rem;
+  right: 2.112rem;
+  border-radius: 0.1066666667rem; }
+
+.zs-btn2 {
+  width: 2.1333333333rem;
+  height: 2.1333333333rem;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  left: 5.0773333333rem;
+  top: 24.1706666667rem; }
+
+.zs-btn3 {
+  width: 2.1333333333rem;
+  height: 2.1333333333rem;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  top: 24.1706666667rem;
+  right: 0.6826666667rem; }
+
+.zs-btn4 {
+  width: 2.1333333333rem;
+  height: 2.1333333333rem;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  top: 29.184rem;
+  left: 5.0773333333rem; }
+
+.zs-btn5 {
+  width: 2.1333333333rem;
+  height: 2.1333333333rem;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  top: 29.184rem;
+  right: 0.6826666667rem; }
+
+.header {
+  width: 10.7306666667rem;
+  padding-left: 5.2693333333rem;
+  height: 1.7066666667rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999;
+  color: #42179b;
+  font-size: 0.4693333333rem;
+  line-height: 1.7066666667rem;
+  background: #1a191f url("../images/logo.png") 0.4266666667rem center/4.672rem 1.088rem no-repeat; }
+
+.footer {
+  padding-top: 0.7893333333rem;
+  width: 16rem;
+  height: 4.0533333333rem;
+  background: #efefef; }
+
+.footer-left {
+  padding-left: 1.0666666667rem;
+  float: left;
+  width: 6.8906666667rem;
+  border-right: 1px solid #cdcdcd; }
+
+.footer-left li {
+  line-height: 0.896rem;
+  float: left;
+  width: 2.56rem;
+  padding-left: 0.4693333333rem;
+  font-size: 0.4266666667rem;
+  color: #999999;
+  background: url("http://m.gdzp.org/html/manage/jkgls/images/images/right.png") left center no-repeat;
+  background-size: 0.256rem 0.256rem; }
+
+.footer-right {
+  text-align: center;
+  width: 7.04rem;
+  float: left;
+  color: #999999;
+  font-size: 0.4266666667rem; }
+
+.footer-right img {
+  width: 0.9813333333rem;
+  display: block;
+  margin: 0 auto 0.128rem; }
+
+.footer-tips {
+  text-align: center;
+  color: #999999;
+  font-size: 0.4266666667rem;
+  margin-top: 0.4693333333rem; }
+
+/*# sourceMappingURL=sjfxs.css.map */

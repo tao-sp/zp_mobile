@@ -298,11 +298,11 @@ a {
   color: #1882d1; }
 
 .kz-title {
-  margin: 2.1333333333rem auto 1.28rem;
+  margin: 1.7066666667rem auto 1.28rem;
   font-size: 0.768rem;
   font-weight: bold;
   color: #202c55;
-  text-align: center; }
+  padding-left: 0.4266666667rem; }
 
 .icon-kz {
   width: 1.4506666667rem;
@@ -314,6 +314,7 @@ a {
   background: url("../images/kz.png") 0 0/1.4506666667rem 1.344rem no-repeat; }
 
 .kz-list {
+  padding-left: 0.384rem;
   margin-bottom: 2.1333333333rem;
   background: url("../images/listbg.png") right bottom/7.7226666667rem 6.1653333333rem no-repeat; }
 
