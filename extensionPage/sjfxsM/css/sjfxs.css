@@ -360,7 +360,8 @@ a {
   bottom: 1.1733333333rem;
   margin: auto;
   display: block;
-  background-image: url("../images/icon-js.png"); }
+  background-image: url("../images/icon-js.png");
+  background-size: 4.9066666667rem 4.864rem; }
 
 .bg-js3 {
   width: 2.432rem;
