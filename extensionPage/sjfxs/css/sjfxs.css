@@ -565,7 +565,8 @@ background: #ae0f23;
     height:177px;
 }
 .szll-list li{
-    width:197px;
+   /* width:197px;*/
+    width: 245px;
     float: left;
     font-size: 22px;
     color: #ffffff;
@@ -600,7 +601,8 @@ background: #ae0f23;
 .js-slide{
     z-index: 7;
     position: absolute;
-    left:47px;
+   /* left:47px;*/
+    left: 71px;
     top:-22px;
     width:197px;
     height:221px;
