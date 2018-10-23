@@ -124,7 +124,7 @@ a {
 .bg-title7 {
   width: 7.04rem;
   height: 1.3653333333rem;
-  background-position: -0 -440px; }
+  background-position: 0 -9.3866666667rem; }
 
 .bg-title8 {
   width: 8.832rem;
@@ -391,20 +391,20 @@ a {
   text-align: justify; }
 
 .xui-list {
-  margin: 78px auto; }
+  margin: 1.664rem auto; }
 
 .xui {
   position: relative;
-  padding-top: 89px; }
+  padding-top: 1.8986666667rem; }
 
 .icon-xui {
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
-  top: -54px;
-  width: 99px;
-  height: 99px;
+  top: -1.152rem;
+  width: 2.112rem;
+  height: 2.112rem;
   display: block;
   background-image: url("../images/ui.png");
   background-size: 4.224rem 4.224rem; }
@@ -453,7 +453,7 @@ a {
   bottom: 0;
   left: 0;
   margin: auto;
-  width: 340px;
+  width: 7.2533333333rem;
   height: 0.4693333333rem;
   overflow: hidden; }
 
@@ -578,7 +578,7 @@ a {
 .right-bj {
   width: 4.5866666667rem;
   float: left;
-  font-size: 36px;
+  font-size: 0.768rem;
   color: #ffffff;
   display: block;
   text-align: center; }

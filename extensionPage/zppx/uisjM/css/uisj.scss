@@ -116,7 +116,7 @@ background: #130e36;
 }
 .bg-title7 {
   width: px2rem(330); height:px2rem(64);
-  background-position:  -0 -440px;
+  background-position:  -0 px2rem(-440);
 }
 .bg-title8 {
   width: px2rem(414); height:px2rem(64);
@@ -381,19 +381,19 @@ background: #130e36;
   text-align: justify;
 }
 .xui-list{
-  margin: 78px auto;
+  margin: px2rem(78) auto;
 }
 .xui{
-  position: relative;padding-top: 89px;
+  position: relative;padding-top: px2rem(89);
 }
 .icon-xui{
   position: absolute;
   left:0;
   right:0;
   margin: auto;
-  top:-54px;
-  width:99px;
-  height:99px;
+  top:px2rem(-54);
+  width:px2rem(99);
+  height:px2rem(99);
   display: block;
   background-image: url("../images/ui.png");
   background-size: px2rem(198) px2rem(198);
@@ -442,7 +442,7 @@ background: #130e36;
   bottom:0;
   left:0;
   margin: auto;
-  width:340px;
+  width:px2rem(340);
   height:px2rem(22);
   overflow: hidden;
 
@@ -571,7 +571,7 @@ background: #130e36;
 .right-bj{
   width:px2rem(215);
   float: left;
-  font-size: 36px;
+  font-size: px2rem(36);
   color: #ffffff;
   display: block;
   text-align: center;
