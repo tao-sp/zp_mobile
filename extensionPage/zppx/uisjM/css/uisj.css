@@ -1,0 +1,333 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.bg-color {
+  background: #130e36; }
+
+.banner {
+  width: 16rem;
+  height: 2.5173333333rem;
+  padding-top: 12.544rem;
+  background: url("../images/banner.png") 0 0/16rem 13.2906666667rem no-repeat; }
+
+.banner-btn {
+  width: 8.6186666667rem;
+  height: 1.92rem;
+  line-height: 1.92rem;
+  text-align: center;
+  color: #5f1ea0;
+  font-size: 0.9173333333rem;
+  font-weight: bold;
+  background: #ffffff;
+  margin: auto;
+  display: block;
+  border-radius: 0.128rem;
+  -moz-box-shadow: 0.128rem 0.128rem 0px #d20971;
+  -webkit-box-shadow: 0.128rem 0.128rem 0px #d20971;
+  box-shadow: 0.128rem 0.128rem 0px #d20971; }
+
+.icon-hld {
+  width: 6.1226666667rem;
+  height: 2.9866666667rem;
+  display: block;
+  position: relative;
+  background: url("../images/hld.png") 0 0/6.1226666667rem 2.9866666667rem no-repeat; }
+
+.icon-hld:after, .icon-hld1:after {
+  content: " ";
+  position: absolute;
+  left: -0.64rem;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  width: 0.64rem;
+  height: 0.4266666667rem;
+  background: #5f5d62; }
+
+.icon-hld1 {
+  width: 6.6133333333rem;
+  height: 2.9866666667rem;
+  display: block;
+  position: relative;
+  background: url("../images/hld1.png") 0 0/6.6133333333rem 2.9866666667rem no-repeat; }
+
+.icon-title {
+  display: block;
+  margin: auto;
+  background-image: url("../images/title.png");
+  background-size: 11.9466666667rem 12.1173333333rem; }
+
+.bg-title1 {
+  width: 8.9813333333rem;
+  height: 1.344rem;
+  background-position: 0 -2.624rem; }
+
+.bg-title2 {
+  width: 7.04rem;
+  height: 1.3013333333rem;
+  background-position: -0 -0; }
+
+.bg-title3 {
+  width: 8.832rem;
+  height: 1.3226666667rem;
+  background-position: 0 -1.3013333333rem; }
+
+.bg-title4 {
+  width: 8.832rem;
+  height: 1.3653333333rem;
+  background-position: 0 -6.656rem; }
+
+.bg-title5 {
+  width: 11.9466666667rem;
+  height: 1.3653333333rem;
+  background-position: 0 -8.0213333333rem; }
+
+.bg-title6 {
+  width: 6.6133333333rem;
+  height: 1.344rem;
+  background-position: 0 -3.968rem; }
+
+.bg-title7 {
+  width: 7.04rem;
+  height: 1.3653333333rem;
+  background-position: -0 -440px; }
+
+.bg-title8 {
+  width: 8.832rem;
+  height: 1.3653333333rem;
+  background-position: 0 -10.752rem; }
+
+.bg-title9 {
+  width: 9.984rem;
+  height: 1.344rem;
+  background-position: 0 -5.312rem; }
+
+.hyxz-hld {
+  position: absolute;
+  top: 0;
+  left: 0.64rem; }
+
+.hyxz {
+  padding-top: 2.112rem;
+  position: relative;
+  margin-top: 1.5786666667rem; }
+
+.icon-font {
+  display: block;
+  margin: auto;
+  background-image: url("../images/font.png");
+  background-size: 9.6853333333rem 7.168rem; }
+
+.bg-font3 {
+  width: 2.7733333333rem;
+  height: 7.104rem;
+  background-position: -0 -0; }
+
+.bg-font2 {
+  width: 3.328rem;
+  height: 7.168rem;
+  background-position: -2.7733333333rem 0; }
+
+.bg-font1 {
+  width: 3.584rem;
+  height: 7.1466666667rem;
+  background-position: -6.1013333333rem 0; }
+
+.hyxz-list {
+  width: 15.2106666667rem;
+  margin: 0.768rem auto 1.1093333333rem; }
+
+.hyxz-list li {
+  padding-top: 0.64rem;
+  width: 4.9066666667rem;
+  height: 7.8933333333rem;
+  float: left;
+  background: #5f1ea0;
+  border-radius: 0.128rem; }
+
+.hyxz-list li:nth-child(2) {
+  margin: 0 0.2133333333rem; }
+
+.kcsz {
+  margin-top: 1.5786666667rem;
+  padding-top: 2.112rem;
+  position: relative; }
+
+.ds {
+  margin-top: 1.5786666667rem;
+  padding-top: 2.112rem;
+  position: relative; }
+
+.icon-list {
+  width: 4.9066666667rem;
+  height: 3.6693333333rem;
+  display: block;
+  background-image: url("../images/list.png");
+  background-size: 15.1466666667rem 7.552rem; }
+
+.bg-list1 {
+  background-position: 0 0; }
+
+.bg-list2 {
+  background-position: center 0; }
+
+.bg-list3 {
+  background-position: right 0; }
+
+.bg-list4 {
+  background-position: 0 bottom; }
+
+.bg-list5 {
+  background-position: center bottom; }
+
+.bg-list6 {
+  background-position: right bottom; }
+
+.kcsz-list {
+  width: 15.1466666667rem;
+  margin: 0.704rem auto 0;
+  background: #130e36; }
+
+.kcsz-list li {
+  width: 4.9066666667rem;
+  float: left;
+  margin-right: 0.2133333333rem;
+  margin-bottom: 0.2133333333rem; }
+
+.kcsz-list li:nth-child(3n) {
+  margin-right: 0; }
+
+.mfst-title {
+  font-size: 1.024rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center; }
+
+.mfst-title span {
+  color: #ffeb00; }
+
+.form1-input1 {
+  width: 11.0933333333rem;
+  height: 2.56rem;
+  margin: 0.8106666667rem auto;
+  padding-left: 0.4266666667rem;
+  font-size: 0.768rem;
+  display: block;
+  background: #ffffff; }
+
+.form1-btn {
+  display: block;
+  width: 11.52rem;
+  height: 2.2826666667rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9173333333rem;
+  text-align: center;
+  margin: auto;
+  line-height: 2.2826666667rem;
+  background: #5f1ea0;
+  -moz-box-shadow: 0.1706666667rem 0.1706666667rem 0 #d20971;
+  -webkit-box-shadow: 0.1706666667rem 0.1706666667rem 0 #d20971;
+  box-shadow: 0.1706666667rem 0.1706666667rem 0 #d20971; }
+
+.mfst {
+  margin-top: 1.28rem; }
+
+.ds-list {
+  margin-bottom: 50px; }
+
+.ds-list li {
+  position: relative;
+  width: 14.2933333333rem;
+  height: 6.8053333333rem;
+  float: left;
+  margin: 2.6666666667rem auto 0;
+  border-radius: 0.1706666667rem; }
+
+.ds-list li:nth-child(1) {
+  background: #5f1ea0; }
+
+.ds-list li:nth-child(2) {
+  background: #d20971; }
+
+.ds-list li:nth-child(3) {
+  background: #f9a12f; }
+
+.ds-list li:nth-child(4) {
+  background: #5f1ea0; }
+
+.icon-js {
+  position: absolute;
+  top: -75px;
+  left: 8.576rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  display: block;
+  background-image: url("../images/js.png");
+  background-size: 6.4rem 6.4rem; }
+
+.ds-list li:nth-child(2n) .icon-js {
+  left: 0.64rem; }
+
+.bg-js4 {
+  background-position: 0 0; }
+
+.bg-js1 {
+  background-position: right 0; }
+
+.bg-js2 {
+  background-position: 0 bottom; }
+
+.bg-js3 {
+  background-position: right bottom; }
+
+.ds-list li .title {
+  padding: 0.64rem 0 0.32rem;
+  width: 11.3066666667rem;
+  margin: auto;
+  font-size: 0.384rem;
+  color: #ffffff; }
+
+.ds-list li .title b {
+  font-size: 0.576rem; }
+
+.ds-list li:nth-child(3) .title, .ds-list li:nth-child(4) .title {
+  text-align: right; }
+
+.ds-list li .info {
+  color: #ffffff;
+  font-size: 0.4693333333rem;
+  font-weight: lighter;
+  width: 11.3066666667rem;
+  margin: auto;
+  text-align: justify; }
+
+/*# sourceMappingURL=uisj.css.map */

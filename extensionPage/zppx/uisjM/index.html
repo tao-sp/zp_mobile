@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UI设计</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/uisj.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+</head>
+<body class="font_yahei ">
+<div class="bg-color">
+    <div class="banner">
+        <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s">免费试听</a>
+    </div>
+    <!--行业薪资开始-->
+    <div class="hyxz">
+        <div class="boll wow zoomIn animated" data-wow-delay="0.2s" data-wow-duration="1s"></div>
+        <div class="boll1 wow zoomIn animated" data-wow-delay="0.2s" data-wow-duration="1s"></div>
+        <div class="icon-hld hyxz-hld  wow fadeInDown animated" data-wow-delay="0.1s" data-wow-duration="1s" ></div>
+        <div class="icon-title bg-title1 wow zoomIn animated" data-wow-delay="0.5s" data-wow-duration="1s"></div>
+        <ul class="hyxz-list clearfix">
+            <li class="wow fadeInLeft animated"  data-wow-delay="0.9s" data-wow-duration="0.5s" >
+                <i class="icon-font bg-font1"></i>
+            </li>
+            <li class="wow fadeInDown animated" data-wow-delay="1.0s" data-wow-duration="0.5s">
+                <i class="icon-font bg-font2"></i>
+            </li>
+            <li class="wow fadeInRight animated" data-wow-delay="1.1s" data-wow-duration="0.5s">
+                <i class="icon-font bg-font3"></i>
+            </li>
+        </ul>
+        <div class="hyxz-bottom"></div>
+    </div>
+    <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s">免费试听</a>
+
+    <!--行业薪资结束-->
+
+
+    <!--课程设置开始-->
+    <div class="kcsz">
+        <div class="icon-hld hyxz-hld  wow fadeInDown animated" data-wow-delay="0.1s" data-wow-duration="1s" ></div>
+        <div class="icon-title bg-title2 wow zoomIn animated" data-wow-delay="0.5s" data-wow-duration="1s"></div>
+        <ul class="kcsz-list clearfix">
+            <li class="wow fadeInLeft animated"  data-wow-delay="0.1s" data-wow-duration="1s">
+                <i class="icon-list bg-list1"></i>
+            </li>
+            <li class="wow fadeInDown animated"  data-wow-delay="0.1s" data-wow-duration="1s">
+                <i class="icon-list bg-list2"></i>
+            </li>
+            <li class="wow fadeInRight animated"  data-wow-delay="0.1s" data-wow-duration="1s">
+                <i class="icon-list bg-list3"></i>
+            </li>
+            <li class="wow fadeInLeft animated"  data-wow-delay="0.3s" data-wow-duration="1s">
+                <i class="icon-list bg-list4"></i>
+            </li>
+            <li class="wow fadeInUp animated"  data-wow-delay="0.1s" data-wow-duration="1s">
+                <i class="icon-list bg-list5"></i>
+            </li>
+            <li class="wow fadeInRight animated"  data-wow-delay="0.3s" data-wow-duration="1s">
+                <i class="icon-list bg-list6"></i>
+            </li>
+        </ul>
+    </div>
+    <!--课程设置结束-->
+
+    <!--免费试听开始-->
+    <div class="mfst">
+        <div class="mfst-title"><span>免费</span>试听</div>
+        <form class="form1" >
+            <input class="form1-input1" placeholder=" 输入您的姓名" name="name">
+            <input class="form1-input1" placeholder=" 输入您的电话号码" name="phone">
+            <a class="form1-btn" >立即申请</a>
+        </form>
+    </div>
+    <!--免费试听开始-->
+
+    <!--导师开始-->
+    <div class="ds">
+        <div class="icon-hld  hyxz-hld   wow fadeInDown animated" data-wow-delay="0.1s" data-wow-duration="1s" ></div>
+        <div class="icon-title bg-title3 wow zoomIn animated" data-wow-delay="0.5s" data-wow-duration="1s"></div>
+        <ul class="ds-list clearfix">
+            <li class="wow fadeInLeft animated" data-wow-delay="0.5s" >
+                <i class="icon-js bg-js1"></i>
+                <div class="title">
+                    <b>邓旭光</b>   UI设计高级讲师
+                </div>
+                <div class="info">
+                    专业美术院校科班出身，（毕业于陕西延安大学鲁迅艺术学院）本科毕业，10年UI设计从业经验，曾主导过中国移动、南方电网、广东交通车辆监控系统、智慧城市等多个国家项目，擅长移动端APP界面设计、PC端网页设计、平面设计、交互设计、动效设计。深圳市星光大道影视娱乐有限公司签约设计师；担任（北京）天星资本设计总监，主要负责公司大型金融投资平台及新三板移动端的应用。
+                </div>
+            </li>
+            <li class="wow fadeInLeft animated" data-wow-delay="0.3s" >
+                <i class="icon-js bg-js2"></i>
+                <div class="title">
+                    <b>钟  征</b>   UI设计高级讲师
+                </div>
+                <div class="info">
+                    中鹏教育UI设计专业教研组成员；十年UI设计项目及产品经理经验；从事项目有：乔丹智能篮球鞋芯片、南方电网台风预警系统、招商银行一体机终端设计等；精通交互软件、3D动画软件、平面软件、后期合成软件、音效软件等。
+                </div>
+            </li>
+            <li class="wow fadeInRight animated" data-wow-delay="0.3s" >
+                <i class="icon-js bg-js3"></i>
+                <div class="title">
+                    UI设计高级讲师   <b>李记东</b>
+                </div>
+                <div class="info">
+                    毕业于郑州大学艺术设计专业，接受过正规的美术教育，具有较好的美术功底及艺术素养，能够根据社会的需求进行规划、交互设计、GUI设计，熟练掌握多种电脑制作软件，能够高效率地完成工作。本人性格开朗、思维活跃，极富创造力，易于沟通，具有较好的团队意识。
+                </div>
+            </li>
+            <li class="wow fadeInRight animated" data-wow-delay="0.5s">
+                <i class="icon-js bg-js4"></i>
+                <div class="title">
+                    UI设计高级讲师   <b> 王子奇</b>
+                </div>
+                <div class="info">
+                    有丰富的实际项目开发经验。曾完成国内设计公司第一款800万像素拍照手机研发并获得深圳市创新研发基金支持、完成朵唯公司第一款滑盖女性手机研发及朵唯标准化软件需求、完成公司第一款G+C双膜手机开发调试，负责或参与完成了包括华为、比亚迪、好易通、金立、朵唯、康佳等多家一线品牌客户的合作项目，并完成防扰王、好易用、语音王等功能的开发。
+                </div>
+            </li>
+        </ul>
+        <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s">免费试听</a>
+    </div>
+
+    <!--导师结束-->
+</div>
+<script>
+    $(function () {
+        new WOW().init();
+    })
+</script>
+</body>
+</html>
