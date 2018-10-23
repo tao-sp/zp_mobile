@@ -37,7 +37,7 @@
 </header>
 <div class="bg-color">
     <div class="banner">
-        <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s">免费试听</a>
+        <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s"  onClick="mantis.requestChat()">免费试听</a>
     </div>
     <!--行业薪资开始-->
     <div class="hyxz">
@@ -58,7 +58,7 @@
         </ul>
         <div class="hyxz-bottom"></div>
     </div>
-    <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s">免费试听</a>
+    <a class="banner-btn wow zoomIn animated" data-wow-delay="0.5s" data-wow-duration="0.5s"  onClick="mantis.requestChat()">高薪咨询</a>
 
     <!--行业薪资结束-->
 
@@ -143,7 +143,7 @@
                 </div>
             </li>
         </ul>
-        <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s">预约名师</a>
+        <a class="banner-btn wow zoomIn animated" data-wow-delay="1.0s" data-wow-duration="0.5s"  onClick="mantis.requestChat()">预约名师</a>
     </div>
 
     <!--导师结束-->
@@ -214,7 +214,7 @@
         <div class="icon-title bg-title4 wow zoomIn animated" data-wow-delay="0.5s" data-wow-duration="1s"></div>
     </div>
     <div class="xyzp-img  wow flipInX animated" data-wow-delay="0.7s" data-wow-duration="1.5s"></div>
-    <a class="banner-btn wow zoomIn animated animated" data-wow-delay="1.0s" data-wow-duration="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 1s; animation-name: zoomIn;">查看更多作品</a>
+    <a class="banner-btn wow zoomIn animated animated" data-wow-delay="1.0s" data-wow-duration="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 1s; animation-name: zoomIn;"  onClick="mantis.requestChat()">查看更多作品</a>
 
     <!--学员作品开始-->
     <!--中鹏银行开始-->
@@ -225,17 +225,17 @@
             <li class="wow fadeInLeft animated" data-wow-delay="0.1s">
                 <div class="title">0元入学</div>
                 <div class="info">可分期付款，解决学费压力</div>
-                <a class="btn">分期入学</a>
+                <a class="btn"  onClick="mantis.requestChat()">分期入学</a>
             </li>
             <li class="wow fadeInLeft animated" data-wow-delay="0.2s">
                 <div class="title">可试学</div>
                 <div class="info">提前感受学习环境，满意再报名</div>
-                <a class="btn">试学申请</a>
+                <a class="btn"  onClick="mantis.requestChat()">试学申请</a>
             </li>
             <li class="wow fadeInLeft animated" data-wow-delay="0.3s">
                 <div class="title">签订就业协议</div>
                 <div class="info">就业无压力，挑战高薪从此刻起！</div>
-                <a class="btn">就业咨询</a>
+                <a class="btn"  onClick="mantis.requestChat()">就业咨询</a>
             </li>
         </ul>
     </div>
@@ -286,6 +286,20 @@
     </div>
 
 </div>
+<!--右侧悬浮开始-->
+<div class="right-suspension">
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/10.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/11.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/12.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/13.gif" width="40"></a>
+    <a class="rightserve"  id="backTop"><img src="http://m.gdzp.org/mobile/images/design/14.gif" width="40"></a>
+    <a class="rightserve2" onclick="hideright()"><img src="http://m.gdzp.org/mobile/images/design/15.gif" width="40"></a>
+</div>
+
+<!--右侧悬浮结束-->
+<!--螳螂科技探头代码2018-06-20-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b285f94b609f7456962ed2b"></script>
+<!--螳螂科技探头代码2018-06-20-->
 <script>
     $(function () {
         new WOW().init();

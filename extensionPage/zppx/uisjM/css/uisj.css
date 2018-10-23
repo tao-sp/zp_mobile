@@ -638,4 +638,22 @@ a {
   display: block;
   padding-top: 0.6826666667rem; }
 
+.right-suspension {
+  z-index: 999999;
+  width: 2.1333333333rem;
+  position: fixed;
+  bottom: 1.7066666667rem;
+  right: 0.2133333333rem; }
+
+.right-suspension img {
+  display: block;
+  margin: auto;
+  padding-bottom: 0.128rem; }
+
+.rightserve1 img {
+  width: 2.1333333333rem !important; }
+
+.rightserve img, .rightserve2 img {
+  width: 1.7066666667rem; }
+
 /*# sourceMappingURL=uisj.css.map */

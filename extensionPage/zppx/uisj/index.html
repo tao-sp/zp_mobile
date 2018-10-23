@@ -41,7 +41,7 @@
 <!--banner开始-->
     <div class="banner">
         <div class="banner-content container_1200">
-            <a class="banner-btn"></a>
+            <a class="banner-btn"  onClick="mantis.requestChat()"></a>
         </div>
     </div>
 <!--banner开始-->
@@ -66,7 +66,7 @@
     </ul>
     <div class="hyxz-bottom"></div>
 </div>
-<a class="hyxz-btn wow bounceInUp animated" data-wow-delay="0.4s">高薪咨询</a>
+<a class="hyxz-btn wow bounceInUp animated" data-wow-delay="0.4s"  onClick="mantis.requestChat()">高薪咨询</a>
 <!--行业薪资结束-->
 
 
@@ -150,7 +150,7 @@
             </div>
         </li>
     </ul>
-    <a class="hyxz-btn wow bounceInUp animated animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceInUp;">预约名师</a>
+    <a class="hyxz-btn wow bounceInUp animated animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceInUp;"  onClick="mantis.requestChat()">预约名师</a>
 </div>
 
 <!--导师结束-->
@@ -224,17 +224,17 @@
         <li class="wow fadeInLeft animated" data-wow-delay="0.1s">
             <div class="title">0元入学</div>
             <div class="info">可分期付款，解决学费压力</div>
-            <a class="btn">分期入学</a>
+            <a class="btn"  onClick="mantis.requestChat()">分期入学</a>
         </li>
         <li class="wow fadeInLeft animated" data-wow-delay="0.2s">
             <div class="title">可试学</div>
             <div class="info">提前感受学习环境，满意再报名</div>
-            <a class="btn">试学申请</a>
+            <a class="btn"  onClick="mantis.requestChat()">试学申请</a>
         </li>
         <li class="wow fadeInLeft animated" data-wow-delay="0.3s">
             <div class="title">签订就业协议</div>
             <div class="info">就业无压力，挑战高薪从此刻起！</div>
-            <a class="btn">就业咨询</a>
+            <a class="btn"  onClick="mantis.requestChat()">就业咨询</a>
         </li>
     </ul>
 </div>
@@ -264,7 +264,7 @@
            <div class="right-bj wow fadeInLeft animated" data-wow-delay="1.5s" data-wow-duration="0.5s"><i class="icon-right"></i>全日制班</div>
        </div>
         <div class="bj-info  wow zoomIn animated" data-wow-delay="1.5s" data-wow-duration="1s">解决不同时间群体学习机会 - <b>更贴心</b></div>
-        <a class="hyxz-btn wow bounceInUp animated animated animated"  data-wow-delay="1.8s"  >预约班型</a>
+        <a class="hyxz-btn wow bounceInUp animated animated animated"  data-wow-delay="1.8s"  onClick="mantis.requestChat()" >预约班型</a>
     </div>
 </div>
 
@@ -309,7 +309,7 @@
                     <div class="form-group">
                         <input type="text" placeholder="请输入您的QQ" name="qq" value="" required="required"/>
                     </div>
-                    <input type="hidden" name="web" value="珠宝设计PC-免费试学">
+                    <input type="hidden" name="web" value="UI设计PC-免费试学">
                     <input type="hidden" name="code" value="SMS_142020347">
                     <a class="submit" onclick="customerInput('form_7')" id="float-frm-submit">提交</a>
                 </form>
@@ -345,7 +345,9 @@
     备案号:<a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备09069122号-2</a><br>
 </div>
 <!--底部开始-->
-
+<!--螳螂科技探头代码2018-06-20-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b285f94b609f7456962ed2b"></script>
+<!--螳螂科技探头代码2018-06-20-->
 <script>
   $(function () {
       new WOW().init();

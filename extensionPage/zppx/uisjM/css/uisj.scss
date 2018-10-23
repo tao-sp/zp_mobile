@@ -631,3 +631,21 @@ background: #130e36;
   display: block;
   padding-top: px2rem(32);
 }
+.right-suspension{
+  z-index: 999999;
+  width: px2rem(100);
+  position: fixed;
+  bottom: px2rem(80);
+  right:px2rem(10);
+}
+.right-suspension img{
+  display: block;
+  margin: auto;
+  padding-bottom: px2rem(6);
+}
+.rightserve1 img{
+  width: px2rem(100) !important;
+}
+.rightserve img,.rightserve2 img{
+  width: px2rem(80);
+}
