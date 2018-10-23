@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>室内设计</title>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/snsj.css">
+    <script src="js/snsj.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2/swiper-3.4.2.jquery.min.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<header style="position: relative">
+    <div class="shortcut">
+        <div class="container_1200 shortcut_content">
+           <!-- <div class="shortcut_content_left">
+                <p class="header-top-left fl">
+                    <a target="_blank" href="http://www.gdzp.org/continuing/">继续教育学院</a>
+                    <a target="_blank" href="http://www.gdzp.org/manage">管理学院</a>
+                    <a target="_blank" href="http://www.gdzp.org/it">IT学院</a>
+                </p>
+            </div>-->
+            <div class="shortcut_content_right">
+                <a href="javascript:void(0)" onclick="mantis.requestChat()">帮助中心</a>|
+                <a href="javascript:void(0)" onclick="mantis.requestChat()">在线客服</a>|
+                <a href="javascript:void(0)" onclick="mantis.requestChat()"><img src="http://www.gdzp.org/html/snsj/images/phone.png">手机版</a>
+            </div>
+        </div>
+    </div>
+    <div class="logo-sjys">
+        <div class="container_1200">
+            <img class="snsjfont" src="images/snsjfont.png">
+           <!-- <div class="logo-sjys-left"><img src="http://www.gdzp.org/html/zbsj/statics/images/new/sjys-logo-1.png"></div>
+            <div class="logo-sjys-center"><img src="http://www.gdzp.org/html/zbsj/statics/images/new/1.png"></div>-->
+        </div>
+    </div>
+</header>
+<!--头部开始-->
+
+
+<!--banner开始-->
+<div class="sjfx-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner1.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner2.png"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.sjfx-banner .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+            pagination : '.sjfx-banner .swiper-pagination',
+        })
+    </script>
+</div>
+<!--banner开始-->
+
+<!--优惠政策开始-->
+<div class="yhzc container_1200">
+    <div class="icon-title bg-title1"></div>
+    <ul class="yhzc-list clearfix">
+        <li>
+            <i class="icon-yhzc bg-yhzc1"></i>
+            <div class="line"></div>
+            <div class="title">先学习后付款</div>
+            <div class="info">
+                <b>0元入学，</b>分期付款<br>
+                解决学费紧张问题
+            </div>
+        </li>
+        <li>
+            <div class="title">先学习后付款</div>
+            <div class="info">
+                <b>0元入学，</b>分期付款<br>
+                解决学费紧张问题
+            </div>
+            <div class="line"></div>
+            <i class="icon-yhzc bg-yhzc2"></i>
+        </li>
+        <li>
+            <i class="icon-yhzc bg-yhzc3"></i>
+            <div class="line"></div>
+            <div class="title">先学习后付款</div>
+            <div class="info">
+                <b>0元入学，</b>分期付款<br>
+                解决学费紧张问题
+            </div>
+        </li>
+        <li>
+            <div class="title">先学习后付款</div>
+            <div class="info">
+                <b>0元入学，</b>分期付款<br>
+                解决学费紧张问题
+            </div>
+            <div class="line"></div>
+            <i class="icon-yhzc bg-yhzc4"></i>
+        </li>
+        <li>
+            <i class="icon-yhzc bg-yhzc5"></i>
+            <div class="line"></div>
+            <div class="title">先学习后付款</div>
+            <div class="info">
+                <b>0元入学，</b>分期付款<br>
+                解决学费紧张问题
+            </div>
+        </li>
+    </ul>
+    <a class="yhzc-btn"  onclick="mantis.requestChat()">申请优惠</a>
+</div>
+<!--优惠政策开始-->
+
+<!--学员见证开始-->
+<div class="xyjz">
+    <div class="icon-title bg-title2"></div>
+    <div class="swiper-container container_1200">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/xyjz1.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz2.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz3.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz4.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz5.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz6.png"></div>
+        </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <script>
+        var mySwiper = new Swiper('.xyjz .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+            slidesPerView : 5,
+            prevButton:'.swiper-button-prev',
+            nextButton:'.swiper-button-next',
+        })
+    </script>
+
+    <a class="yhzc-btn"  onclick="mantis.requestChat()">咨询更多详细内容</a>
+</div>
+<!--学员见证开始-->
+
+<!--就业前景开始-->
+<div class="jyqj container_1200">
+    <div class="icon-title bg-title3"></div>
+    <div class="jyqj-content">
+        深圳被国家定义为“<b>设计之都</b>”，大大小小的装饰公司有<b>四万余家</b>。面对如此巨大的市场，室内设计师的岗位更是<b>供不应求</b>，求就业人才需求量极大。深圳设计师在内地供职，口碑极好，整体就业前景明朗。且设计师收入来源丰富，薪酬结构是是<b>“底薪+业务提成+设计提成”，年薪20W</b>并不遥远。
+    </div>
+</div>
+
+<!--就业前景开始-->
+
+<!--表单开始-->
+<form class="snsj-form">
+    <div class="form-group">
+        <input class="form-group-input input-1" placeholder=" 输入您的姓名">
+        <input class="form-group-input input-2" placeholder="  输入您的电话号码">
+        <a class="form-group-btn">立即申请</a>
+    </div>
+</form>
+<!--表单开始-->
+
+<!--VS开始-->
+<div class="vs container_1200">
+    <div class="icon-title bg-title5"></div>
+    <div class="vs-title1">全方位打造室内设计专业型人才，大幅度提升就业竞争力</div>
+    <div class="vs-title2">
+       <i class="icon-cil"></i> 行业课程对比
+    </div>
+    <div class="vs-title1">中鹏教育课程VS其他机构课程</div>
+    <div class="table-content container_1200">
+        <table class="vs-table">
+            <thead>
+            <tr>
+                <td></td>
+                <td>中鹏教育</td>
+                <td>其他机构<span>KO</span></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>马克笔、手绘方案表现</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>装饰工程预算</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>材料工艺与装饰构造</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>室内方案创意技巧</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>时尚家装设计</td>
+                <td>√</td>
+                <td>√</td>
+            </tr>
+            <tr>
+                <td>定制家具全案设计</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>软装实训专题</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>风水学理论与应用</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>草图大师软件 sketchup</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            <tr>
+                <td>文案宣讲（方案讲解与客户沟通）</td>
+                <td>√</td>
+                <td>×</td>
+            </tr>
+            </tbody>
+        </table>
+       <i class="icon-vs"></i>
+        <i class="icon-flower"></i>
+        <i class="icon-bottom"></i>
+    </div>
+    <a class="yhzc-btn"  onclick="mantis.requestChat()">咨询更多详细内容</a>
+
+</div>
+<!--VS开始-->
+
+<!--侧边栏开始-->
+<div class="float-ad" action="{{ path('customer_page') }}" id="float-ad">
+    <div class="float-interaction">
+        <div class="interac-item interac-item-bg1">
+            <a class="link" href="javascript:;"><i class="icon icon-1"></i><span>免费试学</span></a>
+            <div class="float-frm-wrapper" style="display: none;">
+                <form action=" " class="float-frm" id="form_7">
+                    <div class="form-group">
+                        <input type="hidden" name="question[1]" value="请选择专业">
+                        <select name="answer[1]">
+                            <option value="">请选择专业</option>
+                            <option value="平面设计">平面设计</option>
+                            <option value="室内设计">室内设计</option>
+                            <option value="UI设计">UI设计</option>
+                            <option value="设计美术">设计美术</option>
+                            <option value="摄影">摄影</option>
+                            <option value="工业设计">工业设计</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="请输入您的姓名" name="name" value="" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="请输入您的手机号" name="phone" value="" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="请输入您的QQ" name="qq" value="" required="required"/>
+                    </div>
+                    <input type="hidden" name="web" value="珠宝设计PC-免费试学">
+                    <input type="hidden" name="code" value="SMS_142020347">
+                    <a class="submit" onclick="customerInput('form_7')" id="float-frm-submit">提交</a>
+                </form>
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg2 interac-bg2">
+            <a class="link" target="_blank" href="javascript:void(0)" onClick="mantis.requestChat()" ><i class="icon icon-22"></i><span>在线客服</span></a>
+        </div>
+        <div class="interac-item interac-item-bg3">
+            <a class="link" target="_blank" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODA3ODk1M180ODQ0NTZfNDAwNjAyNjYxOF8yXws" ><i class="icon icon-2"></i><span>QQ</span></a>
+            <div class="float-qq-wrapper" style="">
+                <div class="block-nbsp">
+                    <a class="qq" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=fb127f85d3545d2895267b4aaf564ba36be40c2d69bd9a0736d71d75a19ccfa3" title="中鹏教育官方咨询群5"> 点击加群 </a>
+                    <a class="qq" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=b1ab60c9abb76412f2290f0d6f11719816ac4769b440f0f426b092871ec15fcc" title="中鹏教育官方咨询群6"> 点击加群 </a>
+                </div>
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg4">
+            <a class="link" href="javascript:;"><i class="icon icon-3"></i><span>微信</span></a>
+            <div class="float-weixin-wrapper" style="">
+                <img class="weixin" src="http://www.gdzp.org/html/pmsj/statics/images/new/zp-erweima.png" alt="">
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg5">
+            <a class="link" href="javascript:;" id="backTop"><i class="icon icon-4"></i><span>返回顶部</span></a>
+        </div>
+    </div>
+</div>
+<!--侧边栏结束-->
+<!--底部开始-->
+<div class="footer">
+    Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+    备案号:<a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备09069122号-2</a><br>
+</div>
+<!--底部开始-->
+</body>
+</html>
