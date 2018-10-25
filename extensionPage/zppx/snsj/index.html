@@ -72,10 +72,10 @@
             </div>
         </li>
         <li>
-            <div class="title">先学习后付款</div>
+            <div class="title">双师制教学</div>
             <div class="info">
-                <b>0元入学，</b>分期付款<br>
-                解决学费紧张问题
+                <b>线上+线下，</b>双模式学习<br>
+                合理安排时间
             </div>
             <div class="line"></div>
             <i class="icon-yhzc bg-yhzc2"></i>
@@ -83,17 +83,17 @@
         <li>
             <i class="icon-yhzc bg-yhzc3"></i>
             <div class="line"></div>
-            <div class="title">先学习后付款</div>
+            <div class="title">免费试听</div>
             <div class="info">
-                <b>0元入学，</b>分期付款<br>
-                解决学费紧张问题
+                免费试听，满意之后再报名 <br>
+                且享 <b>终身免费重修</b>
             </div>
         </li>
         <li>
-            <div class="title">先学习后付款</div>
+            <div class="title">企业项目实训</div>
             <div class="info">
-                <b>0元入学，</b>分期付款<br>
-                解决学费紧张问题
+                真实项目，真实演练<br>
+                实际操作掌握全面
             </div>
             <div class="line"></div>
             <i class="icon-yhzc bg-yhzc4"></i>
@@ -101,16 +101,16 @@
         <li>
             <i class="icon-yhzc bg-yhzc5"></i>
             <div class="line"></div>
-            <div class="title">先学习后付款</div>
+            <div class="title">就业推荐</div>
             <div class="info">
-                <b>0元入学，</b>分期付款<br>
-                解决学费紧张问题
+                合作企业，<b>就业推荐</b><br>
+                学员就业无压力
             </div>
         </li>
     </ul>
     <a class="yhzc-btn"  onclick="mantis.requestChat()">申请优惠</a>
 </div>
-<!--优惠政策开始-->
+<!--优惠政策结束-->
 
 <!--学员见证开始-->
 <div class="xyjz">
@@ -125,6 +125,7 @@
             <div class="swiper-slide"><img src="images/xyjz6.png"></div>
         </div>
     </div>
+
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
     <script>
@@ -132,14 +133,29 @@
             autoplay: 5000,//可选选项，自动滑动
             loop:true,
             slidesPerView : 5,
-            prevButton:'.swiper-button-prev',
-            nextButton:'.swiper-button-next',
+            prevButton:'.xyjz .swiper-button-prev',
+            nextButton:'.xyjz .swiper-button-next',
+            onProgress: function(swiper, progress) {
+                $(".xyjz .swiper-slide").removeClass("large-img");
+                $(".xyjz .swiper-slide-next").next().addClass("large-img");
+            },
+            onSetTransition: function(swiper, transition) {
+
+                $(".xyjz .swiper-slide").removeClass("large-img");
+                $(".xyjz .swiper-slide-next").next().addClass("large-img");
+            },
+            //处理分页器bug
+            onSlideChangeStart: function(swiper) {
+
+                $(".xyjz .swiper-slide").removeClass("large-img");
+                $(".xyjz .swiper-slide-next").next().addClass("large-img");
+            }
         })
     </script>
 
     <a class="yhzc-btn"  onclick="mantis.requestChat()">咨询更多详细内容</a>
 </div>
-<!--学员见证开始-->
+<!--学员见证结束-->
 
 <!--就业前景开始-->
 <div class="jyqj container_1200">
@@ -149,7 +165,7 @@
     </div>
 </div>
 
-<!--就业前景开始-->
+<!--就业前景结束-->
 
 <!--表单开始-->
 <form class="snsj-form">
@@ -159,7 +175,26 @@
         <a class="form-group-btn">立即申请</a>
     </div>
 </form>
-<!--表单开始-->
+<!--表单结束-->
+
+<!--招聘信息开始-->
+
+<div  class="zp">
+    <div class="container_1200">
+        <div class="zp-title"></div>
+        <div class="btns">
+            <a onclick="mantis.requestChat()">BOSS直聘</a>
+            <a onclick="mantis.requestChat()">智联招聘</a>
+            <a onclick="mantis.requestChat()">猎聘</a>
+            <a onclick="mantis.requestChat()">前程无忧</a>
+        </div>
+    </div>
+    <div class="zp-img">
+
+    </div>
+    <a class="zp-img-btn" onclick="mantis.requestChat()">咨询更多详细内容</a>
+</div>
+<!--招聘信息结束-->
 
 <!--VS开始-->
 <div class="vs container_1200">
@@ -181,53 +216,53 @@
             <tbody>
             <tr>
                 <td>马克笔、手绘方案表现</td>
-                <td>√</td>
-                <td>×</td>
+                <td>有</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>装饰工程预算</td>
-                <td>√</td>
-                <td>×</td>
+                <td>精讲</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>材料工艺与装饰构造</td>
-                <td>√</td>
-                <td>×</td>
+                <td>主讲</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>室内方案创意技巧</td>
-                <td>√</td>
-                <td>×</td>
+                <td>特有</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>时尚家装设计</td>
-                <td>√</td>
-                <td>√</td>
+                <td>主讲</td>
+                <td>有</td>
             </tr>
             <tr>
                 <td>定制家具全案设计</td>
-                <td>√</td>
-                <td>×</td>
+                <td>主讲</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>软装实训专题</td>
-                <td>√</td>
-                <td>×</td>
+                <td>特有</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>风水学理论与应用</td>
-                <td>√</td>
-                <td>×</td>
+                <td>精讲</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>草图大师软件 sketchup</td>
-                <td>√</td>
-                <td>×</td>
+                <td>精讲</td>
+                <td>无</td>
             </tr>
             <tr>
                 <td>文案宣讲（方案讲解与客户沟通）</td>
-                <td>√</td>
-                <td>×</td>
+                <td>特有</td>
+                <td>无</td>
             </tr>
             </tbody>
         </table>
@@ -238,7 +273,229 @@
     <a class="yhzc-btn"  onclick="mantis.requestChat()">咨询更多详细内容</a>
 
 </div>
-<!--VS开始-->
+<!--VS结束-->
+
+<div class="slzw">
+    <div class="slzw-content container_1200">
+        <a class="slzw-btn" onclick="mantis.requestChat()"></a>
+    </div>
+</div>
+
+<!--精选专题班开始-->
+<div class="ztb ">
+    <div class="container_1200">
+        <div class="vs-title2">
+            <i class="icon-cil"></i> 精选专题班
+        </div>
+        <ul class="ztb-list clearfix">
+            <li>
+                <img src="images/ztb1.png">
+                <div class="content">
+                    <div class="title">CAD专题班</div>
+                    <div class="info">
+                        <div class="info-list"><b>学习内容：</b>设计原理、材料工业与装饰构造、装修预算、宣讲文案制作、草图大师、AUTO CAD（含施工图全案课程）</div>
+                        <div class="info-list"><b>适合人群：</b>零基础，CAD软件从业者</div>
+                        <div class="info-list"><b>胜任岗位：</b>绘图员、施工图设计师</div>
+                        <div class="info-list"><b>岗位薪资：</b><span>4k+</span>绩效提成</div>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <img src="images/ztb2.png">
+                <div class="content">
+                    <div class="title">3D效果图专题班</div>
+                    <div class="info">
+                        <div class="info-list"><b>学习内容：</b>设计原理、材料工业与装饰构造、宣讲文案制作、草图大师、3D MAS效果图（3DSMAX+VR、全景3D PanoVR)、PS（3D效果图后期处理）、时尚家居全案设计</div>
+                        <div class="info-list"><b>适合人群：</b>零基础，3D效果图软件从业者</div>
+                        <div class="info-list"><b>胜任岗位：</b>效果图设计师</div>
+                        <div class="info-list"><b>岗位薪资：</b><span>4k+</span>绩效提成</div>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <img src="images/ztb3.png">
+                <div class="content">
+                    <div class="title">手绘+电绘专题班</div>
+                    <div class="info">
+                        <div class="info-list"><b>学习内容：</b>设计原理、宣讲文案制作、草图大师、手绘+电绘、室内方案创意技巧</div>
+                        <div class="info-list"><b>适合人群：</b>零基础，手绘设计从业者</div>
+                        <div class="info-list"><b>胜任岗位：</b>手绘设计师</div>
+                        <div class="info-list"><b>岗位薪资：</b><span>6k+</span>绩效提成</div>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <img src="images/ztb4.png">
+                <div class="content">
+                    <div class="title">软装设计专题班</div>
+                    <div class="info">
+                        <div class="info-list"><b>学习内容：</b>设计原理、宣讲文案制作、草图大师、AUTO CAD（含施工图全案课程） 、室内方案创意技巧、软装配饰+全案设计</div>
+                        <div class="info-list"><b>适合人群：</b>零基础，软装设计从业者</div>
+                        <div class="info-list"><b>胜任岗位：</b>软装设计师</div>
+                        <div class="info-list"><b>岗位薪资：</b><span>6k+</span>绩效提成</div>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <img src="images/ztb5.png">
+                <div class="content">
+                    <div class="title">定制家具设计专题班</div>
+                    <div class="info">
+                        <div class="info-list"><b>学习内容：</b>设计原理、宣讲文案制作、草图大师、AUTO CAD（含施工图全案课程） 、手绘+电绘、定制家具专题设计</div>
+                        <div class="info-list"><b>适合人群：</b>零基础，定制家具设计从业者</div>
+                        <div class="info-list"><b>胜任岗位：</b>家具设计师</div>
+                        <div class="info-list"><b>岗位薪资：</b><span>6k+</span>绩效提成</div>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <img src="images/ztb6.png">
+                <div class="content">
+                    <div class="title">设计风水专题班</div>
+                    <div class="info">
+                        <div class="info-list"><b>学习内容：</b>理论知识篇、风水学住宅应用篇</div>
+                        <div class="info-list"><b>适合人群：</b>零基础，风水专业知识提升</div>
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+        <a class="yhzc-btn" onclick="mantis.requestChat()">咨询更多详细内容</a>
+    </div>
+
+</div>
+
+<!--精选专题班结束-->
+
+<!--表单开始-->
+<div class="form2">
+    <form class="container_1200">
+        <div class="form2-title">
+            <span>免费</span>获取试听课程
+        </div>
+        <div class="form2-input-group">
+            <input placeholder="输入您的姓名">
+            <input placeholder="输入您的电话号码">
+            <a class="form2-btn">立即申请</a>
+        </div>
+    </form>
+
+</div>
+
+<!--表单结束-->
+
+<!--教师开始-->
+<div class="js">
+    <div class="js-swiper">
+        <div class="swiper-container container_1200">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                   <img src="images/js1.png">
+                    <div class="title">
+                        <b>史建南</b>
+                        室内设计专业教研组顾问
+                    </div>
+                    <div class="info">
+                        风水专家，毕业于北京师范大学，从事室内设计工作二十年。深圳中鹏设计学院教授，全球50名国际著名室内设计师，被“创意中国”评为中国十大样板房顶尖室内设计师。国家软装设计师行业标准开发组组长，人力资源社社会保障部人才鉴定中心高级考评员，国际商业美术A级设计师，中国易经研究会专家、高级风水师。深圳大学客座教授，华南师范大学环境艺术系客座教授。
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/js2.png">
+                    <div class="title">
+                        <b>高熇</b>
+                        室内设计教研组长
+                    </div>
+                    <div class="info">
+                        毕业于江西理工大学建筑工程系（本科），后进修于清华大学美术学院环境艺术设计系。全部授课案例均采用一线品牌设计公司真实案例，凭借多年工程实践经验基础，深入浅出讲授专业设计课程，授课内容理念先进，引领真实案例模拟设计，使学员短期内得到大幅度设计水平的提升。
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/js3.png">
+                    <div class="title">
+                        <b>陈燕庭</b>
+                        室内设计资深讲师
+                    </div>
+                    <div class="info">
+                        长期以来从事建筑装饰设计公司设计工作、施工现场的管理与技术负责，以及软件教学、理论教学等工作。严于律己、设计理念新并追求完美，有极强的责任心。
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/js4.png">
+                    <div class="title">
+                        <b>王刚</b>
+                        室内设计高级讲师
+                    </div>
+                    <div class="info">
+                        毕业于中央工艺美术学院。手绘设计能力强，有丰富的专业知识体系和设计能力；对于现代设计市场的前沿和动向有丰富的了解，善于分析和吸取。熟悉与甲方沟通，尤其善解设计主题思想，有独到的见解和经验。
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/js5.png">
+                    <div class="title">
+                        <b>何世畦</b>
+                        室内设计高级讲师
+                    </div>
+                    <div class="info">
+                        毕业于广东海洋大学，研读清华美院。曾担任广州疯狂手绘室内专业主讲老师、河南绘聚中国手绘训练营室内专业主讲老师、湛江大鹏鸟装饰设计有限公司任设计师、 深圳市名雕丹迪设计师事务所任手绘设计师、瑞克装饰设计工程（深圳）有限公司任设计师。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <script>
+        var mySwiper = new Swiper('.js .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+            slidesPerView : 3,
+            prevButton:'.js .swiper-button-prev',
+            nextButton:'.js .swiper-button-next',
+        })
+    </script>
+
+    <a class="yhzc-btn" onclick="mantis.requestChat()">我想提问</a>
+
+</div>
+<!--教师开始-->
+
+<!--学员作品开始-->
+<div class="xyzp container_1200">
+    <div class="xyzp-title"></div>
+    <div class="btns">
+        <a onclick="mantis.requestChat()">3D效果图</a>
+        <a onclick="mantis.requestChat()" class="on">软装设计</a>
+        <a onclick="mantis.requestChat()">CAD效果图</a>
+        <a onclick="mantis.requestChat()">手绘效果图</a>
+    </div>
+    <div class="img-group">
+        <img src="images/3d.png">
+        <img src="images/rz.png">
+        <img src="images/cad.png">
+        <img src="images/sh.png">
+    </div>
+    <a class="yhzc-btn" onclick="mantis.requestChat()">更多学员作品</a>
+</div>
+<!--学员作品结束-->
+
+<!--表单开始-->
+<div class="form3-content">
+    <form class="form3">
+        <input placeholder="输入您的姓名">
+        <input placeholder="输入您的电话号码">
+        <input placeholder="输入您的微信">
+        <a class="yhzc-btn">提交</a>
+    </form>
+</div>
+
+
+<!--表单结束-->
 
 <!--侧边栏开始-->
 <div class="float-ad" action="{{ path('customer_page') }}" id="float-ad">

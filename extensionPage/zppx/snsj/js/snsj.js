@@ -51,6 +51,10 @@ $(function () {
         });
     })();
 
-
+$(".xyzp .btns a").click(function () {
+    $(this).addClass("on").siblings().removeClass("on");
+  var index =  $(this).index();
+  $(".img-group img").hide().eq(index).fadeIn();
+})
 });
 

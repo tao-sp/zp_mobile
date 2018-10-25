@@ -17,10 +17,12 @@ $(function () {
                 mouseenter: function () {
                     var index = $(this).index();
                     if (index === 0) {
+                        oForm1.stop().show(500);
+                    } else if (index === 1) {
                         oForm.stop().show(500);
-                    } else if (index === 2) {
-                        oQQ.stop().show(500);
                     } else if (index === 3) {
+                        oQQ.stop().show(500);
+                    } else if (index === 4) {
                         oWeixin.stop().show(500);
                     }
                     $(this).find('.link').addClass('on').end().siblings().children('.link').removeClass('on');
@@ -28,10 +30,12 @@ $(function () {
                 mouseleave: function () {
                     var index = $(this).index();
                     if (index === 0) {
+                        oForm1.stop().hide(500);
+                    }else if (index === 1) {
                         oForm.stop().hide(500);
-                    }  else if (index === 2) {
+                    }  else if (index === 3) {
                         oQQ.stop().hide(500);
-                    } else if (index === 3) {
+                    } else if (index === 4) {
                         oWeixin.stop().hide(500);
                     }
                     $(this).find('.link').removeClass('on');
@@ -39,6 +43,7 @@ $(function () {
             }
         );
     })();
+
     /*回到顶部函数；当点击跳转链接后，回到页面顶部位置 */
     (function() {
         if(!$("#backTop").length){return;}
@@ -49,6 +54,34 @@ $(function () {
                 1000);
             return false;
         });
+    })();
+    /*导航*/
+    (function() {
+        $(".sjys-nav-ul li").on("mouseenter", function () {
+            $(this).addClass("on");
+            $(this).siblings().removeClass("on");
+        }).on("mouseleave", function () {
+            $(this).removeClass("on")
+            $("#home").addClass("on")
+        });
+        $(".sjys-nav-ul li.qtzynav").on("mouseenter", function () {
+            $(".qitz").stop().animate({"height":195,"bottom":-194},500)
+        }).on("mouseleave", function () {
+            $(".qitz").stop().animate({"height":0,"bottom":0},500)
+        });
+        $(".qitz").on("mouseenter", function () {
+            $(".qitz").stop().animate({"height":195,"bottom":-194},500)
+        }).on("mouseleave", function () {
+            $(".qitz").stop().animate({"height":0,"bottom":0},500)
+        });
+        /*导航*/
+        $(".majors li").hover(function () {
+            var index = $(".majors li").index(this);
+            $(this).siblings().removeClass("active");
+            $(this).addClass("active");
+            $(".courses-wrapper ul").removeClass("on");
+            $(".courses-wrapper ul:eq("+index+")").addClass("on");
+        })
     })();
 
 

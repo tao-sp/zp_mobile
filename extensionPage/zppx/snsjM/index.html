@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>室内设计</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/snsj.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+    <script src="js/snsj.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<header class="header">
+    <img src="http://m.gdzp.org/html/design/interiordesign/images/header_tit.jpg?v=1">
+</header>
+<!--banner开始-->
+<div class="sjfx-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner1.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner2.png"></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.sjfx-banner .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+        })
+    </script>
+</div>
+<!--banner开始-->
+
+
+<!--优惠政策开始-->
+<div class="yhzc">
+    <div class="icon-title bg-title1"></div>
+    <ul class="yhzc-list clearfix">
+        <li>
+            <i class="icon-yhzc bg-yhzc1"></i>
+            <div class="title">先学习后付款</div>
+            <div class="info">
+                <b>0元入学，</b>分期付款<br>
+                解决学费紧张问题
+            </div>
+        </li>
+        <li>
+            <i class="icon-yhzc bg-yhzc2"></i>
+            <div class="title">双师制教学</div>
+            <div class="info">
+                <b>线上+线下，</b>双模式学习<br>
+                合理安排时间
+            </div>
+        </li>
+        <li>
+            <i class="icon-yhzc bg-yhzc3"></i>
+            <div class="title">免费试听</div>
+            <div class="info">
+                免费试听，满意之后再报名 <br>
+                且享 <b>终身免费重修</b>
+            </div>
+        </li>
+        <li>
+            <i class="icon-yhzc bg-yhzc4"></i>
+            <div class="title">企业项目实训</div>
+            <div class="info">
+                真实项目，真实演练<br>
+                实际操作掌握全面
+            </div>
+        </li>
+        <li>
+            <i class="icon-yhzc bg-yhzc5"></i>
+            <div class="title">就业推荐</div>
+            <div class="info">
+                合作企业，<b>就业推荐</b><br>
+                学员就业无压力
+            </div>
+        </li>
+    </ul>
+    <a class="yhzc-btn"  onclick="mantis.requestChat()">申请优惠</a>
+</div>
+<!--优惠政策结束-->
+
+
+<!--学员见证开始-->
+<div class="xyjz">
+    <div class="icon-title bg-title2"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/xyjz1.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz2.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz3.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz4.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz5.png"></div>
+            <div class="swiper-slide"><img src="images/xyjz6.png"></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.xyjz .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+            slidesPerView : 5,
+            prevButton:'.xyjz .swiper-button-prev',
+            nextButton:'.xyjz .swiper-button-next',
+            onProgress: function(swiper, progress) {
+                changeImg()
+            },
+            onSetTransition: function(swiper, transition) {
+                changeImg()
+            },
+            //处理分页器bug
+            onSlideChangeStart: function(swiper) {
+                changeImg()
+            }
+        })
+        function changeImg() {
+            $(".xyjz .swiper-slide").removeClass("large-img");
+            $(".xyjz .swiper-slide").removeClass("large-img1");
+            $(".xyjz .swiper-slide").removeClass("large-img2");
+            $(".xyjz .swiper-slide-next").next().addClass("large-img");
+            $(".xyjz .swiper-slide-next").next().next().addClass("large-img2");
+            $(".xyjz .swiper-slide-next").addClass("large-img1");
+        }
+    </script>
+
+    <a class="yhzc-btn"  onclick="mantis.requestChat()">咨询更多详细内容</a>
+</div>
+<!--学员见证结束-->
+
+<!--前景-->
+<div class="qj">
+    <div class="icon-title bg-title3"></div>
+        <div class="jyqj-content">
+        深圳被国家定义为“<b>设计之都</b>”，大大小小的装饰公司有<b>四万余家</b>。面对如此巨大的市场，室内设计师的岗位更是<b>供不应求</b>，求就业人才需求量极大。深圳设计师在内地供职，口碑极好，整体就业前景明朗。且设计师收入来源丰富，薪酬结构是是<b>“底薪+业务提成+设计提成”，年薪20W</b>并不遥远。
+    </div>
+    <img class="jyqj-bar" src="images/bar.png">
+</div>
+
+<!--前景-->
+
+
+
+<!--表单-->
+<form class="form1">
+    <input class="form-group-input" placeholder=" 输入您的姓名">
+    <input class="form-group-input" placeholder="  输入您的电话号码">
+    <a class="form-group-btn">立即申请</a>
+</form>
+
+<!--表单-->
+
+<div class="zp">
+    <div class="btns">
+        <a onclick="mantis.requestChat()">BOSS直聘</a>
+        <a onclick="mantis.requestChat()">智联招聘</a>
+        <a onclick="mantis.requestChat()">猎聘</a>
+        <a onclick="mantis.requestChat()">前程无忧</a>
+    </div>
+    <a class="yhzc-btn" onclick="mantis.requestChat()">咨询更多详细内容</a>
+    <a class="zp-btn1" onclick="mantis.requestChat()"></a>
+</div>
+<a class="yhzc-btn positon-top" onclick="mantis.requestChat()">咨询更多详细内容</a>
+
+<!--表单-->
+<form class="form3">
+    <input class="form-group-input" placeholder=" 输入您的姓名">
+    <input class="form-group-input" placeholder="  输入您的电话号码">
+    <a class="form-group-btn">立即申请</a>
+</form>
+
+<!--表单-->
+
+<!--学员作品开始-->
+<div class="xyzp">
+    <div class="icon-title bg-title4"></div>
+    <div class="btns">
+        <a onclick="mantis.requestChat()">3D效果图</a>
+        <a onclick="mantis.requestChat()" class="on">软装设计</a>
+        <a onclick="mantis.requestChat()">CAD效果图</a>
+        <a onclick="mantis.requestChat()">手绘效果图</a>
+    </div>
+    <div class="img-group">
+        <img src="images/3d.png">
+        <img src="images/rz.png">
+        <img src="images/cad.png">
+        <img src="images/sh.png">
+    </div>
+    <a class="yhzc-btn" onclick="mantis.requestChat()">更多学员作品</a>
+</div>
+<!--学员作品结束-->
+
+<!--表单-->
+<form class="form2">
+    <input class="form-group-input" placeholder=" 输入您的姓名">
+    <input class="form-group-input" placeholder="  输入您的电话号码">
+    <input class="form-group-input" placeholder="  输入您的微信">
+    <a class="form-group-btn">提交</a>
+</form>
+
+<!--表单-->
+<div class="footer">
+    Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+    备案号:粤ICP备09069122号-2
+</div>
+
+<!--右侧悬浮开始-->
+<div class="right-suspension">
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/10.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/11.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/12.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/13.gif" width="40"></a>
+    <a class="rightserve"  id="backTop"><img src="http://m.gdzp.org/mobile/images/design/14.gif" width="40"></a>
+    <a class="rightserve2" onclick="hideright()"><img src="http://m.gdzp.org/mobile/images/design/15.gif" width="40"></a>
+</div>
+
+<!--右侧悬浮结束-->
+</body>
+</html>

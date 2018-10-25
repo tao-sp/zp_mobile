@@ -656,4 +656,206 @@ a {
 .rightserve img, .rightserve2 img {
   width: 1.7066666667rem; }
 
+.yssj-header {
+  z-index: 99998;
+  width: 16rem;
+  height: 1.8773333333rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -8rem;
+  background: rgba(0, 0, 0, 0.8); }
+
+.yssj-logo {
+  position: absolute;
+  left: 0.4266666667rem;
+  top: 0.384rem;
+  height: 1.088rem; }
+
+.yssj-c4d {
+  height: 0.4906666667rem;
+  position: absolute;
+  left: 5.3973333333rem;
+  top: 0.6826666667rem; }
+
+.right-nav {
+  height: 0.64rem;
+  position: absolute;
+  right: 0.4266666667rem;
+  top: 0.6186666667rem; }
+
+.right-nav-hide {
+  display: none;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -8rem;
+  width: 16rem;
+  height: 100%;
+  overflow-y: auto;
+  background: black; }
+
+.college-links li {
+  width: 4.2666666667rem;
+  float: left;
+  font-size: 0.4693333333rem;
+  color: #ffffff;
+  text-align: center; }
+
+.college-links li img {
+  height: 1.0453333333rem;
+  display: block;
+  margin: auto; }
+
+.close-nav {
+  background: black;
+  width: 15.68rem;
+  height: 1.1733333333rem;
+  padding-top: 0.32rem;
+  text-align: right;
+  padding-right: 0.32rem; }
+
+.close-nav img {
+  width: 0.576rem;
+  padding: 0.4266666667rem; }
+
+.zy-title {
+  padding: 0.4266666667rem;
+  font-size: 0.6826666667rem;
+  color: #ffffff;
+  font-weight: bold; }
+
+.zy-title1 {
+  padding-left: 1.7066666667rem;
+  font-size: 0.512rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  color: #cecece;
+  font-weight: bold;
+  background: #4e4e4e; }
+
+.major-links {
+  padding-left: 1.7066666667rem; }
+
+.major-links li {
+  padding-bottom: 0.4266666667rem;
+  padding-top: 0.4266666667rem;
+  margin-right: 0.4266666667rem;
+  float: left;
+  width: 2.7093333333rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.4266666667rem; }
+
+.major-links li img {
+  width: 2.7093333333rem; }
+
+.yssj-footer {
+  background: #efefef;
+  text-align: center;
+  font-size: 0.4266666667rem;
+  color: #999999;
+  padding-bottom: 0.4266666667rem; }
+
+.yssj-footer ul {
+  float: left;
+  width: 7.4666666667rem;
+  border-right: 1px solid #999999; }
+
+.yssj-footer ul li {
+  line-height: 0.768rem;
+  position: relative;
+  float: left;
+  width: 3.7333333333rem;
+  text-align: center;
+  font-size: 0.4266666667rem;
+  color: #999999; }
+
+.yssj-footer ul li:before {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-width: 0.1706666667rem 0 0.1706666667rem 0.1706666667rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #999999;
+  /*透明 透明 透明 灰*/
+  position: absolute;
+  top: 0.256rem;
+  left: 0.5333333333rem; }
+
+.footer-right {
+  width: 7.4666666667rem;
+  float: left;
+  text-align: center;
+  font-size: 0.4266666667rem;
+  color: #999999; }
+
+.footer-right a {
+  display: block;
+  line-height: 0.768rem;
+  width: 7.4666666667rem;
+  float: left;
+  text-align: center;
+  font-size: 0.4266666667rem;
+  color: #999999;
+  position: relative; }
+
+.footer-right a:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-width: 0.1706666667rem 0 0.1706666667rem 0.1706666667rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #999999;
+  /*透明 透明 透明 灰*/
+  position: absolute;
+  top: 0.256rem;
+  left: 0.7466666667rem; }
+
+.footer-right img {
+  width: 0.9386666667rem;
+  display: block;
+  margin: auto; }
+
+.jssj-footer-content {
+  padding: 0.5333333333rem 0; }
+
+.gkk-link {
+  position: absolute;
+  display: block;
+  font-size: 0.5973333333rem;
+  height: 1.0666666667rem;
+  line-height: 1.0666666667rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 1.92rem;
+  text-align: center;
+  right: 0.4266666667rem;
+  top: 0.3626666667rem; }
+
+.right-top-nav {
+  padding-left: 0.512rem;
+  padding-top: 0.2133333333rem;
+  padding-bottom: 0.32rem; }
+
+.right-top-nav li {
+  font-size: 0.4693333333rem;
+  float: left;
+  width: 2.6666666667rem;
+  height: 1.1946666667rem;
+  line-height: 1.1946666667rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0.256rem;
+  margin: 0 0.4266666667rem;
+  border: 1px solid  #ffffff; }
+
+.down {
+  width: 0.5546666667rem;
+  float: right;
+  margin-right: 0.4266666667rem;
+  margin-top: 0.64rem; }
+
 /*# sourceMappingURL=uisj.css.map */
