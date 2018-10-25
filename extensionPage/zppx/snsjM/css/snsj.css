@@ -328,7 +328,7 @@ a {
 
 .zp .btns {
   text-align: center;
-  margin: 0.32rem auto; }
+  margin: 0.4266666667rem auto; }
 
 .zp .btns a {
   margin: 0 0.1706666667rem;
@@ -347,7 +347,6 @@ a {
   background: #ffffff; }
 
 .zp .yhzc-btn {
-  margin-top: 12.2666666667rem;
   -moz-box-shadow: 0.1493333333rem 0.1493333333rem 0 #ffffff;
   -webkit-box-shadow: 0.1493333333rem 0.1493333333rem 0 #ffffff;
   box-shadow: 0.1493333333rem 0.1493333333rem 0 #ffffff; }
@@ -371,5 +370,24 @@ a {
 .positon-top {
   position: relative;
   top: 1.7066666667rem; }
+
+.zp-swiper {
+  margin-top: 1.28rem;
+  margin-bottom: 1.7066666667rem; }
+
+.zp-swiper .swiper-container {
+  width: 12.8rem;
+  padding-right: 3.2rem; }
+
+.zp-swiper .swiper-slide {
+  background-repeat: no-repeat;
+  background-size: 8.5333333333rem 9.9413333333rem;
+  width: 7.4666666667rem;
+  height: 8.5333333333rem; }
+
+.bg1 {
+  width: 16rem;
+  height: 48.4053333333rem;
+  background: url("../images/bg1.png") 0 0/16rem 48.4053333333rem; }
 
 /*# sourceMappingURL=snsj.css.map */

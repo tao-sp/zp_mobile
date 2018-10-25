@@ -330,7 +330,7 @@ a{
 }
 .zp .btns{
   text-align: center;
-  margin: px2rem(15) auto;
+  margin: px2rem(20) auto;
 }
 .zp .btns a{
   margin: 0 px2rem(8);
@@ -349,7 +349,6 @@ a{
   background: #ffffff;
 }
 .zp .yhzc-btn{
-  margin-top: px2rem(575);
   -moz-box-shadow:px2rem(7) px2rem(7) 0 #ffffff;
   -webkit-box-shadow:px2rem(7) px2rem(7) 0 #ffffff;
   box-shadow:px2rem(7) px2rem(7) 0 #ffffff;
@@ -373,4 +372,23 @@ a{
 .positon-top{
   position: relative;
   top:px2rem(80);
+}
+.zp-swiper{
+  margin-top: px2rem(60);
+margin-bottom: px2rem(80);
+}
+.zp-swiper .swiper-container{
+  width: px2rem(600);
+  padding-right: px2rem(150);
+}
+.zp-swiper .swiper-slide{
+  background-repeat: no-repeat;
+  background-size: px2rem(400) px2rem(466);
+  width:px2rem(350);
+  height:px2rem(400);
+}
+.bg1{
+  width:px2rem(750);
+  height:px2rem(2269);
+  background: url("../images/bg1.png") 0 0 /px2rem(750) px2rem(2269) no-repeat;
 }

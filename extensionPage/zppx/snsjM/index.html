@@ -164,14 +164,18 @@
 
 
 
+
 <!--表单-->
-<form class="form1">
-    <input class="form-group-input" placeholder=" 输入您的姓名">
-    <input class="form-group-input" placeholder="  输入您的电话号码">
-    <a class="form-group-btn">立即申请</a>
+<form class="form1" id="form_1">
+    <input class="form-group-input" placeholder=" 输入您的姓名" name="name">
+    <input class="form-group-input" placeholder="  输入您的电话号码" name="phone">
+    <input type="hidden" name="web" value="室内M-申请免费试听">
+    <input type="hidden" name="code" value="SMS_137674601">
+    <a class="form-group-btn" onclick="customerInput('form_1')">立即申请</a>
 </form>
 
 <!--表单-->
+
 
 <div class="zp">
     <div class="btns">
@@ -180,6 +184,40 @@
         <a onclick="mantis.requestChat()">猎聘</a>
         <a onclick="mantis.requestChat()">前程无忧</a>
     </div>
+
+    <div class="zp-swiper">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url('images/zp1.png')"></div>
+                <div class="swiper-slide" style="background-image:url('images/zp2.png')"></div>
+                <div class="swiper-slide" style="background-image:url('images/zp3.png')"></div>
+                <div class="swiper-slide" style="background-image:url('images/zp4.png')"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.zp-swiper .swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                speed:400,
+                loop:true,
+                autoplay:3000,
+                coverflow: {
+                    rotate: 30,
+                    stretch: 100,
+                    depth: 80,
+                    modifier: 1,
+                    slideShadows : true
+                }
+            });
+        </script>
+    </div>
     <a class="yhzc-btn" onclick="mantis.requestChat()">咨询更多详细内容</a>
     <a class="zp-btn1" onclick="mantis.requestChat()"></a>
     <a class="zp-btn2" onclick="mantis.requestChat()"></a>
@@ -187,22 +225,25 @@
 <a class="yhzc-btn positon-top" onclick="mantis.requestChat()">咨询更多详细内容</a>
 
 <!--表单-->
-<form class="form3">
-    <input class="form-group-input" placeholder=" 输入您的姓名">
-    <input class="form-group-input" placeholder="  输入您的电话号码">
-    <a class="form-group-btn">立即申请</a>
+<form class="form3" id="form_3">
+    <input class="form-group-input" placeholder=" 输入您的姓名" name="name">
+    <input class="form-group-input" placeholder="  输入您的电话号码" name="phone">
+    <input type="hidden" name="web" value="室内M-申请免费试听">
+    <input type="hidden" name="code" value="SMS_137674601">
+    <a class="form-group-btn" onclick="customerInput('form_3')">立即申请</a>
 </form>
 
 <!--表单-->
 
+<div class="bg1"></div>
 <!--学员作品开始-->
 <div class="xyzp">
     <div class="icon-title bg-title4"></div>
     <div class="btns">
-        <a onclick="mantis.requestChat()">3D效果图</a>
-        <a onclick="mantis.requestChat()" class="on">软装设计</a>
-        <a onclick="mantis.requestChat()">CAD效果图</a>
-        <a onclick="mantis.requestChat()">手绘效果图</a>
+        <a>3D效果图</a>
+        <a class="on">软装设计</a>
+        <a>CAD效果图</a>
+        <a>手绘效果图</a>
     </div>
     <div class="img-group">
         <img src="images/3d.png">
@@ -213,16 +254,18 @@
     <a class="yhzc-btn" onclick="mantis.requestChat()">更多学员作品</a>
 </div>
 <!--学员作品结束-->
-
 <!--表单-->
-<form class="form2">
-    <input class="form-group-input" placeholder=" 输入您的姓名">
-    <input class="form-group-input" placeholder="  输入您的电话号码">
-    <input class="form-group-input" placeholder="  输入您的微信">
-    <a class="form-group-btn">提交</a>
+<form class="form2" id="form_2">
+    <input class="form-group-input" placeholder=" 输入您的姓名" name="name">
+    <input class="form-group-input" placeholder="  输入您的电话号码" name="phone">
+    <input class="form-group-input" placeholder="  输入您的微信" name="qq">
+    <input type="hidden" name="web" value="室内M-申请免费试听">
+    <input type="hidden" name="code" value="SMS_137674601">
+    <a class="form-group-btn" onclick="customerInput('form_3')">提交</a>
 </form>
 
 <!--表单-->
+
 <div class="footer">
     Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
     备案号:粤ICP备09069122号-2
@@ -239,5 +282,10 @@
 </div>
 
 <!--右侧悬浮结束-->
+<!--螳螂科技探头代码2018-06-20-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b285f02b609f7456962ed29"></script>
+<!--螳螂科技探头代码2018-06-20-->
+<script src="../../common/forminput.js"></script>
+
 </body>
 </html>

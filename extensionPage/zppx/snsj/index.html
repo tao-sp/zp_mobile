@@ -8,6 +8,7 @@
     <script src="js/snsj.js"></script>
     <link rel="stylesheet" href="js/swiper-3.4.2/swiper-3.4.2.min.css">
     <script src="js/swiper-3.4.2/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/jquery-animate-css-rotate-scale.js"></script>
 </head>
 <body>
 <!--头部开始-->
@@ -168,14 +169,17 @@
 <!--就业前景结束-->
 
 <!--表单开始-->
-<form class="snsj-form">
+<form class="snsj-form" id="form_1">
     <div class="form-group">
-        <input class="form-group-input input-1" placeholder=" 输入您的姓名">
-        <input class="form-group-input input-2" placeholder="  输入您的电话号码">
-        <a class="form-group-btn">立即申请</a>
+        <input class="form-group-input input-1" placeholder=" 输入您的姓名" name="name">
+        <input class="form-group-input input-2" placeholder="  输入您的电话号码" name="phone">
+        <input type="hidden" name="web" value="室内PC-申请免费试听">
+        <input type="hidden" name="code" value="SMS_137674601">
+        <a class="form-group-btn" onclick="customerInput('form_1')">立即申请</a>
     </div>
 </form>
 <!--表单结束-->
+
 
 <!--招聘信息开始-->
 
@@ -188,10 +192,45 @@
             <a onclick="mantis.requestChat()">猎聘</a>
             <a onclick="mantis.requestChat()">前程无忧</a>
         </div>
-    </div>
-    <div class="zp-img">
+        <div class="zp-swiper">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url('images/zp1.png')"></div>
+                    <div class="swiper-slide" style="background-image:url('images/zp2.png')"></div>
+                    <div class="swiper-slide" style="background-image:url('images/zp3.png')"></div>
+                    <div class="swiper-slide" style="background-image:url('images/zp4.png')"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.zp-swiper .swiper-container', {
+                    effect: 'coverflow',
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: 'auto',
+                    speed:800,
+                    loop:true,
+                    autoplay:3000,
+                    coverflow: {
+                        rotate: 30,
+                        stretch: 100,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows : true
+                    }
+                });
+            </script>
+        </div>
 
     </div>
+
+   <!-- <div class="zp-img">
+
+    </div>-->
     <a class="zp-img-btn" onclick="mantis.requestChat()">咨询更多详细内容</a>
 </div>
 <!--招聘信息结束-->
@@ -374,20 +413,23 @@
 
 <!--表单开始-->
 <div class="form2">
-    <form class="container_1200">
+    <form class="container_1200" id="form_2">
         <div class="form2-title">
             <span>免费</span>获取试听课程
         </div>
         <div class="form2-input-group">
-            <input placeholder="输入您的姓名">
-            <input placeholder="输入您的电话号码">
-            <a class="form2-btn">立即申请</a>
+            <input placeholder="输入您的姓名" name="name">
+            <input placeholder="输入您的电话号码" name="phone">
+            <input type="hidden" name="web" value="室内PC-申请免费试听">
+            <input type="hidden" name="code" value="SMS_137674601">
+            <a class="form2-btn" onclick="customerInput('form_2')">立即申请</a>
         </div>
     </form>
 
 </div>
 
 <!--表单结束-->
+
 
 <!--教师开始-->
 <div class="js">
@@ -469,10 +511,10 @@
 <div class="xyzp container_1200">
     <div class="xyzp-title"></div>
     <div class="btns">
-        <a onclick="mantis.requestChat()">3D效果图</a>
-        <a onclick="mantis.requestChat()" class="on">软装设计</a>
-        <a onclick="mantis.requestChat()">CAD效果图</a>
-        <a onclick="mantis.requestChat()">手绘效果图</a>
+        <a>3D效果图</a>
+        <a class="on">软装设计</a>
+        <a>CAD效果图</a>
+        <a>手绘效果图</a>
     </div>
     <div class="img-group">
         <img src="images/3d.png">
@@ -486,16 +528,19 @@
 
 <!--表单开始-->
 <div class="form3-content">
-    <form class="form3">
-        <input placeholder="输入您的姓名">
-        <input placeholder="输入您的电话号码">
-        <input placeholder="输入您的微信">
-        <a class="yhzc-btn">提交</a>
+    <form class="form3" id="form_3">
+        <input placeholder="输入您的姓名" name="name">
+        <input placeholder="输入您的电话号码" name="phone">
+        <input placeholder="输入您的微信" name="qq">
+        <input type="hidden" name="web" value="室内PC-申请免费试听">
+        <input type="hidden" name="code" value="SMS_137674601">
+        <a class="yhzc-btn" onclick="customerInput('form_3')">提交</a>
     </form>
 </div>
 
 
 <!--表单结束-->
+
 
 <!--侧边栏开始-->
 <div class="float-ad" action="{{ path('customer_page') }}" id="float-ad">
@@ -561,5 +606,10 @@
     备案号:<a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备09069122号-2</a><br>
 </div>
 <!--底部开始-->
+<!--螳螂科技探头代码2018-06-20-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b285f02b609f7456962ed29"></script>
+<!--螳螂科技探头代码2018-06-20-->
+<script src="../common/forminput.js"></script>
+
 </body>
 </html>
