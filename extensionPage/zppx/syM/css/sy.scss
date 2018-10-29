@@ -78,6 +78,10 @@ a{
 .rightserve img,.rightserve2 img{
   width: px2rem(80);
 }
+.sjfx-banner img{
+  width:px2rem(750);
+  display: block;
+}
 .icon-title{
   display: block;
   margin: auto;
@@ -317,8 +321,8 @@ margin-right: 0;
   padding-top: px2rem(130);
 }
 .form1 input{
-  padding-left: px2rem(20);
-  width:px2rem(430);
+  padding-left: px2rem(50);
+  width:px2rem(400);
   height:px2rem(95);
   background: #ffffff;
   border: none;
@@ -385,7 +389,7 @@ margin-right: 0;
   background-repeat: no-repeat;
 }
 #certify .swiper-container-horizontal>.swiper-pagination-bullets,#certify .swiper-pagination-custom,#certify .swiper-pagination-fraction{
-  bottom:px2rem(-20);
+  bottom:px2rem(-120);
 }
 .bottom{
   position: relative;
