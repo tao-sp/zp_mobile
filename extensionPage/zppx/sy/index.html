@@ -6,8 +6,11 @@
     <script src="js/jquery-1.11.3.min.js"></script>
     <link rel="stylesheet" href="css/sy.css">
     <script src="js/sy.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2/swiper-3.4.2.jquery.min.js"></script>
+    <link rel="stylesheet" href="css/certify.css">
 </head>
-<body>
+<body class="bg-color font_yahei">
 <!--头部开始-->
 <header style="position: relative">
     <div class="shortcut">
@@ -22,19 +25,613 @@
             <div class="shortcut_content_right">
                 <a href="javascript:void(0)" onclick="mantis.requestChat()">帮助中心</a>|
                 <a href="javascript:void(0)" onclick="mantis.requestChat()">在线客服</a>|
-                <a href="javascript:void(0)" onclick="mantis.requestChat()"><img src="http://www.gdzp.org/html/snsj/images/phone.png">手机版</a>
+                <a href="javascript:void(0)" onclick="mantis.requestChat()"><img src="images/phone.png">手机版</a>
             </div>
         </div>
     </div>
     <div class="logo-sjys">
         <div class="container_1200">
             <div class="logo-sjys-left"><img src="http://www.gdzp.org/html/zbsj/statics/images/new/sjys-logo-1.png"></div>
-            <div class="logo-sjys-center"><img src="http://www.gdzp.org/html/zbsj/statics/images/new/1.png"></div>
+            <div class="logo-sjys-center"><img src="images/syfont.png"></div>
         </div>
     </div>
 </header>
 <!--头部开始-->
 
+<!--banner开始-->
+<div class="sjfx-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner1.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner2.png"></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.sjfx-banner .swiper-container', {
+            autoplay: 3500,//可选选项，自动滑动
+            loop:true,
+            speed:1000
+        })
+    </script>
+</div>
+<!--banner开始-->
+
+<!--就业方向开始-->
+<div class="jyfx container_1200">
+    <div class="icon-title bg-title1">
+
+    </div>
+    <ul class="sjxs-lists clearfix">
+        <li>
+            <div class="sjxs-list-item">
+                <img src="images/list1.png">
+                <div class="sjxs-list-title">
+                    商业摄影
+                </div>
+            </div>
+            <div class="sjxs-list-item">
+                <img src="images/list2.png">
+                <div class="sjxs-list-title">
+                    人文纪实
+                </div>
+            </div>
+            <div class="sjxs-list-item">
+                <img src="images/list3.png">
+                <div class="sjxs-list-title">
+                    摄影后期
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="sjxs-list-item">
+                <img src="images/list4.png">
+                <div class="sjxs-list-title">
+                    人像摄影
+                </div>
+            </div>
+            <div class="sjxs-list-item">
+                <img src="images/list5.png">
+                <div class="sjxs-list-title">
+                    体育摄影
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="sjxs-list-item">
+                <img src="images/list6.png">
+                <div class="sjxs-list-title">
+                    风光摄影
+                </div>
+            </div>
+            <div class="sjxs-list-item">
+                <img src="images/list7.png">
+                <div class="sjxs-list-title">
+                    生态摄影
+                </div>
+            </div>
+            <div class="sjxs-list-item">
+                <img src="images/list8.png">
+                <div class="sjxs-list-title">
+                    静物摄影
+                </div>
+            </div>
+        </li>
+    </ul>
+    <a class="sy-btn">详情咨询</a>
+</div>
+
+<!--就业方向开始-->
+
+<!--适合学吗开始-->
+<div class="shx container_1200">
+    <div class="icon-title bg-title2"></div>
+    <ul class="shx-list clearfix">
+        <li>
+            <div class="title">
+                <span>我是0基础/应届生</span>
+                <p>我想学摄影，能学会吗</p>
+            </div>
+            <div class="btn-border">
+                <a class="shx-btn" onclick="mantis.requestChat()">0基础咨询</a>
+            </div>
+            <i class="icon-p bg-p1"></i>
+        </li>
+        <li>
+            <div class="title">
+                <span>我在职，想转行</span>
+                <p>现在的工作没发展，想转行<br>有难度吗</p>
+            </div>
+            <div class="btn-border">
+                <a class="shx-btn" onclick="mantis.requestChat()">转行咨询</a>
+            </div>
+            <i class="icon-p bg-p2"></i>
+        </li>
+        <li>
+            <div class="title">
+                <span>我已从事摄影行业</span>
+                <p>工作遭遇瓶颈，想充电学习，<br>能提升吗</p>
+            </div>
+            <div class="btn-border">
+                <a class="shx-btn" onclick="mantis.requestChat()">提升咨询</a>
+            </div>
+            <i class="icon-p bg-p3"></i>
+        </li>
+    </ul>
+
+</div>
+
+<!--适合学吗结束-->
+
+<!--月薪过万开始-->
+<div class="yxgw container_1080">
+    <div class="icon-title bg-title3"></div>
+</div>
+<div class="njkb-content">
+    <div class="Top_Record">
+        <div class="topRec_List">
+            <dl>
+                <dd>报名课程</dd>
+                <dd>姓名</dd>
+                <dd>专业方向</dd>
+                <dd>薪资</dd></dl>
+            <div class="maquee">
+                <ul>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>伍*伟</div>
+                        <div>商业摄影</div>
+                        <div>12000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>刘*荣</div>
+                        <div>婚纱摄影</div>
+                        <div>11000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>张*慧</div>
+                        <div>产品摄影</div>
+                        <div>8000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>张*庭</div>
+                        <div>风光摄影</div>
+                        <div>10000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>蔡*新</div>
+                        <div>人像摄影</div>
+                        <div>7500</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>刘*洁</div>
+                        <div>专业人像</div>
+                        <div>12000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>李*林</div>
+                        <div>商业摄影</div>
+                        <div>12000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>赵*望</div>
+                        <div>商业摄影</div>
+                        <div>7000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>武*海</div>
+                        <div>婚纱摄影</div>
+                        <div>9000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>蓝*心</div>
+                        <div>产品摄影</div>
+                        <div>12000</div></li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>张*明</div>
+                        <div>风光摄影</div>
+                        <div>9000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>李*</div>
+                        <div>人像摄影</div>
+                        <div>7500</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>陈*秋</div>
+                        <div>产品摄影</div>
+                        <div>13000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>刘*超</div>
+                        <div>商业摄影</div>
+                        <div>8000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>赵*君</div>
+                        <div>商业摄影</div>
+                        <div>12000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>纪*海</div>
+                        <div>婚纱摄影</div>
+                        <div>8000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>李*瑗</div>
+                        <div>商业摄影</div>
+                        <div>10000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>周*芳</div>
+                        <div>风光摄影</div>
+                        <div>8000</div>
+                    </li>
+                    <li>
+                        <div>摄影一年级</div>
+                        <div>姚*培</div>
+                        <div>人像摄影</div>
+                        <div> 7000</div>
+                    </li>
+                    <li>
+                        <div>摄影二年级</div>
+                        <div>孙*</div>
+                        <div>专业人像</div>
+                        <div> 11000</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a class="sy-btn" onclick="mantis.requestChat()">高薪咨询</a>
+
+<!--月薪过万开始-->
+
+<!--摄影课程开始-->
+<div class="sykc">
+    <div class="container_1080">
+        <ul class="sykc-left">
+            <li class="clearfix">
+                <div class="title">
+                    一年级<br>课程
+                </div>
+                <div class="info">
+                    <span> 稳步提升年级课程</span>
+                    就业方向：助理摄影师
+                    <a>学习内容    ></a>
+                </div>
+
+            </li>
+            <li class="clearfix on">
+                <div class="title">
+                    一年级<br>课程
+                </div>
+                <div class="info">
+                    <span> 稳步提升年级课程</span>
+                    就业方向：助理摄影师
+                    <a>学习内容    ></a>
+                </div>
+
+            </li>
+            <li class="clearfix">
+                <div class="title">
+                    一年级<br>课程
+                </div>
+                <div class="info">
+                    <span> 稳步提升年级课程</span>
+                    就业方向：助理摄影师
+                    <a>学习内容    ></a>
+                </div>
+
+            </li>
+        </ul>
+        <ul class="sykc-right">
+            <li>
+                <div class="items">
+                    <div class="itemsbg">
+
+                    </div>
+                    <div class="list-item">
+                        <span>摄影基础</span>
+                        曝光原理与相机选购<br>
+                        曝光模式、曝光组合<br>
+                        对焦、测光和区域模式<br>
+                        感光度应用、防抖和维护<br>
+                        感光度、防抖与维护<br>
+                        景别控制、摄影构图<br>
+                        摄影用光、摄影色彩学<br>
+                        速度控制<br>
+                        景深应用<br>
+                        色调应用<br>
+                        本单元强化训练
+                    </div>
+                </div>
+                <img src="images/ynjkc.png" class="items-img">
+            </li>
+            <li>
+                <div class="items">
+                    <div class="list-item">
+                        <span>专业摄影进阶</span>
+                        创意技巧 | 人像摄影 | 风光摄影 | 人文纪实 | 体育摄影 | 生态摄影 | 作品欣赏
+                    </div>
+                    <div class="list-item">
+                        <span>专业摄影后期</span>
+                        Lightrooom & PS 基础 | HDR（高动态范围）、堆栈 | 曝光校正与色彩校正、
+                        基本修整全景接片 | 人文摄影低饱和度调色和HDR | 小清新制作、工笔画、
+                        加水印风光调整 | 风光水墨画和油画效果制作
+                    </div>
+                    <div class="list-item">
+                        <span>商业摄影</span>
+                        影棚总训 | 产品摄影 | 商业人像摄影
+                    </div>
+                    <div class="list-item">
+                        <span>商业摄影后期</span>
+                        摄影后期前期准备 | 商业摄影后期效果控制 | 商业后期实训
+                        产品修图 | 人像精修 | 创意合成
+                    </div>
+                    <div class="list-item">
+                        <span>手机摄影班</span>
+                        手机基础知识 | 用光与构图 | 创意功能和辅助设备 | 手机常用APP
+                        手机人像摄影 | 手机风光摄影、手机视频拍摄
+                    </div>
+                    <div class="list-item">
+                        <span>淘宝摄影速成班</span>
+                        相机使用基础 | 综合拍摄实践 | 图片后期处理
+                    </div>
+                    <div class="list-item">
+                        <span>创意商业摄影</span>
+                        饮品 | 美食 | 珠宝、文玩 | 时尚人像 | 艺术肖像 | 电子产品 | 家私 | 手表
+                    </div>
+                    <div class="list-item">
+                        <span>人像婚纱就业班</span>
+                        基础应用 | 摄影美学 | 人像摄影 | 后期快速修图
+                    </div>
+                </div>
+            </li>
+            <li>
+               <div class="img-items clearfix">
+                   <div class="img-item">
+                       <img src="images/item1.png">
+                       商业摄影人像摄影班
+                   </div>
+                   <div class="img-item">
+                       <img src="images/item2.png">
+                       专业摄影人像班
+                   </div>
+                   <div class="img-item">
+                       <img src="images/item3.png">
+                       专业摄影风光班
+                   </div>
+                   <div class="img-item">
+                       <img src="images/item4.png">
+                       商业摄影产品摄影班
+                   </div>
+                   <div class="img-item">
+                       <img src="images/item5.png">
+                       商业摄影全科班
+                   </div>
+                   <div class="img-item">
+                       <img src="images/item6.png">
+                       专业摄影全科班
+                   </div>
+                   <div class="img-item">
+                       <img src="images/item7.png">
+                       人像婚纱就业班
+                   </div>
+                   <div class="img-item">
+                       <img src="images/item8.png">
+                       手机摄影专题班
+                   </div>
+               </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<!--摄影课程结束-->
+
+<!--表单开始-->
+    <div class="form">
+        <form class="form-content container_1080">
+            <div class="formbg"></div>
+            <input placeholder="姓名">
+            <input class="input1" placeholder="电话">
+            <a class="form-btn">预约免费试听课程</a>
+        </form>
+
+    </div>
+
+<!--表单结束-->
+
+<!--师资团队开始-->
+<div class="sztd container_1080">
+    <div class="icon-title bg-title4"></div>
+    <ul class="sz-info-lsit">
+        <li>
+            <i class="icon-jpjs"></i>
+            <img src="images/sz33.png">
+            <div class="info">
+                <div class="name">
+                    <b>戴世聪</b>
+                    中鹏教育摄影高级讲师
+                </div>
+                <div class="line-color"></div>
+                广告设计技师，国家摄影师职称考试高级考评员，深圳市民俗摄影协会副秘书长、企业家摄影协会（深圳）会员、深圳市摄影学会会员，深圳大学艺术研究会会员，深圳包装行业协会委员，深圳市南国书画家协会理事。从事摄影及教学20年。毕业于中国地质大学，本科学历。熟悉各种产品广告、服装人像、活动场景摄影和摄影后期处理，尤善沙龙摄影。
+                <b>主要奖项：</b><br>
+                2017年《竞赛》入选首届深圳国际摄影大展；<br>
+                2016年《运动的色彩》获鹏城金秋摄影等等...
+            </div>
+        </li>
+        <li>
+            <i class="icon-jpjs"></i>
+            <img src="images/sz22.png">
+            <div class="info">
+                <div class="name">
+                    <b>刘培聪</b>
+                    中鹏教育摄影专业教研组组员
+                </div>
+                <div class="line-color"></div>
+                高级摄影师，广东省摄影家协会会员，中国新闻摄影学会会员，深圳市摄影学会会员，深圳企业家摄影协会会员，深圳横岗摄影协会副会长；<br>
+                <b>擅长领域：</b>摄影美学、建筑摄影、空中航拍、广告摄影及数码后期
+            </div>
+        </li>
+        <li>
+            <i class="icon-jpjs"></i>
+            <img src="images/sz55.png">
+            <div class="info">
+                <div class="name">
+                    <b>聂聆聪</b>
+                    中鹏教育摄影专业教研组组员
+                </div>
+                <div class="line-color"></div>
+                高级摄影师，代表作《昼》《夜》；<br>
+                <b>主要奖项：</b><br>
+                第五届深圳动漫节漫境界”摄影大赛专业组优秀奖；<br>
+                2017年青年师生摄影作品展入选；<br>
+                视－界粤港澳青年摄影作品展入选<br>
+                第三届深圳摄影作品年度展入选
+            </div>
+        </li>
+        <li>
+            <i class="icon-jpjs"></i>
+            <img src="images/sz44.png">
+            <div class="info">
+                <div class="name">
+                    <b>廖启瑞</b>
+                    中鹏教育摄影专业教研组组员
+                </div>
+                <div class="line-color"></div>
+                毕业于西安美术学院，曾任教于高校艺术系，主讲摄影、设计类课程，后旅居海外，回国
+                后致力于专业摄影的推广与教学工作；
+            </div>
+        </li>
+        <li>
+            <i class="icon-jpjs"></i>
+            <img src="images/sz11.png">
+            <div class="info">
+                <div class="name">
+                    <b>李湘</b>
+                    中鹏教育摄影专业教研组顾问
+                </div>
+                <div class="line-color"></div>
+                深圳首批 ADOBE国际认证讲师，深圳市包装行业协会设计委常务委员，广东省职业资格考评员，深圳市广告设计师职业资格题库开发组成员，天顾设计有限公司设计总监，天地人和商业摄影设计有限公司设计总监，技师级广告设计师、入选广东省高技能人オ库。
+            </div>
+        </li>
+    </ul>
+    <ul class="sz-ctrl-list clearfix">
+        <li class="on">
+            <img src="images/sz1.png">
+        </li>
+        <li>
+            <img src="images/sz2.png">
+        </li>
+        <li>
+            <img src="images/sz3.png">
+        </li>
+        <li>
+            <img src="images/sz4.png">
+        </li>
+        <li>
+            <img src="images/sz5.png">
+        </li>
+    </ul>
+    <a class="sy-btn" onclick="mantis.requestChat()">预约名师</a>
+</div>
+
+<!--师资团队结束-->
+<div class="rz"></div>
+
+<!--求职开始-->
+<div class="qz container_1080">
+    <div class="icon-title bg-title6"></div>
+    <div id="certify">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/sy1.png" /><p>网络美工设计</p></div>
+                <div class="swiper-slide"><img src="images/sy2.png" /><p>LOGO创意设计</p></div>
+                <div class="swiper-slide"><img src="images/sy3.png" /><p>户外广告设计</p></div>
+                <div class="swiper-slide"><img src="images/sy4.png" /><p>印刷包装设计</p></div>
+                <div class="swiper-slide"><img src="images/sy5.png" /><p>企业形象设计</p></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <a class="sy-btn" onclick="mantis.requestChat()">查看更多作品 >></a>
+</div>
+
+<!--求职开始-->
+
+<!--技能学历开始-->
+<div class="jnxl container_1080">
+    <div class="icon-title bg-title7"></div>
+</div>
+
+<!--技能学历开始-->
+
+<!--表单开始-->
+<div class="form3">
+
+<form class="form3-content container_1080">
+    <a class="form-a" onclick="mantis.requestChat()"></a>
+    <div class="title">
+        中鹏不仅有全面的<b>职业技能课程</b><br>
+        同时还有<b>学历提升课程</b>，两项证书在中鹏都可获取<br>
+        凡在中鹏学习技能课程的学员，想提学历者可享<b>专属优惠</b>！
+    </div>
+    <input placeholder="姓名：">
+    <input placeholder="电话：">
+    <a class="form3-btn">提交</a>
+</form>
+</div>
+<!--表单开始-->
+
+<!--校区环境开始-->
+<div class="xqhj">
+
+    <a class="sy-btn" onclick="mantis.requestChat()">预约实地考察 </a>
+
+</div>
+
+<!--校区环境开始-->
+
+<!--app开始-->
+<div class="app container_1080">
+    <div class="icon-title bg-title9"></div>
+    <ul class="zxjy-list clearfix">
+        <li>
+            <img src="images/app1.png">
+        </li>
+        <li>
+            <img src="images/app2.png">
+        </li>
+        <li>
+            <img src="images/app3.png">
+        </li>
+    </ul>
+
+</div>
+<!--app结束-->
 <!--侧边栏开始-->
 <div class="float-ad" action="{{ path('customer_page') }}" id="float-ad">
     <div class="float-interaction">
@@ -99,5 +696,30 @@
     备案号:<a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备09069122号-2</a><br>
 </div>
 <!--底部开始-->
+<script>
+    function autoScroll(obj) {
+        $(obj).find("ul").animate({
+                marginTop: "-62px"
+            },
+            500,
+            function() {
+                $(this).css({
+                    marginTop: "0px"
+                }).find("li:first").appendTo(this);
+            })
+    }
+    (function() {
+       // var interv =  setInterval('autoScroll(".maquee")', 3000);
+    })();
+    $(function () {
+        $(".sykc-left li").mouseover(function () {
+            $(this).addClass("on").siblings().removeClass("on");
+            var index  = $(this).index();
+            $(".sykc-right li").hide();
+            $(".sykc-right li").eq(index).show();
+        })
+    })
+
+</script>
 </body>
 </html>

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+#certify {
+	position: relative;
+	width: 1080px;
+	margin: 0 auto
+}
+
+#certify .swiper-container {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#certify  .swiper-slide {
+	position: relative;
+	width: 429px;
+	height: 639px;
+}
+#certify  .swiper-slide img{
+	display:block;
+}
+#certify  .swiper-slide p {
+	width:100%;
+	display: block;
+	text-align: center;
+	bottom: 0;
+	height: 56px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	line-height: 56px;
+	padding-top: 0;
+	text-align: center;
+	font-size: 1.3em;
+	margin: 0;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+	display: none;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	left: -55px;
+	width: 45px;
+	height: 45px;
+	background: url(http://www.gdzp.org/html/pmsj/statics/images/wm_button_icon.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+}
+
+#certify .swiper-button-next {
+	right: -55px;
+	width: 45px;
+	height: 45px;
+	background: url(http://www.gdzp.org/html/pmsj/statics/images/wm_button_icon.png) no-repeat;
+	background-position: 0 -93px;
+	background-size: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+}

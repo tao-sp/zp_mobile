@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>摄影</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/sy.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+    <script src="js/snsj.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<div class="bodybg">
+    <header class="header">
+        <img src="http://m.gdzp.org/html/design/photographyschool/images/header_tit.jpg?v=1">
+    </header>
+    <!--banner开始-->
+    <div class="sjfx-banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner1.png"></div>
+                <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner2.png"></div>
+            </div>
+        </div>
+        <script>
+            var mySwiper = new Swiper('.sjfx-banner .swiper-container', {
+                autoplay: 5000,//可选选项，自动滑动
+                loop:true,
+            })
+        </script>
+    </div>
+    <!--banner开始-->
+
+    <!--种类开始-->
+    <div class="zl">
+        <div class="icon-title bg-title1"></div>
+        <ul class="zl-list clearfix">
+            <li>
+                <img src="images/llist1.png">
+                <div class="title">商业摄影</div>
+            </li>
+            <li>
+                <img src="images/list2.png">
+                <div class="title">风光摄影</div>
+            </li>
+            <li>
+                <img src="images/list3.png">
+                <div class="title">人文纪实</div>
+            </li>
+            <li>
+                <img src="images/list4.png">
+                <div class="title">生态摄影</div>
+            </li>
+            <li>
+                <img src="images/list5.png">
+                <div class="title">摄影后期</div>
+            </li>
+            <li>
+                <img src="images/list6.png">
+                <div class="title">静物摄影</div>
+            </li>
+            <li>
+                <img src="images/list7.png">
+                <div class="title">人像摄影</div>
+            </li>
+            <li>
+                <img src="images/list8.png">
+                <div class="title">体育摄影</div>
+            </li>
+        </ul>
+        <a class="sy-btn" onclick="mantis.requestChat()" >详情咨询</a>
+
+    </div>
+
+    <!--种类开始-->
+
+    <!--我适合学吗开始-->
+    <div class="shx">
+        <div class="icon-title bg-title2"></div>
+        <ul class="shx-list clearfix">
+            <li>
+                <div class="title">
+                   我是0基础/应届生
+                </div>
+                <div class="info">
+                    我想学摄影，能学会吗
+                </div>
+                    <a class="shx-btn" onclick="mantis.requestChat()">0基础咨询</a>
+            </li>
+            <li>
+                <div class="title">
+                    我在职，想转行
+                </div>
+                <div class="info">
+                    现在的工作没发展<br>想转行有难度吗
+                </div>
+                    <a class="shx-btn" onclick="mantis.requestChat()">转行咨询</a>
+            </li>
+            <li>
+                <div class="title">
+                    我已从事摄影行业
+                </div>
+                <div class="info">
+                    工作遭遇瓶颈<br>想充电学习，能提升吗
+                </div>
+                    <a class="shx-btn" onclick="mantis.requestChat()">提升咨询</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--我适合学吗结束-->
+
+    <!--月薪过万开始-->
+    <div class="yxgw">
+        <div class="icon-title bg-title3"></div>
+        <div class="njkb-content">
+            <div class="Top_Record">
+                <div class="topRec_List">
+                    <dl>
+                        <dd>报名课程</dd>
+                        <dd>姓名</dd>
+                        <dd>专业方向</dd>
+                        <dd>薪资</dd></dl>
+                    <div class="maquee">
+                        <ul>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>伍*伟</div>
+                                <div>商业摄影</div>
+                                <div>12000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>刘*荣</div>
+                                <div>婚纱摄影</div>
+                                <div>11000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>张*慧</div>
+                                <div>产品摄影</div>
+                                <div>8000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>张*庭</div>
+                                <div>风光摄影</div>
+                                <div>10000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>蔡*新</div>
+                                <div>人像摄影</div>
+                                <div>7500</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>刘*洁</div>
+                                <div>专业人像</div>
+                                <div>12000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>李*林</div>
+                                <div>商业摄影</div>
+                                <div>12000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>赵*望</div>
+                                <div>商业摄影</div>
+                                <div>7000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>武*海</div>
+                                <div>婚纱摄影</div>
+                                <div>9000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>蓝*心</div>
+                                <div>产品摄影</div>
+                                <div>12000</div></li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>张*明</div>
+                                <div>风光摄影</div>
+                                <div>9000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>李*</div>
+                                <div>人像摄影</div>
+                                <div>7500</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>陈*秋</div>
+                                <div>产品摄影</div>
+                                <div>13000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>刘*超</div>
+                                <div>商业摄影</div>
+                                <div>8000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>赵*君</div>
+                                <div>商业摄影</div>
+                                <div>12000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>纪*海</div>
+                                <div>婚纱摄影</div>
+                                <div>8000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>李*瑗</div>
+                                <div>商业摄影</div>
+                                <div>10000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>周*芳</div>
+                                <div>风光摄影</div>
+                                <div>8000</div>
+                            </li>
+                            <li>
+                                <div>摄影一年级</div>
+                                <div>姚*培</div>
+                                <div>人像摄影</div>
+                                <div> 7000</div>
+                            </li>
+                            <li>
+                                <div>摄影二年级</div>
+                                <div>孙*</div>
+                                <div>专业人像</div>
+                                <div> 11000</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="sy-btn" onclick="mantis.requestChat()">高薪咨询</a>
+    </div>
+    <!--月薪过万开始-->
+    <div class="bg">
+    </div>
+    <div class="formbg">
+        <form class="form1">
+            <input placeholder="姓名">
+            <input placeholder="电话">
+            <a class="form-btn">预约免费试听课程</a>
+        </form>
+        <a class="bg-btn-1"  onclick="mantis.requestChat()"></a>
+    </div>
+
+    <!--求职开始-->
+    <div class="qz container_1080">
+        <div class="icon-title bg-title6"></div>
+        <div id="certify">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/sy1.png" /></div>
+                    <div class="swiper-slide"><img src="images/sy2.png" /></div>
+                    <div class="swiper-slide"><img src="images/sy3.png" /></div>
+                    <div class="swiper-slide"><img src="images/sy4.png" /></div>
+                    <div class="swiper-slide"><img src="images/sy5.png" /></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+        <a class="sy-btn" onclick="mantis.requestChat()">查看更多作品 >></a>
+    </div>
+
+    <!--求职开始-->
+    <div class="bottom">
+        <form class="bottom-form">
+            <input placeholder="姓名:">
+            <input placeholder="电话:">
+            <a class="bottom-form-btn">提交</a>
+        </form>
+        <a class="bottom-btn-1"  onclick="mantis.requestChat()"></a>
+        <a class="bottom-btn-2"  onclick="mantis.requestChat()"></a>
+    </div>
+
+    <div class="footer">
+        Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+        备案号:粤ICP备09069122号-2
+    </div>
+
+    <!--右侧悬浮开始-->
+    <div class="right-suspension">
+        <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/10.gif" width="40"></a>
+        <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/11.gif" width="40"></a>
+        <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/12.gif" width="40"></a>
+        <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/13.gif" width="40"></a>
+        <a class="rightserve"  id="backTop"><img src="http://m.gdzp.org/mobile/images/design/14.gif" width="40"></a>
+        <a class="rightserve2" onclick="hideright()"><img src="http://m.gdzp.org/mobile/images/design/15.gif" width="40"></a>
+    </div>
+
+    <!--右侧悬浮结束-->
+<script>
+    function autoScroll(obj){
+        $(obj).find("ul").animate({
+            marginTop : "-0.8533333333rem"
+        },500,function(){
+            $(this).css({marginTop : "0px"}).find("li:first").appendTo(this);
+        })
+    }
+    $(function () {
+        setInterval('autoScroll(".maquee")',3000);
+
+        certifySwiper = new Swiper('#certify .swiper-container', {
+            watchSlidesProgress: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            loop: true,
+            loopedSlides: 5,
+            autoplay: 3000,
+            prevButton: '#certify .swiper-button-prev',
+            nextButton: '#certify .swiper-button-next',
+            pagination: '#certify .swiper-pagination',
+            //paginationClickable :true,
+            onProgress: function(swiper, progress) {
+                for (i = 0; i < swiper.slides.length; i++) {
+                    var slide = swiper.slides.eq(i);
+                    var slideProgress = swiper.slides[i].progress;
+                    modify = 1;
+                    if (Math.abs(slideProgress) > 1) {
+                        modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+                    }
+                    translate = slideProgress * modify * 2 + 'rem';
+                    scale = 1 - Math.abs(slideProgress) / 5;
+                    zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                    slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                    slide.css('zIndex', zIndex);
+                    slide.css('opacity', 1);
+                    if (Math.abs(slideProgress) > 3) {
+                        slide.css('opacity', 0);
+                    }
+                }
+            },
+            onSetTransition: function(swiper, transition) {
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    var slide = swiper.slides.eq(i)
+                    slide.transition(transition);
+                }
+
+            },
+            //处理分页器bug
+            onSlideChangeStart: function(swiper) {
+                if (swiper.activeIndex == 4) {
+                    swiper.bullets.eq(9).addClass('swiper-pagination-bullet-active');
+                    console.log(swiper.bullets.length);
+                }
+            }
+        });
+
+    })
+</script>
+
+</div>
+</body>
+</html>
