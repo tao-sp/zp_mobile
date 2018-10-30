@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>软装设计</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/rzsj.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+    <script src="js/rzsj.js"></script>
+
+
+</head>
+<body class="font_yahei bodybg">
+<header class="header">
+    <img src="http://m.gdzp.org/html/design/interiordesign/images/header_tit.jpg?v=1">
+</header>
+<!--banner开始-->
+<div class="sjfx-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner1.png"></div>
+            <div class="swiper-slide" onclick="mantis.requestChat()" ><img src="images/banner2.png"></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.sjfx-banner .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            loop:true,
+        })
+    </script>
+</div>
+<!--banner开始-->
+
+<!--适合学开始-->
+<div class="shx">
+    <div class="shx-title">
+        <div class="title-content">
+            软装设计<b>适合哪些人学</b>？<br>
+            <span>Who does soft clothing design suit?</span>
+        </div>
+    </div>
+    <div class="list"></div>
+    <a class="zx-btn" onclick="mantis.requestChat()" >咨询更多</a>
+</div>
+<!--适合学结束-->
+
+<!--为什么开始-->
+<div class="wsm">
+    <div class="shx-title">
+        <div class="title-content">
+            学软装设计<b>为什么</b>选择中鹏？<br>
+            <span>Why do we choose zhongPeng?</span>
+        </div>
+    </div>
+    <ul class="wsm-list clearfix">
+        <li>
+            <i class="icon-wsm bg-wsm1"></i>
+            <span>名师教学</span>
+            顶级设计师手把手教你<br>
+            制作软装方案让你成为<br>
+            一名高起点的设计师
+        </li>
+        <li>
+            <i class="icon-wsm bg-wsm2"></i>
+            <span>推荐就业</span>
+            合作企业，100%<b>就业推荐</b><br>
+            帮你找到好工作<br>
+            学员就业无压力<br>
+        </li>
+        <li>
+            <i class="icon-wsm bg-wsm3"></i>
+            <span>企业实训</span>
+            行业顶级合作机构<br>
+            实际项目操作实训
+        </li>
+        <li>
+            <i class="icon-wsm bg-wsm4"></i>
+            <span>双项证书颁发</span>
+            颁发培训结业证书<br>
+            颁发软装行业协会证书
+        </li>
+        <li>
+            <i class="icon-wsm bg-wsm5"></i>
+            <span>七大校区</span>
+            中鹏深圳七大校区，福田、<br>
+            南山、宝安、沙井、龙岗、<br>
+            龙华、坪山等，家门口学习
+        </li>
+
+        <li>
+            <i class="icon-wsm bg-wsm1"></i>
+            <span>0元入学</span>
+            中鹏帮您解决入学费用问题<br>
+            学完再付款<br>
+            无需担心学费问题
+        </li>
+
+        <li>
+            <i class="icon-wsm bg-wsm1"></i>
+            <span>免费试听</span>
+            免费试听，满意之后再报名<br>
+            且享<b>终身免费重修</b><br>
+        </li>
+
+        <li>
+            <i class="icon-wsm bg-wsm1"></i>
+            <span>结业获工作经验两年</span>
+            BJD出具软装工作<br>
+            履历证明
+        </li>
+
+    </ul>
+    <a class="zx-btn color-black" onclick="mantis.requestChat()"> 申请免费试听</a>
+</div>
+
+<!--为什么结束-->
+
+<!--表单开始-->
+<form class="form1">
+    <input class="form-input" placeholder="输入您的姓名">
+    <input class="form-input" placeholder="输入您的电话号码">
+    <a class="zx-btn"><b>立即获取费用</b></a>
+</form>
+<!--表单开始-->
+
+<!--企业实训开始-->
+<div class="qysx">
+    <ul class="qysx-list clearfix">
+        <li>
+            <img src="images/rz1.png">
+            软装设计概论
+        </li>
+        <li>
+           <img src="images/rz2.png">
+            软装色彩
+        </li>
+        <li>
+            <img src="images/rz3.png">
+            软装风格样式
+        </li>
+        <li>
+            <img src="images/rz4.png">
+            软装元素精讲
+        </li>
+        <li>
+            <img src="images/rz5.png">
+            软装搭配方式方法
+        </li>
+        <li>
+            <img src="images/rz6.png">
+            软装调研
+        </li>
+        <li>
+            <img src="images/rz7.png">
+            案例剖析
+        </li>
+        <li>
+            <img src="images/rz8.png">
+            软装的工作流程
+        </li>
+        <li>
+            <img src="images/rz9.png">
+            软装礼仪+品牌
+        </li>
+        <li>
+            <img src="images/rz10.png">
+            施工图识图
+        </li>
+        <li>
+            <img src="images/rz11.png">
+            软装预算
+        </li>
+        <li>
+            <img src="images/rz12.png">
+            软装实战
+        </li>
+    </ul>
+    <a class="zx-btn" onclick="mantis.requestChat()">咨询课程明细</a>
+</div>
+<!--企业实训结束-->
+
+<!--教师团队开始-->
+<div class="jstd">
+    <ul class="js-list clearfix">
+        <li>
+            <i class="icon-js bg-js1"></i>
+            <div class="title">
+                <b>丁潇</b>
+                中鹏软装设计高级讲师
+            </div>
+            <div class="y-line"></div>
+            <div class="info">
+                毕业于西安美术学院建筑环境艺术，从事软装设计工作多年，熟悉软装流程，实战经验丰富。教学风格活泼生动，以实际工作为出发点，  通过理论学习结合实践操作的方式，使学员在掌握专业理论知识的同时又深入学习技能。
+            </div>
+        </li>
+        <li>
+            <i class="icon-js bg-js2"></i>
+            <div class="title">
+                <b>何世畦</b>
+                室内设计高级讲师
+            </div>
+            <div class="b-line"></div>
+            <div class="info">
+                毕业于广东海洋大学，研读清华美院。曾担任广州疯狂手绘室内专业主讲老师、河南绘聚中国手绘训练营室内专业主讲老师、湛江大鹏鸟装饰设计有限公司任设计师、 深圳市名雕丹迪设计师事务所任手绘设计师、瑞克装饰设计工程（深圳）有限公司任设计师。
+            </div>
+        </li>
+        <li>
+            <i class="icon-js bg-js3"></i>
+            <div class="title">
+                <b>林碧霞</b>
+                软装设计高级讲师
+            </div>
+            <div class="y-line"></div>
+            <div class="info">
+                四年教学经验，熟悉建筑、美术理论课程，擅长油画、工艺制作，有较好的美术修养。原创作品获过省级比赛奖项，能够使学员更好的提高软装的课程需要的美术修养。陶艺作品《城市游离》入选广东省教育厅主办的广东省高校师生作品学院展，于广州美术学院美术馆展览。砖雕作品《浮峄岛》晋级深圳首届天工杯原创作品大赛，并该作品在会展中心7号馆展出。
+            </div>
+        </li>
+        <li>
+            <i class="icon-js bg-js4"></i>
+            <div class="title">
+                <b>陈伟骏</b>
+                室内设计资深讲师
+            </div>
+            <div class="b-line"></div>
+            <div class="info">
+                长期以来从事建筑装饰设计公司设计工作、施工现场的管理与技术负责，以及软件教学、理论教学等工作。严于律己、设计理念新并追求完美，有极强的责任心。
+            </div>
+        </li>
+        <li>
+            <i class="icon-js bg-js5"></i>
+            <div class="title">
+                <b>高熇</b>
+                室内设计教研组长
+            </div>
+            <div class="y-line"></div>
+            <div class="info">
+                毕业于江西理工大学建筑工程系（本科），后进修于清华大学美术学院环境艺术系。全部授课案例均采用一线品牌设计公司真实案例，凭借多年工程实践经验基础，深入浅出讲授专业设计课程，授课内容理念先进，引领真实案例模拟设计，使学员短期内得到大幅度设计水平的提升。
+            </div>
+        </li>
+        <li>
+            <i class="icon-js bg-js6"></i>
+            <div class="title">
+                <b>史建南</b>
+                中鹏教育室内设计专业教研组顾问
+            </div>
+            <div class="b-line"></div>
+            <div class="info">
+                风水专家。毕业于北京师范大学，从事室内设计工作二十年。深圳中鹏设计学院教授、全球50名国际著名室内设计师。被“创意中国”评为中国十大样板房顶尖室内设计师。国家软装设计师行业标准开发组组长；人力资源社社会保障部人才鉴定中心高级考评员。际商业美术A级设计师；中国高级室内设计师；国易经研究会专家
+            </div>
+        </li>
+    </ul>
+    <a class="zx-btn" onclick="mantis.requestChat()">与名师交流</a>
+
+</div>
+
+<!--教师团队开始-->
+
+<!--设计师开始-->
+<div class="sjs">
+     <div class="sjs-title">
+        <b>· 合作企业—深圳市北极点建筑工程设计公司 · </b>
+         顶级设计师手把手教学
+     </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+               <div class="info-img">
+                   <img src="images/sjs1.png">
+                   <div class="name">李海鸿</div>
+               </div>
+                <div class="info">
+                    BJD主创设计师&品牌运营总监<br>
+                    深圳室软装行业协会会员<br>
+                    中国精英设计师国际俱乐部优秀会员<br>
+                    <b>设计理念</b>
+                    用心去营造个性的空间
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info-img">
+                    <img src="images/sjs1.png">
+                    <div class="name">徐宗华</div>
+                </div>
+                <div class="info">
+                    深圳市室内设计师协会副秘书长 高级室内设计师 高级工程师<br>
+                    世界酒店总经理联盟理事  国家职业技能鉴定中心考评员<br>
+                    <b>设计理念：</b>设计是通过创造力和想象力，让艺术家、建筑师、手工技人都携起手来建造一个殿堂,让殿堂的尖顶高高的耸入布满星空的云宵！
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info-img">
+                    <img src="images/sjs3.png">
+                    <div class="name">张巧</div>
+                </div>
+                <div class="info">
+                    “中南标2016年装饰标准设计创新大赛”银奖
+                    “2017年度艾特奖”大奖<br>
+                    中国精英设计师国际俱乐部优秀会员
+                    深圳软装行业协会副秘书长<br>
+                    <b>设计理念</b>
+                    设计是一门艺术，既要满足客户对美的追求，也要以客户需求为首要目的，坚持美感与功能并存。
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info-img">
+                    <img src="images/sjs4.png">
+                    <div class="name">郑单</div>
+                </div>
+                <div class="info">
+                    BJD主笔设计师<br>
+                    深圳室软装行业协会会员<br>
+                    中国精英设计师国际俱乐部优秀会员<br>
+                    <b>设计理念</b>
+                    设计本该为生活带来光明
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="info-img">
+                    <img src="images/sjs3.png">
+                    <div class="name">刘萍</div>
+                </div>
+                <div class="info">
+                    BJD主笔设计师
+                    深圳室软装行业协会会员<br>
+                    中国精英设计师国际俱乐部优秀会员 <br>
+                    <b>设计理念</b>
+                    生活的本身就是设计的起源地，而设计，归根结底就是对生活的发言
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="info-img">
+                    <img src="images/sjs5.png">
+                    <div class="name">冯璇</div>
+                </div>
+                <div class="info">
+                    BJD主笔设计师
+                    深圳室软装行业协会会员<br>
+                    中国精英设计师国际俱乐部优秀会员<br>
+                    <b>设计理念</b>
+                    家承载了一个人身体和精神的情感寄托。主张设计要追求真我，回归本真。力求功能与美学的和谐平衡，打造出能够放空自我的唯美空间。
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <script>
+        var mySwipersjs = new Swiper('.sjs .swiper-container', {
+            autoplay: 5000,//可选选项，自动滑动
+            slidesPerView : 3,
+            loop:true,
+            prevButton:'.sjs .swiper-button-prev',
+            nextButton:'.sjs .swiper-button-next',
+            onProgress: function(swiper, progress) {
+                showInfo()
+            },
+            onSetTransition: function(swiper, transition) {
+                showInfo()
+            },
+            //处理分页器bug
+            onSlideChangeStart: function(swiper) {
+                showInfo()
+            }
+        })
+        function showInfo() {
+            $(".swiper-slide").children(".info-img").removeClass("on");
+            $(".swiper-slide").children(".info").hide();
+            $(".swiper-slide-next").children(".info-img").addClass("on");
+            $(".swiper-slide-next").children(".info").show();
+        }
+    </script>
+
+    <div class="by"></div>
+    <a class="msjl-btn">与名师交流</a>
+</div>
+<!--设计师结束-->
+
+<!--表单开始-->
+<form class="form2">
+    <input class="form-input" placeholder="输入您的姓名">
+    <input class="form-input" placeholder="输入您的电话号码">
+    <a class="zx-btn"><b>立即申请试听</b></a>
+</form>
+
+<!--表单结束-->
+
+<!--教学环境开始-->
+
+<div class="hj">
+    <a class="hj-btn1" onclick="mantis.requestChat()">查看更多  >></a>
+    <a class="hj-btn2" onclick="mantis.requestChat()">预约实地体验</a>
+</div>
+<!--教学环境开始-->
+
+
+<!--表单开始-->
+<form class="form3">
+    <input class="form-input" placeholder="输入您的姓名">
+    <input class="form-input" placeholder="输入您的电话号码">
+    <a class="zx-btn"><b>立即申请免费试听</b></a>
+</form>
+
+<!--表单结束-->
+
+<div class="footer">
+    Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+    备案号:粤ICP备09069122号-2
+</div>
+
+<!--右侧悬浮开始-->
+<div class="right-suspension">
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/10.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/11.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/12.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/13.gif" width="40"></a>
+    <a class="rightserve"  id="backTop"><img src="http://m.gdzp.org/mobile/images/design/14.gif" width="40"></a>
+    <a class="rightserve2" onclick="hideright()"><img src="http://m.gdzp.org/mobile/images/design/15.gif" width="40"></a>
+</div>
+
+<!--右侧悬浮结束-->
+
+
+</body>
+</html>

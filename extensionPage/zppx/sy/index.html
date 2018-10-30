@@ -117,7 +117,7 @@
             </div>
         </li>
     </ul>
-    <a class="sy-btn">详情咨询</a>
+    <a class="sy-btn"  onclick="mantis.requestChat()">详情咨询</a>
 </div>
 
 <!--就业方向开始-->
@@ -309,7 +309,7 @@
 <div class="sykc">
     <div class="container_1080">
         <ul class="sykc-left">
-            <li class="clearfix">
+            <li   onclick="mantis.requestChat()" class="clearfix">
                 <div class="title">
                     一年级<br>课程
                 </div>
@@ -320,24 +320,23 @@
                 </div>
 
             </li>
-            <li class="clearfix on">
+            <li  onclick="mantis.requestChat()" class="clearfix on">
                 <div class="title">
-                    一年级<br>课程
+                    二年级<br>课程
                 </div>
                 <div class="info">
                     <span> 稳步提升年级课程</span>
-                    就业方向：助理摄影师
+                    就业方向：摄影师
                     <a>学习内容    ></a>
                 </div>
 
             </li>
-            <li class="clearfix">
+            <li onclick="mantis.requestChat()" class="clearfix">
                 <div class="title">
-                    一年级<br>课程
+                    特色<br>专题版
                 </div>
                 <div class="info">
-                    <span> 稳步提升年级课程</span>
-                    就业方向：助理摄影师
+                    <span> 特色专题班课程</span>
                     <a>学习内容    ></a>
                 </div>
 
@@ -476,8 +475,8 @@
                 </div>
                 <div class="line-color"></div>
                 广告设计技师，国家摄影师职称考试高级考评员，深圳市民俗摄影协会副秘书长、企业家摄影协会（深圳）会员、深圳市摄影学会会员，深圳大学艺术研究会会员，深圳包装行业协会委员，深圳市南国书画家协会理事。从事摄影及教学20年。毕业于中国地质大学，本科学历。熟悉各种产品广告、服装人像、活动场景摄影和摄影后期处理，尤善沙龙摄影。
-                <b>主要奖项：</b><br>
-                2017年《竞赛》入选首届深圳国际摄影大展；<br>
+                <br><b>主要奖项：</b><br>
+                2017年《竞赛》入选首届深圳国际摄影大展；
                 2016年《运动的色彩》获鹏城金秋摄影等等...
             </div>
         </li>
@@ -708,10 +707,8 @@
                 }).find("li:first").appendTo(this);
             })
     }
-    (function() {
-       // var interv =  setInterval('autoScroll(".maquee")', 3000);
-    })();
     $(function () {
+        var interv =  setInterval('autoScroll(".maquee")', 3000);
         $(".sykc-left li").mouseover(function () {
             $(this).addClass("on").siblings().removeClass("on");
             var index  = $(this).index();
@@ -721,5 +718,9 @@
     })
 
 </script>
+
+<!--螳螂科技探头代码2018-06-20-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b285f49b609f7456962ed2a"></script>
+<!--螳螂科技探头代码2018-06-20-->
 </body>
 </html>
