@@ -850,3 +850,43 @@ background: #130e36;
   margin-right: px2rem(20);
   margin-top: px2rem(30);
 }
+.s1{
+  display: block;
+  width:px2rem(749);
+  margin: auto;
+}
+.yhq{
+  margin-top: px2rem(43);
+  margin-left: px2rem(38);
+}
+.yhq li{
+  margin-right: px2rem(20);
+  width:px2rem(210);
+  float: left;
+}
+.yhq li:last-child{
+  margin-right: 0;
+}
+.icon-s11{
+  display: block;
+  margin: auto;
+  width:px2rem(210);
+  height:px2rem(130);
+  background-image: url(../images/s2.png);
+  background-size: px2rem(670) px2rem(130);
+}
+.bg-s11-1{
+  background-position: 0 0 ;
+}
+.bg-s11-2{
+  background-position: center 0 ;
+}
+.bg-s11-3{
+  background-position: right 0 ;
+}
+.s3{
+  width:px2rem(729);
+  display: block;
+  margin-top: px2rem(28);
+  margin-left: px2rem(21);
+}

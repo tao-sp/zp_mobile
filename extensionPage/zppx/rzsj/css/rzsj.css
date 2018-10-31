@@ -381,6 +381,7 @@ li{
     text-align: center;
     color: #545454;
     padding: 20px 0;
+    margin-bottom: 70px;
 }
 /*底部结束*/
 .font-rzsj{
@@ -536,9 +537,9 @@ li{
     display: block;
 }
 .input-group{
-    margin-top: 50px;
     width:1200px;
     height: 58px;
+    margin: 12px auto 0;
     position: relative;
 }
 .input-group input{
@@ -850,7 +851,7 @@ li{
 .form2{
     position: relative;
     width:100%;
-    height:1056px;
+    height:907px;
     background: url("../images/formbg2.png") center center /cover no-repeat;
 }
 .form1-title{
@@ -898,7 +899,7 @@ li{
 }
 .form2-btn{
     position: absolute;
-    bottom:210px;
+    bottom:60px;
     left:0;
     right:0;
     margin: auto;
@@ -916,7 +917,7 @@ li{
     box-shadow: 7px 7px 0px #7841da;
 }
 .form2-btn:active{
-    bottom:207px;
+    bottom:57px;
     left:3px;
     -moz-box-shadow: 4px 4px 0px #7841da;
     -webkit-box-shadow: 4px 4px 0px #7841da;
@@ -942,4 +943,38 @@ li{
 }
 .btns a:active{
     background: rgba(0,0,0,0.1);
+}
+.float-form{
+    z-index: 9999;
+    width:100%;
+    height:70px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background:#8550d7 url("../images/floatform.png") center center /cover no-repeat;
+}
+.float-form .form-btn {
+    font-weight: bold;
+    color: #7841da;
+    -moz-box-shadow: 7px 7px 0px #ffffff;
+    -webkit-box-shadow: 7px 7px 0px #ffffff;
+    box-shadow: 7px 7px 0px #ffffff;
+}
+.float-form-btn{
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    margin: auto;
+    background: #fdc101;
+    font-weight: bold;
+    color: #7841da;
+}
+.float-form-btn:active{
+    background: #efb601;
 }

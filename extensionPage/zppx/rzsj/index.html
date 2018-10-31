@@ -125,20 +125,21 @@
 
 <!--表单开始-->
 <div class="form">
-    <form class="container_1200">
+    <form class="container_1200" id="form_1">
         <div class="form-title">
             学软装设计要多少钱？
             <span>How much does it cost to learn soft clothes?</span>
         </div>
         <div class="input-group">
-            <input placeholder=" 输入您的姓名">
-            <input class="input1" placeholder=" 输入您的电话号码">
-            <a class="form-btn">立即获取费用</a>
+            <input placeholder=" 输入您的姓名" name="name">
+            <input class="input1" placeholder=" 输入您的电话号码" name="phone">
+            <input type="hidden" name="web" value="软装设计PC-申请免费试听">
+            <input type="hidden" name="code" value="SMS_138073824">
+            <input type="hidden" name="param[major]" value="软装设计">
+            <a class="form-btn" onclick="customerInput('form_1')">立即获取费用</a>
         </div>
     </form>
-
 </div>
-
 <!--表单结束-->
 
 <!--企业实训开始-->
@@ -462,15 +463,18 @@
 <!--教师结束-->
 <!--表单开始-->
 <div class="form1">
-    <form class="container_1200">
+    <form class="container_1200" id="form_2">
         <div class="form1-title">
             免费试听真实课程—靠不靠谱由你来判断
             <span>Free to listen to real courses - you can judge if you are not reliable</span>
         </div>
         <div class="input-group">
-            <input placeholder=" 输入您的姓名">
-            <input class="input1" placeholder=" 输入您的电话号码">
-            <a class="form-btn">立即申请试听</a>
+            <input placeholder=" 输入您的姓名" name="name">
+            <input class="input1" placeholder=" 输入您的电话号码" name="phone">
+            <input type="hidden" name="web" value="软装设计PC-申请免费试听">
+            <input type="hidden" name="code" value="SMS_138073824">
+            <input type="hidden" name="param[major]" value="软装设计">
+            <a class="form-btn" onclick="customerInput('form_2')">立即申请试听</a>
         </div>
     </form>
     <div class="btns container_1200 clearfix">
@@ -480,19 +484,28 @@
 </div>
 <!--表单开始-->
 
-<!--表单开始-->
+<!--环境开始-->
 <div class="form2">
     <a class="form2-btn" onclick="mantis.requestChat()">预约实地体验</a>
-    <form class="container_1200">
-        <div class="input-group">
-            <input placeholder=" 输入您的姓名">
-            <input class="input1" placeholder=" 输入您的电话号码">
-            <a class="form-btn">立即申请免费试听</a>
-        </div>
-    </form>
 </div>
-<!--表单开始-->
+<!--环境结束-->
 
+<!--悬浮表单-->
+
+<!--悬浮表单-->
+<form class="float-form container_1200" id="form_3">
+    <div class="input-group">
+        <input placeholder=" 输入您的姓名" name="name">
+        <input class="input1" placeholder=" 输入您的电话号码" name="phone">
+        <input type="hidden" name="web" value="软装设计PC-申请免费试听">
+        <input type="hidden" name="code" value="SMS_138073824">
+        <input type="hidden" name="param[major]" value="软装设计">
+        <a class="float-form-btn" onclick="customerInput('form_3')">立即申请免费试听</a>
+    </div>
+</form>
+<!--悬浮表单-->
+
+<!--悬浮表单-->
 <!--侧边栏开始-->
 <div class="float-ad" action="{{ path('customer_page') }}" id="float-ad">
     <div class="float-interaction">
@@ -557,5 +570,12 @@
     备案号:<a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备09069122号-2</a><br>
 </div>
 <!--底部开始-->
+
+<!--螳螂科技探头代码2018-06-20-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b285f02b609f7456962ed29"></script>
+<!--螳螂科技探头代码2018-06-20-->
+
+<script src="../common/forminput.js"></script>
+
 </body>
 </html>
