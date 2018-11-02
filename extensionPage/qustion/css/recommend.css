@@ -55,6 +55,9 @@ a {
   border: 1px solid #fb553b; }
 
 .input-group input:checked + label {
+  font-size: 0.5546666667rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
   background: #fb553b;
   color: #ffffff; }
 
