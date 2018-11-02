@@ -171,10 +171,11 @@
       var res = $("input[name='xs']:checked").val();
       if (res==""){
           alert("请完成测评！")
+      }else{
+          $("#res").text(res);
+          $(".qustion-content").hide();
+          $(".result-content").show();
       }
-      $("#res").text(res);
-      $(".qustion-content").hide();
-      $(".result-content").show();
   }
 </script>
 
