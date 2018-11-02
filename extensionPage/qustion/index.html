@@ -169,7 +169,7 @@
 <script>
   function submitForm() {
       var res = $("input[name='xs']:checked").val();
-      if (res==""){
+      if (res==null||res==" "||res=="undefined"){
           alert("请完成测评！")
       }else{
           $("#res").text(res);
