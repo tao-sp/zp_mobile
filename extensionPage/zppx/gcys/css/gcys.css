@@ -1,0 +1,769 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td,figure {
+    margin: 0;
+    padding: 0;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    blr:expression(this.onFocus=this.blur());
+}
+
+a:focus {
+    outline: none !important;
+}
+li{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    content: "";
++ zoom: 1;
+}
+.font_yahei{
+    font-family: "Microsoft YaHei";
+}
+
+
+/*悬浮客服咨询开始*/
+.float-ad {
+    position: fixed;
+    right: 0;
+    bottom: 55px;
+    z-index: 99999;
+    width: 105px;
+}
+.float-ad .float-interaction {
+    width: 64px;
+    margin: auto;
+}
+.float-ad .float-interaction .interac-item {
+    position: relative;
+    z-index: 99999;
+    margin-top: 4px;
+}
+.float-ad .float-interaction .interac-item .link {
+    display: block;
+    /* background-color: #636363;*/
+    padding-top: 4px;
+    width: 64px;
+    height: 60px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.float-ad .float-interaction .interac-item .link .icon,
+.float-ad .float-interaction .interac-item .link span {
+    display: block;
+    width: 100%;
+    height: 42px;
+}
+.float-ad .float-interaction .interac-item .link .icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.float-ad .float-interaction .interac-item .link .icon-0 {
+    background-image: url('http://www.gdzp.org/html/pmsj/statics/images/cst.png');
+}
+.float-ad .float-interaction .interac-item .link .icon-1 {
+    background-image: url('http://www.gdzp.org/html/common/images/mfsx.png');
+}
+.float-ad .float-interaction .interac-item .link .icon-2 {
+    background-image: url('http://www.gdzp.org/html/pmsj/statics/images/new/float-2.png');
+}
+.float-ad .float-interaction .interac-item .link .icon-22 {
+    background-image: url('http://www.gdzp.org/html/pmsj/statics/images/new/sjys-float-22.png');
+}
+.float-ad .float-interaction .interac-item .link .icon-3 {
+    background-image: url('http://www.gdzp.org/html/pmsj/statics/images/new/float-3.png');
+}
+.float-ad .float-interaction .interac-item .link .icon-4 {
+    background-image: url('http://www.gdzp.org/html/pmsj/statics/images/new/float-4.png');
+}
+.float-ad .float-interaction .interac-item-bg0 a{
+    background: #d876ce;
+}
+.float-ad .float-interaction .interac-item-bg1 a{
+    background: #feab48;
+}
+.float-ad .float-interaction .interac-item-bg2 a{
+    background: #42c8ff;
+}
+.float-ad .float-interaction .interac-item-bg3 a{
+    background: #7a95e4;
+}
+.float-ad .float-interaction .interac-item-bg4 a{
+    background: #4ab14a;
+}
+.float-ad .float-interaction .interac-item-bg5 a{
+    background: #fc7b7a;
+}
+.float-ad .float-interaction .interac-item .link span {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+}
+.float-ad .float-interaction .interac-item .link.on {
+    background-color: #ed9336;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper {
+    position: absolute;
+    right: 70px;
+    top: -20px;
+    z-index: auto;
+    width: 213px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper .float-frm {
+    padding: 70px 24px 0 18px;
+    width: 161px;
+    height: 284px;
+    background: url('http://www.gdzp.org/html/common/images/sxyzbg.png') no-repeat center;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper .float-frm .form-group {
+    position: relative;
+    z-index: auto;
+    margin-top: 11px;
+    width: 160px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper .float-frm .form-group select {
+    width: 162px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #fea026;
+    color: #666666;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper .float-frm .form-group input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #fea026;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 40px;
+    text-align: left;
+    color: #666666;
+    text-indent: 6px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper .float-frm .form-group span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: auto;
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 42px;
+    text-align: left;
+    color: #bfbfbf;
+    text-indent: 7px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper .float-frm .submit {
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    margin: 17px auto 0;
+    display: block;
+    width: 106px;
+    height: 30px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #ed9336;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.float-ad .float-interaction .interac-item .float-frm-wrapper1 {
+    position: absolute;
+    right: 82px;
+    top: 42px;
+    z-index: auto;
+    width: 213px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper1 .float-frm {
+    padding: 105px 24px 0 18px;
+    width: 161px;
+    height: 234px;
+    background: url('http://www.gdzp.org/html/common/images/zxjbg.png') no-repeat center;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper1 .float-frm .form-group {
+    position: relative;
+    z-index: auto;
+    margin-top: 11px;
+    width: 160px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper1 .float-frm .form-group select {
+    width: 162px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #fea026;
+    color: #666666;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper1 .float-frm .form-group input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #fea026;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 40px;
+    text-align: left;
+    color: #666666;
+    text-indent: 6px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper1 .float-frm .form-group span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: auto;
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 42px;
+    text-align: left;
+    color: #bfbfbf;
+    text-indent: 7px;
+}
+.float-ad .float-interaction .interac-item .float-frm-wrapper1 .float-frm .submit {
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    margin: 17px auto 0;
+    display: block;
+    width: 106px;
+    height: 30px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #ed9336;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.float-ad .float-interaction .interac-item .float-weixin-wrapper {
+    position: absolute;
+    right: 70px;
+    top: -30px;
+    z-index: auto;
+    width: 213px;
+    min-height: 230px;
+    background: url('http://www.gdzp.org/html/pmsj/statics/images/new/gw-bg-float.png') no-repeat left top;
+}
+.float-ad .float-interaction .interac-item .float-weixin-wrapper .weixin {
+    display: block;
+    margin-left: 21px;
+    padding-top: 67px;
+    width: 163px;
+}
+.float-ad .float-interaction .interac-item .float-qq-wrapper {
+    position: absolute;
+    right: 70px;
+    top: -30px;
+    z-index: auto;
+    width: 213px;
+    min-height: 230px;
+    background: url('http://www.gdzp.org/html/pmsj/statics/images/new/gw-bg-float3.png') no-repeat left top;
+}
+.float-ad .float-interaction .interac-item .float-qq-wrapper .block-nbsp .qq {
+    color: #ffffff;
+    background: #ed9336;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.block-nbsp{
+    padding-top: 119px;
+    width:195px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height:28px;
+}
+/*悬浮客服咨询开始*/
+
+/*头部开始*/
+.shortcut{
+    background: #705ec9;
+    height:30px;
+}
+.shortcut_content{
+    height:30px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.shortcut_content a{
+    font-size: 12px;
+    padding: 0 10px;
+    cursor:  pointer;
+    color: #fff;
+}
+.shortcut_content img
+{
+    position: relative;
+    top: 4px;
+    padding-right: 5px;
+}
+.shortcut_content_left{
+    float: left;
+}
+.shortcut_content_right{
+    float: right;
+}
+
+.container_1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo-sjys{
+    height: 77px;
+    background: #222222;
+    padding-top: 21px;
+}
+.logo-sjys-left{
+    float: left;
+    width:500px;
+}
+.logo-sjys-center{
+    float: left;
+}
+.logo-sjys-right{
+    float: right;
+}
+.logo-sjys-right-sm{
+    font-size: 14px;
+    color: #666666;
+}
+.logo-sjys-right-lg{
+    font-size:22px;
+    color: #ffffff;
+}
+/*头部结束*/
+
+/*底部开始*/
+.footer{
+    background: #313131;
+    font-size: 14px;
+    text-align: center;
+    color: #545454;
+    padding: 20px 0;
+}
+/*底部结束*/
+.banner{
+    display: block;
+    width:100%;
+}
+.nxr{
+    margin-top: 86px;
+}
+.nxr-title{
+    width:718px;
+    height:113px;
+    background: url("../images/title1.png") no-repeat;
+}
+.nxr-list{
+    margin: 60px auto;
+}
+.nxr-list li{
+    position: relative;
+    width:224px;
+    height:224px;
+    background: #e9e9e9;
+    float: left;
+    margin-right: 20px;
+}
+.nxr-list li:last-child{
+    margin-right: 0;
+}
+.nxr-list li .title{
+    width:183px;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #282828;
+    position: relative;
+    padding-bottom: 14px;
+    padding-top: 30px;
+}
+.nxr-list li .title:after{
+    position: absolute;
+    bottom:0;
+    left:0;
+    content: " ";
+    display: block;
+    width:90px;
+    height:4px;
+    background: #fd4a10;
+}
+.nxr-list li:nth-child(2n) .title:after{
+    background: #3d45ca;
+}
+
+.nxr-list li .info{
+    width:183px;
+    text-align: justify;
+    margin: auto;
+    font-size: 18px;
+    color: #282828;
+    padding-top: 12px;
+}
+
+.nxr-list li .btn{
+    width:102px;
+    height:36px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    right:20px;
+    bottom:-18px;
+    background: #fd4a10;
+}
+.nxr-list li:nth-child(2n) .btn{
+    background: #3d45ca;
+}
+.fzfx{
+    margin-top: 90px;
+    width:100%;
+    height:1173px;
+    background: url("../images/fzfx.png") center center /cover no-repeat;
+}
+.fzfx-list{
+    margin-top: -360px;
+}
+.fzfx-list li{
+    width:550px;
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 70px;
+}
+.fzfx-list li:nth-child(2n){
+    margin-right: 0;
+}
+.fzfx-list li .title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #272727;
+}
+.fzfx-list li .title span{
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 52px;
+    margin-bottom: 20px;
+}
+.fzfx-list li .info{
+    font-size: 18px;
+    line-height:30px;
+    margin-bottom: 18px;
+}
+.b-btn{
+    width:300px;
+    line-height: 50px;
+    height:50px;
+    background: #3d45ca;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
+.y-btn{
+    width:300px;
+    line-height: 50px;
+    height:50px;
+    background: #fd4a10;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
+.xxms{
+    padding-top: 246px;
+    width:100%;
+    height:740px;
+    margin-top: -200px;
+    background: url("../images/formbg.png") center center /cover no-repeat;
+}
+.xxms-from{
+    position: relative;
+    width:830px;
+    margin-top: 170px;
+    margin-left: 418px;
+    height:50px;
+}
+.xxms1-from{
+    position: relative;
+    width:1200px;
+    margin:38px auto;
+    height:50px;
+}
+.xxms1-from input{
+    padding-left: 15px;
+    font-size: 18px;
+    width:300px;
+    height:50px;
+    border: none;
+    background: #e9e9e9;
+    position: absolute;
+    left:60px;
+    top:0;
+}
+.xxms-from input{
+    padding-left: 15px;
+    font-size: 18px;
+    width:235px;
+    height:50px;
+    border: none;
+    background: #ffffff;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.xxms-from  input.xxms-input{
+    left:265px;
+}
+.xxms1-from  input.xxms-input{
+    left:450px;
+}
+.xxms-btn{
+    position: absolute;
+    right:0;
+    top:0;
+    width: 300px;
+    line-height: 50px;
+    height: 50px;
+    background: #fd4a10;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
+.xxms1-from .xxms-btn{
+    right:60px;
+}
+.bg-bg6 {
+    background-position: -0 -0;
+}
+.bg-bg2 {
+    background-position: -0 -114px;
+}
+.bg-bg3 {
+    background-position: -0 -228px;
+}
+.bg-bg5 {
+    background-position: -386px -0;
+}
+.bg-bg1 {
+    background-position: -386px -114px;
+}
+.bg-bg4 {
+    background-position: -386px -228px;
+}
+.zyxx-list{
+    margin-top: -127px;
+}
+.zyxx-list li{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width:386px;
+    height:442px;
+    background: #e9e9e9;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #d5d5d5;
+}
+.zyxx-list li:nth-child(3n){
+    margin-right: 0;
+}
+.zyxx-list li .title{
+    line-height: 114px;
+    width: 386px; height: 114px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-image: url("../images/bg.png");
+}
+.zyxx-list li .info{
+    line-height: 32px;
+    width:336px;
+    text-align: justify;
+    color: #282828;
+    margin: 28px auto 0;
+}
+.zyxx-list li .zyxx-btn{
+    color: #3d45ca;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    bottom:22px;
+    left:0;
+    width:386px;
+}
+.zyxx-list li:hover .zyxx-btn{
+    color: #fd4a10;
+}
+.ty-title{
+    margin-top: 70px;
+    font-size: 36px;
+    color: #282828;
+    text-align: center;
+}
+.ty-title span{
+    margin-top: 5px;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+.title2{
+    width:1071px;
+    height:118px;
+    background: url("../images/title2.png") no-repeat;
+}
+.js-info{
+    margin: auto;
+    width:1060px;
+    height:310px;
+    border: 10px solid #d4d4d4;
+}
+.js-info img{
+    margin-top: -38px;
+    margin-left: 36px;
+    margin-right: 44px;
+    display: block;
+    width:222px;
+    height:306px;
+    float: left;
+}
+.js-info-right{
+    float: left;
+    width:690px;
+}
+.js-title-en{
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #efefef;
+}
+.js-title span{
+    margin-right: 12px;
+    display: inline-block;
+    width:120px;
+    height:50px;
+    color: #ffffff;
+    background: #3d45ca;
+    font-size: 25px;
+    font-weight: bold;
+    line-height:50px;
+    text-align: center;
+}
+.js-title{
+    margin-top: -24px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #282828;
+    margin-bottom: 24px;
+}
+.js-info .info{
+    font-size: 18px;
+    color: #282828;
+}
+.js .swiper-slide{
+    width:1200px;
+    padding-top: 50px;
+}
+.hzqy{
+    padding-top: 287px;
+    width:100%;
+    height:650px;
+    margin-top: 48px;
+    background: url("../images/hzqy.png") center center /cover no-repeat;
+}
+.hzqy-list li{
+    margin-bottom: 40px;
+    float: left;
+    width:285px;
+    margin-right: 20px;
+}
+.hzqy-list li:nth-child(4n){
+    margin-right: 0;
+}
+.hzqy-list li .title{
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+}
+.hzqy-btn{
+    line-height: 40px;
+    width:132px;
+    height:40px;
+    border: 1px solid #fd4a10;
+    color: #fd4a10;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    display: block;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.hzqy-list li:hover .hzqy-btn{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #ffffff;
+    background: #fd4a10;
+}
+.hz-btn{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    color: #3d45ca;
+}
+.form3{
+    width:1199px;
+    height:356px;
+    margin:60px auto 0;
+    background: url("../images/bottombg.png") no-repeat;
+}

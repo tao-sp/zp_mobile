@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>工程预算</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/gcys.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/rzsj.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<header class="header">
+    <img src="images/gcys-font.png">
+</header>
+<img src="images/banner.png" class="banner">
+<div class="title1"></div>
+
+<ul class="nxr-list clearfix">
+    <li>
+        <div class="title">造价职场新人</div>
+        <div class="info">没师傅带，自学没头绪，工资低又无法完成领导的任务</div>
+        <a class="btn" onclick="mantis.requestChat()">立即咨询</a>
+    </li>
+    <li>
+        <div class="title">想转行做造价</div>
+        <div class="info">想脱离工地，享受双休，那么造价师门槛最低，可行性最高的选择 </div>
+        <a class="btn" onclick="mantis.requestChat()">立即咨询</a>
+    </li>
+    <li>
+        <div class="title">系统学造价</div>
+        <div class="info">只会软件？只会手算？只会土建钢筋？都没关系，中鹏全面系统教你学会造价</div>
+        <a class="btn" onclick="mantis.requestChat()">立即咨询</a>
+    </li>
+    <li>
+        <div class="title">想重操旧业</div>
+        <div class="info">回归造价行业却又发现知识落伍，想重新充电学习造价</div>
+        <a class="btn" onclick="mantis.requestChat()">立即咨询</a>
+    </li>
+    <li>
+        <div class="title">在校学生</div>
+        <div class="info">学校缺乏项目实操经验，求职毫无竞争力，对前途一片渺茫</div>
+        <a class="btn" onclick="mantis.requestChat()">立即咨询</a>
+    </li>
+</ul>
+
+
+<!--教学模式开始-->
+<div class="jxms">
+    <ul class="fzfx-list clearfix">
+        <li>
+            <div class="title">
+                一人一机老师一对一辅导
+                <span>目标：让学员更快掌握造价</span>
+            </div>
+            <div class="info">
+                中鹏教育在培训中采取一人一机，老师先讲解，学员上机练习，对于实操过程中的问题，有不懂不理解的老师当场手把手指导。该教模式尽管增加了老师的工作量。但在以往经验中这是最快最有效让学员掌握造价实操的方法。中鹏以后的教学模式中也会坚持一对一的教学模式。
+            </div>
+            <a class="b-btn" onclick="mantis.requestChat()">了解更多</a>
+        </li>
+        <li>
+            <div class="title">
+                一人一机老师一对一辅导
+                <span>目标：让学员更快掌握造价</span>
+            </div>
+            <div class="info">
+                为了提高学员在学习中过程掌握造价工作中实操能力。教学采取真实岗位模拟教学。在第一阶段迅速弥补学员的理论知识。第二阶段每个学员都会模拟担任真实“造价员岗位”，在学习过程中，使用真实工作中的项目，图纸数据。进行教学练习。老师辅导至学员能独立完成整个项目的造价预算。
+            </div>
+            <a class="y-btn" onclick="mantis.requestChat()">了解更多</a>
+        </li>
+        <li>
+            <div class="title">
+                个性化定制教学方案
+                <span>目标：让每个学员学的更轻松。</span>
+            </div>
+            <div class="info">
+                我们为每一位学员量身定做个性化教学方案；变“被动接受式”教育为“自主点拨式”精准定位出学习需求所在。由专业学业规划师为学员量身定制个性化课程方案，专业学习管理师。各学科资深名师细致落实，悉心辅导，真正做到因材施教，迅速提高学员的实操能力。
+            </div>
+            <a class="y-btn" onclick="mantis.requestChat()">了解更多</a>
+        </li>
+        <li>
+            <div class="title">
+                层层考核不通过重修
+                <span>目标：让每个学员学的更轻松。</span>
+            </div>
+            <div class="info">
+                中鹏教育在教学中实现严格的考核制度，教学层层把关。对每个学习阶段进行考核，通过的进入下一阶段的学习，不能通过需要重修。毕业考核按照行业标准考核通过可以毕业 。不通过的在老师的辅导下重修，使每个在中鹏毕业的学员都能达到行业岗位的标准。
+            </div>
+            <a class="b-btn" onclick="mantis.requestChat()">了解更多</a>
+        </li>
+
+    </ul>
+
+</div>
+<!--教学模式结束-->
+
+<form class="formbg">
+    <input class="form-input" placeholder=" 输入您的姓名">
+    <input class="form-input" placeholder="  输入您的电话号码">
+    <a class="form-btn">立即获取试听名额</a>
+</form>
+
+<ul class="zyxx-list clearfix container_1200">
+    <li>
+        <div class="title bg-bg1">装饰预算实战课程</div>
+        <div class="info">
+            1.装饰预算基础知识及识图、制图。<br>
+            2.装饰工程量清单、定额工程量计算规则及说明。<br>
+            3.装饰工程材料与施工工艺。<br>
+            4.工程概、预算的编制方法。<br>
+            5.广联达计价软件，清华斯维尔计价件。<br>
+            6.实训案例课程。
+        </div>
+        <a class="zyxx-btn" onclick="mantis.requestChat()">咨询详细课程&gt;&gt;&gt;</a>
+    </li>
+    <li>
+        <div class="title bg-bg2">土建预算实战课程</div>
+        <div class="info">
+            1.建筑工程专业基础知识。<br>
+            2.建筑工程识图与构造 。<br>
+            3.施工技术与管理。<br>
+            4.建筑工程定额计量与计价。<br>
+            5.预结算编制的方法、步骤和技巧。<br>
+            6.项目实战案例。<br>
+            7.天正建筑、钢筋建模软件、图形建模软件、计价软件。
+        </div>
+        <a class="zyxx-btn" onclick="mantis.requestChat()">咨询详细课程&gt;&gt;&gt;</a>
+    </li>
+    <li>
+        <div class="title bg-bg3">安装预算实战课程</div>
+        <div class="info">
+            1.安装工程基础知识及识图与构造。<br>
+            2.电气工程。<br>
+            3.给排水工程。<br>
+            4.通风空调工程。<br>
+            5.弱电工程。<br>
+            6.算量软件应用。<br>
+            7.安装工程案例实训。
+        </div>
+        <a class="zyxx-btn" onclick="mantis.requestChat()">咨询详细课程&gt;&gt;&gt;</a>
+    </li>
+    <li>
+        <div class="title bg-bg4">园林预算实战课程</div>
+        <div class="info">
+            1.园林预算绪论基础知识。<br>
+            2.工程制图与识图。<br>
+            3.园林工程建筑面积计算规则。<br>
+            4.工程清单计价规范。<br>
+            5.园林工程项目计算方法。<br>
+            6.清华斯维尔，广联达软件应用。<br>
+            7.园林工程案例实训课程。
+        </div>
+        <a class="zyxx-btn" onclick="mantis.requestChat()">咨询详细课程&gt;&gt;&gt;</a>
+    </li>
+    <li>
+        <div class="title bg-bg5">市政预算实战课程</div>
+        <div class="info">
+            1.市政基本建设项目的构成。<br>
+            2.市政工程制图与识图。<br>
+            3.市政工程清单计价。<br>
+            4.各类工程项目计算方法。<br>
+            5.软件应用<br>
+            6.编制项目工程量清单。<br>
+            7.工程招投标与合同管理。
+        </div>
+        <a class="zyxx-btn" onclick="mantis.requestChat()">咨询详细课程&gt;&gt;&gt;</a>
+    </li>
+    <li>
+        <div class="title bg-bg6">建筑工程预算实战课程</div>
+        <div class="info">
+            1.基础知识。<br>
+            2.建筑工程识图与制图。<br>
+            3.施工技术与管理。<br>
+            4.建筑材料。<br>
+            5.建筑工程定额计量与计价。<br>
+            6.装饰工程定额计量与计价。<br>
+            7.软件应用。<br>
+            8.项目实战案例。
+        </div>
+        <a class="zyxx-btn" onclick="mantis.requestChat()">咨询详细课程&gt;&gt;&gt;</a>
+    </li>
+</ul>
+ <div class="form-title">
+     说一百遍，不如你亲自体验
+     <span>One hundred times, it's better to experience yourself.</span>
+ </div>
+<form>
+    <input class="form-input" placeholder=" 输入您的姓名">
+    <input class="form-input" placeholder="  输入您的电话号码">
+    <a class="form-btn">申请免费试听</a>
+</form>
+<div class="jsbg">
+
+</div>
+
+        <div class="js-info clearfix">
+            <img src="images/js1.png">
+            <div class="js-info-right">
+                <div class="js-title-en font-s12">dengxiangping</div>
+                <div class="js-title">
+                    <span>邓湘平</span>安装预算特级讲师、高级工程师
+                </div>
+                <div class="info">
+                    1981到1986年在湖南省煤炭基建公司第三工程处担任技术员，从事机电设备安装施工管理和预算工作。1986到1999年在湖南省涟邵矿务局担任机电工程师，从事机电设备管理和预算工作。1999到2015年在深圳市职业技术学院建筑工程系8担任工程造价专业教师。主讲《定额原理》，《建筑设备》，《安装工程预算》，《建筑安装工程预算实训》，《建筑工程招投标与合同管理》等课程。
+                </div>
+                <a  onclick="mantis.requestChat()">与名师交流>>></a>
+            </div>
+
+        </div>
+        <div class="js-info clearfix">
+            <img src="images/js2.png">
+            <div class="js-info-right">
+                <div class="js-title-en">lujianjun</div>
+                <div class="js-title">
+                    <span>路建军</span>市政预算金牌讲师、高级注册造价工程师
+                </div>
+                <div class="info">
+                    毕业于昆明理工大学，造价执业18年。分别在建鑫泰造价咨询、建星项目管理、丰浩达造价咨询等甲级咨询公司担任造价专业负责人，承办过项目“万科俊园电气、空调结算；“春茧”项目机电咨询顾问负责人；滨海医院（港大医院）项目三标机电造价负责人；龙华有轨电车基础设施机电项目审核人”后特聘政府事业单位，先后在龙华造价站、大鹏建筑工务局、大鹏发展和财政局等政府机构工作。并入选深圳市住建局、深圳市财委、大鹏建筑工务局、罗湖区发改局、福田区发改局等政府机构专家库。
+                </div>
+                <a  onclick="mantis.requestChat()">与名师交流>>></a>
+            </div>
+
+        </div>
+        <div class="js-info clearfix">
+            <img src="images/js3.png">
+            <div class="js-info-right">
+                <div class="js-title-en">zhangfu</div>
+                <div class="js-title line-h50">
+                    <span>张福</span>工程造价资深讲师
+                </div>
+                <div class="info">
+                    毕业于深圳大学（土木工程，本科）；从施工方到地产开发商，拥有丰富的施工造价管理和地产开发成本管理的造价工作经验，拥有全国造价工程师执业资格证、建造师执业资格证等;精通AutoCAD, 天正 , 广联达，斯维尔等软件。注重理论与实践相结合方式教学，以通俗易懂方法论剖析软件工具的应用及本质，让学员更加轻松易懂。
+                </div>
+                <a  onclick="mantis.requestChat()">与名师交流>>></a>
+            </div>
+
+        </div>
+
+<div class="hzqy">
+    <ul class="hzqy-list clearfix">
+        <li>
+            <img src="images/hzqy1.png">
+            <div class="title">深圳市红石居家装饰工程有限公司</div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+        <li>
+            <img src="images/hzqy2.png">
+            <div class="title">J&amp;A姜峰设计有限公司</div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+        <li>
+            <img src="images/hzqy3.png">
+            <div class="title">好百年家居连锁集团</div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+        <li>
+            <img src="images/hzqy4.png">
+            <div class="title">国安居家居建材连锁商场</div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+        <li>
+            <img src="images/hzqy5.png">
+            <div class="title">百安居（B&amp;Q）</div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+        <li>
+            <img src="images/hzqy6.png">
+            <div class="title">居众装饰集团  </div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+        <li>
+            <img src="images/hzqy7.png">
+            <div class="title">深圳市海大装饰集团</div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+        <li>
+            <img src="images/hzqy8.png">
+            <div class="title">龙发建筑装饰工程有限公司</div>
+            <a class="hzqy-btn" onclick="mantis.requestChat()">招聘详情</a>
+        </li>
+
+    </ul>
+    <a class="hzqy-btn-1" onclick="mantis.requestChat()">更多企业信息 >></a>
+</div>
+
+<div class="formbg-bottom">
+
+</div>
+<form class="bottom-form">
+    <input class="form-input" placeholder=" 输入您的姓名">
+    <input class="form-input" placeholder="  输入您的电话号码">
+    <a class="form-btn">立即提交</a>
+</form>
+<div class="footer">
+    Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+    备案号:粤ICP备09069122号-2
+</div>
+
+<!--右侧悬浮开始-->
+<div class="right-suspension">
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/10.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/11.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/12.gif" width="40"></a>
+    <a class="rightserve"  onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/13.gif" width="40"></a>
+    <a class="rightserve"  id="backTop"><img src="http://m.gdzp.org/mobile/images/design/14.gif" width="40"></a>
+    <a class="rightserve2" onclick="hideright()"><img src="http://m.gdzp.org/mobile/images/design/15.gif" width="40"></a>
+</div>
+
+<!--右侧悬浮结束-->
+</body>
+</html>
