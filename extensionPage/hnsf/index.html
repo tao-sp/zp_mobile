@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>华南师范大学</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/hnsf.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/hnsf.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<ul class="nav clearfix">
+    <li>考证费用</li>
+    <li>拿证时间</li>
+    <li>院校专业</li>
+    <li>报考流程</li>
+</ul>
+<div class="banner">
+<span class="jsmonth"></span><span class="jsday"></span>
+    <ul class="banner-list clearfix">
+        <li onClick="mantis.requestChat()">
+            华南师范大学专业选择
+        </li>
+        <li onClick="mantis.requestChat()">
+            低学历快速升本科入口
+        </li>
+        <li onClick="mantis.requestChat()">
+            初高中学历升专科入口
+        </li>
+        <li onClick="mantis.requestChat()">
+            考试通过再交费班型
+        </li>
+    </ul>
+</div>
+<ul class="xx-list">
+    <li>
+        <img src="images/xx1.png">
+            <b>主考专业：<span>行政管理</span></b><br>
+            简单好考、取证快<br>
+            名校学历，不考英语数学<br>
+            工作稳定，就业机会多<br>
+            可从事人力、行政、文秘、职能等高级白领岗位<br>
+            适合国企、私企、政府机关以及公务员
+    </li>
+    <li>
+        <img src="images/xx2.png">
+        <b>主考专业：<span>工商管理</span></b><br>
+        考试科目少，取证快<br>
+        名校学历，不考英语数学<br>
+        含金量高，社会认可度高，就业面广，薪酬高<br>
+        适合就职于营销、管理、运营等现代企业的核心部门，涉及
+        营销策划、财务管理、商务谈判、企业高管、市场营销，产
+        品调研等
+    </li>
+    <li>
+        <img src="images/xx3.png">
+        <b>主考专业：<span>英语</span></b><br>
+        科目少、取证快<br>
+        英语作为一种交流工具<br>
+        显然比其他专业具有更广泛的实用性，我国仍然缺乏高端英<br>
+        语专业人才。就业面广，薪资高<br>
+        适合外企、私企，政府部门担任文秘、翻译、业务或管理<br>
+        以及银行、保险、海关、边防、高等院校及科研部门工作
+    </li>
+    <li>
+        <img src="images/xx4.png">
+        <b><span>更多主考专业</span></b><br>
+        管理类、金融类、教育类<br>
+        理工类、机械类、艺术类<br>
+        计算机、其它专业
+    </li>
+</ul>
+<form class="form">
+    <div class="form-title">1.您目前的最高学历是？</div>
+    <div class="input-group">
+        <input type="radio" name="xl" value="小学" id="xl1"><label for="xl1">小学</label>
+        <input type="radio" name="xl" value="初中" id="xl2"><label for="xl2">初中</label>
+        <input type="radio" name="xl" value="高中" id="xl3"><label for="xl3">高中</label>
+        <input type="radio" name="xl" value="中专" id="xl4"><label for="xl4">中专</label>
+        <input type="radio" name="xl" value="高专" id="xl5"><label for="xl5">高专</label>
+        <input type="radio" name="xl" value="本科" id="xl6" checked><label for="xl6">本科</label>
+    </div>
+    <div class="form-title">2.您的年龄？</div>
+    <div class="input-group">
+        <input type="radio" name="nl" value="18~30岁" id="nl1"><label for="nl1">18~30岁</label>
+        <input type="radio" name="nl" value="30~40岁" id="nl2"><label for="nl2">30~40岁</label>
+        <input type="radio" name="nl" value="40岁以上" id="nl3"><label for="nl3">40岁以上</label>
+    </div>
+    <div class="form-title">3.您的意向学习方式？</div>
+    <div class="input-group">
+        <input type="radio" name="fs" value="晚上学习" id="fs1"><label for="fs1">晚上学习</label>
+        <input type="radio" name="fs" value="周末学习" id="fs2"><label for="fs2">周末学习</label>
+        <input type="radio" name="fs" value="全日制" id="fs3"><label for="fs3">全日制</label>
+    </div>
+    <div class="form-title">4.您的学历基础？</div>
+    <div class="input-group">
+        <input type="radio" name="jc" value="数学好" id="jc1"><label for="jc1">数学好</label>
+        <input type="radio" name="jc" value="英语好" id="jc2"><label for="jc2">英语好</label>
+        <input type="radio" name="jc" value="都不好 " id="jc3"><label for="jc3">都不好 </label>
+    </div>
+    <div class="form-title">5.您的户籍所在地？</div>
+    <div class="input-group">
+        <input type="radio" name="hj" value="深圳户籍" id="hj1"><label for="hj1">深圳户籍</label>
+        <input type="radio" name="hj" value="广州户籍" id="hj2"><label for="hj2">广州户籍</label>
+        <input type="radio" name="hj" value="外地户籍 " id="hj3"><label for="hj3">外地户籍 </label>
+    </div>
+    <div class="blobk-nbsp"></div>
+    <input class="input-form" placeholder="请输入您的姓名">
+    <input class="input-form" placeholder="请输入您的手机号码">
+    <a class="btn-form">免费获取测评结果</a>
+</form>
+<ul class="wt-list clearfix">
+    <li>
+        <b>学费</b><br>
+        需要多少钱？
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        成人学历<br>
+        <b>申请条件</b>是什么？
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        <b>如何拿证</b><br>
+        比较简单省事？
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        <b>低基础</b><br>
+        如何升本科？
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        <b>没专科</b>可以<br>
+        直接考本科学历吗?
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        <b>大概多久</b><br>
+        能拿到证书？
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        <b>上班族</b>如何<br>
+        安排时间拿学历？
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        我能<br>
+        报名什么<b>专业？</b>
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        <b>报名流程</b>是什么？<br>
+        <b>手续</b>有哪些？
+        <a>查看<br>答案</a>
+    </li>
+    <li>
+        <b>含金量</b>高不高？<br>
+        对工作有帮助吗？
+        <a>查看<br>答案</a>
+    </li>
+</ul>
+
+<a class="info-btn">免费咨询更多问题</a>
+<div class="info">
+    　　在这里城市,我们<b>怀揣梦想</b>，却因为<b>学历低</b>而被拒之门外，不是<b>本科</b>总有些遗憾，甚至因此吃过苦头，我们想凭能力找一份<b>好工作</b>，但招聘官收到简历太多，而只留下<b>“本科”的人</b>，然而这就是现实。<br>
+    　　为了让人人学的起本科，过去十多年我们成功将学费降到几千元，帮助众多学员学完本科。今天我们仍不满足，再次推出<b><span>“青学教育助学计划”</span></b>，每位报名学员提交资料申请，即可获得<b>免费入学资格</b>，祝您实现人生梦想，拥有美好未来。
+    <a class="info-btn ma-top-80">立即申请助学金</a>
+</div>
+<footer>
+    深圳市中鹏教育科技股份有限公司
+</footer>
+<div class="bottom">
+    <a class="bottom-btn">点我问问题</a>
+</div>
+</body>
+</html>

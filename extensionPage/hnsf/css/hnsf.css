@@ -1,0 +1,289 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.nav {
+  background: #4c5cd5; }
+
+.nav li {
+  color: #ffffff;
+  font-size: 0.5546666667rem;
+  text-align: center;
+  position: relative;
+  width: 3.9893333333rem;
+  float: left;
+  line-height: 1.6rem; }
+
+.nav li:after {
+  content: ' ';
+  display: block;
+  width: 0.0426666667rem;
+  height: 0.6186666667rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: #ffffff; }
+
+.nav li:last-child:after {
+  background: #4c5cd5; }
+
+.banner {
+  width: 16rem;
+  height: 12.8rem;
+  padding-top: 10.5813333333rem;
+  background: url("../images/banner.png") 0 0/16rem 23.3813333333rem no-repeat; }
+
+.jsmonth, .jsday {
+  display: inline-block;
+  margin-left: 2.4746666667rem;
+  width: 3.6053333333rem;
+  height: 3.6053333333rem;
+  text-align: center;
+  line-height: 3.6053333333rem;
+  color: #4c5cd5;
+  font-size: 2.3893333333rem; }
+
+.jsday {
+  margin-left: 2.176rem;
+  color: #fd5757; }
+
+.banner-list {
+  margin-left: 0.4266666667rem; }
+
+.banner-list li {
+  width: 7.36rem;
+  line-height: 1.4933333333rem;
+  background: #4c5cd5;
+  border-radius: 0.128rem;
+  float: left;
+  margin-right: 0.4266666667rem;
+  color: #ffffff;
+  font-size: 0.64rem;
+  text-align: center;
+  margin-top: 0.4266666667rem; }
+
+.banner-list li:nth-child(2n) {
+  margin-right: 0; }
+
+.xx-list li img {
+  display: block;
+  width: 7.2533333333rem;
+  position: absolute;
+  top: -0.8533333333rem;
+  right: 0.8533333333rem; }
+
+.xx-list li {
+  padding: 0.8533333333rem;
+  border: 1px solid #4c5cd5;
+  line-height: 0.7893333333rem;
+  font-size: 0.512rem;
+  width: 13.44rem;
+  margin: 1.7066666667rem auto 0;
+  position: relative;
+  color: #666666;
+  background: #ffffff; }
+
+.xx-list li b span {
+  color: #4c5cd5; }
+
+.xx-list li:after {
+  width: 15.1466666667rem;
+  height: 100%;
+  position: absolute;
+  right: -0.4266666667rem;
+  bottom: -0.4266666667rem;
+  background: #edeefb;
+  content: " ";
+  display: block;
+  z-index: -1; }
+
+.form {
+  margin-top: 1.408rem;
+  width: 16rem;
+  height: 29.1413333333rem;
+  padding-top: 5.3333333333rem;
+  background: url("../images/formbg.png") 0 0/16rem 34.4746666667rem no-repeat; }
+
+.form-title {
+  font-size: 0.5973333333rem;
+  color: #333333;
+  padding-left: 0.8533333333rem; }
+
+.input-group input {
+  display: none; }
+
+.input-group {
+  margin: 0.4266666667rem auto 1.0666666667rem;
+  padding-left: 0.8533333333rem; }
+
+.input-group input + label {
+  border-radius: 0.128rem;
+  padding: 0.256rem 0.4693333333rem;
+  border: 1px solid #dddddd;
+  color: #666666;
+  font-size: 0.4693333333rem; }
+
+.input-group input:checked + label {
+  background: #4c5cd5;
+  color: #ffffff;
+  border-color: #4c5cd5; }
+
+.input-form {
+  width: 12.9066666667rem;
+  height: 1.4933333333rem;
+  border: 1px solid #4c5cd5;
+  display: block;
+  margin: 0 auto 0.4053333333rem;
+  font-size: 0.384rem;
+  padding-left: 0.4266666667rem;
+  border-radius: 0.128rem; }
+
+.btn-form {
+  border: 1px solid #4c5cd5;
+  width: 13.3333333333rem;
+  line-height: 1.4933333333rem;
+  height: 1.4933333333rem;
+  background: #4c5cd5;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 0.64rem;
+  border-radius: 0.128rem; }
+
+.blobk-nbsp {
+  width: 15.1466666667rem;
+  margin: auto;
+  height: 0.4266666667rem; }
+
+.bottom {
+  width: 16rem;
+  height: 2.304rem;
+  background: url("../images/bottom.png") 0 0/16rem 2.304rem no-repeat;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999; }
+
+.bottom-btn {
+  width: 3.3066666667rem;
+  height: 1.1946666667rem;
+  line-height: 1.1946666667rem;
+  display: block;
+  position: absolute;
+  right: 0.4266666667rem;
+  bottom: 0.256rem;
+  font-size: 0.4693333333rem;
+  background: #fd5757;
+  border-radius: 0.128rem;
+  color: #ffffff;
+  text-align: center; }
+
+footer {
+  margin-bottom: 1.7066666667rem;
+  line-height: 1.7066666667rem;
+  text-align: center;
+  background-color: #434343;
+  color: #ffffff;
+  font-size: 0.4266666667rem; }
+
+.info {
+  line-height: 0.7893333333rem;
+  padding: 3.84rem 0.4266666667rem 0;
+  width: 15.1466666667rem;
+  height: 10.2613333333rem;
+  font-size: 0.512rem;
+  color: #666666;
+  margin-top: 1.28rem;
+  background: url("../images/infobg.png") 0 0/16rem 14.1013333333rem no-repeat; }
+
+.info b span {
+  color: #4c5cd5; }
+
+.info-btn {
+  width: 7.7866666667rem;
+  line-height: 1.4933333333rem;
+  height: 1.4933333333rem;
+  background: #4c5cd5;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 0.64rem;
+  border-radius: 0.128rem; }
+
+.ma-top-80 {
+  margin-top: 1.28rem; }
+
+.wt-list {
+  margin-top: 1.28rem;
+  margin-bottom: 0.64rem; }
+
+.wt-list li {
+  margin-bottom: 0.7466666667rem;
+  padding-left: 1.0026666667rem;
+  font-size: 0.512rem;
+  color: #666666;
+  width: 5.9733333333rem;
+  padding-top: 0.64rem;
+  height: 1.984rem;
+  background: url("../images/listbg.png") 0 0/6.976rem 2.624rem no-repeat;
+  float: left;
+  margin-right: 0.8106666667rem;
+  position: relative; }
+
+.wt-list li b {
+  color: #4c5cd5; }
+
+.wt-list li:nth-child(2n) {
+  margin-right: 0; }
+
+.wt-list li a {
+  padding-top: 0.4266666667rem;
+  text-align: center;
+  display: block;
+  position: absolute;
+  right: -0.4266666667rem;
+  top: -0.512rem;
+  font-size: 0.5333333333rem;
+  width: 2.2613333333rem;
+  height: 1.8346666667rem;
+  border-radius: 100%;
+  background: #4c5cd5;
+  color: #ffffff; }
+
+.wt-list li:hover a {
+  background: #fd5757; }
+
+/*# sourceMappingURL=hnsf.css.map */
