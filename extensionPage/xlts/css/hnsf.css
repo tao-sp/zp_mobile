@@ -139,7 +139,7 @@ a {
   border: 1px solid #4c5cd5;
   display: block;
   margin: 0 auto 0.4053333333rem;
-  font-size: 0.384rem;
+  font-size: 0.512rem;
   padding-left: 0.4266666667rem;
   border-radius: 0.128rem; }
 
@@ -173,12 +173,13 @@ a {
   padding-left: 0.4266666667rem;
   margin: 0 auto 0.4053333333rem;
   border: 1px solid #4c5cd5;
+  background: #ffffff;
   width: 13.3333333333rem;
   line-height: 1.4933333333rem;
   height: 1.4933333333rem;
   text-align: center;
   display: block;
-  font-size: 0.384rem;
+  font-size: 0.512rem;
   border-radius: 0.128rem; }
 
 .title {
@@ -234,6 +235,7 @@ footer {
   margin-top: 1.28rem; }
 
 .wt-list {
+  margin-left: 0.4266666667rem;
   margin-top: 1.28rem;
   margin-bottom: 0.64rem; }
 
