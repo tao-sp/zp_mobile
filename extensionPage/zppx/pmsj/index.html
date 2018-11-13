@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>平面设计</title>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/pm.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/swiper/swiper.min.js"></script>
+    <script src="js/pmsj.js"></script>
+    <link rel="stylesheet" href="css/certify.css">
+</head>
+<body>
+<!--头部开始-->
+<header style="position: relative">
+    <div class="shortcut">
+        <div class="container_1080 shortcut_content">
+            <div class="shortcut_content_left">
+                <!--<p class="header-top-left fl">
+                    <a target="_blank" href="http://www.gdzp.org/continuing/">继续教育学院</a>
+                    <a target="_blank" href="http://www.gdzp.org/manage">管理学院</a>
+                    <a target="_blank" href="http://www.gdzp.org/it">IT学院</a>
+                </p>-->
+            </div>
+            <div class="shortcut_content_right">
+                <a href="javascript:void(0)" onclick="mantis.requestChat()">帮助中心</a>|
+                <a href="javascript:void(0)" onclick="mantis.requestChat()">在线客服</a>|
+                <a href="javascript:void(0)" onclick="mantis.requestChat()"><img src="http://www.gdzp.org/html/snsj/images/phone.png">手机版</a>
+            </div>
+        </div>
+    </div>
+    <div class="logo-sjys">
+        <div class="container_1080">
+           <!-- <div class="logo-sjys-left"><img src="http://www.gdzp.org/html/zbsj/images/new/sjys-logo-1.png"></div>
+            <div class="logo-sjys-center"><img src="http://www.gdzp.org/html/zbsj/images/new/1.png"></div>-->
+            <img style="display: block;margin: auto" src="http://www.gdzp.org/html/pmsj/statics/images/pmsj.png">
+        </div>
+    </div>
+</header>
+<!--头部开始-->
+
+<div class="pm-swiper">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img onclick="mantis.requestChat()" src="images/banner1.png">
+            </div>
+            <div class="swiper-slide">
+                <img onclick="mantis.requestChat()" src="images/banner2.png">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.pm-swiper .swiper-container', {
+            autoplay: 3000,//可选选项，自动滑动
+            loop:true,
+            speed:1000,
+            autoplayDisableOnInteraction : false,
+            pagination : '.pm-swiper .swiper-pagination',
+        })
+    </script>
+</div>
+<div class="bb">
+    <div class="title3"></div>
+    <ul class="sjxs-lists container_1080 clearfix">
+        <li>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb1.png">
+                <div class="sjxs-list-title">
+                    logo设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb2.png">
+                <div class="sjxs-list-title">
+                    VI设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb3.png">
+                <div class="sjxs-list-title">
+                    插画设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb4.png">
+                <div class="sjxs-list-title">
+                    游戏设计
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb5.png">
+                <div class="sjxs-list-title">
+                    APP设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb6.png">
+                <div class="sjxs-list-title">
+                    C4D设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb7.png">
+                <div class="sjxs-list-title">
+                    H5设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb8.png">
+                <div class="sjxs-list-title">
+                    包装设计
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb9.png">
+                <div class="sjxs-list-title">
+                    海报设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb10.png">
+                <div class="sjxs-list-title">
+                    icon设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb11.png">
+                <div class="sjxs-list-title">
+                    动效与三维设计
+                </div>
+            </div>
+            <div class="sjxs-list-item" onclick="mantis.requestChat()">
+                <img src="images/bb12.png">
+                <div class="sjxs-list-title">
+                    易拉宝设计
+                </div>
+            </div>
+        </li>
+
+    </ul>
+</div>
+
+<div class="dwd">
+    <div class="container_1080">
+        <ul class="shx-list clearfix">
+            <li>
+                <div class="title">
+                    我是小白/应届生
+                    <span>想学习，找工作，能学会吗<br>要学多久？</span>
+                </div>
+                <a class="shx-btn" onclick="mantis.requestChat()">0基础咨询</a>
+                <i class="icon-p bg-p1"></i>
+            </li>
+            <li>
+                <div class="title">
+                    我想转行
+                    <span>现在的工作没发展，想转行<br>难度是不是有点大？</span>
+                </div>
+                <a class="shx-btn" onclick="mantis.requestChat()">转行咨询</a>
+                <i class="icon-p bg-p2"></i>
+            </li>
+            <li>
+                <div class="title">
+                    我是设计师想提升自己
+                    <span>工作遭遇瓶颈，提升专业水平<br>能提升吗？</span>
+                </div>
+                <a class="shx-btn" onclick="mantis.requestChat()">提升咨询</a>
+                <i class="icon-p bg-p3"></i>
+            </li>
+        </ul>
+        <form class="xxms-from1">
+            <div class="form-info">
+                改变命运就在此刻<br>
+                <b>平面设计课程<span>免费试听</span></b>
+            </div>
+            <input placeholder="请输入您的姓名">
+            <input class="xxms-input" placeholder="请输入您的手机号码">
+            <a class="xxms-btn-1">提交</a>
+        </form>
+    </div>
+</div>
+
+<div class="jyfx-title"></div>
+<ul class="jyfx-list clearfix container_1080">
+    <li>
+        <img src="images/list1.png">
+        <div class="li-hide">
+            <div class="title">
+                平面设计师
+            </div>
+            <div class="line"></div>
+            <div class="info">
+                <b>薪资：6000-12000元</b><br>
+                就业公司：教育企业、广告设计公司<br>
+                互联网公司等
+            </div>
+        </div>
+    </li>
+    <li>
+        <img src="images/list2.png">
+        <div class="li-hide">
+            <div class="title">
+                广告设计师
+            </div>
+            <div class="line"></div>
+            <div class="info">
+                <b> 薪资：8000-20000元</b><br>
+                就业公司：广告设计公司、传媒公司等
+
+            </div>
+        </div>
+    </li>
+    <li>
+        <img src="images/list3.png">
+        <div class="li-hide">
+            <div class="title">
+                APP设计师
+            </div>
+            <div class="line"></div>
+            <div class="info">
+                <b>薪资：10000-20000元</b><br>
+                就业公司：互联网公司、电商企业、<br>
+                游戏公司等
+
+            </div>
+        </div>
+    </li>
+    <li>
+        <img src="images/list4.png">
+        <div class="li-hide">
+            <div class="title">
+                web界面设计师
+            </div>
+            <div class="line"></div>
+            <div class="info">
+                <b>薪资：8000-15000元</b><br>
+                就业公司：电商企业、互联网公司、<br>
+                金融公司等
+
+            </div>
+        </div>
+    </li>
+    <li>
+        <img src="images/list5.png">
+        <div class="li-hide">
+            <div class="title">
+                软件界面设计师
+            </div>
+            <div class="line"></div>
+            <div class="info">
+                <b>薪资：10000-20000元</b><br>
+                就业公司：互联网公司、IT公司、<br>
+                游戏公司等
+            </div>
+        </div>
+    </li>
+    <li>
+        <img src="images/list6.png">
+        <div class="li-hide">
+            <div class="title">
+                视觉设计师
+            </div>
+            <div class="line"></div>
+            <div class="info">
+                <b> 薪资：8000-15000元</b><br>
+                就业公司：电商、互联网公司、<br>游戏公司等
+            </div>
+        </div>
+    </li>
+</ul>
+<a class="jyfx-btn" onclick="mantis.requestChat()">我要入行  >></a>
+<div class="js-bg"></div>
+<div class="fxxx"></div>
+<div class="zsl">
+    <div class="njkb-content">
+        <div class="Top_Record">
+            <div class="topRec_List">
+                <dl>
+                    <dd>报名课程</dd>
+                    <dd>姓名</dd>
+                    <dd>学历</dd>
+                    <dd>就职企业</dd>
+                    <dd>薪资</dd>
+                </dl>
+                <div class="maquee">
+                    <div class="maquee-x"></div>
+                    <div class="maquee-y"></div>
+                    <ul>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>田*妮</div>
+                            <div>本科</div>
+                            <div>深圳市****化传播有限公司</div>
+                            <div>12000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>何*荣</div>
+                            <div>专科</div>
+                            <div>深圳北****问有限公司</div>
+                            <div>11000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>张*海</div>
+                            <div>本科</div>
+                            <div>深圳前****业发展有限公司</div>
+                            <div>7500</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>俞*庭</div>
+                            <div>本科</div>
+                            <div>保密</div>
+                            <div>8000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>蔡*楠</div>
+                            <div>本科</div>
+                            <div>深圳市****营销策划有限公司</div>
+                            <div>9000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>韩*婷</div>
+                            <div>专科</div>
+                            <div>保密</div>
+                            <div>12000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>李*蓓</div>
+                            <div>本科</div>
+                            <div>深圳市****设计有限公司</div>
+                            <div>12000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>赵*存</div>
+                            <div>专科</div>
+                            <div>保密</div>
+                            <div>10000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>张*海</div>
+                            <div>本科</div>
+                            <div>深圳市****有限公司</div>
+                            <div>8000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>许*跃</div>
+                            <div>本科</div>
+                            <div>保密</div>
+                            <div>8000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>张*海</div>
+                            <div>本科</div>
+                            <div>深圳家****限公司</div>
+                            <div>8000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>李*</div>
+                            <div>专科</div>
+                            <div>保密</div>
+                            <div>7500</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>李*森</div>
+                            <div>专科</div>
+                            <div>深圳市****有限公司</div>
+                            <div>13000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>何*超</div>
+                            <div>专科</div>
+                            <div>保密</div>
+                            <div>11000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>赵*梁</div>
+                            <div>本科</div>
+                            <div>中联影****媒股份有限公司</div>
+                            <div>12000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>周*萌</div>
+                            <div>本科</div>
+                            <div>保密</div>
+                            <div>8000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>许*瑗</div>
+                            <div>本科</div>
+                            <div>深圳市****有限公司</div>
+                            <div>8000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>周*蕙</div>
+                            <div>本科</div>
+                            <div>保密</div>
+                            <div>8000</div>
+                        </li>
+                        <li>
+                            <div>平面设计一年级</div>
+                            <div>蔡*宗</div>
+                            <div>专科</div>
+                            <div>深圳市****模家具店</div>
+                            <div>7500</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>窦*</div>
+                            <div>本科</div>
+                            <div>保密</div>
+                            <div>11000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>赵*丹</div>
+                            <div>专科</div>
+                            <div>保密</div>
+                            <div>10000</div>
+                        </li>
+                        <li>
+                            <div>平面设计二年级</div>
+                            <div>林*峰</div>
+                            <div>专科</div>
+                            <div>保密</div>
+                            <div>10000</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jt"></div>
+
+<!--助理设计师开始-->
+<div class="zlsjs container_1080">
+    <!-- <img src="images/grade1.png">-->
+    <div class="grade grade1">
+        <div class="csyxb-right1">
+            <img  class="playbtn1" src="images/play.png"  onclick="playvd('myvideo1','videobox11')"  />
+            助理设计师
+            <div class="videobox1 videobox11" onclick="pausevd('myvideo1')">
+                <video id="myvideo1" width="427" height="272" src="http://www.gdzp.org/uploads/video/pm/pm-grade1.mp4" controls="controls">
+                    您的浏览器不支持 video 标签。
+                </video>
+            </div>
+        </div>
+    </div>
+    <ul class="clearfix">
+        <li>
+            <img src="images/zlsjs1.png" />
+            <span>Photoshop</span>
+            <div class="btn-flag">
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要报名 ></a>
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要试听 ></a>
+            </div>
+
+            <div class="hide-content">
+                运用Photoshop软件学习标志绘制，名片设计，人物美容，照片修饰，图像合成和抠图技巧，创意海报，DM单页设计，效果图设计等
+            </div>
+        </li>
+        <li>
+            <img src="images/zlsjs2.png" />
+            <span>Illustrator</span>
+            <div class="btn-flag">
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要报名 ></a>
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要试听 ></a>
+            </div>
+
+            <div class="hide-content">
+                运用Illustrator软件设计彩页，车体广告，牌匾灯箱设计，艺术效果、插画设计等，案例做海报，VI，包装，书籍装帧等...
+            </div>
+        </li>
+        <li>
+            <img src="images/zlsjs3.png" />
+            <span>CorelDRAW</span>
+            <div class="btn-flag">
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要报名 ></a>
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要试听 ></a>
+            </div>
+
+            <div class="hide-content">
+                运用CorelDRAW软件学习造型设计，广告手绘，酷炫立体设计，精品广告创意，产品画册等
+            </div>
+        </li>
+        <li>
+            <img src="images/zlsjs4.png" />
+            <span>InDesign</span>
+            <div class="btn-flag">
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要报名 ></a>
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要试听 ></a>
+            </div>
+
+            <div class="hide-content">
+                运用InDesign软件学习排版，制作杂志，招贴画设计，出版物等
+            </div>
+        </li>
+        <li>
+            <img src="images/zlsjs5.png" />
+            <span>Acrobat</span>
+            <div class="btn-flag">
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要报名 ></a>
+                <a href="javascript:void(0)" onClick="mantis.requestChat()" >我要试听 ></a>
+            </div>
+
+            <div class="hide-content">
+                运用Acrobat软件学习印前处理功能和工程技术功能，并提高PDF文档的灵活性和易用性
+            </div>
+        </li>
+    </ul>
+</div>
+<!--助理设计师结束-->
+
+
+<!--设计师开始-->
+<div class="sjs">
+    <!--<div class="container_1080">
+    <img class="sjs-title" src="images/grade2.png">
+    </div>-->
+    <div class="grade grade2">
+        <div class="csyxb-right1">
+            <img  class="playbtn1" src="images/play.png" onclick="playvd('myvideo2','videobox22')" />
+            设计师
+            <div class="videobox1 videobox22" onclick="pausevd('myvideo2')">
+                <video id="myvideo2" width="427" height="272" src="http://www.gdzp.org/uploads/video/pm/pm-grade2.mp4" controls="controls">
+                    您的浏览器不支持 video 标签。
+                </video>
+            </div>
+        </div>
+    </div>
+    <div id="certify">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/sjs2.png" /><p>网络美工设计</p></div>
+                <div class="swiper-slide"><img src="images/sjs1.png" /><p>LOGO创意设计</p></div>
+                <div class="swiper-slide"><img src="images/sjs5.png" /><p>户外广告设计</p></div>
+                <div class="swiper-slide"><img src="images/sjs3.png" /><p>印刷包装设计</p></div>
+                <div class="swiper-slide"><img src="images/sjs4.png" /><p>企业形象设计</p></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="ctrl-fix">
+        <a href="javascript:void(0)" onClick="mantis.requestChat()" >了解更多课程 > </a>
+    </div>
+
+
+</div>
+<!--设计师结束-->
+
+<!--设计总监开始-->
+<div class="sjzj">
+
+
+    <!--<img class="sjzj-title" src="images/grade3.png">-->
+
+    <div class="grade grade3">
+        <div class="csyxb-right1">
+            <img  class="playbtn1" src="images/play.png" onclick="playvd('myvideo3','videobox33')" />
+            设计总监
+            <div class="videobox1 videobox33" onclick="pausevd('myvideo3')">
+                <video id="myvideo3" width="427" height="272" src="http://www.gdzp.org/uploads/video/pm/pm-grade3.mp4" controls="controls">
+                    您的浏览器不支持 video 标签。
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <ul>
+        <li>
+            <img src="images/sjzj1.png">
+            <div>
+                设计心理学
+            </div>
+        </li>
+        <li>
+            <img src="images/sjzj2.png">
+            <div>设计沟通技巧</div>
+        </li>
+        <li>
+            <img src="images/sjzj3.png">
+            <div>设计团队管理</div>
+        </li>
+        <li>
+            <img src="images/sjzj4.png">
+            <div>游学研修</div>
+        </li>
+    </ul>
+</div>
+<!--设计总监结束-->
+
+<!--精品专题班开始-->
+<div class="jpztb">
+    <div class="container_1080" style="padding-bottom: 35px">
+        <div class="jpztb-title">平面设计<b>精品专题班</b></div>
+        <ul class="clearfix">
+            <li>
+                <img src="images/jpztb1.png">
+                <div class="jpztb-list-tilte">
+                    印刷包装设计专题班
+                    <span>
+                       岗位薪资：<b>6500-8000+</b>
+                   </span>
+                </div>
+                <div class="jpztb-hide">
+                    通过全程实例讲解,独立掌握包装设计，画册设计等岗位能力。<br>
+                    <b>学习内容：</b> 包装设计、画册设计<br>
+                    <b>适合人群：</b>会软件基础，对包装印刷装帧感兴趣
+                </div>
+            </li>
+            <li>
+                <img src="images/jpztb2.png">
+                <div class="jpztb-list-tilte">
+                    网络美工专题班
+                    <span>
+                       岗位薪资：<b>5000-7500+</b>
+                   </span>
+                </div>
+                <div class="jpztb-hide">
+                    紧抓互联网的潮流，让您不仅懂设计，还懂拍摄，轻松实现自己做店主。<br>
+                    <b>学习内容：</b>电商美工、电商产品摄影、商业图片精修。<br>
+                    <b>适合人群：</b>对网店设计，产品摄影感兴趣。
+                </div>
+            </li>
+            <li>
+                <img src="images/jpztb3.png">
+                <div class="jpztb-list-tilte">
+                    视觉传达专题班
+                    <span>
+                       岗位薪资：<b>6500-8000+</b>
+                   </span>
+                </div>
+                <div class="jpztb-hide">
+                    全程实战性教学,打造设计的新天地,为您实现华丽变身。<br>
+                    <b>学习内容：</b>LOGO标志设计、企业形象设计、户外广告设计...<br>
+                    <b>适合人群：</b>懂基础设计,想独立完成企业形象设计、LOGO创意、户外广告设计、电子画册等设计方案
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--精品专题班结束-->
+
+<div class="xyzp">
+
+</div>
+<a class="xyz-btn">查看更多作品</a>
+
+<div class="formbg">
+    <form class="xxms-from">
+        <input placeholder="姓名">
+        <input class="xxms-input" placeholder="电话">
+        <a class="xxms-btn">提交</a>
+    </form>
+</div>
+<div class="bottom"></div>
+
+<!--侧边栏开始-->
+<div class="float-ad" action="{{ path('customer_page') }}" id="float-ad">
+    <div class="float-interaction">
+        <div class="interac-item interac-item-bg1">
+            <a class="link" href="javascript:;"><i class="icon icon-1"></i><span>免费试学</span></a>
+            <div class="float-frm-wrapper" style="display: none;">
+                <form action=" " class="float-frm" id="form_7">
+                    <div class="form-group">
+                        <input type="hidden" name="question[1]" value="请选择专业">
+                        <select name="answer[1]">
+                            <option value="">请选择专业</option>
+                            <option value="平面设计">平面设计</option>
+                            <option value="室内设计">室内设计</option>
+                            <option value="UI设计">UI设计</option>
+                            <option value="设计美术">设计美术</option>
+                            <option value="摄影">摄影</option>
+                            <option value="工业设计">工业设计</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="请输入您的姓名" name="name" value="" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="请输入您的手机号" name="phone" value="" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="请输入您的QQ" name="qq" value="" required="required"/>
+                    </div>
+                    <input type="hidden" name="web" value="平面设计PC-免费试学">
+                    <input type="hidden" name="code" value="SMS_142020347">
+                    <a class="submit" onclick="customerInput('form_7')" id="float-frm-submit">提交</a>
+                </form>
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg2 interac-bg2">
+            <a class="link" target="_blank" href="javascript:void(0)" onClick="mantis.requestChat()" ><i class="icon icon-22"></i><span>在线客服</span></a>
+        </div>
+        <div class="interac-item interac-item-bg3">
+            <a class="link" target="_blank" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODA3ODk1M180ODQ0NTZfNDAwNjAyNjYxOF8yXws" ><i class="icon icon-2"></i><span>QQ</span></a>
+            <div class="float-qq-wrapper" style="">
+                <div class="block-nbsp">
+                    <a class="qq" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=fb127f85d3545d2895267b4aaf564ba36be40c2d69bd9a0736d71d75a19ccfa3" title="中鹏教育官方咨询群5"> 点击加群 </a>
+                    <a class="qq" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=b1ab60c9abb76412f2290f0d6f11719816ac4769b440f0f426b092871ec15fcc" title="中鹏教育官方咨询群6"> 点击加群 </a>
+                </div>
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg4">
+            <a class="link" href="javascript:;"><i class="icon icon-3"></i><span>微信</span></a>
+            <div class="float-weixin-wrapper" style="">
+                <img class="weixin" src="http://www.gdzp.org/html/pmsj/images/new/zp-erweima.png" alt="">
+            </div>
+        </div>
+        <div class="interac-item interac-item-bg5">
+            <a class="link" href="javascript:;" id="backTop"><i class="icon icon-4"></i><span>返回顶部</span></a>
+        </div>
+    </div>
+</div>
+<!--侧边栏结束-->
+<!--底部开始-->
+<div class="footer">
+    Copyright © 2008-2018 深圳市中鹏教育科技股份有限公司 ALL RIGHT RESERVED<br>
+    备案号:<a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备09069122号-2</a><br>
+</div>
+<!--底部开始-->
+
+<!--螳螂科技探头代码2018-06-20-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5b285e93b609f7456962ed28"></script>
+<!--螳螂科技探头代码2018-06-20-->
+</body>
+</html>

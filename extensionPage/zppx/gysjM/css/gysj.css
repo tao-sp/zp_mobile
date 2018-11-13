@@ -1,0 +1,314 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.footer {
+  font-size: 0.3413333333rem;
+  color: #666666;
+  text-align: center;
+  background: #efefef;
+  padding: 0.4266666667rem 0;
+  line-height: 0.5546666667rem; }
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  z-index: 9999;
+  width: 10.6666666667rem;
+  height: 1.7066666667rem;
+  padding-left: 5.3333333333rem;
+  background: #000000 url("../images/logo.png") 0.4266666667rem center/4.736rem 1.216rem no-repeat; }
+
+.header img {
+  height: 0.512rem;
+  display: block;
+  padding-top: 0.6826666667rem; }
+
+.right-suspension {
+  z-index: 999999;
+  width: 2.1333333333rem;
+  position: fixed;
+  bottom: 1.7066666667rem;
+  right: 0.2133333333rem; }
+
+.right-suspension img {
+  display: block;
+  margin: auto;
+  padding-bottom: 0.128rem; }
+
+.rightserve1 img {
+  width: 2.1333333333rem !important; }
+
+.rightserve img, .rightserve2 img {
+  width: 1.7066666667rem; }
+
+.gy-banner img {
+  display: block;
+  width: 16rem; }
+
+.jyqj {
+  padding-top: 1.0666666667rem; }
+
+.gysj-title-content {
+  padding: 0.4266666667rem 0;
+  text-align: center; }
+
+.gysj-title {
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 0.768rem;
+  font-weight: bold;
+  font-size: 0.768rem;
+  color: #ffffff; }
+
+.gysj-title span {
+  color: #f5bf00; }
+
+.gysj-title-en {
+  max-width: 13.2266666667rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 0.384rem;
+  color: #7640d4;
+  text-transform: uppercase; }
+
+.gysj-title-en span {
+  color: #f5bf00; }
+
+.title-b:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  content: " ";
+  display: block;
+  width: 2.3893333333rem;
+  height: 2.2613333333rem;
+  background: url("../images/k.png") 0 0/2.3893333333rem 2.2613333333rem; }
+
+.jyqj-info {
+  margin-top: 0.4266666667rem;
+  font-size: 0.384rem;
+  color: #ffffff;
+  line-height: 0.768rem; }
+
+.jyqj-line {
+  width: 16rem;
+  height: 6.8266666667rem;
+  background: url("../images/jyqj.png") center center/16rem 6.8266666667rem no-repeat; }
+
+.jyqj-btn {
+  display: block;
+  width: 5.8666666667rem;
+  height: 1.28rem;
+  background: #7640d4;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  border-radius: 0.0853333333rem;
+  line-height: 1.28rem;
+  font-size: 0.4906666667rem;
+  font-weight: bold; }
+
+.margin-top-100 {
+  margin-top: -0.2133333333rem; }
+
+.bodybg {
+  background-color: #101525; }
+
+.ys-list {
+  width: 15.1466666667rem;
+  height: 16.9386666667rem;
+  margin: 1.024rem auto;
+  background: url("../images/ys.png") 0 0/15.1466666667rem 16.9386666667rem no-repeat; }
+
+.ys {
+  margin: 1.8346666667rem auto; }
+
+.jsfw {
+  margin-top: 3.4133333333rem; }
+
+.jsfw-list {
+  width: 15.1466666667rem;
+  height: 17.4933333333rem;
+  margin: 1.024rem auto;
+  background: url("../images/jyfw.png") 0 0/15.1466666667rem 17.4933333333rem no-repeat; }
+
+.sj-title {
+  padding-left: 0.4266666667rem;
+  margin: 1.28rem auto 0.8533333333rem;
+  font-size: 0.512rem;
+  color: #7640d4; }
+
+.sj-title b {
+  display: block;
+  color: #f5bf00;
+  font-size: 0.768rem; }
+
+.form1-title {
+  color: #f5bf00;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.768rem; }
+
+.input-group input {
+  display: block;
+  margin: 0.64rem auto;
+  width: 11.9466666667rem;
+  height: 1.344rem;
+  font-size: 0.448rem;
+  padding-left: 0.3413333333rem;
+  outline: none;
+  background: transparent;
+  border-radius: 0.1706666667rem;
+  border: 1px solid #999999; }
+
+.float-form-btn {
+  width: 12.288rem; }
+
+.kc {
+  width: 16rem;
+  height: 13.12rem;
+  margin: 1.024rem auto;
+  background: url("../images/kc.png") 0 0/16rem 13.12rem no-repeat; }
+
+.js .gysj-title {
+  padding-right: 0.7466666667rem;
+  text-align: right; }
+
+.js .gysj-title:before {
+  left: auto;
+  right: 0;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(180deg);
+  /* Firefox */
+  -webkit-transform: rotate(180deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */ }
+
+.js-list {
+  width: 15.9786666667rem;
+  height: 22.6133333333rem;
+  margin: 1.024rem auto;
+  background: url("../images/js-list.png") 0 0/15.9786666667rem 22.6133333333rem no-repeat; }
+
+.js {
+  margin-top: 1.28rem; }
+
+.xy-ctrl {
+  margin-top: 0.896rem; }
+
+.xy-ctrl li {
+  cursor: pointer;
+  width: 3.1573333333rem;
+  height: 1.024rem;
+  line-height: 1.024rem;
+  border: 1px solid #7640d4;
+  color: #7640d4;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.512rem;
+  float: left;
+  margin-right: 0.4266666667rem; }
+
+.xy-ctrl li.on {
+  background: #7640d4;
+  color: #ffffff; }
+
+.yx-img {
+  width: 16rem;
+  overflow-x: auto;
+  margin: 0.7466666667rem auto 1.0666666667rem; }
+
+.yx-img img {
+  height: 12.8rem;
+  display: none; }
+
+.yx-img img:nth-child(2) {
+  display: block; }
+
+.xy {
+  margin-top: 1.6rem; }
+
+.xy-padding {
+  padding-left: 0.4266666667rem; }
+
+.form4-content {
+  width: 8.32rem;
+  height: 8.64rem;
+  padding-left: 7.68rem;
+  margin: 1.024rem auto;
+  background: #ffffff url("../images/formbg.png") 0 0/9.408rem 8.6613333333rem no-repeat; }
+
+.form4-content input {
+  padding-left: 0.32rem;
+  width: 7.36rem;
+  height: 1.1946666667rem;
+  border: 1px solid #999999;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 0.4266666667rem; }
+
+.form4-content .title {
+  padding-bottom: 0.5973333333rem;
+  padding-top: 0.8106666667rem;
+  font-size: 0.64rem;
+  font-weight: bold;
+  color: #7640d4;
+  text-align: center; }
+
+.form4-content .jyqj-btn {
+  width: 7.68rem; }
+
+.jxhj-img {
+  width: 16rem;
+  display: block;
+  margin: 0.4266666667rem auto 0.8533333333rem; }
+
+.app-img {
+  width: 15.1466666667rem;
+  height: 11.7973333333rem;
+  margin: 0.8533333333rem auto;
+  background: url("../images/app.png") 0 0/15.1466666667rem 11.7973333333rem no-repeat; }
+
+.app {
+  margin-bottom: 1.7066666667rem; }
+
+/*# sourceMappingURL=gysj.css.map */
