@@ -1,0 +1,202 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.banner {
+  width: 16rem;
+  display: block; }
+
+.cyc-title {
+  font-size: 0.704rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.8133333333rem;
+  color: #ffffff;
+  background-color: #29bbe3; }
+
+.cyc-from {
+  padding: 1.0666666667rem 0;
+  border-radius: 0.3413333333rem;
+  width: 15.1466666667rem;
+  margin: 0.96rem auto;
+  border: 1px solid #b5b5b5;
+  -moz-box-shadow: 0px 0px 20px #333333;
+  -webkit-box-shadow: 0px 0px 20px #333333;
+  box-shadow: 0px 0px 20px #333333; }
+
+.form-title {
+  font-weight: bold;
+  font-size: 0.5973333333rem;
+  color: #333333;
+  padding-left: 0.8533333333rem; }
+
+.input-group input {
+  display: none; }
+
+.input-group {
+  margin: 0.4266666667rem auto 1.0666666667rem;
+  padding-left: 0.8533333333rem; }
+
+.input-group input + label {
+  display: inline-block;
+  margin-bottom: 0.256rem;
+  white-space: nowrap;
+  border-radius: 0.128rem;
+  padding: 0.256rem 0.4693333333rem;
+  border: 1px solid #333333;
+  color: #666666;
+  font-size: 0.512rem; }
+
+.input-group input:checked + label {
+  background: #29bbe3;
+  color: #ffffff;
+  border-color: #29bbe3; }
+
+.input-form {
+  width: 10.6666666667rem;
+  height: 1.4933333333rem;
+  border: 1px solid #7a7a7a;
+  display: block;
+  margin: 0 auto 0.4053333333rem;
+  font-size: 0.512rem;
+  padding-left: 0.4266666667rem;
+  border-radius: 0.128rem; }
+
+.btn-form {
+  border: 1px solid #29bbe3;
+  width: 11.0933333333rem;
+  line-height: 1.4933333333rem;
+  height: 1.4933333333rem;
+  background: #29bbe3;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 0.64rem;
+  border-radius: 0.128rem; }
+
+.form-tips {
+  text-align: center;
+  margin: 0.4266666667rem auto;
+  font-size: 0.384rem;
+  color: #999999; }
+
+.hl {
+  margin-top: 1.7066666667rem;
+  font-size: 0.768rem;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  padding-top: 1.28rem;
+  border-top: 0.1493333333rem solid #e4e4e4; }
+
+.ts {
+  font-size: 0.5333333333rem;
+  color: #333333;
+  width: 8.32rem;
+  height: 0.8533333333rem;
+  line-height: 0.8533333333rem;
+  border: 1px solid #aaaaaa;
+  border-radius: 0.1706666667rem;
+  margin: 0.2133333333rem auto;
+  text-align: center; }
+
+.ts-img {
+  margin: 1.0666666667rem auto;
+  width: 14.9333333333rem;
+  height: 11.9253333333rem;
+  background: url("../images/ts.png") 0 0/14.9333333333rem 11.9253333333rem; }
+
+.jxj {
+  margin: 1.0666666667rem auto;
+  width: 8.0213333333rem;
+  height: 4.608rem;
+  background: url("../images/jxj.png") 0 0/8.0213333333rem 4.608rem; }
+
+.zytj {
+  margin-top: 1.7066666667rem;
+  border-top: 0.1493333333rem solid #e4e4e4;
+  padding-top: 1.4506666667rem;
+  font-size: 0.768rem;
+  text-align: center;
+  font-weight: bold; }
+
+.zytj-1 {
+  line-height: 0.576rem;
+  font-size: 0.5333333333rem;
+  color: #e73b40;
+  text-align: center;
+  margin-top: 0.384rem;
+  margin-bottom: 1.28rem; }
+
+.icon-hot {
+  margin-left: 0.1066666667rem;
+  vertical-align: bottom;
+  display: inline-block;
+  width: 0.4266666667rem;
+  height: 0.576rem;
+  background: url("../images/hot.png") 0 0/0.4266666667rem 0.576rem; }
+
+.yx-title {
+  margin-bottom: 0.256rem;
+  font-size: 0.64rem;
+  padding-left: 0.4266666667rem;
+  font-weight: bold; }
+
+.yx-info {
+  margin-bottom: 0.64rem;
+  padding-left: 0.4266666667rem; }
+
+.info-left {
+  font-size: 0.4693333333rem;
+  color: #525252;
+  line-height: 0.704rem;
+  width: 9.7066666667rem;
+  float: left; }
+
+.yx-info img {
+  width: 4.7146666667rem;
+  float: left; }
+
+.info-item {
+  position: relative;
+  padding-left: 0.4266666667rem;
+  margin-bottom: 0.256rem; }
+
+.info-item:after {
+  content: " ";
+  position: absolute;
+  width: 0.192rem;
+  height: 0.192rem;
+  background: #29bbe3;
+  left: 0;
+  top: 0.32rem; }
+
+/*# sourceMappingURL=xxl.css.map */
