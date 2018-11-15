@@ -121,7 +121,8 @@ a {
   height: 2.1333333333rem;
   display: block;
   margin: auto;
-  background-image: url("../images/zy.png"); }
+  background-image: url("../images/zy.png");
+  background-size: 4.2666666667rem 4.2666666667rem; }
 
 .zy-1 {
   background-position: 0 0; }
