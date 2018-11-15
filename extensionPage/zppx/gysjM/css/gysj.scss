@@ -123,7 +123,8 @@ a{
   background: url("../images/k.png") 0 0 /px2rem(112) px2rem(106);
 }
 .jyqj-info{
-  margin-top: px2rem(20);
+  width:px2rem(710);
+  margin:px2rem(20) auto 0;
   font-size: px2rem(18);
   color: #ffffff;
   line-height:px2rem(36);
@@ -150,7 +151,10 @@ a{
   margin-top: px2rem(-10);
 }
 .bodybg{
-  background-color:   #101525;
+  width:px2rem(750);
+  margin: auto;
+  background:#101525 url("../images/bodybg.png") 0 px2rem(2160) /px2rem(750) px2rem(553) no-repeat;
+
 }
 .ys-list{
   width:px2rem(710);
@@ -162,7 +166,7 @@ a{
   margin: px2rem(86) auto;
 }
 .jsfw{
-  margin-top: px2rem(160);
+  margin-top: px2rem(60);
 }
 .jsfw-list{
   width:px2rem(710);

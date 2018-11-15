@@ -121,7 +121,8 @@ a {
   background: url("../images/k.png") 0 0/2.3893333333rem 2.2613333333rem; }
 
 .jyqj-info {
-  margin-top: 0.4266666667rem;
+  width: 15.1466666667rem;
+  margin: 0.4266666667rem auto 0;
   font-size: 0.384rem;
   color: #ffffff;
   line-height: 0.768rem; }
@@ -148,7 +149,9 @@ a {
   margin-top: -0.2133333333rem; }
 
 .bodybg {
-  background-color: #101525; }
+  width: 16rem;
+  margin: auto;
+  background: #101525 url("../images/bodybg.png") 0 46.08rem/16rem 11.7973333333rem no-repeat; }
 
 .ys-list {
   width: 15.1466666667rem;
@@ -160,7 +163,7 @@ a {
   margin: 1.8346666667rem auto; }
 
 .jsfw {
-  margin-top: 3.4133333333rem; }
+  margin-top: 1.28rem; }
 
 .jsfw-list {
   width: 15.1466666667rem;

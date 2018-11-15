@@ -384,7 +384,7 @@ li{
     background-color:   #101525;
     background-image:url("../images/bodybg1.png"),url("../images/bodbg1.png"),url("../images/bodybg2.png"),url("../images/bodybg3.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position:center 828px,right 6876px,right 4550px,center 1724px;
+    background-position:center 828px,right 6876px,right 4550px,center 1774px;
 }
 .gy-banner .swiper-slide{
     width:100%;
@@ -892,4 +892,7 @@ li{
 .app{
     margin-top: 67px;
     margin-bottom: 60px;
+}
+.ys{
+    margin-top: 60px;
 }
