@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>技能设计</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/zk.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/mayDate.js" type="text/javascript"></script>
+
+</head>
+<body class="font_yahei">
+<div class="banner">
+    <div class="countdown-all">
+        <div class="countdown-con">
+            <span id="day"></span>天
+            <span id="hour"></span>时
+            <span id="mini"></span>分
+            <span id="sec2"></span>秒
+            <!--<span class="minisec" id="minisec">912</span>-->
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+
+<div class="form1">
+    <div class="">
+        <div class="cp-box">
+            <h5>考名校本科证要预算</h5>
+            <div class="num_xsp">
+                <div class="num_ze">
+                    <div class="num_yuan">
+                        元
+                    </div>
+                    <div class="num_sz ge">
+                        <img src="images/zxbj_n0.png" value="ge0" alt="" id="numge" />
+                    </div>
+                    <div class="num_sz shi">
+                        <img src="images/zxbj_n0.png" value="shi0" alt="" id="numshi" />
+                    </div>
+                    <div class="num_sz bai">
+                        <img src="images/zxbj_n0.png" value="bai0" alt="" id="numbai" />
+                    </div>
+                    <div class="num_sz qian">
+                        <img src="images/zxbj_n1.png" value="qian1" alt="" id="numqian" />
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form >
+        <div  class="padding-left">
+            <div class="input-title">
+                1.您目前的学历？
+            </div>
+            <div class="input-rdo">
+                <input type="radio" name="xl" value="初中及以下" id="xl1"><label for="xl1">初中及以下</label>
+                <input type="radio" name="xl" value="高中" id="xl2"><label for="xl2">高中</label>
+                <input type="radio" name="xl" value="中专或技校" id="xl3"><label for="xl3">中专或技校</label>
+                <input type="radio" name="xl" value="大专" id="xl4"><label for="xl4">大专</label>
+
+            </div>
+            <div class="input-title">
+                2.您的学习基础？
+            </div>
+            <div class="input-rdo">
+                <input type="radio" name="jc" value="没有基础" id="jc1"><label for="jc1">没有基础</label>
+                <input type="radio" name="jc" value="基础很差" id="jc2"><label for="jc2">基础很差</label>
+                <input type="radio" name="jc" value="基础一般" id="jc3"><label for="jc3">基础一般</label>
+                <input type="radio" name="jc" value="基础很好" id="jc4"><label for="jc4">基础很好</label>
+
+            </div>
+            <div class="input-title">
+                3.你偏向的学习方式？
+            </div>
+            <div class="input-rdo">
+                <input type="radio" name="fs" value="周末学习" id="fs1"><label for="fs1">周末学习</label>
+                <input type="radio" name="fs" value="晚上学习" id="fs2"><label for="fs2">晚上学习</label>
+                <input type="radio" name="fs" value="在校学历" id="fs3"><label for="fs3">在校学历</label>
+                <input type="radio" name="fs" value="其他方式" id="fs4"><label for="fs4">其他方式</label>
+            </div>
+        </div>
+        <div class="ceping_bd">
+            <h4>输入您的信息，马上知道测试结果！</h4>
+            <div>
+                <input class="msg_text" placeholder="请输入您的姓名">
+                <input  class="msg_text" placeholder="请输入您的手机号"  >
+                <a class="form-btn">提交获取结果</a>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<div class="title2"></div>
+
+<ul class="title2-list clearfix">
+    <li>
+        <img src="images/mx1.png">
+        <div class="info">
+            华南师范大学，简称““华南师大”，坐落于广东省广州市，首批国家“211工程”重点建设大学，入选国家“111计划”“卓越教师培养计划”、广东省高水平大学整体建设高校、广东省重点大学，是中国100所首批联入CERNET和INTERNET网的高等院校之一
+        </div>
+        <a class="title2-list-btn" onclick="mantis.requestChat()">点击在线咨询报考</a>
+    </li>
+    <li>
+        <img src="images/mx2.png">
+        <div class="info">
+            郑州大学（，简称郑大，位于河南省会郑州，位列“211工程”、世界一流大学建设高校（B类）、“一省一校”、“111计划”重点建设高校，“国家大学生创新性实验计划”入选高校，拥有国家大学科技园，具有自主招生资格。
+        </div>
+        <a class="title2-list-btn" onclick="mantis.requestChat()">点击在线咨询报考</a>
+    </li>
+    <li>
+        <img src="images/mx3.png">
+        <div class="info">
+            广东开放大学是以现代信息技术为支撑，主要面向成人开展远程开放教育的新型高等学校。汇集社会优质教育资源，面向全体社会成员，服务终身教育，特色鲜明、国际接轨、国内一流的开放大学。
+        </div>
+        <a class="title2-list-btn" onclick="mantis.requestChat()">点击在线咨询报考</a>
+    </li>
+    <li>
+        <img src="images/mx4.png">
+        <div class="info">
+            中国石油大学是教育部直属全国重点大学，“双一流”世界一流学科建设高校，国家“211工程”和“985工程优势学科创新平台”重点建设高校，是石油、石化高层次人才培养的重要基地，被誉为“石油科技人才的摇篮”
+        </div>
+        <a class="title2-list-btn" onclick="mantis.requestChat()">点击在线咨询报考</a>
+    </li>
+    <li>
+        <img src="images/mx5.png">
+        <div class="info">
+            湘潭大学，简称“湘大”。学校由湖南省人民政府与中华人民共和国教育部,国家国防科技工业局重点共建。入选“111计划”,国家特色重点学科项目建设高校、中西部高校基础能力建设工程、中国政府奖学金来华留学生接收高校、国家大学生创新性实验计划、湖南省2011计划,卓越法律人才教育培养计划等
+        </div>
+        <a class="title2-list-btn" onclick="mantis.requestChat()">点击在线咨询报考</a>
+    </li>
+    <li>
+        <img src="images/mx6.png">
+        <div class="info">
+            江西师范大学是教育部、江西省人民政府共建高校和中西部高校基础能力建设工程高校。位于具有深厚历史文化底蕴、素有“物华天宝、人杰地灵”美誉的江西省省会南昌，对江西的政治、经济、文化和社会发展有较大影响，被江西省人民政府确定为优先发展的省属重点（师范）大学。
+        </div>
+        <a class="title2-list-btn" onclick="mantis.requestChat()">点击在线咨询报考</a>
+    </li>
+</ul>
+
+<div class="title3"></div>
+<ul class="title3-list clearfix">
+     <li>
+         <img src="images/zy1.jpg">
+         <div class="info">
+             推荐专业：<b>视觉传播设计与制作</b><br>
+            实用性强，就业前景广泛
+             <a onclick="mantis.requestChat()">去看看>></a>
+         </div>
+     </li>
+    <li>
+        <img src="images/zy2.jpg">
+        <div class="info">
+            推荐专业：<b>人力资源管理</b><br>
+            稀缺专业人才，不考高数
+            <a onclick="mantis.requestChat()">去看看>></a>
+        </div>
+    </li>
+    <li>
+        <img src="images/zy3.jpg">
+        <div class="info">
+            推荐专业：<b>行政管理</b><br>
+            单位管理人才，考试科目少
+            <a onclick="mantis.requestChat()">去看看>></a>
+        </div>
+    </li>
+    <li>
+        <img src="images/zy4.jpg">
+        <div class="info">
+            推荐专业：<b>工商管理</b><br>
+            管理晋升必备，创业者必修
+            <a onclick="mantis.requestChat()">去看看>></a>
+        </div>
+    </li>
+</ul>
+
+<div class="table-box">
+    <div class="table"></div>
+</div>
+
+<div class="bottom1">
+    <a class="bottom1-btn" onclick="mantis.requestChat()"></a>
+</div>
+
+<form class="form2">
+    <div class="form2-title"></div>
+    <input placeholder="请输入您的姓名">
+    <input placeholder="请输入您的手机">
+    <a class="form2-btn">立即补录学籍</a>
+</form>
+
+<script src="js/num_xh.js" charset="utf-8"></script>
+<script type="text/javascript">
+    function countdown1() {
+        var show_time = document.getElementById("show_time");
+        var num1 = document.getElementById("day");
+        var num2 = document.getElementById("hour");
+        var num3 = document.getElementById("mini");
+        var num4 = document.getElementById("sec2");
+        endtime = new Date(curMonth + '/' + curDate + '/' + '2018 18:00:00'); //结束时间
+        var today = new Date(); //当前时间
+
+        delta_T = endtime.getTime() - today.getTime(); //时间间隔
+        if (delta_T < 0) {
+            clearInterval(auto);
+            show_time.innerHTML = "倒计时已经结束";
+        }
+        setTimeout(countdown1, 1000);
+        total_days = delta_T / (24 * 60 * 60 * 1000); //总天数
+        total_show = Math.floor(total_days); //实际显示的天数
+        total_hours = (total_days - total_show) * 24; //剩余小时
+        hours_show = Math.floor(total_hours); //实际显示的小时数
+        total_minutes = (total_hours - hours_show) * 60; //剩余的分钟数
+        minutes_show = Math.floor(total_minutes); //实际显示的分钟数
+        total_seconds = (total_minutes - minutes_show) * 60; //剩余的分钟数
+        seconds_show = Math.floor(total_seconds); //实际显示的秒数
+
+        /*for(var i=0;i<num.length,i++){
+          num[0].innerHTML=total_show;
+        };*/
+        /*show_time.innerHTML = total_show + "天" + hours_show + "时" + minutes_show + "分" + seconds_show + "秒";*/
+        if (hours_show < 10) {
+            hours_show = "0" + hours_show;
+        }
+        if (minutes_show < 10) {
+            minutes_show = "0" + minutes_show;
+        }
+        if (seconds_show < 10) {
+            seconds_show = "0" + seconds_show;
+        }
+        if (total_show < 10) {
+            total_show = "0" + total_show;
+        }
+
+        num1.innerHTML = total_show;
+        num2.innerHTML = hours_show;
+        num3.innerHTML = minutes_show;
+        num4.innerHTML = seconds_show;
+    }
+    countdown1();
+</script>
+</body>
+</html>
