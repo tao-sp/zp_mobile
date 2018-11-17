@@ -13,7 +13,7 @@ $(function () {
 })
 function autoScroll(obj){
     $(obj).find("ul").animate({
-        marginTop : "-1.4933333333rem"
+        marginTop : "-0.8533333333rem"
     },500,function(){
         $(this).css({marginTop : "0px"}).find("li:first").appendTo(this);
     })
