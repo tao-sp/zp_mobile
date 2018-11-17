@@ -385,6 +385,7 @@ a{
    background: #edf3fb  url("../images/bb.png") 0 0 /px2rem(750) px2rem(1687);
  }
 .sz{
+  margin-top: px2rem(80);
   width:px2rem(750);
   height:px2rem(1870);
   background: #7227f6  url("../images/sz.png") 0 0 /px2rem(750) px2rem(1870);
@@ -607,12 +608,12 @@ position: relative;
 }
 .zp-btn{
   width:px2rem(290);
-  height:px2rem(78);
+  height:px2rem(60);
   display: block;
   margin: auto;
   text-align: center;
   color: #ffffff;
-  line-height:px2rem(78);
+  line-height:px2rem(60);
   border-radius: px2rem(8);
   font-size: px2rem(24);
   background: #7227f6;
@@ -620,12 +621,59 @@ position: relative;
   -webkit-box-shadow:0px px2rem(10) 0px #d3d3d3;
   box-shadow:0px px2rem(10) 0px #d3d3d3;
 }
-.formbg{
+.zp-btn-1{
+  width:px2rem(290);
+  height:px2rem(60);
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  line-height:px2rem(60);
+  border-radius: px2rem(8);
+  font-size: px2rem(24);
+  background: #ffb400;
+  -moz-box-shadow:0px px2rem(6) 0px #969696;
+  -webkit-box-shadow:0px px2rem(6) 0px #969696;
+  box-shadow:0px px2rem(6) 0px #969696;
+}
+.formbg-1{
   width:px2rem(750);
   height:px2rem(463);
   padding-top: px2rem(660);
   margin: px2rem(80) auto px2rem(20);
   background: url("../images/formbg.png") 0 0 /px2rem(750) px2rem(1123) no-repeat;
+}
+.formbg-2{
+  position: relative;
+  width:px2rem(750);
+  height:px2rem(542);
+  padding-top: px2rem(450);
+  margin: px2rem(80) auto px2rem(20);
+  background: url("../images/formbg1.png") 0 0 /px2rem(750) px2rem(992) no-repeat;
+}
+.formbg-2-btn-1{
+  display: block;
+  width:px2rem(140);
+  height:px2rem(37);
+  position: absolute;
+  top:px2rem(336);
+  left:px2rem(60);
+}
+.formbg-2-btn-2{
+  display: block;
+  width:px2rem(140);
+  height:px2rem(37);
+  position: absolute;
+  top:px2rem(336);
+  left:px2rem(295);
+}
+.formbg-2-btn-3{
+  display: block;
+  width:px2rem(140);
+  height:px2rem(37);
+  position: absolute;
+  top:px2rem(336);
+  right:px2rem(67);
 }
 .formbg form input{
   font-size: px2rem(26);
@@ -658,6 +706,12 @@ position: relative;
   height:px2rem(772);
   margin: px2rem(80) auto 0;
   background: url("../images/bottom.png") 0 0 /px2rem(750) px2rem(772) no-repeat;
+}
+.jyfx{
+  width:px2rem(747);
+  height:px2rem(781);
+  margin: px2rem(50) auto px2rem(40);
+  background: url("../images/jyfx.png") 0 0 /px2rem(747) px2rem(781) no-repeat;
 }
 /*校区*/
 .fr{

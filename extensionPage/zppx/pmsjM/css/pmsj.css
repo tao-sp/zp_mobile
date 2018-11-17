@@ -370,6 +370,7 @@ a {
   background: #edf3fb url("../images/bb.png") 0 0/16rem 35.9893333333rem; }
 
 .sz {
+  margin-top: 1.7066666667rem;
   width: 16rem;
   height: 39.8933333333rem;
   background: #7227f6 url("../images/sz.png") 0 0/16rem 39.8933333333rem; }
@@ -608,12 +609,12 @@ a {
 
 .zp-btn {
   width: 6.1866666667rem;
-  height: 1.664rem;
+  height: 1.28rem;
   display: block;
   margin: auto;
   text-align: center;
   color: #ffffff;
-  line-height: 1.664rem;
+  line-height: 1.28rem;
   border-radius: 0.1706666667rem;
   font-size: 0.512rem;
   background: #7227f6;
@@ -621,12 +622,59 @@ a {
   -webkit-box-shadow: 0px 0.2133333333rem 0px #d3d3d3;
   box-shadow: 0px 0.2133333333rem 0px #d3d3d3; }
 
-.formbg {
+.zp-btn-1 {
+  width: 6.1866666667rem;
+  height: 1.28rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.28rem;
+  border-radius: 0.1706666667rem;
+  font-size: 0.512rem;
+  background: #ffb400;
+  -moz-box-shadow: 0px 0.128rem 0px #969696;
+  -webkit-box-shadow: 0px 0.128rem 0px #969696;
+  box-shadow: 0px 0.128rem 0px #969696; }
+
+.formbg-1 {
   width: 16rem;
   height: 9.8773333333rem;
   padding-top: 14.08rem;
   margin: 1.7066666667rem auto 0.4266666667rem;
   background: url("../images/formbg.png") 0 0/16rem 23.9573333333rem no-repeat; }
+
+.formbg-2 {
+  position: relative;
+  width: 16rem;
+  height: 11.5626666667rem;
+  padding-top: 9.6rem;
+  margin: 1.7066666667rem auto 0.4266666667rem;
+  background: url("../images/formbg1.png") 0 0/16rem 21.1626666667rem no-repeat; }
+
+.formbg-2-btn-1 {
+  display: block;
+  width: 2.9866666667rem;
+  height: 0.7893333333rem;
+  position: absolute;
+  top: 7.168rem;
+  left: 1.28rem; }
+
+.formbg-2-btn-2 {
+  display: block;
+  width: 2.9866666667rem;
+  height: 0.7893333333rem;
+  position: absolute;
+  top: 7.168rem;
+  left: 6.2933333333rem; }
+
+.formbg-2-btn-3 {
+  display: block;
+  width: 2.9866666667rem;
+  height: 0.7893333333rem;
+  position: absolute;
+  top: 7.168rem;
+  right: 1.4293333333rem; }
 
 .formbg form input {
   font-size: 0.5546666667rem;
@@ -659,6 +707,12 @@ a {
   height: 16.4693333333rem;
   margin: 1.7066666667rem auto 0;
   background: url("../images/bottom.png") 0 0/16rem 16.4693333333rem no-repeat; }
+
+.jyfx {
+  width: 15.936rem;
+  height: 16.6613333333rem;
+  margin: 1.0666666667rem auto 0.8533333333rem;
+  background: url("../images/jyfx.png") 0 0/15.936rem 16.6613333333rem no-repeat; }
 
 /*校区*/
 .fr {
