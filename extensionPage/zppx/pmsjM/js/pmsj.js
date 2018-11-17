@@ -27,6 +27,7 @@ certifySwiper = new Swiper('.hyzj1 .swiper-container', {
     loopedSlides: 5,
     touchRatio : -1,
     autoplay: 3000,
+    autoplayDisableOnInteraction : false,
     prevButton: '.hyzj1 .swiper-button-prev',
     nextButton: '.hyzj1 .swiper-button-next',
     pagination: '.hyzj1 .swiper-pagination',
