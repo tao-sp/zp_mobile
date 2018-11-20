@@ -327,7 +327,8 @@ a {
   width: 7.1893333333rem; }
 
 .title2-list li .info {
-  height: 5.76rem;
+  padding-top: 0.4266666667rem;
+  height: 5.5466666667rem;
   overflow: hidden;
   color: #8a8a8a;
   font-size: 0.4266666667rem;
@@ -353,9 +354,39 @@ a {
   box-shadow: 0px 0.1493333333rem 0px rgba(0, 0, 0, 0.3); }
 
 body {
-  background: url("../images/bodybg.png") center 37.2266666667rem/16rem 17.4933333333rem no-repeat, url("../images/bodybg.png") center 65.28rem/16rem 17.4933333333rem no-repeat; }
+  background: url("../images/bodybg.png") center 38.08rem/16rem 17.4933333333rem no-repeat, url("../images/bodybg.png") center 66.1333333333rem/16rem 17.4933333333rem no-repeat; }
 
 .title3-list {
   margin-top: 1.0666666667rem; }
+
+.banner-btn-1 {
+  display: block;
+  width: 7.04rem;
+  height: 1.216rem;
+  border-radius: 0.1706666667rem;
+  position: absolute;
+  right: 1.664rem;
+  top: 5.3333333333rem; }
+
+.banner-btn-2 {
+  display: block;
+  width: 7.04rem;
+  height: 1.216rem;
+  border-radius: 0.1706666667rem;
+  position: absolute;
+  right: 1.664rem;
+  top: 6.9546666667rem; }
+
+.banner-btn-3 {
+  display: block;
+  width: 7.04rem;
+  height: 1.216rem;
+  border-radius: 0.1706666667rem;
+  position: absolute;
+  right: 1.664rem;
+  top: 8.5973333333rem; }
+
+.banner a:hover {
+  background: rgba(0, 0, 0, 0.3); }
 
 /*# sourceMappingURL=zk.css.map */

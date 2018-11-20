@@ -646,8 +646,8 @@ position: relative;
 .formbg-2{
   position: relative;
   width:px2rem(750);
-  height:px2rem(542);
-  padding-top: px2rem(450);
+  height:px2rem(432);
+  padding-top: px2rem(560);
   margin:0 auto px2rem(20);
   background: url("../images/formbg1.png") 0 0 /px2rem(750) px2rem(992) no-repeat;
 }
@@ -685,6 +685,9 @@ position: relative;
   display: block;
   margin:px2rem(30) auto;
   padding-left: px2rem(20);
+}
+.formbg-2 form input{
+  height:px2rem(85);
 }
 .formbg-btn{
   width:px2rem(466);

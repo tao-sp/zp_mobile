@@ -375,7 +375,7 @@ a {
   margin: -6.08rem auto 1.7706666667rem;
   background: #7640d4 url("../images/form5.png") 0 0/15.1466666667rem 5.568rem no-repeat; }
 
-.form5 select {
+.form5 select, .form4 select {
   width: 13.0133333333rem;
   height: 1.28rem;
   font-size: 0.384rem;

@@ -332,7 +332,8 @@ a{
   width:px2rem(337);
 }
 .title2-list li .info{
-  height:px2rem(270);
+  padding-top: px2rem(20);
+  height:px2rem(260);
   overflow: hidden;
   color: #8a8a8a;
   font-size:px2rem(20);
@@ -358,8 +359,38 @@ a{
   box-shadow:0px px2rem(7) 0px rgba(0,0,0,0.3);
 }
 body{
-  background: url("../images/bodybg.png") center px2rem(1745) /px2rem(750) px2rem(820) no-repeat, url("../images/bodybg.png") center px2rem(3060) /px2rem(750) px2rem(820) no-repeat;
+  background: url("../images/bodybg.png") center px2rem(1785) /px2rem(750) px2rem(820) no-repeat, url("../images/bodybg.png") center px2rem(3100) /px2rem(750) px2rem(820) no-repeat;
 }
 .title3-list{
   margin-top: px2rem(50);
+}
+.banner-btn-1{
+  display: block;
+  width:px2rem(330);
+  height:px2rem(57);
+  border-radius: px2rem(8);
+  position: absolute;
+  right:px2rem(78);
+  top:px2rem(250);
+}
+.banner-btn-2{
+  display: block;
+  width:px2rem(330);
+  height:px2rem(57);
+  border-radius: px2rem(8);
+  position: absolute;
+  right:px2rem(78);
+  top:px2rem(326);
+}
+.banner-btn-3{
+  display: block;
+  width:px2rem(330);
+  height:px2rem(57);
+  border-radius: px2rem(8);
+  position: absolute;
+  right:px2rem(78);
+  top:px2rem(403);
+}
+.banner a:hover{
+  background: rgba(0,0,0,0.3);
 }

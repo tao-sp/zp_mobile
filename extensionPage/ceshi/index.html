@@ -8,5 +8,21 @@
 </head>
 <body>
 <div   class="mchat xlchat" onclick="chat()">asd</div>
+<select class="c1">
+    <option>1111</option>
+    <option>2222</option>
+</select>
+
+<script>
+    $(function () {
+        $(document).on("change", ".c1", function() {
+            var chtm="<select class=\"c1\">\n" +
+                "    <option>1111</option>\n" +
+                "    <option>2222</option>\n" +
+                "</select>";
+            $(this).after(chtm)
+        })
+    })
+</script>
 </body>
 </html>

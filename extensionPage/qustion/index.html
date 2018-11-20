@@ -72,7 +72,7 @@
             <input name="xq" type="radio" value="" id="xq3"/><label for="xq3">考试简单，容易过 </label>
             <input name="xq" type="radio" value="" id="xq4"/><label for="xq4">学费便宜 </label>
         </div>
-        <div class="qustion-title">
+     <!--   <div class="qustion-title">
             <span>5.</span>您想通过哪种形式来提升学历？
         </div>
         <div class="input-group">
@@ -80,9 +80,9 @@
             <input name="xs" type="radio" value="2" id="xs2" /><label for="xs2">成人高考 </label>
             <input name="xs" type="radio" value="3" id="xs3"/><label for="xs3">网络教育 </label>
             <input name="xs" type="radio" value="4" id="xs4"/><label for="xs4">广东开放大学 </label>
-        </div>
+        </div>-->
         <div class="qustion-title">
-            <span>6.</span>以下专业，您最想选择的是哪个？
+            <span>5.</span>以下专业，您最想选择的是哪个？
         </div>
         <div class="input-group">
             <input name="zy" type="radio" value="" id="zy1" /><label for="zy1">艺术设计（平面方向）</label>
@@ -99,7 +99,7 @@
 
         </div>
         <div class="qustion-title">
-            <span>7.</span>以下学习方式，您更想通过哪些途径来学习？（多选）
+            <span>6.</span>以下学习方式，您更想通过哪些途径来学习？（多选）
         </div>
         <div class="input-group">
             <input name="fs" type="checkbox" value="" id="fs1" /><label for="fs1">在线直播 </label>
@@ -185,7 +185,11 @@
 
 <script>
   function submitForm() {
-      var res = $("input[name='xs']:checked").val();
+
+      var list=[1,1,2,1,3,3,1,2,3,4];
+      var num=Math.floor(Math.random()*10+1);
+      var res = list[num];
+     /* var res = $("input[name='xs']:checked").val();*/
       if (res==null||res==" "||res=="undefined"){
           alert("请完成测评！")
       }else{

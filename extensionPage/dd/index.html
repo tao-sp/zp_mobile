@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>广东开放大学报考中心</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/xl.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/xl.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<div class="banner-bg">
+    <div class="banner">
+        <div class="banner-title">
+            广东开放大学
+            <span>（电视大学）中鹏分校</span>
+        </div>
+        <div class="line"></div>
+        <div class="banner-title-1">
+            深圳教育局备案机构
+            <span>学信网终身可查</span>
+        </div>
+        <div class="banner-tips">本次报名截止时间</div>
+        <div class="banner-time">
+            <span class="jsmonth">9</span>月<span class="jsday">7</span>日
+        </div>
+        <a class="banner-btn" onclick="mantis.requestChat()">热门专业/费用查询</a>
+        <a class="banner-btn" onclick="mantis.requestChat()">申请减考高数/英语</a>
+        <a class="banner-btn" onclick="mantis.requestChat()">领取考过再交费资格</a>
+        <div class="banner-tips-1">*2018年<span class="jsmonth">9</span>月<span class="jsday">7</span>日18：00截止*</div>
+    </div>
+</div>
+<!--测试题开始-->
+<div class="xl-cst">
+    <div class="major-title">
+        测一测<br>
+        您毕业需要多久时间？
+    </div>
+    <form  class="xl-form">
+        <div class="xlcp-form-title">
+            <span>1.您目前的学历层次？</span>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" class="rdo" value="小学" name="education" id="xl22"><label for="xl22">小学</label>
+                    </td>
+                    <td>
+                        <input type="radio" class="rdo" value="初中" name="education"  id="xl11"><label for="xl11">初中</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" class="rdo" value="高中" name="education" id="xl33"><label for="xl33">高中</label>
+                    </td>
+                    <td>
+                        <input type="radio" class="rdo" value="大专" name="education"  id="xl44"><label for="xl44">大专</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="xlcp-form-title">
+            <span>2. 您的年龄段？</span>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" class="rdo"  value="18~23岁" checked id="nld1"><label for="nld1">18~23岁</label>
+                    </td>
+                    <td>
+                        <input type="radio" class="rdo" value="24~30岁"  id="nld2"><label for="nld2">24~30岁</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" class="rdo"  value="30~40岁" id="nld3"><label for="nld3">30~40岁</label>
+                    </td>
+                    <td>
+                        <input type="radio" class="rdo" value="40岁以上" id="nld4"><label for="nld4">40岁以上</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="xlcp-form-title">
+            <span>3.您需要提升到什么学历层次？</span>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" class="rdo" value="本科" id="yt1"><label for="yt1">本科</label>
+                    </td>
+                    <td>
+                        <input type="radio" class="rdo" value="专科" id="yt2"><label for="yt2">专科</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="xlcp-form-title">
+            <span>4. 您为什么想提升学历？</span>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" class="rdo" value="升职加薪"  id="hj1"><label for="hj1">升职加薪</label>
+                    </td>
+                    <td>
+                        <input type="radio" class="rdo" value="积分入户" id="hj2"><label for="hj2">积分入户</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" class="rdo" value="考公务员" id="hj3"><label for="hj3">考公务员</label>
+                    </td>
+                    <td>
+                        <input type="radio" class="rdo" value="其他" id="hj5"><label for="hj5">其他</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="xl-from-input">
+            <input placeholder="请输入您的姓名" name="name">
+            <input placeholder="请输入您的电话" name="phone">
+            <a class="banner-btn" >立刻获取测评结果</a>
+        </div>
+    </form>
+    <div class="banner-tips-1">*评测结果会以短信方式发送，请注意查收*</div>
+    <i class="icon"></i>
+</div>
+<!--测试题结束-->
+
+
+<div class="major">
+    <div class="major-title">
+        热门院校报考专业一览
+    </div>
+
+
+    <img src="images/major2.png" class="major-img">
+    <div class="major-info">
+        报考专业：行政管理
+    </div>
+    <div class="major-tips">
+        相对其他专业通过率较高<br>
+        简单易考,模拟题覆盖大部分考点<br>
+        管理岗位必修课程，就业面广<br>
+        专本连读少花一半精力
+    </div>
+    <a class="banner-btn" onclick="mantis.requestChat()">考试科目及费用  >></a>
+    <div class="banner-tips-1">*2018年<span class="jsmonth">9</span>月<span class="jsday">7</span>日24：00截止*</div>
+
+
+    <img src="images/major3.png" class="major-img">
+    <div class="major-info">
+        报考专业：市场营销
+    </div>
+    <div class="major-tips">
+        工作稳定，就业机会多<br>
+        会计晋升路线清晰，越老越吃香<br>
+        薪酬可观，职业地位高
+    </div>
+
+
+    <a class="banner-btn" onclick="mantis.requestChat()">考试科目及费用  >></a>
+    <div class="banner-tips-1">*2018年<span class="jsmonth">9</span>月<span class="jsday">7</span>日24：00截止*</div>
+
+
+    <img src="images/major1.png" class="major-img">
+    <div class="major-info">
+        报考专业： 商务英语
+    </div>
+    <div class="major-tips">
+        英语作为一种交流工具<br>
+        显然比其他专业的适用范围更广泛<br>
+        我国仍然缺乏高端英语专业人才<br>
+        就业面广，薪资高
+    </div>
+    <a class="banner-btn" onclick="mantis.requestChat()">考试科目及费用  >></a>
+    <a class="banner-btn" onclick="mantis.requestChat()">获取更多院校及专业  >></a>
+    <div class="banner-tips-1">*2018年<span class="jsmonth">9</span>月<span class="jsday">7</span>日24：00截止*</div>
+
+    <i class="icon"></i>
+    <div class="major-title">
+        深圳中鹏教育圆梦助学计划
+    </div>
+    <img src="images/major4.png" class="major-img">
+    <div class="major-tips-1">
+        <p>在这个城市，很多时候，我们怀揣梦想，却因为学历低而被拒之门外。</p>
+        <p>为了帮助众多学员，让人人学得起本科，今天我们再次推出“中鹏教育圆梦助学计划”每位报名学员提交资料申请，即可获得免费入学资格，助您实现人生梦想，拥有美好未来。</p>
+    </div>
+
+</div>
+
+<form class="xl-from-input">
+   <!-- <input placeholder="请输入您的姓名" name="name">-->
+    <input placeholder="请输入手机号码" name="phone">
+    <a class="banner-btn" >获取1000元助学金</a>
+</form>
+<div class="banner-tips-1">*2018年<span class="jsmonth">9</span>月<span class="jsday">7</span>日24：00截止*</div>
+
+
+
+<!--悬浮导航-->
+<ul class="floating-nav clearfix">
+    <li><a onclick="mantis.requestChat()">热门专业</a></li>
+    <li><a onclick="mantis.requestChat()">报名费用</a></li>
+    <li><a onclick="mantis.requestChat()">报考流程</a></li>
+    <li><a onclick="mantis.requestChat()">考证时间</a></li>
+</ul>
+<!--悬浮导航-->
+<div class="bottom">
+    备案号: 粤ICP备09069122号-6<br>
+    深圳市中鹏教育科技股份有限公司
+</div>
+
+<!--螳螂科技探头代码2018-09-10-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5be40657f12a5f0852b8c848"></script>
+<!--螳螂科技探头代码2018-09-10-->
+</body>
+</html>

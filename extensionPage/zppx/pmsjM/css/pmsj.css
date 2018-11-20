@@ -647,8 +647,8 @@ a {
 .formbg-2 {
   position: relative;
   width: 16rem;
-  height: 11.5626666667rem;
-  padding-top: 9.6rem;
+  height: 9.216rem;
+  padding-top: 11.9466666667rem;
   margin: 0 auto 0.4266666667rem;
   background: url("../images/formbg1.png") 0 0/16rem 21.1626666667rem no-repeat; }
 
@@ -686,6 +686,9 @@ a {
   display: block;
   margin: 0.64rem auto;
   padding-left: 0.4266666667rem; }
+
+.formbg-2 form input {
+  height: 1.8133333333rem; }
 
 .formbg-btn {
   width: 9.9413333333rem;
