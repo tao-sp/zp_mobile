@@ -352,6 +352,7 @@ a{
   background: url("../images/tskcbg.png") px2rem(200) px2rem(190) /px2rem(750) px2rem(400) no-repeat;
 }
 .shx{
+  margin-top: px2rem(60);
   color: #c79f62;
   font-size: px2rem(30);
   font-weight: bold;
@@ -442,15 +443,23 @@ a{
   background: #333333;
 }
 .footer-nav {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: px2rem(75);
   width:px2rem(710);
   margin: auto;
   font-size: px2rem(17);
   color: #666666;
 }
 .footer-nav a{
-  margin: 0 px2rem(15);
+  margin: 0 ;
 }
 .footer-info{
+  width:px2rem(635);
+  margin: auto;
+  border-top: 1px solid #666666;
+  line-height: px2rem(59);
   text-align: center;
   font-size: px2rem(16);
   color: #535353;

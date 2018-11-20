@@ -348,6 +348,7 @@ a {
   background: url("../images/tskcbg.png") 4.2666666667rem 4.0533333333rem/16rem 8.5333333333rem no-repeat; }
 
 .shx {
+  margin-top: 1.28rem;
   color: #c79f62;
   font-size: 0.64rem;
   font-weight: bold;
@@ -438,15 +439,23 @@ a {
   background: #333333; }
 
 .footer-nav {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.6rem;
   width: 15.1466666667rem;
   margin: auto;
   font-size: 0.3626666667rem;
   color: #666666; }
 
 .footer-nav a {
-  margin: 0 0.32rem; }
+  margin: 0; }
 
 .footer-info {
+  width: 13.5466666667rem;
+  margin: auto;
+  border-top: 1px solid #666666;
+  line-height: 1.2586666667rem;
   text-align: center;
   font-size: 0.3413333333rem;
   color: #535353; }
