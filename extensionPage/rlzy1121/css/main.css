@@ -1,0 +1,2896 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+button {
+    outline: none;
+    font-family: "microsoft yahei";
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background: #fff;
+    font-family: "microsoft yahei";
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+
+
+.button {
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button > span {
+    vertical-align: middle;
+}
+
+.banner {
+    background: url("../images/banner.jpg") no-repeat center;
+    height: 680px;
+    padding-top: 20px;
+}
+
+.header {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 837px;
+    float: left;
+}
+
+.header_phone {
+    width: 240px;
+    float: right;
+    margin-top: 14px;
+}
+
+.top_p{
+    font-size:16px;
+    color:#feeb5a;
+    line-height: 1;
+    text-align:center;
+}
+
+.nav {
+    background: rgba(39, 107, 234, 0.52);
+    width: 1200px;
+    height: 60px;
+    border-radius: 3px;
+    margin: 23px auto 0;
+}
+
+.nav ul {
+    background: #5490ff;
+    width: 100%;
+    height: 56px;
+    border-radius: 3px;
+}
+
+.nav li {
+    width: 171px;
+    height: 56px;
+    float: left;
+    cursor: pointer;
+}
+
+.nav li:nth-child(3), .nav li:nth-child(4), .nav li:nth-child(5) {
+    width: 172px;
+}
+
+.nav li:last-child {
+    background: none;
+}
+
+.nav li .nav_a {
+    width: 169px;
+    height: 43px;
+    padding: 13px 0 0 0;
+    display: block;
+}
+
+.nav li:first-child .nav_a {
+    border-radius: 3px 0 0 3px;
+}
+
+.nav li:last-child .nav_a {
+    width: 171px;
+    border-radius: 0 3px 3px 0;
+}
+
+.nav li:nth-child(3) .nav_a, .nav li:nth-child(4) .nav_a, .nav li:nth-child(5) .nav_a {
+    width: 170px;
+}
+
+.nav li .nav_a:hover {
+    background-color: #f3de25;
+}
+
+.nav_C {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+}
+
+.nav li .nav_a:hover .nav_C {
+    color: #507ed7;
+}
+
+.nav_E {
+    display: block;
+    height: 10px;
+    margin-top: 7px;
+}
+
+.nav li .nav_a:hover .nav_E {
+    background-position: 0 -10px;
+}
+
+.nav_E2 {
+    background-position: -171px 0;
+}
+
+.nav li .nav_a:hover .nav_E2 {
+    background-position: -171px -10px;
+}
+
+.nav_E3 {
+    background-position: -342px 0;
+}
+
+.nav li .nav_a:hover .nav_E3 {
+    background-position: -342px -10px;
+}
+
+.nav_E4 {
+    background-position: -513px 0;
+}
+
+.nav li .nav_a:hover .nav_E4 {
+    background-position: -513px -10px;
+}
+
+.nav_E5 {
+    background-position: -684px 0;
+}
+
+.nav li .nav_a:hover .nav_E5 {
+    background-position: -684px -10px;
+}
+
+.nav_E6 {
+    background-position: -855px 0;
+}
+
+.nav li .nav_a:hover .nav_E6 {
+    background-position: -855px -10px;
+}
+
+.nav_E7 {
+    background-position: -1026px 0;
+}
+
+.nav li .nav_a:hover .nav_E7 {
+    background-position: -1026px -10px;
+}
+
+.banner_con {
+    margin: 80px 0 0 0;
+}
+
+.banner_tit {
+    background: url("../images/banner-title.png") no-repeat center 0;
+    height: 234px;
+    text-indent: -9999px;
+}
+
+.banner_ul {
+    width: 674px;
+    margin: 45px auto 0;
+}
+
+.banner_ul li {
+    width: 111px;
+    height: 88px;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    border-radius: 100%;
+    float: left;
+    margin-left: 74px;
+    padding-top: 23px;
+}
+
+.banner_ul li:first-child {
+    margin-left: 0;
+}
+
+.banner_ul li:hover {
+    border-color: #fb7f73;
+}
+
+.banner_icon {
+    background: url("../images/banner_icon.png") no-repeat 0 0;
+    width: 32px;
+    height: 28px;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner_ul li:hover .banner_icon {
+    background-position: -32px 0;
+}
+
+.banner_icon2 {
+    background-position: 0 -28px;
+}
+
+.banner_ul li:hover .banner_icon2 {
+    background-position: -32px -28px;
+}
+
+.banner_icon3 {
+    background-position: 0 -57px;
+}
+
+.banner_ul li:hover .banner_icon3 {
+    background-position: -32px -57px;
+}
+
+.banner_icon4 {
+    background-position: 0 -84px;
+}
+
+.banner_ul li:hover .banner_icon4 {
+    background-position: -32px -84px;
+}
+
+.banner_h3 {
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    margin: 16px 0 0 0;
+}
+
+.banner_ul li:hover .banner_h3 {
+    color: #fb7f73;
+}
+
+.banner-btns {
+    width: 604px;
+    margin: 78px auto 0;
+}
+
+.banner_btn_biga {
+    background: #f97f73;
+    width: 272px;
+    height: 64px;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    letter-spacing: 4px;
+    box-shadow: inset 0px 6px 9px rgba(26, 65, 48, 0.12), 0px 0px 10px 10px rgba(86, 85, 87, 0.22);
+}
+
+.banner_btn_bigb {
+    background: #9687e4;
+    width: 272px;
+    height: 64px;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    float: right;
+    letter-spacing: 4px;
+    box-shadow: inset 0px 6px 9px rgba(26, 65, 48, 0.12), 0px 0px 10px 10px rgba(86, 85, 87, 0.22);
+}
+
+/**/
+.six {
+    height: 418px;
+    padding-top: 82px;
+}
+
+.six_con {
+    width: 1143px;
+    margin: 0 auto;
+}
+
+.six_con li {
+    width: 173px;
+    float: left;
+    margin-left: 20px;
+}
+
+.six_con li:first-child {
+    margin-left: 0;
+}
+
+.six_box {
+    /*background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/six_box.png") no-repeat 0 0;*/
+    width: 173px;
+    height: 166px;
+    overflow: hidden;
+    padding-top: 43px;
+}
+.six_con li:nth-child(1) .six_box{
+    border: 1px solid #fab83a;
+}
+.six_con li:nth-child(2) .six_box{
+    border: 1px solid #23d2ef;
+}
+.six_con li:nth-child(3) .six_box{
+    border: 1px solid #f97f73;
+}
+.six_con li:nth-child(4) .six_box{
+    border: 1px solid #2ed2b5;
+}
+.six_con li:nth-child(5) .six_box{
+    border: 1px solid #9687e4;
+}
+.six_con li:nth-child(6) .six_box{
+    border: 1px solid #b179c2;
+}
+.six_con li:nth-child(1):hover .six_box{
+    background:  #fef1d8;
+}
+.six_con li:nth-child(2):hover  .six_box{
+    background:  #d3f6fc;
+}
+.six_con li:nth-child(3):hover  .six_box{
+    background:  #fee5e3;
+}
+.six_con li:nth-child(4):hover  .six_box{
+    background:  #d5f6f0;
+}
+.six_con li:nth-child(5):hover  .six_box{
+    background: #eae7fa;
+}
+.six_con li:nth-child(6):hover  .six_box{
+    background:  #efe4f3;
+}
+.six_con li:hover .six_box, .six_con li.hover .six_box {
+   /* background-position: -153px 0;*/
+}
+
+.six_h3 {
+    font-size: 24px;
+    color: #5c5c5c;
+    text-align: center;
+    line-height: 1;
+}
+
+.mt42 {
+    margin-top: 42px;
+}
+
+.six_con li:hover .six_h3, .six_con li.hover .six_h3 {
+   /* color: #fff;*/
+}
+
+.six_p {
+    font-size: 16px;
+    color: #5c5c5c;
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+    margin: 13px 0 0 0;
+}
+
+.six_p strong {
+    font-weight: normal;
+}
+.six_con li:nth-child(2) .six_p strong{
+    color: #23d2ef;
+}
+.six_con li:nth-child(3) .six_p strong{
+    color: #f97f73;
+}
+.six_con li:nth-child(4) .six_p strong{
+    color: #2ed2b5;
+}
+.six_con li:nth-child(5) .six_p strong{
+    color: #9687e4;
+}
+.six_con li:nth-child(6) .six_p strong{
+    color: #b179c2;
+}
+.six_con li:hover .six_p, .six_con li.hover .six_p {
+   /* color: #fff;*/
+}
+
+
+
+.six_btn {
+    width: 140px;
+    height: 36px;
+    border: none;
+    border-radius: 36px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    margin: 40px auto 0;
+}
+.six_con li:nth-child(1) .six_btn{
+    background: #fab83a;
+    box-shadow: 4px 4px 0 #fef1d8;
+}
+.six_con li:nth-child(2) .six_btn{
+    background: #23d2ef;
+    box-shadow: 4px 4px 0 #d3f6fc;
+}
+.six_con li:nth-child(3) .six_btn{
+    background: #f97f73;
+    box-shadow: 4px 4px 0 #fee5e3;
+}
+.six_con li:nth-child(4) .six_btn{
+    background: #2ed2b5;
+    box-shadow: 4px 4px 0 #d5f6f0;
+}
+.six_con li:nth-child(5) .six_btn{
+    background: #9687e4;
+    box-shadow: 4px 4px 0 #eae7fa;
+}
+.six_con li:nth-child(6) .six_btn{
+    background: #b179c2;
+    box-shadow: 4px 4px 0 #efe4f3;
+}
+.six_con li:hover .six_btn, .six_con li.hover .six_btn {
+    box-shadow: none;
+}
+
+.six_btn:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.six_btn2 {
+    margin-top: 0;
+}
+
+.six_icon {
+    background: url("../images/six_icon.png") no-repeat 0 0;
+    width: 128px;
+    height: 128px;
+    margin: 21px auto 0;
+}
+
+.six_icon2 {
+    background-position: 0 -151px;
+}
+
+
+
+.six_icon3 {
+    background-position: 0 -296px;
+}
+
+
+
+.six_icon4 {
+    background-position: 0 -443px;
+}
+
+
+
+.six_icon5 {
+    background-position: 0 -586px;
+}
+
+
+.six_icon6 {
+    background-position: 0 -733px;
+}
+
+
+.before_h3 {
+    font-size: 22px;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px 0 0 0;
+}
+
+/**/
+.solve {
+    height: 669px;
+    padding-top: 92px;
+}
+
+.solve_title {
+    height: 85px;
+    text-indent: -9999px;
+}
+
+.solve_con {
+    background: #fff;
+    border: #c9c9c9 1px dotted;
+    border-radius: 6px;
+    width: 1082px;
+    height: 380px;
+    padding: 27px 30px 0 26px;
+    margin: 75px auto 0;
+}
+
+.solve_l {
+    width: 483px;
+    padding: 0 4px 0 8px;
+    float: left;
+}
+
+.solve_l li {
+    overflow: hidden;
+    padding: 7px 0;
+    border-bottom: #e0e0e0 1px dashed;
+}
+
+.solve_p {
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.solve_p.red{
+    color: #fd7365;
+}
+
+.solve_p:hover{
+    color: #fd7365;
+}
+
+.solve_hot{
+    width: 42px;
+    height:14px;
+    position: absolute;
+    top:8px;
+    right:-48px;
+}
+
+.solve_btn {
+    width: 92px;
+    height:30px;
+    background:#fb7f73;
+    border: none;
+    border-radius: 3px;
+    font-size:16px;
+    color: #fff;
+    display: block;
+    float: right;
+    box-shadow: inset 0 3px 6px rgba(26,65,48,0.12),0 2px 2px rgba(56,56,56,0.11);
+}
+
+.solve_btn:hover{
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+}
+
+.solve_k{
+    width: 56px;
+    float: left;
+    margin: 11px 0 0 11px;
+}
+
+.solve_r{
+    width: 508px;
+    float: right;
+}
+
+.solve_pic{
+    width: 508px;
+    height:101px;
+    padding-top: 55px;
+}
+
+.solve_h3{
+    background: rgba(0,0,0,0.52);
+    width: 367px;
+    height:44px;
+    border: #5690fe 1px solid;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-size: 26px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    line-height: 44px;
+}
+
+.solve_list{
+    width: 100%;
+    margin: 11px 0 0 0;
+}
+
+.solve_a{
+    background: #fff;
+    width: 94px;
+    height:38px;
+    border: #e7e6e6 1px solid;
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: #5c5c5c;
+    text-align: center;
+    line-height: 38px;
+    margin: 6px 0 0 6px;
+    cursor: pointer;
+}
+
+.solve_a:nth-child(1),.solve_a:nth-child(6),.solve_a:nth-child(11),.solve_a:nth-child(16){
+    margin-left: 0;
+}
+
+.solve_a:nth-child(even){
+    background: #f5f5f5;
+}
+
+.solve_a:hover{
+    background: #578aed;
+    border-color: #578aed;
+    color: #fff;
+}
+
+.solve_more{
+    background:#fb7f73;
+    width: 96px;
+    height:40px;
+    display: block;
+    float: left;
+    margin: 6px 0 0 6px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 3px 6px rgba(26,65,48,0.12);
+}
+
+.solve_shaow {
+    height: 45px;
+}
+
+/**/
+
+.conditions {
+    padding-top: 90px;
+}
+
+.conditions_title {
+    background: url("../images/conditions_tit.png") no-repeat center 0;
+    height: 164px;
+    width:1200px;
+    margin: auto;
+    text-indent: -9999px;
+}
+
+.conditions_con {
+    width: 1120px;
+    margin: 55px auto 0;
+    padding-bottom: 20px;
+}
+
+.cUl1 > li {
+    width: 355px;
+    height: 427px;
+    float: left;
+    margin-left: 22px;
+    border: 1px solid #fab83a;
+   border-top-width: 14px;
+}
+.cUl1 > li:nth-child(1) {
+   border-color: #fab83a;
+}
+.cUl1 > li:nth-child(2) {
+    border-color: #f97f73;
+}
+.cUl1 > li:nth-child(3) {
+    border-color: #9687e4;
+}
+.cUl1 > li:first-child {
+    margin-left: 0;
+}
+
+.cUl1_tit {
+    width: 326px;
+    height: 185px;
+    margin:  auto ;
+    cursor: pointer;
+}
+
+.cUl1_tit2 {
+}
+
+.cUl1_tit3 {
+}
+
+.conditions_h3 {
+    font-size: 24px;
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+    line-height: 62px;
+}
+
+
+.conditions_list {
+    width: 329px;
+    height:150px;
+    margin: 0 auto 0;
+}
+
+
+.cUl2  {
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+    line-height: 30px;
+}
+
+.cU-btn{
+    width: 140px;
+    height: 36px;
+    border: none;
+    border-radius: 36px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    line-height:36px;
+    margin:  20px auto 0;
+}
+.cUl1 > li:hover {
+    -webkit-animation: anim-moema-1 0.3s forwards;
+    animation: anim-moema-1 0.3s forwards;
+}
+.cUl1 > li:nth-child(1) .cU-btn{
+    background: #fab83a;
+    box-shadow: 4px 4px 0 #fef1d8;
+}
+.cUl1 > li:nth-child(2) .cU-btn{
+    background: #f97f73;
+    box-shadow: 4px 4px 0 #fee5e3;
+}
+.cUl1 > li:nth-child(3) .cU-btn{
+    background: #9687e4;
+    box-shadow: 4px 4px 0 #eae7fa;
+}
+.conditions_box {
+    background: -webkit-linear-gradient(top, #497af1, #5690fe);
+    background: -o-linear-gradient(top, #497af1, #5690fe);
+    background: -moz-linear-gradient(top, #497af1, #5690fe);
+    background: linear-gradient(top, #497af1, #5690fe);
+    width: 1102px;
+    height: 415px;
+    margin: 0 auto;
+    border: 9px #1829c1 solid;
+}
+
+.conditions_l {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/conditions_line.png") no-repeat right 0;
+    width: 696px;
+    height: 415px;
+    float: left;
+}
+
+.conditions_tit {
+    background: rgba(255, 255, 255, 0.1);
+    width: 679px;
+    height: 102px;
+    padding: 20px 0 0 17px;
+}
+
+.conditions_h3a {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/conditions_icon2.png") no-repeat 0 0;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    padding: 11px 0 0 100px;
+    height: 71px;
+}
+
+.conditions_axis {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/conditions_axis.png") no-repeat 0 center;
+    padding-left: 24px;
+    margin: 39px 0 0 30px;
+}
+
+.conditions_axis li {
+    overflow: hidden;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.conditions_axis li:first-child {
+    margin-top: 0;
+}
+
+.conditions_years {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/conditions_years.png") no-repeat 0 0;
+    width: 68px;
+    height: 25px;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    padding-left: 7px;
+}
+
+.conditions_p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    float: left;
+    margin: 0 0 0 24px;
+}
+
+.conditions_p .ml20 {
+    margin-left: 20px;
+}
+
+.conditions_axis li:hover .conditions_p {
+    color: #fcff2a;
+}
+
+.conditions_form {
+    width: 406px;
+    float: right;
+}
+
+.conditions_div {
+    background: #fff;
+    width: 332px;
+    height: 60px;
+    border-radius: 3px;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12);
+    margin: 62px auto 0;
+}
+
+.condition_icon {
+    width: 22px;
+    height: 26px;
+    display: block;
+    float: left;
+    margin: 16px 0 0 10px;
+}
+
+.condition_icon2 {
+    background-position: 0 -26px;
+}
+
+.users, .mobile {
+    background: transparent;
+    width: 280px;
+    height: 60px;
+    border: none;
+    float: right;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #5c5c5c;
+    line-height: 60px;
+}
+
+.conditions ::-webkit-input-placeholder {
+    color: #a2a2a2;
+    opacity: 1;
+}
+
+.conditions :-moz-placeholder {
+    color: #a2a2a2;
+    opacity: 1;
+}
+
+.conditions ::-moz-placeholder {
+    color: #a2a2a2;
+    opacity: 1;
+}
+
+
+
+.mt27 {
+    margin-top: 27px;
+}
+
+.conditions_zhu {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/conditions_icon3.png") no-repeat 0 -52px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 26px;
+    padding-left: 33px;
+    margin: 27px 0 0 47px;
+}
+
+.conditions_btn {
+    background: #fb7f73;
+    width: 332px;
+    height: 64px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    margin: 32px auto 0;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12), 0 5px 5px rgba(56, 56, 56, 0.11);
+}
+
+/**/
+
+.peer {
+    height: 705px;
+    padding-top: 87px;
+}
+
+.peer_title {
+    background: url("../images/peer_tit.png") no-repeat center 0;
+    height: 124px;
+    text-indent: -9999px;
+}
+
+.peer_stitle {
+    font-size: 26px;
+    color: #5c5c5c;
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+    margin: 9px 0 0 0;
+}
+
+.peer_stitle strong {
+    color: #fb7f73;
+    font-weight: 500;
+}
+
+.peer_con {
+    background: url("../images/peer_con.png") no-repeat 168px 0;
+    width: 1100px;
+    height: 551px;
+    margin: 120px auto 0;
+    position: relative;
+}
+
+.peer_c1 {
+    position: absolute;
+    top: -65px;
+    left: 130px;
+    width: 403px;
+    height: 155px;
+    overflow: hidden;
+}
+
+.peer_h4 {
+    font-size: 26px;
+    color: #5c5c5c;
+    line-height: 1;
+    float: left;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+
+.peer_words {
+    width: 172px;
+    float: left;
+}
+
+.peer_p1 {
+    font-family: SimHei;
+    font-size: 24px;
+    color: #5c5c5c;
+    line-height: 1;
+    text-align: right;
+}
+
+.peer_c3 .peer_p1 strong {
+    color: #31cff0;
+}
+
+.peer_c2 .peer_p1 strong {
+    color: #f896a1;
+}
+
+.peer_c1 .peer_p1 strong {
+    color: #f5cf59;
+}
+
+.peer_p2 {
+    width: 172px;
+    height: 29px;
+    font-size: 18px;
+    color: #7f7f7f;
+    line-height: 29px;
+    text-align: center;
+    border: #92b7fd 1px solid;
+    margin-top: 3px;
+}
+.peer_c3 .peer_p2 {
+    border-color: #31cff0;
+}
+
+.peer_c2 .peer_p2  {
+    border-color: #eb717f;
+}
+
+.peer_c1 .peer_p2  {
+    border-color: #e0b534;
+}
+.peer_p3 {
+    font-size: 18px;
+    color: #7f7f7f;
+    line-height: 1;
+    margin: 4px 0 0 0;
+    text-align: right;
+}
+
+.peer_p4 {
+    font-size: 26px;
+    color: #7f7f7f;
+    line-height: 1;
+    font-weight: bold;
+    margin: 8px 0 0 0;
+    text-align: right;
+}
+
+.peer_c3 .peer_p4 strong {
+    color: #31cff0;
+}
+
+.peer_c2 .peer_p4 strong {
+    color: #eb717f;
+}
+
+.peer_c1 .peer_p4 strong {
+    color: #e0b534;
+}
+
+.peer_btn {
+    width: 122px;
+    height: 30px;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 9px 0 0 0;
+    float: right;
+}
+
+.peer_c3 .peer_btn {
+    background: #31cff0;
+}
+
+.peer_c2 .peer_btn{
+    background: #eb717f;
+}
+
+.peer_c1 .peer_btn {
+    background: #e0b534;
+}
+.peer_btn:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.peer_c2 {
+    position: absolute;
+    top: 43px;
+    right: 0;
+    width: 352px;
+    height: 155px;
+    overflow: hidden;
+}
+
+.peer_c2 .peer_h4 {
+    margin-left: 0;
+    margin-top: 46px;
+}
+
+.peer_c2 .peer_words {
+    width: 155px;
+    margin-left: 39px;
+}
+
+.peer_c2 .peer_p2 {
+    width: 155px;
+}
+
+.peer_c3 {
+    position: absolute;
+    top: 218px;
+    left: 6px;
+    width: 372px;
+    height: 155px;
+    overflow: hidden;
+}
+
+.peer_c3 .peer_h4 {
+    margin-top: 2px;
+}
+
+.peer_c3 .peer_words {
+    width: 142px;
+}
+
+.peer_c3 .peer_p2 {
+    width: 140px;
+}
+
+.peer_c3 .peer_btn {
+    font-size: 16px;
+}
+
+.peer_c4 {
+    position: absolute;
+    top: 236px;
+    right: 3px;
+    width: 314px;
+    height: 155px;
+    overflow: hidden;
+}
+
+.peer_c4 .peer_h4 {
+    margin-left: 0;
+    margin-top: 28px;
+}
+
+.peer_c4 .peer_words {
+    width: 118px;
+    margin-left: 39px;
+}
+
+.peer_c4 .peer_p2 {
+    width: 116px;
+}
+
+/**/
+.think {
+    height: 514px;
+    padding-top: 83px;
+}
+
+.think_title {
+    background: url("../images/think_tit.png") no-repeat center 0;
+    height: 55px;
+    text-indent: -9999px;
+}
+
+.think_stitle {
+    font-size: 26px;
+    color: #5c5c5c;
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+    margin: 9px 0 0 0;
+}
+
+.think_stitle strong {
+    color: #fb7f73;
+    font-weight: 500;
+}
+
+.think_stitle .ml8 {
+    margin-left: 8px;
+}
+
+.xinxi_solution_bg {
+    width: 1100px;
+    margin: 4px auto 0;
+}
+
+.xinxi_solution_main ul {
+    overflow: hidden;
+    height: 401px;
+}
+
+.xinxi_solution_main .main_mobile {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/think_con.png") no-repeat 0 0;
+    height: 357px;
+    width: 100%;
+    padding-top: 79px;
+}
+
+.xinxi_solution_main ul li {
+    height: 321px;
+    float: left;
+    width: 62px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin-left: 1px;
+}
+
+.xinxi_solution_main ul li .left_top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 62px;
+    height: 301px;
+    padding-top: 20px;
+}
+
+.think_icon {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/think_icon.png") no-repeat 0 0;
+    width: 38px;
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+}
+
+.think_icon2 {
+    background-position: 0 -38px;
+}
+
+.think_icon3 {
+    background-position: 0 -76px;
+}
+
+.think_icon4 {
+    background-position: 0 -114px;
+}
+
+.think_icon5 {
+    background-position: 0 -152px;
+}
+
+.think_icon6 {
+    background-position: 0 -190px;
+}
+
+.think_h4a {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.xinxi_solution_main ul li .left {
+    background: #fab83a;
+    float: left;
+    width: 62px;
+    height: 321px;
+}
+
+.xinxi_solution_main ul li:nth-child(2) .left {
+    background: #23d2ef;
+}
+
+.xinxi_solution_main ul li:nth-child(3) .left {
+    background: #fb7f73;
+}
+
+.xinxi_solution_main ul li:nth-child(4) .left {
+    background: #2ed2b5;
+}
+
+.xinxi_solution_main ul li:nth-child(5) .left {
+    background: #9687e4;
+}
+
+.xinxi_solution_main ul li:nth-child(6) .left {
+    background: #b179c2;
+}
+
+.xinxi_solution_main ul li .right {
+    float: left;
+    width: 722px;
+    position: relative;
+    height: 321px;
+}
+
+.think_pic {
+    width: 336px;
+    height: 264px;
+    float: left;
+    margin: 38px 0 0 33px;
+}
+
+.think_box {
+    width: 310px;
+    float: left;
+    margin: 50px 0 0 40px;
+}
+
+.mt34 {
+    margin-top: 34px;
+}
+
+.mt42 {
+    margin-top: 42px;
+}
+
+.think_h4 {
+    font-size: 22px;
+    color: #5c5c5c;
+    line-height: 1;
+}
+
+.think_h4 strong {
+    color: #fab83a;
+}
+
+.think_h4 .ml10 {
+    margin-left: 10px;
+}
+
+.think_p {
+    background: #fab83a;
+    width: 194px;
+    height: 24px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.think_p2 {
+    width: 244px;
+    background: #23d2ef;
+}
+
+.think_p3 {
+    width: 230px;
+    background: #fb7f73;
+}
+
+.think_p4 {
+    width: 266px;
+    background: #2ed2b5;
+}
+
+.think_p5 {
+    width: 210px;
+    background: #9687e4;
+}
+
+.think_p6 {
+    width: 220px;
+    background: #b179c2;
+}
+
+.think_dl {
+    margin-top: 18px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.think_dl dd {
+    background-image: url("../images/star.png");
+    font-size: 16px;
+    color: #5c5c5c;
+    line-height: 30px;
+    padding-left: 23px;
+    background-repeat: no-repeat;
+}
+
+.think_dl.mt10 dd {
+    line-height: 28px;
+}
+
+.star2 dd{
+    background-position: -30px -22px;
+}
+.star1 dd{
+    background-position: -30px -92px;
+}
+.star4 dd{
+    background-position: -30px -162px;
+}
+.star6 dd{
+    background-position:-30px -233px;
+}
+.star5 dd{
+    background-position:  -30px -305px;
+}
+.star3 dd{
+    background-position:  -30px -376px;
+}
+
+
+.xinxi_solution_main ul li.on {
+    width: 784px;
+}
+
+.xinxi_solution_main ul li.on .left_top {
+    height: 298px;
+    padding-top: 13px;
+}
+
+.xinxi_solution_main ul li.on .think_icon {
+    display: none;
+}
+
+.xinxi_solution_main ul li.on .think_h4a {
+    font-size: 26px;
+    line-height: 29px;
+}
+
+/**/
+
+.materials {
+    background: url("../images/materials_bg.png") center 220px no-repeat;
+    height: 1053px;
+    padding-top: 85px;
+}
+
+.materials_title {
+    background: url("../images/materials_tit.png") no-repeat center 0;
+    height: 56px;
+    text-indent: -9999px;
+}
+
+.materials_con {
+    width: 1111px;
+    height: 573px;
+    margin: 38px auto 0;
+    position: relative;
+}
+
+.materials_con > div {
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+
+.materials_con > div:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+.materials_box1 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 0;
+    width: 184px;
+    height: 154px;
+    position: absolute;
+    top: 370px;
+    left: 0;
+    padding-top: 33px;
+}
+
+.materials_box2 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 -187px;
+    width: 184px;
+    height: 139px;
+    position: absolute;
+    top: 182px;
+    left: 38px;
+    padding-top: 48px;
+}
+
+.materials_box3 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 -374px;
+    width: 184px;
+    height: 139px;
+    position: absolute;
+    top: 55px;
+    left: 182px;
+    padding-top: 48px;
+}
+
+.materials_box4 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 -561px;
+    width: 184px;
+    height: 139px;
+    position: absolute;
+    top: 0;
+    left: 367px;
+    padding-top: 48px;
+}
+
+.materials_box5 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 -748px;
+    width: 184px;
+    height: 139px;
+    position: absolute;
+    top: 0;
+    right: 367px;
+    padding-top: 48px;
+}
+
+.materials_box6 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 -935px;
+    width: 184px;
+    height: 139px;
+    position: absolute;
+    top: 55px;
+    right: 182px;
+    padding-top: 48px;
+}
+
+.materials_box7 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 -1122px;
+    width: 184px;
+    height: 139px;
+    position: absolute;
+    top: 182px;
+    right: 38px;
+    padding-top: 48px;
+}
+
+.materials_box8 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/materials_circle.png") no-repeat 0 -1309px;
+    width: 184px;
+    height: 154px;
+    position: absolute;
+    top: 370px;
+    right: 0;
+    padding-top: 33px;
+}
+
+.materials_p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+}
+
+.materials_btn {
+    background: transparent;
+    width: 98px;
+    height: 28px;
+    border: #fff 1px solid;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin: 11px auto 0;
+}
+
+.materials_btn:hover {
+    background: #fff;
+    color: #2ed2b5;
+}
+
+.materials_box2 .materials_btn:hover {
+    color: #fb7f73;
+}
+
+.materials_box3 .materials_btn:hover {
+    color: #23d2ef;
+}
+
+.materials_box4 .materials_btn:hover {
+    color: #fab83a;
+}
+
+.materials_box5 .materials_btn:hover {
+    color: #9977fa;
+}
+
+.materials_box6 .materials_btn:hover {
+    color: #2ed2b5;
+}
+
+.materials_box7 .materials_btn:hover {
+    color: #b179c2;
+}
+
+.materials_box8 .materials_btn:hover {
+    color: #23d2ef;
+}
+
+.mt21 {
+    margin-top: 21px;
+}
+
+.new {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/new.gif") no-repeat 0 -21px;
+    width: 37px;
+    height: 21px;
+    position: absolute;
+    top: 18px;
+    left: 14px;
+}
+
+.new2 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/new.gif") no-repeat -37px -21px;
+    width: 37px;
+    height: 21px;
+    position: absolute;
+    top: 18px;
+    right: 14px;
+}
+
+.hot {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/new.gif") no-repeat 0 0;
+    width: 37px;
+    height: 21px;
+    position: absolute;
+    top: 18px;
+    left: 14px;
+}
+
+.hot2 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/new.gif") no-repeat -37px 0;
+    width: 37px;
+    height: 21px;
+    position: absolute;
+    top: 18px;
+    right: 14px;
+}
+
+.materials_form {
+    width: 338px;
+    margin: 60px auto 0;
+}
+.materials_form input{
+
+    width:312px;
+    padding-left: 20px;
+    height:56px;
+    display: block;
+    font-size: 20px;
+    margin:0 auto 30px;
+    border: 1px solid #999999;
+}
+.materials_div {
+    background: #fff;
+    width: 332px;
+    height: 60px;
+    border-radius: 3px;
+    border: #4f84f1 3px solid;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12);
+    margin: 0 auto;
+}
+
+
+
+.materials_icon2 {
+    background-position: 0 -26px;
+}
+
+.users1, .mobile1 {
+    background: transparent;
+    width: 280px;
+    height: 60px;
+    border: none;
+    float: right;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #5c5c5c;
+    line-height: 60px;
+}
+
+.materials ::-webkit-input-placeholder {
+    color: #b1b1b1;
+    opacity: 1;
+}
+
+.materials :-moz-placeholder {
+    color: #b1b1b1;
+    opacity: 1;
+}
+
+.materials ::-moz-placeholder {
+    color: #b1b1b1;
+    opacity: 1;
+}
+
+
+
+.mt21 {
+    margin-top: 21px;
+}
+
+.materials_zhu {
+    background: url("../images/materials_icon.png") no-repeat 0 0;
+    font-size: 20px;
+    color: #5087f8;
+    line-height: 32px;
+    padding-left: 33px;
+    display: inline-block;
+    margin:  auto;
+}
+
+.materials_btn_big {
+    background: #fb7f73;
+    width: 332px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    margin: 32px auto 0;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12), 0 5px 5px rgba(56, 56, 56, 0.15);
+}
+
+/*汇聚72所211/985知名院校*/
+
+.pulses {
+    height: 918px;
+    padding-top: 90px;
+    border-top: #f7f7f8 1px solid;
+}
+
+.pulses_title {
+    background: url("../images/pulses_tit.png") no-repeat center 0;
+    height: 55px;
+    text-indent: -9999px;
+}
+
+.pulses_stitle {
+    font-size: 26px;
+    color: #fb7f73;
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+    margin: 9px 0 0 0;
+}
+
+.pulses_con {
+    width: 1100px;
+    margin: 65px auto 0;
+}
+
+.pulsesList {
+    width: 355px;
+    float: left;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pulsesList > li {
+    list-style: none;
+    width: 355px;
+    height: 214px;
+    margin-top: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pulsesList > li:nth-child(1) {
+    margin-top: 0;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.pulsesList li.active {
+
+}
+
+.pulsesList .mask1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    line-height: 215px;
+}
+
+.pulses_h4 {
+    background: rgba(0, 0, 0, 0.52) url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/pulses_h4.png") no-repeat 0 0;
+    width: 194px;
+    height: 44px;
+    border: #5690fe 1px solid;
+    border-radius: 3px;
+    margin: 84px auto 0;
+}
+
+.pulses_h4a {
+    background-position: 0 -44px;
+}
+
+.pulses_h4b {
+    background-position: 0 -88px;
+}
+
+.pulses_h4c {
+    background-position: 0 -132px;
+}
+
+.pulses_h4d {
+    background-position: 0 -176px;
+}
+
+.pulses_h4e {
+    background-position: 0 -220px;
+}
+
+.pulsesList .mask2 {
+    background: rgba(0, 0, 0, 0.9);
+    width: 349px;
+    height: 208px;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    z-index: 2;
+    border: 3px rgba(0, 0, 0, 0.9) solid;
+    overflow: hidden;
+}
+
+.pulsesList .mask2 ul {
+    margin: 15px 0 0 30px;
+}
+
+.pulsesList .mask2 li {
+    overflow: hidden;
+}
+
+.pulses_icon {
+    background: #fff;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.22);
+    float: left;
+    margin-top: 9px;
+}
+
+.pulses_p {
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    margin-left: 12px;
+}
+
+.pulses_pic {
+    padding-left: 10px;
+    float: left;
+}
+
+.pulses_btn {
+    background: #fb7f73;
+    width: 196px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 10px auto 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.pulses_btn:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+/**/
+
+.school {
+    background: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/school_bg.png) no-repeat center;
+    height: 853px;
+    padding-top: 105px;
+}
+
+.school_title {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/school_tit.png") no-repeat center 0;
+    height: 78px;
+    text-indent: -9999px;
+}
+
+.school_stitle {
+    font-size: 26px;
+    color: #5c5c5c;
+    text-align: center;
+    margin: 8px 0 0 0;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.school_stitle strong {
+    color: #fb7f73;
+    font-weight: 500;
+}
+
+.school_three {
+    background: #fb7f73;
+    width: 520px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px auto 0;
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.school_t1 {
+    width: 172px;
+    display: block;
+    float: left;
+}
+
+.school_t2 {
+    background: #fc998f;
+    width: 152px;
+    display: block;
+    float: left;
+}
+
+.school_t3 {
+    width: 196px;
+    display: block;
+    float: left;
+}
+
+.school_con {
+    background: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/school_con.png) no-repeat 0 0;
+    width: 1111px;
+    height: 253px;
+    margin: 53px auto 0;
+    padding-top: 165px;
+}
+
+.school_con li {
+    width: 25%;
+    float: left;
+}
+
+.school_pic {
+    width: 124px;
+    height: 124px;
+    margin: 53px auto 0;
+}
+
+.school_btns {
+    width: 352px;
+    height: 64px;
+    margin: 74px auto 0;
+    position: relative;
+}
+
+.school_btn {
+    background: #fb7f73;
+    width: 352px;
+    height: 64px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 74px auto 0;
+    font-size: 22px;
+    color: #fff;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12), 0 0 10px rgba(86, 85, 87, 0.22);
+}
+
+.free {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/free.gif") no-repeat 0 0;
+    background-size: 105px 81px;
+    width: 105px;
+    height: 81px;
+    position: absolute;
+    top: -52px;
+    left: -56px;
+    z-index: 1;
+}
+
+/**/
+
+.success {
+    background: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/success_bg.jpg) no-repeat center;
+    height: 722px;
+    padding-top: 88px;
+}
+
+.success_title {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/success_tit.png") no-repeat center 0;
+    height: 78px;
+    text-indent: -9999px;
+}
+
+.success_con {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/success_middle.png") no-repeat center 107px;
+    width: 1118px;
+    margin: 76px auto 0;
+}
+
+.success_con li {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/success_circle.png") no-repeat 0 0;
+    width: 344px;
+    height: 299px;
+    border-radius: 100%;
+    float: left;
+    margin-left: 43px;
+    padding-top: 45px;
+    cursor: pointer;
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+
+.success_con li:hover {
+    transform: rotate(360deg) scale(1.1);
+    -webkit-transform: rotate(360deg) scale(1.1);
+    -moz-transform: rotate(360deg) scale(1.1);
+    -o-transform: rotate(360deg) scale(1.1);
+    -ms-transform: rotate(360deg) scale(1.1);
+}
+
+.success_con li:first-child {
+    margin-left: 0;
+}
+
+.success_con li:nth-child(2) {
+    background-position: 0 -344px;
+    margin-top: 6px;
+}
+
+.success_con li:nth-child(3) {
+    background-position: 0 -688px;
+}
+
+.success_icon {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/success_icon.png") no-repeat 0 0;
+    width: 44px;
+    height: 41px;
+    display: block;
+    margin: 0 auto;
+}
+
+.success_icon2 {
+    background-position: 0 -41px;
+}
+
+.success_icon3 {
+    background-position: 0 -82px;
+}
+
+.success_h3 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    margin-top: 7px;
+}
+
+.success_line {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/success_line.png") no-repeat center 0;
+    height: 2px;
+    margin: 15px 0 0 0;
+}
+
+.success_line2 {
+    background-position: center -2px;
+}
+
+.success_line3 {
+    background-position: center -4px;
+}
+
+.success_p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    margin: 22px 0 0 0;
+}
+
+.success_btns {
+    width: 352px;
+    height: 64px;
+    margin: 68px auto 0;
+    position: relative;
+}
+
+.success_btn {
+    background: #fb7f73 url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/success_btn.png") no-repeat 206px 0;
+    width: 352px;
+    height: 64px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12), 0 0 10px rgba(86, 85, 87, 0.22);
+}
+
+.success_btn:hover {
+    background-position: 206px -64px;
+}
+
+.ml66 {
+    margin-left: 66px;
+}
+
+.hand {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/hand.png") no-repeat 0 0;
+    width: 37px;
+    height: 45px;
+    position: absolute;
+    bottom: -22px;
+    right: 13px;
+    z-index: 1;
+    animation: bounce 1s 0s infinite;
+}
+
+/**/
+.teacher {
+    background: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/teacher_bg.jpg) no-repeat center;
+    height: 920px;
+    padding-top: 92px;
+}
+
+.teacher_title {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/teacher_tit.png") no-repeat center 0;
+    height: 79px;
+    text-indent: -9999px;
+}
+
+.teacher_stitle {
+    font-size: 24px;
+    color: #5c5c5c;
+    line-height: 1;
+    text-align: center;
+    font-weight: normal;
+    margin: 8px 0 0 0;
+}
+
+.teacher_stitle .ml8 {
+    margin-left: 8px;
+}
+
+#slider {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/teacher_con.png") no-repeat center 0;
+    padding-top: 9px;
+    width: 1126px;
+    height: 541px;
+    overflow: hidden;
+    margin: 44px auto 0;
+    position: relative;
+}
+
+.prev {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/sider_btn.png") no-repeat 0 0;
+    width: 37px;
+    height: 56px;
+    display: block;
+    position: absolute;
+    top: 287px;
+    left: 113px;
+    cursor: pointer;
+}
+
+.next {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/sider_btn.png") no-repeat 0 -56px;
+    width: 37px;
+    height: 56px;
+    display: block;
+    position: absolute;
+    top: 287px;
+    right: 113px;
+    cursor: pointer;
+}
+
+.scroll {
+    width: 483px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 236px;
+}
+
+.scrollContainer {
+    position: relative;
+    width: 2500px;
+    left: 0;
+}
+
+.scrollContainer .current .inside {
+    width: 237px;
+    height: 236px;
+}
+
+.scrollContainer .slider {
+    width: 92px;
+    height: 92px;
+    float: left;
+    margin-right: 32px;
+    display: inline;
+    cursor: pointer;
+    padding-top: 72.5px;
+}
+
+.slider .inside {
+    display: block;
+    position: relative;
+}
+
+.inside img {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    width: 710px;
+    margin: 32px auto 0;
+    overflow: hidden;
+}
+
+.content-common {
+    display: none;
+}
+
+.teacher_h4 {
+    font-size: 24px;
+    color: #5c5c5c;
+    line-height: 1;
+    text-align: center;
+}
+
+.teacher_name {
+    background: #fb7f73;
+    width: 120px;
+    height: 26px;
+    border-radius: 3px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    margin: 12px auto 0;
+}
+
+.teacher_p {
+    font-size: 16px;
+    color: #5c5c5c;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.scrollContainer .current {
+    width: 237px;
+    height: 236px;
+    padding-top: 0;
+}
+
+.teacher_btn {
+    background: #fb7f73;
+    width: 352px;
+    height: 64px;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12), 0 0 10px rgba(86, 85, 87, 0.22);
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 40px auto 0;
+}
+
+/**/
+.cert {
+    background: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_bg.jpg) no-repeat center;
+    height: 1081px;
+    position: relative;
+}
+
+.cert_con {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_t.png") no-repeat center 0;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding-top: 106px;
+}
+
+.cert_title {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_tit.png") no-repeat center 0;
+    height: 78px;
+    text-indent: -9999px;
+}
+
+.cert_stitle {
+    font-size: 24px;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    margin: 9px 0 0 0;
+    font-weight: normal;
+}
+
+.cert_stitle .yellow {
+    color: #fcff2a;
+}
+
+.cert_stitle .green {
+    color: #9aea73;
+}
+
+.cert_pic {
+    width: 599px;
+    margin: 18px auto 0;
+}
+
+.cert_ul {
+    width: 1100px;
+    margin: 21px auto 0;
+}
+
+.cert_ul li {
+    width: 212px;
+    float: left;
+    margin-left: 10px;
+}
+
+.cert_ul li:first-child {
+    margin-left: 0;
+}
+
+.cert_box {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_pic1.jpg") no-repeat center;
+    width: 212px;
+    height: 163px;
+    position: relative;
+}
+
+.cert_box2 {
+    background-image: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_pic2.jpg);
+}
+
+.cert_box3 {
+    background-image: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_pic3.jpg);
+}
+
+.cert_box4 {
+    background-image: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_pic4.jpg);
+}
+
+.cert_box5 {
+    background-image: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_pic5.jpg);
+}
+
+.cert_icon {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/cert_icon.png") no-repeat 0 0;
+    width: 42px;
+    height: 42px;
+    display: block;
+    position: absolute;
+    top: -21px;
+    left: 50%;
+    margin-left: -21px;
+}
+
+.cert_p {
+    font-size: 18px;
+    color: #5c5c5c;
+    line-height: 30px;
+    text-align: center;
+    margin: 17px 0 0 0;
+}
+
+.cert_btn {
+    background: #fb7f73;
+    width: 352px;
+    height: 64px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    margin: 74px auto 0;
+    box-shadow: inset 0 6px 9px rgba(26, 65, 48, 0.12), 0 0 10px rgba(86, 85, 87, 0.22);
+}
+
+/**/
+
+.brand {
+    height: 807px;
+    padding-top: 95px;
+}
+
+.brand_title {
+    background: url("../images/brand_tit.png") no-repeat center 0;
+    height: 139px;
+    text-indent: -9999px;
+}
+
+.brand_stitle{
+    font-size: 24px;
+    color: #5c5c5c;
+    line-height: 1;
+    text-align: center;
+    font-weight: normal;
+    margin: 8px 0 0 0;
+}
+
+.brand_stitle .ml8 {
+    margin-left: 8px;
+}
+
+.brand_stitle strong{
+    color: #fb7f73;
+}
+
+.brand_con {
+    width: 1099px;
+    margin: 70px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.brand_box1 {
+    background: #fab83a;
+    width: 271px;
+    height: 368px;
+    border-radius: 3px;
+    float: left;
+}
+
+.brand_c {
+    width: 269px;
+    height: 366px;
+    border: #fff 1px dotted;
+    border-radius: 3px;
+}
+
+.brand_box1:hover .brand_c, .brand_box1.hover .brand_c {
+    border: #5690fe 1px solid;
+}
+
+.brand_c_inset {
+    width: 265px;
+    height: 305px;
+    border: #ffc400 2px solid;
+    border-radius: 3px;
+    padding-top: 57px;
+}
+
+.brand_box1:hover .brand_c_inset, .brand_box1.hover .brand_c_inset {
+    border: #5690fe 2px solid;
+}
+
+.brand_pic {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 551px;
+    height: 368px;
+    margin-left: -275.5px;
+    overflow: hidden;
+}
+
+.brand_h3 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    text-shadow: 0 0 4px rgba(56, 56, 56, 0.16);
+}
+
+.brand_d {
+    width: 156px;
+    margin: 25px auto 0;
+}
+
+.brand_p {
+    width: 154px;
+    height: 24px;
+    border: #fff 1px dotted;
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 6px;
+    text-shadow: 0 1px 1px rgba(56, 56, 56, 0.22);
+}
+
+.brand_p b {
+
+}
+
+.brand_p2 {
+    height: 33px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(56, 56, 56, 0.22);
+}
+
+.brand_box2 {
+    background: #fb7f73;
+    width: 271px;
+    height: 368px;
+    border-radius: 3px;
+    float: left;
+    margin-left: 557px;
+}
+
+.brand_c2 {
+    width: 269px;
+    height: 366px;
+    border: #fff 1px dotted;
+    border-radius: 3px;
+}
+
+.brand_box2:hover .brand_c2, .brand_box2.hover .brand_c2 {
+    border: #5690fe 1px solid;
+}
+
+.brand_c2_inset {
+    width: 265px;
+    height: 273px;
+    border: #fb7f73 2px solid;
+    border-radius: 3px;
+    padding-top: 89px;
+}
+
+.brand_box2:hover .brand_c2_inset, .brand_box2.hover .brand_c2_inset {
+    border: #5690fe 2px solid;
+}
+
+.brand_d2 {
+    width: 156px;
+    margin: 35px auto 0;
+}
+
+.mt14 {
+    margin-top: 14px;
+}
+
+.brand_box3 {
+    background: #2ed2b5;
+    width: 548px;
+    height: 158px;
+    float: left;
+    margin-top: 2px;
+}
+
+.brand_c3 {
+    width: 546px;
+    height: 156px;
+    border: #fff 1px dotted;
+    border-radius: 3px;
+}
+
+.brand_box3:hover .brand_c3, .brand_box3.hover .brand_c3 {
+    border: #5690fe 1px solid;
+}
+
+.brand_c3_inset {
+    width: 542px;
+    height: 116px;
+    border: #2ed2b5 2px solid;
+    border-radius: 3px;
+    padding-top: 36px;
+}
+
+.brand_box3:hover .brand_c3_inset, .brand_box3.hover .brand_c3_inset {
+    border: #5690fe 2px solid;
+}
+
+.brand_d3 {
+    width: 330px;
+    margin: 17px auto 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.brand_box4 {
+    background: #9687e4;
+    width: 548px;
+    height: 158px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.brand_c4 {
+    width: 546px;
+    height: 156px;
+    border: #fff 1px dotted;
+    border-radius: 3px;
+}
+
+.brand_box4:hover .brand_c4, .brand_box4.hover .brand_c4 {
+    border: #5690fe 1px solid;
+}
+
+.brand_c4_inset {
+    width: 542px;
+    height: 116px;
+    border: #768bf1 2px solid;
+    border-radius: 3px;
+    padding-top: 36px;
+}
+
+.brand_box4:hover .brand_c4_inset, .brand_box4.hover .brand_c4_inset {
+    border: #5690fe 2px solid;
+}
+
+.ml16 {
+    margin-left: 16px;
+}
+
+/**/
+.footer {
+    background: url(http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/footer_bg.jpg) no-repeat center;
+    height: 372px;
+}
+
+.footer_t {
+    width: 100%;
+    padding: 20px 0 24px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer_p1 {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/footer_logo.png") no-repeat 0 center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 2px;
+    width: 560px;
+    margin: 0 auto;
+    padding: 5px 0 0 78px;
+}
+
+.footer_p1 strong {
+    color: #fb7f73;
+    font-weight: normal;
+}
+
+.footer_d {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.footer_d li {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/footer_line.png") no-repeat 0 0;
+    width: 223px;
+    height: 156px;
+    float: left;
+    padding: 20px 0 0 32px;
+}
+
+.footer_d li:last-child {
+    width: 303px;
+}
+
+.footer_h3 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+}
+
+.footer_p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    margin-top: 14px;
+}
+
+.footer_p a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer_p a:hover {
+    color: #fb7f73;
+}
+
+.footer_p .beian:hover {
+    color: #fff;
+}
+
+/**/
+.bottombar {
+    background: url("http://www.xuehuiwang.com.cn/newpower/baidu/search/hr/2/images/bottombar_bg.png") no-repeat center 0;
+    height: 66px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    padding-top: 16px;
+}
+
+.bottombar_btns {
+    width: 1072px;
+    margin: 0 auto;
+}
+
+.bottombar_btn {
+    background: rgba(19, 59, 136, 0.2);
+    width: 120px;
+    height: 24px;
+    border: #fff 1px dotted;
+    border-radius: 3px;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    margin: 6px 0 0 38px;
+}
+
+.bottombar_btn:nth-child(1), .bottombar_btn:nth-child(8) {
+    margin-left: 0;
+}
+
+.bottombar_btn:nth-child(1), .bottombar_btn:nth-child(2), .bottombar_btn:nth-child(3), .bottombar_btn:nth-child(4), .bottombar_btn:nth-child(5), .bottombar_btn:nth-child(6), .bottombar_btn:nth-child(7) {
+    margin-top: 0;
+}
+
+.bottombar_btn:hover {
+    background: #ffec4b;
+    border: #ffec4b 1px solid;
+    color: #507ed7;
+}
+
+/* Wapasha */
+.button.button--wapasha {
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button--wapasha.button--inverted {
+
+}
+
+.button--wapasha::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #f97f73;
+    box-sizing: border-box;
+    z-index: -1;
+    border-radius: inherit;
+    opacity: 0;
+    -webkit-transform: scale3d(0.6, 0.6, 1);
+    transform: scale3d(0.6, 0.6, 1);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+.button--wapasha.button--inverted::before {
+    border-color: #9687e4;
+}
+
+.button--wapasha:hover {
+    background-color: #fff;
+    color: #f97f73;
+}
+
+.button--wapasha.button--inverted:hover {
+    background-color: #fff;
+    color: #9687e4;
+}
+
+.button--wapasha:hover::before {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+}
+
+/*donghua*/
+@-webkit-keyframes anim-moema-1 {
+    60% {
+        -webkit-transform: scale3d(0.8, 0.8, 1);
+        transform: scale3d(0.8, 0.8, 1);
+    }
+    85% {
+        -webkit-transform: scale3d(1.1, 1.1, 1);
+        transform: scale3d(1.1, 1.1, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes anim-moema-1 {
+    60% {
+        -webkit-transform: scale3d(0.8, 0.8, 1);
+        transform: scale3d(0.8, 0.8, 1);
+    }
+    85% {
+        -webkit-transform: scale3d(1.1, 1.1, 1);
+        transform: scale3d(1.1, 1.1, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 53%, 80%, to {
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        transform: translateZ(0)
+    }
+    40%, 43% {
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -20px, 0)
+    }
+    70% {
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -10px, 0)
+    }
+    90% {
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 53%, 80%, to {
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        transform: translateZ(0)
+    }
+    40%, 43% {
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -20px, 0)
+    }
+    70% {
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -10px, 0)
+    }
+    90% {
+        transform: translate3d(0, 0, 0)
+    }
+}
+
