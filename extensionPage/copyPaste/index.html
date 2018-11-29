@@ -1,0 +1,48 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <title>无标题文档</title>
+</head>
+
+<body>
+方式目的是为了获取粘贴到输入框后的全部的值方式目的是为了获取粘贴到输入框后的全部的值方式目的是为了获取粘贴到输入框后的全部的值方式目的是为了获取粘贴到输入框后的全部的值
+<textarea id="content" cols="50" rows="5"></textarea>
+<script type="text/javascript">
+    $("body").bind('copy', function (e) {
+        if (typeof window.getSelection == "undefined") return; //IE8 or earlier...
+
+        var body_element = document.getElementsByTagName('body')[0];
+        var selection = window.getSelection();
+
+        //if the selection is short let's not annoy our users
+        if (("" + selection).length < 30) return;
+
+        //create a div outside of the visible area
+        //and fill it with the selected text
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        body_element.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        //we need a <pre> tag workaround
+        //otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName == "PRE") {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        newdiv.innerHTML += "<br /><br />Read more at: <a href='"
+            + document.location.href + "'>"
+            + document.location.href + "</a> &copy; MySite.com";
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () { body_element.removeChild(newdiv); }, 200);
+    });
+
+</script>
+</body>
+</html>
+
