@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit orci vel urna tincidunt, id aliquet leo dapibus. Nunc sodales arcu auctor, aliquam augue ut, blandit lorem. Ut eleifend dui in interdum fringilla. Etiam eleifend, sem et varius ornare, massa tellus tincidunt metus, ac ultricies ex diam ac arcu. Pellentesque at scelerisque ex. Quisque lobortis lectus sit amet porttitor dapibus. Nunc eget sagittis enim. Aenean mollis rutrum ante. Etiam lacinia aliquam pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+<script>
+    function addLink() {
+        //Get the selected text and append the extra info
+        var selection = window.getSelection(),
+            pagelink = '<br /><br /> Read more at: ' + document.location.href,
+            copytext = selection + pagelink,
+            newdiv = document.createElement('div');
+
+        //hide the newly created container
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+
+        //insert the container, fill it with the extended text, and define the new selection
+        document.body.appendChild(newdiv);
+        newdiv.innerHTML = copytext;
+        selection.selectAllChildren(newdiv);
+
+        window.setTimeout(function () {
+            document.body.removeChild(newdiv);
+        }, 100);
+    }
+
+    document.addEventListener('copy', addLink);
+</script>
+</body>
+</html>

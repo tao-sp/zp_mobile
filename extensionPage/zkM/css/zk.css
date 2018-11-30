@@ -108,7 +108,7 @@ a {
 .countdown-all {
   right: 0.8533333333rem;
   position: absolute;
-  bottom: 3.3066666667rem; }
+  bottom: 3.52rem; }
 
 .countdown-con {
   font-size: 0.4693333333rem;
@@ -362,29 +362,29 @@ body {
 .banner-btn-1 {
   display: block;
   width: 7.04rem;
-  height: 1.216rem;
+  height: 1.4933333333rem;
   border-radius: 0.1706666667rem;
   position: absolute;
   right: 1.664rem;
-  top: 5.3333333333rem; }
+  top: 4.5866666667rem; }
 
 .banner-btn-2 {
   display: block;
   width: 7.04rem;
-  height: 1.216rem;
+  height: 1.4933333333rem;
   border-radius: 0.1706666667rem;
   position: absolute;
   right: 1.664rem;
-  top: 6.9546666667rem; }
+  top: 6.4426666667rem; }
 
 .banner-btn-3 {
   display: block;
   width: 7.04rem;
-  height: 1.216rem;
+  height: 1.4933333333rem;
   border-radius: 0.1706666667rem;
   position: absolute;
   right: 1.664rem;
-  top: 8.5973333333rem; }
+  top: 8.32rem; }
 
 .banner a:hover {
   background: rgba(0, 0, 0, 0.3); }

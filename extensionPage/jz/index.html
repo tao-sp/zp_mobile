@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>建站</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/jz.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<ul class="nav">
+    <li onClick="mantis.requestChat()">
+        考证费用
+    </li>
+    <li onClick="mantis.requestChat()">
+        报考流程
+    </li>
+    <li onClick="mantis.requestChat()">
+        报考时间
+    </li>
+    <li onClick="mantis.requestChat()">
+        报考政策
+    </li>
+</ul>
+<div class="index1">
+    <a onClick="mantis.requestChat()" class="index1-btn"></a>
+</div>
+<form >
+    <div  class="padding-left">
+        <div class="input-title">
+            您目前的最高学历是
+        </div>
+        <div class="input-rdo">
+            <input type="radio" name="xl" value="初中" id="xl1"><label for="xl1">初中</label>
+            <input type="radio" name="xl" value="高中" id="xl2"><label for="xl2">高中</label>
+            <input type="radio" name="xl" value="中专" id="xl3"><label for="xl3">中专</label>
+            <input type="radio" name="xl" value="大专" id="xl4"><label for="xl4">大专</label>
+            <input type="radio" name="xl" value="其他" id="xl5"><label for="xl5">其他</label>
+        </div>
+
+        <div class="input-title">
+            您目前的年龄是
+        </div>
+        <div class="input-rdo">
+            <input type="radio" name="nl" value="18-23岁" id="nl1"><label for="nl1">18-23岁</label>
+            <input type="radio" name="nl" value="23-30岁" id="nl2"><label for="nl2">23-30岁</label>
+            <input type="radio" name="nl" value="30-40岁" id="nl3"><label for="nl3">30-40岁</label>
+            <input type="radio" name="nl" value="40岁以上" id="nl4"><label for="nl4">40岁以上</label>
+        </div>
+        <div class="input-title">
+            您离开学校多久了
+        </div>
+        <div class="input-rdo">
+            <input type="radio" name="lk" value="刚毕业" id="lk1"><label for="lk1">刚毕业</label>
+            <input type="radio" name="lk" value="一年内" id="lk2"><label for="lk2">一年内</label>
+            <input type="radio" name="lk" value="1-3年" id="lk3"><label for="lk3">1-3年</label>
+            <input type="radio" name="lk" value="3-5年" id="lk4"><label for="lk4">3-5年</label>
+            <input type="radio" name="lk" value="5年以上" id="lk5"><label for="lk5">5年以上</label>
+        </div>
+
+        <div class="input-title">
+            您的意向专业是
+        </div>
+        <div class="input-rdo">
+            <input type="radio" name="jc" value="基础差" id="jc1"><label for="jc1">基础差</label>
+            <input type="radio" name="jc" value="基础一般" id="jc3"><label for="jc3">基础一般</label>
+            <input type="radio" name="jc" value="英语数学差" id="jc2"><label for="jc2">英语数学差</label>
+            <input type="radio" name="jc" value="基础好" id="jc4"><label for="jc4">基础好</label>
+
+        </div>
+        <div class="input-title">
+            您的意向专业是
+        </div>
+        <div class="input-rdo">
+            <input type="radio" name="zy" value="管理类" id="zy1"><label for="zy1">管理类</label>
+            <input type="radio" name="zy" value="财会类" id="zy3"><label for="zy3">财会类</label>
+            <input type="radio" name="zy" value="理工类" id="zy2"><label for="zy2">理工类</label>
+            <input type="radio" name="zy" value="师范类" id="zy4"><label for="zy4">师范类</label>
+            <input type="radio" name="zy" value="计算机" id="zy5"><label for="zy5">计算机</label>
+            <input type="radio" name="zy" value="其他" id="zy6"><label for="zy6">其他</label>
+
+        </div>
+        <input  class="msg_text" placeholder="请输入手机号码免费测评"  >
+        <a class="form-btn">提交免费获取测评结果</a>
+    </div>
+</form>
+<div class="index2">
+
+</div>
+<div class="index3">
+
+</div>
+<div class="index4">
+
+</div>
+<div class="footer">
+    Copyright ©  深圳市中鹏教育科技股份有限公司<br>
+     粤ICP备09069122号
+</div>
+
+<!--螳螂科技2018-10-17-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5be3e0dbad3e46191fd65f38"></script>
+<!--螳螂科技2018-10-17-->
+</body>
+</html>
