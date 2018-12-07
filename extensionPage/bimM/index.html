@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BIM</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/rzsj.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <script src="js/rzsj.js"></script>
+</head>
+<body class="font_yahei">
+
+<!--头部开始-->
+<div class="yssj-header">
+    <a target="_blank" href="http://m.gdzp.org/mobile/design/">
+        <img class="yssj-logo" src="images/logo.png">
+    </a>
+    <img class="yssj-c4d" src="images/rzsj-font.png">
+    <!--<img class="right-nav" src="images/right-nav.png">-->
+    <a class="gkk-link right-nav" >导航</a>
+</div>
+
+<div class="right-nav-hide">
+    <div class="close-nav">
+        <img src="images/close-nav.png">
+    </div>
+    <!-- <ul class="college-links clearfix">
+         <li>
+             <a target="_blank" href="http://m.gdzp.org">
+                 <img src="images/homelogo.png">
+                 官网首页
+             </a>
+         </li>
+         <li>
+             <a target="_blank" href="http://m.gdzp.org/mobile/design">
+                 <img src="images/designlogo.png">
+                 学院首页
+             </a>
+         </li>
+     </ul>-->
+    <ul class="right-top-nav clearfix">
+        <li><a target="_blank" href="http://m.gdzp.org/">官网首页</a></li>
+        <li><a target="_blank" href="http://m.gdzp.org/mobile/design">学院首页</a></li>
+        <li><a target="_blank" href="http://m.gdzp.org/html/kkxqmoblie/xsxx.html">线上学习</a></li>
+        <li><a target="_blank" href="http://m.gdzp.org/mobile/design/plan">开课详情</a></li>
+    </ul>
+    <div class="zy-title">
+        专业
+    </div>
+    <div class="zy-title1 click-down">
+        2D科系<img class="down" src="images/down.png"><img class="down" style="display: none"  src="images/up.png">
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/paints.html">
+                <img src="http://m.gdzp.org/html/design/design/images/27.gif">
+                设计美术
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/design/graphic.html">
+                <img src="http://m.gdzp.org/html/design/design/images/28.gif">
+                平面设计
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/m_uisj1023/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/29.gif">
+                UI设计
+            </a>
+        </li>
+    </ul>
+    <div class="zy-title1 click-down">
+        3D科系<img class="down" src="images/down.png"><img class="down" style="display: none"  src="images/up.png">
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/interiordesign/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/32.gif">
+                室内设计
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/jewelry/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/31.gif">
+                珠宝设计
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/m_gysj/">
+                <img src="http://m.gdzp.org/html/design/design/images/30.gif">
+                工业设计
+            </a>
+        </li>
+    </ul>
+    <div class="zy-title1 click-down">
+        数码影像科系<img class="down" src="images/down.png"><img class="down" style="display: none"  src="images/up.png">
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/photographyschool/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/33.gif">
+                摄影
+            </a>
+        </li>
+    </ul>
+    <div class="zy-title1 click-down">
+        相关科系<img class="down" src="images/down.png"><img class="down" style="display: none"  src="images/up.png">
+    </div>
+    <ul class="major-links clearfix">
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/it/wlyx/">
+                <img src="http://m.gdzp.org/uploads/thumb/2bb6923f04353ad3c7b72ce3bcac696a.jpeg">
+                网络营销
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://m.gdzp.org/html/design/project/index.html">
+                <img src="http://m.gdzp.org/html/design/design/images/34.gif">
+                工程预算
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<!--头部开始-->
+
+<a onclick="mantis.requestChat()">
+    <img src="images/banner.png" class="banner">
+</a>
+
+<div class="ssm">
+    <div class="ssm-title">什么是<b>BIM？</b></div>
+    <div class="ssm-info">
+        建筑信息模型 <span>(BIM)</span> 是一种基于三维<span>数字化信息</span>模型的智能流，能让<span>建筑设计、建造和运维等</span>专业人员深入了解项目并使用相关实用工具<span>各方之间数据交互，</span>从而更加高效地规划、设计、构建和管理建筑及基础设施，<span>从CAD二维时代会迅速发展到BIM的三维时代。</span>
+    </div>
+    <a class="rz-btn" onclick="mantis.requestChat()">查看更多</a>
+</div>
+
+<div class="sd">
+    <div class="sd-content">
+        <div class="sd-info">
+            <div class="info">
+                 <b>BIM</b>是一个工作流程，通过三维协同改变设计方式，同时通过<b>BIM</b>的项目管理平台，把业主、设计师、承包商之间的合作有机统一起来  大大减少了沟通成本和管理成本。<br>
+                目前<b>BIM</b>人员市场需要量巨大，高端人员更是屈指可数，据官方预测，预计到 2020 年，全国<b>BIM</b>人才缺口预计将达 60 万！
+            </div>
+        </div>
+    </div>
+    <a class="rz-btn" onclick="mantis.requestChat()">了解更多行业资讯</a>
+</div>
+
+<div class="qjkg">
+    <div class="qjkg-title">建筑领域<b>BIM</b>人才抢手 发展前景可观
+    <span>中建、中铁、中铁建等大型<span>房建及建筑企业</span><br>
+    要求必须建立<span>BIM</span>项目部，组建企业的BIM团队</span>
+    </div>
+    <div class="qjkg-img">
+
+    </div>
+    <a class="rz-btn" onclick="mantis.requestChat()">怎样成为BIM工程师？</a>
+
+</div>
+<div class="xxjz">
+
+</div>
+<a class="rz-btn" onclick="mantis.requestChat()">怎么学BIM？</a>
+
+<div class="zcyb">
+    <form class="form1-form">
+        <input placeholder="输入您的姓名">
+        <input placeholder="输入您的电话号码">
+        <a class="form1-btn">申请免费试听</a>
+    </form>
+</div>
+
+<div class="ly">
+    <div class="ly-title">中鹏学员可享的<span>六大优势</span></div>
+    <div class="ly-tips">
+        （培训合格，可以考取资格证书，如：工业和信息化部、人力资源和社会保障部<br>
+        中国图学学会等部门颁发的BIM等级证书。）
+    </div>
+    <ul class="bdly-list clearfix">
+        <li>
+            <i class="icons bg-icon4"></i>
+            <b>0元入学</b>
+            先学习后付款<br>
+            解决学费紧张问题
+        </li>
+        <li>
+            <i class="icons bg-icon6"></i>
+            <b>免费试听</b>
+            免费试听课程<br>
+            满意之后再报名
+        </li>
+        <li>
+            <i class="icons bg-icon3"></i>
+            <b>推荐就业</b>
+            与<span>新美控股集团合作</span>，优秀<br>
+            学员直接就业，学员就业无压力
+        </li>
+        <li>
+            <i class="icons bg-icon7"></i>
+            <b>项目实训</b>
+            理论+实践<br>
+            学到真真正正<span>BIM</span>技术
+        </li>
+        <li>
+            <i class="icons bg-icon1"></i>
+            <b>免费重修</b>
+            两年内<span>免费重修</span><br>
+            享课程更新迭代
+        </li>
+        <li>
+            <i class="icons bg-icon2"></i>
+            <b>8大校区</b>
+            深圳8大校区<br>
+            地铁站旁，任你选择
+        </li>
+    </ul>
+    <a class="rz-btn" onclick="mantis.requestChat()">申请免费试听</a>
+
+</div>
+
+<div class="ly-title"><span>精品课程</span></div>
+<div class="table-content">
+    <table>
+        <tbody>
+        <tr  >
+            <td class="bg-red" rowspan="30">
+                <b>BIM</b>建筑<br>专业
+            </td>
+            <td style="text-align: center" rowspan="3">
+                BIM简介及Revit基础操作
+            </td>
+            <td>
+                Revit系列软件介绍——Revit的基本术语
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                Revit系列软件基本操作界面介绍——常规编辑命令
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                Revit系列软件常规设置
+            </td>
+        </tr>
+        <tr >
+            <td style="text-align: center" rowspan="2">
+                项目定位
+            </td>
+            <td>
+                轴网与标高
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                CAD处理及链接导入
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center" rowspan="9">
+                Revit建筑构件的创建
+            </td>
+            <td>
+                砌体墙——墙体属性、面层、墙体编辑、基本墙、层叠墙
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                幕墙——幕墙系统、网格、竖挺、嵌板
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                门窗——创建类型、修改尺寸、门窗放置、整体编辑
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                楼板——面层属性、楼板边缘、升降板、预留孔洞、斜楼板、修改子图元
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                屋顶——拉伸屋顶、迹线屋顶、面屋顶、玻璃雨棚
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                楼梯、扶手、坡道及特殊构件及其它零星构件等
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                场地——地形表面、建筑地坪、地形子面域（道路）、场地构件
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                场地设置、链接CAD文件、建筑红线、链接模型
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                日照分析
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center" rowspan="2">
+                出图与工程量
+            </td>
+            <td>
+                尺寸标注与注释、标记
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                放置房间、面积、户型设计与组合、标准层设计
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center" rowspan="3">
+                出图与明细表
+            </td>
+            <td>
+                明细表——房间明细表、门窗明细表、提取工程量、提取材质、图纸列表、房间和面积统计
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                创建图纸——立面图处理、剖面图制作、节点详图制作、家具布置、图框及标题栏制作、布图及打印
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                可视化——创建相机、渲染、漫游动画
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center" rowspan="7">
+                自定义族及高级命令
+            </td>
+            <td>
+                内建模型——拉伸、融合、旋转、放样、放样融合
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                自定义族、视图标题、窗族、门族(嵌套族、条件语句)、轮廓族、体量、创建体量族
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                三维标高、三维工作平面、三维控件
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                创建形状（拉伸、旋转、放样、放样融合）、修改形状（向形状中添加图元，向形状中添加轮廓）、尺寸标注，添加参数
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                有理化处理表面(UV网格，交点网格，面管理器）、 体量载入到项目的应用、创建自适应族
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                幕墙填充图案族
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                公制自适应常规模型族（参照点，参照线，三维参照平面）
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center" rowspan="4">
+                Revit工作流-协同设计
+            </td>
+            <td>
+                链接模型-- 链接模型定位、坐标修正（发布共享坐标）
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                创建工作集--创建中心文件、创建本地文件、工作集注意事项、工作集借用权限
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                同步中心文件、 分离中心文件
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                设计选项
+            </td>
+        </tr>
+
+
+
+
+        <tr  >
+            <td class="bg-red" rowspan="8">
+                <b>BIM</b>结构<br>专业
+            </td>
+            <td style="text-align: center" rowspan="8">
+                结构构件创建
+            </td>
+            <td>
+                桩、基础——桩承台、独立基础、条形基础、自建基础族
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                结构柱——斜柱、支撑、自建柱族
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                剪力墙——剪力墙留洞
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                梁——斜梁、变截面梁、梁系统、自建梁族、预留孔洞
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                结构楼板——楼板边缘、升降板、预留孔洞、斜楼板、修改子图元
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                楼梯、坡道
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                桁架——桁架样式
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                实体钢筋——钢筋的认识、钢筋、钢筋网
+            </td>
+        </tr>
+
+        <tr  >
+            <td class="bg-red" rowspan="6">
+                <b>BIM</b>室内<br>专业
+            </td>
+            <td style="text-align: center" rowspan="6">
+                室内装饰
+            </td>
+            <td>
+                地面装饰面层及材质调整、地面装饰分割
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                墙面装饰、墙裙踢脚
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                天花制作、材质调整
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                龙骨族制作以及放置、吊杆族制作以及放置
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                家具族、灯具族等
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                幕墙及幕墙系统
+            </td>
+        </tr>
+
+
+
+        <tr  >
+            <td class="bg-red" rowspan="17">
+                <b>BIM</b>机电<br>专业
+            </td>
+            <td style="text-align: center" rowspan="11">
+                机电管线创建
+            </td>
+            <td>
+                风管创建、创建风管系统、风管布置、风管附件及保温层
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                设置工作平面、风管末端
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                机械设备（暖通）
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                创建管道、创建管道系统、管道布置
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                管道附件和保温层、设置工作平面
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                卫浴装置、放置喷头
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                机械设备（给排水）
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                系统检查
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                创建电缆桥架、电缆桥架布置、线管布置、导线布置（按系统生成）、 导线布置（手动绘制）
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                设置工作平面、电气设备
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                系统分割
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center" rowspan="3">
+                管线布置
+            </td>
+            <td>
+                基本识图
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                不同区域管线排布方案确定、管线避让原则、管线优化比选方案
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                共用支架、调整优化、管线综合
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td style="text-align: center" rowspan="3">
+                MEP族
+            </td>
+            <td>
+                族的基本功介绍、族常用命令
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                常用公式与条件语句
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                MEP族连接件、 族制作
+            </td>
+        </tr>
+
+
+
+        <tr  >
+            <td class="bg-red" rowspan="14">
+                漫游渲染
+            </td>
+            <td style="text-align: center" rowspan="8">
+                Autodesk
+                Navisworks
+                Mange
+            </td>
+            <td>
+                Autodesk Navisworks Mange的基本操作--初识Navisworks、开启文件、文件读取器
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                视图浏览--显示控制、控制视点、浏览视图、保存视点
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                图元--图元的选择、图元的控制、图元的属性
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                管理选择集--保存选择集、使用搜索集、与Autodesk Revit联用
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                冲突检测与审阅--冲突检测、测量和审阅
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                渲染表现
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                场景动画--图元动画、剖面动画、相机动画
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                施工模拟
+            </td>
+        </tr>
+
+
+        <tr>
+            <td style="text-align: center" rowspan="6">
+                Lumion 4.5
+            </td>
+            <td>
+                界面功能介绍
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                天气功能--太阳、云层
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                场景地面设置--水、海洋、草地、地形
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                模型导入&模型材质编辑--导入格式与方法、材质库介绍、编辑材质
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                场景模型库
+            </td>
+        </tr>
+        <tr >
+
+            <td>
+                动画&特效制作--动画制作方法、特效合成、文件输出
+            </td>
+        </tr>
+
+        <tr>
+            <td class="bg-red">
+                <b>BIM</b>项目<br>实训
+            </td>
+            <td style="text-align: center">
+            </td>
+            <td>
+                利用实际项目进行综合实训，并对学生的成果进行分析，积累学员的项目经验
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+<div class="mfstkc">
+    <form class="form1-form">
+        <input placeholder="输入您的姓名">
+        <input placeholder="输入您的电话号码">
+        <a class="form1-btn">申请试听</a>
+    </form>
+</div>
+<div class="qjkg-title"><b>核心BIM师资团队</b>实战全程授课<br>保障学习效果</div>
+<div class="js">
+    <img src="images/js1.jpg">
+    <img src="images/js2.jpg">
+    <img src="images/js3.jpg">
+    <img src="images/js4.jpg">
+</div>
+
+<a class="rz-btn" onclick="mantis.requestChat()">与名师交流</a>
+
+<div class="xxcg">
+    <div class="qjkg-title">满足实际项目运用的<b>BIM学习成果</b></div>
+    <div class="js">
+        <img src="images/xxcg.jpg">
+    </div>
+    <a class="rz-btn" onclick="mantis.requestChat()">查看更多学员作品</a>
+</div>
+
+<div class="hj">
+    <div class="qjkg-title">一流的<b>教学环境</b>，舒适的教学体验</div>
+    <div class="js">
+        <img src="images/hj.jpg">
+    </div>
+    <a class="rz-btn" onclick="mantis.requestChat()">预约实地体验</a>
+</div>
+
+
+
+<!--右侧悬浮开始-->
+<div class="right-suspension">
+    <a class="rightserve" onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/10.gif" width="40"></a>
+    <a class="rightserve" onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/11.gif" width="40"></a>
+    <a class="rightserve" onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/12.gif" width="40"></a>
+    <a class="rightserve" onclick="mantis.requestChat()"><img src="http://m.gdzp.org/mobile/images/design/13.gif" width="40"></a>
+    <a class="rightserve"  id="backTop"><img src="http://m.gdzp.org/mobile/images/design/14.gif" width="40"></a>
+    <a class="rightserve2" onclick="hideright()"><img src="http://m.gdzp.org/mobile/images/design/15.gif" width="40"></a>
+</div>
+
+<!--右侧悬浮结束-->
+
+
+<!--底部开始-->
+
+<div class="yssj-footer">
+    <div class="jssj-footer-content clearfix">
+        <ul class="clearfix">
+            <li><a onclick="mantis.requestChat()">关于我们</a></li>
+            <li><a onclick="mantis.requestChat()">联系我们</a></li>
+            <li><a onclick="mantis.requestChat()">企业文化</a></li>
+            <li><a onclick="mantis.requestChat()">加入我们</a></li>
+        </ul>
+
+        <div class="footer-right">
+            <a href="tel:400-930-6618"> 联系号码  400-930-6618</a>
+            <a href="tel:83369766"> 投诉电话  0755-83369766</a>
+        </div>
+    </div>
+    Copyright © 2008-2018   深圳市中鹏教育科技股份有限公司<br>
+    ALL RIGHT RESERVED 备案号:粤ICP备09069122号-6
+</div>
+<!--底部结束-->
+<script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5c00fe9b0275ff3fe4387ed5"></script></body>
+
+</body>
+</html>

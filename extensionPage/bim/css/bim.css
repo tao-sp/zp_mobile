@@ -445,40 +445,7 @@ li{
     font-size: 14px;
     margin: 0 12px;
 }
-.icons{
-    display: block;
-    margin: auto;
-    position: absolute;
-    left:0;
-    right:0;
-    top:-78px;
-    width: 100px; height: 100px;
-    background-image: url("../images/icons.png");
-}
-.bg-icon8 {
-    background-position:  -0 -0;
-}
-.bg-icon1 {
-    background-position:  -100px -0;
-}
-.bg-icon2 {
-    background-position:  -0 -100px;
-}
-.bg-icon5 {
-    background-position:  -100px -100px;
-}
-.bg-icon7 {
-    background-position:  -200px -0;
-}
-.bg-icon3 {
-    background-position:  -200px -100px;
-}
-.bg-icon4 {
-    background-position:  -0 -200px;
-}
-.bg-icon6 {
-    background-position:  -100px -200px;
-}
+
 .banner{
     width:100%;
     background: #274054;
@@ -605,16 +572,7 @@ li{
 .njc .ssm-title{
     padding-top:0 ;
 }
-.njc-content{
-    padding-left: 610px;
-    width:590px;
-    min-height:395px ;
-    line-height:30px;
-    color: #333333;
-    margin-bottom: 75px;
-    background: url("../images/njc1.png") no-repeat;
 
-}
 .njc-content img{
     display: block;
     margin:20px auto;
@@ -634,12 +592,7 @@ li{
 .njc-content ul li:nth-child(2){
     width:280px;
 }
-.bdly{
-    padding-top: 30px;
-    width:100%;
-    height:1081px;
-    background: url("../images/ly.png") center center no-repeat;
-}
+
 .bdly .ssm-title{
     color: #ffffff;
 }
@@ -676,16 +629,7 @@ li{
     -webkit-box-shadow:0px 0px 20px rgba(0,0,0,0.3);
     box-shadow:0px 0px 20px rgba(0,0,0,0.3);
 }
-.form1:before{
-    content: ' ';
-    display: block;
-    width:343px;
-    height:239px;
-    background: url("../images/formbg1.png") no-repeat;
-    position: absolute;
-    left:10px;
-    top:-120px;
-}
+
 .form1-form{
     position: relative;
 }
@@ -736,7 +680,9 @@ li{
     line-height:62px;
 }
 .xyzp{
-    margin-top: 20px;
+    background: #f5f5f5;
+    margin-top: 80px;
+    padding-bottom: 80px;
 }
 .xyzp img{
     display: block;
@@ -745,12 +691,7 @@ li{
 .xyzp .fzqj-content-btn{
     margin: auto;
 }
-.xyzp-bottom{
-    margin-top: -100px;
-    height:477px;
-    width:100%;
-    background: url("../images/xyzpbottom.png") center center no-repeat;
-}
+
 .xmsx{
     padding-top: 70px;
 }
@@ -789,7 +730,7 @@ li{
 }
 .bg-red{
     background: #1a4e79 !important;
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 24px;
     width:120px;
     text-align: center;
@@ -811,16 +752,7 @@ li{
 
 }
 
-.mfty-img{
-    width:100%;
-    height:720px;
-    background: url("../images/mfty.png") center center no-repeat;
-}
-.form2{
-    width:100%;
-    height:309px;
-    background: url("../images/formbg2.png") center center no-repeat;
-}
+
 .form2-title{
     padding-top: 40px;
     font-weight: bold;
@@ -893,31 +825,7 @@ li{
     height:270px;
 
 }
-.icon-js{
-    display: block;
-    margin:0 auto 20px;
-    width: 162px; height: 162px;
-    background-image: url("../images/icon-js.png");
-}
-.bg-js2 {
 
-    background-position: -0 -0;
-}
-.bg-js3 {
-    background-position: -162px -0;
-}
-.bg-js4 {
-    background-position: -0 -162px;
-}
-.bg-js5 {
-    background-position: -162px -162px;
-}
-.bg-js6 {
-    background-position: -324px -0;
-}
-.bg-js1 {
-    background-position: -324px -162px;
-}
 .js .zx-btn{
     margin: 60px auto 40px;
 }
@@ -939,6 +847,7 @@ li{
     height:445px;
 }
 .sjs-img .sjs-info{
+    border-top-right-radius: 65px;
     color: #ffffff;
     position: absolute;
     top:380px;
@@ -953,6 +862,7 @@ li{
     transition: all 0.5s;
 }
 .sjs-img:hover .sjs-info{
+    border-top-right-radius: 0;
     top:0;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -969,6 +879,7 @@ li{
     transition: all 0.5s;
 }
 .sjs-img .sjs-info .title{
+    border-top-right-radius: 65px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -991,7 +902,10 @@ li{
     margin-top: 18px;
     line-height: 30px;
     font-size: 18px;
-    padding: 0 45px;
+    padding: 0 40px;
+}
+.sjs-img .sjs-info .info b{
+    color: #f34041;
 }
 .sjs .swiper-button-prev,.sjs .swiper-container-rtl .swiper-button-next {
     background-image:url("../images/left.png");
@@ -1036,36 +950,7 @@ li{
     font-weight: bold;
     text-align: center;
 }
-.icon-js{
-    display: block;
-    margin:15px auto 0;
-    background-image: url("../images/icon-js.png");
-}
-.bg-js1 {
-    width: 116px; height: 115px;
-    background-position: -0 -0;
-}
-.bg-js2 {
-    width: 113px; height: 113px;
-    background-position: -0 -115px;
-}
-.bg-js3 {
-    width: 114px; height: 114px;
-    background-position: -116px -0;
-}
-.bg-js4 {
-    width: 112px; height: 112px;
-    background-position: -230px -112px;
-}
-.bg-js5 {
-    width: 113px; height: 112px;
-    background-position: -113px -115px;
-}
-.bg-js6 {
-    width: 113px; height: 112px;
-    background-position: -230px -0;
-}
-.js-slide{
+ .js-slide{
     z-index: 7;
     position: absolute;
     left:40px;
@@ -1145,15 +1030,7 @@ li{
 .szll-info-list li:first-child{
     display: block;
 }
-.js-bg{
-    width:100%;
-    background: url("../images/js-bg.png") center 100px no-repeat;
-}
-.form3{
-    width:100%;
-    height: 538px;
-    background: url("../images/formbg.png") center center no-repeat;
-}
+
 .form3-form{
     padding-top: 40px;
 }
