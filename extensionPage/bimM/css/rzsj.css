@@ -591,12 +591,18 @@ a {
 
 .js img {
   display: block;
+  width: 14.9546666667rem;
   margin: 0.8106666667rem auto; }
 
 .xxcg {
   background-color: #f5f5f5;
   padding: 1.0666666667rem 0;
   margin-top: 1.7066666667rem; }
+
+.xxcg img {
+  display: block;
+  width: 16rem;
+  margin: 0.8106666667rem auto; }
 
 .hj {
   margin: 1.0666666667rem auto; }
