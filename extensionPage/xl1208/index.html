@@ -183,7 +183,7 @@
 </div>
 <script>
     $(function () {
-        $(".bottom-list li").click(function () {
+        $(".bottom-list li").on('click',function () {
             $(this).addClass("on").siblings().removeClass("on");
         })
     })

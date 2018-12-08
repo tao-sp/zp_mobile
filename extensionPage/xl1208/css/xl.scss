@@ -31,6 +31,7 @@ a{
   font-family: "Microsoft YaHei";
 }
 .header{
+  z-index: 9999;
   position: fixed;
   top:0;
   left:0;
@@ -51,6 +52,7 @@ a{
   width:px2rem(750);
 }
 .bottom{
+  z-index: 9999;
   position: fixed;
   width:px2rem(750);
   height:px2rem(100);
@@ -167,7 +169,7 @@ a{
 .form3{
   width:px2rem(750);
   background: #4b8ddd;
-  padding: px2rem(20) 0;
+  padding: px2rem(40) 0;
 }
 .form3 .form-defult  a{
   background: #fff100;
@@ -237,7 +239,7 @@ a{
 .bkfy-title{
   width:px2rem(500);
   background: url("../images/bkfy.png") 0 0 /px2rem(428) px2rem(148) no-repeat;
-  margin: auto;
+  margin:px2rem(30) auto;
   height:px2rem(148);
 }
 .bkfy-list li{

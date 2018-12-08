@@ -30,6 +30,7 @@ a {
   font-family: "Microsoft YaHei"; }
 
 .header {
+  z-index: 9999;
   position: fixed;
   top: 0;
   left: 0;
@@ -50,6 +51,7 @@ a {
   width: 16rem; }
 
 .bottom {
+  z-index: 9999;
   position: fixed;
   width: 16rem;
   height: 2.1333333333rem;
@@ -166,7 +168,7 @@ a {
 .form3 {
   width: 16rem;
   background: #4b8ddd;
-  padding: 0.4266666667rem 0; }
+  padding: 0.8533333333rem 0; }
 
 .form3 .form-defult a {
   background: #fff100;
@@ -236,7 +238,7 @@ a {
 .bkfy-title {
   width: 10.6666666667rem;
   background: url("../images/bkfy.png") 0 0/9.1306666667rem 3.1573333333rem no-repeat;
-  margin: auto;
+  margin: 0.64rem auto;
   height: 3.1573333333rem; }
 
 .bkfy-list li {
