@@ -91,7 +91,7 @@ a {
   background-position: 0 -0.896rem; }
 
 .bottom-list li.on .icon-file {
-  background-position: 0 0; }
+  background-position: 0 bottom; }
 
 .icon-chat {
   background-position: 0 -2.688rem; }
@@ -103,7 +103,7 @@ a {
   background-position: 0 -3.584rem; }
 
 .bottom-list li.on .icon-grant {
-  background-position: 0 bottom; }
+  background-position: 0 0; }
 
 .footer {
   width: 16rem;

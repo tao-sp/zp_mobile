@@ -92,7 +92,8 @@ a{
   background-position: 0 px2rem(-42);
 }
 .bottom-list li.on .icon-file{
-  background-position: 0 0;
+
+  background-position: 0 bottom;
 }
 .icon-chat{
   background-position: 0 px2rem(-126);
@@ -104,7 +105,7 @@ a{
   background-position: 0 px2rem(-168);
 }
 .bottom-list li.on .icon-grant{
-  background-position: 0 bottom;
+  background-position: 0 0;
 }
 .footer{
   width:px2rem(750);
