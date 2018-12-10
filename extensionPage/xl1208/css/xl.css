@@ -348,4 +348,98 @@ a {
   border-bottom-left-radius: 0.96rem;
   background: #ea68a2 url("../images/list-icon-1.png") center/1.856rem 2.3253333333rem no-repeat; }
 
+.xsm-fixed {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5); }
+
+.xsm {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 16rem;
+  padding-top: 4.992rem; }
+
+.xsm1 {
+  background: url("../images/xm-1.png") 0 0/16rem 4.992rem no-repeat; }
+
+.xsm2 {
+  background: url("../images/xm-2.png") 0 0/16rem 4.992rem no-repeat; }
+
+.xsm-content {
+  width: 16rem;
+  height: 8.96rem; }
+
+.xsm1 .xsm-content {
+  background: #ef2d60; }
+
+.xsm2 .xsm-content {
+  background: #4b8ddd; }
+
+.xsm-form {
+  width: 14.1013333333rem;
+  margin: auto;
+  height: 8.96rem;
+  background: #ffffff; }
+
+.zxj-title {
+  display: none;
+  position: relative;
+  bottom: 0.4266666667rem;
+  font-size: 1.024rem;
+  color: #4b8ddd;
+  text-align: center; }
+
+.zxj-title > span {
+  display: block;
+  font-size: 0.512rem; }
+
+.zxj-title > span > span {
+  color: #ef2d60; }
+
+.xsm-input {
+  width: 9.4506666667rem;
+  height: 1.4506666667rem;
+  display: block;
+  margin: 0.4266666667rem auto;
+  padding-left: 0.4266666667rem;
+  border-radius: 0.1706666667rem;
+  border: 1px solid #4b8ddd;
+  box-sizing: border-box;
+  font-size: 0.4693333333rem; }
+
+.xsm-btn {
+  width: 9.8773333333rem;
+  height: 1.4506666667rem;
+  line-height: 1.4506666667rem;
+  border-radius: 0.1706666667rem;
+  color: #4b8ddd;
+  background: #fff100;
+  font-size: 0.64rem;
+  text-align: center;
+  display: block;
+  margin: auto; }
+
+.xsm-btn:active {
+  line-height: 1.4933333333rem;
+  box-shadow: 0 0 0.32rem rgba(0, 0, 0, 0.3) inset; }
+
+.xsm-close {
+  position: absolute;
+  right: 0.4266666667rem;
+  top: 0.4266666667rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/close.png") 0 0/0.64rem 0.64rem no-repeat; }
+
+.zxj-title.zxj-title2 {
+  color: #ef2d60; }
+
 /*# sourceMappingURL=xl.css.map */

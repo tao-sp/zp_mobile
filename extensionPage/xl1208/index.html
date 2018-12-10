@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>自考</title>
+    <title>广东省成人学历中心</title>
     <meta charset = "utf-8">
     <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
     <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
@@ -27,7 +27,8 @@
     <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
     <link rel="stylesheet" href="css/xl.css">
     <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
-    <script src="http://www.gdzp.org/html/common/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+
 
 </head>
 <body class="font_yahei">
@@ -63,8 +64,8 @@
         <input class="rdo" type="radio" name="kz" id="kz4" value="辅导教学"><label for="kz4">辅导教学</label>
         <div class="form-defult form1-margin">
             <label>手机号</label>
-            <input placeholder="请输入您的手机号码，了解提升方案">
-            <a>免费获取提升方案</a>
+            <input placeholder="将用于接收方案结果，请准确填写">
+            <a>提交获取测试结果</a>
         </div>
     </form>
 </div>
@@ -110,8 +111,8 @@
 <div class="form2">
     <form class="form-defult">
         <label>手机号</label>
-        <input placeholder="请输入您的手机号码，了解提升方案">
-        <a>免费获取提升方案</a>
+        <input placeholder="请输入您的手机号码">
+        <a>免费查询报考费用</a>
     </form>
 </div>
 <div class="tsxl-title"></div>
@@ -175,21 +176,37 @@
     粤ICP备 09069122号-3
 </div>
 
+<!--领资料表单-->
+<div class="xsm-fixed">
+    <div class="xsm">
+        <div class="xsm-close" onclick="xsmClose()"></div>
+        <div class="xsm-content">
+            <form class="xsm-form">
+                <div class="zxj-title zxj-title1">
+                    2018圆梦计划
+                    <span>报考学员可领取   <span>1000元</span>助学金</span>
+                </div>
+                <div class="zxj-title zxj-title2">
+                    自考宝典
+                    <span>报名条件解读  专业自考学费  热门院校及专业</span>
+                </div>
+                <input class="xsm-input" placeholder="请输入您的手机号码">
+                <a class="xsm-btn">登陆领取</a>
+            </form>
+
+        </div>
+    </div>
+</div>
+<!--领资料表单-->
+
 <div class="bottom">
     <ul class="bottom-list clearfix">
-        <li><i class="icon-bottom icon-file"></i>领资料</li>
-        <li><i class="icon-bottom icon-chat" onclick="mantis.requestChat()"></i>在线咨询</li>
-        <li><i class="icon-bottom icon-grant"></i>领取助学金</li>
+        <li onclick="xsmOpen(2)"><i class="icon-bottom icon-file" ></i>领资料</li>
+        <li onclick="xsmClose()"><i class="icon-bottom icon-chat" onclick="mantis.requestChat()"></i>在线咨询</li>
+        <li onclick="xsmOpen(1)"><i class="icon-bottom icon-grant" ></i>领取助学金</li>
     </ul>
 </div>
-<script>
-    $(function () {
-        $(".bottom-list li").on('click',function () {
-            alert(12)
-            $(this).addClass("on").siblings().removeClass("on");
-        })
-    })
-</script>
+<script src="js/xl.js"></script>
 <script src="http://talk2.bjmantis.net/chat/js/dist/mantis.min.js?7060#5be3e0dbad3e46191fd65f38"></script>
 </body>
 </html>
