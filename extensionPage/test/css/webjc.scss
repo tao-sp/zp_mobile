@@ -500,3 +500,51 @@ a{
   position: relative;
   font-size: px2rem(30);
 }
+.s12{
+  width: px2rem(750);
+  height:px2rem(461);
+  padding-top: px2rem(600);
+  background:#9537fb url("http://www.gdzp.org/html/common/images/s121m.png") 0 0 /px2rem(750) px2rem(1061) no-repeat;
+}
+.s12-input{
+  border-radius: px2rem(8);
+  margin:px2rem(20) auto;
+  width:px2rem(565);
+  height:px2rem(100);
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #8d298b;
+}
+.s12-input label{
+  width:px2rem(137);
+  height:px2rem(100);
+  line-height:px2rem(100);
+  text-align: center;
+  font-size: px2rem(36);
+  position: absolute;
+  left:0;
+  top:0;
+}
+.s12-input input{
+  display: block;
+  width:px2rem(420);
+  border: none;
+  outline:none;
+  height:px2rem(100);
+  line-height:px2rem(100);
+  font-size: px2rem(30);
+  position: absolute;
+  left:px2rem(137);
+  top:0;
+}
+.s12-btn{
+  width:px2rem(565);
+  height:px2rem(100);
+  font-size: px2rem(44);
+  text-align: center;
+  line-height:px2rem(100);
+  display: block;
+  margin: auto;
+  border-radius: px2rem(8);
+  background: #fff000;
+}
