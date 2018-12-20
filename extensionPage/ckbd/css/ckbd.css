@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, form,
+input {
+  margin: 0;
+  padding: 0; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.bg {
+  padding-top: 15.1466666667rem;
+  background: url("../images/bg.png") 0 0/16rem 28.4586666667rem;
+  width: 16rem;
+  height: 13.312rem; }
+
+.bg input {
+  padding-left: 0.6613333333rem;
+  font-size: 0.6826666667rem;
+  width: 11.52rem;
+  height: 2.3466666667rem;
+  background: #ffffff;
+  outline: none;
+  border: none;
+  display: block;
+  margin: 0 auto 0.8106666667rem;
+  border-radius: 0.128rem;
+  box-shadow: 0.0426666667rem 0.0426666667rem 0.256rem rgba(0, 0, 0, 0.6); }
+
+.bg .btn {
+  width: 12.1813333333rem;
+  height: 2.3466666667rem;
+  display: block;
+  margin: auto;
+  box-shadow: 0.0426666667rem 0.0426666667rem 0.256rem rgba(0, 0, 0, 0.6);
+  background: url("../images/btnbg.png") 0 0/12.1813333333rem 2.3466666667rem; }
+
+/*# sourceMappingURL=ckbd.css.map */

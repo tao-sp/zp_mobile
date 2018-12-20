@@ -1,0 +1,235 @@
+body {
+  width: 16rem; }
+
+.lottery-nav {
+  position: relative;
+  width: 16rem;
+  height: 1.9555555556rem;
+  background: url("../images/lotterynav.png") no-repeat;
+  background-size: 16rem 1.9555555556rem; }
+
+.lottery-nav1 {
+  width: 4rem;
+  height: 1.9555555556rem;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.lottery-nav2 {
+  width: 4rem;
+  height: 1.9555555556rem;
+  position: absolute;
+  left: 4rem;
+  top: 0; }
+
+.lottery-nav3 {
+  width: 4rem;
+  height: 1.9555555556rem;
+  position: absolute;
+  left: 8rem;
+  top: 0; }
+
+.lottery-nav4 {
+  width: 3.7777777778rem;
+  height: 1.9555555556rem;
+  position: absolute;
+  left: 12.2222222222rem;
+  top: 0; }
+
+.roll-p {
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #fff; }
+
+.roll-p span:first-child {
+  font-weight: bold; }
+
+.hdjzrq {
+  padding-top: 0.8888888889rem;
+  line-height: 0.7111111111rem;
+  font-size: 0.4444444444rem;
+  color: #bfa7d0;
+  text-align: center; }
+
+.lottery-bottom {
+  position: relative;
+  width: 16rem;
+  height: 85.3111111111rem;
+  background: url("../images/lottery-bottom.png");
+  background-size: 16rem 85.3111111111rem; }
+
+.lottery-bottom-btn1 {
+  width: 2.3333333333rem;
+  height: 2.3333333333rem;
+  border-radius: 16rem;
+  position: absolute;
+  top: 4.8888888889rem;
+  left: 5.4444444444rem; }
+
+.lottery-bottom-btn2 {
+  width: 2.3333333333rem;
+  height: 2.3333333333rem;
+  border-radius: 16rem;
+  position: absolute;
+  top: 4.8888888889rem;
+  left: 13.1777777778rem; }
+
+.lottery-bottom-btn3 {
+  width: 2.3333333333rem;
+  height: 2.3333333333rem;
+  border-radius: 16rem;
+  position: absolute;
+  top: 9.1111111111rem;
+  left: 5.4444444444rem; }
+
+.lottery-bottom-btn4 {
+  width: 2.3333333333rem;
+  height: 2.3333333333rem;
+  border-radius: 16rem;
+  position: absolute;
+  top: 9.1111111111rem;
+  left: 13.1777777778rem; }
+
+.lottery-bottom-btn5 {
+  width: 2.3333333333rem;
+  height: 2.3333333333rem;
+  border-radius: 16rem;
+  position: absolute;
+  top: 13.4222222222rem;
+  left: 5.4444444444rem; }
+
+.lottery-bottom-btn6 {
+  width: 2.3333333333rem;
+  height: 2.3333333333rem;
+  border-radius: 16rem;
+  position: absolute;
+  top: 13.4222222222rem;
+  left: 13.1777777778rem; }
+
+.lottery-bottom-btn7 {
+  width: 8.4444444444rem;
+  height: 1.6rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 37.1555555556rem;
+  left: 3.7777777778rem; }
+
+.lottery-bottom-btn8 {
+  width: 8.4444444444rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 57.3777777778rem;
+  left: 3.7777777778rem; }
+
+.lottery-bottom-btn9 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 74.4888888889rem;
+  left: 0.4888888889rem; }
+
+.lottery-bottom-btn10 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 74.4888888889rem;
+  left: 5.6444444444rem; }
+
+.lottery-bottom-btn11 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 74.4888888889rem;
+  left: 10.8888888889rem; }
+
+.lottery-bottom-btn12 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 76.6rem;
+  left: 0.4888888889rem; }
+
+.lottery-bottom-btn13 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 76.6rem;
+  left: 5.6444444444rem; }
+
+.lottery-bottom-btn14 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 76.6rem;
+  left: 10.8888888889rem; }
+
+.lottery-bottom-btn15 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 78.7111111111rem;
+  left: 0.4888888889rem; }
+
+.lottery-bottom-btn16 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 78.7111111111rem;
+  left: 5.6444444444rem; }
+
+.lottery-bottom-btn17 {
+  width: 4.6666666667rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 78.7111111111rem;
+  left: 10.8888888889rem; }
+
+.lottery-bottom-btn17 {
+  width: 8.4444444444rem;
+  height: 1.5555555556rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 81.4rem;
+  left: 3.7777777778rem; }
+
+.foot-btn {
+  background: #252428;
+  width: 16rem; }
+
+.foot-btn li {
+  border-right: 0.0222222222rem solid #ffffff;
+  text-align: center;
+  float: left;
+  width: 5.3111111111rem; }
+
+.foot-btn li:last-child {
+  border-right: none;
+  width: 5.3333333333rem; }
+
+.foot-btn li a {
+  display: block; }
+
+.foot-btn li a img {
+  width: auto;
+  display: block;
+  margin: auto;
+  height: 1rem;
+  margin-top: 0.2222222222rem; }
+
+.foot-btn li a p {
+  color: #ffffff;
+  font-size: 0.4444444444rem;
+  padding-bottom: 0.2222222222rem; }
+
+/*# sourceMappingURL=xllottery.css.map */
