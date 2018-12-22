@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body {
+  width: 16rem;
+  margin: 0 auto;
+  padding: 0; }
+
+/*默认样式*/
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+.font_yahei {
+  font-family: "Microsoft YaHei"; }
+
+.nmjh {
+  width: 15.5733333333rem;
+  height: 7.8293333333rem;
+  padding-top: 13.2266666667rem;
+  background: url("../images/nmjh.png") 0 0/15.5733333333rem 21.056rem no-repeat;
+  margin: auto; }
+
+.nmjh-input {
+  width: 13.0133333333rem;
+  height: 1.4506666667rem;
+  border-radius: 1.4506666667rem;
+  display: block;
+  margin: 0.64rem auto;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 0.512rem;
+  padding-left: 0.4266666667rem;
+  box-sizing: border-box;
+  background: #eeeeee; }
+
+.nmjh-input::placeholder {
+  color: #999999; }
+
+.nmjh-btn {
+  cursor: pointer;
+  width: 13.0133333333rem;
+  height: 1.4506666667rem;
+  line-height: 1.4506666667rem;
+  border-radius: 1.4506666667rem;
+  display: block;
+  margin: 0.64rem auto;
+  outline: none;
+  border: none;
+  background: #fce859;
+  font-weight: bold;
+  font-size: 0.64rem;
+  text-align: center;
+  box-sizing: border-box;
+  color: #915ffd;
+  -moz-box-shadow: 0.0853333333rem 0.0853333333rem 0 #ffb410;
+  -webkit-box-shadow: 0.0853333333rem 0.0853333333rem 0 #ffb410;
+  box-shadow: 0.0853333333rem 0.0853333333rem 0 #ffb410; }
+
+/*# sourceMappingURL=nmjh.css.map */
