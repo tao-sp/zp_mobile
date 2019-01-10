@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>广东省继续教育考试服务网</title>
+    <meta charset = "utf-8">
+    <!--在 web app 应用下状态条（屏幕顶部条）的颜色；(改变顶部状态条的颜色)-->
+    <!--默认值为 default（白色），可以定为 black（黑色）和 black-translucent（灰色半透明）；-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--http-equiv="Content-Type" 表示描述文档类型-->
+    <!--HTTP-EQUIV类似于HTTP的头部协议，它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容-->
+    <meta http-equiv="Content-Type" content="text/html">
+    <!-- UC默认竖屏 ，UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止收拾，标准排版，以及强制图片显示。-->
+    <!--应用模式-->
+    <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 QQ强制全屏 -->
+    <!--设置屏幕方向-->
+    <meta name="x5-orientation" content="portrait">
+    <!--设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <!--设置屏幕模式-->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <!--<meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>-->
+    <meta name="hotcss" content="design-width=750,max-width=750,initial-dpr=1"/>
+    <link rel="stylesheet" href="css/ks.css">
+    <script type="text/javascript" src="js/hotcss/hotcss.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/validate.js"></script>
+
+
+</head>
+<body class="font_yahei">
+<div class="header-tit" onclick="showReg()">广东省继续教育考试服务网</div>
+<ul class="header-list clearfix">
+    <li class="on" onclick="showReg()">
+        <a>首页</a>
+    </li>
+    <li onclick="showReg()">
+        <a>查询服务</a>
+    </li>
+    <li onclick="showReg()">
+        <a>自考app</a>
+    </li>
+</ul>
+<img onclick="showReg()" src="images/banner.png" class="banner" alt="学历与经验并进 别让文凭拖你晋升的后退">
+<ul class="icon-list clearfix">
+    <li>
+        <i class="icon icon-1" ></i>
+        成绩查询
+    </li>
+    <li>
+        <i class="icon icon-2" ></i>
+        院校介绍
+    </li>
+    <li>
+        <i class="icon icon-3" ></i>
+        自考报考
+    </li>
+    <li>
+        <i class="icon icon-4" ></i>
+        远程教育
+    </li>
+</ul>
+<div class="section-tit">
+    自学考试
+</div>
+<div class="line"></div>
+<img src="images/news1.png" class="news-img">
+<div class="news-tit">考生们注意啦！2018年这些课程将改用新教材</div>
+<div class="news-detail">
+    根据中国教育考试网最新发布的《2018年高等教育自学考试全国统考课程
+    考试大纲》，小编整理出2018年启用新大纲教材的课程（及课程代码）。
+</div>
+<div class="line"></div>
+<ul class="news-list">
+    <li class="clearfix">
+        <img src="images/zbxx.png">
+        <div class="news-list-right">
+            <div class="tit">
+                2019广东自考英语专科开考课程<br>
+                时间表
+            </div>
+            <div class="info">
+                11-16 继续教育考试服务网
+            </div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <img src="images/zbxx.png">
+        <div class="news-list-right">
+            <div class="tit">
+                2019广东自考英语本科开考课程
+               <br>
+                时间表
+            </div>
+            <div class="info">
+                11-16 继续教育考试服务网
+            </div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <img src="images/zbxx.png">
+        <div class="news-list-right">
+            <div class="tit">
+                2019广东自考艺术设计本科开考<br>
+                课程时间表
+            </div>
+            <div class="info">
+                11-16 继续教育考试服务网
+            </div>
+        </div>
+    </li>
+</ul>
+<a class="more">进入自考频道</a>
+<div class="section-tit">
+    成人高考
+</div>
+<div class="line"></div>
+<img src="images/news2.png" class="news-img">
+<div class="news-tit">网上文凭买卖泛滥，花钱拿证成噱头</div>
+<div class="news-detail">
+    “继续教育”是我国终身教育体系的重要组成部分，其中“学历继续教育”
+    也向社会人士提供了除高考之外获得高校文凭的另外一条途径。
+</div>
+<div class="line"></div>
+<ul class="news-list">
+
+    <li class="clearfix">
+        <img src="images/ck1.png">
+        <div class="news-list-right">
+            <div class="tit">
+                [深圳]2018年成人高考顺利结束
+                <br><br>
+            </div>
+            <div class="info">
+                10-29 深圳市招生考试委员会办公
+            </div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <img src="images/ck2.png">
+        <div class="news-list-right">
+            <div class="tit">
+                [广州] 我市2018年成人高考顺利 <br>结束
+            </div>
+            <div class="info">
+                10-29 广州市教育招生考试中心
+            </div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <img src="images/ck3.png">
+        <div class="news-list-right">
+            <div class="tit">
+                [东莞] 2018年成人高考感谢信<br><br>
+            </div>
+            <div class="info">
+                10-29 东莞市教育局
+            </div>
+        </div>
+    </li>
+</ul>
+<a class="more">进入成考频道</a>
+<div class="section-tit">
+    其他考试
+</div>
+<div class="line"></div>
+<ul class="news-list">
+
+    <li class="clearfix">
+        <img src="images/qt1.png">
+        <div class="news-list-right">
+            <div class="tit">
+                [深圳]2018年成人高考顺利结束
+                <br><br>
+            </div>
+            <div class="info">
+              <a class="color-1">非学历证书考试公告</a> 11-15
+            </div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <img src="images/qt2.png">
+        <div class="news-list-right">
+            <div class="tit">
+                [广州] 我市2018年成人高考顺利 <br>结束
+            </div>
+            <div class="info">
+                <a class="color-2">全国英语等级考试资讯</a> 11-13
+            </div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <img src="images/qt3.png">
+        <div class="news-list-right">
+            <div class="tit">
+                [东莞] 2018年成人高考感谢信<br><br>
+            </div>
+            <div class="info">
+               <a class="color-3">公务员考考讯</a> 11-07
+            </div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <img src="images/qt4.png">
+        <div class="news-list-right">
+            <div class="tit">
+                [深圳]全国自学考试线上报名确认<br><br>
+            </div>
+            <div class="info">
+               <a class="color-4">自学考试资讯</a> 11-06
+            </div>
+        </div>
+    </li>
+</ul>
+<a class="more">进入其他考试频道</a>
+<div class="footer">
+
+</div>
+<div class="register" id="register">
+    <div class="register-content">
+        <div class="reg-height">
+            <div class="reg-tit">手机注册</div>
+            <input class="reg-input" placeholder="请输入姓名">
+            <input class="reg-input" placeholder="请输入11位有效手机号">
+            <input class="reg-input password-1" placeholder="请输入密码">
+            <input class="reg-input password-2" placeholder="请输入再次输入密码">
+            <div class="reg-input-content">
+                <input  type="text" value="" placeholder="请输入验证码（不区分大小写）" class="reg-inpu-1 input-val" />
+                <div class="reg-can"><div id="refresh" class="icon-refresh"></div> <canvas id="canvas" ></canvas></div>
+            </div>
+            <a class="reg-btn" id="reg-btn">注册</a>
+            <div class="reg-tips" onclick="showLogin()">
+                已有账号，<span style="color: #ff6672;">直接登陆</span>
+            </div>
+        </div>
+
+        <div class="closetk" onclick="closeTk()"></div>
+
+    </div>
+</div>
+<div class="register" id="login">
+    <div class="register-content">
+        <div class="login-height">
+            <div class="reg-tit">登陆</div>
+            <input class="reg-input" placeholder="请输入姓名">
+            <input class="reg-input" placeholder="请输入手机号">
+            <input class="reg-input" placeholder="请输入密码">
+            <a class="reg-btn">登陆</a>
+            <div class="reg-tips" onclick="showReg()">
+                还没有账号？马上<span style="color: #ff6672;">免费注册</span>
+            </div>
+        </div>
+        <div class="closetk" onclick="closeTk()"></div>
+    </div>
+</div>
+<script>
+
+$(function () {
+    $("#reg-btn").on('click',function(){
+        var val = $(".input-val").val().toLowerCase();
+        var num = show_num.join("");
+        if(val==''){
+            alert('请输入验证码！');
+        }else if(val == num){
+           // alert('提交成功！');
+            if (validatePwd()){
+                alert('提交成功！');
+            }
+            $(".input-val").val('');
+            draw(show_num);
+
+        }else{
+            alert('验证码错误！请重新输入！');
+            $(".input-val").val('');
+            draw(show_num);
+        }
+    })
+    function validatePwd() {
+        if ($(".password-1").val()!=""){
+            if ($(".password-2").val() == $(".password-1").val()){
+                return true
+            }else {
+                alert("两次密码输入不一致！")
+            }
+        }else {
+            alert("请输入密码！")
+        }
+    }
+})
+    function showReg() {
+        $("#register").fadeIn();
+        $("#login").hide();
+        $(".register-content").height($(".reg-height").height())
+    }
+    function showLogin() {
+        $("#register").hide();
+        $("#login").fadeIn();
+        $(".register-content").height($(".login-height").height())
+    }
+    function closeTk() {
+        $("#register").fadeOut();
+        $("#login").fadeOut();
+    }
+</script>
+</body>
+</html>
