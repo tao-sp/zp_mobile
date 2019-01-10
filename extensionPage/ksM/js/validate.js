@@ -35,7 +35,7 @@ function draw(show_num) {
         //文字在canvas上的x坐标
         var y = 20 + Math.random() * 8;
         //文字在canvas上的y坐标
-        context.font = "bold 0.66rem 微软雅黑";
+        context.font = "bold 23px 微软雅黑";
 
         context.translate(x, y);
         context.rotate(deg);
