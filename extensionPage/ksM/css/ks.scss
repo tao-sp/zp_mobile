@@ -236,7 +236,7 @@ a{
 }
 .reg-input-content{
   width:px2rem(600);
-  height:px2rem(50);
+  height:px2rem(70);
   position: relative;
   display: block;
   margin: auto;
@@ -245,7 +245,7 @@ a{
   position: absolute;
   left:0;
   top:0;
-  width:px2rem(400);
+  width:px2rem(300);
   height:px2rem(60);
   border-radius: px2rem(4);
   display: block;
@@ -258,7 +258,7 @@ a{
 }
 .icon-refresh{
   position: absolute;
-  right:px2rem(140);
+  left:0;
   top:0;
   width:px2rem(60);
   height:px2rem(50);
@@ -268,12 +268,14 @@ a{
   position: absolute;
   right:0;
   top:0;
-  width:px2rem(200);
+  width:px2rem(300);
 }
 #canvas{
+  position: absolute;
+  right:0;
   font-size: px2rem(22);
-  width:px2rem(140);
-  height:px2rem(50);
+  width:100px;
+  height:43px;
   margin: auto 0 auto auto;
   display: block;
   border:1px solid #ccc;
