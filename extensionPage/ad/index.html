@@ -333,29 +333,24 @@
     <a class="footer-btn-2"  onclick="ECHAT.customMiniChat()"></a></div>
 <!--底部 结束-->
 
-<!--百度统计 2018-08-22-->
-<script>
-    var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?786bae1e79d31d986891b9ba84538b8f"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script>
-<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=12443377"></script>
-<!--百度统计 2018-08-22-->
 
 
-<!--客服代码-->
-<script type="text/javascript">
-    var _echatServer = ['v.rainbowred.com'];
-    window._echat=window._echat||function(){(_echat.q=_echat.q||[]).push(arguments)};_echat.l=+new Date;
-    _echat('initParam', { companyId: 471});
-    _echat('initParam', { echatTag:'中鹏服装设计'});
-    (function () {
-        var echat = document.createElement('script');
-        echat.type = 'text/javascript';
-        echat.async = true;
-        echat.id = 'echatmodulejs';
-        echat.setAttribute('charset','UTF-8');
-        echat.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'vs.rainbowred.com/visitor/echat.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(echat, s);
-    })();
-</script>
+
+  <script>
+      $(function () {
+          $.ajax({
+              type: "GET",
+              url:"http://127.0.0.1:8080/list",
+              dataType: "jsonp",
+              success: function(data){
+                  console.log(data)
+              },
+              error: function (data) {
+                  console.log(1)
+                  console.log(data)
+              }
+          });
+      })
+  </script>
 </body>
 </html>

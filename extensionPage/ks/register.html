@@ -1,0 +1,168 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8,IE=edge" />
+    <title>会员注册--广东继续教育考试服务网</title>
+    <script src="./js/jquery-1.8.0.min.js" type="text/javascript" ></script>
+    <script src="./js/layui.js" type="text/javascript" ></script>
+    <script src="./js/layer.js" type="text/javascript" ></script>
+    <script src="./js/login.js" type="text/javascript" ></script>
+    <script src="./js/placeholder_ie.js" type="text/javascript" ></script>
+    <link href="./css/layui.css" rel="stylesheet" type="text/css" />
+    <link href="./layer.css" rel="stylesheet" type="text/css">
+    <link href="./css/member.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    　 <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+
+        $(function(){
+            //为手机注册提交按钮绑定事件
+            $("#reg1").click(function(){
+                $("#passwd").blur();
+                $("#imageyzm").blur();
+                $("#mobi").blur();
+                $("#passwd2").blur();
+                $("#msgyzm").blur();
+                var len= 4 ;
+                var zi = $(".icon_ok").length;
+                if(len==zi){
+                    //获取账号，密码，验证码
+                    var mobile=$("#mobi").val();
+                    var password=$("#passwd").val();
+                    var verifyCode=$("#msgyzm").val();
+                     /*在此处写提交表单的方法*/
+                     alert("提交")
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div class="navbar">
+    <div class="container">
+        <div class="logo"><a href="http://www.5184.com" title="广东继续教育考试服务网">广东继续教育考试服务网</a></div>
+        <div class="member_t">会员注册</div>
+        <div class="nologin">已有账号，请<a href="login.html">登录</a></div>
+    </div>
+    <span class="blank5_jun"></span>
+</div>
+
+
+
+
+
+
+<div class="showb">
+    <img src="images/loginbanner.png" alt="" border="0" usemap="#Map"   />
+</div>
+
+<div class="mainbox">
+    <div class="container">
+        <div class="reg" >
+            <div style="width:352px;text-align: center;color: #666;line-height: 60px">为了给你提供更好服务体验，请先注册登录！</div>
+            <div class="header">
+                <div class="switch" id="switch"  >
+                    <a class="switch_btn_focus" id="switch_qreg" href="javascript:void(0);" tabindex="7">手机注册</a>
+                    <div class="switch_bottom" id="switch_bottom" ></div>
+                </div>
+            </div>
+
+            <!--手机注册-->
+            <!--<div class="qreg" id="web_qr_reg" style="display: block;">-->
+            <div class="qreg" id="tel_reg" style="display: block;">
+                <div class="web_reg" >
+                    <form name="form1" id="regTel" accept-charset="utf-8"  action="/registerUserByMobile" method="post">
+                        <ul class="form_box"  >
+                            <!--<div id="userTel" class="cue">快速注册请注意格式1</div>-->
+                            <li>
+                                <!--<label for="userTel"  class="input-tips2">手机号：</label>-->
+                                <div class="inputOuter2">
+                                    <span class="add-on" ><i class="icon-tel"></i></span>
+                                    <input type="tel" id="mobi" name="mobile" maxlength="11" class="inputstyle2 " placeholder="请输入11位有效手机号" autocomplete="on" />
+                                    <span id="userMobi" class="cue" ></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inputOuter2">
+                                    <span class="add-on" ><i class="icon-pwd"></i></span>
+                                    <input type="password" id="passwd"  name="password" maxlength="20" class="inputstyle2" placeholder="请输入密码"/>
+                                    <span id="pwdInfo1" class="cue"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inputOuter2">
+                                    <span class="add-on" ><i class="icon-pwd"></i></span>
+                                    <input type="password" id="passwd2" name="" maxlength="20" class="inputstyle2" placeholder="请再次输入密码"/>
+                                    <span id="pwdInfo2" class="cue"></span>
+                                </div>
+                            </li>
+                            <li  style="height:90px;">
+                                <div class="inputOuter2">
+                                    <span class="add-on" ><i class="icon-yzm"></i></span>
+                                    <input type="text" id="imageyzm" name="imageyzm" maxlength="4" class="inputstyle2 inputstyle1" placeholder="图形验证码"/>
+                                    <canvas id="canvas" width="100" height="43" class="canvas-img"></canvas>
+                                    <span id="yzmInfo" class="cue"></span>
+                                </div>
+                                <div class="refresh_yzm">看不清？<a href="javascript:" onclick="changeimg()">点击图片更换验证码</a></div>
+                            </li>
+                            <li style="height: 20px">
+                                <div class="inputOuter2">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inputArea">
+                                    <input type="button"  id="reg1"  class="btn_class one" value="注册" />
+                                </div>
+                            </li>
+                            <span class="blank5_jun"></span>
+                        </ul>
+                    </form>
+
+                </div>
+            </div>
+            <!--手机注册end-->
+        </div>
+        <div class="jianyi">*推荐使用ie9或以上版本ie浏览器或Chrome内核浏览器访问本站.</div>
+
+
+    </div>
+</div>
+
+
+<script src="./js/footer.js" type="text/javascript" ></script>
+<script src="./js/draw.js" type="text/javascript" ></script>
+<script>
+    var show_num = [];
+    $(function(){
+
+        draw(show_num);
+
+
+
+        $("#canvas").on('click',function(){
+            draw(show_num);
+        })
+    })
+    function changeimg() {
+        draw(show_num);
+    }
+    function yzm() {
+        var val = $("#imageyzm").val().toLowerCase();
+        var num = show_num.join("");
+        if(val == num){
+            $(".input-val").val('');
+            return true
+        }else{
+            $(".input-val").val('');
+            draw(show_num);
+            return false
+        }
+    }
+
+</script>
+
+</body>
+</html>

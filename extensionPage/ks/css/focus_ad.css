@@ -1,0 +1,17 @@
+/*ad*/ 
+* { margin:0;padding:0; }
+img {border:0; }
+ul,ol,li { list-style-type:none;  }
+a.mod_pre,a.mod_next { width:30px; height:30px; position:absolute;bottom:0;opacity:0.1; z-index:99;  color:#fff;font-weight:bold;font-size:25px;line-height:26px;text-align:center; text-decoration:none; }
+a.mod_pre:hover,a.mod_next:hover { background: #333; opacity:0.3;  }
+a.mod_pre { left:75px; }
+a.mod_next { left:276px;  }
+.focus_mod { width:380px; height:260px; overflow:hidden; position:relative;  }
+.focus_mod ul { height:260px; position:absolute;}
+.focus_mod ul li {float:left; width:380px; height:260px; overflow:hidden; position:relative; }
+.focus_mod ul li img { width:380px; height:260px; display:block; }
+.focus_mod .btnBg { position:absolute; width:380px; height:30px; left:0; bottom:0; background:#000; }
+.focus_mod .btn { position:absolute; width:380px; height:10px; padding:5px 10px; right:0; bottom:10px; text-align:center; padding-left:10px; font-size:14px; }
+.focus_mod .btn span { display:inline-block; _display:inline; _zoom:1; width:10px;height:10px;border-radius:50%; _font-size:0; margin-left:15px; cursor:pointer; background:#fff;  }
+.focus_mod .btn span.on { background:#fff; }
+

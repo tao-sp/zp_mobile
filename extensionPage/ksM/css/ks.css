@@ -195,7 +195,7 @@ a {
   bottom: 0;
   margin: auto;
   width: 16rem;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.7);
   position: fixed;
   height: 100%; }
 
@@ -257,7 +257,7 @@ a {
   left: 0;
   top: 0;
   width: 1.28rem;
-  height: 1.0666666667rem;
+  height: 1.28rem;
   background: url("../images/refresh.png") center/0.6826666667rem 0.6826666667rem no-repeat; }
 
 .reg-can {

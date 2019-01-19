@@ -48,19 +48,19 @@
 </ul>
 <img onclick="showReg()" src="images/banner.png" class="banner" alt="学历与经验并进 别让文凭拖你晋升的后退">
 <ul class="icon-list clearfix">
-    <li>
+    <li onclick="showReg()">
         <i class="icon icon-1" ></i>
         成绩查询
     </li>
-    <li>
+    <li onclick="showReg()">
         <i class="icon icon-2" ></i>
         院校介绍
     </li>
-    <li>
+    <li onclick="showReg()">
         <i class="icon icon-3" ></i>
         自考报考
     </li>
-    <li>
+    <li onclick="showReg()">
         <i class="icon icon-4" ></i>
         远程教育
     </li>
@@ -69,14 +69,14 @@
     自学考试
 </div>
 <div class="line"></div>
-<img src="images/news1.png" class="news-img">
-<div class="news-tit">考生们注意啦！2018年这些课程将改用新教材</div>
-<div class="news-detail">
+<img onclick="showReg()" src="images/news1.png" class="news-img">
+<div onclick="showReg()" class="news-tit">考生们注意啦！2018年这些课程将改用新教材</div>
+<div onclick="showReg()" class="news-detail">
     根据中国教育考试网最新发布的《2018年高等教育自学考试全国统考课程
     考试大纲》，小编整理出2018年启用新大纲教材的课程（及课程代码）。
 </div>
 <div class="line"></div>
-<ul class="news-list">
+<ul class="news-list" onclick="showReg()">
     <li class="clearfix">
         <img src="images/zbxx.png">
         <div class="news-list-right">
@@ -115,19 +115,19 @@
         </div>
     </li>
 </ul>
-<a class="more">进入自考频道</a>
+<a class="more" onclick="showReg()">进入自考频道</a>
 <div class="section-tit">
     成人高考
 </div>
 <div class="line"></div>
-<img src="images/news2.png" class="news-img">
-<div class="news-tit">网上文凭买卖泛滥，花钱拿证成噱头</div>
-<div class="news-detail">
+<img onclick="showReg()" src="images/news2.png" class="news-img">
+<div onclick="showReg()" class="news-tit">网上文凭买卖泛滥，花钱拿证成噱头</div>
+<div onclick="showReg()" class="news-detail">
     “继续教育”是我国终身教育体系的重要组成部分，其中“学历继续教育”
     也向社会人士提供了除高考之外获得高校文凭的另外一条途径。
 </div>
 <div class="line"></div>
-<ul class="news-list">
+<ul class="news-list" onclick="showReg()">
 
     <li class="clearfix">
         <img src="images/ck1.png">
@@ -164,12 +164,12 @@
         </div>
     </li>
 </ul>
-<a class="more">进入成考频道</a>
+<a class="more" onclick="showReg()">进入成考频道</a>
 <div class="section-tit">
     其他考试
 </div>
 <div class="line"></div>
-<ul class="news-list">
+<ul class="news-list" onclick="showReg()">
 
     <li class="clearfix">
         <img src="images/qt1.png">
@@ -217,27 +217,28 @@
         </div>
     </li>
 </ul>
-<a class="more">进入其他考试频道</a>
+<a class="more" onclick="showReg()">进入其他考试频道</a>
 <div class="footer">
 
 </div>
 <div class="register" id="register">
     <div class="register-content">
-        <div class="reg-height">
+        <form class="reg-height" id="from_register">
             <div class="reg-tit">手机注册</div>
-            <input class="reg-input" placeholder="请输入姓名">
-            <input class="reg-input" placeholder="请输入11位有效手机号">
+            <input class="reg-input"  name="name" placeholder="请输入姓名">
+            <input class="reg-input"  name="phone" placeholder="请输入11位有效手机号">
             <input class="reg-input password-1" placeholder="请输入密码">
             <input class="reg-input password-2" placeholder="请输入再次输入密码">
             <div class="reg-input-content">
                 <input  type="text" value="" placeholder="请输入验证码" class="reg-inpu-1 input-val" />
                 <div class="reg-can"><div id="refresh" class="icon-refresh"></div>  <canvas id="canvas" width="100" height="43"></canvas></div>
             </div>
+            <input type="hidden" name="web" value="注册">
             <a class="reg-btn" id="reg-btn">注册</a>
             <div class="reg-tips" onclick="showLogin()">
                 已有账号，<span style="color: #ff6672;">直接登陆</span>
             </div>
-        </div>
+        </form>
 
         <div class="closetk" onclick="closeTk()"></div>
 
@@ -245,21 +246,22 @@
 </div>
 <div class="register" id="login">
     <div class="register-content">
-        <div class="login-height">
+        <form class="login-height" id="from_login">
             <div class="reg-tit">登陆</div>
-            <input class="reg-input" placeholder="请输入姓名">
-            <input class="reg-input" placeholder="请输入手机号">
+            <input class="reg-input" name="name" placeholder="请输入姓名">
+            <input class="reg-input"  name="phone" placeholder="请输入手机号">
             <input class="reg-input" placeholder="请输入密码">
-            <a class="reg-btn">登陆</a>
+            <input type="hidden" name="web" value="登陆">
+            <a class="reg-btn" onclick="customerInput('from_login')">登陆</a>
             <div class="reg-tips" onclick="showReg()">
                 还没有账号？马上<span style="color: #ff6672;">免费注册</span>
             </div>
-        </div>
+        </form>
         <div class="closetk" onclick="closeTk()"></div>
     </div>
 </div>
+<script src="http://www.gdzp.org/html/common/forminput.js"></script>
 <script>
-
 $(function () {
     $("#reg-btn").on('click',function(){
         var val = $(".input-val").val().toLowerCase();
@@ -269,7 +271,8 @@ $(function () {
         }else if(val == num){
            // alert('提交成功！');
             if (validatePwd()){
-                alert('提交成功！');
+                 //表单提交事件
+                customerInput('from_register')
             }
             $(".input-val").val('');
             draw(show_num);
@@ -307,5 +310,6 @@ $(function () {
         $("#login").fadeOut();
     }
 </script>
+
 </body>
 </html>

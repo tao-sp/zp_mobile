@@ -548,3 +548,52 @@ a{
   border-radius: px2rem(8);
   background: #fff000;
 }
+.nmjh{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width:px2rem(730);
+  height:px2rem(367);
+  padding-top: px2rem(620);
+  background:  url("http://www.zppx.org/nzjh/nmjh.png") 0 0 /px2rem(730) px2rem(987) no-repeat;
+  margin: auto;
+}
+.nmjh-input{
+  width:px2rem(610);
+  height:px2rem(68);
+  border-radius:px2rem(68);
+  display: block;
+  margin:px2rem(30) auto;
+  outline:none;
+  border: none;
+  color: #000;
+  font-size: px2rem(24);
+  padding-left: px2rem(20);
+  box-sizing: border-box;
+  background:#eeeeee;
+}
+.nmjh-input::placeholder{
+  color: #999999;
+}
+.nmjh-btn{
+  cursor: pointer;
+  width:px2rem(610);
+  height:px2rem(68);
+  line-height:px2rem(68);
+  border-radius:px2rem(68);
+  display: block;
+  margin:px2rem(30) auto;
+  outline:none;
+  border: none;
+  background: #fce859;
+  font-weight: bold;
+  font-size: px2rem(30);
+  text-align: center;
+  box-sizing: border-box;
+  color: #915ffd;
+  -moz-box-shadow:px2rem(4) px2rem(4) 0 #ffb410;
+  -webkit-box-shadow:px2rem(4) px2rem(4) 0 #ffb410;
+  box-shadow:px2rem(4) px2rem(4) 0 #ffb410;
+}

@@ -540,4 +540,53 @@ a {
   border-radius: 0.0853333333rem;
   background: #fff000; }
 
+.nmjh {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 7.7866666667rem;
+  height: 3.9146666667rem;
+  padding-top: 6.6133333333rem;
+  background: url("http://www.zppx.org/nzjh/nmjh.png") 0 0/7.7866666667rem 10.528rem no-repeat;
+  margin: auto; }
+
+.nmjh-input {
+  width: 6.5066666667rem;
+  height: 0.7253333333rem;
+  border-radius: 0.7253333333rem;
+  display: block;
+  margin: 0.32rem auto;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 0.256rem;
+  padding-left: 0.2133333333rem;
+  box-sizing: border-box;
+  background: #eeeeee; }
+
+.nmjh-input::placeholder {
+  color: #999999; }
+
+.nmjh-btn {
+  cursor: pointer;
+  width: 6.5066666667rem;
+  height: 0.7253333333rem;
+  line-height: 0.7253333333rem;
+  border-radius: 0.7253333333rem;
+  display: block;
+  margin: 0.32rem auto;
+  outline: none;
+  border: none;
+  background: #fce859;
+  font-weight: bold;
+  font-size: 0.32rem;
+  text-align: center;
+  box-sizing: border-box;
+  color: #915ffd;
+  -moz-box-shadow: 0.0426666667rem 0.0426666667rem 0 #ffb410;
+  -webkit-box-shadow: 0.0426666667rem 0.0426666667rem 0 #ffb410;
+  box-shadow: 0.0426666667rem 0.0426666667rem 0 #ffb410; }
+
 /*# sourceMappingURL=webjc.css.map */
