@@ -1,0 +1,106 @@
+@charset "utf-8";
+.system .h2{display: inline-block;box-sizing: border-box;}
+.system .p{padding-top: 50px;}
+.system .p .y1{line-height: 30px;font-size: 30px;max-width: 1100px;padding: 10px 0;}
+.system .p .y2{line-height: 30px;font-size: 18px;max-width: 1100px;padding: 10px 0;}
+.system .p .h2{font-size: 44px;width: 1100px;height: 60px;}
+.system .p .w1150{width: 1150px;margin: 0 auto;overflow: hidden;}
+.system .p ul,.system .p .d1,.system .p .n1{overflow: hidden;}
+.slideBox5{width: 100%;position: relative;}
+.slideBox5 .hd{width: 100%;position: absolute;bottom: 10px;text-align: center;z-index: 3;}
+.slideBox5 .hd ul{display: inline-block;}
+.slideBox5 .hd li{float: left;width: 40px;height: 10px;border-radius: 4px;background: #FFFFFF;margin-right: 10px;cursor: pointer;}
+.slideBox5 .hd .on{background: #EC2948;}
+
+.p2{width: 100%;text-align: center;padding-bottom: 120px;}
+.p2 .d1{margin-top: 40px;display: inline-block;}
+.p2 .d1 li{float: left;margin-right: 40px;}
+
+.p3{width: 100%;text-align: center;padding-bottom: 120px;background: url(http://longtu.gdzp.org/System/img/devise/1/6.jpg);background-size:100% 100%;color: #FFFFFF;}
+.p3 .d1{margin-top: 40px;display: inline-block;}
+.p3 .d1 li{float: left;margin-right: 100px;}
+.p3 .d1 li p{font-size: 18px;line-height: 40px;}
+
+.p4{width: 100%;text-align: center;padding-bottom: 120px;background: url(http://longtu.gdzp.org/System/img/devise/1/6.jpg);background-size:100% 100%;color: #333333;}
+.p4 .d1{margin-top: 40px;display: inline-block;}
+.p4 .d1 li{float: left;margin-right: 10px;margin-left: 10px;}
+.p4 .d1 li img{margin-bottom: 10px;}
+.p4 .d1 li p{font-size: 18px;line-height: 25px;}
+
+.p5{width: 100%;text-align: center;padding-bottom: 120px;}
+.p5 .h2,.p5 .y3{position: relative;width: 385px !important;padding-right: 28px;}
+.p5 .d2{font-size: 120px;position: absolute;right: -30px;top: -75px;}
+.p5 .d1{display: inline-block;padding: 60px 0 0 0;}
+.p5 .d1 .d3{float: left;width: 485px;}
+.p5 .d1 dt,.p5 .d1 dd{margin-bottom: 40px;text-align: center;}
+.p5 .d1 .d3 dt{width: 100%;height: 60px;border-radius: 4px;line-height: 60px;font-size: 36px;color: #FFFFFF;background: #EC2948;}
+.p5 .d1 .d3 dd{width: 100%;height: 45px;border-radius: 4px;line-height: 45px;font-size: 18px;color:#000000 ;background: #ebefb1;}
+.p5 .d1 .d5 dt{color: #FFFFFF;background: #8e8e8e;}
+.p5 .d1 .d5 dd{color:#424242 ;background: #e8e8e8;}
+.p5 .d1 .d4{float: left;width: 185px;}
+.p5 .d1 .d4 dt{width: 100%;height: 60px;}
+.p5 .d1 .d4 dt img{margin-top: -60px;}
+.p5 .d1 .d4 dd{width: 100%;height: 45px;font-size: 26px;color: #424242;text-align: center;}
+.p5 .anniu{width: 300px;margin-left: -150px;}
+
+.p6{width: 100%;text-align: center;padding-bottom: 120px;background: #f3f3f3;}
+.p6 .n1{width: 1140px;margin: 0 auto;display: inline-block;padding-top: 40px;}
+.p6 .n1 li{width: 380px;float: left;text-align: center;margin-bottom: 30px;}
+.p6 .n1 li h2{color: #000000;padding: 10px 0;font-size: 24px;}
+.p6 .n1 li p{font-size: 16px;}
+
+.p7{width: 100%;text-align: center;padding-bottom: 60px;background: url(http://longtu.gdzp.org/System/img/devise/1/6.jpg);background-size:100% 100%;color: #FFFFFF;}
+.p7 .d1{margin-top: 40px;display: inline-block;}
+.p7 .d1 li{float: left;margin-right: 100px;}
+.p7 .d1 li p{font-size: 18px;line-height: 40px;}
+.p7 .d2{display: inline-block;margin: 40px 400px 0 400px;padding: 15px 20px;border-radius: 20px;border: 2px dashed #EC2948;font-size: 32px;}
+.p7 .d3{display: inline-block;width: 125px;text-align: center;margin-top: 40px;}
+.p7 .d3 a{width: 100%;height: 30px;line-height: 30px;display: inline-block;background: #EC2948;color: #FFFFFF;text-align: center;border-radius: 4px;font-size: 18px;margin-top: 15px;}
+
+.p8{width: 100%;text-align: center;padding: 0 0 !important;color: #FFFFFF;}
+.p8 li{width: 100%;height: 764px;position: relative;}
+.p8 .l1{background: url(http://longtu.gdzp.org/System/img/devise/1/6.jpg);background-size:100% 100%;}
+.p8 .l2{background: url(http://longtu.gdzp.org/System/img/devise/1/34.jpg);background-size:100% 100%;}
+.p8 .l3{background: url(http://longtu.gdzp.org/System/img/devise/1/35.jpg);background-size:100% 100%;}
+.p8 .l4{background: url(http://longtu.gdzp.org/System/img/devise/1/36.jpg);background-size:100% 100%;}
+.p8 .l5{background: url(http://longtu.gdzp.org/System/img/devise/1/37.jpg);background-size:100% 100%;}
+.p8 li div{width: 580px;text-align: left;padding: 30px 60px;box-sizing: border-box;border-radius: 4px;position: relative;padding-bottom:120px;position: absolute;}
+.p8 li div h3{font-size: 60px;line-height: 60px;}
+.p8 li div h4{font-size: 36px;line-height: 60px;}
+.p8 li div h5{font-size: 28px;line-height: 50px;}
+.p8 li div p{font-size: 18px;text-align: left;line-height: 30px;}
+.p8 .anniu{width: 300px;margin-left: 0px;left: 60px;}
+.p8 .l6{height: 150px;line-height: 100px;background: #27282c;}
+.p8 .l6 .anniu{width: 300px;margin-left: -150px;left: 50%;top: 30px;background: #EC2948;color: #FFFFFF;}
+
+.p9{width: 100%;text-align: center;padding-bottom: 120px;}
+.p9 .n1{width: 1140px;margin: 0 auto;display: inline-block;padding-top: 40px;text-align: center;}
+.p9 .n1 li{width: 326px;text-align: center;margin-bottom: 30px;display: inline-block;margin-right: 60px;}
+.p9 .n1 li h2{color: #000000;padding: 10px 0 5px 0;font-size: 24px;}
+.p9 .n1 li h3{color: #EC2948;font-size: 24px;font-weight: normal;}
+.p9 .anniu{width: 300px;margin-left: -150px;}
+
+.p10{background: #F3F3F3;padding-bottom: 150px;}
+.p10 .w1920{width: 100%;}
+.p10 img{float: left;}
+
+.p11{width: 100%;text-align: center;padding-bottom: 60px;background: #F3F3F3;}
+.p11 .d1{width: 1000px;display: inline-block;margin-top: 40px;}
+.p11 .d1 .d2{float: left;width: 500px;text-align: right;}
+.p11 .d1 .d3{float: left;width: 500px;}
+.p11 .d1 .d2 li{float: left;width: 100px;margin-left: 80px;margin-right:40px;text-align: center;margin-bottom: 70px;} 
+.p11 .d1 .d2 li img{}
+.p11 .d1 .d2 li p{line-height: 50px;font-size: 18px;}
+.p11 .anniu{width: 300px;margin-left: -150px;}
+
+.p12{width: 100%;text-align: center;padding-bottom: 20px;}
+.p12 .n1{margin: 0 auto;display: inline-block;padding-top: 40px;text-align: center;}
+.p12 .n1 li{width: 160px;height:160px;border-radius:80px;text-align: center;margin-bottom: 30px;float:left;margin-right: 60px;padding-top: 50px;box-sizing: border-box;}
+.p12 .n1 li p{font-size: 18px;color: #FFFFFF;}
+.p12 .n1 li .f24{font-size: 24px;}
+
+
+.p13{width: 100%;text-align: center;padding-bottom: 120px;}
+.p13 .n1{width: 1150px;margin: 0 auto;display: inline-block;padding-top: 40px;text-align: center;}
+.p13 .n1 li{width: 185px;text-align: center;margin-bottom: 30px;display: inline-block;}
+.p13 .n1 li h2{font-size: 18px;font-weight: normal;line-height: 40px;}

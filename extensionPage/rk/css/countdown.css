@@ -1,0 +1,60 @@
+.clock {
+    background: url(../images/countdown.jpg) no-repeat center;
+    height: 481px;
+    width: 100%;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 800px;
+    height: 445px;
+    color: #FFF;
+  }
+  .container p{font-family: "microsoft yahei";}
+  .container span{font-family: "microsoft yahei";}
+
+  .left-box {
+    width: 375px;
+    float: left;
+  }
+
+  .right-box {
+    width: 375px;
+    float: right;
+  }
+
+  .left-box p {
+    margin: 185px 0px 0px 55px;
+    font-size: 40px;
+  }
+
+  .left-count {
+    margin: 70px 0px 0px 29px;
+    height: 50px;
+  }
+
+  .left-count span {
+    display: block;
+    margin-left: 30px;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .right-box p {
+    margin: 185px 33px;
+    font-size: 40px;
+  }
+
+  .right-count {
+    margin-top: -115px;
+    margin-left: 29px;
+  }
+
+  .right-count span {
+    display: block;
+    margin-left: 29px;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+  }

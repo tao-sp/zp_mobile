@@ -1,0 +1,264 @@
+@charset "utf-8";
+/*顶部*/
+.body-top{width: 100%;min-width: 1150px;background: #F5F5F5;border-bottom: 1px solid #ddd;}
+.body-tops{width: 1150px;margin: 0 auto;height: 35px;line-height: 35px;}
+.body-tops a{margin:0 5px 0 5px}
+.body-top-left{float: left;}
+.body-top-right{float: right;}
+.body-top-right .phone img{margin-bottom: -3px;}
+.body-top-right .weixin img{margin-bottom: -4px;}
+.body-top-right .weixin{position: relative;}
+.body-top-right .weixin .weixin-lt{width: 0px;height: 0px;position: absolute;left: 50%;margin-left:0px;top:25px;
+-webkit-transition:width 1s,height 1s,margin-left 1s;
+-moz-transition:width 1s,height 1s,margin-left 1s;
+transition:width 1s,height 1s,margin-left 1s;
+}
+.body-top-right .weixin:hover .weixin-lt{width: 112px;height: 112px;margin-left:-56px;}
+
+.header{width: 100%;min-width: 1150px;}
+.header_top{width: 1150px;margin: 0 auto;height: 110px;}
+.header_top .i1{margin: 42px 20px 0 20px;width: 1px;height: 26px;float:left;background: #a6a6a6;}
+
+.header_left{float: left;height: 110px;}
+.logo{float: left;height: 65px;margin: 22.5px 0 0 0;}
+.header_left h1{float: left;line-height: 105px;margin: 0 20px 0 0;}
+.header_left span{float: left;line-height: 105px;}
+.header_left dl{width:80px;float: left;height:30px;line-height: 30px;margin-top: 38px;cursor: pointer;margin-left: 10px;}
+.header_left dl dt{padding: 0 10px;position: relative;}
+.header_left dl .i2{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/icon/icon1.jpg);width: 10px;height: 8px;position: absolute;top:13px;right:0;}
+.header_left dl .dd{max-height: 0px;overflow: hidden;transition: max-height 1s;z-index: 20;position: relative;width: 200%;background: #eeeeee;}
+.header_left dl dd{padding: 0  10px; height:30px;overflow:hidden;width: 50%;box-sizing: border-box;float: left;}
+.header_left dl dd:hover{background: #CCCCCC;}
+.header_left dl:hover .dd{max-height: 210px;}
+
+.header_right{float: right;height: 110px;}
+.header_right .i1{margin:42px 5px 0 5px;}
+.header_right li{float: left;width: 69px;text-align: center;}
+.header_right li i{width: 35px;height: 31px;float: left;margin:22px 0 15px 17px;}
+.header_right li span{width: 100%;float: left;}
+.header_right .nav1 i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav3.png);}
+.header_right .nav1:hover i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav-3.png);}
+.header_right .nav2 i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav4.png);}
+.header_right .nav2:hover i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav-4.png);}
+.header_right .nav3 i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav5.png);}
+.header_right .nav3:hover i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav-5.png);}
+.header_right .nav4 i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav1.png);}
+.header_right .nav4:hover i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav-1.png);}
+.header_right .nav5 i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav2.png);}
+.header_right .nav5:hover i {background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/nav-2.png);}
+.nav-Site{position:relative;}
+.nav-Site dl{float:left;width:120px;padding:20px 10px;text-align:center;}
+.nav-Site:hover span{color:#ec2948;cursor:pointer;}
+.nav-sites{position:absolute;width:560px;max-height:0px;background:rgba(255,255,255,0.9);left:50%;top:25px;z-index:999;overflow:hidden;margin-left:-280px;
+-webkit-transition:max-height 1s;
+-moz-transition:max-height 1s;
+transition:max-height 1s;}
+.nav-Site:hover .nav-sites{
+	max-height:500px;
+}
+.nav-Site span i{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/icon/icon1.jpg);width: 10px;height: 8px;display:inline-block;margin-left:5px;}
+.nav-sites a{color:#000;}
+.nav-sites dt a{color:#ec2948;}
+.nav-sites a:hover{color:#ec2948;}
+/*菜单*/
+.nav{width: 100%;min-width: 1150px;}
+.navs{width:1150px;margin: 0 auto;height: 40px;line-height: 40px;text-align: center;position: relative;}
+.nav_list{height: 40px;position: relative;z-index: 12;}
+.nav_list li{float: left;height: 40px;position: relative;margin-right: 10px;}
+
+.nav_list li div{color: #FFFFFF;padding: 0 20px;font-size: 16px;}
+.nav_list li div i{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/icon1.png);width: 14px;height: 7px;position: absolute;top:18px;right:0px;}
+.nav_list li .navs_list{width:100%;position: absolute;max-height: 0;transition: max-height 1s;overflow: hidden;z-index: 9;}
+.nav_list li .navs_list li{width: 100%;height: 35px;line-height: 35px;background: #EEEEEE;font-size: 14px;color:#666666;}
+.nav_list li .navs_list li:hover{background: #cccccc;color:#EC2948}
+.nav_list li:hover .navs_list{max-height: 600px;}
+.nav_list li:hover .nav_listt div{background:#e02948;}
+/*kctx*/
+#kctx{overflow:visible;}
+.kctx_nav{width:1150px !important;padding:0 !important;float: left;position: absolute;left: -196px;z-index: -1;top:40px;color:#333;overflow: hidden;height: 0px;
+-webkit-transition:height 1s;
+-moz-transition:height 1s;
+transition:height 1s;}
+#kctx:hover:hover .kctx_nav{height: 120px;}
+
+.kctx_nav a{float: left;width: 115px;height: 120px;float: left;overflow: hidden;position: relative;top:-120px;background: rgba(255,255,255,0.8);}
+.kctx_nav a i{position: absolute;width: 21px !important;height: 16px !important;top:10px !important;right: 15px !important;background: url(http://longtu.gdzp.org/Public/Home/style/img/hot1.gif) !important;}
+.kctx_nav a span{width: 53px;float: left;height: 50px;margin:20px 0 10px 31px;}
+.kctx_nav a div{width: 100%;float: left;text-align: center;font-size: 16px;color: #333333;padding: 0 !important;}
+.kctx_nav a:hover div{color: #EC2948;}
+.kctx_nav .kctx_nav1 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/VR.png);}
+.kctx_nav .kctx_nav1:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/VR01.png);}
+.kctx_nav .kctx_nav2 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/ceshi.png);}
+.kctx_nav .kctx_nav2:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/ceshi1.png);}
+.kctx_nav .kctx_nav3 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/u3d.png);}
+.kctx_nav .kctx_nav3:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/u3d01.png);}
+.kctx_nav .kctx_nav4 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/Python1.png);}
+.kctx_nav .kctx_nav4:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/Python2.png);}
+.kctx_nav .kctx_nav5 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/yuanhua.png);}
+.kctx_nav .kctx_nav5:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/yuanhua01.png);}
+.kctx_nav .kctx_nav6 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/dongman1.png);}
+.kctx_nav .kctx_nav6:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/dongman1-1.png);}
+.kctx_nav .kctx_nav7 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/UI.png);}
+.kctx_nav .kctx_nav7:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/UI01.png);}
+.kctx_nav .kctx_nav8 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/android.png);}
+.kctx_nav .kctx_nav8:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/android1.png);}
+.kctx_nav .kctx_nav9 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/ios.png);}
+.kctx_nav .kctx_nav9:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/ios01.png);}
+.kctx_nav .kctx_nav10 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/3D.png);}
+.kctx_nav .kctx_nav10:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/3D01.png);}
+.kctx_nav .kctx_nav11 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/UE4.png);}
+.kctx_nav .kctx_nav11:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/UE41.png);}
+.kctx_nav .kctx_nav12 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/cishidai.png);}
+.kctx_nav .kctx_nav12:hover span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/cishidai1.png);}
+
+.nav_list .nav_list_kctx{width: 230px;background: #e02948;margin-right: 0;}
+.nav_list .nav_list_kctx_xl{width: 230px !important;padding:0 0;height: 500px;background: #E02948;position: absolute;top: 40px;left: 0;background: rgba(0,0,0,0.7);}
+.nav_list .nav_list_kctx_xl a{float: left;width: 100%;height: 45px;position: relative;}
+.nav_list .nav_list_kctx_xl a:hover{background: #ec2948;}
+.nav_list .nav_list_kctx_xl a span{float: left;width: 30px;height: 27px;margin: 9px 10px;}
+.nav_list .nav_list_kctx_xl a div{float: left;width: 165px;height: 45px;padding: 0 0;line-height: 45px;position: relative;}
+.nav_list .nav_list_kctx_xl a i{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/icon1-1.png);width: 7px;height: 14px;position: absolute;top: 15px;right: 5px;}
+.nav_list .nav_list_kctx_xl a div em{
+    /*position: absolute;*/
+   display: inline-block;
+    width: 21px !important;
+    height: 16px !important;
+    margin-left: 5px;
+    /*top: 10px !important;
+    right: 15px !important;*/
+    background: url(http://longtu.gdzp.org/Public/Home/style/img/hot1.gif) !important;
+}
+
+.nav_list .nav_list_kctx_xl .nvkc1 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/vr.png);background-size:100% 100%;}
+.nav_list .nav_list_kctx_xl .nvkc2 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/3d.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc3 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/python.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc4 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/UI.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc5 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/U3D.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc6 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/kctx/ceshi2.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc7 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/dongman.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc8 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/UE4.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc9 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/csd.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc10 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/yuanhua.png);background-size:100%  100%;}
+.nav_list .nav_list_kctx_xl .nvkc11 span{background: url(http://longtu.gdzp.org/Public/Home/style/img/header/nav/1/qbkc.png);background-size:100%  100%;}
+/*菜单*/
+
+/*内容*/
+.content{width: 100%;min-width: 1150px;overflow: hidden;}
+
+
+/*底部*/
+.footer{width: 100%;min-width: 1150px;color:#FFFFFF;padding-bottom: 50px;}
+.footer a{color: #FFFFFF;}
+.footer a:hover{color: #EC2948;}
+.footer_top{width:100%;background: #323232;}
+.footer_top_ft{margin:0 auto;height: 377px;}
+.footer_top_ewm{width: 112px;height: 240px;float: left;}
+.footer_top_ewm .lt{width: 100%;margin-top: 85px;}
+.footer_top_ewm .lt div{height: 20px;line-height: 20px;font-size: 14px;text-align:center;}
+.footer_top_nav{width: 1038px;float: left;margin-top: 65px;height:190px;overflow:hidden;}
+.footer_top_nav dl{float: left;box-sizing: border-box;width: 173px;border-right: 1px solid #666;text-align: center;}
+.footer_top_nav .bnone{border: none;}
+.footer_top_nav dl dt{width: 100%;font-size: 18px;line-height: 50px;}
+.footer_top_nav dl dd{width: 100%;font-size: 14px;line-height: 35px;}
+.footer_top_nav dl dd a{color: #A6A6A6;}
+.footer_bottom_yq{width:100%;float:left;max-height:100px;margin-top:20px;padding:0 20px 0 0;box-sizing:border-box;color:#666;}
+.footer_bottom_yq h1{font-weight:normal;font-size:16px;line-height:30px;}
+.footer_bottom_yq a{font-weight:normal;font-size:14px;color:#666;margin-right:20px;}
+.footer_bottom{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #181818;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+
+}
+.footer_bottom a{color: #666;}
+
+/*底部浮动和右侧浮动*/
+.footer-fd{width:1920px;margin-left: -960px;left:50%;min-width: 1150px;background: url(../images/icon6.jpg);height: 50px;line-height: 50px;position: fixed;bottom: 0;z-index: 1000;}
+.footer-fd-qq{float: right;height: 50px;width: 140px;margin-right: 250px;}
+.footer-fd-zx{float: right;height: 50px;width: 202px;margin-right: 0px;}
+.footer-fd input{float: left;border: none;width: 148px;height: 30px;margin-top: 11px;background: none;box-sizing: border-box;padding: 0 10px;text-align: center;}
+.footer-fd .username{margin: 11px 72px 0 724px;}
+.footer-fd .submit{width: 152px;height: 35px;margin: 8.5px 0 0 37px;cursor:pointer;}
+.footer-text{float:left;width:120px;height:50px;line-height:50px;color:#fff;text-align:center;}
+.right-fd{position: fixed;right: 10px;top:50px;width: 65px;z-index: 1000;border: 1px solid #EC2948;border-top-left-radius: 4px;border-top-right-radius: 4px;overflow: hidden;background: #FFFFFF;box-sizing: border-box;}
+.right-fd .fts,.right-fd .fbs{width: 100%;height: 65px;text-align: center;background: #EC2948;display: inline-block;color: #FFFFFF;}
+.right-fd ul li{width: 100%;height: 65px;text-align: center;border-bottom: 1px solid #DDDDDD;}
+.right-fd i{width:40px;height: 40px;display: inline-block;margin-top: 5px;}
+.right-fd .fts{border-bottom:1px solid #DDDDDD ;}
+.right-fd .fts i{background: url(http://longtu.gdzp.org/Public/Home/style/img/footer/icon1.png);}
+.right-fd .fl1 i{background: url(http://longtu.gdzp.org/Public/Home/style/img/footer/icon2.png) 0 0;}
+.right-fd .fl2 i{background: url(http://longtu.gdzp.org/Public/Home/style/img/footer/icon3.png) 2px 0;}
+.right-fd .fl3 i{background: url(http://longtu.gdzp.org/Public/Home/style/img/footer/icon4.png) 3px 0;}
+.right-fd .fl4 i{background: url(http://longtu.gdzp.org/Public/Home/style/img/footer/icon5.png) 3px 0;}
+.right-fd .fl5 i{background: url(http://longtu.gdzp.org/Public/Home/style/img/footer/icon6.png) 3px 0;}
+.right-fd .fbs i{background: url(http://longtu.gdzp.org/Public/Home/style/img/footer/icon7.png);}
+.right-fd ul li i{background-position: left -9px top 0px; }
+.right-fd ul li:hover{background: #EC2948;color:#FFFFFF;}
+.right-fd ul .fl1:hover i{background-position: left 35px top 40px;}
+.right-fd ul .fl2:hover i{background-position: left 36px top 40px;}
+.right-fd ul .fl3:hover i{background-position: left 36px top 40px;}
+.right-fd ul .fl4:hover i{background-position: left 37px top 40px;}
+.right-fd ul .fl5:hover i{background-position: left 37px top 40px;}
+.right-fd p{line-height: 25px;margin-top: -10px;font-size: 12px;}
+
+
+/*公用*/
+.list{width: 100%;overflow: hidden;}
+.list_x{width:1150px;position: relative;}
+.list_y{position: relative;width:1920px;margin-left: -960px;left:50%;text-align: center;}
+.title{width: 100%;text-align: center;font-size: 32px;color: #333333;font-weight: normal;margin:0px 0 5px 0;padding-top:65px;}
+.fbt{width: 100%;text-align: center;font-size: 24px;color: #999;}
+.xt{width: 478px;height: 10px;margin:20px auto;background: url(http://longtu.gdzp.org/Public/Home/style/img/icon/icon3.png);}
+.g1150{width: 1150px;}
+.center{text-align:center;}
+.w1920{width:1920px;}
+/*了解更多*/
+.more{height: 485px;}
+.more a{color:#333333;}
+.more .list_y{background: #FFFFFF;height: 485px;}
+.mores{height: 210px;margin-top: 15px;display: inline-block;}
+.mores ul{width: 100%;}
+.mores li{float: left;width: 162px;height: 210px;margin-right: 85px;font-size: 16px;letter-spacing: 2px;position: relative;
+}
+.mores .r{margin-right: 0;}
+.mores li div{width: 100%;height: 100%;text-align: center;}
+.mores li .i1{background: #F3F3F3;}
+.mores li .i2{position: absolute;z-index: 1;left: 0;top:0;background: #EC2948;transition: all 1s;-webkit-transition: all 1s;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
+.mores li img{width: 80px;height: 70px;margin-top: 50px;margin-bottom: 20px;}
+.mores li:hover .i2{color: #FFFFFF;filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+
+/*位置*/
+.nav-title{width: 1150px;margin: 0 auto;height: 50px;line-height: 50px;}
+.nav-title div{float: left;}
+.nav-title div i{width: 12px;height: 16px;background: url(http://longtu.gdzp.org/Public/Home/style/img/icon/icon-i1.png);display: inline-block;margin-bottom: -3px;margin-right: 10px;}
+.nav-title div a{color: #EC2948;margin: 0 5px 0 5px;}
+.list-banner{width: 100%;overflow: hidden;}
+.list-banner img{width: 1920px;position: relative;left: 50%;margin-left: -960px;}
+
+.jiazai{width:100%;text-align:center;height:40px;line-height:40px;background:#f8fbfe;border-top:1px solid #ddd;margin-top:20px;cursor:pointer;overflow:hidden;color:#ec2945;font-size:18px;}
+.jiazai img{width:80px;height:80px;position:relative;margin-top:-40px;top:50%;opacity:1;}
+
+/*龙图动态*/
+.news_right{float: right;width:270px;}
+.news_right h1{font-weight: normal;font-size: 20px;color: #000000;line-height: 17px;height: 25px;margin-bottom: 10px;}
+.news_right h1 i{width: 5px;height: 20px;background: #EC2948;float: left;margin:0 10px 0 0;}
+.news_right_kb{width: 100%;} 
+.news_right_kb ul{display: inline-block;border-bottom: 1px solid #DDDDDD;}
+.news_right_kb ul li{margin-bottom: 10px;font-size: 16px;float: left;height: 30px;line-height: 30px;}
+.news_right_kb ul li .banji{float: left;width: 145px;}
+.news_right_kb ul li .time{float: left;width: 70px;}
+.news_right_kb ul li a{float: right;padding: 0px 10px;background: #EC2948;color: #FFFFFF;font-size: 14px;line-height: 20px;margin-top: 5px;}
+.news_right_rm{width: 100%;margin-top: 20px;} 
+.news_right_rm ul{display: inline-block;border-bottom: 1px solid #DDDDDD;}
+.news_right_rm ul li{float: left;width: 120px;height: 131px;overflow: hidden;margin-right: 30px;margin-bottom: 20px;}
+.news_right_rm ul li:nth-child(2n){margin-right: 0;}
+.news_right_rm ul li img{float: left;margin-left: 16.5px;-webkit-transition:all 1s ease-in-out;}
+.news_right_rm ul li img:hover{-webkit-transform:rotate(360deg);-o-transform:rotate(360deg);-mo-transform:rotate(360deg);transform:rotate(360deg);}
+.news_right_rm ul li div{float: left;width: 100%;line-height: 30px;font-size: 16px;text-align: center;}
+.news_right_dt{width: 100%;margin-top: 20px;}
+.news_right_dt ul{width: 100%;display: inline-block;border-bottom: 1px solid #DDDDDD;}
+.news_right_dt ul li{width:100%;font-size: 14px;height: 30px;line-height: 30px;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
